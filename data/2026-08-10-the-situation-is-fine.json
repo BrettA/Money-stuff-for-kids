@@ -1,0 +1,196 @@
+{
+  "id": "2026-08-10-the-situation-is-fine",
+  "date": "2026-08-10",
+  "displayDate": "August 10, 2026",
+  "title": "The Situation Is Fine",
+  "stories": [
+    {
+      "id": "blowup",
+      "sourceSection": "Situational Awareness",
+      "art": "fire",
+      "adaptations": {
+        "preschool": {
+          "title": "The Investor Who Lost Big and Got More Famous",
+          "lesson": "A leveraged AI-focused hedge fund nearly blew up.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Investor Who Lost Big and Got More Famous.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Investor Who Lost Big and Got More Famous",
+          "lesson": "A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
+          "paragraphs": [
+            "Here is the strange money puzzle: A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Investor Who Lost Big and Got More Famous",
+          "lesson": "A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
+          "paragraphs": [
+            "A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Investor Who Lost Big and Got More Famous",
+          "lesson": "A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
+          "paragraphs": [
+            "A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "momentum",
+      "sourceSection": "Intraday momentum",
+      "art": "runner",
+      "adaptations": {
+        "preschool": {
+          "title": "The Price That Kept Running",
+          "lesson": "Momentum means buying things that are already rising because you think they will keep rising.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Price That Kept Running.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Price That Kept Running",
+          "lesson": "Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
+          "paragraphs": [
+            "Here is the strange money puzzle: Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Price That Kept Running",
+          "lesson": "Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
+          "paragraphs": [
+            "Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Price That Kept Running",
+          "lesson": "Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
+          "paragraphs": [
+            "Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ticks",
+      "sourceSection": "Tick sizes",
+      "art": "stairs",
+      "adaptations": {
+        "preschool": {
+          "title": "The Tiny Step That Wasn't So Tiny",
+          "lesson": "Prediction contracts often trade between $0 and $1.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Tiny Step That Wasn't So Tiny.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Tiny Step That Wasn't So Tiny",
+          "lesson": "Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
+          "paragraphs": [
+            "Here is the strange money puzzle: Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Tiny Step That Wasn't So Tiny",
+          "lesson": "Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
+          "paragraphs": [
+            "Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Tiny Step That Wasn't So Tiny",
+          "lesson": "Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
+          "paragraphs": [
+            "Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pe-boyfriends",
+      "sourceSection": "Private equity boyfriends",
+      "art": "bug",
+      "adaptations": {
+        "preschool": {
+          "title": "The Very Exciting Pest-Control Investor",
+          "lesson": "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Very Exciting Pest-Control Investor.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Very Exciting Pest-Control Investor",
+          "lesson": "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
+          "paragraphs": [
+            "Here is the strange money puzzle: Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Very Exciting Pest-Control Investor",
+          "lesson": "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
+          "paragraphs": [
+            "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Very Exciting Pest-Control Investor",
+          "lesson": "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
+          "paragraphs": [
+            "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    }
+  ]
+}

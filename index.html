@@ -1,36 +1,45 @@
-<!doctype html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Money Stuff for Kids</title><link rel="stylesheet" href="/styles.css"></head>
-<body>
-<header><a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
-<div class="agebar" aria-label="Reading age">
-  <span class="age-label">READING AGE</span>
-  <button class="age-pill" disabled>0–2</button>
-  <button class="age-pill active">Kindergarten</button>
-  <button class="age-pill" disabled>Middle School</button>
-  <button class="age-pill" disabled>High School</button>
-</div>
-</header>
-<main>
-<section class="hero">
-<div class="eyebrow">THE WORLD OF MONEY, MADE SIMPLE</div>
-<h1>Big money ideas.<br><em>Little stories.</em></h1>
-<p class="intro">Matt Levine's Money Stuff, retold as funny, educational stories for kids. Right now the site is kindergarten-only; the structure underneath is already ready for more ages.</p>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Money Stuff for Kids</title><link rel="stylesheet" href="/styles.css"><script defer src="/app.js"></script></head><body>
+<header><a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a><div class="agebar"><span class="age-label">READING AGE</span><button class="age-pill" data-age="preschool">Preschool</button><button class="age-pill" data-age="elementary">Elementary School</button><button class="age-pill" data-age="middle">Middle School</button><button class="age-pill" data-age="high">High School</button></div></header>
+<main><section><div class="eyebrow">THE WORLD OF MONEY, MADE SIMPLE</div><h1>Big money ideas.<br><em>Pick your level.</em></h1>
+<p class="intro">Funny, educational adaptations of Matt Levine's Money Stuff. Pick a reading age once and every edition changes to match.</p></section>
+<h2 class="section-title">All editions</h2><div class="edition-grid"><a class="edition-card" href="/editions/2026-08-13-bilateral-otc-goat-hedge/">
+      <div class="eyebrow">AUGUST 13, 2026</div>
+      <h2>Bilateral OTC Goat Hedge</h2>
+      <div class="meta-row"><span class="tag">4 stories</span><span class="tag">4 age levels</span></div>
+    </a><a class="edition-card" href="/editions/2026-08-12-ai-backed-securities/">
+      <div class="eyebrow">AUGUST 12, 2026</div>
+      <h2>AI-Backed Securities</h2>
+      <div class="meta-row"><span class="tag">4 stories</span><span class="tag">4 age levels</span></div>
+    </a><a class="edition-card" href="/editions/2026-08-11-pick-and-shovel-seller-financing/">
+      <div class="eyebrow">AUGUST 11, 2026</div>
+      <h2>Pick-and-Shovel Seller Financing</h2>
+      <div class="meta-row"><span class="tag">4 stories</span><span class="tag">4 age levels</span></div>
+    </a><a class="edition-card" href="/editions/2026-08-10-the-situation-is-fine/">
+      <div class="eyebrow">AUGUST 10, 2026</div>
+      <h2>The Situation Is Fine</h2>
+      <div class="meta-row"><span class="tag">4 stories</span><span class="tag">4 age levels</span></div>
+    </a><a class="edition-card" href="/editions/2026-08-03-hedgehog-hedge-fund/">
+      <div class="eyebrow">AUGUST 3, 2026</div>
+      <h2>Hedgehog Hedge Fund</h2>
+      <div class="meta-row"><span class="tag">4 stories</span><span class="tag">4 age levels</span></div>
+    </a></div>
+
+<section class="newsletter" id="newsletter">
+ <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
+ <h2>Get the next edition.</h2>
+ <p>Choose an age and we'll email that version when a new Money Stuff for Kids edition is published.</p>
+ <form id="signupForm" class="signup">
+   <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
+   <select required id="agePreference" name="agePreference"><option value="preschool">Preschool</option><option value="elementary">Elementary School</option><option value="middle">Middle School</option><option value="high">High School</option></select>
+   <input type="hidden" name="action" value="subscribe">
+   <input type="hidden" name="_subject" value="Money Stuff for Kids signup">
+   <input type="hidden" name="_template" value="table">
+   <input type="text" name="_honey" style="display:none">
+   <button type="submit">Subscribe</button>
+ </form>
+ <div id="signupStatus" class="status"></div>
+ <p class="form-note">Prototype mailing list. You can unsubscribe from the link in any edition email.</p>
 </section>
 
-<h2 class="section-title">Latest editions</h2>
-<div class="edition-grid">
-<a class="edition-card" href="/editions/2026-08-13-bilateral-otc-goat-hedge/">
-  <div class="eyebrow">AUGUST 13, 2026</div>
-  <h2>Bilateral OTC Goat Hedge</h2>
-  <div class="meta-row"><span class="tag">3 stories</span><span class="tag">Kindergarten</span></div>
-</a>
-</div>
-
-<div class="future">
-<strong>Built for what comes next.</strong> Every edition is stored separately from its age-specific adaptations. That means the same Money Stuff issue can later have a 0–2 version, kindergarten version, middle-school version, and high-school version without duplicating the underlying article. The same age field can also power an email subscription preference later.
-</div>
-
-<footer>Independent educational prototype based on Matt Levine's Money Stuff. Bloomberg and Money Stuff are not affiliated with this project.</footer>
-</main>
-</body></html>
+<footer>Independent educational prototype inspired by Matt Levine's Money Stuff. Bloomberg and Money Stuff are not affiliated with this project.</footer></main></body></html>

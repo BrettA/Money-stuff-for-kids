@@ -1,0 +1,196 @@
+{
+  "id": "2026-08-12-ai-backed-securities",
+  "date": "2026-08-12",
+  "displayDate": "August 12, 2026",
+  "title": "AI-Backed Securities",
+  "stories": [
+    {
+      "id": "securitization",
+      "sourceSection": "Securitization",
+      "art": "box",
+      "adaptations": {
+        "preschool": {
+          "title": "The Money Box With Different Shelves",
+          "lesson": "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Money Box With Different Shelves.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Money Box With Different Shelves",
+          "lesson": "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
+          "paragraphs": [
+            "Here is the strange money puzzle: Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Money Box With Different Shelves",
+          "lesson": "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
+          "paragraphs": [
+            "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Money Box With Different Shelves",
+          "lesson": "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
+          "paragraphs": [
+            "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "truth",
+      "sourceSection": "Truth Social API",
+      "art": "clock",
+      "adaptations": {
+        "preschool": {
+          "title": "The News That Arrived a Millisecond Early",
+          "lesson": "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe News That Arrived a Millisecond Early.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The News That Arrived a Millisecond Early",
+          "lesson": "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
+          "paragraphs": [
+            "Here is the strange money puzzle: A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The News That Arrived a Millisecond Early",
+          "lesson": "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
+          "paragraphs": [
+            "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The News That Arrived a Millisecond Early",
+          "lesson": "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
+          "paragraphs": [
+            "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "gambling",
+      "sourceSection": "Gambling emergency",
+      "art": "whistle",
+      "adaptations": {
+        "preschool": {
+          "title": "The Emergency About Keeping the Betting Market Open",
+          "lesson": "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Emergency About Keeping the Betting Market Open.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Emergency About Keeping the Betting Market Open",
+          "lesson": "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
+          "paragraphs": [
+            "Here is the strange money puzzle: Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Emergency About Keeping the Betting Market Open",
+          "lesson": "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
+          "paragraphs": [
+            "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Emergency About Keeping the Betting Market Open",
+          "lesson": "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
+          "paragraphs": [
+            "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "music",
+      "sourceSection": "Musical earnings calls",
+      "art": "music",
+      "adaptations": {
+        "preschool": {
+          "title": "The Scientists Who Accidentally Made a Music Machine",
+          "lesson": "Finance hires scientists to solve fast data and language problems.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Scientists Who Accidentally Made a Music Machine.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Scientists Who Accidentally Made a Music Machine",
+          "lesson": "Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
+          "paragraphs": [
+            "Here is the strange money puzzle: Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Scientists Who Accidentally Made a Music Machine",
+          "lesson": "Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
+          "paragraphs": [
+            "Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Scientists Who Accidentally Made a Music Machine",
+          "lesson": "Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
+          "paragraphs": [
+            "Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    }
+  ]
+}

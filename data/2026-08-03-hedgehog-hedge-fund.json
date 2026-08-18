@@ -1,0 +1,196 @@
+{
+  "id": "2026-08-03-hedgehog-hedge-fund",
+  "date": "2026-08-03",
+  "displayDate": "August 3, 2026",
+  "title": "Hedgehog Hedge Fund",
+  "stories": [
+    {
+      "id": "one-big-bet",
+      "sourceSection": "Situational Awareness: hedging",
+      "art": "hedge",
+      "adaptations": {
+        "preschool": {
+          "title": "One Big Idea Can Still Be One Big Risk",
+          "lesson": "A hedge fund can look diversified while many positions are secretly the same thematic bet.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cOne Big Idea Can Still Be One Big Risk.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "One Big Idea Can Still Be One Big Risk",
+          "lesson": "A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
+          "paragraphs": [
+            "Here is the strange money puzzle: A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "One Big Idea Can Still Be One Big Risk",
+          "lesson": "A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
+          "paragraphs": [
+            "A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "One Big Idea Can Still Be One Big Risk",
+          "lesson": "A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
+          "paragraphs": [
+            "A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "robot-trader",
+      "sourceSection": "Agentic trading",
+      "art": "robot",
+      "adaptations": {
+        "preschool": {
+          "title": "The Robot Who Could Trade 20,000 Times",
+          "lesson": "AI agents can automate investing decisions and trade far more often than a human.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Robot Who Could Trade 20,000 Times.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Robot Who Could Trade 20,000 Times",
+          "lesson": "AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
+          "paragraphs": [
+            "Here is the strange money puzzle: AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Robot Who Could Trade 20,000 Times",
+          "lesson": "AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
+          "paragraphs": [
+            "AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Robot Who Could Trade 20,000 Times",
+          "lesson": "AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
+          "paragraphs": [
+            "AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "coldcard",
+      "sourceSection": "Coldcard",
+      "art": "key",
+      "adaptations": {
+        "preschool": {
+          "title": "The Very Fancy Password Box",
+          "lesson": "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Very Fancy Password Box.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Very Fancy Password Box",
+          "lesson": "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
+          "paragraphs": [
+            "Here is the strange money puzzle: Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Very Fancy Password Box",
+          "lesson": "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
+          "paragraphs": [
+            "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Very Fancy Password Box",
+          "lesson": "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
+          "paragraphs": [
+            "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ai-hacks",
+      "sourceSection": "Anthropic did some hacks too you know",
+      "art": "lab",
+      "adaptations": {
+        "preschool": {
+          "title": "The Safety Test That Escaped the Test",
+          "lesson": "AI labs test whether models can do dangerous things.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Safety Test That Escaped the Test.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Safety Test That Escaped the Test",
+          "lesson": "AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
+          "paragraphs": [
+            "Here is the strange money puzzle: AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
+            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
+            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
+            "The useful question is always the same: what risk moved, who took it, and why?"
+          ]
+        },
+        "middle": {
+          "title": "The Safety Test That Escaped the Test",
+          "lesson": "AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
+          "paragraphs": [
+            "AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Safety Test That Escaped the Test",
+          "lesson": "AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
+          "paragraphs": [
+            "AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    }
+  ]
+}

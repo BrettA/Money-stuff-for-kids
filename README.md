@@ -1,52 +1,21 @@
-# Money Stuff for Kids — V3
+# Money Stuff for Kids — V4
 
-This version changes the site from a one-off article page into a small publishing system.
+## What changed
+- Backfilled all five Money Stuff emails currently in the project inbox (Aug 3, 10, 11, 12, 13, 2026).
+- Four live reading targets: Preschool, Elementary School, Middle School, High School.
+- Age choice persists in the browser with localStorage.
+- Every substantive section receives its own story; generic `Things happen` link roundups are excluded.
+- Newsletter signup is wired to FormSubmit -> brettaiinbox@gmail.com.
+- Unsubscribe page is included.
 
-## Public structure
+## Prototype newsletter delivery
+The website sends signup submissions to `brettaiinbox@gmail.com` with:
+- `action=subscribe`
+- subscriber `email`
+- `agePreference`
 
-- `/` — archive/homepage showing the latest published editions
-- `/editions/<edition-id>/` — one permanent page per Money Stuff issue
-- `/data/site.json` — site index, age options, newsletter preference schema
-- `/data/<edition-id>.json` — structured source edition + age-specific adaptations
+An automation can reconstruct the active subscriber list from these signup/unsubscribe messages and send each new edition through the connected Gmail account.
 
-## Age model
+IMPORTANT: FormSubmit requires a one-time activation/confirmation email before submissions flow normally. After deploying V4, submit the form once and confirm the activation email.
 
-The content model intentionally separates the real Money Stuff story from its adaptation:
-
-```text
-edition
-  story
-    sourceSection
-    adaptations
-      toddler
-      kindergarten
-      middle-school
-      high-school
-```
-
-V3 only has `kindergarten`, but the other ages can be added without changing URLs or rebuilding the archive model.
-
-## Future newsletter model
-
-`data/site.json` includes the intended subscription fields:
-
-```text
-email
-agePreference
-frequency
-status
-createdAt
-```
-
-When we add email delivery, the publishing job can:
-1. ingest the new Money Stuff email
-2. generate all requested age variants
-3. publish the web edition
-4. render an email for each age group
-5. send each subscriber the version matching their `agePreference`
-
-Do not put subscriber email addresses into this public repository. They should eventually live in a private database/provider such as Supabase, Postgres, Buttondown, Resend/Audiences, etc.
-
-## Current source edition
-
-Matt Levine, Money Stuff, Aug. 13 2026, “Bilateral OTC Goat Hedge.”
+This Gmail-based approach is suitable for a tiny private beta. For a larger public launch, migrate subscriber storage and sending to a purpose-built email provider.

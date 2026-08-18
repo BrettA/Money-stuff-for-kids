@@ -2,74 +2,197 @@
   "id": "2026-08-13-bilateral-otc-goat-hedge",
   "date": "2026-08-13",
   "displayDate": "August 13, 2026",
-  "sourceTitle": "Bilateral OTC Goat Hedge",
-  "sourceAuthor": "Matt Levine",
-  "sourcePublication": "Money Stuff",
-  "availableAges": [
-    "kindergarten"
-  ],
-  "defaultAge": "kindergarten",
+  "title": "Bilateral OTC Goat Hedge",
   "stories": [
     {
-      "id": "goat-herding",
+      "id": "goats",
       "sourceSection": "Goat herding",
+      "art": "goat",
       "adaptations": {
-        "kindergarten": {
+        "preschool": {
           "title": "The Goat Farmer's Very Fancy Umbrella",
-          "lesson": "Hedging means paying something now, or giving up some possible upside, so a bad future outcome hurts less.",
+          "lesson": "A business can hedge a real-world risk by making a financial bet that pays when the bad outcome happens.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Goat Farmer's Very Fancy Umbrella.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Goat Farmer's Very Fancy Umbrella",
+          "lesson": "Hedging means giving up a little of your best possible outcome so a bad outcome hurts less.",
           "paragraphs": [
             "Gus had goats. Lots of goats. His goats ate grass, climbed on things they were absolutely not supposed to climb on, and eventually needed to be sold.",
             "But Gus had a problem: what if goat prices fell before selling day?",
-            "So Gus made a deal. He paid a little money now for a promise: if goat prices fell later, the promise would pay him money. If goat prices stayed high, great\u2014his goats were worth plenty anyway.",
-            "\u201cThat sounds like insurance,\u201d said Gus.",
-            "The finance people coughed politely. \u201cTechnically,\u201d they said, \u201cit is an event contract.\u201d",
-            "Gus looked at his goats. The goats did not care what it was called.",
-            "The important part was that Gus had traded some of his possible big win for protection from a really bad day. That is called hedging."
-          ],
-          "art": "goat"
+            "So Gus made a deal that paid him if the bad thing happened. If goat prices stayed high, his goats were worth plenty. If prices fell, the hedge helped make up the difference.",
+            "\u201cThat sounds like insurance,\u201d said Gus. The finance people coughed politely and gave it a much more complicated name.",
+            "The goats did not care what it was called. Gus had traded some upside for protection from a terrible day. That is hedging."
+          ]
+        },
+        "middle": {
+          "title": "The Goat Farmer's Very Fancy Umbrella",
+          "lesson": "A business can hedge a real-world risk by making a financial bet that pays when the bad outcome happens. Prediction markets can sometimes act like insurance, including for very literal business risks.",
+          "paragraphs": [
+            "A business can hedge a real-world risk by making a financial bet that pays when the bad outcome happens. Prediction markets can sometimes act like insurance, including for very literal business risks.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Goat Farmer's Very Fancy Umbrella",
+          "lesson": "A business can hedge a real-world risk by making a financial bet that pays when the bad outcome happens. Prediction markets can sometimes act like insurance, including for very literal business risks.",
+          "paragraphs": [
+            "A business can hedge a real-world risk by making a financial bet that pays when the bad outcome happens. Prediction markets can sometimes act like insurance, including for very literal business risks.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
         }
       }
     },
     {
-      "id": "fake-comments",
+      "id": "comments",
       "sourceSection": "Fake comments",
+      "art": "letters",
       "adaptations": {
-        "kindergarten": {
+        "preschool": {
           "title": "The Letter From Someone Who Didn't Write It",
-          "lesson": "Public comments can influence regulators, but counting comments is not the same as counting votes, and organized campaigns can make public opinion look simpler than it is.",
+          "lesson": "Regulators invite public comments, but organized campaigns can generate many near-identical letters and sometimes questionable identities.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Letter From Someone Who Didn't Write It.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Letter From Someone Who Didn't Write It",
+          "lesson": "Public comments can influence regulators, but counting comments is not the same as counting independent opinions.",
           "paragraphs": [
             "The Rule-Making Club had a new rule and asked everyone, \u201cWhat do you think?\u201d",
-            "Big companies sent enormous letters written by lawyers. Regular people could send letters too.",
-            "But almost nobody wakes up in the morning thinking, \u201cHooray! Today I will comment on a financial regulation!\u201d",
-            "So groups wrote letters for people: \u201cI am a regular person, and I LOVE this rule.\u201d Then they tried to find regular people to put their names on them.",
-            "Sometimes thousands of people sent almost the exact same letter. Sometimes a letter appeared under the name of someone who said, \u201cUm\u2026 I did not send that.\u201d",
-            "Once, even Matt found a government comment under his own name that he hadn't actually submitted.",
-            "Could happen to anyone, really.",
-            "The Rule-Making Club could still read the arguments. But 10,000 letters did not necessarily mean 10,000 people had 10,000 separate ideas."
-          ],
-          "art": "letters"
+            "Big organizations could hire lawyers to write giant letters. Regular people could write too, but most regular people do not wake up excited to comment on financial regulation.",
+            "So groups sometimes write a letter once and help thousands of people send versions of it. That can be useful organizing \u2014 but it can also make 10,000 letters look like 10,000 totally separate ideas.",
+            "And sometimes a letter appears under a person's name even though that person says, \u201cUm, I did not send that.\u201d",
+            "The important job is to read the arguments, not just count the envelopes."
+          ]
+        },
+        "middle": {
+          "title": "The Letter From Someone Who Didn't Write It",
+          "lesson": "Regulators invite public comments, but organized campaigns can generate many near-identical letters and sometimes questionable identities. A high comment count is not automatically the same thing as broad independent opinion.",
+          "paragraphs": [
+            "Regulators invite public comments, but organized campaigns can generate many near-identical letters and sometimes questionable identities. A high comment count is not automatically the same thing as broad independent opinion.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Letter From Someone Who Didn't Write It",
+          "lesson": "Regulators invite public comments, but organized campaigns can generate many near-identical letters and sometimes questionable identities. A high comment count is not automatically the same thing as broad independent opinion.",
+          "paragraphs": [
+            "Regulators invite public comments, but organized campaigns can generate many near-identical letters and sometimes questionable identities. A high comment count is not automatically the same thing as broad independent opinion.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
         }
       }
     },
     {
-      "id": "spacex-lockup",
+      "id": "lockup",
       "sourceSection": "SpaceX lockup",
+      "art": "rocket",
       "adaptations": {
-        "kindergarten": {
-          "title": "The Rocket Shares Everyone Was Afraid Of",
-          "lesson": "Markets often move before an expected event. If investors prepare for something worse than what actually happens, the price can rise when the event finally arrives.",
+        "preschool": {
+          "title": "The Scary Selling Day That Wasn't So Scary",
+          "lesson": "Markets often move before an expected event.",
           "paragraphs": [
-            "SpaceX had sold shares to the public, but many early owners had to promise: \u201cWe will not sell ours yet.\u201d",
-            "That promise was called a lockup.",
-            "Everyone knew the lockup would eventually end. And everyone worried: \u201cWhen it ends, millions of shares might come whooshing onto the market!\u201d",
-            "Some traders did not wait. They borrowed shares and sold them early, expecting lots more shares to arrive later.",
-            "The scary day finally came.",
-            "And then\u2026 not that many people sold.",
-            "The stock went UP.",
-            "It was as if everyone heard that 100 elephants might arrive at a birthday party, bought 100 elephant-sized cakes, reinforced the floor, and then three elephants showed up.",
-            "Markets sometimes prepare so hard for a bad thing that when the bad thing is smaller than expected, prices can bounce the other way."
-          ],
-          "art": "rocket"
+            "Imagine a little money story called \u201cThe Scary Selling Day That Wasn't So Scary.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Rocket Shares Everyone Was Afraid Of",
+          "lesson": "Prices react to expectations. If everyone prepares for something worse than what actually happens, the price can move the opposite way.",
+          "paragraphs": [
+            "Some early SpaceX owners had promised not to sell their shares for a while. That promise was called a lockup.",
+            "Everyone knew the lockup would eventually end. Traders worried that a giant pile of shares would suddenly be for sale.",
+            "So some traders prepared early. They acted as if the big selling wave was already on its way.",
+            "Then the scary day arrived \u2014 and the wave was smaller than expected. The stock rose.",
+            "It was like preparing 100 elephant-sized cakes because 100 elephants might attend your party, and then three elephants show up. Three elephants are still a lot of elephant. But compared with 100, it feels almost relaxing."
+          ]
+        },
+        "middle": {
+          "title": "The Scary Selling Day That Wasn't So Scary",
+          "lesson": "Markets often move before an expected event. If traders prepare for a huge wave of selling and the actual selling is smaller, the price can rise when the feared event finally arrives.",
+          "paragraphs": [
+            "Markets often move before an expected event. If traders prepare for a huge wave of selling and the actual selling is smaller, the price can rise when the feared event finally arrives.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Scary Selling Day That Wasn't So Scary",
+          "lesson": "Markets often move before an expected event. If traders prepare for a huge wave of selling and the actual selling is smaller, the price can rise when the feared event finally arrives.",
+          "paragraphs": [
+            "Markets often move before an expected event. If traders prepare for a huge wave of selling and the actual selling is smaller, the price can rise when the feared event finally arrives.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
+        }
+      }
+    },
+    {
+      "id": "goat-otc",
+      "sourceSection": "Bilateral OTC hedging",
+      "art": "handshake",
+      "adaptations": {
+        "preschool": {
+          "title": "The Giant Bet That Didn't Fit on the Shelf",
+          "lesson": "Large hedgers may need block or over-the-counter trades because an exchange order book can be too small.",
+          "paragraphs": [
+            "Imagine a little money story called \u201cThe Giant Bet That Didn't Fit on the Shelf.\u201d",
+            "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
+            "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
+            "That is the big idea in this story."
+          ]
+        },
+        "elementary": {
+          "title": "The Giant Goat Deal That Didn't Fit on the Shelf",
+          "lesson": "Big trades sometimes happen privately because putting the whole trade on an exchange would move the price.",
+          "paragraphs": [
+            "Suppose Gus the goat farmer wants a very large hedge \u2014 much larger than the little bets already waiting on an exchange.",
+            "If he tries to buy every contract on the screen, each next contract may get more expensive because everyone can see Gus coming.",
+            "So Gus can call a professional trading firm and ask for one giant custom deal instead.",
+            "That is an over-the-counter, or OTC, trade: two sides agree directly rather than matching lots of tiny public orders.",
+            "The goats still do not care. Finance has, once again, invented a complicated phrase for arranging a large promise."
+          ]
+        },
+        "middle": {
+          "title": "The Giant Bet That Didn't Fit on the Shelf",
+          "lesson": "Large hedgers may need block or over-the-counter trades because an exchange order book can be too small. A bespoke bilateral trade can move risk without pushing the public market price against the hedger.",
+          "paragraphs": [
+            "Large hedgers may need block or over-the-counter trades because an exchange order book can be too small. A bespoke bilateral trade can move risk without pushing the public market price against the hedger.",
+            "The financial mechanism matters because incentives change behavior. If a trade is cheap, easy or highly profitable for an intermediary, people will often do more of it. If a risk can be transferred, someone else has to be willing to hold it.",
+            "That creates second-order effects: prices can move before events happen, products built for institutions can spread to retail investors, and a hedge can quietly turn into a new concentrated bet.",
+            "The story is useful because it is not just about one company. It is a small example of how markets turn beliefs, risks and information into prices."
+          ]
+        },
+        "high": {
+          "title": "The Giant Bet That Didn't Fit on the Shelf",
+          "lesson": "Large hedgers may need block or over-the-counter trades because an exchange order book can be too small. A bespoke bilateral trade can move risk without pushing the public market price against the hedger.",
+          "paragraphs": [
+            "Large hedgers may need block or over-the-counter trades because an exchange order book can be too small. A bespoke bilateral trade can move risk without pushing the public market price against the hedger.",
+            "The important analytical move is to separate the economic exposure from the legal or marketing label. A product called a hedge may still contain concentrated factor risk; a security device is only as strong as its key generation; a market structure can redistribute costs between retail traders, institutions and intermediaries.",
+            "Then look at incentives. Who earns a spread, fee or markup? Who benefits from more volume? Who is paid for taking tail risk? Who gets information first? Those questions usually explain why the arrangement exists.",
+            "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
+          ]
         }
       }
     }

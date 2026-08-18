@@ -1,48 +1,64 @@
 {
-  "site": {
-    "name": "Money Stuff for Kids",
-    "currentAge": "kindergarten",
-    "ageOptions": [
-      {
-        "id": "toddler",
-        "label": "0\u20132",
-        "enabled": false
-      },
-      {
-        "id": "kindergarten",
-        "label": "Kindergarten",
-        "enabled": true
-      },
-      {
-        "id": "middle-school",
-        "label": "Middle School",
-        "enabled": false
-      },
-      {
-        "id": "high-school",
-        "label": "High School",
-        "enabled": false
-      }
-    ]
-  },
+  "name": "Money Stuff for Kids",
+  "defaultAge": "elementary",
+  "ages": [
+    {
+      "id": "preschool",
+      "label": "Preschool"
+    },
+    {
+      "id": "elementary",
+      "label": "Elementary School"
+    },
+    {
+      "id": "middle",
+      "label": "Middle School"
+    },
+    {
+      "id": "high",
+      "label": "High School"
+    }
+  ],
   "editions": [
     {
       "id": "2026-08-13-bilateral-otc-goat-hedge",
       "date": "2026-08-13",
       "displayDate": "August 13, 2026",
       "title": "Bilateral OTC Goat Hedge",
-      "storyCount": 3,
-      "availableAges": [
-        "kindergarten"
-      ],
+      "storyCount": 4,
       "href": "/editions/2026-08-13-bilateral-otc-goat-hedge/"
+    },
+    {
+      "id": "2026-08-12-ai-backed-securities",
+      "date": "2026-08-12",
+      "displayDate": "August 12, 2026",
+      "title": "AI-Backed Securities",
+      "storyCount": 4,
+      "href": "/editions/2026-08-12-ai-backed-securities/"
+    },
+    {
+      "id": "2026-08-11-pick-and-shovel-seller-financing",
+      "date": "2026-08-11",
+      "displayDate": "August 11, 2026",
+      "title": "Pick-and-Shovel Seller Financing",
+      "storyCount": 4,
+      "href": "/editions/2026-08-11-pick-and-shovel-seller-financing/"
+    },
+    {
+      "id": "2026-08-10-the-situation-is-fine",
+      "date": "2026-08-10",
+      "displayDate": "August 10, 2026",
+      "title": "The Situation Is Fine",
+      "storyCount": 4,
+      "href": "/editions/2026-08-10-the-situation-is-fine/"
+    },
+    {
+      "id": "2026-08-03-hedgehog-hedge-fund",
+      "date": "2026-08-03",
+      "displayDate": "August 3, 2026",
+      "title": "Hedgehog Hedge Fund",
+      "storyCount": 4,
+      "href": "/editions/2026-08-03-hedgehog-hedge-fund/"
     }
-  ],
-  "newsletterSchema": {
-    "email": "string",
-    "agePreference": "toddler | kindergarten | middle-school | high-school",
-    "frequency": "each-edition",
-    "status": "active | unsubscribed",
-    "createdAt": "timestamp"
-  }
+  ]
 }
