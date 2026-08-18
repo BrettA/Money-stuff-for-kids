@@ -19,3 +19,6 @@ An automation can reconstruct the active subscriber list from these signup/unsub
 IMPORTANT: FormSubmit requires a one-time activation/confirmation email before submissions flow normally. After deploying V4, submit the form once and confirm the activation email.
 
 This Gmail-based approach is suitable for a tiny private beta. For a larger public launch, migrate subscriber storage and sending to a purpose-built email provider.
+
+## Clean UI revision
+Removed internal/prototype notes, source-ingestion explanations, edition story counts, and homepage metadata chips from the reader-facing site.

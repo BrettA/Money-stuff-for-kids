@@ -11,11 +11,11 @@ h1{font-family:Georgia,serif;font-size:clamp(50px,7vw,88px);line-height:.95;lett
 .section-title{font-family:Georgia,serif;font-size:36px;letter-spacing:-.035em;margin:58px 0 20px}
 .edition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.edition-card{display:block;text-decoration:none;border:1px solid var(--line);background:var(--card);border-radius:22px;padding:27px;transition:.15s}
 .edition-card:hover{transform:translateY(-2px);box-shadow:0 14px 32px rgba(23,32,24,.08)}.edition-card h2{font-family:Georgia,serif;font-size:32px;line-height:1.04;letter-spacing:-.04em;margin:10px 0 20px}
-.meta-row{display:flex;gap:9px;flex-wrap:wrap;color:var(--muted);font-size:12px}.tag{border-radius:999px;background:var(--soft);padding:7px 10px;font-weight:700}
+
 .story{display:grid;grid-template-columns:38% 1fr;gap:40px;border-top:1px solid var(--line);padding:38px 0 55px}.art{height:320px;border-radius:22px;overflow:hidden;position:sticky;top:105px;display:grid;place-items:center;background:#e5ebd7}.art-emoji{font-size:110px;filter:saturate(.85)}.original{margin:8px 0 15px;font-size:12px;color:var(--muted);letter-spacing:.06em}
 .story h2{font-family:Georgia,serif;font-size:40px;line-height:1.05;letter-spacing:-.04em;margin:0 0 20px}.copy p{font-family:Georgia,serif;font-size:20px;line-height:1.55;margin:0 0 17px}
 .lesson{margin-top:28px;background:var(--soft);padding:17px 19px;border-radius:14px;font-size:14px;line-height:1.5}.lesson b{font-size:10px;letter-spacing:.12em}
-.source{margin:35px 0 55px;background:#fff1e8;border-left:6px solid var(--orange);padding:18px 20px;border-radius:0 14px 14px 0;line-height:1.5}
+
 .newsletter{margin-top:72px;border-radius:24px;background:var(--ink);color:white;padding:36px}.newsletter h2{font-family:Georgia,serif;font-size:40px;margin:0 0 10px;letter-spacing:-.04em}.newsletter p{max-width:680px;line-height:1.5;color:#d8ded7}
 .signup{display:grid;grid-template-columns:2fr 1.2fr auto;gap:10px;margin-top:22px}.signup input,.signup select{border:0;border-radius:12px;padding:14px;font:inherit}.signup button{border:0;border-radius:12px;padding:14px 20px;background:var(--lime);font-weight:800;cursor:pointer}
 .form-note{font-size:11px!important;color:#aeb8ad!important}.status{margin-top:12px;font-size:13px;font-weight:700}.back{display:inline-block;margin-bottom:28px;font-size:13px;font-weight:700;text-decoration:none}
