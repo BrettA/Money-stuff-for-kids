@@ -1,0 +1,48 @@
+{
+  "site": {
+    "name": "Money Stuff for Kids",
+    "currentAge": "kindergarten",
+    "ageOptions": [
+      {
+        "id": "toddler",
+        "label": "0\u20132",
+        "enabled": false
+      },
+      {
+        "id": "kindergarten",
+        "label": "Kindergarten",
+        "enabled": true
+      },
+      {
+        "id": "middle-school",
+        "label": "Middle School",
+        "enabled": false
+      },
+      {
+        "id": "high-school",
+        "label": "High School",
+        "enabled": false
+      }
+    ]
+  },
+  "editions": [
+    {
+      "id": "2026-08-13-bilateral-otc-goat-hedge",
+      "date": "2026-08-13",
+      "displayDate": "August 13, 2026",
+      "title": "Bilateral OTC Goat Hedge",
+      "storyCount": 3,
+      "availableAges": [
+        "kindergarten"
+      ],
+      "href": "/editions/2026-08-13-bilateral-otc-goat-hedge/"
+    }
+  ],
+  "newsletterSchema": {
+    "email": "string",
+    "agePreference": "toddler | kindergarten | middle-school | high-school",
+    "frequency": "each-edition",
+    "status": "active | unsubscribed",
+    "createdAt": "timestamp"
+  }
+}

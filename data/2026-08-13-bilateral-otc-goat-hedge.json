@@ -1,0 +1,77 @@
+{
+  "id": "2026-08-13-bilateral-otc-goat-hedge",
+  "date": "2026-08-13",
+  "displayDate": "August 13, 2026",
+  "sourceTitle": "Bilateral OTC Goat Hedge",
+  "sourceAuthor": "Matt Levine",
+  "sourcePublication": "Money Stuff",
+  "availableAges": [
+    "kindergarten"
+  ],
+  "defaultAge": "kindergarten",
+  "stories": [
+    {
+      "id": "goat-herding",
+      "sourceSection": "Goat herding",
+      "adaptations": {
+        "kindergarten": {
+          "title": "The Goat Farmer's Very Fancy Umbrella",
+          "lesson": "Hedging means paying something now, or giving up some possible upside, so a bad future outcome hurts less.",
+          "paragraphs": [
+            "Gus had goats. Lots of goats. His goats ate grass, climbed on things they were absolutely not supposed to climb on, and eventually needed to be sold.",
+            "But Gus had a problem: what if goat prices fell before selling day?",
+            "So Gus made a deal. He paid a little money now for a promise: if goat prices fell later, the promise would pay him money. If goat prices stayed high, great\u2014his goats were worth plenty anyway.",
+            "\u201cThat sounds like insurance,\u201d said Gus.",
+            "The finance people coughed politely. \u201cTechnically,\u201d they said, \u201cit is an event contract.\u201d",
+            "Gus looked at his goats. The goats did not care what it was called.",
+            "The important part was that Gus had traded some of his possible big win for protection from a really bad day. That is called hedging."
+          ],
+          "art": "goat"
+        }
+      }
+    },
+    {
+      "id": "fake-comments",
+      "sourceSection": "Fake comments",
+      "adaptations": {
+        "kindergarten": {
+          "title": "The Letter From Someone Who Didn't Write It",
+          "lesson": "Public comments can influence regulators, but counting comments is not the same as counting votes, and organized campaigns can make public opinion look simpler than it is.",
+          "paragraphs": [
+            "The Rule-Making Club had a new rule and asked everyone, \u201cWhat do you think?\u201d",
+            "Big companies sent enormous letters written by lawyers. Regular people could send letters too.",
+            "But almost nobody wakes up in the morning thinking, \u201cHooray! Today I will comment on a financial regulation!\u201d",
+            "So groups wrote letters for people: \u201cI am a regular person, and I LOVE this rule.\u201d Then they tried to find regular people to put their names on them.",
+            "Sometimes thousands of people sent almost the exact same letter. Sometimes a letter appeared under the name of someone who said, \u201cUm\u2026 I did not send that.\u201d",
+            "Once, even Matt found a government comment under his own name that he hadn't actually submitted.",
+            "Could happen to anyone, really.",
+            "The Rule-Making Club could still read the arguments. But 10,000 letters did not necessarily mean 10,000 people had 10,000 separate ideas."
+          ],
+          "art": "letters"
+        }
+      }
+    },
+    {
+      "id": "spacex-lockup",
+      "sourceSection": "SpaceX lockup",
+      "adaptations": {
+        "kindergarten": {
+          "title": "The Rocket Shares Everyone Was Afraid Of",
+          "lesson": "Markets often move before an expected event. If investors prepare for something worse than what actually happens, the price can rise when the event finally arrives.",
+          "paragraphs": [
+            "SpaceX had sold shares to the public, but many early owners had to promise: \u201cWe will not sell ours yet.\u201d",
+            "That promise was called a lockup.",
+            "Everyone knew the lockup would eventually end. And everyone worried: \u201cWhen it ends, millions of shares might come whooshing onto the market!\u201d",
+            "Some traders did not wait. They borrowed shares and sold them early, expecting lots more shares to arrive later.",
+            "The scary day finally came.",
+            "And then\u2026 not that many people sold.",
+            "The stock went UP.",
+            "It was as if everyone heard that 100 elephants might arrive at a birthday party, bought 100 elephant-sized cakes, reinforced the floor, and then three elephants showed up.",
+            "Markets sometimes prepare so hard for a bad thing that when the bad thing is smaller than expected, prices can bounce the other way."
+          ],
+          "art": "rocket"
+        }
+      }
+    }
+  ]
+}
