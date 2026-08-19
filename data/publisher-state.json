@@ -1,10 +1,40 @@
 {
   "processedIssues": [
     {
+      "date": "2026-08-03",
+      "title": "Hedgehog Hedge Fund",
+      "gmailMessageId": "1a015549ac3cd707",
+      "editionId": "2026-08-03-hedgehog-hedge-fund"
+    },
+    {
       "date": "2026-08-06",
       "title": "Fake SpaceX Stock Isn’t Worth as Much",
       "gmailMessageId": "1a01810c1bddf3d7",
       "editionId": "2026-08-06-fake-spacex-stock-isnt-worth-as-much"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "The Situation Is Fine",
+      "gmailMessageId": "1a0155469206060d",
+      "editionId": "2026-08-10-the-situation-is-fine"
+    },
+    {
+      "date": "2026-08-11",
+      "title": "Pick-and-Shovel Seller Financing",
+      "gmailMessageId": "1a0155444204cca1",
+      "editionId": "2026-08-11-pick-and-shovel-seller-financing"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "AI-Backed Securities",
+      "gmailMessageId": "1a01554340001164",
+      "editionId": "2026-08-12-ai-backed-securities"
+    },
+    {
+      "date": "2026-08-13",
+      "title": "Bilateral OTC Goat Hedge",
+      "gmailMessageId": "1a01553dd5f3d619",
+      "editionId": "2026-08-13-bilateral-otc-goat-hedge"
     }
   ],
   "subscribers": {
@@ -16,10 +46,40 @@
   },
   "sends": [
     {
+      "editionId": "2026-08-03-hedgehog-hedge-fund",
+      "email": "brett.andler@gmail.com",
+      "agePreference": "elementary",
+      "gmailMessageId": "1a01a03e4917fd10"
+    },
+    {
       "editionId": "2026-08-06-fake-spacex-stock-isnt-worth-as-much",
       "email": "brett.andler@gmail.com",
       "agePreference": "elementary",
       "gmailMessageId": "1a019a4cd4369ba2"
+    },
+    {
+      "editionId": "2026-08-10-the-situation-is-fine",
+      "email": "brett.andler@gmail.com",
+      "agePreference": "elementary",
+      "gmailMessageId": "1a01a04138240d7c"
+    },
+    {
+      "editionId": "2026-08-11-pick-and-shovel-seller-financing",
+      "email": "brett.andler@gmail.com",
+      "agePreference": "elementary",
+      "gmailMessageId": "1a01a044a2dcbfcf"
+    },
+    {
+      "editionId": "2026-08-12-ai-backed-securities",
+      "email": "brett.andler@gmail.com",
+      "agePreference": "elementary",
+      "gmailMessageId": "1a01a05851437b67"
+    },
+    {
+      "editionId": "2026-08-13-bilateral-otc-goat-hedge",
+      "email": "brett.andler@gmail.com",
+      "agePreference": "elementary",
+      "gmailMessageId": "1a01a05bac74ccb5"
     }
   ]
 }
