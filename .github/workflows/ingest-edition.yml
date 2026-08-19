@@ -1,0 +1,71 @@
+name: Ingest completed edition
+
+on:
+  workflow_dispatch:
+    inputs:
+      package_url:
+        description: Short-lived HTTPS URL for the completed ZIP package
+        required: true
+        type: string
+      package_sha256:
+        description: Lowercase SHA-256 digest of the ZIP
+        required: true
+        type: string
+      edition_id:
+        description: Canonical dated edition ID
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      EDITION_ID: ${{ inputs.edition_id }}
+      PACKAGE_URL: ${{ inputs.package_url }}
+      PACKAGE_SHA256: ${{ inputs.package_sha256 }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate dispatch metadata
+        run: |
+          [[ "$EDITION_ID" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9]+(-[a-z0-9]+)*$ ]]
+          [[ "$PACKAGE_SHA256" =~ ^[0-9a-f]{64}$ ]]
+          [[ "$PACKAGE_URL" == https://* ]]
+      - name: Create deterministic ingestion branch
+        run: git switch -c "automated-edition/$EDITION_ID"
+      - name: Download and verify package
+        run: |
+          curl --fail --silent --show-error --location --proto '=https' --max-filesize 26214400 \
+            --output "$RUNNER_TEMP/edition.zip" "$PACKAGE_URL"
+          echo "$PACKAGE_SHA256  $RUNNER_TEMP/edition.zip" | sha256sum --check --strict
+      - name: Install and validate canonical inputs
+        run: npm run ingest -- --archive "$RUNNER_TEMP/edition.zip" --edition-id "$EDITION_ID"
+      - name: Test and regenerate site
+        run: |
+          npm test
+          npm run publish
+          npm run check
+      - name: Commit and push ingestion branch
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add --all
+          git commit -m "Publish $EDITION_ID"
+          git push --set-upstream origin "automated-edition/$EDITION_ID"
+      - name: Open pull request (never auto-merge)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create --base main --head "automated-edition/$EDITION_ID" \
+            --title "Publish $EDITION_ID" \
+            --body "Automated ingestion of the digest-verified, schema-version-2 edition package. This pull request requires normal review and is not auto-merged."
