@@ -129,9 +129,9 @@ edition_id: 2099-01-01-transport-test
 package_directory: examples/transport-test
 ```
 
-The caller creates a ZIP on the runner, requests a ten-minute signed private PUT URL, uploads directly to Blob, then asks the bridge to publish the stored pathname. The bridge reads the private object server-side, enforces the 25 MiB limit, computes SHA-256, creates a one-hour signed GET URL and a 24-hour signed DELETE URL, and dispatches the fixed repository/workflow/ref. It returns only the edition ID and digest, never storage or GitHub credentials.
+The caller creates a ZIP on the runner, requests a ten-minute signed private PUT URL, uploads directly to Blob, then asks the bridge to publish the stored pathname. The bridge reads the private object server-side, enforces the 25 MiB limit, computes SHA-256, creates 24-hour signed GET and DELETE URLs, and dispatches the fixed repository/workflow/ref. It returns only the edition ID and digest, never storage or GitHub credentials.
 
-The ingestion job independently downloads and verifies the digest before reading the ZIP. Its final `if: always()` step uses the signed DELETE URL. As a fallback, Vercel Cron calls `/api/cleanup-editions` daily and deletes objects under `pending-editions/` after 24 hours.
+The ingestion job independently downloads and verifies the digest before reading the ZIP. Its final success-only step uses the signed DELETE URL, so a failed job can be re-run against the exact same package and digest for up to 24 hours without repeating generation. As a fallback, Vercel Cron calls `/api/cleanup-editions` daily and deletes objects under `pending-editions/` after 24 hours.
 
 The fixture's edition ID is intentionally far in the future to avoid collision. A successful end-to-end test opens an `automated-edition/2099-01-01-transport-test` pull request. Close that test PR and delete its branch after verification; do not merge the fixture into the published site.
 
@@ -156,6 +156,6 @@ Small trusted callers may instead POST raw `application/zip` bytes with an `X-Ed
 - `PUBLISH_API_TOKEN` is compared in constant time and all responses disable caching.
 - Edition IDs and temporary pathnames are strictly validated; the GitHub owner, repository, workflow, and `main` ref are constants rather than caller inputs.
 - SHA-256 is computed from a server-authenticated read of the exact private Blob object. The GitHub workflow verifies it again.
-- If dispatch fails, the bridge deletes the object immediately. After dispatch, the ingestion workflow deletes it even when ingestion fails. Daily cleanup removes orphans after 24 hours.
+- If dispatch fails, the bridge deletes the object immediately. After dispatch, the ingestion workflow deletes it only after successful ingestion; failures retain the private object and its signed GET URL for the bounded 24-hour retry window. Daily cleanup removes failed/orphaned packages after 24 hours.
 - Signed URLs grant one operation on one pathname and expire. The private Blob read/write token is never placed in a URL or dispatched to GitHub.
 - After a successful dispatch, the bridge stores a small private receipt. Repeating the same edition ID and package SHA-256 is accepted without dispatching ingestion a second time; reusing that edition ID with different bytes is refused.

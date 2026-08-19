@@ -86,5 +86,7 @@ jobs:
               --title "Publish $EDITION_ID" \
               --body "Automated ingestion of the digest-verified, schema-version-2 edition package. This pull request requires normal review and is not auto-merged."
       - name: Delete temporary package
-        if: ${{ always() && inputs.package_delete_url != '' }}
+        # A failed job must retain the exact digest-verified package for a job
+        # re-run. The daily orphan cleanup still removes it after 24 hours.
+        if: ${{ success() && inputs.package_delete_url != '' }}
         run: curl --fail --silent --show-error --request DELETE --proto '=https' "$PACKAGE_DELETE_URL"
