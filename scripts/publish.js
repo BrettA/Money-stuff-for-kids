@@ -266,7 +266,10 @@ function escapeHtml(value) {
 if (require.main === module) {
   try {
     const checkOnly = process.argv.includes('--check');
-    const count = publish({ checkOnly });
+    const rootIndex = process.argv.indexOf('--root');
+    const root = rootIndex === -1 ? projectRoot : path.resolve(process.argv[rootIndex + 1]);
+    if (rootIndex !== -1 && !process.argv[rootIndex + 1]) throw new Error('--root requires a directory');
+    const count = publish({ checkOnly, root });
     console.log(checkOnly
       ? `Validated ${count} editions; generated archive and pages are current.`
       : `Published ${count} editions and rebuilt the homepage/archive.`);

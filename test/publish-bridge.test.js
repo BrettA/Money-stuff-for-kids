@@ -11,13 +11,17 @@ function stream(bytes) {
   return new ReadableStream({ start(controller) { controller.enqueue(bytes); controller.close(); } });
 }
 
-function fixture({ githubStatus = 204 } = {}) {
+function fixture({ githubStatus = 204, receiptExists = false, receiptSha = '6d7de7f4838fedddaf5c867d11b19693d70c45208afb3b316f9921a46263e4ce' } = {}) {
   const calls = { tokens: [], presigns: [], dispatches: [], deleted: [], puts: [] };
   const bytes = Buffer.from('completed package');
   const blob = {
     issueSignedToken: async options => { calls.tokens.push(options); return { delegationToken: 'd', clientSigningToken: 's' }; },
     presignUrl: async (_token, options) => { calls.presigns.push(options); return { presignedUrl: `https://private.example/${options.operation}` }; },
-    get: async () => ({ statusCode: 200, blob: { size: bytes.length }, stream: stream(bytes) }),
+    get: async target => target.startsWith('published-editions/')
+      ? (receiptExists
+          ? { statusCode: 200, blob: { size: 128 }, stream: stream(Buffer.from(JSON.stringify({ package_sha256: receiptSha }))) }
+          : null)
+      : ({ statusCode: 200, blob: { size: bytes.length }, stream: stream(bytes) }),
     put: async (...args) => { calls.puts.push(args); },
     del: async target => { calls.deleted.push(target); }
   };
@@ -60,6 +64,37 @@ test('hashes private Blob bytes and dispatches fixed repository workflow inputs'
   assert.equal(payload.inputs.package_sha256, result.data.package_sha256);
   assert.equal(payload.inputs.package_url, 'https://private.example/get');
   assert.equal(payload.inputs.package_delete_url, 'https://private.example/delete');
+  assert.equal(calls.puts[0][0], `published-editions/${editionId}/receipt.json`);
+});
+
+test('recognizes a repeated edition and digest without dispatching ingestion twice', async () => {
+  const { publish, calls } = fixture({ receiptExists: true });
+  const sha256 = '6d7de7f4838fedddaf5c867d11b19693d70c45208afb3b316f9921a46263e4ce';
+  const result = await publish({
+    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    body: { action: 'publish', edition_id: editionId, pathname, package_sha256: sha256 }
+  });
+  assert.equal(result.data.duplicate, true);
+  assert.equal(calls.dispatches.length, 0);
+  assert.deepEqual(calls.deleted, [pathname]);
+});
+
+test('refuses a different package after an edition receipt exists', async () => {
+  const { publish, calls } = fixture({ receiptExists: true, receiptSha: '0'.repeat(64) });
+  await assert.rejects(publish({
+    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    body: { action: 'publish', edition_id: editionId, pathname }
+  }), error => error.status === 409 && /different package digest/.test(error.message));
+  assert.equal(calls.dispatches.length, 0);
+});
+
+test('rejects a caller digest that does not match private Blob bytes', async () => {
+  const { publish, calls } = fixture();
+  await assert.rejects(publish({
+    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    body: { action: 'publish', edition_id: editionId, pathname, package_sha256: '0'.repeat(64) }
+  }), error => error.status === 409);
+  assert.equal(calls.dispatches.length, 0);
 });
 
 test('deletes a temporary direct upload when GitHub dispatch fails', async () => {

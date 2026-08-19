@@ -1,5 +1,7 @@
 # Money Stuff for Kids — V4
 
+The manual, server-side newsletter generation worker is configured and operated as described in [`docs/GENERATION_WORKER.md`](docs/GENERATION_WORKER.md). It stops at the existing reviewable ingestion pull request and does not send subscriber email or merge automatically.
+
 ## What changed
 - Backfilled all five Money Stuff emails currently in the project inbox (Aug 3, 10, 11, 12, 13, 2026).
 - Four live reading targets: Preschool, Elementary School, Middle School, High School.

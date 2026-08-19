@@ -77,14 +77,14 @@ The URL must use HTTPS and should expire shortly after dispatch. `package_sha256
 
 ## Vercel publishing bridge
 
-The machine-to-machine design is independent of ChatGPT Scheduled Tasks. Eventually a GitHub Actions worker will read the source email, generate and validate the four adaptations and story-specific illustrations, and build the completed ZIP. Gmail and model integration are intentionally **not** part of this transport-layer implementation. For now, `.github/workflows/submit-test-package.yml` is manually dispatched and submits the already-completed fixture in `examples/transport-test`.
+The machine-to-machine design is independent of ChatGPT Scheduled Tasks. The manual production worker reads the source email, generates and validates the four adaptations and story-specific illustrations, and builds the completed ZIP. Gmail and model integration remain separate from this transport layer. See [`docs/GENERATION_WORKER.md`](GENERATION_WORKER.md) for credential setup and the dry-run procedure. `.github/workflows/submit-test-package.yml` remains available to submit the completed fixture in `examples/transport-test`.
 
 ```text
 completed package -> manual GitHub worker -> authenticated Vercel Function
   -> private Vercel Blob -> ingest workflow -> reviewable PR -> human merge
 ```
 
-Neither workflow schedules generation, sends subscriber email, auto-merges, nor contains Gmail or OpenAI credentials.
+No workflow schedules generation, sends subscriber email, or auto-merges. Gmail and OpenAI credentials exist only as GitHub secrets used by the generation worker and are never passed into this bridge.
 
 ### 1. Connect the private Blob store
 
@@ -158,4 +158,4 @@ Small trusted callers may instead POST raw `application/zip` bytes with an `X-Ed
 - SHA-256 is computed from a server-authenticated read of the exact private Blob object. The GitHub workflow verifies it again.
 - If dispatch fails, the bridge deletes the object immediately. After dispatch, the ingestion workflow deletes it even when ingestion fails. Daily cleanup removes orphans after 24 hours.
 - Signed URLs grant one operation on one pathname and expire. The private Blob read/write token is never placed in a URL or dispatched to GitHub.
-- Repeatedly submitting the same edition may create competing deterministic branches; submit an edition once and inspect the workflow result before retrying.
+- After a successful dispatch, the bridge stores a small private receipt. Repeating the same edition ID and package SHA-256 is accepted without dispatching ingestion a second time; reusing that edition ID with different bytes is refused.

@@ -5,6 +5,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "generate-edition": "node scripts/money-stuff-worker.js",
     "new-edition": "node scripts/new-edition.js",
     "ingest": "python3 scripts/ingest-package.py",
     "publish": "node scripts/publish.js",
@@ -12,6 +13,9 @@
     "test": "node --test test/*.test.js"
   },
   "dependencies": {
-    "@vercel/blob": "2.8.0"
+    "@vercel/blob": "2.8.0",
+    "cheerio": "^1.1.2",
+    "openai": "^7.5.0",
+    "zod": "^4.4.3"
   }
 }
