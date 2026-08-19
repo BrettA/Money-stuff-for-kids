@@ -27,9 +27,14 @@ function assertNotSubmitted(state, gmailMessageId) {
   }
 }
 
-function recordGeneration(state, details) {
+function recordGeneration(state, details, { adminRetry = false } = {}) {
   const previous = state.messages[details.gmailMessageId];
-  if (previous && previous.submitted) throw new Error('Cannot replace a submitted worker state record');
+  if (previous && previous.submitted) {
+    if (!adminRetry) throw new Error('Cannot replace a submitted worker state record');
+    if (previous.editionId !== details.editionId) {
+      throw new Error(`Cannot replace submitted worker state for edition ${previous.editionId} with ${details.editionId}`);
+    }
+  }
   state.messages[details.gmailMessageId] = {
     gmailMessageId: details.gmailMessageId,
     newsletterDate: details.newsletterDate,
