@@ -163,7 +163,7 @@ async function main() {
     sourceSha256: sourceDigest(message.text),
     packageSha256: packaged.sha256,
     updatedAt: now
-  });
+  }, { adminRetry });
   if (submit) {
     const accepted = await submitPackage({
       bridgeUrl: env('PUBLISH_BRIDGE_URL'), token: env('PUBLISH_API_TOKEN'), editionId,
