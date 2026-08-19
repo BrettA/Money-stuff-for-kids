@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "messages": {
+    "1a01abdc7360b6b1": {
+      "gmailMessageId": "1a01abdc7360b6b1",
+      "newsletterDate": "2026-08-19",
+      "newsletterTitle": "Fwd: Money Stuff: The Situation Deteriorated",
+      "editionId": "2026-08-19-fwd-money-stuff-the-situation-deteriorated",
+      "sourceSha256": "27594965059541e78e7dfd70d6f52d157a04a2e920e393db1c682da8dee245d3",
+      "packageSha256": "eae30fdcd15e84a6071a7af68da883b26f10bb2e1f602b239da8bd093066bf2d",
+      "status": "generated",
+      "submitted": false,
+      "updatedAt": "2026-08-19T16:02:39.740Z"
+    }
+  }
+}
