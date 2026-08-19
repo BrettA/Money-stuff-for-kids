@@ -1,7 +1,9 @@
 const { createHash, randomUUID, timingSafeEqual } = require('node:crypto');
 
 const MAX_PACKAGE_BYTES = 25 * 1024 * 1024;
-const GET_URL_LIFETIME_MS = 60 * 60 * 1000;
+// Keep the download capability alive for the same bounded window as orphaned
+// packages so a failed Actions job can be re-run without regenerating content.
+const GET_URL_LIFETIME_MS = 24 * 60 * 60 * 1000;
 const DELETE_URL_LIFETIME_MS = 24 * 60 * 60 * 1000;
 const EDITION_ID = /^\d{4}-\d{2}-\d{2}-[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const TEMP_PREFIX = 'pending-editions/';

@@ -64,6 +64,10 @@ test('hashes private Blob bytes and dispatches fixed repository workflow inputs'
   assert.equal(payload.inputs.package_sha256, result.data.package_sha256);
   assert.equal(payload.inputs.package_url, 'https://private.example/get');
   assert.equal(payload.inputs.package_delete_url, 'https://private.example/delete');
+  const getToken = calls.tokens.find(call => call.operations[0] === 'get');
+  const deleteToken = calls.tokens.find(call => call.operations[0] === 'delete');
+  assert.equal(getToken.validUntil, Date.parse('2099-01-01T00:00:00Z'));
+  assert.equal(deleteToken.validUntil, getToken.validUntil);
   assert.equal(calls.puts[0][0], `published-editions/${editionId}/receipt.json`);
 });
 
