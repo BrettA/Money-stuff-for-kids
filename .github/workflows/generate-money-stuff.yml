@@ -75,7 +75,7 @@ jobs:
           else
             git worktree add --detach "$STATE_WORKTREE" HEAD
             git -C "$STATE_WORKTREE" switch --orphan automation-state
-            git -C "$STATE_WORKTREE" rm -rf .
+            git -C "$STATE_WORKTREE" rm -rf --ignore-unmatch .
             lease="--force-with-lease=refs/heads/automation-state:"
           fi
           cp "$WORKER_STATE_FILE" "$STATE_WORKTREE/money-stuff-worker-state.json"
