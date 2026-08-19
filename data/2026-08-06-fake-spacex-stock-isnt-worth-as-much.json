@@ -1,13 +1,21 @@
 {
+  "schemaVersion": 2,
   "id": "2026-08-06-fake-spacex-stock-isnt-worth-as-much",
   "date": "2026-08-06",
   "displayDate": "August 6, 2026",
   "title": "Fake SpaceX Stock Isn’t Worth as Much",
+  "sourceSections": [
+    "SPVs",
+    "OpenAI margin loan",
+    "Tick sizes",
+    "Leo’s back",
+    "Harvard consultants",
+    "Things happen"
+  ],
   "stories": [
     {
       "id": "spvs",
       "sourceSection": "SPVs",
-      "art": "/assets/2026-08-06/spvs.svg",
       "adaptations": {
         "preschool": {
           "title": "The Rocket Shares in the Locked Box",
@@ -52,12 +60,25 @@
             "This is a version of the ‘bezzle’: the period when both the investor and the fraudster can feel as though the money exists. A rising asset price can actually shorten that period because investors become eager to realize gains. The better SpaceX performs, the more urgently everyone wants the very shares that may never have been there."
           ]
         }
+      },
+      "illustration": {
+        "src": "/assets/2026-08-06/spvs.svg",
+        "alt": "Illustration for SPVs"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "openai-margin",
       "sourceSection": "OpenAI margin loan",
-      "art": "/assets/2026-08-06/openai-margin.svg",
       "adaptations": {
         "preschool": {
           "title": "Borrowing Money to Buy More of the Same Thing",
@@ -103,12 +124,25 @@
             "The reflexivity is obvious: SoftBank pledges OpenAI to borrow $10 billion and uses the proceeds to buy more OpenAI. A rising valuation supports more borrowing; a falling valuation weakens the collateral while simultaneously impairing the asset purchased with the loan."
           ]
         }
+      },
+      "illustration": {
+        "src": "/assets/2026-08-06/openai-margin.svg",
+        "alt": "Illustration for OpenAI margin loan"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "tick-sizes",
       "sourceSection": "Tick sizes",
-      "art": "/assets/2026-08-06/tick-sizes.svg",
       "adaptations": {
         "preschool": {
           "title": "The One-Penny Toll",
@@ -154,12 +188,25 @@
             "The comparison is deliberately simplified, but it captures an important market-structure point: product design determines the unit in which competition occurs, and that unit can determine how much revenue intermediaries can extract from apparently similar trading activity."
           ]
         }
+      },
+      "illustration": {
+        "src": "/assets/2026-08-06/tick-sizes.svg",
+        "alt": "Illustration for Tick sizes"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "leo-back",
       "sourceSection": "Leo’s back",
-      "art": "/assets/2026-08-06/leo-back.svg",
       "adaptations": {
         "preschool": {
           "title": "The Investor Who Got Right Back Up",
@@ -205,12 +252,25 @@
             "This is classic duration mismatch. A potentially correct ten-year view can still destroy a leveraged fund in ten days if the financing structure cannot survive the path."
           ]
         }
+      },
+      "illustration": {
+        "src": "/assets/2026-08-06/leo-back.svg",
+        "alt": "Illustration for Leo’s back"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "harvard-consultants",
       "sourceSection": "Harvard consultants",
-      "art": "/assets/2026-08-06/harvard-consultants.svg",
       "adaptations": {
         "preschool": {
           "title": "The Consulting Club That Paid in Parties",
@@ -258,6 +318,20 @@
             "The lavish parties—including a Newport event with a reptile petting zoo—make the surplus visible. A conventional firm would distribute more of that value as salary; HUCG can distribute some of it as status and snakes because demand for membership remains extremely high."
           ]
         }
+      },
+      "illustration": {
+        "src": "/assets/2026-08-06/harvard-consultants.svg",
+        "alt": "Illustration for Harvard consultants"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     }
   ]

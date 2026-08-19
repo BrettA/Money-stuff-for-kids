@@ -1,19 +1,26 @@
 {
+  "schemaVersion": 2,
   "id": "2026-08-10-the-situation-is-fine",
   "date": "2026-08-10",
   "displayDate": "August 10, 2026",
   "title": "The Situation Is Fine",
+  "sourceSections": [
+    "Situational Awareness",
+    "Intraday momentum",
+    "Tick sizes",
+    "Private equity boyfriends",
+    "Things happen"
+  ],
   "stories": [
     {
       "id": "blowup",
       "sourceSection": "Situational Awareness",
-      "art": "fire",
       "adaptations": {
         "preschool": {
           "title": "The Investor Who Lost Big and Got More Famous",
           "lesson": "A leveraged AI-focused hedge fund nearly blew up.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Investor Who Lost Big and Got More Famous.\u201d",
+            "Imagine a little money story called “The Investor Who Lost Big and Got More Famous.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -28,7 +35,7 @@
             "Imagine packing four pairs of shorts, two swimsuits and six pairs of sunglasses. You packed many things, but really you made one bet: it will be hot.",
             "Situational Awareness had done something similar with AI, and it had borrowed money to make the bets bigger. When the trades went wrong, it lost a huge amount and had to sell investments.",
             "On Wall Street, nearly blowing up your hedge fund is evidence something went wrong. In Silicon Valley, there is another possible reaction: Wow. This guy REALLY believes in AI.",
-            "Wall Street asks, \u201cHow much did you lose?\u201d Silicon Valley sometimes asks, \u201cYes, but how enormous was the dream?\u201d"
+            "Wall Street asks, “How much did you lose?” Silicon Valley sometimes asks, “Yes, but how enormous was the dream?”"
           ]
         },
         "middle": {
@@ -51,18 +58,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-10-the-situation-is-fine/blowup.svg",
+        "alt": "🔥 illustration for Situational Awareness"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "momentum",
       "sourceSection": "Intraday momentum",
-      "art": "runner",
       "adaptations": {
         "preschool": {
           "title": "The Price That Kept Running",
           "lesson": "Momentum means buying things that are already rising because you think they will keep rising.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Price That Kept Running.\u201d",
+            "Imagine a little money story called “The Price That Kept Running.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -99,18 +119,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-10-the-situation-is-fine/momentum.svg",
+        "alt": "🏃 illustration for Intraday momentum"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "ticks",
       "sourceSection": "Tick sizes",
-      "art": "stairs",
       "adaptations": {
         "preschool": {
           "title": "The Tiny Step That Wasn't So Tiny",
           "lesson": "Prediction contracts often trade between $0 and $1.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Tiny Step That Wasn't So Tiny.\u201d",
+            "Imagine a little money story called “The Tiny Step That Wasn't So Tiny.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -147,18 +180,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-10-the-situation-is-fine/ticks.svg",
+        "alt": "🪜 illustration for Tick sizes"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "pe-boyfriends",
       "sourceSection": "Private equity boyfriends",
-      "art": "bug",
       "adaptations": {
         "preschool": {
           "title": "The Very Exciting Pest-Control Investor",
           "lesson": "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Very Exciting Pest-Control Investor.\u201d",
+            "Imagine a little money story called “The Very Exciting Pest-Control Investor.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -196,6 +242,20 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-10-the-situation-is-fine/pe-boyfriends.svg",
+        "alt": "🐜 illustration for Private equity boyfriends"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     }
   ]

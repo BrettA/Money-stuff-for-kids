@@ -1,7 +1,271 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Fake SpaceX Stock Isn’t Worth as Much — Money Stuff for Kids</title><link rel="stylesheet" href="/styles.css"><script defer src="/app.js"></script></head><body>
-<header><a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a><div class="agebar"><span class="age-label">READING AGE</span><button class="age-pill" data-age="preschool">Preschool</button><button class="age-pill" data-age="elementary">Elementary School</button><button class="age-pill" data-age="middle">Middle School</button><button class="age-pill" data-age="high">High School</button></div></header><main>
-<a class="back" href="/">← All editions</a><div class="eyebrow">AUGUST 6, 2026 · MONEY STUFF EDITION</div><h1>Fake SpaceX Stock Isn’t Worth as Much</h1><p class="intro"><b class="current-age-label">Elementary School</b> edition.</p><div id="stories"></div>
-<section class="newsletter" id="newsletter"><div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div><h2>Get the next edition.</h2><p>Choose an age and we'll email that version when a new Money Stuff for Kids edition is published.</p><form id="signupForm" class="signup"><input required type="email" name="email" placeholder="you@example.com" autocomplete="email"><select required id="agePreference" name="agePreference"><option value="preschool">Preschool</option><option value="elementary">Elementary School</option><option value="middle">Middle School</option><option value="high">High School</option></select><input type="hidden" name="action" value="subscribe"><input type="hidden" name="_subject" value="Money Stuff for Kids signup"><input type="hidden" name="_template" value="table"><input type="text" name="_honey" style="display:none"><button type="submit">Subscribe</button></form><div id="signupStatus" class="status"></div><p class="form-note"><a href="/unsubscribe.html">Unsubscribe anytime.</a></p></section>
-<footer>Independent educational prototype inspired by Matt Levine's Money Stuff. Bloomberg and Money Stuff are not affiliated with this project.</footer></main>
-<script>document.addEventListener('DOMContentLoaded',async()=>{const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const d=await fetch('/data/2026-08-06-fake-spacex-stock-isnt-worth-as-much.json').then(r=>r.json());document.querySelector('#stories').innerHTML=d.stories.map((s,i)=>`<article class="story"><div class="art"><img src="${esc(s.art)}" alt="Illustration for ${esc(s.sourceSection)}" style="width:100%;height:auto;display:block;border-radius:18px"></div><div class="copy"><div class="num">STORY ${i+1}</div><div class="original">IN MATT'S ARTICLE: <b>${esc(s.sourceSection)}</b></div>${['preschool','elementary','middle','high'].map(age=>{const a=s.adaptations[age];return `<div data-age-copy="${age}"><h2>${esc(a.title)}</h2>${a.paragraphs.map(p=>`<p>${esc(p)}</p>`).join('')}${age==='elementary'?'':`<div class="lesson"><b>THE MONEY IDEA</b><br>${esc(a.lesson)}</div>`}</div>`}).join('')}</div></article>`).join('');setAge(localStorage.getItem('msfk-age')||'elementary')});</script></body></html>
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fake SpaceX Stock Isn’t Worth as Much — Money Stuff for Kids</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <header>
+    <a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
+    <div class="agebar">
+      <span class="age-label">READING AGE</span>
+        <button class="age-pill" data-age="preschool">Preschool</button>
+        <button class="age-pill" data-age="elementary">Elementary School</button>
+        <button class="age-pill" data-age="middle">Middle School</button>
+        <button class="age-pill" data-age="high">High School</button>
+    </div>
+  </header>
+  <main>
+    <a class="back" href="/">← All editions</a>
+    <div class="eyebrow">AUGUST 6, 2026 · MONEY STUFF EDITION</div>
+    <h1>Fake SpaceX Stock Isn’t Worth as Much</h1>
+    <p class="intro"><b class="current-age-label">Elementary School</b> edition.</p>
+    <article class="story">
+      <div class="art">
+        <img src="/assets/2026-08-06/spvs.svg" alt="Illustration for SPVs">
+      </div>
+      <div class="copy">
+        <div class="num">STORY 1</div>
+        <div class="original">IN MATT'S ARTICLE: <b>SPVs</b></div>
+        <div data-age-copy="preschool">
+          <h2>The Rocket Shares in the Locked Box</h2>
+          <p>Some people wanted to own a little piece of SpaceX before its stock could be freely traded.</p>
+          <p>So they gave money to special little companies that said, ‘We own SpaceX shares for you.’</p>
+          <p>For a while, the real shares were locked up and could not be handed over. Investors mostly had statements saying what they owned.</p>
+          <p>When the lock finally opened, some people could ask, ‘Okay, may I have my shares now?’ That is when a pretend promise becomes much harder to hide.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>If you buy something through a middleman, you need a way to check that the middleman really owns it.</div>
+        </div>
+        <div data-age-copy="elementary">
+          <h2>The SpaceX Shares That Might Not Be There</h2>
+          <p>For years, SpaceX was private, so ordinary investors could not simply open an app and buy its stock. One workaround was an SPV, or special purpose vehicle: a small fund that bought SpaceX shares and then sold investors pieces of the fund.</p>
+          <p>That sounds straightforward. The SPV owns the SpaceX shares; you own part of the SPV; therefore you indirectly own some SpaceX.</p>
+          <p>Except there is an awkward question: what if the SPV does not own as many SpaceX shares as it says? It could take $10 million from investors, buy only $1 million of shares and somehow discover an urgent need for $9 million worth of yachts.</p>
+          <p>Before SpaceX went public, checking was difficult because the shares were private and often could not be transferred. Even after the IPO, early shares were locked up for a while. An investor could mostly see an account statement and hope the statement corresponded to something real.</p>
+          <p>The Wall Street Journal wrote about investor Ram Rupireddy, who put money into a Late Stage Management fund tied to SpaceX. His portal later showed what he believed was a very valuable SpaceX position, but the firm told him the underlying shares had actually been sold years earlier. Late Stage did not respond to the Journal’s requests for comment.</p>
+          <p>Now the first SpaceX lockups are ending. That creates a wonderfully simple audit procedure: investors can ask for the shares or the cash.</p>
+          <p>If the answer is ‘Of course, here they are,’ great. If the answer is ‘Sorry, you’re breaking up, I’m in a tunnel, what is SpaceX?’ the accounting has become more exciting than anyone wanted.</p>
+        </div>
+        <div data-age-copy="middle">
+          <h2>The Lockup Becomes an Audit</h2>
+          <p>SPVs let investors get indirect exposure to private companies such as SpaceX. The structure is simple in theory: the vehicle owns a fixed number of company shares, and investors own proportional interests in the vehicle.</p>
+          <p>The weakness is verification. A dishonest promoter could fail to buy the shares at all, or sell claims on more shares than the SPV owns. While the underlying stock is private and transfer-restricted, investors may have little beyond the promoter’s statements and ledgers.</p>
+          <p>SpaceX’s IPO and subsequent lockup expiration change that. Once the underlying shares can be distributed or sold, investors can demand delivery or cash. A long period of unverifiable bookkeeping suddenly meets a hard settlement test.</p>
+          <p>That is why a successful company can expose fraud rather than conceal it: soaring values encourage investors to ask for their supposed winnings. Matt Levine’s joke is that the tide does not always reveal the fraud when markets crash; sometimes the problem appears when everyone tries to collect the fabulous profits.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>Illiquid assets create verification risk because investors may have only an intermediary’s records until the assets can actually be transferred.</div>
+        </div>
+        <div data-age-copy="high">
+          <h2>SPVs, Transferability and the Bezzle</h2>
+          <p>A private-company SPV separates beneficial ownership from the issuer’s shareholder ledger. Investors own interests in the vehicle, while the vehicle is supposed to own the underlying SpaceX shares. That creates two obvious fraud opportunities: the vehicle may not own the stated shares, or it may issue more economic claims than its actual position can support.</p>
+          <p>Transfer restrictions make those claims unusually difficult to verify. Before an IPO—and often during a post-IPO lockup—an investor cannot simply demand delivery into a brokerage account. The promoter’s statement can therefore function as the evidence of ownership even when the evidence is wrong.</p>
+          <p>SpaceX’s lockup release converts that information problem into a settlement problem. Investors can ask for their pro-rata shares or sale proceeds. A legitimate SPV can perform; an over-issued or fictitious one cannot.</p>
+          <p>This is a version of the ‘bezzle’: the period when both the investor and the fraudster can feel as though the money exists. A rising asset price can actually shorten that period because investors become eager to realize gains. The better SpaceX performs, the more urgently everyone wants the very shares that may never have been there.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>When an investment is difficult to transfer, intermediary records can substitute for settlement for years; a liquidity event turns that soft claim into a hard test.</div>
+        </div>
+      </div>
+    </article>
+    <article class="story">
+      <div class="art">
+        <img src="/assets/2026-08-06/openai-margin.svg" alt="Illustration for OpenAI margin loan">
+      </div>
+      <div class="copy">
+        <div class="num">STORY 2</div>
+        <div class="original">IN MATT'S ARTICLE: <b>OpenAI margin loan</b></div>
+        <div data-age-copy="preschool">
+          <h2>Borrowing Money to Buy More of the Same Thing</h2>
+          <p>SoftBank owned a very valuable investment in OpenAI.</p>
+          <p>A group of banks said, ‘We will lend you money because you can promise those OpenAI shares as backup.’</p>
+          <p>SoftBank borrowed a lot of money—and planned to use that money to buy even more OpenAI.</p>
+          <p>So the pile of OpenAI helped pay for a bigger pile of OpenAI.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>A loan can use an investment as collateral, but if that investment falls in value the borrower may need to add more money.</div>
+        </div>
+        <div data-age-copy="elementary">
+          <h2>Use OpenAI to Buy More OpenAI</h2>
+          <p>SoftBank really likes OpenAI. It agreed to invest about $30 billion in the company.</p>
+          <p>It also had a small financing question: where should some of that money come from?</p>
+          <p>Answer: OpenAI.</p>
+          <p>SoftBank used its existing OpenAI stake as collateral for a $10 billion loan from banks. Then that cash helps SoftBank buy another $10 billion of OpenAI shares.</p>
+          <p>This is called a margin loan. With a public stock, a bank can watch the price every second and demand more collateral if the stock falls. OpenAI is private, so there is no blinking stock price on a screen, which makes the bank’s job stranger. The deal still requires SoftBank to add cash if OpenAI’s valuation falls enough.</p>
+          <p>Normally banks are cautious about lending huge sums against shares of young, money-losing private companies. But OpenAI is so valuable—and so much other financing already depends on the AI boom—that Wall Street is increasingly willing to treat its equity as something you can borrow against.</p>
+          <p>The neat circular sentence is: SoftBank is borrowing against OpenAI to buy more OpenAI.</p>
+          <p>If OpenAI keeps becoming more valuable, that looks clever. If OpenAI’s value collapses, the collateral and the thing SoftBank spent the borrowed money on both have the same problem at the same time.</p>
+        </div>
+        <div data-age-copy="middle">
+          <h2>A $10 Billion Private-Stock Margin Loan</h2>
+          <p>SoftBank borrowed $10 billion from a bank group against its OpenAI stake while preparing to invest another $10 billion in OpenAI, part of a roughly $30 billion commitment.</p>
+          <p>That is a margin loan: the borrower pledges shares as collateral and may have to add cash if their value falls. The unusual part is that OpenAI is private and unprofitable, so lenders cannot continuously observe a public market price or easily sell the collateral.</p>
+          <p>The transaction fits a broader AI-finance pattern. Data-center loans and other structures increasingly rely, directly or indirectly, on the enormous market-implied value of OpenAI and Anthropic. Equity valuations are becoming raw material for debt.</p>
+          <p>SoftBank’s trade is therefore both simple and concentrated: turn OpenAI equity into cash, then turn the cash back into OpenAI equity. The same thesis supports the collateral, the borrowing capacity and the new purchase.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>Collateral can turn equity value into borrowing capacity, but concentrated borrowing magnifies exposure when the collateral and the new investment are the same asset.</div>
+        </div>
+        <div data-age-copy="high">
+          <h2>Equity Value as Debt Capacity</h2>
+          <p>SoftBank’s $10 billion loan against its OpenAI stake is economically familiar—a margin loan—but unusual in scale and collateral. Public-stock margin lending relies on observable prices and liquid collateral; OpenAI is private, loss-making and not continuously marked by a market.</p>
+          <p>The facility nevertheless includes a requirement for SoftBank to inject additional cash if OpenAI’s valuation declines. That means the banks have effectively underwritten both a valuation methodology and SoftBank’s ability to meet a future collateral call.</p>
+          <p>The larger point is that enormous AI equity valuations are increasingly functioning as debt capacity even when the companies themselves have little traditional corporate debt. Data-center obligations, guarantees and now direct loans against equity all translate expected future AI cash flows into present financing.</p>
+          <p>The reflexivity is obvious: SoftBank pledges OpenAI to borrow $10 billion and uses the proceeds to buy more OpenAI. A rising valuation supports more borrowing; a falling valuation weakens the collateral while simultaneously impairing the asset purchased with the loan.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>A private-company margin loan monetizes equity value without selling it, but valuation opacity and correlated collateral make the leverage unusually reflexive.</div>
+        </div>
+      </div>
+    </article>
+    <article class="story">
+      <div class="art">
+        <img src="/assets/2026-08-06/tick-sizes.svg" alt="Illustration for Tick sizes">
+      </div>
+      <div class="copy">
+        <div class="num">STORY 3</div>
+        <div class="original">IN MATT'S ARTICLE: <b>Tick sizes</b></div>
+        <div data-age-copy="preschool">
+          <h2>The One-Penny Toll</h2>
+          <p>Imagine two roads that both charge a one-penny toll.</p>
+          <p>One road carries something worth about $100. The penny is almost nothing.</p>
+          <p>The other road carries something worth about 50 cents. Now the same penny is a much bigger bite.</p>
+          <p>That helps explain why little prediction-market contracts can be surprisingly profitable to trade.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>A penny fee feels tiny on a big trade and much bigger on a fifty-cent trade.</div>
+        </div>
+        <div data-age-copy="elementary">
+          <h2>Why a Penny Is Huge in Prediction Markets</h2>
+          <p>Prediction-market contracts are tiny. A typical contract pays either $1 or $0, and across Yes and No contracts the average price is roughly 50 cents.</p>
+          <p>But prices usually move in one-cent steps.</p>
+          <p>One cent on a 50-cent contract is 2%. That is a pretty chunky step.</p>
+          <p>Stocks also commonly move in one-cent steps, but a normal stock might cost around $100 or $150. One cent compared with $150 is almost invisible.</p>
+          <p>This matters because the gap between what buyers pay and sellers receive—the bid-ask spread—is where market makers and brokers can earn money.</p>
+          <p>Robinhood reported that customers traded about $956 billion of stocks and 13.6 billion event contracts. Yet Robinhood made $129 million of transaction revenue from stocks and $156 million from event contracts.</p>
+          <p>So a much smaller pile of prediction-market trading produced more transaction revenue than the enormous pile of stock trading.</p>
+          <p>Matt Levine’s wonderfully small explanation is: pennies are much bigger when the thing itself costs only fifty cents.</p>
+        </div>
+        <div data-age-copy="middle">
+          <h2>Prediction Markets Have Giant Pennies</h2>
+          <p>A binary event contract pays $1 or $0 and has an average price around $0.50. With a minimum price increment of $0.01, one tick is roughly 2% of the contract’s value.</p>
+          <p>For a stock priced around $150, the same one-cent tick is only about 0.007%. That gives market makers much more economic room per dollar traded in event contracts.</p>
+          <p>Robinhood’s results illustrate the point. Customers traded vastly more stock value than event-contract value, yet event contracts generated more transaction-based revenue: about $156 million versus $129 million for stocks.</p>
+          <p>There are other differences between the businesses, but relative tick size gives a simple reason brokers and market makers are enthusiastic about prediction markets: a penny-wide economics can be enormous when the underlying instrument is tiny.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>Tick size relative to notional value helps explain why prediction-market volume can be unusually lucrative for intermediaries.</div>
+        </div>
+        <div data-age-copy="high">
+          <h2>Tick Size Is Market Structure</h2>
+          <p>Binary event contracts have $1 terminal notional and an average trading price near $0.50. A $0.01 tick is therefore roughly 200 basis points of price. For a $150 equity, the same penny is less than one basis point.</p>
+          <p>A coarse tick can keep quoted spreads wider than pure competition might otherwise produce, creating more economic surplus for liquidity providers and brokers. Decimalization did the reverse for equities by shrinking spreads dramatically.</p>
+          <p>Robinhood’s reported economics are striking: roughly $956 billion of stock trading generated about $129 million of transaction revenue, while 13.6 billion event contracts generated about $156 million. Levine approximates the broker’s take as one penny per $100 stock trade versus one penny per $1 event contract.</p>
+          <p>The comparison is deliberately simplified, but it captures an important market-structure point: product design determines the unit in which competition occurs, and that unit can determine how much revenue intermediaries can extract from apparently similar trading activity.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>Minimum price increments set a floor under spread economics, so identical nominal ticks can produce radically different intermediation rents across asset classes.</div>
+        </div>
+      </div>
+    </article>
+    <article class="story">
+      <div class="art">
+        <img src="/assets/2026-08-06/leo-back.svg" alt="Illustration for Leo’s back">
+      </div>
+      <div class="copy">
+        <div class="num">STORY 4</div>
+        <div class="original">IN MATT'S ARTICLE: <b>Leo’s back</b></div>
+        <div data-age-copy="preschool">
+          <h2>The Investor Who Got Right Back Up</h2>
+          <p>Leopold liked investing in artificial-intelligence companies very, very much.</p>
+          <p>His hedge fund borrowed lots of money, and lenders demanded it back when markets moved against him.</p>
+          <p>That nearly wrecked the fund.</p>
+          <p>A few days later, he was investing in AI again—this time without giving up on the big idea just because the risky borrowing had gone wrong.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>A good idea can still go badly if you borrow too much money to pursue it.</div>
+        </div>
+        <div data-age-copy="elementary">
+          <h2>The AI Investor Who Apparently Does Not Take Weekends Off</h2>
+          <p>Leopold Aschenbrenner built an investment firm called Situational Awareness around a giant idea: artificial intelligence is advancing faster, and will matter more, than most people realize.</p>
+          <p>He may be right about that!</p>
+          <p>But his hedge fund also used a lot of borrowed money. When its public investments fell, lenders made margin calls—demands for cash or collateral. The fund nearly collapsed, and much of its public portfolio ended up being taken over by Citadel.</p>
+          <p>This suggests a useful distinction: ‘AI will be huge’ is an investment idea. ‘I should borrow enormous amounts of money that lenders can demand back at the worst possible moment’ is a financing idea. The first can be right while the second is disastrous.</p>
+          <p>So what did Leopold do after the near-collapse? He reportedly invested $400 million in another private company.</p>
+          <p>Also, he got married that weekend.</p>
+          <p>Some people might respond to losing tens of billions of dollars of investor value and getting married by taking several days off. Leopold’s apparent response was: the AI future is still arriving; why are we wasting time?</p>
+          <p>The new version of the strategy seems to be less borrowed-money fragility, but still very much full speed ahead on AI.</p>
+        </div>
+        <div data-age-copy="middle">
+          <h2>Right Thesis, Wrong Funding</h2>
+          <p>Leopold Aschenbrenner’s Situational Awareness was built around a bullish AI thesis, but its public hedge-fund portfolio used substantial leverage. When prices moved against it, margin calls forced a crisis and much of the portfolio was transferred to Citadel.</p>
+          <p>That failure does not logically disprove the underlying AI thesis. It shows a maturity mismatch: a long-horizon conviction was financed with borrowing that could be called on a short horizon.</p>
+          <p>Days later, Aschenbrenner reportedly invested $400 million in a private company, signaling that he had not abandoned the AI view. He also got married over the weekend, which gives the story its absurd velocity.</p>
+          <p>The cleaner version of the strategy is therefore not ‘stop believing in AI’; it is ‘do not finance a volatile, long-duration thesis with leverage that can force liquidation before the thesis has time to play out.’</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>Investment selection and capital structure are separate decisions: a long-run thesis can be sound while leverage makes the portfolio unable to survive short-run volatility.</div>
+        </div>
+        <div data-age-copy="high">
+          <h2>Duration Mismatch in an AI Hedge Fund</h2>
+          <p>Situational Awareness’s near-collapse illustrates the difference between asset risk and funding risk. Aschenbrenner’s thesis was that AI assets would compound dramatically over time; the hedge fund financed public positions with leverage subject to margin calls today.</p>
+          <p>When collateral values fell, lenders did not need to wait for the AI thesis to resolve. They could demand cash or seize positions, forcing the portfolio to crystallize losses and transferring much of it to Citadel.</p>
+          <p>Aschenbrenner’s reported $400 million private investment days later is consistent with separating those two judgments: remain highly bullish on AI, but shift toward capital that cannot be called away on a daily mark.</p>
+          <p>This is classic duration mismatch. A potentially correct ten-year view can still destroy a leveraged fund in ten days if the financing structure cannot survive the path.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>Leverage can transform a long-duration investment thesis into a short-duration solvency problem.</div>
+        </div>
+      </div>
+    </article>
+    <article class="story">
+      <div class="art">
+        <img src="/assets/2026-08-06/harvard-consultants.svg" alt="Illustration for Harvard consultants">
+      </div>
+      <div class="copy">
+        <div class="num">STORY 5</div>
+        <div class="original">IN MATT'S ARTICLE: <b>Harvard consultants</b></div>
+        <div data-age-copy="preschool">
+          <h2>The Consulting Club That Paid in Parties</h2>
+          <p>A Harvard student club did consulting work for big companies.</p>
+          <p>The companies paid the club, but the student consultants did not get salaries.</p>
+          <p>Lots of students still wanted to join because the club could help them get fancy jobs later.</p>
+          <p>And the club threw very fancy parties—including one with snakes.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>A group can make money from people’s work even if the workers are paid in something other than cash.</div>
+        </div>
+        <div data-age-copy="elementary">
+          <h2>Would You Like Your Consulting Salary in Snakes?</h2>
+          <p>Professional consulting firms hire smart college graduates, send them to companies, have them make presentations about business problems, and pay them good salaries.</p>
+          <p>The Harvard Undergraduate Consulting Group found an economical variation: use Harvard students before they graduate.</p>
+          <p>The club worked on more than 30 assignments in a year for companies including AstraZeneca, Delta Air Lines and Samsung. Since 2017 it has brought in almost $7 million of revenue, and its net assets reached more than $2.7 million.</p>
+          <p>How much did the student consultants earn for doing the work?</p>
+          <p>Zero dollars in salary.</p>
+          <p>This did not make the club unpopular. About 450 students applied in a semester and roughly 10% got in, because consulting experience and a prestigious club can help people compete for six-figure jobs after graduation.</p>
+          <p>So if the club earns millions and does not pay wages, where does some of the money go? Among other things: parties.</p>
+          <p>One celebration at a Newport estate had a fancy dinner, a bar, a fire pit, bouquet-making—and an exotic petting zoo with pythons.</p>
+          <p>Matt Levine says he is old-fashioned and would prefer to be paid for work in cash rather than parties with snakes.</p>
+          <p>The students, apparently, have discovered a different compensation package.</p>
+        </div>
+        <div data-age-copy="middle">
+          <h2>The $0-Salary Consulting Firm</h2>
+          <p>Harvard Undergraduate Consulting Group performs real projects for major corporations, including AstraZeneca, Delta and Samsung. Public filings show almost $7 million of revenue since 2017 and more than $2.7 million of net assets as of mid-2025.</p>
+          <p>Yet the student consultants are unpaid. Economically, the club can do this because membership itself is scarce and valuable: hundreds apply, about 10% are admitted, and the experience closely imitates the recruiting process for lucrative professional consulting jobs.</p>
+          <p>The students are therefore receiving non-cash compensation—prestige, training, networking and a credential that may improve future earnings. The club retains cash that a normal consultancy would spend on junior salaries.</p>
+          <p>Some of that surplus funds unusually lavish social events, including a Newport party with an open bar, dinner and a reptile petting zoo. The joke writes itself: a consulting firm discovered that its labor force may accept pythons instead of payroll.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>Labor can be compensated through credentials, networks and future career options, letting prestigious organizations capture revenue while paying little current cash compensation.</div>
+        </div>
+        <div data-age-copy="high">
+          <h2>Prestige as Compensation</h2>
+          <p>HUCG resembles a consulting firm on the revenue side and a selective student organization on the labor-cost side. It has served large corporate clients and accumulated millions in revenue and net assets while paying its student consultants no salary.</p>
+          <p>The apparent arbitrage depends on prestige. Admission is competitive, the work imitates professional consulting, and membership can signal ability to employers offering six-figure starting compensation. Students may therefore treat unpaid project work as an investment in human capital and career option value.</p>
+          <p>That does not mean the labor is economically free. The cost is borne by students in time and foregone alternatives, while the club captures the cash revenue. The unusual institutional setting simply converts compensation from wages into credentials, networks, training and social consumption.</p>
+          <p>The lavish parties—including a Newport event with a reptile petting zoo—make the surplus visible. A conventional firm would distribute more of that value as salary; HUCG can distribute some of it as status and snakes because demand for membership remains extremely high.</p>
+          <div class="lesson"><b>THE MONEY IDEA</b><br>When a credential has enough option value, workers may rationally accept low current wages, allowing an institution to monetize labor while transferring compensation into future career prospects.</div>
+        </div>
+      </div>
+    </article>
+    <section class="newsletter" id="newsletter">
+      <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
+      <h2>Get the next edition.</h2>
+      <p>Choose an age and we'll email that version when a new Money Stuff for Kids edition is published.</p>
+      <form id="signupForm" class="signup">
+        <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
+        <select required id="agePreference" name="agePreference">
+          <option value="preschool">Preschool</option>
+          <option value="elementary">Elementary School</option>
+          <option value="middle">Middle School</option>
+          <option value="high">High School</option>
+        </select>
+        <input type="hidden" name="action" value="subscribe">
+        <input type="hidden" name="_subject" value="Money Stuff for Kids signup">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="signupStatus" class="status"></div>
+      <p class="form-note">Unsubscribe anytime.</p>
+    </section>
+    <footer>Independent educational prototype inspired by Matt Levine's Money Stuff. Bloomberg and Money Stuff are not affiliated with this project.</footer>
+  </main>
+</body>
+</html>

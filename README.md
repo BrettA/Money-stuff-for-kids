@@ -27,3 +27,7 @@ Removed internal/prototype notes, source-ingestion explanations, edition story c
 Elementary School has been rewritten from the source stories rather than from abstract finance summaries.
 Primary goal: preserve the actual Money Stuff story, joke, people, companies, and absurdity at an elementary reading level.
 Explicit lesson boxes are omitted from Elementary.
+
+## Publishing new editions
+
+The repeatable, repository-owned workflow is documented in [`docs/PUBLISHING.md`](docs/PUBLISHING.md). Start with an edition section inventory, scaffold it with `npm run new-edition`, write and review all four adaptations and story-specific illustrations, then run `npm run publish`. The publisher automatically rebuilds the archive, homepage, and edition pages; `npm run check` verifies both the editorial contract and generated files.

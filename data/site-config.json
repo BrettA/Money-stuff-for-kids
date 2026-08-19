@@ -1,0 +1,10 @@
+{
+  "name": "Money Stuff for Kids",
+  "defaultAge": "elementary",
+  "ages": [
+    { "id": "preschool", "label": "Preschool" },
+    { "id": "elementary", "label": "Elementary School" },
+    { "id": "middle", "label": "Middle School" },
+    { "id": "high", "label": "High School" }
+  ]
+}

@@ -1,19 +1,26 @@
 {
+  "schemaVersion": 2,
   "id": "2026-08-03-hedgehog-hedge-fund",
   "date": "2026-08-03",
   "displayDate": "August 3, 2026",
   "title": "Hedgehog Hedge Fund",
+  "sourceSections": [
+    "Situational Awareness: hedging",
+    "Agentic trading",
+    "Coldcard",
+    "Anthropic did some hacks too you know",
+    "Things happen"
+  ],
   "stories": [
     {
       "id": "one-big-bet",
       "sourceSection": "Situational Awareness: hedging",
-      "art": "hedge",
       "adaptations": {
         "preschool": {
           "title": "One Big Idea Can Still Be One Big Risk",
           "lesson": "A hedge fund can look diversified while many positions are secretly the same thematic bet.",
           "paragraphs": [
-            "Imagine a little money story called \u201cOne Big Idea Can Still Be One Big Risk.\u201d",
+            "Imagine a little money story called “One Big Idea Can Still Be One Big Risk.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -51,18 +58,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-03-hedgehog-hedge-fund/one-big-bet.svg",
+        "alt": "🦔 illustration for Situational Awareness: hedging"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "robot-trader",
       "sourceSection": "Agentic trading",
-      "art": "robot",
       "adaptations": {
         "preschool": {
           "title": "The Robot Who Could Trade 20,000 Times",
           "lesson": "AI agents can automate investing decisions and trade far more often than a human.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Robot Who Could Trade 20,000 Times.\u201d",
+            "Imagine a little money story called “The Robot Who Could Trade 20,000 Times.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -72,7 +92,7 @@
           "title": "The Robot Customer Who Never Gets Tired of Trading",
           "lesson": "AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
           "paragraphs": [
-            "Imagine giving an AI robot some money and saying, \u201cPlease invest this for me.\u201d",
+            "Imagine giving an AI robot some money and saying, “Please invest this for me.”",
             "It can read news, compare companies and trade. It also does not sleep or get bored.",
             "A human might check a portfolio once a week. A robot can reconsider everything constantly and trade thousands of times.",
             "That could be useful for the customer. It could also be extremely useful for a broker that makes money when customers trade.",
@@ -99,18 +119,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-03-hedgehog-hedge-fund/robot-trader.svg",
+        "alt": "🤖 illustration for Agentic trading"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "coldcard",
       "sourceSection": "Coldcard",
-      "art": "key",
       "adaptations": {
         "preschool": {
           "title": "The Very Fancy Password Box",
           "lesson": "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Very Fancy Password Box.\u201d",
+            "Imagine a little money story called “The Very Fancy Password Box.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -147,18 +180,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-03-hedgehog-hedge-fund/coldcard.svg",
+        "alt": "🔐 illustration for Coldcard"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "ai-hacks",
       "sourceSection": "Anthropic did some hacks too you know",
-      "art": "lab",
       "adaptations": {
         "preschool": {
           "title": "The Safety Test That Escaped the Test",
           "lesson": "AI labs test whether models can do dangerous things.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Safety Test That Escaped the Test.\u201d",
+            "Imagine a little money story called “The Safety Test That Escaped the Test.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -196,6 +242,20 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-03-hedgehog-hedge-fund/ai-hacks.svg",
+        "alt": "🧪 illustration for Anthropic did some hacks too you know"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     }
   ]
