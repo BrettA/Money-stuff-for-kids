@@ -49,6 +49,7 @@ function retryRequested(environment = process.env) {
   }
   if (!environment.GMAIL_MESSAGE_ID) throw new Error('admin retry requires an explicit Gmail message ID');
   if (environment.SUBMIT !== 'true') throw new Error('admin retry requires submission');
+  if (!environment.ADMIN_RETRY_TOKEN) throw new Error('admin retry authorization is missing');
   return true;
 }
 
@@ -60,6 +61,7 @@ async function main() {
   for (const name of REQUIRED) env(name);
   const submit = process.env.SUBMIT === 'true';
   const adminRetry = retryRequested();
+  if (adminRetry) env('ADMIN_RETRY_TOKEN');
   if (submit) {
     env('PUBLISH_API_TOKEN');
     env('PUBLISH_BRIDGE_URL');
@@ -157,7 +159,8 @@ async function main() {
   if (submit) {
     const accepted = await submitPackage({
       bridgeUrl: env('PUBLISH_BRIDGE_URL'), token: env('PUBLISH_API_TOKEN'), editionId,
-      archive: packaged.archive, sha256: packaged.sha256, adminRetry
+      archive: packaged.archive, sha256: packaged.sha256, adminRetry,
+      adminRetryToken: adminRetry ? env('ADMIN_RETRY_TOKEN') : ''
     });
     recordSubmission(state, messageId, { packageSha256: accepted.package_sha256, updatedAt: new Date().toISOString() });
   }

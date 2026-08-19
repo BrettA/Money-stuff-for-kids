@@ -42,11 +42,17 @@ test('manual retry input defaults off and requires an explicit message and submi
   const contents = fs.readFileSync(workflow, 'utf8');
   assert.match(contents, /admin_retry:[\s\S]*?default: false/);
   assert.match(contents, /if: \$\{\{ inputs\.admin_retry \}\}/);
+  assert.match(contents, /ADMIN_RETRY_TOKEN: \$\{\{ inputs\.admin_retry && secrets\.ADMIN_RETRY_TOKEN \|\| '' \}\}/);
   assert.equal(retryRequested({ ADMIN_RETRY: 'false' }), false);
-  assert.throws(() => retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'push', GMAIL_MESSAGE_ID: 'id', SUBMIT: 'true' }), /workflow_dispatch/);
-  assert.throws(() => retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'workflow_dispatch', SUBMIT: 'true' }), /Gmail message ID/);
-  assert.throws(() => retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'workflow_dispatch', GMAIL_MESSAGE_ID: 'id', SUBMIT: 'false' }), /submission/);
-  assert.equal(retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'workflow_dispatch', GMAIL_MESSAGE_ID: 'id', SUBMIT: 'true' }), true);
+  const authorized = {
+    ADMIN_RETRY: 'true', ADMIN_RETRY_TOKEN: 'admin-secret', GITHUB_EVENT_NAME: 'workflow_dispatch',
+    GMAIL_MESSAGE_ID: 'id', SUBMIT: 'true'
+  };
+  assert.throws(() => retryRequested({ ...authorized, GITHUB_EVENT_NAME: 'push' }), /workflow_dispatch/);
+  assert.throws(() => retryRequested({ ...authorized, GMAIL_MESSAGE_ID: '' }), /Gmail message ID/);
+  assert.throws(() => retryRequested({ ...authorized, SUBMIT: 'false' }), /submission/);
+  assert.throws(() => retryRequested({ ...authorized, ADMIN_RETRY_TOKEN: '' }), /authorization/);
+  assert.equal(retryRequested(authorized), true);
   const submitted = { messages: { id: { submitted: true } } };
   assert.throws(() => assertMessageEligible(submitted, 'id', false), /already submitted/);
   assert.doesNotThrow(() => assertMessageEligible(submitted, 'id', true));

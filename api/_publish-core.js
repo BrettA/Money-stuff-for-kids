@@ -97,7 +97,7 @@ async function dispatchIngest(fetchImpl, githubToken, { editionId, packageUrl, s
 }
 
 function createPublisher({ blob, fetchImpl = fetch, now = () => Date.now(), uuid = randomUUID, env = process.env }) {
-  return async function publish({ authorization, contentType, body }) {
+  return async function publish({ authorization, adminRetryAuthorization, contentType, body }) {
     if (!authorized(authorization, env.PUBLISH_API_TOKEN)) throw new RequestError(401, 'unauthorized');
     if (!env.GITHUB_INGEST_TOKEN) throw new Error('GITHUB_INGEST_TOKEN is not configured');
 
@@ -144,6 +144,9 @@ function createPublisher({ blob, fetchImpl = fetch, now = () => Date.now(), uuid
       }
       if (body.package_sha256 !== undefined && !/^[0-9a-f]{64}$/.test(body.package_sha256)) {
         throw new RequestError(400, 'package_sha256 must be 64 lowercase hexadecimal characters');
+      }
+      if (body.admin_retry === true && !authorized(adminRetryAuthorization, env.ADMIN_RETRY_TOKEN)) {
+        throw new RequestError(403, 'admin retry unauthorized');
       }
       return finalize(body.pathname, editionId, body.package_sha256, body.admin_retry === true);
     }

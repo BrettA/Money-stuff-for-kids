@@ -106,6 +106,7 @@ Set these Vercel environment variables for Production and Preview as appropriate
 | --- | --- |
 | `BLOB_READ_WRITE_TOKEN` | Existing private Vercel Blob store read/write credential. |
 | `PUBLISH_API_TOKEN` | Authenticates the GitHub caller to `/api/publish-edition`; use the same value in the GitHub secret below. |
+| `ADMIN_RETRY_TOKEN` | Separately authorizes the exceptional replacement of an existing receipt; use the same independent value in the GitHub secret below. |
 | `GITHUB_INGEST_TOKEN` | Fine-grained GitHub PAT used only by the server to dispatch `ingest-edition.yml` in `BrettA/Money-stuff-for-kids`. Grant repository access only to this repository and Actions **write** permission. |
 | `CRON_SECRET` | Authenticates Vercel's daily cleanup request. Vercel sends it as `Authorization: Bearer ...`. |
 
@@ -116,7 +117,8 @@ Redeploy after adding or rotating variables. Never put any values in `vercel.jso
 In **Settings -> Secrets and variables -> Actions** add:
 
 1. Repository **secret** `PUBLISH_API_TOKEN`, equal to the Vercel value.
-2. Repository **variable** `PUBLISH_BRIDGE_URL`, equal to the deployment origin with no trailing slash, for example `https://money-stuff-for-kids.vercel.app`.
+2. Repository **secret** `ADMIN_RETRY_TOKEN`, equal to its independent Vercel value. Only the manual generation workflow exposes it, and only when `admin_retry=true`.
+3. Repository **variable** `PUBLISH_BRIDGE_URL`, equal to the deployment origin with no trailing slash, for example `https://money-stuff-for-kids.vercel.app`.
 
 Do not add `GITHUB_INGEST_TOKEN`, `BLOB_READ_WRITE_TOKEN`, `CRON_SECRET`, Gmail credentials, or OpenAI credentials to GitHub for this bridge.
 
@@ -151,9 +153,13 @@ After `PUT`-ing `application/zip` bytes to the returned `upload_url`, send:
 
 Small trusted callers may instead POST raw `application/zip` bytes with an `X-Edition-Id` header. Metadata upload is recommended because the presigned PUT is constrained to one private pathname, ZIP content type, declared maximum size, and ten-minute lifetime.
 
+An exceptional publish request with `"admin_retry":true` additionally requires
+`X-Admin-Retry-Authorization: Bearer $ADMIN_RETRY_TOKEN`. The ordinary publishing token alone can never replace a receipt.
+
 ### Security and lifecycle notes
 
 - `PUBLISH_API_TOKEN` is compared in constant time and all responses disable caching.
+- `ADMIN_RETRY_TOKEN` is independently compared in constant time and is checked before the bridge reads or mutates package state for an administrative retry.
 - Edition IDs and temporary pathnames are strictly validated; the GitHub owner, repository, workflow, and `main` ref are constants rather than caller inputs.
 - SHA-256 is computed from a server-authenticated read of the exact private Blob object. The GitHub workflow verifies it again.
 - If dispatch fails, the bridge deletes the object immediately. After dispatch, the ingestion workflow deletes it only after successful ingestion; failures retain the private object and its signed GET URL for the bounded 24-hour retry window. Daily cleanup removes failed/orphaned packages after 24 hours.

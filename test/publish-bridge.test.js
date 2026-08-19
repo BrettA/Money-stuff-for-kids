@@ -28,7 +28,10 @@ function fixture({ githubStatus = 204, receiptExists = false, receiptSha = '6d7d
   const fetchImpl = async (...args) => { calls.dispatches.push(args); return { status: githubStatus }; };
   const publish = createPublisher({
     blob, fetchImpl, now: () => Date.parse('2098-12-31T00:00:00Z'), uuid: () => 'fixed',
-    env: { PUBLISH_API_TOKEN: 'publish-secret', GITHUB_INGEST_TOKEN: 'github-secret' }
+    env: {
+      PUBLISH_API_TOKEN: 'publish-secret', ADMIN_RETRY_TOKEN: 'admin-secret',
+      GITHUB_INGEST_TOKEN: 'github-secret'
+    }
   });
   return { publish, calls, bytes };
 }
@@ -95,7 +98,7 @@ test('refuses a different package after an edition receipt exists', async () => 
 test('explicit admin retry replaces the matching receipt and dispatches again', async () => {
   const { publish, calls } = fixture({ receiptExists: true, receiptSha: '0'.repeat(64) });
   const result = await publish({
-    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    authorization: 'Bearer publish-secret', adminRetryAuthorization: 'Bearer admin-secret', contentType: 'application/json',
     body: { action: 'publish', edition_id: editionId, pathname, admin_retry: true }
   });
   assert.equal(result.data.duplicate, false);
@@ -103,10 +106,22 @@ test('explicit admin retry replaces the matching receipt and dispatches again', 
   assert.equal(calls.puts[0][2].allowOverwrite, true);
 });
 
+test('normal publish authorization cannot authorize an admin retry', async () => {
+  for (const adminRetryAuthorization of [undefined, 'Bearer wrong', 'Bearer publish-secret']) {
+    const { publish, calls } = fixture({ receiptExists: true });
+    await assert.rejects(publish({
+      authorization: 'Bearer publish-secret', adminRetryAuthorization, contentType: 'application/json',
+      body: { action: 'publish', edition_id: editionId, pathname, admin_retry: true }
+    }), error => error.status === 403 && /admin retry unauthorized/.test(error.message));
+    assert.equal(calls.dispatches.length, 0);
+    assert.equal(calls.puts.length, 0);
+  }
+});
+
 test('admin retry fails closed for malformed flags and mismatched receipt editions', async () => {
   const malformed = fixture({ receiptExists: true });
   await assert.rejects(malformed.publish({
-    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    authorization: 'Bearer publish-secret', adminRetryAuthorization: 'Bearer admin-secret', contentType: 'application/json',
     body: { action: 'publish', edition_id: editionId, pathname, admin_retry: 'true' }
   }), error => error.status === 400);
 
@@ -118,16 +133,18 @@ test('admin retry fails closed for malformed flags and mismatched receipt editio
         ? { statusCode: 200, blob: { size: 128 }, stream: stream(Buffer.from(JSON.stringify({ edition_id: '2099-01-01-other', package_sha256: '0'.repeat(64) }))) }
         : { statusCode: 200, blob: { size: 17 }, stream: stream(Buffer.from('completed package')) },
       put: async () => {}, del: async () => {}
-    }, fetchImpl: async () => ({ status: 204 }), env: { PUBLISH_API_TOKEN: 'publish-secret', GITHUB_INGEST_TOKEN: 'github-secret' }
+    }, fetchImpl: async () => ({ status: 204 }), env: {
+      PUBLISH_API_TOKEN: 'publish-secret', ADMIN_RETRY_TOKEN: 'admin-secret', GITHUB_INGEST_TOKEN: 'github-secret'
+    }
   });
   await assert.rejects(retry.publish({
-    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    authorization: 'Bearer publish-secret', adminRetryAuthorization: 'Bearer admin-secret', contentType: 'application/json',
     body: { action: 'publish', edition_id: editionId, pathname, admin_retry: true }
   }), error => error.status === 409 && /retry edition/.test(error.message));
 
   const invalidDigest = fixture({ receiptExists: true, receiptSha: 'not-a-digest' });
   await assert.rejects(invalidDigest.publish({
-    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    authorization: 'Bearer publish-secret', adminRetryAuthorization: 'Bearer admin-secret', contentType: 'application/json',
     body: { action: 'publish', edition_id: editionId, pathname, admin_retry: true }
   }), error => error.status === 409 && /retry edition/.test(error.message));
 });

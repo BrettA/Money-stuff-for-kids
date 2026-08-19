@@ -59,6 +59,7 @@ Open **Repository Settings → Secrets and variables → Actions**.
 | `GMAIL_REFRESH_TOKEN` | Offline token for the one mailbox and read-only Gmail scope. |
 | `OPENAI_API_KEY` | Server-side OpenAI project API key. |
 | `PUBLISH_API_TOKEN` | Existing shared secret used by the Vercel bridge. It is read only when `submit=true`. |
+| `ADMIN_RETRY_TOKEN` | Separate high-privilege bridge secret. Configure the same value in GitHub Actions and Vercel; Actions exposes it to the worker only when `admin_retry=true`. |
 
 Never place these values in `NEXT_PUBLIC_` variables, workflow inputs, repository files, artifacts, or PR bodies.
 

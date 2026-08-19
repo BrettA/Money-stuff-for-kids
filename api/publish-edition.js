@@ -28,7 +28,10 @@ module.exports = async function handler(request, response) {
       body = { edition_id: request.headers['x-edition-id'], package: raw };
     }
     const result = await createPublisher({ blob })({
-      authorization: request.headers.authorization, contentType, body
+      authorization: request.headers.authorization,
+      adminRetryAuthorization: request.headers['x-admin-retry-authorization'],
+      contentType,
+      body
     });
     return response.status(result.status).json(result.data);
   } catch (error) {
