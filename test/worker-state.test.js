@@ -87,3 +87,28 @@ test('admin retry cannot replace submitted worker state for a different edition'
   assert.equal(state.messages['gmail-retry'].packageSha256, 'b'.repeat(64));
   assert.equal(state.messages['gmail-retry'].submitted, true);
 });
+
+test('explicit migration replaces only the exact expected submitted edition', () => {
+  const oldEditionId = '2026-08-19-fwd-money-stuff-the-situation-deteriorated';
+  const state = submittedState(oldEditionId);
+  const migrated = {
+    ...retryGeneration,
+    newsletterDate: '2026-07-30',
+    newsletterTitle: 'The Situation Deteriorated',
+    editionId: '2026-07-30-the-situation-deteriorated'
+  };
+  recordGeneration(state, migrated, { adminRetry: true, previousEditionId: oldEditionId });
+  assert.deepEqual(state.messages['gmail-retry'], { ...migrated, status: 'generated', submitted: false });
+});
+
+test('explicit migration rejects a wrong expected old edition without changing state', () => {
+  const state = submittedState('2026-08-19-actual-old-edition');
+  assert.throws(
+    () => recordGeneration(state, { ...retryGeneration, editionId: '2026-07-30-new-edition' }, {
+      adminRetry: true, previousEditionId: '2026-08-19-wrong-old-edition'
+    }),
+    /expected 2026-08-19-wrong-old-edition but worker state records 2026-08-19-actual-old-edition/
+  );
+  assert.equal(state.messages['gmail-retry'].editionId, '2026-08-19-actual-old-edition');
+  assert.equal(state.messages['gmail-retry'].submitted, true);
+});

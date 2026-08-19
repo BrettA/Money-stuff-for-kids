@@ -27,11 +27,20 @@ function assertNotSubmitted(state, gmailMessageId) {
   }
 }
 
-function recordGeneration(state, details, { adminRetry = false } = {}) {
+function recordGeneration(state, details, { adminRetry = false, previousEditionId = '' } = {}) {
   const previous = state.messages[details.gmailMessageId];
+  if (previousEditionId) {
+    if (!adminRetry) throw new Error('Edition migration requires an authorized admin retry');
+    if (!previous || !previous.submitted) {
+      throw new Error('Edition migration requires an existing submitted worker state record');
+    }
+    if (previous.editionId !== previousEditionId) {
+      throw new Error(`Edition migration expected ${previousEditionId} but worker state records ${previous.editionId}`);
+    }
+  }
   if (previous && previous.submitted) {
     if (!adminRetry) throw new Error('Cannot replace a submitted worker state record');
-    if (previous.editionId !== details.editionId) {
+    if (previous.editionId !== details.editionId && !previousEditionId) {
       throw new Error(`Cannot replace submitted worker state for edition ${previous.editionId} with ${details.editionId}`);
     }
   }

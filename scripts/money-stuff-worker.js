@@ -46,7 +46,11 @@ function output(name, value) {
 }
 
 function retryRequested(environment = process.env) {
-  if (environment.ADMIN_RETRY !== 'true') return false;
+  const previousEditionId = environment.PREVIOUS_EDITION_ID || '';
+  if (environment.ADMIN_RETRY !== 'true') {
+    if (previousEditionId) throw new Error('previous edition ID is allowed only with admin retry');
+    return false;
+  }
   if (environment.GITHUB_EVENT_NAME !== 'workflow_dispatch') {
     throw new Error('admin retry is allowed only from workflow_dispatch');
   }
@@ -64,6 +68,7 @@ async function main() {
   for (const name of REQUIRED) env(name);
   const submit = process.env.SUBMIT === 'true';
   const adminRetry = retryRequested();
+  const previousEditionId = process.env.PREVIOUS_EDITION_ID || '';
   if (adminRetry) env('ADMIN_RETRY_TOKEN');
   if (submit) {
     env('PUBLISH_API_TOKEN');
@@ -163,7 +168,7 @@ async function main() {
     sourceSha256: sourceDigest(message.text),
     packageSha256: packaged.sha256,
     updatedAt: now
-  }, { adminRetry });
+  }, { adminRetry, previousEditionId });
   if (submit) {
     const accepted = await submitPackage({
       bridgeUrl: env('PUBLISH_BRIDGE_URL'), token: env('PUBLISH_API_TOKEN'), editionId,
