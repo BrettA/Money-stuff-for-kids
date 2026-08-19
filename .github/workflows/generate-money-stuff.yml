@@ -17,6 +17,10 @@ on:
         required: true
         default: false
         type: boolean
+      previous_edition_id:
+        description: Exact submitted edition ID to replace only when intentionally migrating an admin retry
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -43,6 +47,7 @@ jobs:
       GMAIL_MESSAGE_ID: ${{ inputs.gmail_message_id }}
       SUBMIT: ${{ inputs.submit }}
       ADMIN_RETRY: ${{ inputs.admin_retry }}
+      PREVIOUS_EDITION_ID: ${{ inputs.previous_edition_id }}
       WORKER_STATE_FILE: /tmp/money-stuff-worker-state.json
       WORKER_OUTPUT_DIRECTORY: /tmp/money-stuff-output
     steps:
@@ -67,6 +72,11 @@ jobs:
             echo 'admin_retry requires submit=true' >&2
             exit 1
           fi
+      - name: Reject migration input without an administrative retry
+        if: ${{ !inputs.admin_retry && inputs.previous_edition_id != '' }}
+        run: |
+          echo 'previous_edition_id is allowed only with admin_retry=true' >&2
+          exit 1
       - name: Load minimal duplicate-prevention state
         run: |
           remote_state=$(git ls-remote --heads origin refs/heads/automation-state)

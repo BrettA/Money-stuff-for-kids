@@ -5,7 +5,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { assertCanonicalEdition } = require('./lib/edition-schema');
 const { accessToken, findMessages, getFullMessage } = require('./lib/gmail');
-const { assertInventory, clean, extractHtmlSections, sourceDigest, substantive } = require('./lib/money-stuff-source');
+const {
+  assertInventory, canonicalSourceMetadata, clean, extractHtmlSections, sourceDigest, substantive
+} = require('./lib/money-stuff-source');
 const {
   DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor, generateImage, generateMetadata,
   generateStory
@@ -44,7 +46,11 @@ function output(name, value) {
 }
 
 function retryRequested(environment = process.env) {
-  if (environment.ADMIN_RETRY !== 'true') return false;
+  const previousEditionId = environment.PREVIOUS_EDITION_ID || '';
+  if (environment.ADMIN_RETRY !== 'true') {
+    if (previousEditionId) throw new Error('previous edition ID is allowed only with admin retry');
+    return false;
+  }
   if (environment.GITHUB_EVENT_NAME !== 'workflow_dispatch') {
     throw new Error('admin retry is allowed only from workflow_dispatch');
   }
@@ -62,6 +68,7 @@ async function main() {
   for (const name of REQUIRED) env(name);
   const submit = process.env.SUBMIT === 'true';
   const adminRetry = retryRequested();
+  const previousEditionId = process.env.PREVIOUS_EDITION_ID || '';
   if (adminRetry) env('ADMIN_RETRY_TOKEN');
   if (submit) {
     env('PUBLISH_API_TOKEN');
@@ -97,11 +104,9 @@ async function main() {
   const client = clientFor(env('OPENAI_API_KEY'));
   const textModel = process.env.OPENAI_TEXT_MODEL || DEFAULT_TEXT_MODEL;
   const imageModel = process.env.OPENAI_IMAGE_MODEL || DEFAULT_IMAGE_MODEL;
-  const receivedAt = new Date(Number(message.internalDate));
-  if (Number.isNaN(receivedAt.getTime())) throw new Error('Gmail message has an invalid internal date');
-  message.canonicalDate = receivedAt.toISOString().slice(0, 10);
-  message.canonicalTitle = clean(message.subject.replace(/^Money Stuff:\s*/i, ''));
-  if (!message.canonicalTitle) throw new Error('Money Stuff message has no usable newsletter title');
+  const sourceMetadata = canonicalSourceMetadata(message);
+  message.canonicalDate = sourceMetadata.date;
+  message.canonicalTitle = sourceMetadata.title;
   const metadata = (await generateMetadata({ client, model: textModel, message, sections })).value;
   const headings = sections.map(section => section.heading);
   if (JSON.stringify(metadata.sectionHeadings) !== JSON.stringify(headings)) {
@@ -163,7 +168,7 @@ async function main() {
     sourceSha256: sourceDigest(message.text),
     packageSha256: packaged.sha256,
     updatedAt: now
-  }, { adminRetry });
+  }, { adminRetry, previousEditionId });
   if (submit) {
     const accepted = await submitPackage({
       bridgeUrl: env('PUBLISH_BRIDGE_URL'), token: env('PUBLISH_API_TOKEN'), editionId,

@@ -53,7 +53,18 @@ test('manual retry input defaults off and requires an explicit message and submi
   assert.throws(() => retryRequested({ ...authorized, SUBMIT: 'false' }), /submission/);
   assert.throws(() => retryRequested({ ...authorized, ADMIN_RETRY_TOKEN: '' }), /authorization/);
   assert.equal(retryRequested(authorized), true);
+  assert.throws(() => retryRequested({
+    ...authorized, ADMIN_RETRY: 'false', PREVIOUS_EDITION_ID: '2026-08-19-old-edition'
+  }), /only with admin retry/);
+  assert.equal(retryRequested({ ...authorized, PREVIOUS_EDITION_ID: '2026-08-19-old-edition' }), true);
   const submitted = { messages: { id: { submitted: true } } };
   assert.throws(() => assertMessageEligible(submitted, 'id', false), /already submitted/);
   assert.doesNotThrow(() => assertMessageEligible(submitted, 'id', true));
+});
+
+test('workflow exposes migration input only through the administrative retry path', () => {
+  const contents = fs.readFileSync(workflow, 'utf8');
+  assert.match(contents, /previous_edition_id:[\s\S]*?required: false/);
+  assert.match(contents, /PREVIOUS_EDITION_ID: \$\{\{ inputs\.previous_edition_id \}\}/);
+  assert.match(contents, /!inputs\.admin_retry && inputs\.previous_edition_id != ''/);
 });

@@ -5,9 +5,59 @@ const { load } = require('cheerio');
 
 const THINGS_HAPPEN = /^things\s+happen[.!?]?$/i;
 const IGNORED_HEADINGS = /^(money stuff|view in browser|subscribe|manage preferences|advertisement)$/i;
+const FORWARDED_SUBJECT = /^\s*(?:fwd?|fw)\s*:/i;
+const FORWARDED_MARKER = /^\s*-{2,}\s*forwarded message\s*-{2,}\s*$/im;
 
 function clean(value) {
   return String(value || '').replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function canonicalTitle(subject) {
+  let title = clean(subject);
+  while (FORWARDED_SUBJECT.test(title)) title = clean(title.replace(FORWARDED_SUBJECT, ''));
+  return clean(title.replace(/^money stuff\s*:\s*/i, ''));
+}
+
+function forwardedHeaders(text) {
+  const source = String(text || '').replace(/\r\n?/g, '\n');
+  const marker = FORWARDED_MARKER.exec(source);
+  if (!marker) return null;
+  const headerLines = source.slice(marker.index + marker[0].length).split('\n').slice(0, 50);
+  let date = '';
+  let subject = '';
+  for (const line of headerLines) {
+    const match = line.match(/^\s*(date|subject)\s*:\s*(.*?)\s*$/i);
+    if (match && match[1].toLowerCase() === 'date') date = match[2];
+    if (match && match[1].toLowerCase() === 'subject') subject = match[2];
+    if (date && subject) return { date, subject };
+  }
+  return null;
+}
+
+function dateOnly(value, description) {
+  // Gmail renders forwarded dates with an "at" separator that ECMAScript's
+  // date parser does not accept (for example, "Jul 30, 2026 at 2:00 PM").
+  const parseable = typeof value === 'string' ? value.replace(/\s+at\s+/i, ' ') : value;
+  const parsed = new Date(parseable);
+  if (Number.isNaN(parsed.getTime())) throw new Error(`${description} has an invalid date`);
+  return parsed.toISOString().slice(0, 10);
+}
+
+function canonicalSourceMetadata(message) {
+  const outerSubject = clean(message && message.subject);
+  let date;
+  let subject = outerSubject;
+  if (FORWARDED_SUBJECT.test(outerSubject)) {
+    const original = forwardedHeaders(message && message.text);
+    if (!original) throw new Error('Forwarded Money Stuff message has no usable original Date and Subject headers');
+    date = dateOnly(original.date, 'Forwarded Money Stuff message');
+    subject = original.subject;
+  } else {
+    date = dateOnly(Number(message && message.internalDate), 'Gmail message');
+  }
+  const title = canonicalTitle(subject);
+  if (!title) throw new Error('Money Stuff message has no usable newsletter title');
+  return { date, title };
 }
 
 function extractHtmlSections(html) {
@@ -58,4 +108,7 @@ function substantive(sections) {
   return sections.filter(section => !THINGS_HAPPEN.test(clean(section.heading)));
 }
 
-module.exports = { THINGS_HAPPEN, assertInventory, clean, extractHtmlSections, sourceDigest, substantive };
+module.exports = {
+  THINGS_HAPPEN, assertInventory, canonicalSourceMetadata, canonicalTitle, clean, extractHtmlSections,
+  forwardedHeaders, sourceDigest, substantive
+};
