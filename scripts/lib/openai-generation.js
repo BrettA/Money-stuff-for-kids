@@ -3,6 +3,7 @@
 const OpenAI = require('openai');
 const { zodTextFormat } = require('openai/helpers/zod');
 const { editionMetadata, storyGeneration } = require('./edition-schema');
+const { canonicalIllustrationAlt } = require('./illustration-alt');
 
 const DEFAULT_TEXT_MODEL = 'gpt-5-mini';
 const DEFAULT_IMAGE_MODEL = 'gpt-image-1.5';
@@ -54,7 +55,8 @@ async function generateStory({ client, model, section }) {
       'Middle and High School should add age-appropriate precision while staying faithful.',
       'The lesson field is required for the canonical schema, but Elementary must weave it into the story rather than referring to a lesson box.',
       'Use "none in source" only if the source truly names no person or company.',
-      'The illustration prompt must depict concrete facts from this section and approved adaptations only. No generic finance scene, invented headline, fake webpage, unsupported logo, or unrelated concept. Avoid rendered text.'
+      'The illustration prompt must depict concrete facts from this section and approved adaptations only. No generic finance scene, invented headline, fake webpage, unsupported logo, or unrelated concept. Avoid rendered text.',
+      'Illustration alt text must concisely describe the concrete people, objects, and action in that specific image. Never return labels such as TODO, placeholder, replace-me, example image, generic image, or sample image.'
     ].join(' '),
     input: JSON.stringify({ sourceSection: section.heading, sourceText: section.sourceText })
   });
@@ -79,5 +81,6 @@ async function generateImage({ client, model, prompt }) {
 }
 
 module.exports = {
-  DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, clientFor, generateImage, generateMetadata, generateStory, parse
+  DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor, generateImage, generateMetadata,
+  generateStory, parse
 };

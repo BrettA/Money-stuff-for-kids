@@ -7,7 +7,8 @@ const { assertCanonicalEdition } = require('./lib/edition-schema');
 const { accessToken, findMessages, getFullMessage } = require('./lib/gmail');
 const { assertInventory, clean, extractHtmlSections, sourceDigest, substantive } = require('./lib/money-stuff-source');
 const {
-  DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, clientFor, generateImage, generateMetadata, generateStory
+  DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor, generateImage, generateMetadata,
+  generateStory
 } = require('./lib/openai-generation');
 const { run, stageAndValidate } = require('./lib/package-edition');
 const { submitPackage } = require('./lib/submit-package');
@@ -124,7 +125,14 @@ async function main() {
     generatedStories.push({
       id: ids[index],
       sourceSection: section.heading,
-      illustration: { src: imagePath, alt: generated.illustration.alt },
+      illustration: {
+        src: imagePath,
+        alt: canonicalIllustrationAlt({
+          alt: generated.illustration.alt,
+          title: generated.adaptations.elementary.title,
+          prompt: generated.illustration.prompt
+        })
+      },
       elementaryChecklist: generated.elementaryChecklist,
       adaptations: generated.adaptations
     });

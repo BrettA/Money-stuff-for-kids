@@ -37,6 +37,8 @@ function fixture() {
   fs.copyFileSync(path.join(repo, 'data/site-config.json'), path.join(root, 'data/site-config.json'));
   fs.mkdirSync(path.join(root, 'scripts'));
   for (const file of ['publish.js', 'validate-edition.js']) fs.copyFileSync(path.join(repo, 'scripts', file), path.join(root, 'scripts', file));
+  fs.mkdirSync(path.join(root, 'scripts/lib'));
+  fs.copyFileSync(path.join(repo, 'scripts/lib/illustration-alt.js'), path.join(root, 'scripts/lib/illustration-alt.js'));
   return root;
 }
 
