@@ -1,19 +1,26 @@
 {
+  "schemaVersion": 2,
   "id": "2026-08-12-ai-backed-securities",
   "date": "2026-08-12",
   "displayDate": "August 12, 2026",
   "title": "AI-Backed Securities",
+  "sourceSections": [
+    "Securitization",
+    "Truth Social API",
+    "Gambling emergency",
+    "Musical earnings calls",
+    "Things happen"
+  ],
   "stories": [
     {
       "id": "securitization",
       "sourceSection": "Securitization",
-      "art": "box",
       "adaptations": {
         "preschool": {
           "title": "The Money Box With Different Shelves",
           "lesson": "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Money Box With Different Shelves.\u201d",
+            "Imagine a little money story called “The Money Box With Different Shelves.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -51,18 +58,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-12-ai-backed-securities/securitization.svg",
+        "alt": "🗃️ illustration for Securitization"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "truth",
       "sourceSection": "Truth Social API",
-      "art": "clock",
       "adaptations": {
         "preschool": {
           "title": "The News That Arrived a Millisecond Early",
           "lesson": "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe News That Arrived a Millisecond Early.\u201d",
+            "Imagine a little money story called “The News That Arrived a Millisecond Early.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -76,7 +96,7 @@
             "For computer traders, even a few milliseconds can matter.",
             "Truth Social was involved in a plan for a very fast feed of government announcements that could move markets.",
             "The product is basically: here is the same sentence everyone will read, except your computer gets it first.",
-            "That can be valuable. It also creates an awkward question: when does \u201cfast news service\u201d become \u201csome traders get important government information before everyone else\u201d?",
+            "That can be valuable. It also creates an awkward question: when does “fast news service” become “some traders get important government information before everyone else”?",
             "Sometimes a millisecond is barely enough time to blink. Sometimes a millisecond is a product."
           ]
         },
@@ -100,18 +120,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-12-ai-backed-securities/truth.svg",
+        "alt": "⏱️ illustration for Truth Social API"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "gambling",
       "sourceSection": "Gambling emergency",
-      "art": "whistle",
       "adaptations": {
         "preschool": {
           "title": "The Emergency About Keeping the Betting Market Open",
           "lesson": "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Emergency About Keeping the Betting Market Open.\u201d",
+            "Imagine a little money story called “The Emergency About Keeping the Betting Market Open.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -124,7 +157,7 @@
             "Kalshi trades prediction contracts, including contracts about sports. This has created a fight over what Kalshi actually is.",
             "States normally regulate sports gambling. Kalshi says it is a federally regulated financial exchange, even when the thing being traded is a sports outcome.",
             "During one legal fight, the possibility that some Kalshi trading might stop was treated as an urgent market issue.",
-            "This is funny because the emergency was not \u201ca bank is collapsing.\u201d It was closer to \u201cpeople might temporarily be unable to trade contracts about sports.\u201d",
+            "This is funny because the emergency was not “a bank is collapsing.” It was closer to “people might temporarily be unable to trade contracts about sports.”",
             "But the label matters enormously: financial market or sports betting? Sometimes the most valuable part of a financial product is the category everyone agrees to put it in."
           ]
         },
@@ -148,18 +181,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-12-ai-backed-securities/gambling.svg",
+        "alt": "📣 illustration for Gambling emergency"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "music",
       "sourceSection": "Musical earnings calls",
-      "art": "music",
       "adaptations": {
         "preschool": {
           "title": "The Scientists Who Accidentally Made a Music Machine",
           "lesson": "Finance hires scientists to solve fast data and language problems.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Scientists Who Accidentally Made a Music Machine.\u201d",
+            "Imagine a little money story called “The Scientists Who Accidentally Made a Music Machine.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -196,6 +242,20 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-12-ai-backed-securities/music.svg",
+        "alt": "🎵 illustration for Musical earnings calls"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     }
   ]

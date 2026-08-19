@@ -1,0 +1,10 @@
+{
+  "name": "money-stuff-for-kids",
+  "private": true,
+  "scripts": {
+    "new-edition": "node scripts/new-edition.js",
+    "publish": "node scripts/publish.js",
+    "check": "node scripts/publish.js --check",
+    "test": "node --test"
+  }
+}

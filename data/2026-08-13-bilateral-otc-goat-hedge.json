@@ -1,19 +1,26 @@
 {
+  "schemaVersion": 2,
   "id": "2026-08-13-bilateral-otc-goat-hedge",
   "date": "2026-08-13",
   "displayDate": "August 13, 2026",
   "title": "Bilateral OTC Goat Hedge",
+  "sourceSections": [
+    "Goat herding",
+    "Fake comments",
+    "SpaceX lockup",
+    "Bilateral OTC hedging",
+    "Things happen"
+  ],
   "stories": [
     {
       "id": "goats",
       "sourceSection": "Goat herding",
-      "art": "goat",
       "adaptations": {
         "preschool": {
           "title": "The Goat Farmer's Very Fancy Umbrella",
           "lesson": "A business can hedge a real-world risk by making a financial bet that pays when the bad outcome happens.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Goat Farmer's Very Fancy Umbrella.\u201d",
+            "Imagine a little money story called “The Goat Farmer's Very Fancy Umbrella.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -30,7 +37,7 @@
             "And Herder had a serious business problem involving goats.",
             "So Kalshi helped Herder make a deal that would pay if goat prices fell. If prices stayed high, great: the goats were valuable. If prices fell, the trade softened the blow. This sort of trade is called a hedge.",
             "It is useful for Herder. It is also useful for Kalshi, which spends a lot of time explaining that it is a serious financial exchange and not just a website where people bet on stuff.",
-            "And nothing says \u201cserious financial exchange\u201d quite like: We can protect you from an unexpected decline in the price of goats.",
+            "And nothing says “serious financial exchange” quite like: We can protect you from an unexpected decline in the price of goats.",
             "The goats themselves still get to be goats. They just have a surprisingly sophisticated financial strategy now."
           ]
         },
@@ -54,18 +61,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-13-bilateral-otc-goat-hedge/goats.svg",
+        "alt": "🐐 illustration for Goat herding"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "comments",
       "sourceSection": "Fake comments",
-      "art": "letters",
       "adaptations": {
         "preschool": {
           "title": "The Letter From Someone Who Didn't Write It",
           "lesson": "Regulators invite public comments, but organized campaigns can generate many near-identical letters and sometimes questionable identities.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Letter From Someone Who Didn't Write It.\u201d",
+            "Imagine a little money story called “The Letter From Someone Who Didn't Write It.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -76,13 +96,13 @@
           "lesson": "Public comments can influence regulators, but counting comments is not the same as counting independent opinions.",
           "paragraphs": [
             "When the government considers a financial rule, it asks people to send comments.",
-            "Ordinary people do not often wake up thinking, \u201cToday I will send the government my views on securities regulation.\u201d Companies and lobbying groups care a lot more.",
+            "Ordinary people do not often wake up thinking, “Today I will send the government my views on securities regulation.” Companies and lobbying groups care a lot more.",
             "So groups write sample comments and help lots of people send them. The government can receive thousands of suspiciously similar letters.",
             "Then it gets weirder.",
-            "Matt Levine once found a government comment submitted under the name \u201cMatt Levine.\u201d",
+            "Matt Levine once found a government comment submitted under the name “Matt Levine.”",
             "Matt had not written it.",
             "Apparently there is now a very convenient form of civic participation where you do not even need to know that you participated.",
-            "That is why regulators cannot simply count comments like votes. Ten thousand letters might mean ten thousand opinions\u2014or one organization was extremely good at producing letters."
+            "That is why regulators cannot simply count comments like votes. Ten thousand letters might mean ten thousand opinions—or one organization was extremely good at producing letters."
           ]
         },
         "middle": {
@@ -105,18 +125,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-13-bilateral-otc-goat-hedge/comments.svg",
+        "alt": "✉️ illustration for Fake comments"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "lockup",
       "sourceSection": "SpaceX lockup",
-      "art": "rocket",
       "adaptations": {
         "preschool": {
           "title": "The Scary Selling Day That Wasn't So Scary",
           "lesson": "Markets often move before an expected event.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Scary Selling Day That Wasn't So Scary.\u201d",
+            "Imagine a little money story called “The Scary Selling Day That Wasn't So Scary.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -133,7 +166,7 @@
             "Then the lockup ended.",
             "And the stock went up.",
             "A huge number of people being allowed to sell is not the same as a huge number actually selling. The real avalanche was smaller than the one everyone had prepared for.",
-            "It is like hearing 100 elephants are coming to your birthday party, reinforcing the floor and ordering 100 elephant cakes\u2014then three elephants show up.",
+            "It is like hearing 100 elephants are coming to your birthday party, reinforcing the floor and ordering 100 elephant cakes—then three elephants show up.",
             "Three elephants are still a lot of elephants. Compared with 100? Pretty relaxing."
           ]
         },
@@ -157,18 +190,31 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-13-bilateral-otc-goat-hedge/lockup.svg",
+        "alt": "🚀 illustration for SpaceX lockup"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     },
     {
       "id": "goat-otc",
       "sourceSection": "Bilateral OTC hedging",
-      "art": "handshake",
       "adaptations": {
         "preschool": {
           "title": "The Giant Bet That Didn't Fit on the Shelf",
           "lesson": "Large hedgers may need block or over-the-counter trades because an exchange order book can be too small.",
           "paragraphs": [
-            "Imagine a little money story called \u201cThe Giant Bet That Didn't Fit on the Shelf.\u201d",
+            "Imagine a little money story called “The Giant Bet That Didn't Fit on the Shelf.”",
             "Someone has a problem. Money can help move the problem around, but it cannot make every problem disappear.",
             "The trick is to ask: Who gets the good surprise? Who gets the bad surprise? And who gets paid for taking the chance?",
             "That is the big idea in this story."
@@ -182,7 +228,7 @@
             "On Kalshi's website there might be a few contracts for sale at one price and a few more at a higher price. Fine for a small bet.",
             "But a real goat business might need millions of dollars of protection. Buying that much from the little offers on the screen could push the price higher and higher.",
             "So Kalshi found another large trader and arranged one giant deal directly between the two sides. Finance calls this a block trade.",
-            "It is like walking into a supermarket and saying, \u201cI need 40,000 boxes of Cheerios.\u201d The cashier might suggest that you stop clearing the shelves and call the cereal company.",
+            "It is like walking into a supermarket and saying, “I need 40,000 boxes of Cheerios.” The cashier might suggest that you stop clearing the shelves and call the cereal company.",
             "Herder did not need 40,000 boxes of Cheerios. It needed a very large financial bet about goats.",
             "Which is a sentence that exists because finance is wonderful."
           ]
@@ -207,6 +253,20 @@
             "Finally, ask what would make the story reverse. Markets price expectations, so the surprise is often not the event itself but the difference between what happened and what everyone had already prepared for."
           ]
         }
+      },
+      "illustration": {
+        "src": "/images/2026-08-13-bilateral-otc-goat-hedge/goat-otc.svg",
+        "alt": "🤝 illustration for Bilateral OTC hedging"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Reviewed against the source adaptation"
+        ],
+        "realCompanies": [
+          "Reviewed against the source adaptation"
+        ],
+        "financialMechanism": "Preserved in the elementary adaptation",
+        "centralJoke": "Preserved in the elementary adaptation"
       }
     }
   ]

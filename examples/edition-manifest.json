@@ -1,0 +1,8 @@
+{
+  "date": "2026-08-20",
+  "title": "Edition headline",
+  "sections": [
+    { "heading": "A substantive source section", "id": "substantive-story" },
+    { "heading": "Things happen", "id": "things-happen" }
+  ]
+}
