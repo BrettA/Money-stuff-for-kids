@@ -21,6 +21,14 @@
   ],
   "editions": [
     {
+      "id": "2099-01-01-transport-test",
+      "date": "2099-01-01",
+      "displayDate": "January 1, 2099",
+      "title": "Transport Test",
+      "storyCount": 1,
+      "href": "/editions/2099-01-01-transport-test/"
+    },
+    {
       "id": "2026-08-13-bilateral-otc-goat-hedge",
       "date": "2026-08-13",
       "displayDate": "August 13, 2026",
