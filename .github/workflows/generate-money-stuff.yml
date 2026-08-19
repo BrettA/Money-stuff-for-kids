@@ -1,0 +1,98 @@
+name: Generate Money Stuff edition
+
+on:
+  workflow_dispatch:
+    inputs:
+      gmail_message_id:
+        description: Optional exact Gmail message ID; blank selects the newest unsubmitted Money Stuff email
+        required: false
+        type: string
+      submit:
+        description: Submit the validated package through the existing Vercel bridge
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: money-stuff-generation-worker
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+      GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+      GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_TEXT_MODEL: ${{ vars.OPENAI_TEXT_MODEL }}
+      OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+      MONEY_STUFF_GMAIL_QUERY: ${{ vars.MONEY_STUFF_GMAIL_QUERY }}
+      PUBLISH_API_TOKEN: ${{ secrets.PUBLISH_API_TOKEN }}
+      PUBLISH_BRIDGE_URL: ${{ vars.PUBLISH_BRIDGE_URL }}
+      GMAIL_MESSAGE_ID: ${{ inputs.gmail_message_id }}
+      SUBMIT: ${{ inputs.submit }}
+      WORKER_STATE_FILE: /tmp/money-stuff-worker-state.json
+      WORKER_OUTPUT_DIRECTORY: /tmp/money-stuff-output
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Load minimal duplicate-prevention state
+        run: |
+          remote_state=$(git ls-remote --heads origin refs/heads/automation-state)
+          if [[ -n "$remote_state" ]]; then
+            git fetch --no-tags origin automation-state:refs/remotes/origin/automation-state
+            git show refs/remotes/origin/automation-state:money-stuff-worker-state.json > "$WORKER_STATE_FILE"
+          else
+            printf '{"schemaVersion":1,"messages":{}}\n' > "$WORKER_STATE_FILE"
+          fi
+      - name: Generate and validate completed package
+        id: worker
+        run: node scripts/money-stuff-worker.js
+      - name: Persist minimal worker state
+        env:
+          STATE_WORKTREE: ${{ runner.temp }}/automation-state
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          if git show-ref --verify --quiet refs/remotes/origin/automation-state; then
+            state_sha=$(git rev-parse refs/remotes/origin/automation-state)
+            git worktree add --detach "$STATE_WORKTREE" "$state_sha"
+            git -C "$STATE_WORKTREE" switch -C automation-state
+            lease="--force-with-lease=refs/heads/automation-state:$state_sha"
+          else
+            git worktree add --detach "$STATE_WORKTREE" HEAD
+            git -C "$STATE_WORKTREE" switch --orphan automation-state
+            git -C "$STATE_WORKTREE" rm -rf .
+            lease="--force-with-lease=refs/heads/automation-state:"
+          fi
+          cp "$WORKER_STATE_FILE" "$STATE_WORKTREE/money-stuff-worker-state.json"
+          git -C "$STATE_WORKTREE" add money-stuff-worker-state.json
+          git -C "$STATE_WORKTREE" diff --cached --quiet || \
+            git -C "$STATE_WORKTREE" commit -m "Record Money Stuff worker state"
+          git -C "$STATE_WORKTREE" push "$lease" origin HEAD:refs/heads/automation-state
+      - name: Report result
+        env:
+          EDITION_ID: ${{ steps.worker.outputs.edition_id }}
+          GMAIL_ID: ${{ steps.worker.outputs.gmail_message_id }}
+          SUBMITTED: ${{ steps.worker.outputs.submitted }}
+        run: |
+          {
+            echo '### Money Stuff generation worker'
+            echo "- Edition: \`$EDITION_ID\`"
+            echo "- Gmail message ID: \`$GMAIL_ID\`"
+            echo "- Submitted through publishing bridge: \`$SUBMITTED\`"
+            echo '- No newsletter source body or generated package was retained as an artifact.'
+          } >> "$GITHUB_STEP_SUMMARY"
