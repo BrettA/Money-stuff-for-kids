@@ -9,6 +9,7 @@ const { spawnSync } = require('node:child_process');
 
 const repo = path.resolve(__dirname, '..');
 const workflow = path.join(repo, '.github', 'workflows', 'generate-money-stuff.yml');
+const { assertMessageEligible, retryRequested } = require('../scripts/money-stuff-worker');
 
 function git(cwd, ...args) {
   const result = spawnSync('git', args, { cwd, encoding: 'utf8' });
@@ -35,4 +36,18 @@ test('state workflow safely clears an empty orphan worktree', () => {
   assert.equal(git(stateWorktree, 'ls-files'), '');
   git(stateWorktree, 'rm', '-rf', '--ignore-unmatch', '.');
   assert.equal(git(stateWorktree, 'status', '--short'), '');
+});
+
+test('manual retry input defaults off and requires an explicit message and submission', () => {
+  const contents = fs.readFileSync(workflow, 'utf8');
+  assert.match(contents, /admin_retry:[\s\S]*?default: false/);
+  assert.match(contents, /if: \$\{\{ inputs\.admin_retry \}\}/);
+  assert.equal(retryRequested({ ADMIN_RETRY: 'false' }), false);
+  assert.throws(() => retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'push', GMAIL_MESSAGE_ID: 'id', SUBMIT: 'true' }), /workflow_dispatch/);
+  assert.throws(() => retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'workflow_dispatch', SUBMIT: 'true' }), /Gmail message ID/);
+  assert.throws(() => retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'workflow_dispatch', GMAIL_MESSAGE_ID: 'id', SUBMIT: 'false' }), /submission/);
+  assert.equal(retryRequested({ ADMIN_RETRY: 'true', GITHUB_EVENT_NAME: 'workflow_dispatch', GMAIL_MESSAGE_ID: 'id', SUBMIT: 'true' }), true);
+  const submitted = { messages: { id: { submitted: true } } };
+  assert.throws(() => assertMessageEligible(submitted, 'id', false), /already submitted/);
+  assert.doesNotThrow(() => assertMessageEligible(submitted, 'id', true));
 });

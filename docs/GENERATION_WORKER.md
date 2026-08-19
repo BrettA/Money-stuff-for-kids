@@ -84,6 +84,7 @@ Open **Actions → Generate Money Stuff edition → Run workflow**.
 
 - **gmail_message_id**: leave blank for the newest matching, unsubmitted message; enter an exact Gmail API message ID for deterministic testing.
 - **submit**: leave `false` for a safe dry run; set `true` only for an intentional end-to-end transport test.
+- **admin_retry**: leave `false` for every ordinary run. For emergency recovery only, set it to `true` together with `submit=true` and an explicit `gmail_message_id`. This permits that selected submitted message to be regenerated and tells the bridge to redispatch ingestion, then replace its matching edition receipt.
 
 ### Dry run (`submit=false`)
 
@@ -103,7 +104,7 @@ money-stuff-worker-state.json
 
 It contains a schema version and records keyed by Gmail message ID with only newsletter date/title, edition ID, source/package digests, `generated` or `submitted` status, and timestamps. It never contains source copy, adaptations, images, subscriber data, tokens, or general application state.
 
-The workflow creates the branch on the first successful run and uses a lease-protected push. A submitted Gmail ID is rejected. If the bridge accepted a package but the state push failed, its private receipt makes a retry of that edition and digest an accepted no-op rather than a second ingestion dispatch.
+The workflow creates the branch on the first successful run and uses a lease-protected push. A submitted Gmail ID is rejected during normal operation. The manual `admin_retry` escape hatch is accepted only on `workflow_dispatch`, requires both an exact Gmail ID and submission, and affects only that selected message; normal receipt and worker-state duplicate prevention remains unchanged. If the bridge accepted a package but the state push failed, its private receipt makes an ordinary retry of that edition and digest an accepted no-op rather than a second ingestion dispatch.
 
 ## Failure behavior
 

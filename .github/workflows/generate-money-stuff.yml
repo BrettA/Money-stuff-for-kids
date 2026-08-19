@@ -12,6 +12,11 @@ on:
         required: true
         default: false
         type: boolean
+      admin_retry:
+        description: Regenerate and resubmit an explicitly selected Gmail message even if worker state says it was submitted
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -36,6 +41,7 @@ jobs:
       PUBLISH_BRIDGE_URL: ${{ vars.PUBLISH_BRIDGE_URL }}
       GMAIL_MESSAGE_ID: ${{ inputs.gmail_message_id }}
       SUBMIT: ${{ inputs.submit }}
+      ADMIN_RETRY: ${{ inputs.admin_retry }}
       WORKER_STATE_FILE: /tmp/money-stuff-worker-state.json
       WORKER_OUTPUT_DIRECTORY: /tmp/money-stuff-output
     steps:
@@ -49,6 +55,17 @@ jobs:
           cache: npm
       - name: Install locked dependencies
         run: npm ci
+      - name: Validate manual retry request
+        if: ${{ inputs.admin_retry }}
+        run: |
+          if [[ -z "$GMAIL_MESSAGE_ID" ]]; then
+            echo 'admin_retry requires an explicit gmail_message_id' >&2
+            exit 1
+          fi
+          if [[ "$SUBMIT" != true ]]; then
+            echo 'admin_retry requires submit=true' >&2
+            exit 1
+          fi
       - name: Load minimal duplicate-prevention state
         run: |
           remote_state=$(git ls-remote --heads origin refs/heads/automation-state)

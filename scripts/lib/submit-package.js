@@ -13,7 +13,7 @@ async function jsonRequest(url, token, body, fetchImpl) {
   return result;
 }
 
-async function submitPackage({ bridgeUrl, token, editionId, archive, sha256, fetchImpl = fetch }) {
+async function submitPackage({ bridgeUrl, token, editionId, archive, sha256, adminRetry = false, fetchImpl = fetch }) {
   const bytes = fs.readFileSync(archive);
   const base = String(bridgeUrl).replace(/\/$/, '');
   const prepared = await jsonRequest(base, token, {
@@ -25,7 +25,8 @@ async function submitPackage({ bridgeUrl, token, editionId, archive, sha256, fet
   });
   if (!upload.ok) throw new Error(`Private package upload failed (${upload.status})`);
   const published = await jsonRequest(base, token, {
-    action: 'publish', edition_id: editionId, pathname: prepared.pathname, package_sha256: sha256
+    action: 'publish', edition_id: editionId, pathname: prepared.pathname, package_sha256: sha256,
+    admin_retry: adminRetry
   }, fetchImpl);
   if (!published.accepted || published.package_sha256 !== sha256) {
     throw new Error('Publishing bridge did not accept the exact package digest');

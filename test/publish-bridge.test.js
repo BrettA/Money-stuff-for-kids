@@ -19,7 +19,7 @@ function fixture({ githubStatus = 204, receiptExists = false, receiptSha = '6d7d
     presignUrl: async (_token, options) => { calls.presigns.push(options); return { presignedUrl: `https://private.example/${options.operation}` }; },
     get: async target => target.startsWith('published-editions/')
       ? (receiptExists
-          ? { statusCode: 200, blob: { size: 128 }, stream: stream(Buffer.from(JSON.stringify({ package_sha256: receiptSha }))) }
+          ? { statusCode: 200, blob: { size: 128 }, stream: stream(Buffer.from(JSON.stringify({ edition_id: editionId, package_sha256: receiptSha }))) }
           : null)
       : ({ statusCode: 200, blob: { size: bytes.length }, stream: stream(bytes) }),
     put: async (...args) => { calls.puts.push(args); },
@@ -90,6 +90,46 @@ test('refuses a different package after an edition receipt exists', async () => 
     body: { action: 'publish', edition_id: editionId, pathname }
   }), error => error.status === 409 && /different package digest/.test(error.message));
   assert.equal(calls.dispatches.length, 0);
+});
+
+test('explicit admin retry replaces the matching receipt and dispatches again', async () => {
+  const { publish, calls } = fixture({ receiptExists: true, receiptSha: '0'.repeat(64) });
+  const result = await publish({
+    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    body: { action: 'publish', edition_id: editionId, pathname, admin_retry: true }
+  });
+  assert.equal(result.data.duplicate, false);
+  assert.equal(calls.dispatches.length, 1);
+  assert.equal(calls.puts[0][2].allowOverwrite, true);
+});
+
+test('admin retry fails closed for malformed flags and mismatched receipt editions', async () => {
+  const malformed = fixture({ receiptExists: true });
+  await assert.rejects(malformed.publish({
+    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    body: { action: 'publish', edition_id: editionId, pathname, admin_retry: 'true' }
+  }), error => error.status === 400);
+
+  const retry = fixture({ receiptExists: true });
+  retry.publish = createPublisher({
+    blob: {
+      issueSignedToken: async () => ({}), presignUrl: async () => ({ presignedUrl: 'https://private.example/get' }),
+      get: async target => target.startsWith('published-editions/')
+        ? { statusCode: 200, blob: { size: 128 }, stream: stream(Buffer.from(JSON.stringify({ edition_id: '2099-01-01-other', package_sha256: '0'.repeat(64) }))) }
+        : { statusCode: 200, blob: { size: 17 }, stream: stream(Buffer.from('completed package')) },
+      put: async () => {}, del: async () => {}
+    }, fetchImpl: async () => ({ status: 204 }), env: { PUBLISH_API_TOKEN: 'publish-secret', GITHUB_INGEST_TOKEN: 'github-secret' }
+  });
+  await assert.rejects(retry.publish({
+    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    body: { action: 'publish', edition_id: editionId, pathname, admin_retry: true }
+  }), error => error.status === 409 && /retry edition/.test(error.message));
+
+  const invalidDigest = fixture({ receiptExists: true, receiptSha: 'not-a-digest' });
+  await assert.rejects(invalidDigest.publish({
+    authorization: 'Bearer publish-secret', contentType: 'application/json',
+    body: { action: 'publish', edition_id: editionId, pathname, admin_retry: true }
+  }), error => error.status === 409 && /retry edition/.test(error.message));
 });
 
 test('rejects a caller digest that does not match private Blob bytes', async () => {
