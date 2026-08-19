@@ -1,11 +1,17 @@
 {
   "name": "money-stuff-for-kids",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "new-edition": "node scripts/new-edition.js",
     "ingest": "python3 scripts/ingest-package.py",
     "publish": "node scripts/publish.js",
     "check": "node scripts/publish.js --check",
-    "test": "node --test"
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "2.8.0"
   }
 }

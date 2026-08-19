@@ -67,9 +67,95 @@ Content-Type: application/json
   "inputs": {
     "package_url": "https://storage.example/private/object?short-lived-signature=...",
     "package_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
-    "edition_id": "2026-08-20-example-edition"
+    "edition_id": "2026-08-20-example-edition",
+    "package_delete_url": "https://storage.example/private/object?short-lived-delete-signature=..."
   }
 }
 ```
 
 The URL must use HTTPS and should expire shortly after dispatch. `package_sha256` must be exactly 64 lowercase hexadecimal characters. Do not put the ZIP or base64 images in dispatch inputs. The workflow downloads at most 25 MiB, verifies the digest before inspecting the ZIP, installs only the canonical JSON and referenced images, then runs `npm test`, `npm run publish`, and `npm run check`. The built-in `GITHUB_TOKEN` is limited to `contents: write` and `pull-requests: write`, solely so the workflow can push its deterministic branch and open the reviewable PR.
+
+## Vercel publishing bridge
+
+The machine-to-machine design is independent of ChatGPT Scheduled Tasks. Eventually a GitHub Actions worker will read the source email, generate and validate the four adaptations and story-specific illustrations, and build the completed ZIP. Gmail and model integration are intentionally **not** part of this transport-layer implementation. For now, `.github/workflows/submit-test-package.yml` is manually dispatched and submits the already-completed fixture in `examples/transport-test`.
+
+```text
+completed package -> manual GitHub worker -> authenticated Vercel Function
+  -> private Vercel Blob -> ingest workflow -> reviewable PR -> human merge
+```
+
+Neither workflow schedules generation, sends subscriber email, auto-merges, nor contains Gmail or OpenAI credentials.
+
+### 1. Connect the private Blob store
+
+In the Vercel project, open **Storage**, connect the existing **private** Blob store to this project, and make its read/write token available to Production and Preview deployments as `BLOB_READ_WRITE_TOKEN`. Do not prefix it with `NEXT_PUBLIC_` and do not copy it into GitHub.
+
+The bridge uses `@vercel/blob` only on the server. It stores packages under `pending-editions/<edition-id>/<uuid>.zip`. Direct function uploads are supported for small callers, but the worker uses the two-step metadata protocol so packages do not encounter Vercel Functions' request-body limit.
+
+### 2. Configure Vercel secrets
+
+Generate independent random values; this command is suitable for each shared secret:
+
+```sh
+openssl rand -hex 32
+```
+
+Set these Vercel environment variables for Production and Preview as appropriate:
+
+| Variable | Purpose |
+| --- | --- |
+| `BLOB_READ_WRITE_TOKEN` | Existing private Vercel Blob store read/write credential. |
+| `PUBLISH_API_TOKEN` | Authenticates the GitHub caller to `/api/publish-edition`; use the same value in the GitHub secret below. |
+| `GITHUB_INGEST_TOKEN` | Fine-grained GitHub PAT used only by the server to dispatch `ingest-edition.yml` in `BrettA/Money-stuff-for-kids`. Grant repository access only to this repository and Actions **write** permission. |
+| `CRON_SECRET` | Authenticates Vercel's daily cleanup request. Vercel sends it as `Authorization: Bearer ...`. |
+
+Redeploy after adding or rotating variables. Never put any values in `vercel.json`, workflow inputs, client-side code, Blob metadata, or committed `.env` files. `GITHUB_INGEST_TOKEN` exists only in Vercel.
+
+### 3. Configure GitHub
+
+In **Settings -> Secrets and variables -> Actions** add:
+
+1. Repository **secret** `PUBLISH_API_TOKEN`, equal to the Vercel value.
+2. Repository **variable** `PUBLISH_BRIDGE_URL`, equal to the deployment origin with no trailing slash, for example `https://money-stuff-for-kids.vercel.app`.
+
+Do not add `GITHUB_INGEST_TOKEN`, `BLOB_READ_WRITE_TOKEN`, `CRON_SECRET`, Gmail credentials, or OpenAI credentials to GitHub for this bridge.
+
+### 4. Invoke the manual transport test
+
+In **Actions -> Submit completed test package -> Run workflow**, keep the defaults:
+
+```text
+edition_id: 2099-01-01-transport-test
+package_directory: examples/transport-test
+```
+
+The caller creates a ZIP on the runner, requests a ten-minute signed private PUT URL, uploads directly to Blob, then asks the bridge to publish the stored pathname. The bridge reads the private object server-side, enforces the 25 MiB limit, computes SHA-256, creates a one-hour signed GET URL and a 24-hour signed DELETE URL, and dispatches the fixed repository/workflow/ref. It returns only the edition ID and digest, never storage or GitHub credentials.
+
+The ingestion job independently downloads and verifies the digest before reading the ZIP. Its final `if: always()` step uses the signed DELETE URL. As a fallback, Vercel Cron calls `/api/cleanup-editions` daily and deletes objects under `pending-editions/` after 24 hours.
+
+The fixture's edition ID is intentionally far in the future to avoid collision. A successful end-to-end test opens an `automated-edition/2099-01-01-transport-test` pull request. Close that test PR and delete its branch after verification; do not merge the fixture into the published site.
+
+### Request formats
+
+Every bridge request requires `Authorization: Bearer $PUBLISH_API_TOKEN`. The scalable flow first sends:
+
+```json
+{"action":"prepare","edition_id":"2099-01-01-transport-test","content_length":12345}
+```
+
+After `PUT`-ing `application/zip` bytes to the returned `upload_url`, send:
+
+```json
+{"action":"publish","edition_id":"2099-01-01-transport-test","pathname":"pending-editions/2099-01-01-transport-test/<uuid>.zip"}
+```
+
+Small trusted callers may instead POST raw `application/zip` bytes with an `X-Edition-Id` header. Metadata upload is recommended because the presigned PUT is constrained to one private pathname, ZIP content type, declared maximum size, and ten-minute lifetime.
+
+### Security and lifecycle notes
+
+- `PUBLISH_API_TOKEN` is compared in constant time and all responses disable caching.
+- Edition IDs and temporary pathnames are strictly validated; the GitHub owner, repository, workflow, and `main` ref are constants rather than caller inputs.
+- SHA-256 is computed from a server-authenticated read of the exact private Blob object. The GitHub workflow verifies it again.
+- If dispatch fails, the bridge deletes the object immediately. After dispatch, the ingestion workflow deletes it even when ingestion fails. Daily cleanup removes orphans after 24 hours.
+- Signed URLs grant one operation on one pathname and expire. The private Blob read/write token is never placed in a URL or dispatched to GitHub.
+- Repeatedly submitting the same edition may create competing deterministic branches; submit an edition once and inspect the workflow result before retrying.

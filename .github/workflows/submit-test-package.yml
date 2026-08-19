@@ -1,0 +1,75 @@
+name: Submit completed test package
+
+on:
+  workflow_dispatch:
+    inputs:
+      edition_id:
+        description: Edition ID represented by the completed fixture package
+        required: true
+        default: 2099-01-01-transport-test
+        type: string
+      package_directory:
+        description: Repository-relative directory containing edition.json and images/
+        required: true
+        default: examples/transport-test
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate inputs and build completed ZIP
+        env:
+          EDITION_ID: ${{ inputs.edition_id }}
+          PACKAGE_DIRECTORY: ${{ inputs.package_directory }}
+        run: |
+          [[ "$EDITION_ID" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9]+(-[a-z0-9]+)*$ ]]
+          [[ "$PACKAGE_DIRECTORY" =~ ^[A-Za-z0-9._/-]+$ ]]
+          [[ "$PACKAGE_DIRECTORY" != /* && "$PACKAGE_DIRECTORY" != *..* ]]
+          test -f "$PACKAGE_DIRECTORY/edition.json"
+          test -d "$PACKAGE_DIRECTORY/images"
+          test "$(jq -r .id "$PACKAGE_DIRECTORY/edition.json")" = "$EDITION_ID"
+          (cd "$PACKAGE_DIRECTORY" && zip -q -r "$RUNNER_TEMP/edition.zip" edition.json images)
+          test "$(stat --format=%s "$RUNNER_TEMP/edition.zip")" -le 26214400
+      - name: Request private upload URL
+        env:
+          BRIDGE_URL: ${{ vars.PUBLISH_BRIDGE_URL }}
+          PUBLISH_API_TOKEN: ${{ secrets.PUBLISH_API_TOKEN }}
+          EDITION_ID: ${{ inputs.edition_id }}
+        run: |
+          test -n "$BRIDGE_URL"
+          test -n "$PUBLISH_API_TOKEN"
+          length=$(stat --format=%s "$RUNNER_TEMP/edition.zip")
+          jq -n --arg edition_id "$EDITION_ID" --argjson content_length "$length" \
+            '{action:"prepare", edition_id:$edition_id, content_length:$content_length}' > "$RUNNER_TEMP/prepare.json"
+          curl --fail --silent --show-error --proto '=https' \
+            --header "Authorization: Bearer $PUBLISH_API_TOKEN" \
+            --header 'Content-Type: application/json' \
+            --data-binary @"$RUNNER_TEMP/prepare.json" \
+            "$BRIDGE_URL/api/publish-edition" > "$RUNNER_TEMP/upload.json"
+          jq -e '.pathname and .upload_url' "$RUNNER_TEMP/upload.json" >/dev/null
+      - name: Upload package directly to private Blob
+        run: |
+          upload_url=$(jq -r .upload_url "$RUNNER_TEMP/upload.json")
+          curl --fail --silent --show-error --proto '=https' --request PUT \
+            --header 'Content-Type: application/zip' \
+            --data-binary @"$RUNNER_TEMP/edition.zip" "$upload_url"
+      - name: Publish package
+        env:
+          BRIDGE_URL: ${{ vars.PUBLISH_BRIDGE_URL }}
+          PUBLISH_API_TOKEN: ${{ secrets.PUBLISH_API_TOKEN }}
+          EDITION_ID: ${{ inputs.edition_id }}
+        run: |
+          pathname=$(jq -r .pathname "$RUNNER_TEMP/upload.json")
+          jq -n --arg edition_id "$EDITION_ID" --arg pathname "$pathname" \
+            '{action:"publish", edition_id:$edition_id, pathname:$pathname}' > "$RUNNER_TEMP/publish.json"
+          curl --fail --silent --show-error --proto '=https' \
+            --header "Authorization: Bearer $PUBLISH_API_TOKEN" \
+            --header 'Content-Type: application/json' \
+            --data-binary @"$RUNNER_TEMP/publish.json" \
+            "$BRIDGE_URL/api/publish-edition" | jq -e '.accepted == true'

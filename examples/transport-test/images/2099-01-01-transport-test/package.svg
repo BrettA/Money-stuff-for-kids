@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">A package traveling securely</title>
+  <desc id="desc">A sealed parcel moves along a dotted path between two computers.</desc>
+  <rect width="640" height="360" rx="32" fill="#f4efe5"/>
+  <rect x="45" y="90" width="160" height="120" rx="12" fill="#22333b"/><rect x="60" y="105" width="130" height="90" fill="#b7e4c7"/>
+  <rect x="435" y="90" width="160" height="120" rx="12" fill="#22333b"/><rect x="450" y="105" width="130" height="90" fill="#b7e4c7"/>
+  <path d="M210 150c70-70 150-70 220 0" fill="none" stroke="#d97706" stroke-width="8" stroke-dasharray="12 12"/>
+  <path d="m292 105 55 22v72l-55 25-55-25v-72z" fill="#f59e0b" stroke="#7c2d12" stroke-width="6"/>
+  <path d="m237 127 55 24 55-24M292 151v73" fill="none" stroke="#7c2d12" stroke-width="5"/>
+  <rect x="277" y="158" width="30" height="28" rx="5" fill="#fff7ed"/><path d="M283 158v-8a9 9 0 0 1 18 0v8" fill="none" stroke="#7c2d12" stroke-width="5"/>
+  <path d="M90 235h70M480 235h70" stroke="#22333b" stroke-width="12" stroke-linecap="round"/>
+</svg>
