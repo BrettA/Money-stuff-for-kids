@@ -49,8 +49,9 @@ jobs:
           [[ "$PACKAGE_SHA256" =~ ^[0-9a-f]{64}$ ]]
           [[ "$PACKAGE_URL" == https://* ]]
           [[ -z "$PACKAGE_DELETE_URL" || "$PACKAGE_DELETE_URL" == https://* ]]
-      - name: Create deterministic ingestion branch
-        run: git switch -c "automated-edition/$EDITION_ID"
+      - name: Prepare deterministic ingestion branch
+        id: branch
+        run: scripts/prepare-ingestion-branch.sh "$EDITION_ID"
       - name: Download and verify package
         run: |
           curl --fail --silent --show-error --location --proto '=https' --max-filesize 26214400 \
@@ -64,19 +65,26 @@ jobs:
           npm run publish
           npm run check
       - name: Commit and push ingestion branch
+        env:
+          INGESTION_BRANCH: ${{ steps.branch.outputs.branch }}
+          BRANCH_PUSH_LEASE: ${{ steps.branch.outputs.push_lease }}
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add --all
           git commit -m "Publish $EDITION_ID"
-          git push --set-upstream origin "automated-edition/$EDITION_ID"
+          git push --set-upstream \
+            --force-with-lease="refs/heads/$INGESTION_BRANCH:$BRANCH_PUSH_LEASE" \
+            origin "HEAD:refs/heads/$INGESTION_BRANCH"
       - name: Open pull request (never auto-merge)
         env:
           GH_TOKEN: ${{ github.token }}
+          INGESTION_BRANCH: ${{ steps.branch.outputs.branch }}
         run: |
-          gh pr create --base main --head "automated-edition/$EDITION_ID" \
-            --title "Publish $EDITION_ID" \
-            --body "Automated ingestion of the digest-verified, schema-version-2 edition package. This pull request requires normal review and is not auto-merged."
+          gh pr view "$INGESTION_BRANCH" --json url --jq .url || \
+            gh pr create --base main --head "$INGESTION_BRANCH" \
+              --title "Publish $EDITION_ID" \
+              --body "Automated ingestion of the digest-verified, schema-version-2 edition package. This pull request requires normal review and is not auto-merged."
       - name: Delete temporary package
         if: ${{ always() && inputs.package_delete_url != '' }}
         run: curl --fail --silent --show-error --request DELETE --proto '=https' "$PACKAGE_DELETE_URL"
