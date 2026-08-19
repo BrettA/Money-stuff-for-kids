@@ -1,6 +1,7 @@
 {
   "processedIssues": [
     {"date":"2026-07-28","title":"Elevators Won’t Repair Themselves","gmailMessageId":"1a01aab5635ad0b8","editionId":"2026-07-28-elevators-wont-repair-themselves"},
+    {"date":"2026-07-30","title":"The Situation Deteriorated","gmailMessageId":"1a01abdc7360b6b1","editionId":"2026-07-30-the-situation-deteriorated"},
     {"date":"2026-08-03","title":"Hedgehog Hedge Fund","gmailMessageId":"1a015549ac3cd707","editionId":"2026-08-03-hedgehog-hedge-fund"},
     {"date":"2026-08-04","title":"Leveraged ETF Crash Hedging ETF","gmailMessageId":"1a015991c5c10032","editionId":"2026-08-04-leveraged-etf-crash-hedging-etf"},
     {"date":"2026-08-06","title":"Fake SpaceX Stock Isn’t Worth as Much","gmailMessageId":"1a01810c1bddf3d7","editionId":"2026-08-06-fake-spacex-stock-isnt-worth-as-much"},
@@ -14,6 +15,7 @@
   },
   "sends": [
     {"editionId":"2026-07-28-elevators-wont-repair-themselves","email":"brett.andler@gmail.com","agePreference":"elementary","gmailMessageId":"1a01ab2739a15a26"},
+    {"editionId":"2026-07-30-the-situation-deteriorated","email":"brett.andler@gmail.com","agePreference":"elementary","gmailMessageId":"1a01bf421fb3b680"},
     {"editionId":"2026-08-03-hedgehog-hedge-fund","email":"brett.andler@gmail.com","agePreference":"elementary","gmailMessageId":"1a01a03e4917fd10"},
     {"editionId":"2026-08-04-leveraged-etf-crash-hedging-etf","email":"brett.andler@gmail.com","agePreference":"elementary","gmailMessageId":"1a01a8a6be3a8754"},
     {"editionId":"2026-08-06-fake-spacex-stock-isnt-worth-as-much","email":"brett.andler@gmail.com","agePreference":"elementary","gmailMessageId":"1a019a4cd4369ba2"},
