@@ -15,6 +15,10 @@ on:
         description: Canonical dated edition ID
         required: true
         type: string
+      package_delete_url:
+        description: Single-use signed DELETE URL for temporary-package cleanup
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -28,6 +32,7 @@ jobs:
       EDITION_ID: ${{ inputs.edition_id }}
       PACKAGE_URL: ${{ inputs.package_url }}
       PACKAGE_SHA256: ${{ inputs.package_sha256 }}
+      PACKAGE_DELETE_URL: ${{ inputs.package_delete_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -41,6 +46,7 @@ jobs:
           [[ "$EDITION_ID" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9]+(-[a-z0-9]+)*$ ]]
           [[ "$PACKAGE_SHA256" =~ ^[0-9a-f]{64}$ ]]
           [[ "$PACKAGE_URL" == https://* ]]
+          [[ -z "$PACKAGE_DELETE_URL" || "$PACKAGE_DELETE_URL" == https://* ]]
       - name: Create deterministic ingestion branch
         run: git switch -c "automated-edition/$EDITION_ID"
       - name: Download and verify package
@@ -69,3 +75,6 @@ jobs:
           gh pr create --base main --head "automated-edition/$EDITION_ID" \
             --title "Publish $EDITION_ID" \
             --body "Automated ingestion of the digest-verified, schema-version-2 edition package. This pull request requires normal review and is not auto-merged."
+      - name: Delete temporary package
+        if: ${{ always() && inputs.package_delete_url != '' }}
+        run: curl --fail --silent --show-error --request DELETE --proto '=https' "$PACKAGE_DELETE_URL"

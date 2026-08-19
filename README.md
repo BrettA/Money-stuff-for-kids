@@ -31,3 +31,5 @@ Explicit lesson boxes are omitted from Elementary.
 ## Publishing new editions
 
 The repeatable, repository-owned workflow is documented in [`docs/PUBLISHING.md`](docs/PUBLISHING.md). Start with an edition section inventory, scaffold it with `npm run new-edition`, write and review all four adaptations and story-specific illustrations, then run `npm run publish`. The publisher automatically rebuilds the archive, homepage, and edition pages; `npm run check` verifies both the editorial contract and generated files.
+
+The same guide documents the authenticated Vercel publishing bridge and the manually dispatched GitHub Actions transport test. Gmail ingestion, model generation, scheduling, subscriber delivery, and automatic merging are intentionally outside the current transport layer.

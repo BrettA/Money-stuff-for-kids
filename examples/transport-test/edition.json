@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 2,
+  "id": "2099-01-01-transport-test",
+  "date": "2099-01-01",
+  "displayDate": "January 1, 2099",
+  "title": "Transport Test",
+  "sourceSections": ["A Test Package", "Things happen"],
+  "stories": [
+    {
+      "id": "test-package",
+      "sourceSection": "A Test Package",
+      "illustration": {
+        "src": "/images/2099-01-01-transport-test/package.svg",
+        "alt": "A sealed package traveling safely between two computers"
+      },
+      "elementaryChecklist": {
+        "realPeople": ["none in source"],
+        "realCompanies": ["Vercel", "GitHub"],
+        "financialMechanism": "none in source",
+        "centralJoke": "The package takes a long trip just to become a pull request"
+      },
+      "adaptations": {
+        "preschool": {"title": "A Safe Package", "lesson": "Computers can pass a locked package.", "paragraphs": ["One computer sends a little package to another computer. It stays locked while it travels."]},
+        "elementary": {"title": "The Traveling Test Package", "lesson": "A checksum proves that a file arrived unchanged.", "paragraphs": ["Vercel keeps this test package private while GitHub checks its special fingerprint. If the fingerprint matches, the package becomes a pull request for a person to review."]},
+        "middle": {"title": "Testing a Private Publishing Bridge", "lesson": "Short-lived credentials reduce exposure.", "paragraphs": ["The worker uploads a completed ZIP with a narrowly scoped signed URL. The bridge hashes it on the server and gives GitHub a different short-lived URL that can only download that object."]},
+        "high": {"title": "An End-to-End Transport Fixture", "lesson": "Separate transport authorization from repository authorization.", "paragraphs": ["A shared publishing token authenticates the worker without revealing the GitHub PAT. Private Blob delegation URLs constrain upload, download, and deletion independently, while SHA-256 binds ingestion to the exact uploaded bytes."]}
+      }
+    }
+  ]
+}
