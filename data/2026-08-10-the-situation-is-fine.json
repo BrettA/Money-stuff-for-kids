@@ -20,13 +20,15 @@
           ]
         },
         "elementary": {
-          "title": "The Investor Who Lost Big and Got More Famous",
+          "title": "The Hedge Fund That Almost Blew Up and Became More Interesting",
           "lesson": "A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
           "paragraphs": [
-            "Here is the strange money puzzle: A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Leopold Aschenbrenner is extremely excited about AI. He started a hedge fund called Situational Awareness and made lots of investments based on one big idea: AI is going to become incredibly important.",
+            "The fund bought companies AI might help and bet against companies AI might hurt. It looked like many bets. Then many started losing at once.",
+            "Imagine packing four pairs of shorts, two swimsuits and six pairs of sunglasses. You packed many things, but really you made one bet: it will be hot.",
+            "Situational Awareness had done something similar with AI, and it had borrowed money to make the bets bigger. When the trades went wrong, it lost a huge amount and had to sell investments.",
+            "On Wall Street, nearly blowing up your hedge fund is evidence something went wrong. In Silicon Valley, there is another possible reaction: Wow. This guy REALLY believes in AI.",
+            "Wall Street asks, \u201cHow much did you lose?\u201d Silicon Valley sometimes asks, \u201cYes, but how enormous was the dream?\u201d"
           ]
         },
         "middle": {
@@ -67,13 +69,14 @@
           ]
         },
         "elementary": {
-          "title": "The Price That Kept Running",
+          "title": "The Trade That Says 'It Is Going Up, So Buy It'",
           "lesson": "Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
           "paragraphs": [
-            "Here is the strange money puzzle: Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "There are complicated ways to choose investments. Momentum has a wonderfully simple summary: this thing is going up, so maybe it will keep going up.",
+            "Intraday momentum tries to catch that movement inside one trading day. A computer spots something running upward, buys it, and hopes to get out before the running stops.",
+            "This sounds a bit like chasing someone because they are already running.",
+            "Which it is.",
+            "But if prices do it often enough, people will build extremely serious mathematical systems for doing the chasing."
           ]
         },
         "middle": {
@@ -114,13 +117,14 @@
           ]
         },
         "elementary": {
-          "title": "The Tiny Step That Wasn't So Tiny",
+          "title": "How Finance Made Everyone Care About One Penny",
           "lesson": "Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
           "paragraphs": [
-            "Here is the strange money puzzle: Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Prediction-market contracts often cost less than one dollar, so a penny can be a surprisingly big deal.",
+            "If a contract costs 10 cents, paying 11 cents is about 10% more. For a $200 stock, a one-cent difference is almost nothing.",
+            "Markets have a smallest allowed price step, called a tick. On many prediction contracts it is one cent.",
+            "That can be good for traders who stand between buyers and sellers and earn the difference.",
+            "A penny is normally the coin you ignore on the sidewalk. Finance has found a way to make extremely serious adults care deeply about it."
           ]
         },
         "middle": {
@@ -161,13 +165,15 @@
           ]
         },
         "elementary": {
-          "title": "The Very Exciting Pest-Control Investor",
+          "title": "Private Equity's Extremely Glamorous Pest-Control Era",
           "lesson": "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
           "paragraphs": [
-            "Here is the strange money puzzle: Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Private-equity firms buy companies, try to improve them and later sell them. The companies do not have to be glamorous.",
+            "They might make industrial parts, run dental offices or kill bugs. A useful pest-control business can make perfectly good money even if nobody makes a movie about it.",
+            "Private-equity people themselves, however, have somehow become glamorous in certain corners of culture. Articles discuss them as desirable boyfriends. Celebrities date financiers.",
+            "So there is a pleasing mismatch.",
+            "By day: an extremely serious meeting about the profit margins of regional pest-control companies.",
+            "By night: apparently, heartthrob."
           ]
         },
         "middle": {

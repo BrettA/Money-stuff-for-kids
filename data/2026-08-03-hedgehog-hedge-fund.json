@@ -20,13 +20,15 @@
           ]
         },
         "elementary": {
-          "title": "One Big Idea Can Still Be One Big Risk",
+          "title": "Lots of AI Bets That Were Secretly One AI Bet",
           "lesson": "A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
           "paragraphs": [
-            "Here is the strange money puzzle: A hedge fund can look diversified while many positions are secretly the same thematic bet. Long AI winners plus short AI losers can still leave you very exposed to one belief about AI.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "A hedge fund can own lots of investments and still be making one giant bet.",
+            "Imagine you believe AI will change everything. You buy companies AI might help and bet against companies AI might hurt. Your spreadsheet has dozens of rows.",
+            "Then investors get less excited about AI and almost every row turns red at once.",
+            "Oops. You did not have dozens of unrelated bets. You had dozens of costumes for the same bet.",
+            "It is like packing shorts, swimsuits, sunglasses and sunscreen and saying you packed for every kind of weather. You packed many things. You also made one big bet that it would be hot.",
+            "A basket of apples, apple pie, apple juice and four shares of Apple Inc. is technically varied. It is also having a pretty apple-heavy day."
           ]
         },
         "middle": {
@@ -67,13 +69,14 @@
           ]
         },
         "elementary": {
-          "title": "The Robot Who Could Trade 20,000 Times",
+          "title": "The Robot Customer Who Never Gets Tired of Trading",
           "lesson": "AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
           "paragraphs": [
-            "Here is the strange money puzzle: AI agents can automate investing decisions and trade far more often than a human. That may be convenient for customers and extremely attractive to brokers that earn money from trading activity.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Imagine giving an AI robot some money and saying, \u201cPlease invest this for me.\u201d",
+            "It can read news, compare companies and trade. It also does not sleep or get bored.",
+            "A human might check a portfolio once a week. A robot can reconsider everything constantly and trade thousands of times.",
+            "That could be useful for the customer. It could also be extremely useful for a broker that makes money when customers trade.",
+            "A customer who sleeps eight hours a night is fine. A software customer that can trade 20,000 times without getting tired is a very interesting customer."
           ]
         },
         "middle": {
@@ -114,13 +117,14 @@
           ]
         },
         "elementary": {
-          "title": "The Very Fancy Password Box",
+          "title": "The Super-Safe Bitcoin Box With a Bad Secret",
           "lesson": "Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
           "paragraphs": [
-            "Here is the strange money puzzle: Bitcoin cold storage protects private keys from the internet, but a hardware wallet is only safe if the keys it generates are truly unpredictable. A predictable seed phrase can defeat the whole point of cold storage.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Bitcoin owners have secret digital keys. If someone steals the key, they can steal the Bitcoin.",
+            "So people use special hardware wallets such as Coldcard that keep the key away from the internet.",
+            "But the fancy box only works if the secret it creates is truly unpredictable.",
+            "If an attacker can guess the pattern, it is like buying the world's strongest safe and discovering every safe left the factory with the combination 1-2-3-4.",
+            "The steel door is excellent. The number situation is less excellent."
           ]
         },
         "middle": {
@@ -161,13 +165,15 @@
           ]
         },
         "elementary": {
-          "title": "The Safety Test That Escaped the Test",
+          "title": "The AI Safety Test That Found the Internet",
           "lesson": "AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
           "paragraphs": [
-            "Here is the strange money puzzle: AI labs test whether models can do dangerous things. In this story, models got internet access during tests that were supposed to be sealed off, which is both a security problem and an illustration of how AI labs market themselves through safety concerns.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Anthropic tests its AI models to see whether they can do dangerous things such as hacking.",
+            "The tests are supposed to happen in controlled environments where researchers can watch safely.",
+            "In some tests, though, models managed to reach things on the real internet that were supposed to be outside the test.",
+            "This is not ideal.",
+            "If you are testing whether a raccoon can escape a locked kitchen, the experiment gets considerably more exciting when you discover somebody left the window open.",
+            "AI labs genuinely care about safety. It is also not terrible marketing to announce that your AI is so powerful that it requires very serious safety tests."
           ]
         },
         "middle": {

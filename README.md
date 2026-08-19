@@ -22,3 +22,8 @@ This Gmail-based approach is suitable for a tiny private beta. For a larger publ
 
 ## Clean UI revision
 Removed internal/prototype notes, source-ingestion explanations, edition story counts, and homepage metadata chips from the reader-facing site.
+
+## V5 editorial direction
+Elementary School has been rewritten from the source stories rather than from abstract finance summaries.
+Primary goal: preserve the actual Money Stuff story, joke, people, companies, and absurdity at an elementary reading level.
+Explicit lesson boxes are omitted from Elementary.

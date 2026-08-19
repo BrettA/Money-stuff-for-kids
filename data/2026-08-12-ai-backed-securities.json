@@ -20,13 +20,15 @@
           ]
         },
         "elementary": {
-          "title": "The Money Box With Different Shelves",
+          "title": "Wall Street Would Like to Put the AI Data Center in a Box",
           "lesson": "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
           "paragraphs": [
-            "Here is the strange money puzzle: Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "AI needs chips, electricity and giant buildings full of computers. All of this costs an enormous amount of money.",
+            "Suppose an investment firm builds a data center and rents it to an AI company. Those future rent payments are valuable.",
+            "Wall Street has a favorite trick: put things that produce money into a financial box, then sell investors different pieces of the money coming out.",
+            "The safest pieces get paid first. Riskier pieces wait longer and can earn more. This is called securitization.",
+            "Now AI data centers are so enormous that financiers are asking whether their loans can go into the box too.",
+            "If the AI boom keeps booming, everyone gets paid and the box looks brilliant. If not, Wall Street will at least have built a very sophisticated box."
           ]
         },
         "middle": {
@@ -67,13 +69,15 @@
           ]
         },
         "elementary": {
-          "title": "The News That Arrived a Millisecond Early",
+          "title": "The News That Was Worth More Because It Was Faster",
           "lesson": "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
           "paragraphs": [
-            "Here is the strange money puzzle: A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Important government news can move stock prices very quickly, so traders would love to receive it before everyone else.",
+            "For computer traders, even a few milliseconds can matter.",
+            "Truth Social was involved in a plan for a very fast feed of government announcements that could move markets.",
+            "The product is basically: here is the same sentence everyone will read, except your computer gets it first.",
+            "That can be valuable. It also creates an awkward question: when does \u201cfast news service\u201d become \u201csome traders get important government information before everyone else\u201d?",
+            "Sometimes a millisecond is barely enough time to blink. Sometimes a millisecond is a product."
           ]
         },
         "middle": {
@@ -117,10 +121,11 @@
           "title": "The Emergency About Keeping the Betting Market Open",
           "lesson": "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
           "paragraphs": [
-            "Here is the strange money puzzle: Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Kalshi trades prediction contracts, including contracts about sports. This has created a fight over what Kalshi actually is.",
+            "States normally regulate sports gambling. Kalshi says it is a federally regulated financial exchange, even when the thing being traded is a sports outcome.",
+            "During one legal fight, the possibility that some Kalshi trading might stop was treated as an urgent market issue.",
+            "This is funny because the emergency was not \u201ca bank is collapsing.\u201d It was closer to \u201cpeople might temporarily be unable to trade contracts about sports.\u201d",
+            "But the label matters enormously: financial market or sports betting? Sometimes the most valuable part of a financial product is the category everyone agrees to put it in."
           ]
         },
         "middle": {
@@ -161,13 +166,14 @@
           ]
         },
         "elementary": {
-          "title": "The Scientists Who Accidentally Made a Music Machine",
+          "title": "How Wall Street Helped Make an AI Music Company",
           "lesson": "Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
           "paragraphs": [
-            "Here is the strange money puzzle: Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
-            "Think of finance as a giant game of promises. People trade promises about what happens if prices rise, prices fall, a project works, or something surprising happens.",
-            "The funny part is that grown-ups often give these promises extremely serious names. The promises remain promises.",
-            "The useful question is always the same: what risk moved, who took it, and why?"
+            "Wall Street hires lots of mathematicians, physicists and computer scientists because finance has hard problems involving data, speech and machine learning.",
+            "Some people who worked on machine-learning systems for financial audio later helped build Suno, the AI music company.",
+            "So the career path goes: study science, work in finance, teach computers about sound, help build a computer that makes songs.",
+            "Nobody planning a career in elementary school would draw the arrows in that order.",
+            "But technology often spreads this way. One industry pays to solve a difficult problem, and later the solution wanders off and does something much stranger."
           ]
         },
         "middle": {

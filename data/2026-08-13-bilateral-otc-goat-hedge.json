@@ -20,14 +20,18 @@
           ]
         },
         "elementary": {
-          "title": "The Goat Farmer's Very Fancy Umbrella",
+          "title": "The Great Goat Price Problem",
           "lesson": "Hedging means giving up a little of your best possible outcome so a bad outcome hurts less.",
           "paragraphs": [
-            "Gus had goats. Lots of goats. His goats ate grass, climbed on things they were absolutely not supposed to climb on, and eventually needed to be sold.",
-            "But Gus had a problem: what if goat prices fell before selling day?",
-            "So Gus made a deal that paid him if the bad thing happened. If goat prices stayed high, his goats were worth plenty. If prices fell, the hedge helped make up the difference.",
-            "\u201cThat sounds like insurance,\u201d said Gus. The finance people coughed politely and gave it a much more complicated name.",
-            "The goats did not care what it was called. Gus had traded some upside for protection from a terrible day. That is hedging."
+            "Herder & Co. is in the goat business.",
+            "This means it has a problem you may not have thought about before: what if goats suddenly get cheaper?",
+            "If you own thousands of goats and goat prices fall, you have the same number of goats. They are just worth less money. This is bad news if your plan was to sell the goats.",
+            "Kalshi runs a prediction market, where people trade on things that might happen. It is better known for elections and sports, but Kalshi would also like to be useful for serious businesses.",
+            "And Herder had a serious business problem involving goats.",
+            "So Kalshi helped Herder make a deal that would pay if goat prices fell. If prices stayed high, great: the goats were valuable. If prices fell, the trade softened the blow. This sort of trade is called a hedge.",
+            "It is useful for Herder. It is also useful for Kalshi, which spends a lot of time explaining that it is a serious financial exchange and not just a website where people bet on stuff.",
+            "And nothing says \u201cserious financial exchange\u201d quite like: We can protect you from an unexpected decline in the price of goats.",
+            "The goats themselves still get to be goats. They just have a surprisingly sophisticated financial strategy now."
           ]
         },
         "middle": {
@@ -68,14 +72,17 @@
           ]
         },
         "elementary": {
-          "title": "The Letter From Someone Who Didn't Write It",
+          "title": "The Comment Matt Levine Definitely Did Not Write",
           "lesson": "Public comments can influence regulators, but counting comments is not the same as counting independent opinions.",
           "paragraphs": [
-            "The Rule-Making Club had a new rule and asked everyone, \u201cWhat do you think?\u201d",
-            "Big organizations could hire lawyers to write giant letters. Regular people could write too, but most regular people do not wake up excited to comment on financial regulation.",
-            "So groups sometimes write a letter once and help thousands of people send versions of it. That can be useful organizing \u2014 but it can also make 10,000 letters look like 10,000 totally separate ideas.",
-            "And sometimes a letter appears under a person's name even though that person says, \u201cUm, I did not send that.\u201d",
-            "The important job is to read the arguments, not just count the envelopes."
+            "When the government considers a financial rule, it asks people to send comments.",
+            "Ordinary people do not often wake up thinking, \u201cToday I will send the government my views on securities regulation.\u201d Companies and lobbying groups care a lot more.",
+            "So groups write sample comments and help lots of people send them. The government can receive thousands of suspiciously similar letters.",
+            "Then it gets weirder.",
+            "Matt Levine once found a government comment submitted under the name \u201cMatt Levine.\u201d",
+            "Matt had not written it.",
+            "Apparently there is now a very convenient form of civic participation where you do not even need to know that you participated.",
+            "That is why regulators cannot simply count comments like votes. Ten thousand letters might mean ten thousand opinions\u2014or one organization was extremely good at producing letters."
           ]
         },
         "middle": {
@@ -116,14 +123,18 @@
           ]
         },
         "elementary": {
-          "title": "The Rocket Shares Everyone Was Afraid Of",
+          "title": "The SpaceX Stock Avalanche That Didn't Arrive",
           "lesson": "Prices react to expectations. If everyone prepares for something worse than what actually happens, the price can move the opposite way.",
           "paragraphs": [
-            "Some early SpaceX owners had promised not to sell their shares for a while. That promise was called a lockup.",
-            "Everyone knew the lockup would eventually end. Traders worried that a giant pile of shares would suddenly be for sale.",
-            "So some traders prepared early. They acted as if the big selling wave was already on its way.",
-            "Then the scary day arrived \u2014 and the wave was smaller than expected. The stock rose.",
-            "It was like preparing 100 elephant-sized cakes because 100 elephants might attend your party, and then three elephants show up. Three elephants are still a lot of elephant. But compared with 100, it feels almost relaxing."
+            "Some early owners of a newly public company have to wait before selling their shares. That waiting period is called a lockup.",
+            "SpaceX investors knew that when its lockup ended, a huge number of shares would suddenly be allowed to be sold.",
+            "Traders imagined an avalanche: early investors selling, tons of stock hitting the market, and the price falling.",
+            "But everyone knew when the avalanche might arrive, so they prepared. People sold early and bet on the price falling.",
+            "Then the lockup ended.",
+            "And the stock went up.",
+            "A huge number of people being allowed to sell is not the same as a huge number actually selling. The real avalanche was smaller than the one everyone had prepared for.",
+            "It is like hearing 100 elephants are coming to your birthday party, reinforcing the floor and ordering 100 elephant cakes\u2014then three elephants show up.",
+            "Three elephants are still a lot of elephants. Compared with 100? Pretty relaxing."
           ]
         },
         "middle": {
@@ -164,14 +175,16 @@
           ]
         },
         "elementary": {
-          "title": "The Giant Goat Deal That Didn't Fit on the Shelf",
+          "title": "The Goat Bet That Was Too Big for the Website",
           "lesson": "Big trades sometimes happen privately because putting the whole trade on an exchange would move the price.",
           "paragraphs": [
-            "Suppose Gus the goat farmer wants a very large hedge \u2014 much larger than the little bets already waiting on an exchange.",
-            "If he tries to buy every contract on the screen, each next contract may get more expensive because everyone can see Gus coming.",
-            "So Gus can call a professional trading firm and ask for one giant custom deal instead.",
-            "That is an over-the-counter, or OTC, trade: two sides agree directly rather than matching lots of tiny public orders.",
-            "The goats still do not care. Finance has, once again, invented a complicated phrase for arranging a large promise."
+            "Herder's goat hedge had another problem: it was big.",
+            "On Kalshi's website there might be a few contracts for sale at one price and a few more at a higher price. Fine for a small bet.",
+            "But a real goat business might need millions of dollars of protection. Buying that much from the little offers on the screen could push the price higher and higher.",
+            "So Kalshi found another large trader and arranged one giant deal directly between the two sides. Finance calls this a block trade.",
+            "It is like walking into a supermarket and saying, \u201cI need 40,000 boxes of Cheerios.\u201d The cashier might suggest that you stop clearing the shelves and call the cereal company.",
+            "Herder did not need 40,000 boxes of Cheerios. It needed a very large financial bet about goats.",
+            "Which is a sentence that exists because finance is wonderful."
           ]
         },
         "middle": {
