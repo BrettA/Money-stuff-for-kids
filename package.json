@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "new-edition": "node scripts/new-edition.js",
+    "ingest": "python3 scripts/ingest-package.py",
     "publish": "node scripts/publish.js",
     "check": "node scripts/publish.js --check",
     "test": "node --test"
