@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-07-30-the-situation-deteriorated",
+  "date": "2026-07-30",
+  "displayDate": "July 30, 2026",
+  "title": "The Situation Deteriorated",
+  "sourceSections": [
+    "Situational Awareness",
+    "Election manipulation",
+    "Revlon",
+    "Ionic",
+    "World Liberty",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "situational-awareness",
+      "sourceSection": "Situational Awareness",
+      "illustration": {
+        "src": "/images/2026-07-30-the-situation-deteriorated/situational-awareness.png",
+        "alt": "Leopold Aschenbrenner in a suit handing a crate of server hardware and bare semiconductor chips across a conference table to Ken Griffin while bank traders on phones and computer screens showing falling stock charts look on."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Leopold Aschenbrenner",
+          "Ken Griffin",
+          "Bill Ackman",
+          "Dan Loeb"
+        ],
+        "realCompanies": [
+          "Situational Awareness",
+          "Citadel",
+          "SK Hynix",
+          "Anthropic",
+          "Bank of America",
+          "Goldman Sachs",
+          "JPMorgan Chase",
+          "Pershing Square",
+          "Third Point",
+          "Adobe Inc."
+        ],
+        "financialMechanism": "Concentrated long positions amplified with borrowed money (leverage) from prime brokers and banks, which can trigger margin calls and force sales; contrast with long-dated financing such as bonds and equity.",
+        "centralJoke": "The absurd idea of putting '300% of your money' into the AI boom — borrowing more than you have to chase a big thesis."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Big Bets on AI",
+          "lesson": "Sometimes people win big, and sometimes they borrow too much and have to sell what they bought.",
+          "paragraphs": [
+            "Leopold Aschenbrenner started a company called Situational Awareness to buy pieces of big computer systems for artificial intelligence (AI).",
+            "At first his choices did very well — his team owned parts of companies that make AI chips and AI models, like Anthropic and chips from SK Hynix.",
+            "But he and the firm also borrowed a lot of money to buy more. When prices fell, they had to sell many of their stocks, and another firm, Citadel, bought most of them.",
+            "The silly part is that people at the firm joked they put more than 100% of their money into the idea — and sometimes people who borrow too much must give things up quickly."
+          ]
+        },
+        "elementary": {
+          "title": "The Fund That Went All-In on AI (and Then Had to Sell)",
+          "lesson": "If you borrow to make a decades-long bet but your loans can be called back quickly, a short run of bad luck can force big, fast selling.",
+          "paragraphs": [
+            "Two years ago it looked obvious: AI was going to be huge. Nvidia, SK Hynix and AI companies shot up, and a lot of investors wanted to own the winners.",
+            "A former OpenAI researcher named Leopold Aschenbrenner launched a fund called Situational Awareness and built a huge bet on AI companies — he even owned a big piece of Anthropic.",
+            "The fund’s returns were eye-popping for a while. But Leopold and his team didn’t just use their own money; they borrowed a lot more to buy even bigger positions. Investors and banks sometimes call that levering up.",
+            "That’s where the funny-but-dangerous idea comes in: they talked about putting, like, 300% of their money into the AI boom — more than everything they actually had. It sounds wild, and it is.",
+            "When AI stocks slid, banks demanded more cash (margin calls). Suddenly the fund had to sell many of its holdings quickly, and the big trading firm Citadel bought most of the long AI positions.",
+            "The simple lesson woven through this story is: making a long-term bet is different from using short-term loans to fund it. If your funding can be pulled back overnight, you can be forced to sell even if you still believe the idea."
+          ]
+        },
+        "middle": {
+          "title": "Situational Awareness: A Big AI Bet, Borrowed Money, and a Quick Exit",
+          "lesson": "Concentrated, leveraged long-term bets can be vulnerable if short-term financing is callable — a funding-mismatch risk that can convert paper gains into realized losses under stress.",
+          "paragraphs": [
+            "Being bullish on AI produced huge winners: Nvidia rose about 83% over two years, SK Hynix about 220%, and private players such as Anthropic climbed hundreds of percent in short periods.",
+            "Leopold Aschenbrenner founded Situational Awareness less than two years ago with several hundred million dollars and rapidly turned it into a giant AI-focused fund. Through May the fund was reported to be up about 270% after fees this year and more than 1,000% since inception, and at one point managed roughly $20 billion — later reports put peak assets closer to $45 billion.",
+            "A sizable portion of the fund (about one-fifth of assets) was in Anthropic. To boost returns further, the fund used borrowed money from prime brokers and banks — increasing exposure beyond its actual capital base.",
+            "That leverage is the punchline and the problem: as the memo-style joke in the source said, the firm behaved like it had 200–300% exposure to the AI thesis. When AI stocks fell, those bank loans triggered margin requirements and rapid liquidity needs.",
+            "Prime brokers including Bank of America, Goldman Sachs and JPMorgan Chase worked with the fund to meet margin demands and to market blocks of holdings for sale. Ultimately, the firm sold the bulk of its public-stock portfolio to Ken Griffin’s Citadel as it unwound positions.",
+            "The hard-earned takeaway: concentrated, long-dated technology bets can look great on paper, but relying on short-dated, callable financing creates a mismatch that can force fire sales and hand long-term positions to better-capitalized buyers."
+          ]
+        },
+        "high": {
+          "title": "Leverage, Liquidity and a Forced Sale: The Rise and Unwind of Situational Awareness",
+          "lesson": "A classic funding-mismatch: large, concentrated long-duration exposures financed with short-dated, callable bank leverage create acute margin and liquidity risk that can transform unrealized gains into realized losses and result in strategic asset transfers.",
+          "paragraphs": [
+            "The AI trade has produced asymmetric winners across hardware and model providers — examples cited include Nvidia (+83% over two years), SK Hynix (+220%), and rapid private-company multiple expansion at places like Anthropic (reported >400% in under a year). That backdrop let early believers scale large, concentrated positions.",
+            "Leopold Aschenbrenner’s firm, Situational Awareness, grew from a few hundred million in seed capital into a tens-of-billion-dollar AI-focused hedge fund in under two years. Reported figures show roughly +270% after fees through May in one year and >1,000% cumulative since inception; peak AUM was reported as high as $45 billion before the recent losses.",
+            "Concentration risk was material: roughly one-fifth of the fund’s assets were tied to Anthropic. To amplify returns, the fund employed balance-sheet leverage provided by prime brokers and bank financing. Leverage increased effective exposure far beyond the fund’s unlevered capital (hence the sardonic line about being 200–300% ‘all-in’).",
+            "The critical operational risk was a funding mismatch. The investment thesis is multi‑decadal — building $1T+ training clusters and associated energy and semiconductor infrastructure — but the financing was short-dated and callable. When markets reversed, banks issued margin calls; prime brokers (Bank of America, Goldman Sachs, JPMorgan Chase) sought to manage counterparty exposure by coordinating liquidity, marketing large blocks of both long and short positions, and encouraging orderly reductions.",
+            "Facing margin pressure and the need for immediate liquidity, Situational Awareness sold the bulk of its public equity portfolio to Citadel, Ken Griffin’s trading firm. That transfer illustrates how better-funded counterparties can acquire long-term strategic bets from less-liquid, leveraged players during stressed windows.",
+            "For practitioners the lesson is concrete: manage concentration, ensure alignment of funding tenor with investment horizon, stress-test liquidity under margin scenarios, and price in the tail risk that funding providers can require rapid de‑leveraging. The source’s absurd image — putting 300% of your money into a single thesis — neatly captures how leverage can turn a correct long-term view into a brittle position under short-term funding dynamics."
+          ]
+        }
+      }
+    },
+    {
+      "id": "election-manipulation",
+      "sourceSection": "Election manipulation",
+      "illustration": {
+        "src": "/images/2026-07-30-the-situation-deteriorated/election-manipulation.png",
+        "alt": "An anonymous person at a laptop buying a large bundle of prediction-market contracts while a market chart on the screen shows a sudden big spike; nearby is a visible stack of cash on the table and a second person taking a photo of a blurred newspaper; Matt Mahan stands at a campaign podium in the background."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Matt Mahan",
+          "Adam Kalamchi",
+          "Liam Vaughan",
+          "Fine-Tributary (anonymous Polymarket user)"
+        ],
+        "realCompanies": [
+          "Polymarket",
+          "Kalshi",
+          "New York Post",
+          "California Post",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Buying binary 'yes' contracts on a prediction market to push up the market price (the market-implied probability) in an illiquid market.",
+        "centralJoke": "A single anonymous $44,000 bet briefly made Matt Mahan look like a 96% favorite on Polymarket, prompting media coverage and calls to 'push up the Polymarket bids'—was that campaigning or market manipulation?"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "A very big bet that looked like a win",
+          "lesson": "Sometimes people put a lot of money on a bet so it looks like someone will win, and that can make news stories say the person is doing great.",
+          "paragraphs": [
+            "Matt Mahan is a mayor who ran for governor of California.",
+            "On a website called Polymarket, a user named Fine-Tributary spent $44,000 buying bets that Mahan would win.",
+            "That big bet made the website show he looked very likely to win, and newspapers wrote stories about it. Later, other people bet the other way and the numbers went back down."
+          ]
+        },
+        "elementary": {
+          "title": "How one big online bet made a small campaign look like a giant",
+          "lesson": "When people use betting sites called prediction markets, the prices look like how likely someone is to win. One person’s huge bet pushed Matt Mahan’s odds way up on Polymarket, newspapers noticed, friends asked people to ‘push up the Polymarket bids,’ and for a little while it looked like he was winning — until other traders corrected the prices and the excitement faded.",
+          "paragraphs": [
+            "Matt Mahan, the mayor of San Jose, had just entered the California governor’s race. On the morning he announced, an anonymous user on Polymarket called Fine-Tributary spent $44,000 buying “yes” contracts that would pay if Mahan won.",
+            "Because so few people had bet on that market yet, the single large purchase pushed the market price way up — as if the site were saying Mahan had almost certain odds of winning. A newspaper story followed and people in Mahan’s circle asked others to help ‘push up the Polymarket bids.’",
+            "But prediction markets are watched by other traders. Soon people bought the opposite side, the odds came down, and the market moved back toward what polls were saying. The campaign’s big spike turned out to be temporary."
+          ]
+        },
+        "middle": {
+          "title": "When a $44,000 bet briefly made a candidate look unbeatable",
+          "lesson": "Prediction-market prices are supposed to aggregate what many people think about an outcome. If a single large trade moves an illiquid market, it can create a misleading signal that attracts media attention and campaign boosters — but other traders often arbitrage that away, so the effect can be short-lived.",
+          "paragraphs": [
+            "Reporter Liam Vaughan (Bloomberg) described how an anonymous Polymarket wallet, Fine-Tributary, spent $44,000 on “yes” contracts for Matt Mahan when he entered California’s gubernatorial race. The trade pushed the price from the low teens to about $0.96 (i.e., a 96% implied probability) in one spike.",
+            "Polymarket’s prices are read as probabilities: a $0.96 price looks like a near-certain win. That spike drew coverage from outlets including the New York Post and the California Post, which treated the betting move as evidence of a surge in support.",
+            "Sharp traders responded by buying the ‘no’ side, earning profit as prices fell. By the next day the market still showed an elevated chance (about 36%), but traditional polls were near 4%. The spike illustrates how liquidity gaps let one large bet distort a market, and how limits to arbitrage can make such distortions temporary but newsworthy."
+          ]
+        },
+        "high": {
+          "title": "Liquidity, manipulation and the signaling value of prediction markets",
+          "lesson": "Binary contracts on prediction markets trade like probabilities: price ≈ market-implied chance of the event. Thin markets let a single large order move prices dramatically, producing an outsized information signal that can be amplified by media or campaign actors. Professional traders (arbitrageurs) usually correct mispricings, but limits to arbitrage and timing gaps mean manipulation or publicity-driven distortions can still matter.",
+          "paragraphs": [
+            "Polymarket is a prediction market where binary contracts pay $1 if a named outcome happens. An anonymous account, Fine-Tributary, purchased $44,000 of ‘yes’ contracts on Matt Mahan’s gubernatorial market, moving the price from the low teens to about $0.96. That price spike corresponds to a short-lived implied probability near 96%.",
+            "Because the market was illiquid early in the race, the single wallet’s trade had an outsized price impact. Media outlets covered the spike; a New York Post/California Post story framed the move as evidence of a surge. Mahan’s network even encouraged people on LinkedIn to ‘push up the Polymarket bids.’",
+            "Other, more sophisticated traders quickly sold the elevated odds by buying ‘no’ contracts, pocketing the difference as prices reverted. By the following day the market probability had fallen (to about 36% in that snapshot) and then later aligned more with polls (~4%). The episode shows the mechanism (buying binary contracts to move implied probability), the role of liquidity and arbitrage, and the strategic ambiguity: was the large bet intended to make money, to produce publicity and fundraising momentum for a campaign, or both? It also raises the regulatory and ethical question: when does campaigning around a market price become a form of market manipulation?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "revlon",
+      "sourceSection": "Revlon",
+      "illustration": {
+        "src": "/images/2026-07-30-the-situation-deteriorated/revlon.png",
+        "alt": "Elon Musk handing a bag of cash across a conference table to a sad-looking corporate board; a nearby balance scale tips between a money bag and small figurines representing users and employees with a courthouse building in the background."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "Revlon",
+          "Twitter",
+          "Delaware Court of Chancery"
+        ],
+        "financialMechanism": "Revlon duty (directors’ duty to seek the highest sale price for shareholders in a change-of-control) versus public benefit corporation statute requiring directors to balance pecuniary interests and public benefits.",
+        "centralJoke": "Boards can feel forced to sell to the highest bidder even when executives think the buyer will be bad for the company — yet a PBC can legally say no to the highest bidder to protect its public purpose."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "When a Company Gets Sold",
+          "lesson": "Sometimes companies are sold to the person who offers the most money, but some companies can choose other things besides money.",
+          "paragraphs": [
+            "Sometimes people who run a big company decide to sell it.",
+            "Usually the people selling try to get the most money for the owners.",
+            "Twitter was sold to Elon Musk, who paid cash for the company.",
+            "There are special companies called public benefit corporations that can care about people or causes as well as money."
+          ]
+        },
+        "elementary": {
+          "title": "Why a Company Can Say No to the Highest Bidder",
+          "lesson": "Boards usually try to get the biggest cash offer for shareholders, but a public benefit corporation can legally balance money and public purpose and therefore may decline the highest bidder.",
+          "paragraphs": [
+            "When a company is up for sale, the directors usually have a duty — called the Revlon duty — to get the best cash price for shareholders. If one buyer offers $50 a share and another offers $60, the $60 offer normally wins.",
+            "That rule can feel odd. When Twitter’s board agreed to sell to Elon Musk for $54.20 a share, Twitter’s chief executive said he worried the sale wasn’t great for the product, employees, users, or advertisers — but he believed the price was best for shareholders.",
+            "There is a different kind of company called a public benefit corporation (PBC). A PBC’s directors are allowed to balance money for shareholders with the company’s public purpose and the interests of people affected by the company.",
+            "People wondered: if a PBC puts itself up for sale, does it still have to take the highest cash offer? The Delaware Court of Chancery said no — a PBC does not have to sell to the highest bidder because the law requires directors to balance shareholder money against the company’s public purpose."
+          ]
+        },
+        "middle": {
+          "title": "Revlon Duty vs. Public Benefit Corporations",
+          "lesson": "Revlon duty directs directors to maximize sale price for shareholders in a change-of-control; a public benefit corporation’s statute requires directors to balance pecuniary interests with its public purpose, and Delaware’s Court of Chancery has now confirmed that Revlon does not force a PBC to pick the highest bidder.",
+          "paragraphs": [
+            "Under Delaware law, when a company’s board seeks to sell the company for cash, directors normally must maximize value for shareholders — a principle called the Revlon duty (named after the Revlon case). If one buyer offers $50 per share and another $60, the $60 offer wins.",
+            "That principle influenced the sale of Twitter to Elon Musk for $54.20 per share. Twitter’s CEO publicly expressed doubts about whether the sale was best for the product, employees, users, or advertisers, but concluded the price was in shareholders’ long-term interests.",
+            "Public benefit corporations (PBCs) are different by design: their directors must “balance the pecuniary interests of the stockholders, the best interests of those materially affected by the corporation's conduct, and the specific public benefit” named in their charter.",
+            "The Delaware Court of Chancery faced the question of whether Revlon applies to PBCs in a change-of-control. In a ruling of first impression, the court said it would be inconsistent with the PBC statute to force directors to focus on maximizing sale price, so a PBC does not have to sell to the highest bidder."
+          ]
+        },
+        "high": {
+          "title": "How Delaware Reconciled Revlon with Public Benefit Corporations",
+          "lesson": "Delaware’s Chancery Court held, as an issue of first impression, that the Revlon-line duties requiring directors to maximize a sale price for stockholders do not mandate the same single-minded focus when the directors are running a Delaware public benefit corporation; the PBC statute requires balancing pecuniary and non-pecuniary interests, and the court found it would be inconsistent to impose a duty to maximize sale price on that framework.",
+          "paragraphs": [
+            "Revlon and its progeny have long guided boards facing change-of-control transactions: when directors conclude the company is for sale, fiduciary duties shift toward obtaining the best value reasonably attainable for stockholders, effectively privileging the highest cash bid.",
+            "That orientation explains why Twitter’s directors, though uneasy about selling to Elon Musk for $54.20 per share, felt constrained by fiduciary duties to accept an offer they believed was in shareholders’ long-term pecuniary interest.",
+            "Delaware’s public benefit corporation statute, however, imposes a statutory duty to 'balance the pecuniary interests of the stockholders, the best interests of those materially affected by the corporation’s conduct, and the specific public benefit(s)' stated in the charter.",
+            "The Court of Chancery considered whether Revlon’s sale-for-maximization framework applies to PBCs and—in a decision described as an issue of first impression—rejected the idea that PBC directors 'must perform [their] fiduciary duties in the service of [the] specific objective' of maximizing sale price. The court concluded that requiring a PBC board to focus solely on maximizing sale price would be inconsistent with the statutory balancing obligation.",
+            "Practically, the ruling means that when a PBC’s board explores or negotiates a change of control, it has legal space to consider non-pecuniary values and the interests of stakeholders beyond shareholders, rather than being automatically compelled to accept the highest cash offer under Revlon."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ionic",
+      "sourceSection": "Ionic",
+      "illustration": {
+        "src": "/images/2026-07-30-the-situation-deteriorated/ionic.png",
+        "alt": "Workers inside a large Ward County, Texas data center dismantling bitcoin mining rigs and installing GPU clusters for AI workloads, with rows of server racks and technicians at work."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Mt. Gox",
+          "FTX",
+          "Celsius Network",
+          "Ionic Digital (IOND)",
+          "Nscale"
+        ],
+        "financialMechanism": "Bankruptcy reorganization that transfers mining assets to a new company (Ionic), issues 37 million Class A shares to eligible claimants, and converts mining capacity into contracted lease revenue (234 MW leased for 126 months for $1.95 billion) to produce cash to repay creditors.",
+        "centralJoke": "The source jokingly said Celsius 'yeeted their money directly into the sun.'"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "When a bitcoin company became a computer helper",
+          "lesson": "Sometimes companies that owe people money can turn the things they own into something new to pay those people back.",
+          "paragraphs": [
+            "There was a company called Celsius that got into trouble and could not give everyone their money back.",
+            "People who handled Celsius’s bitcoin machines made a new company called Ionic Digital to use those machines for other computer jobs.",
+            "Ionic started doing work for big computers that help make smart programs (called AI), and that helped pay the people who had lost money.",
+            "Some people joked that Celsius had once 'thrown money into the sun' because it spent money in very risky ways."
+          ]
+        },
+        "elementary": {
+          "title": "How broken crypto companies sometimes pay customers by repurposing mining computers",
+          "lesson": "When a crypto company fails, the things it owns — like bitcoin mining machines and big data centers — can sometimes be sold or reused so customers get paid back.",
+          "paragraphs": [
+            "A few years ago, some crypto companies like Mt. Gox and FTX went bankrupt. In those cases, crypto prices later rose and the leftover coins were worth enough in dollars to pay back customers.",
+            "Celsius Network also went bankrupt. It had borrowed from customers and used the money in risky ways — people joked it 'yeeted their money directly into the sun.' That was part of why it failed.",
+            "In January 2024 a new company called Ionic Digital was created out of Celsius’s bankruptcy to take over Celsius’s bitcoin-mining assets. Ionic gave 37 million Class A shares to people who had claims against Celsius.",
+            "Ionic stopped mining at a big site in Ward County, Texas, and agreed to lease its 234 megawatts of capacity to another firm under a 126-month (about 10.5-year) deal that will bring $1.95 billion in contracted revenue.",
+            "When Ionic’s stock started trading on Nasdaq, it jumped about 26% and the company was valued at about $2.8 billion. That value and the income from leases are ways to make customers whole after the bankruptcy.",
+            "So instead of a crypto price rally saving creditors, the mining gear and long leases — now useful for AI computing — became the thing that could pay people back."
+          ]
+        },
+        "middle": {
+          "title": "From crypto bankruptcies to repurposed mining capacity: the Ionic Digital story",
+          "lesson": "Bankrupt crypto platforms have sometimes relied on later crypto rallies to restore value for creditors; now, repurposing physical mining assets into AI compute and leasing capacity can instead produce cash to repay claimants.",
+          "paragraphs": [
+            "Early crypto bankruptcies (for example, Mt. Gox around 2014) sometimes left exchanges with fewer coins at the time of failure but, after a slow bankruptcy process, rising crypto prices meant the remaining assets were worth enough in dollars to compensate customers.",
+            "A second wave (illustrated by FTX in 2022) involved highly leveraged institutions where collapses and fraud produced large shortfalls that — after delays and cyclical price recoveries — could still sometimes cover creditors in dollar terms.",
+            "Today we’re seeing a third pattern. Celsius Network failed after taking big customer deposits and making risky bets; its bankruptcy left creditors with claims but not enough liquid crypto. Part of Celsius’s business included bitcoin mining farms.",
+            "A new company, Ionic Digital (IOND), was formed in January 2024 through Celsius’s court-approved reorganization to acquire those mining assets. Ionic issued 37 million Class A shares to eligible claimants as part of the reorganization.",
+            "Ionic decommissioned bitcoin mining at its Ward County, Texas, site and committed 234 MW of capacity to a firm under a 126-month lease carrying $1.95 billion in contracted revenue. That long-term contracted cash flow — and Ionic’s $2.8 billion Nasdaq valuation after a 26% pop on debut — are the basis for repaying former Celsius customers.",
+            "In short: when crypto rallies can’t be counted on, durable hardware and long leases can become the recovery engine for creditors, especially now that GPU-rich data centers are valuable for AI workloads."
+          ]
+        },
+        "high": {
+          "title": "Why a bitcoin miner spun out of Celsius might make creditors whole by powering AI",
+          "lesson": "The mechanism that restores value to creditors has shifted from reliance on cyclical crypto price recoveries to monetizing physical mining infrastructure and contracted AI compute revenue; Ionic’s reorganization illustrates how asset repurposing and equity issuance can be used to satisfy claims.",
+          "paragraphs": [
+            "Historically, some crypto bankruptcies have been resolved in a way that creditors recovered in dollar terms because the value of remaining crypto rose during the lengthy bankruptcy process (Mt. Gox being an early example). A similar dynamic played out for some institutions after the 2022 FTX collapse when later price recoveries reduced net losses for some creditors.",
+            "Celsius Network’s failure had different elements: it accepted customer deposits, offered high-yield-like payouts, and made risky investments (the author’s quip was that Celsius ‘yeeted their money directly into the sun’). Those business choices produced a sizable insolvency and bankruptcy proceedings.",
+            "As part of the court-approved reorganization, a separate public vehicle, Ionic Digital (IOND), was created in January 2024 to acquire Celsius’s bitcoin-mining assets. Ionic issued 37 million Class A common shares to eligible holders of certain claims against Celsius and its affiliates.",
+            "Rather than rely on a speculative crypto rebound, Ionic monetized physical infrastructure. It decommissioned bitcoin mining at its Ward County, Texas site and committed the site’s 234 MW of capacity to a counterparty under a 126-month lease that carries $1.95 billion in contracted revenue. That lease converts otherwise illiquid mining hardware into predictable cash flow over roughly 10.5 years.",
+            "Ionic’s Nasdaq direct listing jumped about 26% on debut, valuing the company near $2.8 billion — an immediate market signal about the perceived value of the repurposed assets and future AI-related revenues. The combination of equity issued to claimants and contracted lease income is the operational mechanism intended to make former Celsius creditors whole in dollar terms.",
+            "This case highlights how the recovery playbook for crypto bankruptcies has evolved: from dependence on crypto price reflexivity to structured monetization of compute capacity and long-term contracts, especially as GPU-rich facilities have real commercial value for AI workloads."
+          ]
+        }
+      }
+    },
+    {
+      "id": "world-liberty",
+      "sourceSection": "World Liberty",
+      "illustration": {
+        "src": "/images/2026-07-30-the-situation-deteriorated/world-liberty.png",
+        "alt": "Justin Sun at a laptop watching a falling token price chart while World Liberty tokens (coins) flow into an office where Donald Trump receives them; Donald Trump Jr. and Eric Trump ring a stock-exchange opening bell as investors cheer."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Donald Trump",
+          "Justin Sun",
+          "Donald Trump Jr.",
+          "Eric Trump"
+        ],
+        "realCompanies": [
+          "World Liberty Financial",
+          "DT Marks DEFI LLC",
+          "Tron",
+          "ALT5 Sigma Corp. (now AI Financial Corp.)",
+          "Point72 Asset Management",
+          "ExodusPoint Capital Management"
+        ],
+        "financialMechanism": "Fundraising via token sales and a treasury company buying tokens; contract pledging 75% of net revenues to DT Marks DEFI LLC (Trump owns ~70%); ALT5 raised $750 million to buy tokens and sparked a market-cap surge before values and company market cap collapsed (tokens fell from ~$0.20 to ~$0.06).",
+        "centralJoke": "The pitch read like an obvious way to give money directly to Donald Trump — an arrangement so nakedly self-dealing that observers called it 'scammers scamming scammers' and compared it to the Spider-Man pointing meme."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "A Project That Said It Would Help — but Gave Money to One Man",
+          "lesson": "Big people started a project that said it would build new kinds of internet money, but most of the money was meant to go to Donald Trump and the promised things never appeared.",
+          "paragraphs": [
+            "Some people started a project called World Liberty Financial and said they would build new internet money tools.",
+            "They planned for most of the money to go to a company connected to Donald Trump instead of building the tools.",
+            "The tools mostly never got built, and many people who put money in were disappointed."
+          ]
+        },
+        "elementary": {
+          "title": "They Pitched a Crypto Revolution — and a Direct Line to Trump",
+          "lesson": "Watch what a project promises and who it is really paying: World Liberty said it would build fancy crypto products, but it also promised that 75% of net revenue would flow to a company tied to Donald Trump. That made it look less like building something and more like sending money to one person.",
+          "paragraphs": [
+            "World Liberty Financial told people two big things: it would build a new, decentralized kind of finance, and most of the money raised would go to a company owned by Donald Trump. That second part was loud and embarrassing — it was basically a way to give money directly to Trump.",
+            "Justin Sun, the crypto billionaire who helped build the Tron network, invested because he said he believed in the 'decentralized' part and because he wanted to help the project. He later said he felt tricked: the crypto products World Liberty promised never showed up and his money got stuck.",
+            "A tiny company called ALT5 Sigma suddenly raised about $750 million from big investors to buy World Liberty’s tokens. ALT5’s stock jumped from roughly $100 million to $1 billion in value, and Donald Trump Jr. and Eric Trump even rang the stock-exchange opening bell. But the tokens that had been bought at about 20 cents each slid to about 6 cents, and ALT5 (now AI Financial) crashed toward a much lower value.",
+            "Some people shrugged and said the whole thing was obvious: it looked like 'scammers scamming scammers' — everyone pointing fingers, like that Spider-Man meme where two Spider-Mans point at each other."
+          ]
+        },
+        "middle": {
+          "title": "World Liberty: A Crypto Pitch That Funneled Money to Trump",
+          "lesson": "Check the incentives. World Liberty promised decentralized crypto products but had a contract that would send 75% of net revenues to DT Marks DEFI LLC (Trump owns about 70% of that). That kind of revenue split creates a big conflict between building a product and just raising money to pay a connected party.",
+          "paragraphs": [
+            "World Liberty Financial’s pitch combined a technical promise — build decentralized finance products — with a startling financial arrangement: it pledged that 75% of net revenues would go to DT Marks DEFI LLC, a company in which Donald Trump owns roughly 70% (family members own the rest).",
+            "Justin Sun, the Tron founder, invested millions while he was under investigation by the U.S. Securities and Exchange Commission; his team denies any connection between his investment and the status of that investigation. Sun later said he regretted investing: the promised products largely never materialized, his name was attached to the project, and he believed others were harmed.",
+            "A small firm, ALT5 Sigma Corp., raised about $750 million from big investors including hedge funds such as Point72 and ExodusPoint to buy World Liberty tokens. ALT5’s market value jumped from about $100 million to roughly $1 billion, and the Trumps publicly celebrated on the Nasdaq floor. About a year later the buzz was gone: the tokens slid from roughly $0.20 to $0.06 each, ALT5 changed its name to AI Financial, cycled through executives and auditors, is worth under $60 million, and faces possible Nasdaq delisting.",
+            "The episode combined a visible self-dealing revenue promise, aggressive token buying by a treasury vehicle, publicity-driven market moves, and the eventual collapse in value — a clear lesson in why incentives and transparency matter in finance."
+          ]
+        },
+        "high": {
+          "title": "Self-Dealing Wrapped in Crypto: World Liberty’s Fundraising and Fallout",
+          "lesson": "A fundraising structure that directs the majority of net revenues to an entity controlled by a politically exposed person creates acute conflicts of interest and regulatory risk. Investors should scrutinize whether a token’s economics prioritize product development or simply funnel value to insiders.",
+          "paragraphs": [
+            "World Liberty Financial marketed itself as building decentralized finance products while contractually directing 75% of net revenues to DT Marks DEFI LLC — an entity 70% owned by Donald Trump (with the remainder owned by family members). That allocation, disclosed up front, made the project look more like a mechanism to transfer funds to a connected party than a balanced commercial venture.",
+            "Justin Sun, founder of Tron, invested millions and later said the project failed to deliver on product promises. Sun was under SEC investigation when he invested (his team denies any connection between the investment and the investigation’s outcome). Sun described the experience as a 'colossal mistake' and complained that World Liberty appeared focused on raising capital rather than shipping products.",
+            "Operationally, a tiny public firm, ALT5 Sigma Corp., pivoted to buying World Liberty tokens, raising about $750 million from institutional investors including Point72 Asset Management and ExodusPoint Capital Management to fund token purchases. The deal and PR drove ALT5’s market cap from ~ $100M to ~ $1B, aided by high-profile exposure (Donald Trump Jr. and Eric Trump opening Nasdaq). The tokens ALT5 bought near $0.20 later traded around $0.06, and ALT5 (now AI Financial) fell to under $60M in value while cycling through CEOs and auditors and facing potential delisting.",
+            "This sequence shows several linked mechanisms: a revenue-sharing agreement that channels cash to insiders, a treasury vehicle buying tokens to support price and narrative, and public-company market dynamics amplifying a short-term valuation spike. The combination raises governance, disclosure, and market-manipulation questions, and it underscores why investors should analyze tokenomics, counterparty incentives, and regulatory exposure before participating."
+          ]
+        }
+      }
+    }
+  ]
+}
