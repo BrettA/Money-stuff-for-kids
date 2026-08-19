@@ -1,0 +1,25 @@
+{
+  "processedIssues": [
+    {
+      "date": "2026-08-06",
+      "title": "Fake SpaceX Stock Isn’t Worth as Much",
+      "gmailMessageId": "1a01810c1bddf3d7",
+      "editionId": "2026-08-06-fake-spacex-stock-isnt-worth-as-much"
+    }
+  ],
+  "subscribers": {
+    "brett.andler@gmail.com": {
+      "status": "subscribed",
+      "agePreference": "elementary",
+      "lastActionAt": "2026-08-18T15:53:06Z"
+    }
+  },
+  "sends": [
+    {
+      "editionId": "2026-08-06-fake-spacex-stock-isnt-worth-as-much",
+      "email": "brett.andler@gmail.com",
+      "agePreference": "elementary",
+      "gmailMessageId": "1a019a4cd4369ba2"
+    }
+  ]
+}
