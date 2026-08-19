@@ -5,7 +5,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { assertCanonicalEdition } = require('./lib/edition-schema');
 const { accessToken, findMessages, getFullMessage } = require('./lib/gmail');
-const { assertInventory, clean, extractHtmlSections, sourceDigest, substantive } = require('./lib/money-stuff-source');
+const {
+  assertInventory, canonicalSourceMetadata, clean, extractHtmlSections, sourceDigest, substantive
+} = require('./lib/money-stuff-source');
 const {
   DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor, generateImage, generateMetadata,
   generateStory
@@ -97,11 +99,9 @@ async function main() {
   const client = clientFor(env('OPENAI_API_KEY'));
   const textModel = process.env.OPENAI_TEXT_MODEL || DEFAULT_TEXT_MODEL;
   const imageModel = process.env.OPENAI_IMAGE_MODEL || DEFAULT_IMAGE_MODEL;
-  const receivedAt = new Date(Number(message.internalDate));
-  if (Number.isNaN(receivedAt.getTime())) throw new Error('Gmail message has an invalid internal date');
-  message.canonicalDate = receivedAt.toISOString().slice(0, 10);
-  message.canonicalTitle = clean(message.subject.replace(/^Money Stuff:\s*/i, ''));
-  if (!message.canonicalTitle) throw new Error('Money Stuff message has no usable newsletter title');
+  const sourceMetadata = canonicalSourceMetadata(message);
+  message.canonicalDate = sourceMetadata.date;
+  message.canonicalTitle = sourceMetadata.title;
   const metadata = (await generateMetadata({ client, model: textModel, message, sections })).value;
   const headings = sections.map(section => section.heading);
   if (JSON.stringify(metadata.sectionHeadings) !== JSON.stringify(headings)) {
