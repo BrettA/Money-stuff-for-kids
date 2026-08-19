@@ -42,9 +42,26 @@ function output(name, value) {
   fs.appendFileSync(process.env.GITHUB_OUTPUT, `${name}=${value}\n`);
 }
 
+function retryRequested(environment = process.env) {
+  if (environment.ADMIN_RETRY !== 'true') return false;
+  if (environment.GITHUB_EVENT_NAME !== 'workflow_dispatch') {
+    throw new Error('admin retry is allowed only from workflow_dispatch');
+  }
+  if (!environment.GMAIL_MESSAGE_ID) throw new Error('admin retry requires an explicit Gmail message ID');
+  if (environment.SUBMIT !== 'true') throw new Error('admin retry requires submission');
+  if (!environment.ADMIN_RETRY_TOKEN) throw new Error('admin retry authorization is missing');
+  return true;
+}
+
+function assertMessageEligible(state, messageId, adminRetry) {
+  if (!adminRetry) assertNotSubmitted(state, messageId);
+}
+
 async function main() {
   for (const name of REQUIRED) env(name);
   const submit = process.env.SUBMIT === 'true';
+  const adminRetry = retryRequested();
+  if (adminRetry) env('ADMIN_RETRY_TOKEN');
   if (submit) {
     env('PUBLISH_API_TOKEN');
     env('PUBLISH_BRIDGE_URL');
@@ -59,7 +76,7 @@ async function main() {
   let messageId = process.env.GMAIL_MESSAGE_ID || '';
   if (messageId) {
     if (previouslyPublished.has(messageId)) throw new Error(`Gmail message ${messageId} is already present in published repository state`);
-    assertNotSubmitted(state, messageId);
+    assertMessageEligible(state, messageId, adminRetry);
   } else {
     const messages = await findMessages({
       token,
@@ -142,7 +159,8 @@ async function main() {
   if (submit) {
     const accepted = await submitPackage({
       bridgeUrl: env('PUBLISH_BRIDGE_URL'), token: env('PUBLISH_API_TOKEN'), editionId,
-      archive: packaged.archive, sha256: packaged.sha256
+      archive: packaged.archive, sha256: packaged.sha256, adminRetry,
+      adminRetryToken: adminRetry ? env('ADMIN_RETRY_TOKEN') : ''
     });
     recordSubmission(state, messageId, { packageSha256: accepted.package_sha256, updatedAt: new Date().toISOString() });
   }
@@ -154,7 +172,11 @@ async function main() {
   console.log(`Completed ${submit ? 'submitted' : 'dry-run'} generation for ${editionId} (${stories.length} stories).`);
 }
 
-main().catch(error => {
-  console.error(`Money Stuff worker failed: ${error.message}`);
-  process.exitCode = 1;
-});
+if (require.main === module) {
+  main().catch(error => {
+    console.error(`Money Stuff worker failed: ${error.message}`);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = { assertMessageEligible, retryRequested };

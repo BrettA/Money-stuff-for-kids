@@ -97,7 +97,7 @@ async function dispatchIngest(fetchImpl, githubToken, { editionId, packageUrl, s
 }
 
 function createPublisher({ blob, fetchImpl = fetch, now = () => Date.now(), uuid = randomUUID, env = process.env }) {
-  return async function publish({ authorization, contentType, body }) {
+  return async function publish({ authorization, adminRetryAuthorization, contentType, body }) {
     if (!authorized(authorization, env.PUBLISH_API_TOKEN)) throw new RequestError(401, 'unauthorized');
     if (!env.GITHUB_INGEST_TOKEN) throw new Error('GITHUB_INGEST_TOKEN is not configured');
 
@@ -139,25 +139,36 @@ function createPublisher({ blob, fetchImpl = fetch, now = () => Date.now(), uuid
     }
     if (body.action === 'publish') {
       assertTemporaryPath(body.pathname, editionId);
+      if (body.admin_retry !== undefined && typeof body.admin_retry !== 'boolean') {
+        throw new RequestError(400, 'admin_retry must be a boolean');
+      }
       if (body.package_sha256 !== undefined && !/^[0-9a-f]{64}$/.test(body.package_sha256)) {
         throw new RequestError(400, 'package_sha256 must be 64 lowercase hexadecimal characters');
       }
-      return finalize(body.pathname, editionId, body.package_sha256);
+      if (body.admin_retry === true && !authorized(adminRetryAuthorization, env.ADMIN_RETRY_TOKEN)) {
+        throw new RequestError(403, 'admin retry unauthorized');
+      }
+      return finalize(body.pathname, editionId, body.package_sha256, body.admin_retry === true);
     }
     throw new RequestError(400, 'action must be prepare or publish');
 
-    async function finalize(pathname, targetEditionId, expectedSha256) {
+    async function finalize(pathname, targetEditionId, expectedSha256, adminRetry = false) {
       try {
         const sha256 = await digestPrivateBlob(blob, pathname);
         if (expectedSha256 && sha256 !== expectedSha256) throw new RequestError(409, 'uploaded package digest does not match package_sha256');
         const receipt = `${RECEIPT_PREFIX}${targetEditionId}/receipt.json`;
         const previous = await readReceipt(blob, receipt);
         if (previous) {
-          if (previous.package_sha256 !== sha256) {
+          if (adminRetry && (previous.edition_id !== targetEditionId || !/^[0-9a-f]{64}$/.test(previous.package_sha256))) {
+            throw new RequestError(409, 'existing receipt is not valid for the retry edition');
+          }
+          if (!adminRetry && previous.package_sha256 !== sha256) {
             throw new RequestError(409, 'edition was already published with a different package digest');
           }
-          if (pathname.startsWith(TEMP_PREFIX)) await blob.del(pathname).catch(() => {});
-          return { status: 202, data: { accepted: true, duplicate: true, edition_id: targetEditionId, package_sha256: sha256 } };
+          if (!adminRetry) {
+            if (pathname.startsWith(TEMP_PREFIX)) await blob.del(pathname).catch(() => {});
+            return { status: 202, data: { accepted: true, duplicate: true, edition_id: targetEditionId, package_sha256: sha256 } };
+          }
         }
         const packageUrl = await signedUrl(blob, pathname, 'get', now() + GET_URL_LIFETIME_MS);
         const deleteUrl = await signedUrl(blob, pathname, 'delete', now() + DELETE_URL_LIFETIME_MS);
@@ -165,7 +176,7 @@ function createPublisher({ blob, fetchImpl = fetch, now = () => Date.now(), uuid
           editionId: targetEditionId, packageUrl, sha256, deleteUrl
         });
         await blob.put(receipt, JSON.stringify({ edition_id: targetEditionId, package_sha256: sha256 }), {
-          access: 'private', contentType: 'application/json', addRandomSuffix: false, allowOverwrite: false
+          access: 'private', contentType: 'application/json', addRandomSuffix: false, allowOverwrite: adminRetry
         });
         return { status: 202, data: { accepted: true, duplicate: false, edition_id: targetEditionId, package_sha256: sha256 } };
       } catch (error) {
