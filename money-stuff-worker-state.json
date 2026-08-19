@@ -3,15 +3,15 @@
   "messages": {
     "1a01abdc7360b6b1": {
       "gmailMessageId": "1a01abdc7360b6b1",
-      "newsletterDate": "2026-08-19",
-      "newsletterTitle": "Fwd: Money Stuff: The Situation Deteriorated",
-      "editionId": "2026-08-19-fwd-money-stuff-the-situation-deteriorated",
+      "newsletterDate": "2026-07-30",
+      "newsletterTitle": "The Situation Deteriorated",
+      "editionId": "2026-07-30-the-situation-deteriorated",
       "sourceSha256": "27594965059541e78e7dfd70d6f52d157a04a2e920e393db1c682da8dee245d3",
-      "packageSha256": "580fc6ac78cf05e4b773e5b5708e68035490d20714a05e927a602cbf4fb0ff9e",
+      "packageSha256": "d3a680a820f33adec95e5a4f77bb421cdbe81f4475ca9f7483f41c58f99e26b4",
       "status": "submitted",
       "submitted": true,
-      "updatedAt": "2026-08-19T18:22:59.383Z",
-      "submittedAt": "2026-08-19T18:22:59.383Z"
+      "updatedAt": "2026-08-19T19:15:07.969Z",
+      "submittedAt": "2026-08-19T19:15:07.969Z"
     }
   }
 }
