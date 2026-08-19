@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
+const { isPlaceholderIllustrationAlt } = require('./lib/illustration-alt');
 
 const projectRoot = path.resolve(__dirname, '..');
-const PLACEHOLDER_PATTERN = /(?:todo|placeholder|replace[-_ ]?me|example(?:[-_ ]image)?|generic(?:[-_ ]image)?|sample(?:[-_ ]image)?)/i;
 const PLACEHOLDER_PATH_PATTERN = /(?:todo|placeholder|replace[-_ ]?me|example|generic|sample|(?:^|[/_.-])(?:image|illustration|default|temp)(?=[/_.-]|$))/i;
 
 function loadInputs(root) {
@@ -90,7 +90,7 @@ function validateIllustration(illustration, label, imagePaths, root, error) {
   if (!src || !src.startsWith('/') || PLACEHOLDER_PATH_PATTERN.test(src)) {
     error(`${label} needs a non-placeholder illustration.src`);
   }
-  if (!alt || PLACEHOLDER_PATTERN.test(alt)) {
+  if (isPlaceholderIllustrationAlt(alt)) {
     error(`${label} needs non-placeholder illustration alt text`);
   }
   if (src && imagePaths.has(src)) error(`${label} duplicates illustration path ${src}`);
