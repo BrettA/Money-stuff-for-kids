@@ -56,7 +56,7 @@
         }
       },
       "illustration": {
-        "src": "/images/2026-08-12-ai-backed-securities/securitization.svg",
+        "src": "/images/2026-08-12-ai-backed-securities/securitization.png",
         "alt": "🗃️ illustration for Securitization"
       },
       "elementaryChecklist": {
@@ -124,7 +124,7 @@
         }
       },
       "illustration": {
-        "src": "/images/2026-08-12-ai-backed-securities/truth.svg",
+        "src": "/images/2026-08-12-ai-backed-securities/truth.png",
         "alt": "⏱️ illustration for Truth Social API"
       },
       "elementaryChecklist": {
@@ -195,7 +195,7 @@
         }
       },
       "illustration": {
-        "src": "/images/2026-08-12-ai-backed-securities/gambling.svg",
+        "src": "/images/2026-08-12-ai-backed-securities/gambling.png",
         "alt": "📣 illustration for Gambling emergency"
       },
       "elementaryChecklist": {
@@ -274,7 +274,7 @@
         }
       },
       "illustration": {
-        "src": "/images/2026-08-12-ai-backed-securities/music.svg",
+        "src": "/images/2026-08-12-ai-backed-securities/music.png",
         "alt": "🎵 illustration for Musical earnings calls"
       },
       "elementaryChecklist": {
