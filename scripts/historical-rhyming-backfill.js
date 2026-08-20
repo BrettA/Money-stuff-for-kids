@@ -11,18 +11,6 @@ const {
 } = require('./lib/openai-generation');
 
 const root = path.resolve(__dirname, '..');
-const EXPECTED_TOTAL = 39;
-const EDITION_IDS = [
-  '2026-07-28-elevators-wont-repair-themselves',
-  '2026-07-30-the-situation-deteriorated',
-  '2026-08-03-hedgehog-hedge-fund',
-  '2026-08-04-leveraged-etf-crash-hedging-etf',
-  '2026-08-06-fake-spacex-stock-isnt-worth-as-much',
-  '2026-08-10-the-situation-is-fine',
-  '2026-08-11-pick-and-shovel-seller-financing',
-  '2026-08-12-ai-backed-securities',
-  '2026-08-13-bilateral-otc-goat-hedge'
-];
 const REVIEW_STORIES = [
   'Situational Awareness / fund blowup',
   'World Liberty',
@@ -39,6 +27,37 @@ function requiredEnv(name, environment = process.env) {
 
 function safeReason(error) {
   return String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ').slice(0, 240);
+}
+
+function resolveEditionSelection(selection, publishedIssues, canonicalEditionIds) {
+  const requested = String(selection || '').trim();
+  if (!requested) throw new Error('Edition selection must not be empty');
+  const canonical = new Set(canonicalEditionIds);
+  const issues = publishedIssues || [];
+  const assertCanonical = issue => {
+    if (!issue || !canonical.has(issue.editionId)) {
+      throw new Error(`Requested edition does not exist in canonical repository data: ${issue && issue.editionId || 'unknown'}`);
+    }
+    return issue;
+  };
+  if (requested === 'all') {
+    if (!issues.length) throw new Error('No currently published editions exist');
+    return issues.map(assertCanonical);
+  }
+
+  const values = requested.split(',').map(value => value.trim());
+  if (values.some(value => !value) || values.includes('all')) {
+    throw new Error('Edition selection must be a comma-separated list of edition IDs/dates, or exactly "all"');
+  }
+  const selected = values.map(value => {
+    const matches = issues.filter(issue => issue.editionId === value || issue.date === value);
+    if (matches.length !== 1) throw new Error(`Requested edition is invalid, ambiguous, or not published: ${value}`);
+    return assertCanonical(matches[0]);
+  });
+  if (new Set(selected.map(issue => issue.editionId)).size !== selected.length) {
+    throw new Error('Edition selection contains duplicates');
+  }
+  return selected;
 }
 
 function locateSections(stories, sections) {
@@ -70,10 +89,11 @@ function assertOnlyElementaryChanged(before, after) {
 
 function markdownSummary(results) {
   const successes = results.reduce((sum, item) => sum + item.succeeded, 0);
+  const total = results.reduce((sum, item) => sum + item.total, 0);
   const failures = results.flatMap(item => item.failures.map(failure => ({ edition: item.editionId, ...failure })));
   const lines = [
     '## Historical Elementary rhyming backfill', '',
-    `- Successfully regenerated **${successes} of ${EXPECTED_TOTAL}** stories.`,
+    `- Successfully regenerated **${successes} of ${total}** stories.`,
     '- Canonical source: authenticated Gmail messages recorded for the published editions.',
     '- Generation: the production `generateStory` / `rhyming-picture-book` path and its hardened validators.',
     '- Preservation: only Elementary adaptation fields were replaced; other ages, checklists, images, provenance, and schema metadata were preserved.',
@@ -91,18 +111,17 @@ function markdownSummary(results) {
 
 async function runBackfill({ environment = process.env } = {}) {
   const state = JSON.parse(fs.readFileSync(path.join(root, 'data/publisher-state.json'), 'utf8'));
-  const byEdition = new Map((state.processedIssues || []).map(issue => [issue.editionId, issue]));
-  const issues = EDITION_IDS.map(id => byEdition.get(id));
-  if (issues.some(issue => !issue || !issue.gmailMessageId)) {
-    throw new Error('Expected nine published editions with recorded Gmail message IDs');
-  }
+  const canonicalEditionIds = fs.readdirSync(path.join(root, 'data'))
+    .filter(name => /^\d{4}-\d{2}-\d{2}-.+\.json$/.test(name))
+    .map(name => name.replace(/\.json$/, ''));
+  const issues = resolveEditionSelection(requiredEnv('EDITION_IDS', environment), state.processedIssues, canonicalEditionIds);
+  if (issues.some(issue => !issue.gmailMessageId)) throw new Error('Every selected edition must have a recorded Gmail message ID');
   const editions = issues.map(issue => ({
     issue,
     file: path.join(root, 'data', `${issue.editionId}.json`),
     original: JSON.parse(fs.readFileSync(path.join(root, 'data', `${issue.editionId}.json`), 'utf8'))
   }));
   const total = editions.reduce((sum, item) => sum + item.original.stories.length, 0);
-  if (total !== EXPECTED_TOTAL) throw new Error(`Expected ${EXPECTED_TOTAL} historical stories, found ${total}`);
 
   const token = await accessToken({
     clientId: requiredEnv('GMAIL_CLIENT_ID', environment),
@@ -159,8 +178,8 @@ async function runBackfill({ environment = process.env } = {}) {
   const summaryFile = environment.BACKFILL_SUMMARY_FILE || path.join(root, '.historical-backfill-summary.md');
   fs.writeFileSync(summaryFile, summary);
   if (environment.GITHUB_STEP_SUMMARY) fs.appendFileSync(environment.GITHUB_STEP_SUMMARY, summary);
-  console.log(`Historical backfill completed: ${accepted.length}/${EXPECTED_TOTAL} Elementary adaptations regenerated; ${EXPECTED_TOTAL - accepted.length} unchanged.`);
-  return { succeeded: accepted.length, failed: EXPECTED_TOTAL - accepted.length, results, summaryFile };
+  console.log(`Historical backfill completed: ${accepted.length}/${total} Elementary adaptations regenerated; ${total - accepted.length} unchanged.`);
+  return { succeeded: accepted.length, failed: total - accepted.length, results, summaryFile };
 }
 
 if (require.main === module) runBackfill().catch(error => {
@@ -168,4 +187,4 @@ if (require.main === module) runBackfill().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { assertOnlyElementaryChanged, locateSections, markdownSummary, safeReason };
+module.exports = { assertOnlyElementaryChanged, locateSections, markdownSummary, resolveEditionSelection, safeReason };

@@ -4,7 +4,39 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { assertOnlyElementaryChanged, locateSections, markdownSummary, safeReason } = require('../scripts/historical-rhyming-backfill');
+const {
+  assertOnlyElementaryChanged, locateSections, markdownSummary, resolveEditionSelection, safeReason
+} = require('../scripts/historical-rhyming-backfill');
+
+const published = [
+  { date: '2026-07-28', editionId: '2026-07-28-first-edition' },
+  { date: '2026-08-12', editionId: '2026-08-12-second-edition' }
+];
+const canonical = published.map(issue => issue.editionId);
+
+test('selects one edition by date or full edition ID', () => {
+  assert.deepEqual(resolveEditionSelection('2026-07-28', published, canonical), [published[0]]);
+  assert.deepEqual(resolveEditionSelection('2026-08-12-second-edition', published, canonical), [published[1]]);
+});
+
+test('selects multiple comma-separated editions in requested order', () => {
+  assert.deepEqual(resolveEditionSelection('2026-08-12, 2026-07-28', published, canonical), [published[1], published[0]]);
+});
+
+test('literal all selects every currently published canonical edition', () => {
+  assert.deepEqual(resolveEditionSelection('all', published, canonical), published);
+});
+
+test('rejects invalid, nonexistent, or noncanonical editions', () => {
+  assert.throws(() => resolveEditionSelection('2026-01-01', published, canonical), /invalid.*not published/);
+  assert.throws(() => resolveEditionSelection('2026-07-28', published, [canonical[1]]), /does not exist in canonical/);
+  assert.throws(() => resolveEditionSelection('all,2026-07-28', published, canonical), /exactly "all"/);
+});
+
+test('rejects an empty edition selection', () => {
+  assert.throws(() => resolveEditionSelection('', published, canonical), /must not be empty/);
+  assert.throws(() => resolveEditionSelection('  ', published, canonical), /must not be empty/);
+});
 
 test('matches source sections exactly and fails closed on ambiguous headings', () => {
   const stories = [{ sourceSection: 'World Liberty' }];
@@ -34,7 +66,7 @@ test('summary reports partial results without including multiline source-like er
   const summary = markdownSummary([{ editionId: 'edition-one', total: 2, succeeded: 1, failures: [
     { story: 'Story B', reason: 'validation failed' }
   ] }]);
-  assert.match(summary, /1 of 39/);
+  assert.match(summary, /1 of 2/);
   assert.match(summary, /edition-one.*1\/2/);
   assert.match(summary, /Story B.*validation failed/);
 });
@@ -43,6 +75,7 @@ test('workflow is manual-only, uses the four existing secrets, and never invokes
   const workflow = fs.readFileSync(path.join(__dirname, '..', '.github/workflows/historical-rhyming-backfill.yml'), 'utf8');
   const triggers = workflow.slice(0, workflow.indexOf('\npermissions:'));
   assert.match(workflow, /^on:\n  workflow_dispatch:\n/m);
+  assert.match(workflow, /edition_ids:\n\s+description:[\s\S]*?required: true/);
   assert.doesNotMatch(triggers, /schedule:|pull_request:|\bpush:/);
   for (const secret of ['GMAIL_CLIENT_ID', 'GMAIL_CLIENT_SECRET', 'GMAIL_REFRESH_TOKEN', 'OPENAI_API_KEY']) {
     assert.match(workflow, new RegExp(`secrets\\.${secret}`));

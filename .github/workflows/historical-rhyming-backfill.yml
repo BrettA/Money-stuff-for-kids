@@ -2,6 +2,11 @@ name: One-time historical Elementary rhyming backfill
 
 on:
   workflow_dispatch:
+    inputs:
+      edition_ids:
+        description: Comma-separated existing edition IDs/dates, or the literal value "all"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -18,6 +23,7 @@ jobs:
     env:
       BACKFILL_BRANCH: historical-rhyming-backfill
       BACKFILL_SUMMARY_FILE: ${{ runner.temp }}/historical-backfill-pr.md
+      EDITION_IDS: ${{ inputs.edition_ids }}
       GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
       GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
       GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
