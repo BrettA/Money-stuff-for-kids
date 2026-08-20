@@ -210,10 +210,13 @@ async function generateStory({ client, model, section, style = DEFAULT_GENERATIO
   return result;
 }
 
-async function generateImage({ client, model, prompt }) {
+async function generateImage({ client, model, prompt, promptIsFinal = false }) {
+  const finalPrompt = promptIsFinal
+    ? prompt
+    : `${prompt}\nFriendly editorial illustration for children, visually specific to this story, no words or typography.`;
   const response = await client.images.generate({
     model,
-    prompt: `${prompt}\nFriendly editorial illustration for children, visually specific to this story, no words or typography.`,
+    prompt: finalPrompt,
     size: '1024x1024',
     quality: 'medium',
     output_format: 'png',
