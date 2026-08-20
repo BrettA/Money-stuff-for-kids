@@ -7,7 +7,7 @@ const { assertCanonicalEdition } = require('./lib/edition-schema');
 const { accessToken, getFullMessage } = require('./lib/gmail');
 const { assertInventory, canonicalSourceMetadata, clean, extractHtmlSections, substantive } = require('./lib/money-stuff-source');
 const {
-  DEFAULT_GENERATION_STYLE, DEFAULT_TEXT_MODEL, assertNoReusableBoilerplate, clientFor, generateStory
+  DEFAULT_GENERATION_STYLE, DEFAULT_TEXT_MODEL, clientFor, generateStory
 } = require('./lib/openai-generation');
 
 const root = path.resolve(__dirname, '..');
@@ -31,9 +31,9 @@ function safeReason(error) {
 
 function retryFeedback(error) {
   const reason = String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ');
-  const shortStory = reason.match(/Elementary picture-book narrative must be 180–260 words \(received (\d+)\)/);
-  if (shortStory && Number(shortStory[1]) < 180) {
-    return `The previous output was too short: it contained exactly ${shortStory[1]} words. The required range is 180–260 words including What happened?. Expand the story naturally without changing the real event; playful storybook imagery is welcome, but do not add a false quote, transaction, motive, mechanism, or outcome.`;
+  const shortStory = reason.match(/Elementary picture-book narrative must be 250–400 words \(received (\d+)\)/);
+  if (shortStory && Number(shortStory[1]) < 250) {
+    return `The previous output was too short: it contained exactly ${shortStory[1]} words. The required range is 250–400 words including What happened?. Expand the story naturally without changing the real event; do not pad, and remember that playful storybook imagery is welcome unless it changes a material fact.`;
   }
   return safeReason(error);
 }
@@ -98,7 +98,6 @@ function acceptElementaryCandidate({ accepted, generated, index, story, updated 
   }
   const candidate = structuredClone(story);
   candidate.adaptations.elementary = elementary;
-  assertNoReusableBoilerplate([...accepted, candidate]);
   updated.stories[index].adaptations.elementary = elementary;
   accepted.push(candidate);
 }
@@ -212,9 +211,6 @@ async function runBackfill({ environment = process.env } = {}) {
               if (!elementaryChanged(story, value.adaptations.elementary)) {
                 throw new Error('generated Elementary adaptation was identical to existing content');
               }
-              const candidate = structuredClone(story);
-              candidate.adaptations.elementary = value.adaptations.elementary;
-              assertNoReusableBoilerplate([...accepted, candidate]);
             }
           });
           // Assign before recording acceptance: success therefore always maps

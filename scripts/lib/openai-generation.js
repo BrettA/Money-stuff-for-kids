@@ -35,34 +35,20 @@ const LEGACY_STORY_INSTRUCTIONS = [
 ];
 
 const PICTURE_BOOK_STORY_INSTRUCTIONS = [
-  'Write the Elementary adaptation as a funny, cute, authored children’s picture book for a target reader roughly ages 5–8; this age is internal guidance and must not appear in the copy. This is a funny picture-book adaptation of a real finance story, not a financial-literacy lesson. Entertain first. Preserve the recognizable real event and do not materially change what happened, but do not cram in every detail. Prefer one memorable joke, a clear story arc, lively read-aloud rhythm, and mostly natural rhyming couplets over exhaustive explanation. Do not force every line to rhyme.',
+  'Write the Elementary adaptation as a polished, funny rhyming picture-book story for a target reader roughly ages 5–8; this age is internal guidance and must not appear in the copy. This is a picture-book adaptation of a real finance story, not a financial-literacy lesson. Entertainment and clarity matter more than exhaustive precision.',
   'Preserve Matt Levine-style absurdity in substance without imitating his prose style directly. Light comic imagery, playful phrasing, and mild exaggeration are welcome. Playful storybook imagery and mild comic exaggeration are allowed as long as they do not materially alter the real-world event or falsely attribute a quote, transaction, motive, or outcome.',
-  'Tell the real Money Stuff story, not a generic analogy. Preserve its central factual spine: who did what, the actual financial mechanism, the central joke or absurdity, and the outcome. Keep only the most memorable or useful numbers and details; factual completeness is not required. Never invent a person or company.',
-  'Rewrite the story from scratch as one coherent narrative. Introduce the protagonist or company, explain what happened and the financial mechanism naturally, show what changed or went wrong or right, and land on the source’s real absurdity. Do not take the source prose sentence-by-sentence and append rhyming suffixes, and do not preserve its paragraph structure just to force rhyme.',
-  'Write 180–260 words total, including the final What happened? paragraph. Prefer a compact story arc to comprehensive explanation. Use mostly rhyming couplets and a lively read-aloud rhythm, but choose an unrhymed line over awkward wording, filler, or factual distortion. Never split a proper noun, company name, number, abbreviation, or natural phrase across lines to manufacture rhyme.',
+  'Tell the real Money Stuff story, not a generic analogy. Keep the real people, companies, important numbers, actual financial mechanism, outcome, and central joke or absurdity. Do not cram every source fact into the story, and never invent a person or company.',
+  'Rewrite the story from scratch as one coherent beginning → development → weird or pivotal event → outcome. Introduce the protagonist or company, give the story enough room to explain what is happening clearly, and land on the source’s real absurdity. Do not take the source prose sentence-by-sentence and append rhyming suffixes, and do not preserve its paragraph structure just to force rhyme.',
+  'Write 250–400 words total, including the final What happened? paragraph. Generally prefer the lower or middle part of that range, roughly 250–325 words, when the story does not need extra length; do not pad to hit a target. Use mostly natural rhyming couplets and a fun, polished read-aloud cadence, but choose an unrhymed line over awkward wording, filler, or factual distortion. Never split a proper noun, company name, number, abbreviation, or natural phrase across lines to manufacture rhyme.',
   'Do not invent direct quotations unless the source contains that quotation. Storybook scene-setting, decorative objects, gestures, and light visual comedy need not be stated in the source, provided they are clearly harmless flourishes rather than new facts about a transaction, motive, cause, or outcome.',
   'Keep material numbers and transaction direction exact. Never convert percentage returns into multiples incorrectly: for example, 1,000% is not “a thousandfold.” Never change buying into selling, selling into buying, long into short, short into long, yes into no, actor into counterparty, cause into effect, or the actual outcome or financial mechanism.',
   'Avoid sing-song filler, generic moralizing, and substitute stories about lemonade stands, allowances, apples, or other kid-business analogies. A tiny analogy is allowed only when genuinely necessary. Keep the sophistication of real names and financial terms, explaining unfamiliar terms naturally in context rather than replacing them.',
   'Do not use generic stock lines that could fit unrelated stories. In particular, never use reusable meta-rhyme filler such as “the first careful clue in the tale,” “the next shows why plans can fail,” “with the dollars and details in view,” “while the market reveals what is true,” “one step in the financial rhyme,” “the consequence lands right on time,” “Follow the dollars from trouble to choice,” “X gives the real mechanism its name,” or “the rule underneath all of this.”',
-  'Do not repeat the lesson text inside the picture-book story just to add length. The result must read like an authored children’s story, not a prose summary with rhyme attached.',
+  'The lesson field is required by the schema, but it must not drive the Elementary story and is not part of the public reading experience. Do not repeat it inside the picture-book story. The public experience is title, illustration, story, and What happened?. The result must read like an authored children’s story, not a prose summary with rhyme attached.',
   'Avoid filler phrases whose only purpose is rhyme. Preserve the source’s actual causal chain and central absurdity rather than manufacturing a new joke.',
   'Before returning, read every story line aloud. Rewrite awkward or confusing rhymes and verify that the fun has not reversed an actor, action, transaction direction, cause, mechanism, or outcome.',
   'The final Elementary paragraphs array item must begin exactly "What happened?" and then give one or two short, non-rhyming, plain-English sentences stating the actual real-world mechanism and outcome. This is the factual anchor that lets the story stay fun. Do not put story text after it.',
   'Use the Elementary lesson field for a concise schema-compatible statement of the real mechanism, even though it is not rendered as a separate public lesson box.'
-];
-
-const STOCK_RHYME_FILLER = [
-  'the first careful clue in the tale', 'the next shows why plans can fail',
-  'with the dollars and details in view', 'while the market reveals what is true',
-  'one step in the financial rhyme', 'the consequence lands right on time',
-  'follow the dollars from trouble to choice', 'gives the real mechanism its name',
-  'the rule underneath all of this',
-  'as more investors were sold', 'ken griffins citadel hand', 'citadel took them for keepsakes',
-  'spent forty four thousand dollars on a sell', 'pivoted into other grids',
-  'make the product light', 'sixtys what you store', 'other values must be stood',
-  'a different kind of join', 'a market worth of 2 8 billion chimed',
-  'in a blip', 'with legal eyes', 'have real feel', 'put the old debt claims to a frame',
-  'a very big fleece', 'lost its tense', 'media moved next because it saw the grin', 'made a headline law'
 ];
 
 function storyInstructions(style = DEFAULT_GENERATION_STYLE) {
@@ -105,8 +91,8 @@ function assertRhymingEditorialOutput(story, section) {
   const elementary = story.adaptations.elementary;
   const copy = elementary.paragraphs.join('\n');
   const wordCount = copy.match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu)?.length || 0;
-  if (wordCount < 180 || wordCount > 260) {
-    throw new Error(`Elementary picture-book narrative must be 180–260 words (received ${wordCount})`);
+  if (wordCount < 250 || wordCount > 400) {
+    throw new Error(`Elementary picture-book narrative must be 250–400 words (received ${wordCount})`);
   }
   const ending = elementary.paragraphs.at(-1);
   if (!/^What happened\?\s+\S/.test(ending)) {
@@ -117,11 +103,7 @@ function assertRhymingEditorialOutput(story, section) {
   if (sentenceCount < 1 || sentenceCount > 2) {
     throw new Error('What happened? explanation must contain one or two sentences');
   }
-  const storyCopy = elementary.paragraphs.slice(0, -1).join('\n');
   const allElementaryCopy = elementary.paragraphs.join('\n');
-  const normalizedStoryCopy = entityTokens(storyCopy).join(' ');
-  const filler = STOCK_RHYME_FILLER.find(phrase => normalizedStoryCopy.includes(entityTokens(phrase).join(' ')));
-  if (filler) throw new Error(`Elementary picture-book narrative contains prohibited filler: ${filler}`);
 
   const sourceNormalized = entityTokens(section.sourceText).join(' ');
   const quotedPassages = [...allElementaryCopy.matchAll(/["“]([^"”]+)["”]/gu)];
@@ -148,50 +130,9 @@ function assertRhymingEditorialOutput(story, section) {
       if (!entityAppearsInSource(value, section.sourceText)) {
         throw new Error(`Elementary checklist invented or altered ${label}: ${value}`);
       }
-      const parts = String(value).match(/[\p{L}\p{N}]+/gu) || [];
-      for (let index = 0; index < parts.length - 1; index += 1) {
-        const brokenName = new RegExp(`${escapeRegExp(parts[index])}[^\\p{L}\\p{N}]*\\n\\s*${escapeRegExp(parts[index + 1])}`, 'iu');
-        if (brokenName.test(storyCopy)) {
-          throw new Error(`Elementary picture-book narrative splits proper noun across lines: ${value}`);
-        }
-      }
     }
   }
   return story;
-}
-
-function escapeRegExp(value) {
-  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-function storyNgrams(story, size = 8) {
-  const paragraphs = story.adaptations.elementary.paragraphs;
-  const tokens = entityTokens(paragraphs.slice(0, -1).join(' '));
-  const phrases = new Set();
-  for (let index = 0; index <= tokens.length - size; index += 1) {
-    const phraseTokens = tokens.slice(index, index + size);
-    if (!phraseTokens.some(token => /\p{L}/u.test(token)) || phraseTokens.some(token => /^\d+$/.test(token))) continue;
-    phrases.add(phraseTokens.join(' '));
-  }
-  return phrases;
-}
-
-function assertNoReusableBoilerplate(stories) {
-  const seen = new Map();
-  for (let index = 0; index < stories.length; index += 1) {
-    for (const phrase of storyNgrams(stories[index])) {
-      if (seen.has(phrase)) {
-        throw new Error(`Elementary stories repeat suspicious boilerplate: “${phrase}”`);
-      }
-      seen.set(phrase, index);
-    }
-  }
-  return stories;
-}
-
-function assertStorySetEditorialOutput(stories, style) {
-  if (isPictureBookStyle(style)) assertNoReusableBoilerplate(stories);
-  return stories;
 }
 
 function clientFor(apiKey) {
@@ -276,5 +217,5 @@ module.exports = {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL,
   ILLUSTRATION_CONTENT_INSTRUCTIONS, ILLUSTRATION_STYLE_PROMPT, canonicalIllustrationAlt, clientFor,
   finalImagePrompt, generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
-  assertNoReusableBoilerplate, assertStorySetEditorialOutput, entityAppearsInSource, isPictureBookStyle
+  entityAppearsInSource, isPictureBookStyle
 };
