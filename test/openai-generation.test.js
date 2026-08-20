@@ -28,7 +28,7 @@ function validRhymingStory() {
     title: 'A Real Deal',
     lesson: 'The actual transaction',
     paragraphs: [
-      `A real person at A real company made a deal one day. ${'story '.repeat(235)}Facts stay clear while playful words sound bright.`,
+      `A real person at A real company made a deal one day. ${'story '.repeat(200)}Facts stay clear while playful words sound bright.`,
       'What happened? A real company completed the actual transaction.'
     ]
   };
@@ -41,26 +41,26 @@ test('provides model defaults while allowing the workflow environment to overrid
   assert.equal(DEFAULT_IMAGE_MODEL, 'gpt-image-1.5');
 });
 
-test('picture-book prompt protects the real story while making rhyme optional', () => {
+test('picture-book prompt protects the real story while prioritizing natural rhyme', () => {
   const instructions = storyInstructions();
   for (const requirement of [
-    /real people/i, /real companies/i, /numbers needed to understand the story/i,
+    /who did what/i, /named companies/i, /most memorable or useful numbers/i,
     /actual financial mechanism/i, /central joke or absurdity/i, /coherent narrative/i,
-    /250–400 words/i, /strong read-aloud flow/i, /little or no rhyme is acceptable/i,
+    /180–260 words total/i, /lively read-aloud rhythm/i, /mostly natural rhyming couplets/i,
     /What happened\?/i
   ]) assert.match(instructions, requirement);
   assert.match(instructions, /Never invent a person or company/i);
   assert.match(instructions, /lemonade stands, allowances, apples/i);
-  assert.match(instructions, /one or two non-rhyming, plain-English sentences/i);
+  assert.match(instructions, /one or two short, non-rhyming, plain-English sentences/i);
   assert.match(instructions, /sentence-by-sentence and append rhyming suffixes/i);
   assert.match(instructions, /authored children’s story/i);
   assert.match(instructions, /Never split a proper noun, company name, number, abbreviation/i);
-  assert.match(instructions, /prefer an unrhymed line/i);
-  assert.match(instructions, /Natural, idiomatic English and factual fidelity are absolute requirements/i);
+  assert.match(instructions, /choose an unrhymed line over awkward wording/i);
+  assert.match(instructions, /Entertain first/i);
   assert.match(instructions, /Never convert percentage returns into multiples incorrectly/i);
   assert.match(instructions, /Never change buying into selling/i);
   assert.match(instructions, /Do not invent direct quotations unless the source contains that quotation/i);
-  assert.match(instructions, /read every story line as normal prose/i);
+  assert.match(instructions, /read every story line aloud/i);
   assert.match(instructions, /Do not repeat the lesson text/i);
 });
 
@@ -124,7 +124,7 @@ test('rhyming validation rejects proper nouns broken across lines and generic su
 test('edition validation flags repeated multi-word boilerplate without scoring rhyme generally', () => {
   const first = validRhymingStory();
   const second = validRhymingStory();
-  second.adaptations.elementary.paragraphs[0] = `Different facts begin this account. ${'story '.repeat(235)}Facts stay clear while playful words sound bright.`;
+  second.adaptations.elementary.paragraphs[0] = `Different facts begin this account. ${'story '.repeat(200)}Facts stay clear while playful words sound bright.`;
   assert.throws(() => assertNoReusableBoilerplate([first, second]), /repeat suspicious boilerplate/);
 
   const distinct = validRhymingStory();
@@ -158,13 +158,13 @@ test('generation defaults to a picture-book narrative while retaining compatibil
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, priorValidationError: 'missing final What happened?' });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'legacy' });
-  assert.match(calls[0].instructions, /picture-book narrative with optional rhyme/i);
+  assert.match(calls[0].instructions, /funny, cute, authored children’s picture book/i);
   assert.match(calls[1].instructions, /complete replacement output, not a patch/i);
   assert.match(calls[1].input, /missing final What happened/);
-  assert.doesNotMatch(calls[2].instructions, /picture-book narrative with optional rhyme/i);
+  assert.doesNotMatch(calls[2].instructions, /funny, cute, authored children’s picture book/i);
   assert.match(calls[2].instructions, /Preschool must be simple but factual/i);
   await assert.rejects(generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'unknown' }), /Unknown generation style/);
-  assert.match(storyInstructions('rhyming-picture-book'), /picture-book narrative with optional rhyme/i);
+  assert.match(storyInstructions('rhyming-picture-book'), /funny, cute, authored children’s picture book/i);
 });
 
 test('rhyming editorial validation rejects structural and source-fidelity regressions', async () => {
@@ -181,7 +181,7 @@ test('rhyming editorial validation rejects structural and source-fidelity regres
 
   const genericShortCopy = validRhymingStory();
   genericShortCopy.adaptations.elementary.paragraphs = ['A lemonade stand analogy.', 'What happened? A transaction occurred.'];
-  await assert.rejects(generate(genericShortCopy), /250–400 words/);
+  await assert.rejects(generate(genericShortCopy), /180–260 words/);
 
   const inventedCompany = validRhymingStory();
   inventedCompany.elementaryChecklist.realCompanies = ['Invented Lemonade LLC'];

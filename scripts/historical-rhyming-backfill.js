@@ -31,9 +31,9 @@ function safeReason(error) {
 
 function retryFeedback(error) {
   const reason = String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ');
-  const shortStory = reason.match(/Elementary picture-book narrative must be 250–400 words \(received (\d+)\)/);
-  if (shortStory && Number(shortStory[1]) < 250) {
-    return `The previous output was too short: it contained exactly ${shortStory[1]} words. The required range is 250–400 words. Expand the story naturally by adding source-supported explanation or narrative detail. Do not add filler, invented facts, decorative imagery, or distortions just to reach the required length. Preserve all existing factual and natural-English priorities.`;
+  const shortStory = reason.match(/Elementary picture-book narrative must be 180–260 words \(received (\d+)\)/);
+  if (shortStory && Number(shortStory[1]) < 180) {
+    return `The previous output was too short: it contained exactly ${shortStory[1]} words. The required range is 180–260 words including What happened?. Expand the story naturally without changing the real event; playful storybook imagery is welcome, but do not add a false quote, transaction, motive, mechanism, or outcome.`;
   }
   return safeReason(error);
 }

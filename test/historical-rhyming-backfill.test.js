@@ -105,7 +105,7 @@ test('retries editorial failures with concise feedback and a complete replacemen
   assert.deepEqual(calls[1].section, { heading: 'Canonical', sourceText: 'original canonical text' });
 });
 
-test('retries a 241-word story with specific expansion guidance and accepts a valid replacement', async () => {
+test('retries a 171-word story with specific expansion guidance and accepts a valid replacement', async () => {
   const storyWithWordCount = wordCount => {
     const ending = 'What happened? The transaction occurred as the source explains.';
     const endingWords = ending.match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu).length;
@@ -122,7 +122,7 @@ test('retries a 241-word story with specific expansion guidance and accepts a va
       }
     };
   };
-  const responses = [storyWithWordCount(241), storyWithWordCount(250)];
+  const responses = [storyWithWordCount(171), storyWithWordCount(180)];
   const calls = [];
   const client = { responses: { parse: async request => {
     calls.push(request);
@@ -135,12 +135,11 @@ test('retries a 241-word story with specific expansion guidance and accepts a va
   });
 
   assert.equal(calls.length, 2);
-  assert.equal(result.adaptations.elementary.paragraphs.join(' ').match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu).length, 250);
+  assert.equal(result.adaptations.elementary.paragraphs.join(' ').match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu).length, 180);
   for (const requirement of [
-    /previous output was too short/i, /exactly 241 words/i, /required range is 250–400 words/i,
-    /expand the story naturally by adding source-supported explanation or narrative detail/i,
-    /do not add filler, invented facts, decorative imagery, or distortions/i,
-    /preserve all existing factual and natural-English priorities/i
+    /previous output was too short/i, /exactly 171 words/i, /required range is 180–260 words/i,
+    /expand the story naturally without changing the real event/i,
+    /playful storybook imagery is welcome/i
   ]) assert.match(calls[1].instructions, requirement);
 });
 
