@@ -256,10 +256,14 @@ async function generateStory({ client, model, section, style = DEFAULT_GENERATIO
   return result;
 }
 
+function finalImagePrompt(prompt) {
+  return `${prompt}\n\n${ILLUSTRATION_STYLE_PROMPT}`;
+}
+
 async function generateImage({ client, model, prompt }) {
   const response = await client.images.generate({
     model,
-    prompt: `${prompt}\n\n${ILLUSTRATION_STYLE_PROMPT}`,
+    prompt: finalImagePrompt(prompt),
     size: '1024x1024',
     quality: 'medium',
     output_format: 'png',
@@ -277,6 +281,6 @@ async function generateImage({ client, model, prompt }) {
 module.exports = {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL,
   ILLUSTRATION_CONTENT_INSTRUCTIONS, ILLUSTRATION_STYLE_PROMPT, canonicalIllustrationAlt, clientFor,
-  generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
+  finalImagePrompt, generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
   assertNoReusableBoilerplate, assertStorySetEditorialOutput, entityAppearsInSource, isPictureBookStyle
 };

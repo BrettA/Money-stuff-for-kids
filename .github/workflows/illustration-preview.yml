@@ -1,0 +1,50 @@
+name: Illustration Preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      edition_id:
+        description: Existing canonical edition ID
+        required: true
+        type: string
+      story_id:
+        description: Optional story ID; blank previews every substantive story in the edition
+        required: false
+        type: string
+      label:
+        description: Optional iteration label used only in the artifact and manifest
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
+      EDITION_ID: ${{ inputs.edition_id }}
+      STORY_ID: ${{ inputs.story_id }}
+      PREVIEW_LABEL: ${{ inputs.label }}
+      PREVIEW_OUTPUT_DIRECTORY: ${{ runner.temp }}/illustration-previews
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Generate isolated PNG previews
+        id: preview
+        run: node scripts/illustration-preview.js
+      - name: Upload preview images and manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.preview.outputs.artifact_name }}
+          path: ${{ steps.preview.outputs.artifact_path }}
+          if-no-files-found: error
+          retention-days: 30
