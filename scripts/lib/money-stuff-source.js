@@ -43,15 +43,25 @@ function dateOnly(value, description) {
   return parsed.toISOString().slice(0, 10);
 }
 
-function canonicalSourceMetadata(message) {
+function canonicalSourceMetadata(message, recordedSource) {
   const outerSubject = clean(message && message.subject);
   let date;
   let subject = outerSubject;
   if (FORWARDED_SUBJECT.test(outerSubject)) {
     const original = forwardedHeaders(message && message.text);
-    if (!original) throw new Error('Forwarded Money Stuff message has no usable original Date and Subject headers');
-    date = dateOnly(original.date, 'Forwarded Money Stuff message');
-    subject = original.subject;
+    if (original) {
+      date = dateOnly(original.date, 'Forwarded Money Stuff message');
+      subject = original.subject;
+    } else if (recordedSource && recordedSource.date && recordedSource.title) {
+      // Historical ingestion records the authenticated Gmail message ID with
+      // the canonical newsletter date and title. Forwarding clients sometimes
+      // omit the original header block, so use that existing provenance rather
+      // than manufacturing metadata from the outer message.
+      date = dateOnly(recordedSource.date, 'Recorded canonical source');
+      subject = recordedSource.title;
+    } else {
+      throw new Error('Forwarded Money Stuff message has no usable original Date and Subject headers');
+    }
   } else {
     date = dateOnly(Number(message && message.internalDate), 'Gmail message');
   }

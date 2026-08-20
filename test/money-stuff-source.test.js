@@ -56,3 +56,14 @@ test('fails closed when a forwarded message lacks its original header block', ()
     text: 'No forwarded header block here.'
   }), /original Date and Subject headers/);
 });
+
+test('uses recorded canonical provenance for a known historical forwarded message without headers', () => {
+  assert.deepEqual(canonicalSourceMetadata({
+    internalDate: String(Date.parse('2026-08-19T09:30:00Z')),
+    subject: 'FW: Money Stuff: Fake SpaceX Stock Isn’t Worth as Much',
+    text: 'Forwarding client omitted the original header block.'
+  }, {
+    gmailMessageId: '1a01810c1bddf3d7', date: '2026-08-06',
+    title: 'Fake SpaceX Stock Isn’t Worth as Much'
+  }), { date: '2026-08-06', title: 'Fake SpaceX Stock Isn’t Worth as Much' });
+});
