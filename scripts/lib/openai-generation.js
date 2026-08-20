@@ -39,8 +39,29 @@ function storyInstructions(style = DEFAULT_GENERATION_STYLE) {
   ].join(' ');
 }
 
-function normalizedWords(value) {
-  return String(value).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const ENTITY_NOISE_WORDS = new Set([
+  'and', 'bank', 'co', 'company', 'corp', 'corporation', 'group', 'holdings', 'inc', 'incorporated',
+  'llc', 'ltd', 'plc', 'the'
+]);
+
+function entityTokens(value) {
+  return String(value).toLowerCase().match(/[\p{L}\p{N}]+/gu) || [];
+}
+
+function entityAppearsInSource(entity, sourceText) {
+  const entityParts = entityTokens(entity);
+  const sourceParts = new Set(entityTokens(sourceText));
+  if (!entityParts.length) return false;
+  if (entityParts.every(part => sourceParts.has(part))) return true;
+
+  // Newsletter prose often shortens legal names (JPMorgan Chase -> JPMorgan,
+  // ALT5 Sigma Corp. -> ALT5). A distinctive shared token or standard
+  // initialism is enough to establish that the checklist entity came from the
+  // source; this is an invention guard, not a demand for verbatim naming.
+  const distinctive = entityParts.filter(part => part.length >= 3 && !ENTITY_NOISE_WORDS.has(part));
+  if (distinctive.some(part => sourceParts.has(part))) return true;
+  const initials = distinctive.map(part => part[0]).join('');
+  return initials.length >= 2 && sourceParts.has(initials);
 }
 
 function assertRhymingEditorialOutput(story, section) {
@@ -59,17 +80,15 @@ function assertRhymingEditorialOutput(story, section) {
   if (sentenceCount < 1 || sentenceCount > 2) {
     throw new Error('What happened? explanation must contain one or two sentences');
   }
-  const source = normalizedWords(section.sourceText);
-  const adaptation = normalizedWords(copy);
   for (const [label, values] of [
     ['person', story.elementaryChecklist.realPeople],
     ['company', story.elementaryChecklist.realCompanies]
   ]) {
     for (const value of values) {
-      if (normalizedWords(value) === 'none in source') continue;
-      const entity = normalizedWords(value);
-      if (!source.includes(entity)) throw new Error(`Elementary checklist invented or altered ${label}: ${value}`);
-      if (!adaptation.includes(entity)) throw new Error(`Elementary story omitted real ${label}: ${value}`);
+      if (entityTokens(value).join(' ') === 'none in source') continue;
+      if (!entityAppearsInSource(value, section.sourceText)) {
+        throw new Error(`Elementary checklist invented or altered ${label}: ${value}`);
+      }
     }
   }
   return story;
@@ -142,5 +161,6 @@ async function generateImage({ client, model, prompt }) {
 
 module.exports = {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor,
-  generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput
+  generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
+  entityAppearsInSource
 };

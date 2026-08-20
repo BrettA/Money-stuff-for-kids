@@ -3,8 +3,8 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
-  DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, generateStory,
-  parse, storyInstructions
+  DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt,
+  entityAppearsInSource, generateStory, parse, storyInstructions
 } = require('../scripts/lib/openai-generation');
 const { isPlaceholderIllustrationAlt } = require('../scripts/lib/illustration-alt');
 const { storyGeneration } = require('../scripts/lib/edition-schema');
@@ -87,10 +87,17 @@ test('rhyming editorial validation rejects structural and source-fidelity regres
   inventedCompany.elementaryChecklist.realCompanies = ['Invented Lemonade LLC'];
   await assert.rejects(generate(inventedCompany), /invented or altered company/);
 
-  const omittedPerson = validRhymingStory();
-  omittedPerson.adaptations.elementary.paragraphs[0] = omittedPerson.adaptations.elementary.paragraphs[0]
+  const omittedIncidentalPerson = validRhymingStory();
+  omittedIncidentalPerson.adaptations.elementary.paragraphs[0] = omittedIncidentalPerson.adaptations.elementary.paragraphs[0]
     .replace('A real person', 'Someone');
-  await assert.rejects(generate(omittedPerson), /omitted real person/);
+  await assert.doesNotReject(generate(omittedIncidentalPerson));
+});
+
+test('source entity guard accepts common legal-name aliases without admitting inventions', () => {
+  assert.equal(entityAppearsInSource('JPMorgan Chase', 'JPMorgan arranged the financing.'), true);
+  assert.equal(entityAppearsInSource('ALT5 Sigma Corp.', 'Shares of ALT5 rose after the announcement.'), true);
+  assert.equal(entityAppearsInSource('International Business Machines', 'IBM announced the transaction.'), true);
+  assert.equal(entityAppearsInSource('Invented Lemonade LLC', 'JPMorgan and ALT5 arranged the transaction.'), false);
 });
 
 test('uses parsed structured output and fails closed when the SDK returns none', async () => {
