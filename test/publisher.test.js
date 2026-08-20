@@ -156,6 +156,8 @@ test('single public mode renders only elementary copy and no age-band UI', () =>
   assert.match(page, /Elementary School title/);
   assert.doesNotMatch(page, /Preschool title|Middle School title|High School title/);
   assert.doesNotMatch(`${home}${page}`, /READING AGE|Elementary School edition|Choose a reading level/);
+  assert.match(page, /<header class="edition-header">[\s\S]*<a class="back" href="\/">← Back to all editions<\/a>[\s\S]*<\/header>/);
+  assert.doesNotMatch(home, /class="back"/);
   assert.doesNotMatch(`${home}${page}`, /class="age-pill"|data-age-copy/);
   assert.doesNotMatch(`${home}${page}`, /signupForm|Subscribe|BY EMAIL|name="email"/);
 });

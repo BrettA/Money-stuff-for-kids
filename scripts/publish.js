@@ -140,7 +140,7 @@ function publicAge(config) {
   return config.singlePublicAge || config.defaultAge;
 }
 
-function renderHeader(config, title) {
+function renderHeader(config, title, { showEditionsBackLink = false } = {}) {
   const agebar = isSingleAgeMode(config) ? '' : `
     <div class="agebar">
       <span class="age-label">READING AGE</span>
@@ -158,9 +158,9 @@ ${config.ages.map(age =>
   <script defer src="/app.js"></script>
 </head>
 <body data-public-age-mode="${isSingleAgeMode(config) ? 'single' : 'multi'}">
-  <header>
+  <header${showEditionsBackLink ? ' class="edition-header"' : ''}>
     <a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
-${agebar}
+${agebar}${showEditionsBackLink ? '\n    <a class="back" href="/">← Back to all editions</a>' : ''}
   </header>`;
 }
 
@@ -237,9 +237,8 @@ ${renderFooter()}`;
 
 function renderEdition(config, edition) {
   const stories = edition.stories.map((story, index) => renderStory(config, story, index)).join('\n');
-  return `${renderHeader(config, `${edition.title} — ${config.name}`)}
+  return `${renderHeader(config, `${edition.title} — ${config.name}`, { showEditionsBackLink: true })}
   <main>
-    <a class="back" href="/">← All editions</a>
     <div class="eyebrow">${escapeHtml(edition.displayDate.toUpperCase())} · MONEY STUFF EDITION</div>
     <h1>${escapeHtml(edition.title)}</h1>
 ${isSingleAgeMode(config) ? '' : `    <p class="intro"><b class="current-age-label">${escapeHtml(config.ages.find(age => age.id === config.defaultAge)?.label || config.defaultAge)}</b> edition.</p>`}
