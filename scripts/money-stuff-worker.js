@@ -9,8 +9,8 @@ const {
   assertInventory, canonicalSourceMetadata, clean, extractHtmlSections, sourceDigest, substantive
 } = require('./lib/money-stuff-source');
 const {
-  DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor, generateImage, generateMetadata,
-  generateStory
+  DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor,
+  generateImage, generateMetadata, generateStory
 } = require('./lib/openai-generation');
 const { run, stageAndValidate } = require('./lib/package-edition');
 const { submitPackage } = require('./lib/submit-package');
@@ -104,6 +104,7 @@ async function main() {
   const client = clientFor(env('OPENAI_API_KEY'));
   const textModel = process.env.OPENAI_TEXT_MODEL || DEFAULT_TEXT_MODEL;
   const imageModel = process.env.OPENAI_IMAGE_MODEL || DEFAULT_IMAGE_MODEL;
+  const generationStyle = process.env.MONEY_STUFF_GENERATION_STYLE || DEFAULT_GENERATION_STYLE;
   const sourceMetadata = canonicalSourceMetadata(message);
   message.canonicalDate = sourceMetadata.date;
   message.canonicalTitle = sourceMetadata.title;
@@ -124,7 +125,7 @@ async function main() {
   const generatedStories = [];
   const images = [];
   for (const [index, section] of stories.entries()) {
-    const generated = (await generateStory({ client, model: textModel, section })).value;
+    const generated = (await generateStory({ client, model: textModel, section, style: generationStyle })).value;
     const image = await generateImage({ client, model: imageModel, prompt: generated.illustration.prompt });
     const imagePath = `/images/${editionId}/${ids[index]}.png`;
     generatedStories.push({

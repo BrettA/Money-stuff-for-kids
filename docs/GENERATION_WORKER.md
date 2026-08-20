@@ -1,6 +1,8 @@
 # Money Stuff generation worker
 
-The production worker reads one complete Money Stuff email through the Gmail API, inventories its source sections, generates four faithful age adaptations and one image per substantive section, validates a canonical schema-version-2 package, and—only when explicitly requested—submits it through the existing Vercel publishing bridge.
+The production worker reads one complete Money Stuff email through the Gmail API, inventories its source sections, generates four faithful age adaptations and one image per substantive section, validates a canonical schema-version-2 package, and—only when explicitly requested—submits it through the existing Vercel publishing bridge. The Elementary slot is generated as a 250–400 word rhyming, read-aloud picture-book story and ends with a plain-English `What happened?` explanation; the other age slots and canonical schema are unchanged.
+
+`MONEY_STUFF_GENERATION_STYLE=legacy` restores the previous Elementary prompting without changing stored data or public rendering. This is an editorial-generation escape hatch, not a public product mode. Structured output reliably enforces the existing fields, while generation-time checks enforce length, the ending, and guard against clearly invented checklist entities using alias-tolerant source matching. Rhyme quality, meter, entity importance, and semantic source fidelity still require editorial review; the prompt deliberately permits shortened names, slant rhyme, and irregular meter rather than imposing brittle mechanical validators.
 
 It does not run on a schedule, scrape Bloomberg, email subscribers, process signups, merge pull requests, or replace the private Blob ingestion pipeline.
 
