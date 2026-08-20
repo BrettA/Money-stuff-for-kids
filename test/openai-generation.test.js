@@ -4,7 +4,7 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt,
-  entityAppearsInSource, generateStory, parse, storyInstructions
+  assertNoReusableBoilerplate, entityAppearsInSource, generateStory, parse, storyInstructions
 } = require('../scripts/lib/openai-generation');
 const { isPlaceholderIllustrationAlt } = require('../scripts/lib/illustration-alt');
 const { storyGeneration } = require('../scripts/lib/edition-schema');
@@ -27,7 +27,7 @@ function validRhymingStory() {
     title: 'A Real Deal',
     lesson: 'The actual transaction',
     paragraphs: [
-      `A real person at A real company made a deal one day. ${'story '.repeat(235)}Facts stay clear while playful pairs can rhyme.`,
+      `A real person at A real company made a deal one day. ${'story '.repeat(235)}Facts stay clear while playful words sound bright.`,
       'What happened? A real company completed the actual transaction.'
     ]
   };
@@ -50,6 +50,41 @@ test('rhyming prompt protects the real story and picture-book structure', () => 
   assert.match(instructions, /Never invent a person or company/i);
   assert.match(instructions, /lemonade stands, allowances, apples/i);
   assert.match(instructions, /one or two non-rhyming, plain-English sentences/i);
+  assert.match(instructions, /sentence-by-sentence and append rhyming suffixes/i);
+  assert.match(instructions, /authored children’s story/i);
+  assert.match(instructions, /Never split a proper noun, company name, number, abbreviation/i);
+  assert.match(instructions, /Prefer slant rhyme or an unrhymed line/i);
+  assert.match(instructions, /Do not repeat the lesson text/i);
+});
+
+test('rhyming validation rejects proper nouns broken across lines and generic suffix filler', async () => {
+  const section = { heading: 'The deal', sourceText: 'Jamie Dimon at JPMorgan Chase completed the actual transaction.' };
+  const generate = story => generateStory({
+    client: { responses: { parse: async () => ({ output_parsed: story }) } },
+    model: DEFAULT_TEXT_MODEL, section
+  });
+
+  const brokenName = validRhymingStory();
+  brokenName.elementaryChecklist.realPeople = ['Jamie Dimon'];
+  brokenName.elementaryChecklist.realCompanies = ['JPMorgan Chase'];
+  brokenName.adaptations.elementary.paragraphs[0] = brokenName.adaptations.elementary.paragraphs[0]
+    .replace('A real person at A real company', 'Jamie\nDimon at JPMorgan Chase');
+  await assert.rejects(generate(brokenName), /splits proper noun across lines: Jamie Dimon/);
+
+  const proseWithSuffix = validRhymingStory();
+  proseWithSuffix.adaptations.elementary.paragraphs[0] += ' The deal was announced. The next shows why plans can fail.';
+  await assert.rejects(generate(proseWithSuffix), /reusable rhyme filler/);
+});
+
+test('edition validation flags repeated multi-word boilerplate without scoring rhyme generally', () => {
+  const first = validRhymingStory();
+  const second = validRhymingStory();
+  second.adaptations.elementary.paragraphs[0] = `Different facts begin this account. ${'story '.repeat(235)}Facts stay clear while playful words sound bright.`;
+  assert.throws(() => assertNoReusableBoilerplate([first, second]), /repeat suspicious boilerplate/);
+
+  const distinct = validRhymingStory();
+  distinct.adaptations.elementary.paragraphs[0] = Array.from({ length: 245 }, (_, index) => `unique${index}`).join(' ');
+  assert.doesNotThrow(() => assertNoReusableBoilerplate([first, distinct]));
 });
 
 test('generation defaults to rhyme while retaining an explicit legacy escape hatch', async () => {

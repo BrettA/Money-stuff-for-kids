@@ -20,12 +20,22 @@ const LEGACY_STORY_INSTRUCTIONS = [
 const RHYMING_STORY_INSTRUCTIONS = [
   'Write the Elementary adaptation as a polished rhyming picture-book story for a target reader roughly ages 5–8; this age is internal guidance and must not appear in the copy.',
   'Tell the real Money Stuff story, not a generic analogy: retain every important number, real person, real company, the actual financial mechanism, and the source\'s central joke or absurdity. Never invent a person or company.',
-  'Rewrite freely into one coherent story arc rather than translating paragraph by paragraph. Explain necessary financial terms naturally in the story.',
-  'Write roughly 250–400 words, mostly in rhyming couplets with a polished read-aloud cadence. Slant rhyme, imperfect rhyme, and irregular meter are welcome; do not force proper nouns or technical terms to rhyme.',
+  'Rewrite the story from scratch as one coherent story arc and narrative, while preserving the actual facts, mechanism, people, companies, important numbers, and central joke. Do not take the source prose sentence-by-sentence and append rhyming suffixes, and do not preserve its paragraph structure just to force rhyme. Explain necessary financial terms naturally in the story.',
+  'Write roughly 250–400 words, mostly in rhyming couplets with a polished read-aloud cadence. Prefer slant rhyme or an unrhymed line over awkward syntax. If a technical fact cannot be expressed naturally in rhyme, state it plainly rather than distorting it. Never split a proper noun, company name, number, abbreviation, or natural phrase across lines to manufacture rhyme.',
   'Avoid ordinary non-rhyming prose, sing-song filler, generic moralizing, and substitute stories about lemonade stands, allowances, apples, or other kid-business analogies. A tiny analogy is allowed only when genuinely necessary.',
+  'Do not use generic stock lines that could fit unrelated stories. In particular, never use reusable meta-rhyme filler such as “the first careful clue in the tale,” “the next shows why plans can fail,” “with the dollars and details in view,” “while the market reveals what is true,” “one step in the financial rhyme,” “the consequence lands right on time,” “Follow the dollars from trouble to choice,” “X gives the real mechanism its name,” or “the rule underneath all of this.”',
+  'Never refer to “the rhyme,” “the tale,” “the mechanism,” or the act of explaining the story unless that language is naturally part of the source. Do not repeat the lesson text inside the rhyming story just to add length. The result must read like an authored children’s story, not a prose summary with rhyme attached.',
   'Preserve the real absurdity instead of inventing a different joke.',
   'The final Elementary paragraphs array item must begin exactly "What happened?" and then give one or two non-rhyming, plain-English sentences stating the actual real-world mechanism and facts. Do not put story text after it.',
   'Use the Elementary lesson field for a concise schema-compatible statement of the real mechanism, even though it is not rendered as a separate public lesson box.'
+];
+
+const STOCK_RHYME_FILLER = [
+  'the first careful clue in the tale', 'the next shows why plans can fail',
+  'with the dollars and details in view', 'while the market reveals what is true',
+  'one step in the financial rhyme', 'the consequence lands right on time',
+  'follow the dollars from trouble to choice', 'gives the real mechanism its name',
+  'the rule underneath all of this'
 ];
 
 function storyInstructions(style = DEFAULT_GENERATION_STYLE) {
@@ -80,6 +90,19 @@ function assertRhymingEditorialOutput(story, section) {
   if (sentenceCount < 1 || sentenceCount > 2) {
     throw new Error('What happened? explanation must contain one or two sentences');
   }
+  const storyCopy = elementary.paragraphs.slice(0, -1).join('\n');
+  const normalizedStoryCopy = storyCopy.toLowerCase().replace(/[“”'’]/g, '');
+  const filler = STOCK_RHYME_FILLER.find(phrase => normalizedStoryCopy.includes(phrase.toLowerCase()));
+  if (filler) throw new Error(`Elementary rhyming story contains reusable rhyme filler: ${filler}`);
+
+  // These words are a reliable symptom of prose-wrapping when the source did
+  // not itself discuss them. Keep this deliberately narrow rather than trying
+  // to assign a subjective poetry score.
+  for (const metaWord of ['rhyme', 'tale', 'mechanism']) {
+    if (!entityTokens(section.sourceText).includes(metaWord) && entityTokens(storyCopy).includes(metaWord)) {
+      throw new Error(`Elementary rhyming story contains unsupported meta-rhyme language: ${metaWord}`);
+    }
+  }
   for (const [label, values] of [
     ['person', story.elementaryChecklist.realPeople],
     ['company', story.elementaryChecklist.realCompanies]
@@ -89,9 +112,45 @@ function assertRhymingEditorialOutput(story, section) {
       if (!entityAppearsInSource(value, section.sourceText)) {
         throw new Error(`Elementary checklist invented or altered ${label}: ${value}`);
       }
+      const parts = String(value).match(/[\p{L}\p{N}]+/gu) || [];
+      for (let index = 0; index < parts.length - 1; index += 1) {
+        const brokenName = new RegExp(`${escapeRegExp(parts[index])}[^\\p{L}\\p{N}]*\\n\\s*${escapeRegExp(parts[index + 1])}`, 'iu');
+        if (brokenName.test(storyCopy)) {
+          throw new Error(`Elementary rhyming story splits proper noun across lines: ${value}`);
+        }
+      }
     }
   }
   return story;
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function storyNgrams(story, size = 8) {
+  const paragraphs = story.adaptations.elementary.paragraphs;
+  const tokens = entityTokens(paragraphs.slice(0, -1).join(' '));
+  const phrases = new Set();
+  for (let index = 0; index <= tokens.length - size; index += 1) {
+    const phraseTokens = tokens.slice(index, index + size);
+    if (!phraseTokens.some(token => /\p{L}/u.test(token)) || phraseTokens.some(token => /^\d+$/.test(token))) continue;
+    phrases.add(phraseTokens.join(' '));
+  }
+  return phrases;
+}
+
+function assertNoReusableBoilerplate(stories) {
+  const seen = new Map();
+  for (let index = 0; index < stories.length; index += 1) {
+    for (const phrase of storyNgrams(stories[index])) {
+      if (seen.has(phrase)) {
+        throw new Error(`Elementary stories repeat suspicious boilerplate: “${phrase}”`);
+      }
+      seen.set(phrase, index);
+    }
+  }
+  return stories;
 }
 
 function clientFor(apiKey) {
@@ -162,5 +221,5 @@ async function generateImage({ client, model, prompt }) {
 module.exports = {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor,
   generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
-  entityAppearsInSource
+  assertNoReusableBoilerplate, entityAppearsInSource
 };
