@@ -1,0 +1,98 @@
+name: One-time historical Elementary rhyming backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      edition_ids:
+        description: Comma-separated existing edition IDs/dates, or the literal value "all"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: historical-rhyming-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      BACKFILL_BRANCH: historical-rhyming-backfill
+      BACKFILL_SUMMARY_FILE: ${{ runner.temp }}/historical-backfill-pr.md
+      EDITION_IDS: ${{ inputs.edition_ids }}
+      GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+      GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+      GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Refuse to overwrite an existing backfill branch
+        run: |
+          if git ls-remote --exit-code --heads origin "refs/heads/$BACKFILL_BRANCH" >/dev/null 2>&1; then
+            echo "Refusing to overwrite existing branch $BACKFILL_BRANCH" >&2
+            exit 1
+          fi
+          git switch --create "$BACKFILL_BRANCH"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate Elementary adaptations from canonical Gmail sources
+        run: node scripts/historical-rhyming-backfill.js
+
+      - name: Require at least one safe content change
+        run: |
+          git diff --quiet -- data && {
+            echo 'No Elementary adaptations were regenerated; refusing to open an empty PR.' >&2
+            exit 1
+          }
+
+      - name: Regenerate static edition pages
+        run: npm run publish
+
+      - name: Run repository checks
+        run: |
+          npm run check
+          npm test
+          git diff --check
+          cat >> "$BACKFILL_SUMMARY_FILE" <<'EOF'
+
+          ### Repository validation
+
+          - `npm run publish`: passed
+          - `npm run check`: passed
+          - `npm test`: passed
+          - `git diff --check`: passed
+          EOF
+
+      - name: Commit and push migration branch
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data editions index.html
+          git commit -m 'Backfill historical Elementary rhyming stories'
+          git push --set-upstream origin "HEAD:refs/heads/$BACKFILL_BRANCH"
+
+      - name: Open pull request for human review
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --base main \
+            --head "$BACKFILL_BRANCH" \
+            --title 'Backfill historical Elementary rhyming stories' \
+            --body-file "$BACKFILL_SUMMARY_FILE"
