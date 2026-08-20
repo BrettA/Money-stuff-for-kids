@@ -220,7 +220,7 @@ function renderHome(config, editions) {
       <div class="eyebrow">THE WORLD OF MONEY, MADE SIMPLE</div>
       <h1>Money Stuff.<br><em>But for kids.</em></h1>
       <p class="intro">${isSingleAgeMode(config)
-    ? "Matt Levine's Money Stuff, retold for curious kids. Pick an edition and dive in."
+    ? "Matt Levine's Money Stuff, retold for curious kids."
     : "Matt Levine's Money Stuff, retold for curious kids. Choose a reading level and dive in."}</p>
     </section>
     <h2 class="section-title">All editions</h2>
