@@ -7,7 +7,7 @@ const {
 } = require('../scripts/lib/openai-generation');
 
 function validStoryWith(line) {
-  const filler = Array.from({ length: 255 }, (_, index) => `fact${index}`).join(' ');
+  const filler = Array.from({ length: 160 }, (_, index) => `fact${index}`).join(' ');
   const copy = { title: 'Title', lesson: 'The actual transaction', paragraphs: ['Faithful story.'] };
   return {
     adaptations: {
@@ -45,14 +45,14 @@ function generate(story) {
   });
 }
 
-test('picture-book prompt makes factual meaning and natural English outrank optional rhyme', () => {
+test('picture-book prompt entertains first while preserving the factual spine', () => {
   const instructions = storyInstructions();
-  assert.match(instructions, /Natural, idiomatic English and factual fidelity are absolute requirements/i);
-  assert.match(instructions, /Rhyme is optional and secondary/i);
-  assert.match(instructions, /prefer an unrhymed line to filler, nonsense, awkward wording, or factual distortion/i);
-  assert.match(instructions, /Do not cram every source statistic into the narrative/i);
-  assert.match(instructions, /read every story line as normal prose/i);
-  assert.match(instructions, /Prefer two short sentences when several numbers or mechanics need explanation/i);
+  assert.match(instructions, /not a financial-literacy lesson/i);
+  assert.match(instructions, /Entertain first/i);
+  assert.match(instructions, /mostly natural rhyming couplets/i);
+  assert.match(instructions, /factual completeness is not required/i);
+  assert.match(instructions, /Playful storybook imagery and mild comic exaggeration are allowed/i);
+  assert.match(instructions, /factual anchor that lets the story stay fun/i);
 });
 
 test('known forced-rhyme failures from the July 30 review are rejected', async () => {
@@ -103,6 +103,24 @@ test('concrete PR 33 factual regressions are rejected', async () => {
   );
 });
 
-test('ordinary words used naturally are not globally banned', async () => {
-  await assert.doesNotReject(generate(validStoryWith('The source described a bell on the exchange floor and a hand signal used in the trade.')));
+test('Elementary word-count boundaries are inclusive from 180 through 260 words', async () => {
+  const storyWithWordCount = wordCount => {
+    const story = validStoryWith('');
+    const ending = 'What happened? A real company completed the actual transaction.';
+    const endingWordCount = ending.match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu).length;
+    story.adaptations.elementary.paragraphs = [
+      Array.from({ length: wordCount - endingWordCount }, (_, index) => `word${index}`).join(' '),
+      ending
+    ];
+    return story;
+  };
+
+  await assert.doesNotReject(generate(storyWithWordCount(180)));
+  await assert.rejects(generate(storyWithWordCount(179)), /180–260 words \(received 179\)/);
+  await assert.doesNotReject(generate(storyWithWordCount(260)));
+  await assert.rejects(generate(storyWithWordCount(261)), /180–260 words \(received 261\)/);
+});
+
+test('harmless playful imagery is not rejected merely for being playful', async () => {
+  await assert.doesNotReject(generate(validStoryWith('A tiny moon wore a bow tie while the spreadsheets did a cheerful jig.')));
 });

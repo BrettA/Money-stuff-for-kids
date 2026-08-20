@@ -35,20 +35,19 @@ const LEGACY_STORY_INSTRUCTIONS = [
 ];
 
 const PICTURE_BOOK_STORY_INSTRUCTIONS = [
-  'Write the Elementary adaptation as a polished children’s picture-book narrative with optional rhyme for a target reader roughly ages 5–8; this age is internal guidance and must not appear in the copy. The defining style is a clear, engaging picture-book story, not a rhyming poem.',
-  'Natural, idiomatic English and factual fidelity are absolute requirements. Rhyme is optional and secondary: large stretches may be unrhymed, and the story may contain little or no rhyme when that produces the clearest, most faithful result. Never preserve a rhyme if it causes awkward wording, invented facts, invented quotes, fake scene-setting, altered transaction direction, or distorted numbers. If a line would sound strange or false as ordinary prose, rewrite it even if that removes the rhyme.',
-  'Tell the real Money Stuff story, not a generic analogy: preserve the real people, real companies, actual financial mechanism, central joke or absurdity, and the numbers needed to understand the story. Never invent a person or company.',
+  'Write the Elementary adaptation as a funny, cute, authored children’s picture book for a target reader roughly ages 5–8; this age is internal guidance and must not appear in the copy. This is a funny picture-book adaptation of a real finance story, not a financial-literacy lesson. Entertain first. Preserve the recognizable real event and do not materially change what happened, but do not cram in every detail. Prefer one memorable joke, a clear story arc, lively read-aloud rhythm, and mostly natural rhyming couplets over exhaustive explanation. Do not force every line to rhyme.',
+  'Preserve Matt Levine-style absurdity in substance without imitating his prose style directly. Light comic imagery, playful phrasing, and mild exaggeration are welcome. Playful storybook imagery and mild comic exaggeration are allowed as long as they do not materially alter the real-world event or falsely attribute a quote, transaction, motive, or outcome.',
+  'Tell the real Money Stuff story, not a generic analogy. Preserve its central factual spine: who did what, the actual financial mechanism, the central joke or absurdity, and the outcome. Keep only the most memorable or useful numbers and details; factual completeness is not required. Never invent a person or company.',
   'Rewrite the story from scratch as one coherent narrative. Introduce the protagonist or company, explain what happened and the financial mechanism naturally, show what changed or went wrong or right, and land on the source’s real absurdity. Do not take the source prose sentence-by-sentence and append rhyming suffixes, and do not preserve its paragraph structure just to force rhyme.',
-  'Write roughly 250–400 words with a strong read-aloud flow. Rhyme may appear when it comes naturally, but little or no rhyme is acceptable. Prefer an unrhymed line to filler, nonsense, awkward wording, or factual distortion. If a technical fact cannot be expressed naturally in rhyme, state it plainly. Never split a proper noun, company name, number, abbreviation, or natural phrase across lines to manufacture rhyme.',
-  'Use only the facts the story needs. Preserve the causal chain, named actors, mechanism, central absurdity, and the most useful or memorable numbers. Do not cram every source statistic into the narrative; supporting precision can go in the final What happened? explanation. The result should feel like a story, not a financial summary broken into lines.',
-  'Do not invent direct quotations unless the source contains that quotation. Do not invent physical actions, settings, decorative objects, gestures, emotions, motives, or generic imagery unless supported by the source. Avoid unsupported filler such as invented hands, bells, suits, maps, grins, roofs, hearts, skies, keepsakes, or “under the sun” language. Do not append an empty clause whose only function is rhyme.',
-  'Keep every number and transaction direction exact. Never convert percentage returns into multiples incorrectly: for example, 1,000% is not “a thousandfold.” Never change buying into selling, selling into buying, long into short, short into long, or a yes position into a no position (or vice versa).',
+  'Write 180–260 words total, including the final What happened? paragraph. Prefer a compact story arc to comprehensive explanation. Use mostly rhyming couplets and a lively read-aloud rhythm, but choose an unrhymed line over awkward wording, filler, or factual distortion. Never split a proper noun, company name, number, abbreviation, or natural phrase across lines to manufacture rhyme.',
+  'Do not invent direct quotations unless the source contains that quotation. Storybook scene-setting, decorative objects, gestures, and light visual comedy need not be stated in the source, provided they are clearly harmless flourishes rather than new facts about a transaction, motive, cause, or outcome.',
+  'Keep material numbers and transaction direction exact. Never convert percentage returns into multiples incorrectly: for example, 1,000% is not “a thousandfold.” Never change buying into selling, selling into buying, long into short, short into long, yes into no, actor into counterparty, cause into effect, or the actual outcome or financial mechanism.',
   'Avoid sing-song filler, generic moralizing, and substitute stories about lemonade stands, allowances, apples, or other kid-business analogies. A tiny analogy is allowed only when genuinely necessary. Keep the sophistication of real names and financial terms, explaining unfamiliar terms naturally in context rather than replacing them.',
   'Do not use generic stock lines that could fit unrelated stories. In particular, never use reusable meta-rhyme filler such as “the first careful clue in the tale,” “the next shows why plans can fail,” “with the dollars and details in view,” “while the market reveals what is true,” “one step in the financial rhyme,” “the consequence lands right on time,” “Follow the dollars from trouble to choice,” “X gives the real mechanism its name,” or “the rule underneath all of this.”',
-  'Never refer to “the rhyme,” “the tale,” “the mechanism,” or the act of explaining the story unless that language is naturally part of the source. Do not repeat the lesson text inside the picture-book story just to add length. The result must read like an authored children’s story, not a prose summary with rhyme attached.',
+  'Do not repeat the lesson text inside the picture-book story just to add length. The result must read like an authored children’s story, not a prose summary with rhyme attached.',
   'Avoid filler phrases whose only purpose is rhyme. Preserve the source’s actual causal chain and central absurdity rather than manufacturing a new joke.',
-  'Before returning, read every story line as normal prose. Delete or rewrite any line that is awkward, nonsensical, unsupported, invented, or factually imprecise. It is acceptable for the final story to contain little or no rhyme.',
-  'The final Elementary paragraphs array item must begin exactly "What happened?" and then give one or two non-rhyming, plain-English sentences stating the actual real-world mechanism and facts. Prefer two short sentences when several numbers or mechanics need explanation. Do not put story text after it.',
+  'Before returning, read every story line aloud. Rewrite awkward or confusing rhymes and verify that the fun has not reversed an actor, action, transaction direction, cause, mechanism, or outcome.',
+  'The final Elementary paragraphs array item must begin exactly "What happened?" and then give one or two short, non-rhyming, plain-English sentences stating the actual real-world mechanism and outcome. This is the factual anchor that lets the story stay fun. Do not put story text after it.',
   'Use the Elementary lesson field for a concise schema-compatible statement of the real mechanism, even though it is not rendered as a separate public lesson box.'
 ];
 
@@ -106,8 +105,8 @@ function assertRhymingEditorialOutput(story, section) {
   const elementary = story.adaptations.elementary;
   const copy = elementary.paragraphs.join('\n');
   const wordCount = copy.match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu)?.length || 0;
-  if (wordCount < 250 || wordCount > 400) {
-    throw new Error(`Elementary picture-book narrative must be 250–400 words (received ${wordCount})`);
+  if (wordCount < 180 || wordCount > 260) {
+    throw new Error(`Elementary picture-book narrative must be 180–260 words (received ${wordCount})`);
   }
   const ending = elementary.paragraphs.at(-1);
   if (!/^What happened\?\s+\S/.test(ending)) {
@@ -140,11 +139,6 @@ function assertRhymingEditorialOutput(story, section) {
     throw new Error('Elementary picture-book narrative reverses buying the no side into selling no contracts');
   }
 
-  for (const metaWord of ['rhyme', 'tale', 'mechanism']) {
-    if (!entityTokens(section.sourceText).includes(metaWord) && entityTokens(storyCopy).includes(metaWord)) {
-      throw new Error(`Elementary picture-book narrative contains unsupported meta-rhyme language: ${metaWord}`);
-    }
-  }
   for (const [label, values] of [
     ['person', story.elementaryChecklist.realPeople],
     ['company', story.elementaryChecklist.realCompanies]
