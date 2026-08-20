@@ -7,22 +7,16 @@
   <link rel="stylesheet" href="/styles.css">
   <script defer src="/app.js"></script>
 </head>
-<body>
+<body data-public-age-mode="single">
   <header>
     <a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
-    <div class="agebar">
-      <span class="age-label">READING AGE</span>
-        <button class="age-pill" data-age="preschool">Preschool</button>
-        <button class="age-pill" data-age="elementary">Elementary School</button>
-        <button class="age-pill" data-age="middle">Middle School</button>
-        <button class="age-pill" data-age="high">High School</button>
-    </div>
+
   </header>
   <main>
     <a class="back" href="/">← All editions</a>
     <div class="eyebrow">AUGUST 4, 2026 · MONEY STUFF EDITION</div>
     <h1>Leveraged ETF Crash Hedging ETF</h1>
-    <p class="intro"><b class="current-age-label">Elementary School</b> edition.</p>
+
     <article class="story">
       <div class="art">
         <img src="/images/2026-08-04-leveraged-etf-crash-hedging-etf/crash-puts.svg" alt="A 2x ETF cart racing toward a crash while a bank holds a crash-put umbrella">
@@ -30,33 +24,12 @@
       <div class="copy">
         <div class="num">STORY 1</div>
         <div class="original">IN MATT'S ARTICLE: <b>Leveraged ETF crash put cliquet ETF</b></div>
-        <div data-age-copy="preschool">
-          <h2>The Bank’s Crash Umbrella</h2>
-          <p>Some funds borrow money so a stock’s daily move feels twice as big.</p>
-          <p>Usually they rebalance every day, but a huge one-day crash can leave the bank short.</p>
-          <p>So the bank buys a special crash umbrella called a crash put.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Borrowing can make good and bad moves bigger.</div>
-        </div>
-        <div data-age-copy="elementary">
+        <div>
           <h2>The ETF That Needs Insurance for a Very Bad Day</h2>
           <p>A 2x leveraged ETF tries to move about twice as much as a stock each day. A simple version is investors put in $100, the fund borrows $100, and it gets $200 of stock exposure.</p>
           <p>Normally the ETF rebalances every day. But if the stock falls more than about 50% in one session, the investors’ money can disappear before the bank is fully repaid. Matt Levine points to a leveraged ETF on Lucid that was wiped out during a 57% intraday fall.</p>
           <p>Banks therefore buy crash puts, including daily-reset options called cliquets.</p>
           <p>Then finance gets recursive: the insurance can be packaged in a structured note, and sellers may add leverage to make the small insurance premium more interesting. Leverage creates the risk, and leverage can show up again in the hedge.</p>
-        </div>
-        <div data-age-copy="middle">
-          <h2>Crash Puts for Leveraged ETFs</h2>
-          <p>Leveraged ETFs rebalance daily, which usually protects lenders as collateral shrinks.</p>
-          <p>A sufficiently large one-day gap can still wipe out fund equity before the lender is repaid.</p>
-          <p>Banks hedge that tail with crash puts or cliquets; pre-funded structures reduce counterparty risk but can introduce more leverage.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Extreme gap risk survives ordinary daily rebalancing.</div>
-        </div>
-        <div data-age-copy="high">
-          <h2>Cliquets, Gap Risk and Leveraged ETF Tail Insurance</h2>
-          <p>A daily-reset leveraged ETF deleverages after losses, but it can become insolvent before rebalancing if the underlying falls far enough in one session.</p>
-          <p>Deep-out-of-the-money daily-reset puts transfer part of that tail risk.</p>
-          <p>Pre-funded structured notes reduce counterparty exposure, while leverage on the note can leave the deepest tail with the bank.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Daily-reset leverage creates discontinuous gap risk.</div>
         </div>
       </div>
     </article>
@@ -67,33 +40,12 @@
       <div class="copy">
         <div class="num">STORY 2</div>
         <div class="original">IN MATT'S ARTICLE: <b>Tax-aware long-short</b></div>
-        <div data-age-copy="preschool">
-          <h2>A Hedge Fund Brags About Losses</h2>
-          <p>Usually an investment company does not brag about losses.</p>
-          <p>AQR tries to make money overall while also creating losses that can help clients with taxes.</p>
-          <p>So a pile of losses can oddly be part of the product.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>An investment loss can sometimes reduce a tax bill.</div>
-        </div>
-        <div data-age-copy="elementary">
+        <div>
           <h2>The Hedge Fund That Wants to Lose $580 Million</h2>
           <p>AQR Capital Management, led by Cliff Asness, has become huge partly because wealthy investors really like tax losses.</p>
           <p>Tax-loss harvesting means selling an investment that fell, recording the loss, and replacing it with something similar so the portfolio still behaves roughly the way you want.</p>
           <p>AQR pushes this further with tax-aware long-short investing: own more stocks, short other stocks, and use quantitative models to create many more chances to realize losses without giving up the market exposure the client wanted.</p>
           <p>Bloomberg reported an AQR example where $100 million could potentially triple over ten years while generating more than $580 million of tax losses. Normally a hedge fund promising almost six times your investment in losses would sound terrible. Here it is the brochure.</p>
-        </div>
-        <div data-age-copy="middle">
-          <h2>AQR’s Tax-Loss Machine</h2>
-          <p>Tax-aware long-short portfolios use leverage, shorts and stock substitution to increase realizable losses while preserving factor exposure.</p>
-          <p>Tax rules make simple sell-and-rebuy tricks difficult, so managers use different but economically similar securities.</p>
-          <p>The comic inversion is that an industrial-scale loss factory can be a premium financial product.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Quantitative substitution lets investors harvest losses while preserving exposure.</div>
-        </div>
-        <div data-age-copy="high">
-          <h2>Tax Alpha as the New Efficient-Market Alpha</h2>
-          <p>Tax-aware long-short applies quantitative finance to after-tax returns, increasing gross exposure and opportunities to realize losses.</p>
-          <p>Factor models help managers find economically similar but legally distinct replacement positions.</p>
-          <p>Levine’s twist is that traditional alpha may get scarcer while tax alpha grows as more intelligence is aimed at the tax system.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Financial engineering can improve after-tax returns by increasing usable losses.</div>
         </div>
       </div>
     </article>
@@ -104,33 +56,12 @@
       <div class="copy">
         <div class="num">STORY 3</div>
         <div class="original">IN MATT'S ARTICLE: <b>Commodity market manipulation</b></div>
-        <div data-age-copy="preschool">
-          <h2>The Bet About Whether You Will Show Up</h2>
-          <p>There was a market about whether George Santos would attend the State of the Union.</p>
-          <p>George Santos could decide whether George Santos went.</p>
-          <p>He also traded the market and posted things that affected its price.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>A bet is strange when one player controls the answer.</div>
-        </div>
-        <div data-age-copy="elementary">
+        <div>
           <h2>George Santos Bet on George Santos</h2>
           <p>Kalshi had a prediction market asking whether former congressman George Santos would attend the State of the Union. One unusually informed trader was George Santos.</p>
           <p>According to a CFTC settlement, Santos traded the contract and posted about his plans. He first held Yes, later built a No position, and on the event day said he would miss it. The CFTC said the No trade earned him about $14,390.</p>
           <p>Levine’s useful distinction is that knowing your own plans is not automatically insider trading. But using public statements to move a market while also influencing the event can look like manipulation.</p>
           <p>There are complicated prediction-market cases. Then there is betting on whether you will show up, talking about showing up, betting the other way, and not showing up.</p>
-        </div>
-        <div data-age-copy="middle">
-          <h2>A Prediction Market You Can Personally Influence</h2>
-          <p>Santos had direct information about and control over the event: his own attendance.</p>
-          <p>The CFTC focused on alleged public statements and trading around price moves.</p>
-          <p>The stronger theory is manipulation rather than ordinary insider trading because the trader could influence both price and outcome.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Information advantage and manipulation are different legal ideas.</div>
-        </div>
-        <div data-age-copy="high">
-          <h2>Santos, Kalshi and Event-Contract Manipulation</h2>
-          <p>Knowledge of your own future conduct does not automatically create the confidentiality duty associated with classical insider trading.</p>
-          <p>The CFTC instead framed the conduct as manipulation involving public statements and trading.</p>
-          <p>The episode shows prediction-market reflexivity: a participant can both forecast and help determine the event that settles the contract.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Event contracts can become reflexive when traders help determine the outcome.</div>
         </div>
       </div>
     </article>
@@ -141,33 +72,12 @@
       <div class="copy">
         <div class="num">STORY 4</div>
         <div class="original">IN MATT'S ARTICLE: <b>FBI crypto theft</b></div>
-        <div data-age-copy="preschool">
-          <h2>The FBI Agent and the Crypto Wallet</h2>
-          <p>An FBI agent was working on investigations involving cryptocurrency.</p>
-          <p>Authorities later accused him of serious misconduct involving about $1 million in crypto.</p>
-          <p>The story is a reminder that digital money needs careful custody rules too.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>People trusted with valuable property need strong rules.</div>
-        </div>
-        <div data-age-copy="elementary">
+        <div>
           <h2>The Crypto Evidence Wallet Problem</h2>
           <p>FBI agent Patrick Steven Yaroch worked on investigations involving cryptocurrency held by foreign targets, including crypto tied to investigations of North Korean hackers.</p>
           <p>According to an FBI affidavit described by Levine, authorities later accused Yaroch of misusing access to about $1 million in crypto and said he acknowledged making very poor decisions involving cryptocurrency wallets.</p>
           <p>Crypto has an unusually direct custody problem: controlling the right private key can mean controlling the asset. Institutions therefore need strict separation of duties, logs and approval controls.</p>
           <p>Authorities also said Yaroch had asked ChatGPT how to invest $1 million with a goal of retiring around 40 and someday living a slower agricultural life. Levine had already joked that the story sounded like a thriller plot. Then the retirement-search detail made it even more on-the-nose.</p>
-        </div>
-        <div data-age-copy="middle">
-          <h2>The Evidence Wallet Problem</h2>
-          <p>Authorities alleged serious misconduct by FBI agent Patrick Steven Yaroch involving roughly $1 million of cryptocurrency from investigative targets.</p>
-          <p>With bearer-like digital assets, access to a private key can be economically equivalent to possession, making multi-party approval, hardware segregation, audit logs and reconciliation especially important.</p>
-          <p>The reported ChatGPT query about investing $1 million for early retirement becomes Levine’s final thriller-plot punch line.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Private-key control can turn investigative access into direct asset access.</div>
-        </div>
-        <div data-age-copy="high">
-          <h2>Crypto Custody Turns Investigator Access Into a Control Risk</h2>
-          <p>Wallet credentials can confer direct transferable control over assets, not merely access to records about them.</p>
-          <p>That compresses traditional control layers and makes key segregation, multi-signature authorization, immutable logging and independent reconciliation critical.</p>
-          <p>Levine’s framing is organizational: the investigator’s access itself becomes a treasury-control risk.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Crypto custody collapses the distance between evidence access and transferable value.</div>
         </div>
       </div>
     </article>
@@ -178,48 +88,22 @@
       <div class="copy">
         <div class="num">STORY 5</div>
         <div class="original">IN MATT'S ARTICLE: <b>Dentists!</b></div>
-        <div data-age-copy="preschool">
-          <h2>The Dentist With the Extra-Spicy ETF</h2>
-          <p>Leveraged ETFs make daily stock moves extra big.</p>
-          <p>They were mostly designed for short-term trading, but some people hold them for years.</p>
-          <p>A former dentist named Song Wonjun says they helped him retire at 44, and now he teaches other people about them.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>A short-term tool can behave differently when held for years.</div>
-        </div>
-        <div data-age-copy="elementary">
+        <div>
           <h2>Your Dentist Has a Leveraged-ETF Strategy</h2>
           <p>A 2x leveraged ETF tries to deliver about twice a stock’s return each day, then resets and does it again tomorrow. That means 2x every day is not the same as twice the stock’s return over ten years.</p>
           <p>Big back-and-forth moves can hurt, while a strong persistent trend can make the leverage look wonderful. Bloomberg reported that more investors in the United States and South Korea are nevertheless using leveraged ETFs for long-term investing.</p>
           <p>One is Song Wonjun, a former South Korean dentist who says leveraged ETFs helped him retire at 44. He now teaches the strategy online.</p>
           <p>Levine’s reaction is not exactly an endorsement: if your financial adviser is promoting long-term leveraged ETFs online, that seems questionable. If your dentist is doing it? Somehow that seems exactly right.</p>
         </div>
-        <div data-age-copy="middle">
-          <h2>Leveraged ETFs Become Long-Term Investments</h2>
-          <p>Daily-reset leveraged ETFs rebalance to maintain a target multiple of daily returns, so long-run results can diverge sharply from a simple multiple of the underlying return.</p>
-          <p>Bloomberg reported growing long-term use of these products despite their short-horizon design.</p>
-          <p>Former dentist Song Wonjun says the strategy helped him retire at 44; Levine turns the unlikely adviser into the punch line.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Daily compounding makes long-run leveraged-ETF returns path-dependent.</div>
-        </div>
-        <div data-age-copy="high">
-          <h2>Path Dependence Meets the Leveraged-ETF Buy-and-Hold Crowd</h2>
-          <p>A leveraged ETF targets a multiple of daily, not terminal, returns. Choppy volatility can erode value while sustained trends can produce unexpectedly strong compounded results.</p>
-          <p>That makes buy-and-hold use different from the short-term trading use for which the products were designed.</p>
-          <p>Song Wonjun, a former dentist who says leveraged ETFs helped him retire at 44, becomes Levine’s perfect unlikely evangelist for the strategy.</p>
-          <div class="lesson"><b>THE MONEY IDEA</b><br>Long-term use of daily-reset leverage makes volatility drag, trend effects and rebalancing central.</div>
-        </div>
       </div>
     </article>
     <section class="newsletter" id="newsletter">
       <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
       <h2>Get the next edition.</h2>
-      <p>Choose an age and we'll email that version when a new Money Stuff for Kids edition is published.</p>
-      <form id="signupForm" class="signup">
+      <p>We'll email you when a new Money Stuff for Kids edition is published.</p>
+      <form id="signupForm" class="signup signup-single">
         <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
-        <select required id="agePreference" name="agePreference">
-          <option value="preschool">Preschool</option>
-          <option value="elementary">Elementary School</option>
-          <option value="middle">Middle School</option>
-          <option value="high">High School</option>
-        </select>
+        <input type="hidden" name="agePreference" value="elementary">
         <input type="hidden" name="action" value="subscribe">
         <input type="hidden" name="_subject" value="Money Stuff for Kids signup">
         <input type="hidden" name="_template" value="table">

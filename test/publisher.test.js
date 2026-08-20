@@ -7,6 +7,8 @@ const { loadInputs, publish, validate } = require('../scripts/publish');
 
 const config = {
   name: 'Money Stuff for Kids',
+  publicAgeMode: 'single',
+  singlePublicAge: 'elementary',
   defaultAge: 'elementary',
   ages: [
     { id: 'preschool', label: 'Preschool' },
@@ -141,9 +143,36 @@ test('publishing twice is deterministic and renders images without Elementary le
   publish({ root });
   assert.equal(fs.readFileSync(target, 'utf8'), first);
   assert.match(first, /<img src="\/images\/test\/alpha\.svg" alt="A specific illustration for Alpha">/);
-  const elementary = first.match(/<div data-age-copy="elementary">([\s\S]*?)<div data-age-copy="middle">/)[1];
-  assert.doesNotMatch(elementary, /class="lesson"/);
+  assert.doesNotMatch(first, /class="lesson"/);
   assert(first.split('\n').length > 50, 'generated HTML should be human-readable');
+});
+
+test('single public mode renders only elementary copy and no age-band UI', () => {
+  const root = fixture();
+  publish({ root });
+  const home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const page = fs.readFileSync(path.join(root, 'editions/2026-08-20-test/index.html'), 'utf8');
+  assert.match(page, /Elementary School title/);
+  assert.doesNotMatch(page, /Preschool title|Middle School title|High School title/);
+  assert.doesNotMatch(`${home}${page}`, /READING AGE|Elementary School edition|Choose a reading level/);
+  assert.doesNotMatch(`${home}${page}`, /class="age-pill"|data-age-copy/);
+  assert.match(home, /name="agePreference" value="elementary"/);
+});
+
+test('multi-age mode retains the selector and every adaptation', () => {
+  const root = fixture();
+  const multiAgeConfig = { ...config, publicAgeMode: 'multi' };
+  fs.writeFileSync(path.join(root, 'data/site-config.json'), JSON.stringify(multiAgeConfig));
+  publish({ root });
+  const home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const page = fs.readFileSync(path.join(root, 'editions/2026-08-20-test/index.html'), 'utf8');
+  assert.match(home, /READING AGE/);
+  for (const age of config.ages) {
+    assert.match(home, new RegExp(`data-age="${age.id}"`));
+    assert.match(page, new RegExp(`data-age-copy="${age.id}"`));
+    assert.match(page, new RegExp(`${age.label} title`));
+  }
+  assert.match(page, /Elementary School<\/b> edition/);
 });
 
 test('legacy illustration assets retain every previously visible emoji', () => {

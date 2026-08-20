@@ -7,22 +7,16 @@
   <link rel="stylesheet" href="/styles.css">
   <script defer src="/app.js"></script>
 </head>
-<body>
+<body data-public-age-mode="single">
   <header>
     <a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
-    <div class="agebar">
-      <span class="age-label">READING AGE</span>
-        <button class="age-pill" data-age="preschool">Preschool</button>
-        <button class="age-pill" data-age="elementary">Elementary School</button>
-        <button class="age-pill" data-age="middle">Middle School</button>
-        <button class="age-pill" data-age="high">High School</button>
-    </div>
+
   </header>
   <main>
     <section>
       <div class="eyebrow">THE WORLD OF MONEY, MADE SIMPLE</div>
       <h1>Money Stuff.<br><em>But for kids.</em></h1>
-      <p class="intro">Matt Levine's Money Stuff, retold for curious kids. Choose a reading level and dive in.</p>
+      <p class="intro">Matt Levine's Money Stuff, retold for curious kids. Pick an edition and dive in.</p>
     </section>
     <h2 class="section-title">All editions</h2>
     <div class="edition-grid">
@@ -66,15 +60,10 @@
     <section class="newsletter" id="newsletter">
       <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
       <h2>Get the next edition.</h2>
-      <p>Choose an age and we'll email that version when a new Money Stuff for Kids edition is published.</p>
-      <form id="signupForm" class="signup">
+      <p>We'll email you when a new Money Stuff for Kids edition is published.</p>
+      <form id="signupForm" class="signup signup-single">
         <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
-        <select required id="agePreference" name="agePreference">
-          <option value="preschool">Preschool</option>
-          <option value="elementary">Elementary School</option>
-          <option value="middle">Middle School</option>
-          <option value="high">High School</option>
-        </select>
+        <input type="hidden" name="agePreference" value="elementary">
         <input type="hidden" name="action" value="subscribe">
         <input type="hidden" name="_subject" value="Money Stuff for Kids signup">
         <input type="hidden" name="_template" value="table">

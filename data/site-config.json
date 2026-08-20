@@ -1,5 +1,7 @@
 {
   "name": "Money Stuff for Kids",
+  "publicAgeMode": "single",
+  "singlePublicAge": "elementary",
   "defaultAge": "elementary",
   "ages": [
     { "id": "preschool", "label": "Preschool" },
