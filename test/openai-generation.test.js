@@ -4,7 +4,8 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt,
-  assertNoReusableBoilerplate, entityAppearsInSource, generateStory, parse, storyInstructions
+  assertNoReusableBoilerplate, assertStorySetEditorialOutput, entityAppearsInSource, generateStory,
+  isPictureBookStyle, parse, storyInstructions
 } = require('../scripts/lib/openai-generation');
 const { isPlaceholderIllustrationAlt } = require('../scripts/lib/illustration-alt');
 const { storyGeneration } = require('../scripts/lib/edition-schema');
@@ -91,6 +92,22 @@ test('edition validation flags repeated multi-word boilerplate without scoring r
   const distinct = validRhymingStory();
   distinct.adaptations.elementary.paragraphs[0] = Array.from({ length: 245 }, (_, index) => `unique${index}`).join(' ');
   assert.doesNotThrow(() => assertNoReusableBoilerplate([first, distinct]));
+});
+
+test('both picture-book style names get cross-story validation while legacy remains unaffected', () => {
+  const repeated = [validRhymingStory(), validRhymingStory()];
+  assert.equal(isPictureBookStyle('picture-book-narrative'), true);
+  assert.equal(isPictureBookStyle('rhyming-picture-book'), true);
+  assert.equal(isPictureBookStyle('legacy'), false);
+  assert.throws(
+    () => assertStorySetEditorialOutput(repeated, 'picture-book-narrative'),
+    /repeat suspicious boilerplate/
+  );
+  assert.throws(
+    () => assertStorySetEditorialOutput(repeated, 'rhyming-picture-book'),
+    /repeat suspicious boilerplate/
+  );
+  assert.doesNotThrow(() => assertStorySetEditorialOutput(repeated, 'legacy'));
 });
 
 test('generation defaults to a picture-book narrative while retaining compatibility and a legacy escape hatch', async () => {
