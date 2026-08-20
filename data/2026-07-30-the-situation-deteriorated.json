@@ -54,15 +54,15 @@
           ]
         },
         "elementary": {
-          "title": "The Fund That Went All-In on AI (and Then Had to Sell)",
-          "lesson": "If you borrow to make a decades-long bet but your loans can be called back quickly, a short run of bad luck can force big, fast selling.",
+          "title": "Leopold and the Big AI Bet",
+          "lesson": "The fund borrowed heavily to amplify gains on AI stocks and then had to sell most of its holdings to Citadel after margin calls when prices fell.",
           "paragraphs": [
-            "Two years ago it looked obvious: AI was going to be huge. Nvidia, SK Hynix and AI companies shot up, and a lot of investors wanted to own the winners.",
-            "A former OpenAI researcher named Leopold Aschenbrenner launched a fund called Situational Awareness and built a huge bet on AI companies — he even owned a big piece of Anthropic.",
-            "The fund’s returns were eye-popping for a while. But Leopold and his team didn’t just use their own money; they borrowed a lot more to buy even bigger positions. Investors and banks sometimes call that levering up.",
-            "That’s where the funny-but-dangerous idea comes in: they talked about putting, like, 300% of their money into the AI boom — more than everything they actually had. It sounds wild, and it is.",
-            "When AI stocks slid, banks demanded more cash (margin calls). Suddenly the fund had to sell many of its holdings quickly, and the big trading firm Citadel bought most of the long AI positions.",
-            "The simple lesson woven through this story is: making a long-term bet is different from using short-term loans to fund it. If your funding can be pulled back overnight, you can be forced to sell even if you still believe the idea."
+            "Leopold Aschenbrenner loved thinking about how much computers would need to grow for artificial intelligence to get very big. He started a fund called Situational Awareness and picked companies that supply chips, memory, and power for large AI systems.",
+            "At first the fund did spectacularly well. Investors poured in money, and the firm’s assets swelled. One big bet was Anthropic — roughly one-fifth of the fund’s assets were tied to it. The fund’s value rose sharply: it reported gains of hundreds of percent since it began, and at one point the business grew to tens of billions of dollars.",
+            "To make those wins bigger, the fund borrowed money from banks so it could buy yet more shares. That borrowing — called leverage — makes gains larger but also makes losses bigger and brings fast repayment rules.",
+            "When AI stocks fell and lenders asked for more collateral, the fund scrambled. Several of its prime brokers, including Bank of America, Goldman Sachs and JPMorgan Chase, were involved in discussions to make sure the sales happened in an orderly way.",
+            "In the end, the fund sold the bulk of its stock portfolio to Ken Griffin’s Citadel. The big idea about AI stayed the same, but the fund’s mix of long-term bets and short-term borrowing didn’t match up.",
+            "What happened? Leopold Aschenbrenner’s hedge fund bought large stakes in AI companies and used heavy borrowing (leverage) to amplify returns, growing to roughly $45 billion with about one-fifth of its assets in Anthropic. When AI stocks fell and lenders demanded collateral or repayment, the fund had to sell most of its stock portfolio to Ken Griffin’s Citadel and work with banks including Bank of America, Goldman Sachs and JPMorgan Chase to meet margin calls."
           ]
         },
         "middle": {
@@ -126,12 +126,16 @@
           ]
         },
         "elementary": {
-          "title": "How one big online bet made a small campaign look like a giant",
-          "lesson": "When people use betting sites called prediction markets, the prices look like how likely someone is to win. One person’s huge bet pushed Matt Mahan’s odds way up on Polymarket, newspapers noticed, friends asked people to ‘push up the Polymarket bids,’ and for a little while it looked like he was winning — until other traders corrected the prices and the excitement faded.",
+          "title": "How a Big Bet Made a Little Story Loud",
+          "lesson": "A large anonymous bet on a thin prediction-market contract temporarily pushed Polymarket’s price for Matt Mahan to $0.96; media coverage followed, but the odds soon fell back toward traditional polls.",
           "paragraphs": [
-            "Matt Mahan, the mayor of San Jose, had just entered the California governor’s race. On the morning he announced, an anonymous user on Polymarket called Fine-Tributary spent $44,000 buying “yes” contracts that would pay if Mahan won.",
-            "Because so few people had bet on that market yet, the single large purchase pushed the market price way up — as if the site were saying Mahan had almost certain odds of winning. A newspaper story followed and people in Mahan’s circle asked others to help ‘push up the Polymarket bids.’",
-            "But prediction markets are watched by other traders. Soon people bought the opposite side, the odds came down, and the market moved back toward what polls were saying. The campaign’s big spike turned out to be temporary."
+            "Matt Mahan was the mayor of San Jose when he told people he wanted to run for governor of California.",
+            "There is a site called Polymarket where people can buy contracts that pay $1 if a certain candidate wins. The price of a contract shows how likely the market thinks that candidate is to win.",
+            "One morning an anonymous user named Fine‑Tributary spent $44,000 buying “yes” contracts for Mahan. That single big purchase pushed the contract price from the low teens up to $0.96 — which looked, for a little while, like a 96% chance he would win.",
+            "Because the Polymarket number jumped so high, newspapers noticed. The New York Post and the California Post ran a story saying Mahan had a huge surge in support.",
+            "People near Mahan also noticed. His college roommate, tech entrepreneur Adam Kalamchi, asked friends on LinkedIn to “donate, post, push up the Polymarket bids.” The market move made a small event feel like big news, and big news can help a campaign get attention and money.",
+            "But real voters were not showing that same big change. The next day Polymarket’s price fell back to 36%, and traditional polls were still around 4%. Over the following weeks Mahan’s betting numbers and campaign momentum fell back in line with the polls.",
+            "What happened? A user named Fine‑Tributary spent $44,000 buying “yes” contracts for Matt Mahan on Polymarket, pushing the price from the low teens to $0.96 (a 96% implied probability) and briefly producing headlines; the wallet had only one prior small trade five years earlier. The odds quickly fell—Polymarket showed 36% the next day and later matched traditional polls near 4%—showing how a big bet in a thin market can move market-implied probabilities and influence media and donor perception."
           ]
         },
         "middle": {
@@ -185,13 +189,15 @@
           ]
         },
         "elementary": {
-          "title": "Why a Company Can Say No to the Highest Bidder",
-          "lesson": "Boards usually try to get the biggest cash offer for shareholders, but a public benefit corporation can legally balance money and public purpose and therefore may decline the highest bidder.",
+          "title": "The Company That Could Say No",
+          "lesson": "When a board sells a company, normal law makes it try to get the highest cash price for shareholders. A public benefit corporation’s board can instead balance money and public purposes, and a Delaware court has confirmed that balance can mean they are not forced to pick the highest bidder.",
           "paragraphs": [
-            "When a company is up for sale, the directors usually have a duty — called the Revlon duty — to get the best cash price for shareholders. If one buyer offers $50 a share and another offers $60, the $60 offer normally wins.",
-            "That rule can feel odd. When Twitter’s board agreed to sell to Elon Musk for $54.20 a share, Twitter’s chief executive said he worried the sale wasn’t great for the product, employees, users, or advertisers — but he believed the price was best for shareholders.",
-            "There is a different kind of company called a public benefit corporation (PBC). A PBC’s directors are allowed to balance money for shareholders with the company’s public purpose and the interests of people affected by the company.",
-            "People wondered: if a PBC puts itself up for sale, does it still have to take the highest cash offer? The Delaware Court of Chancery said no — a PBC does not have to sell to the highest bidder because the law requires directors to balance shareholder money against the company’s public purpose."
+            "A board of directors has a hard job. If they decide to sell the company for cash, the usual rule — called the Revlon duty — says they should try to get the highest price for the shareholders.",
+            "Imagine two bidders. One will pay $50 a share and another will pay $60. Under the usual rule, the $60 bidder should win. That idea pushes boards to sell when they cannot see making more money by keeping the company.",
+            "Twitter’s leaders faced a different kind of pressure when Elon Musk offered $54.20 a share. Twitter’s chief executive said the sale raised worries about the product, employees and users, but at $54.20 the board thought it was the best result for shareholders.",
+            "There is another kind of company called a public benefit corporation, or PBC. A PBC’s certificate of incorporation tells its directors to balance money for shareholders with other goals — for example, protecting users or serving a public purpose.",
+            "People wondered: if a PBC board puts the company up for sale, must it still pick the highest bidder? The Delaware Court of Chancery answered that question for the first time: no. The court said requiring a PBC’s directors to focus only on maximizing the sale price would conflict with the statute that makes them balance shareholder interests and the company’s public benefit.",
+            "What happened? The Delaware Court of Chancery ruled that the Revlon duty — the usual obligation to maximize sale price for shareholders in a cash sale — does not force the board of a public benefit corporation to sell to the highest bidder. Twitter sold to Elon Musk for $54.20 a share under ordinary Revlon pressure, but a PBC’s directors can legally weigh public benefits and other stakeholders instead of choosing the top cash offer."
           ]
         },
         "middle": {
@@ -250,15 +256,15 @@
           ]
         },
         "elementary": {
-          "title": "How broken crypto companies sometimes pay customers by repurposing mining computers",
-          "lesson": "When a crypto company fails, the things it owns — like bitcoin mining machines and big data centers — can sometimes be sold or reused so customers get paid back.",
+          "title": "How Old Mining Machines Helped Pay People Back",
+          "lesson": "A court-approved reorganization turned Celsius’s mining assets into a new company, Ionic Digital, which issued 37 million Class A shares to eligible Celsius claim-holders and contracted 234 MW of Ward County capacity to Nscale under a 126-month, $1.95 billion lease; Ionic then listed on Nasdaq, rising 26% to a $2.8 billion valuation.",
           "paragraphs": [
-            "A few years ago, some crypto companies like Mt. Gox and FTX went bankrupt. In those cases, crypto prices later rose and the leftover coins were worth enough in dollars to pay back customers.",
-            "Celsius Network also went bankrupt. It had borrowed from customers and used the money in risky ways — people joked it 'yeeted their money directly into the sun.' That was part of why it failed.",
-            "In January 2024 a new company called Ionic Digital was created out of Celsius’s bankruptcy to take over Celsius’s bitcoin-mining assets. Ionic gave 37 million Class A shares to people who had claims against Celsius.",
-            "Ionic stopped mining at a big site in Ward County, Texas, and agreed to lease its 234 megawatts of capacity to another firm under a 126-month (about 10.5-year) deal that will bring $1.95 billion in contracted revenue.",
-            "When Ionic’s stock started trading on Nasdaq, it jumped about 26% and the company was valued at about $2.8 billion. That value and the income from leases are ways to make customers whole after the bankruptcy.",
-            "So instead of a crypto price rally saving creditors, the mining gear and long leases — now useful for AI computing — became the thing that could pay people back."
+            "Celsius Network was a crypto lender that borrowed from customers and also built big rows of machines to mine bitcoin. When Celsius went bankrupt, many people who had put money into the company were left waiting for a way to get paid back.",
+            "In January 2024 a new company, Ionic Digital, was created through the court-approved reorganization to take custody of Celsius’s mining assets. Those mining machines were big electrical farms, and they could still do useful work — not just mining bitcoin, but running the kinds of calculations that power AI.",
+            "Instead of handing customers a bag of bitcoin, the bankruptcy plan gave some claim-holders equity: Ionic issued 37 million shares of Class A common stock to eligible holders of certain claims against Celsius. That meant people got ownership in the new company that now controlled the machines.",
+            "Ionic decommissioned bitcoin mining at its Ward County, Texas site and committed 234 MW of capacity to Nscale under a 126-month lease carrying $1.95 billion in contracted revenue. The lease converted the dusty mining rigs into a steady business contract that could generate cash.",
+            "When Ionic began trading on Nasdaq, the stock jumped 26% on its debut and the company was valued at about $2.8 billion. In other words, the mining assets — repurposed for AI work and backed by a long lease — became the vehicle that produced value to satisfy Celsius claim-holders.",
+            "What happened? When Celsius went bankrupt, a court-approved reorganization created Ionic Digital to acquire Celsius’s mining assets and give eligible claim-holders equity (37 million Class A shares). Ionic then leased 234 MW of Ward County capacity to Nscale under a 126-month, $1.95 billion contract and listed on Nasdaq, where its stock rose 26% to a $2.8 billion valuation."
           ]
         },
         "middle": {
@@ -323,13 +329,14 @@
           ]
         },
         "elementary": {
-          "title": "They Pitched a Crypto Revolution — and a Direct Line to Trump",
-          "lesson": "Watch what a project promises and who it is really paying: World Liberty said it would build fancy crypto products, but it also promised that 75% of net revenue would flow to a company tied to Donald Trump. That made it look less like building something and more like sending money to one person.",
+          "title": "A Big Promise and the Money That Went Somewhere Else",
+          "lesson": "World Liberty Financial pitched a decentralized- finance project while disclosing that 75% of net revenues would go to DT Marks DEFI LLC (Trump owns 70%). Investors, including Justin Sun and a treasury vehicle formed from ALT5 Sigma Corp., put in large sums; ALT5 raised about $750 million to buy tokens at $0.20 each, which later fell to roughly $0.06, and the promised products largely never materialized.",
           "paragraphs": [
-            "World Liberty Financial told people two big things: it would build a new, decentralized kind of finance, and most of the money raised would go to a company owned by Donald Trump. That second part was loud and embarrassing — it was basically a way to give money directly to Trump.",
-            "Justin Sun, the crypto billionaire who helped build the Tron network, invested because he said he believed in the 'decentralized' part and because he wanted to help the project. He later said he felt tricked: the crypto products World Liberty promised never showed up and his money got stuck.",
-            "A tiny company called ALT5 Sigma suddenly raised about $750 million from big investors to buy World Liberty’s tokens. ALT5’s stock jumped from roughly $100 million to $1 billion in value, and Donald Trump Jr. and Eric Trump even rang the stock-exchange opening bell. But the tokens that had been bought at about 20 cents each slid to about 6 cents, and ALT5 (now AI Financial) crashed toward a much lower value.",
-            "Some people shrugged and said the whole thing was obvious: it looked like 'scammers scamming scammers' — everyone pointing fingers, like that Spider-Man meme where two Spider-Mans point at each other."
+            "World Liberty Financial arrived with a bright idea and a strange label. It said it would build decentralised finance — new tools for money powered by crypto. But it also said something else out loud: most of the money the project made would go straight to a company called DT Marks DEFI LLC. That company is mostly owned by Donald Trump (he owns 70%).",
+            "People listened. Some invested because they liked the technology idea. Some invested because the project said it would send money to the Trumps. Justin Sun, a crypto entrepreneur, put millions into World Liberty and later said he regretted it because the products he expected never appeared and his name was attached to the project.",
+            "A small blockchain firm called ALT5 Sigma Corp. changed course to buy World Liberty tokens. To do that, ALT5 raised about $750 million from big investors, then used the money to buy tokens at about $0.20 each. News of the deal sent ALT5’s market value from roughly $100 million to about $1 billion, and Donald Trump Jr. and Eric Trump even helped mark the moment by ringing the Nasdaq opening bell.",
+            "But the buzz faded. The tokens slid to roughly $0.06 each. ALT5 changed its name to AI Financial Corp., cycled through leadership and auditors, and fell to under $60 million in value. Many of the decentralised products World Liberty had promised never showed up.",
+            "What happened? World Liberty raised money promising decentralized crypto products while contractually sending 75% of net revenues to DT Marks DEFI LLC (Trump owns 70%). A treasury vehicle (ALT5 Sigma) raised about $750 million to buy tokens at about $0.20 each; the tokens later fell to roughly $0.06 and the promised products largely never materialized."
           ]
         },
         "middle": {
