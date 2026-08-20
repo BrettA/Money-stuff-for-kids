@@ -1,1 +1,385 @@
-{"schemaVersion":2,"id":"2026-08-04-leveraged-etf-crash-hedging-etf","date":"2026-08-04","displayDate":"August 4, 2026","title":"Leveraged ETF Crash Hedging ETF","sourceSections":["Leveraged ETF crash put cliquet ETF","Tax-aware long-short","Commodity market manipulation","FBI crypto theft","Dentists!","Things happen"],"stories":[{"id":"crash-puts","sourceSection":"Leveraged ETF crash put cliquet ETF","adaptations":{"preschool":{"title":"The Bank’s Crash Umbrella","lesson":"Borrowing can make good and bad moves bigger.","paragraphs":["Some funds borrow money so a stock’s daily move feels twice as big.","Usually they rebalance every day, but a huge one-day crash can leave the bank short.","So the bank buys a special crash umbrella called a crash put."]},"elementary":{"title":"The ETF That Needs Insurance for a Very Bad Day","lesson":"Leveraged ETFs can leave banks exposed to rare one-day crashes.","paragraphs":["A 2x leveraged ETF tries to move about twice as much as a stock each day. A simple version is investors put in $100, the fund borrows $100, and it gets $200 of stock exposure.","Normally the ETF rebalances every day. But if the stock falls more than about 50% in one session, the investors’ money can disappear before the bank is fully repaid. Matt Levine points to a leveraged ETF on Lucid that was wiped out during a 57% intraday fall.","Banks therefore buy crash puts, including daily-reset options called cliquets.","Then finance gets recursive: the insurance can be packaged in a structured note, and sellers may add leverage to make the small insurance premium more interesting. Leverage creates the risk, and leverage can show up again in the hedge."]},"middle":{"title":"Crash Puts for Leveraged ETFs","lesson":"Extreme gap risk survives ordinary daily rebalancing.","paragraphs":["Leveraged ETFs rebalance daily, which usually protects lenders as collateral shrinks.","A sufficiently large one-day gap can still wipe out fund equity before the lender is repaid.","Banks hedge that tail with crash puts or cliquets; pre-funded structures reduce counterparty risk but can introduce more leverage."]},"high":{"title":"Cliquets, Gap Risk and Leveraged ETF Tail Insurance","lesson":"Daily-reset leverage creates discontinuous gap risk.","paragraphs":["A daily-reset leveraged ETF deleverages after losses, but it can become insolvent before rebalancing if the underlying falls far enough in one session.","Deep-out-of-the-money daily-reset puts transfer part of that tail risk.","Pre-funded structured notes reduce counterparty exposure, while leverage on the note can leave the deepest tail with the bank."]}},"illustration":{"src":"/images/2026-08-04-leveraged-etf-crash-hedging-etf/crash-puts.svg","alt":"A 2x ETF cart racing toward a crash while a bank holds a crash-put umbrella"},"elementaryChecklist":{"realPeople":["Yiqin Shen","Natasha Sibley","Matt Levine"],"realCompanies":["SK Hynix","Lucid Group","Janus Henderson"],"financialMechanism":"Daily rebalancing leaves rare gap risk that banks hedge with crash puts or cliquets.","centralJoke":"Leverage creates the risk, and leverage can reappear in the insurance trade."}},{"id":"tax-alpha","sourceSection":"Tax-aware long-short","adaptations":{"preschool":{"title":"A Hedge Fund Brags About Losses","lesson":"An investment loss can sometimes reduce a tax bill.","paragraphs":["Usually an investment company does not brag about losses.","AQR tries to make money overall while also creating losses that can help clients with taxes.","So a pile of losses can oddly be part of the product."]},"elementary":{"title":"The Hedge Fund That Wants to Lose $580 Million","lesson":"Tax-aware strategies can create useful losses while keeping similar market exposure.","paragraphs":["AQR Capital Management, led by Cliff Asness, has become huge partly because wealthy investors really like tax losses.","Tax-loss harvesting means selling an investment that fell, recording the loss, and replacing it with something similar so the portfolio still behaves roughly the way you want.","AQR pushes this further with tax-aware long-short investing: own more stocks, short other stocks, and use quantitative models to create many more chances to realize losses without giving up the market exposure the client wanted.","Bloomberg reported an AQR example where $100 million could potentially triple over ten years while generating more than $580 million of tax losses. Normally a hedge fund promising almost six times your investment in losses would sound terrible. Here it is the brochure."]},"middle":{"title":"AQR’s Tax-Loss Machine","lesson":"Quantitative substitution lets investors harvest losses while preserving exposure.","paragraphs":["Tax-aware long-short portfolios use leverage, shorts and stock substitution to increase realizable losses while preserving factor exposure.","Tax rules make simple sell-and-rebuy tricks difficult, so managers use different but economically similar securities.","The comic inversion is that an industrial-scale loss factory can be a premium financial product."]},"high":{"title":"Tax Alpha as the New Efficient-Market Alpha","lesson":"Financial engineering can improve after-tax returns by increasing usable losses.","paragraphs":["Tax-aware long-short applies quantitative finance to after-tax returns, increasing gross exposure and opportunities to realize losses.","Factor models help managers find economically similar but legally distinct replacement positions.","Levine’s twist is that traditional alpha may get scarcer while tax alpha grows as more intelligence is aimed at the tax system."]}},"illustration":{"src":"/images/2026-08-04-leveraged-etf-crash-hedging-etf/tax-alpha.svg","alt":"An AQR loss factory producing a jar labeled $580M tax losses while the client still gets richer"},"elementaryChecklist":{"realPeople":["Cliff Asness","Matt Levine"],"realCompanies":["AQR Capital Management"],"financialMechanism":"Leverage, shorts, loss harvesting and substitution create useful tax losses while preserving exposure.","centralJoke":"A hedge fund can advertise an enormous amount of losses as a feature."}},{"id":"santos","sourceSection":"Commodity market manipulation","adaptations":{"preschool":{"title":"The Bet About Whether You Will Show Up","lesson":"A bet is strange when one player controls the answer.","paragraphs":["There was a market about whether George Santos would attend the State of the Union.","George Santos could decide whether George Santos went.","He also traded the market and posted things that affected its price."]},"elementary":{"title":"George Santos Bet on George Santos","lesson":"Prediction markets get especially strange when a trader can influence the event.","paragraphs":["Kalshi had a prediction market asking whether former congressman George Santos would attend the State of the Union. One unusually informed trader was George Santos.","According to a CFTC settlement, Santos traded the contract and posted about his plans. He first held Yes, later built a No position, and on the event day said he would miss it. The CFTC said the No trade earned him about $14,390.","Levine’s useful distinction is that knowing your own plans is not automatically insider trading. But using public statements to move a market while also influencing the event can look like manipulation.","There are complicated prediction-market cases. Then there is betting on whether you will show up, talking about showing up, betting the other way, and not showing up."]},"middle":{"title":"A Prediction Market You Can Personally Influence","lesson":"Information advantage and manipulation are different legal ideas.","paragraphs":["Santos had direct information about and control over the event: his own attendance.","The CFTC focused on alleged public statements and trading around price moves.","The stronger theory is manipulation rather than ordinary insider trading because the trader could influence both price and outcome."]},"high":{"title":"Santos, Kalshi and Event-Contract Manipulation","lesson":"Event contracts can become reflexive when traders help determine the outcome.","paragraphs":["Knowledge of your own future conduct does not automatically create the confidentiality duty associated with classical insider trading.","The CFTC instead framed the conduct as manipulation involving public statements and trading.","The episode shows prediction-market reflexivity: a participant can both forecast and help determine the event that settles the contract."]}},"illustration":{"src":"/images/2026-08-04-leveraged-etf-crash-hedging-etf/santos.svg","alt":"George Santos standing between YES and NO prediction-market buttons for his own attendance"},"elementaryChecklist":{"realPeople":["George Santos","Matt Levine"],"realCompanies":["Kalshi"],"financialMechanism":"Public statements can move an event-contract price when the trader can also influence the event.","centralJoke":"The person being predicted traded the prediction about himself."}},{"id":"fbi-crypto","sourceSection":"FBI crypto theft","adaptations":{"preschool":{"title":"The FBI Agent and the Crypto Wallet","lesson":"People trusted with valuable property need strong rules.","paragraphs":["An FBI agent was working on investigations involving cryptocurrency.","Authorities later accused him of serious misconduct involving about $1 million in crypto.","The story is a reminder that digital money needs careful custody rules too."]},"elementary":{"title":"The Crypto Evidence Wallet Problem","lesson":"Crypto investigations can give agents access to valuable digital assets, so custody controls matter.","paragraphs":["FBI agent Patrick Steven Yaroch worked on investigations involving cryptocurrency held by foreign targets, including crypto tied to investigations of North Korean hackers.","According to an FBI affidavit described by Levine, authorities later accused Yaroch of misusing access to about $1 million in crypto and said he acknowledged making very poor decisions involving cryptocurrency wallets.","Crypto has an unusually direct custody problem: controlling the right private key can mean controlling the asset. Institutions therefore need strict separation of duties, logs and approval controls.","Authorities also said Yaroch had asked ChatGPT how to invest $1 million with a goal of retiring around 40 and someday living a slower agricultural life. Levine had already joked that the story sounded like a thriller plot. Then the retirement-search detail made it even more on-the-nose."]},"middle":{"title":"The Evidence Wallet Problem","lesson":"Private-key control can turn investigative access into direct asset access.","paragraphs":["Authorities alleged serious misconduct by FBI agent Patrick Steven Yaroch involving roughly $1 million of cryptocurrency from investigative targets.","With bearer-like digital assets, access to a private key can be economically equivalent to possession, making multi-party approval, hardware segregation, audit logs and reconciliation especially important.","The reported ChatGPT query about investing $1 million for early retirement becomes Levine’s final thriller-plot punch line."]},"high":{"title":"Crypto Custody Turns Investigator Access Into a Control Risk","lesson":"Crypto custody collapses the distance between evidence access and transferable value.","paragraphs":["Wallet credentials can confer direct transferable control over assets, not merely access to records about them.","That compresses traditional control layers and makes key segregation, multi-signature authorization, immutable logging and independent reconciliation critical.","Levine’s framing is organizational: the investigator’s access itself becomes a treasury-control risk."]}},"illustration":{"src":"/images/2026-08-04-leveraged-etf-crash-hedging-etf/fbi-crypto.svg","alt":"An FBI evidence wallet connected directly to a private key and $1 million"},"elementaryChecklist":{"realPeople":["Patrick Steven Yaroch","Matt Levine"],"realCompanies":["Federal Bureau of Investigation","Department of Justice"],"financialMechanism":"Private-key control can amount to direct asset control, so crypto custody requires strict authorization controls.","centralJoke":"The alleged misconduct story included a remarkably on-the-nose search about investing $1 million for early retirement."}},{"id":"dentists","sourceSection":"Dentists!","adaptations":{"preschool":{"title":"The Dentist With the Extra-Spicy ETF","lesson":"A short-term tool can behave differently when held for years.","paragraphs":["Leveraged ETFs make daily stock moves extra big.","They were mostly designed for short-term trading, but some people hold them for years.","A former dentist named Song Wonjun says they helped him retire at 44, and now he teaches other people about them."]},"elementary":{"title":"Your Dentist Has a Leveraged-ETF Strategy","lesson":"Leveraged ETFs target daily multiples, so long-term results depend on the path the market takes.","paragraphs":["A 2x leveraged ETF tries to deliver about twice a stock’s return each day, then resets and does it again tomorrow. That means 2x every day is not the same as twice the stock’s return over ten years.","Big back-and-forth moves can hurt, while a strong persistent trend can make the leverage look wonderful. Bloomberg reported that more investors in the United States and South Korea are nevertheless using leveraged ETFs for long-term investing.","One is Song Wonjun, a former South Korean dentist who says leveraged ETFs helped him retire at 44. He now teaches the strategy online.","Levine’s reaction is not exactly an endorsement: if your financial adviser is promoting long-term leveraged ETFs online, that seems questionable. If your dentist is doing it? Somehow that seems exactly right."]},"middle":{"title":"Leveraged ETFs Become Long-Term Investments","lesson":"Daily compounding makes long-run leveraged-ETF returns path-dependent.","paragraphs":["Daily-reset leveraged ETFs rebalance to maintain a target multiple of daily returns, so long-run results can diverge sharply from a simple multiple of the underlying return.","Bloomberg reported growing long-term use of these products despite their short-horizon design.","Former dentist Song Wonjun says the strategy helped him retire at 44; Levine turns the unlikely adviser into the punch line."]},"high":{"title":"Path Dependence Meets the Leveraged-ETF Buy-and-Hold Crowd","lesson":"Long-term use of daily-reset leverage makes volatility drag, trend effects and rebalancing central.","paragraphs":["A leveraged ETF targets a multiple of daily, not terminal, returns. Choppy volatility can erode value while sustained trends can produce unexpectedly strong compounded results.","That makes buy-and-hold use different from the short-term trading use for which the products were designed.","Song Wonjun, a former dentist who says leveraged ETFs helped him retire at 44, becomes Levine’s perfect unlikely evangelist for the strategy."]}},"illustration":{"src":"/images/2026-08-04-leveraged-etf-crash-hedging-etf/dentists.svg","alt":"A former dentist pointing toward a 2x ETF chart"},"elementaryChecklist":{"realPeople":["Song Wonjun","Matt Levine"],"realCompanies":["Bloomberg"],"financialMechanism":"Daily-reset leveraged ETFs are path-dependent, so long-term returns can diverge from a simple multiple of the underlying return.","centralJoke":"The leveraged-ETF guru is a former dentist, which Levine treats as somehow more fitting than a financial adviser."}}]}
+{
+  "schemaVersion": 2,
+  "id": "2026-08-04-leveraged-etf-crash-hedging-etf",
+  "date": "2026-08-04",
+  "displayDate": "August 4, 2026",
+  "title": "Leveraged ETF Crash Hedging ETF",
+  "sourceSections": [
+    "Leveraged ETF crash put cliquet ETF",
+    "Tax-aware long-short",
+    "Commodity market manipulation",
+    "FBI crypto theft",
+    "Dentists!",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "crash-puts",
+      "sourceSection": "Leveraged ETF crash put cliquet ETF",
+      "adaptations": {
+        "preschool": {
+          "title": "The Bank’s Crash Umbrella",
+          "lesson": "Borrowing can make good and bad moves bigger.",
+          "paragraphs": [
+            "Some funds borrow money so a stock’s daily move feels twice as big.",
+            "Usually they rebalance every day, but a huge one-day crash can leave the bank short.",
+            "So the bank buys a special crash umbrella called a crash put."
+          ]
+        },
+        "elementary": {
+          "title": "The Two-Times Fund and the Big, Grouchy Drop",
+          "lesson": "A 2x single-stock ETF doubles investor equity by borrowing; if the stock falls more than 50% intraday the ETF’s equity can be wiped out and the bank faces gap risk, so banks buy cliquet (daily 50%-strike) crash puts, often pre-funded and levered by hedge funds; Goldman pitched 14.2%–20% yields for SK Hynix and Samsung, and Janus Henderson offered JELH and JELM to package this.",
+          "paragraphs": [
+            "There once was a fund that wanted to try, to double the market with a wink of an eye.",
+            "You give it $100, and it borrows some more, another $100, then it opens the door.",
+            "It buys $200 of SK Hynix stock on the floor, and every small movement becomes twice as much score.",
+            "If the shares climb five percent in one play, that $200 goes up to $210 that day,",
+            "and the owners cheer softly, their $100 now worth ten, the fund borrows $10 more to stay twice as then.",
+            "But if the sky suddenly darkens and drops, if the ticker goes tumbling and the market just stops,",
+            "a fall more than fifty percent in a flash — that’s the danger, the gash — could wipe the $100 in a dash.",
+            "Banks which lent the $100 would then be stuck short; Lucid fell 57% once and showed them the port.",
+            "So banks went to buy what they called crash insurance, a cliquet of puts that hedge a big worrisome clearance.",
+            "Those are daily puts struck fifty percent down from each close, a chain of small guards against overnight blows.",
+            "Hedge funds would sell these, but worry they might fail if the crash came and they couldn’t cover the tail.",
+            "So the bank offered a note, pre-funded and neat: the fund gives cash up front so the bank’s books stay complete.",
+            "To make the yield juicy the hedge fund would borrow some more: pay $20, take a loan of $80, and then hope for the score.",
+            "That makes a small $3 premium feel large, a neat 15% on $20 instead of 3% on $100 charged.",
+            "Goldman Sachs wrote notes saying, ‘Expensive Crash Cliquet!’ pitch: 14.2% to 20% yields for SK Hynix and Samsung’s twitch.",
+            "Janus Henderson’s Natasha Sibley said they built ETFs — JELH and JELM — to package these trades for wider sets.",
+            "An ETF that sells crash puts against the gap risk of leveraged single-stock ETFs, wonderful.",
+            "What happened? A 2x single-stock leveraged ETF doubles equity by borrowing; if the underlying stock falls more than 50% intraday the ETF’s equity can be wiped out and leave banks with gap risk, so banks buy cliquet crash puts (daily 50%-strike) often pre-funded via structured notes that hedge funds lever, and Goldman and Janus Henderson marketed such trades (Goldman pitched 14.2%–20% yields; Janus Henderson launched JELH and JELM)."
+          ]
+        },
+        "middle": {
+          "title": "Crash Puts for Leveraged ETFs",
+          "lesson": "Extreme gap risk survives ordinary daily rebalancing.",
+          "paragraphs": [
+            "Leveraged ETFs rebalance daily, which usually protects lenders as collateral shrinks.",
+            "A sufficiently large one-day gap can still wipe out fund equity before the lender is repaid.",
+            "Banks hedge that tail with crash puts or cliquets; pre-funded structures reduce counterparty risk but can introduce more leverage."
+          ]
+        },
+        "high": {
+          "title": "Cliquets, Gap Risk and Leveraged ETF Tail Insurance",
+          "lesson": "Daily-reset leverage creates discontinuous gap risk.",
+          "paragraphs": [
+            "A daily-reset leveraged ETF deleverages after losses, but it can become insolvent before rebalancing if the underlying falls far enough in one session.",
+            "Deep-out-of-the-money daily-reset puts transfer part of that tail risk.",
+            "Pre-funded structured notes reduce counterparty exposure, while leverage on the note can leave the deepest tail with the bank."
+          ]
+        }
+      },
+      "illustration": {
+        "src": "/images/2026-08-04-leveraged-etf-crash-hedging-etf/crash-puts.svg",
+        "alt": "A 2x ETF cart racing toward a crash while a bank holds a crash-put umbrella"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Yiqin Shen",
+          "Natasha Sibley",
+          "Matt Levine"
+        ],
+        "realCompanies": [
+          "SK Hynix",
+          "Lucid Group",
+          "Janus Henderson"
+        ],
+        "financialMechanism": "Daily rebalancing leaves rare gap risk that banks hedge with crash puts or cliquets.",
+        "centralJoke": "Leverage creates the risk, and leverage can reappear in the insurance trade."
+      }
+    },
+    {
+      "id": "tax-alpha",
+      "sourceSection": "Tax-aware long-short",
+      "adaptations": {
+        "preschool": {
+          "title": "A Hedge Fund Brags About Losses",
+          "lesson": "An investment loss can sometimes reduce a tax bill.",
+          "paragraphs": [
+            "Usually an investment company does not brag about losses.",
+            "AQR tries to make money overall while also creating losses that can help clients with taxes.",
+            "So a pile of losses can oddly be part of the product."
+          ]
+        },
+        "elementary": {
+          "title": "The Losses That Counted",
+          "lesson": "AQR’s tax-aware long-short strategies use leverage and offsetting long and short positions to realize large deductible losses (and sometimes ordinary-income losses) that can be used to offset taxes elsewhere; more than $150 billion is deployed at AQR and competitors in this approach, the broader tax-alpha universe exceeds $1 trillion, and AQR’s hedge-fund assets surpassed $140 billion by the end of March 2025, helping make it the world’s largest hedge fund by the end of 2025.",
+          "paragraphs": [
+            "Cliff Asness and a clever team at AQR would whisper to the market, not loud but very clear,",
+            "We’ll pick pairs of stocks, both near and dear, long on some and short on others so the math will steer.",
+            "They borrowed like a magician: borrow one hundred, buy two hundred, then short a hundred to stay even,",
+            "Net exposure still one hundred, but the losses they could find were shockingly uneven.",
+            "If one long stock sank while its paired short rose, sell the loser, keep the winner in sight—",
+            "That makes a realized loss you can use to erase a tax bill that would otherwise bite.",
+            "Bloomberg’s reporters—Loukia Gyftopoulou, Katherine Burton, Sridhar Natarajan and Justina Lee—wrote the news down plain:",
+            "AQR and rivals run more than $150 billion in this style, and in the whole tax-alpha world there’s over $1 trillion in the game.",
+            "AQR’s pot swelled fast; by the end of March their hedge-fund assets topped $140 billion, a striking climb,",
+            "And by the end of 2025 they’d become the world’s largest hedge fund, a headline told in numbers and time.",
+            "They even put a slide in a pitch: give us $100 million, watch it triple over ten years as their calculations hum,",
+            "And along the way the strategy might generate more than $580 million of losses you can use to erase taxes from other sums.",
+            "That boast—almost six times your starting cash turned into deductible losses—sounds crazy and absurdly grand,",
+            "But in a world where quants treat many stocks as swappable and rules like wash-sale and correlation are carefully scanned, it’s planned.",
+            "What happened? Invested money was put into tax-aware long-short trades that used leverage and offsetting long and short positions to realize large deductible losses that can offset taxes elsewhere; AQR and competitors deployed more than $150 billion in such strategies, the broader tax-alpha universe exceeds $1 trillion, and AQR’s hedge-fund assets surpassed $140 billion by end of March 2025 while a presentation claimed $100 million could triple in ten years and produce over $580 million of deductible losses."
+          ]
+        },
+        "middle": {
+          "title": "AQR’s Tax-Loss Machine",
+          "lesson": "Quantitative substitution lets investors harvest losses while preserving exposure.",
+          "paragraphs": [
+            "Tax-aware long-short portfolios use leverage, shorts and stock substitution to increase realizable losses while preserving factor exposure.",
+            "Tax rules make simple sell-and-rebuy tricks difficult, so managers use different but economically similar securities.",
+            "The comic inversion is that an industrial-scale loss factory can be a premium financial product."
+          ]
+        },
+        "high": {
+          "title": "Tax Alpha as the New Efficient-Market Alpha",
+          "lesson": "Financial engineering can improve after-tax returns by increasing usable losses.",
+          "paragraphs": [
+            "Tax-aware long-short applies quantitative finance to after-tax returns, increasing gross exposure and opportunities to realize losses.",
+            "Factor models help managers find economically similar but legally distinct replacement positions.",
+            "Levine’s twist is that traditional alpha may get scarcer while tax alpha grows as more intelligence is aimed at the tax system."
+          ]
+        }
+      },
+      "illustration": {
+        "src": "/images/2026-08-04-leveraged-etf-crash-hedging-etf/tax-alpha.svg",
+        "alt": "An AQR loss factory producing a jar labeled $580M tax losses while the client still gets richer"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Cliff Asness",
+          "Matt Levine"
+        ],
+        "realCompanies": [
+          "AQR Capital Management"
+        ],
+        "financialMechanism": "Leverage, shorts, loss harvesting and substitution create useful tax losses while preserving exposure.",
+        "centralJoke": "A hedge fund can advertise an enormous amount of losses as a feature."
+      }
+    },
+    {
+      "id": "santos",
+      "sourceSection": "Commodity market manipulation",
+      "adaptations": {
+        "preschool": {
+          "title": "The Bet About Whether You Will Show Up",
+          "lesson": "A bet is strange when one player controls the answer.",
+          "paragraphs": [
+            "There was a market about whether George Santos would attend the State of the Union.",
+            "George Santos could decide whether George Santos went.",
+            "He also traded the market and posted things that affected its price."
+          ]
+        },
+        "elementary": {
+          "title": "George, the Posts, and the Very Strange Bet",
+          "lesson": "George Santos used public posts on X to move the price of Kalshi event contracts about his attendance, bought and sold Yes and No positions, and exited with a $14,390.57 profit; the CFTC called it market manipulation and he agreed to disgorge $17,569.98 and pay a $17,500 fine.",
+          "paragraphs": [
+            "George said he’d wear a tie that glittered bright,",
+            "and on X he asked, “What color fits me right?”",
+            "A market on Kalshi listened and leaned one way —",
+            "people bought “Yes” and the price crept up that day.",
+            "George sold his little winning pile, pockets a bit fatter,",
+            "then filmed a promise, “I’m going,” which lifted the matter.",
+            "Later he began to buy the opposite, he chose “No,”",
+            "and on the morning of the speech he said, “I cannot go.”",
+            "He showed cancelled plane and train, no new tickets in sight,",
+            "the “Yes” price fell, the “No” price rose — that turned his trade to light.",
+            "In the early hours of February 25 he closed that No position,",
+            "and his ledger glowed with a profit: $14,390.57 was his addition.",
+            "Regulators from the CFTC said his posts were meant to swing the swap,",
+            "they cited Section 6(c)(1) and Regulation 180.1(a) — the wrongdoing wouldn’t stop.",
+            "He agreed to disgorge $17,569.98 and pay a $17,500 fine,",
+            "and the headlines argued over the word “insider,” while the agency called manipulation by design.",
+            "The whole thing looked a bit absurd: a wardrobe tweet, a stuck-at-airport line,",
+            "announcing you’ll be there to lift “Yes,” then betting against yourself and skipping the sign.",
+            "What happened? Santos used public social-media posts to influence the prices of Kalshi event contracts about his attendance, traded Yes and No positions, and exited with a $14,390.57 profit; the CFTC charged market manipulation (Section 6(c)(1) and Regulation 180.1(a)) and he agreed to disgorge $17,569.98 and pay a $17,500 fine."
+          ]
+        },
+        "middle": {
+          "title": "A Prediction Market You Can Personally Influence",
+          "lesson": "Information advantage and manipulation are different legal ideas.",
+          "paragraphs": [
+            "Santos had direct information about and control over the event: his own attendance.",
+            "The CFTC focused on alleged public statements and trading around price moves.",
+            "The stronger theory is manipulation rather than ordinary insider trading because the trader could influence both price and outcome."
+          ]
+        },
+        "high": {
+          "title": "Santos, Kalshi and Event-Contract Manipulation",
+          "lesson": "Event contracts can become reflexive when traders help determine the outcome.",
+          "paragraphs": [
+            "Knowledge of your own future conduct does not automatically create the confidentiality duty associated with classical insider trading.",
+            "The CFTC instead framed the conduct as manipulation involving public statements and trading.",
+            "The episode shows prediction-market reflexivity: a participant can both forecast and help determine the event that settles the contract."
+          ]
+        }
+      },
+      "illustration": {
+        "src": "/images/2026-08-04-leveraged-etf-crash-hedging-etf/santos.svg",
+        "alt": "George Santos standing between YES and NO prediction-market buttons for his own attendance"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "George Santos",
+          "Matt Levine"
+        ],
+        "realCompanies": [
+          "Kalshi"
+        ],
+        "financialMechanism": "Public statements can move an event-contract price when the trader can also influence the event.",
+        "centralJoke": "The person being predicted traded the prediction about himself."
+      }
+    },
+    {
+      "id": "fbi-crypto",
+      "sourceSection": "FBI crypto theft",
+      "adaptations": {
+        "preschool": {
+          "title": "The FBI Agent and the Crypto Wallet",
+          "lesson": "People trusted with valuable property need strong rules.",
+          "paragraphs": [
+            "An FBI agent was working on investigations involving cryptocurrency.",
+            "Authorities later accused him of serious misconduct involving about $1 million in crypto.",
+            "The story is a reminder that digital money needs careful custody rules too."
+          ]
+        },
+        "elementary": {
+          "title": "Patrick and the Keys",
+          "lesson": "An FBI agent allegedly used agency systems to access crypto keys and moved about $1 million in roughly ten transfers; he later turned himself in and asked ChatGPT how to invest that million.",
+          "paragraphs": [
+            "Patrick Steven Yaroch was a man with a badge and a plan,",
+            "He sat at his desk, a keyboard under his hand.",
+            "He worked for the FBI, that much is true,",
+            "But then he did things he probably shouldn’t do.",
+            "He found the secret keys on a system he could reach,",
+            "Keys that unlocked accounts beyond the FBI’s beach.",
+            "Those accounts were linked to an “adversarial nation,” the papers say,",
+            "And Patrick moved coins from those wallets away.",
+            "Ten little transfers, each one a small shove,",
+            "Added up to around one million dollars — that’s what the court wrote of.",
+            "He started in late 2024 or maybe early 2025,",
+            "Using agency systems to move funds and keep his plans alive.",
+            "Then in May he typed to ChatGPT, curious and bold,",
+            "“How do I invest a million so I can retire at forty and buy land with olive trees and gold?”",
+            "He dreamed of Cilento hills or Portugal’s Dao green vine,",
+            "A slower life, a vineyard, a sunlit row of wine.",
+            "But the twist here is bitter, and a little absurd,",
+            "Stealing crypto from people his team was watching — who would have heard?",
+            "After some time, Patrick called and told the Justice crew,",
+            "He turned himself in and confessed the things he’d done and knew.",
+            "The laws will sort the rest; the courts will set the scene,",
+            "While the record keeps the numbers and the words that were seen.",
+            "What happened? Patrick Steven Yaroch used FBI systems to access private cryptocurrency keys and made about ten transfers totaling around $1,000,000 from accounts tied to an “adversarial nation.” He contacted the Department of Justice to confess and an FBI affidavit was filed in a Virginia district court."
+          ]
+        },
+        "middle": {
+          "title": "The Evidence Wallet Problem",
+          "lesson": "Private-key control can turn investigative access into direct asset access.",
+          "paragraphs": [
+            "Authorities alleged serious misconduct by FBI agent Patrick Steven Yaroch involving roughly $1 million of cryptocurrency from investigative targets.",
+            "With bearer-like digital assets, access to a private key can be economically equivalent to possession, making multi-party approval, hardware segregation, audit logs and reconciliation especially important.",
+            "The reported ChatGPT query about investing $1 million for early retirement becomes Levine’s final thriller-plot punch line."
+          ]
+        },
+        "high": {
+          "title": "Crypto Custody Turns Investigator Access Into a Control Risk",
+          "lesson": "Crypto custody collapses the distance between evidence access and transferable value.",
+          "paragraphs": [
+            "Wallet credentials can confer direct transferable control over assets, not merely access to records about them.",
+            "That compresses traditional control layers and makes key segregation, multi-signature authorization, immutable logging and independent reconciliation critical.",
+            "Levine’s framing is organizational: the investigator’s access itself becomes a treasury-control risk."
+          ]
+        }
+      },
+      "illustration": {
+        "src": "/images/2026-08-04-leveraged-etf-crash-hedging-etf/fbi-crypto.svg",
+        "alt": "An FBI evidence wallet connected directly to a private key and $1 million"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Patrick Steven Yaroch",
+          "Matt Levine"
+        ],
+        "realCompanies": [
+          "Federal Bureau of Investigation",
+          "Department of Justice"
+        ],
+        "financialMechanism": "Private-key control can amount to direct asset control, so crypto custody requires strict authorization controls.",
+        "centralJoke": "The alleged misconduct story included a remarkably on-the-nose search about investing $1 million for early retirement."
+      }
+    },
+    {
+      "id": "dentists",
+      "sourceSection": "Dentists!",
+      "adaptations": {
+        "preschool": {
+          "title": "The Dentist With the Extra-Spicy ETF",
+          "lesson": "A short-term tool can behave differently when held for years.",
+          "paragraphs": [
+            "Leveraged ETFs make daily stock moves extra big.",
+            "They were mostly designed for short-term trading, but some people hold them for years.",
+            "A former dentist named Song Wonjun says they helped him retire at 44, and now he teaches other people about them."
+          ]
+        },
+        "elementary": {
+          "title": "Song the Dentist and the Leverage That Stayed",
+          "lesson": "Leveraged exchange-traded funds amplify daily returns and are designed for short-term trading; Song Wonjun, a former dentist in South Korea, used them long-term, retired at 44, and now teaches hundreds of thousands online.",
+          "paragraphs": [
+            "Song was a dentist with steady hands and steady cheer,",
+            "but he liked charts on his screen and numbers that were clear.",
+            "He found a thing called leveraged ETFs that try to grow more fast,",
+            "they chase a multiple each day — but they weren't meant to last.",
+            "He held them through the months and years instead of for a day,",
+            "and watched his savings swell until he could sail away.",
+            "At forty-four he closed his clinic, hung up the dental light,",
+            "and told the world his secret plan that helped him sleep at night.",
+            "He posts his lessons to a crowd — hundreds of thousands stop by,",
+            "they see his smiling videos and think, maybe I can try.",
+            "Folks say it sounds suspicious when an adviser shouts online,",
+            "but if a dentist did the very same, for some it feels just fine.",
+            "The odd, small joke lives in plain sight — it makes the story bright:",
+            "\"If your financial adviser is going around online touting long-term investments in leveraged ETFs, that seems bad. If your dentist is doing it, yeah, that seems right.\"",
+            "People hear the numbers, see the charts, and wonder what to do,",
+            "some will copy Song, some will wait, some will choose something new.",
+            "His story spans from the U.S. to Korea — a growing, curious trend —",
+            "a dentist who turned a day-trade tool into a long-term friend.",
+            "What happened? Leveraged exchange-traded funds amplify daily returns and are designed for short-term/day trading. Song Wonjun, a former dentist in South Korea, used them as the centerpiece of a long-term investing strategy, retired at 44, and now teaches hundreds of thousands of online followers."
+          ]
+        },
+        "middle": {
+          "title": "Leveraged ETFs Become Long-Term Investments",
+          "lesson": "Daily compounding makes long-run leveraged-ETF returns path-dependent.",
+          "paragraphs": [
+            "Daily-reset leveraged ETFs rebalance to maintain a target multiple of daily returns, so long-run results can diverge sharply from a simple multiple of the underlying return.",
+            "Bloomberg reported growing long-term use of these products despite their short-horizon design.",
+            "Former dentist Song Wonjun says the strategy helped him retire at 44; Levine turns the unlikely adviser into the punch line."
+          ]
+        },
+        "high": {
+          "title": "Path Dependence Meets the Leveraged-ETF Buy-and-Hold Crowd",
+          "lesson": "Long-term use of daily-reset leverage makes volatility drag, trend effects and rebalancing central.",
+          "paragraphs": [
+            "A leveraged ETF targets a multiple of daily, not terminal, returns. Choppy volatility can erode value while sustained trends can produce unexpectedly strong compounded results.",
+            "That makes buy-and-hold use different from the short-term trading use for which the products were designed.",
+            "Song Wonjun, a former dentist who says leveraged ETFs helped him retire at 44, becomes Levine’s perfect unlikely evangelist for the strategy."
+          ]
+        }
+      },
+      "illustration": {
+        "src": "/images/2026-08-04-leveraged-etf-crash-hedging-etf/dentists.svg",
+        "alt": "A former dentist pointing toward a 2x ETF chart"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Song Wonjun",
+          "Matt Levine"
+        ],
+        "realCompanies": [
+          "Bloomberg"
+        ],
+        "financialMechanism": "Daily-reset leveraged ETFs are path-dependent, so long-term returns can diverge from a simple multiple of the underlying return.",
+        "centralJoke": "The leveraged-ETF guru is a former dentist, which Levine treats as somehow more fitting than a financial adviser."
+      }
+    }
+  ]
+}

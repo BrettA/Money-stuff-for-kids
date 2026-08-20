@@ -27,15 +27,11 @@
           ]
         },
         "elementary": {
-          "title": "Wall Street Would Like to Put the AI Data Center in a Box",
-          "lesson": "Securitization puts cash-producing assets into a financial box and sells different claims on the cash flows. Investors can choose safer senior pieces or riskier junior pieces; data-center financing raises questions about what counts as a securitization.",
+          "title": "Boxes, Bonds, and Big Computers",
+          "lesson": "Data-center financings were treated by SEC staff as not being 'asset-backed securities' because data centers are not self-liquidating financial assets; the SEC letter follows a request from Latham & Watkins and could let owners sell bonds tied to data centers without certain ABS disclosure and risk-retention rules.",
           "paragraphs": [
-            "AI needs chips, electricity and giant buildings full of computers. All of this costs an enormous amount of money.",
-            "Suppose an investment firm builds a data center and rents it to an AI company. Those future rent payments are valuable.",
-            "Wall Street has a favorite trick: put things that produce money into a financial box, then sell investors different pieces of the money coming out.",
-            "The safest pieces get paid first. Riskier pieces wait longer and can earn more. This is called securitization.",
-            "Now AI data centers are so enormous that financiers are asking whether their loans can go into the box too.",
-            "If the AI boom keeps booming, everyone gets paid and the box looks brilliant. If not, Wall Street will at least have built a very sophisticated box."
+            "They put the cash flows in a box, and sell the pieces off like pie,\nSome pieces are quite safe and small, some reach up to touch the sky.\nIf stuff makes $100, a senior note might claim the first $20 clear,\nA daring option might grab all above $120, if buyers cheer.\n\nCoreWeave builds on one side, SpaceX builds rockets far away,\nBut a new thing hums inside—a data center powering AI today.\nYou could sign a lease with Anthropic for computer time each year,\nMaybe $1 billion a year for 10 years—ten boxes full of cheer.\nThen slice that deal: sell the first $100 million a year as AAA-rated bonds,\nInvestors might nod and buy them up while lawyers write their wands.\n\nBloomberg’s Jack Trapanick and Scott Carpenter told the news,\nThat the SEC staff’s letter said data centers don’t act like loans or dues.\nLatham & Watkins asked for clarity in a formal, careful plea,\nAnd SEC staff wrote back that these assets don’t “self-liquidate,” you see.\nThat means fewer disclosures, and the rule called risk retention might not apply,\nWhich is odd because running a data center takes repairs, power, and people nearby.\n\nIt sounded a bit absurd to treat a building full of chips like a burnt-down car loan,\nBut just as odd is how fast the world can turn compute into something to own.\nInvestors, lawyers, Anthropic, OpenAI, and the SEC all played their part,\nAs bonds and boxes shuffled risk away while the humming servers start.",
+            "What happened? The SEC staff wrote an interpretive letter—requested by Latham & Watkins LLP and reported by Bloomberg (Jack Trapanick and Scott Carpenter)—saying many data-center financings are not \"asset-backed securities\" because data centers are not self-liquidating financial assets, so those deals need not follow ABS disclosure and risk-retention rules (e.g., retaining some of the debt)."
           ]
         },
         "middle": {
@@ -89,15 +85,21 @@
           ]
         },
         "elementary": {
-          "title": "The News That Was Worth More Because It Was Faster",
-          "lesson": "A fast feed of market-moving government announcements can be valuable to trading firms because milliseconds matter. That raises difficult questions about fairness, conflicts of interest and insider information.",
+          "title": "A Millisecond for Money",
+          "lesson": "Trump Media & Technology Group sold a feed of early access to Donald Trump's Truth Social posts to hedge funds and trading firms for about $100,000 per month; the feed gave subscribers a few milliseconds’ head start on policy announcements, raising insider-trading and fairness concerns and prompting lawsuits from The Intercept Media and Freedom of the Press Foundation.",
           "paragraphs": [
-            "Important government news can move stock prices very quickly, so traders would love to receive it before everyone else.",
-            "For computer traders, even a few milliseconds can matter.",
-            "Truth Social was involved in a plan for a very fast feed of government announcements that could move markets.",
-            "The product is basically: here is the same sentence everyone will read, except your computer gets it first.",
-            "That can be valuable. It also creates an awkward question: when does “fast news service” become “some traders get important government information before everyone else”?",
-            "Sometimes a millisecond is barely enough time to blink. Sometimes a millisecond is a product."
+            "Donald Trump tapped a post on Truth Social and out it shot, bright and quick, like light on a dot.",
+            "His company TMTG, standing tall and proud, whispered that post to traders before the crowd.",
+            "Hedge funds and trading firms, eager and keen, paid one hundred thousand dollars — a neat monthly green.",
+            "They said a few milliseconds meant their computers could race, to trade on policy news and win a brief, tiny place.",
+            "Algorithms blinked, market makers adjusted their books, the buyers and sellers spun like gears in their nooks.",
+            "People wondered if a president should sell such a trick, turning public choices into a private paycheck quick.",
+            "Lawyers in New York read the fine-print line and sued, saying that selling early posts was corrupt and crude.",
+            "The Intercept Media and Freedom of the Press stood and cried, calling the plan ‘extraordinary, corrupt, and unconstitutional,’ and filed.",
+            "Some said the SEC or prosecutors might step in to say no, or Congress could ask the President to stop the show.",
+            "Investors might try suing if trades used secret news that dropped the price — but courts and clues make that case a very hard slice.",
+            "Still the odd little picture, plain and slightly absurd: the President selling milliseconds of government word.",
+            "What happened? Trump Media & Technology Group offered a paid feed selling early access to Donald Trump's Truth Social posts to hedge funds and trading firms for about $100,000 per month; subscribers received policy announcements a few milliseconds before the public, raising insider-trading and fairness concerns and leading to a New York lawsuit by The Intercept Media and the Freedom of the Press Foundation."
           ]
         },
         "middle": {
@@ -151,14 +153,24 @@
           ]
         },
         "elementary": {
-          "title": "The Emergency About Keeping the Betting Market Open",
-          "lesson": "Prediction markets are federally regulated exchanges but sports gambling has historically been regulated by states. A legal fight over Kalshi became unusual when the federal regulator framed keeping the exchange operating as a market emergency.",
+          "title": "The Day the Regulator Said, 'Keep Selling the Bets'",
+          "lesson": "The CFTC used statutory emergency power under Section 8a(9) of the Commodity Exchange Act to order Kalshi Inc., a CFTC-registered designated contract market, to continue operating and argued that federal law preempts state gambling regulation.",
           "paragraphs": [
-            "Kalshi trades prediction contracts, including contracts about sports. This has created a fight over what Kalshi actually is.",
-            "States normally regulate sports gambling. Kalshi says it is a federally regulated financial exchange, even when the thing being traded is a sports outcome.",
-            "During one legal fight, the possibility that some Kalshi trading might stop was treated as an urgent market issue.",
-            "This is funny because the emergency was not “a bank is collapsing.” It was closer to “people might temporarily be unable to trade contracts about sports.”",
-            "But the label matters enormously: financial market or sports betting? Sometimes the most valuable part of a financial product is the category everyone agrees to put it in."
+            "Kalshi ran a market where people could bet on sports, and posted odds like flags on poles that glow,",
+            "They called their market a designated contract market, and said the rules came from a place high and slow.",
+            "The CFTC — the agency that watches big commodity trades — once said sports bets shouldn’t be sold there,",
+            "But now the CFTC changed its view and said federal law allows these sports wagers to be fair.",
+            "New York sued Kalshi, saying state law bans those sports bets on its streets and in its parks,",
+            "Kalshi replied, “You can’t shut down a federally licensed exchange with only one state’s marks.”",
+            "Federal courts have mostly sided with Kalshi so far, though exceptions and questions still roam,",
+            "So the CFTC declared an emergency and filed an order to keep Kalshi’s exchange humming like chrome.",
+            "The order cites Section 8a(9) of the Commodity Exchange Act and tells Kalshi to carry on with its trading,",
+            "It says a single state shouldn’t be able to close a CFTC-registered market without serious persuading.",
+            "It’s a strange idea — to call a possible court loss an emergency for markets’ health and order,",
+            "But the CFTC insists the action protects clearing and fulfillment, and keeps traders from crossing a border.",
+            "So judges and lawyers now sort the question of who really gets to make the rules and draw the lines,",
+            "While Kalshi keeps offering sports bets and the federal regulator says, “We’ll keep the market fine.”",
+            "What happened? The CFTC invoked its statutory emergency power under Section 8a(9) of the Commodity Exchange Act to order Kalshi Inc., a CFTC-registered designated contract market, to continue performing its exchange functions despite a lawsuit from the State of New York alleging Kalshi’s sports betting violated state gambling regulation. The CFTC’s position is that federal law permits such betting on a federally registered exchange and preempts state regulation."
           ]
         },
         "middle": {
@@ -212,14 +224,32 @@
           ]
         },
         "elementary": {
-          "title": "How Wall Street Helped Make an AI Music Company",
-          "lesson": "Finance hires scientists to solve fast data and language problems. Those skills can spill into other industries: people who worked on machine-learning tools for financial audio later helped build the AI music company Suno.",
+          "title": "From Earnings Calls to Rock Songs",
+          "lesson": "Hedge funds profit by trading quickly on information from corporate earnings calls; Suno's founders built text-to-audio tech (called Bark) while at Kensho, left in late 2021 to form Suno, and in November 2023 released music-generation tools that grew out of earnings-call automation.",
           "paragraphs": [
-            "Wall Street hires lots of mathematicians, physicists and computer scientists because finance has hard problems involving data, speech and machine learning.",
-            "Some people who worked on machine-learning systems for financial audio later helped build Suno, the AI music company.",
-            "So the career path goes: study science, work in finance, teach computers about sound, help build a computer that makes songs.",
-            "Nobody planning a career in elementary school would draw the arrows in that order.",
-            "But technology often spreads this way. One industry pays to solve a difficult problem, and later the solution wanders off and does something much stranger."
+            "In Cambridge town, where rainy streets are long,",
+            "A student named Mikey dreamed of sound and song.",
+            "He was at Harvard, studying quantum night and day,",
+            "Then he walked down to Kensho where computers hum and play.",
+            "He met Georg, Martin, Keenan — friends who liked to code,",
+            "They built a clever thing to read what managers had told.",
+            "It listened to earnings calls, it typed the words they said,",
+            "And turned a patch of speaking into neat lines on a thread.",
+            "They called the early audio tool simply Bark in friendly tone,",
+            "But the people who tried it wanted beats, a chorus, and a phone.",
+            "Toward the end of 2021 they quit their daytime jobs to try,",
+            "They started Suno — “listen” — and gave those tools a wider sky.",
+            "Developers pushed the tool from business talk to music bright,",
+            "By November 2023 Suno made songs like streetlamps make the night.",
+            "Meanwhile hedge funds and traders race to hear the news first, fast,",
+            "Quantum physicists write code to pull meanings from the past.",
+            "So a tool that chased an earnings whisper turned to strum and drum,",
+            "And suddenly the team that taught machines to speak could also make them hum.",
+            "Reporters Lucas Shaw and Ashley Carman told the odd report,",
+            "That the very thing built for traders was now helping people make a sport.",
+            "If a busy CEO wants a rap for an offsite or a call,",
+            "Suno could spin a chorus — which feels rather wild and small.",
+            "What happened? Suno's founders left Kensho at the end of 2021, having built technology to automate corporate earnings calls (a product called Bark). They founded Suno, and in November 2023 released music-generation tools that grew from that earnings-call audio work; at the same time hedge funds pay to trade quickly on information from earnings calls, driving work by physicists and engineers on extracting audio and text signals."
           ]
         },
         "middle": {
