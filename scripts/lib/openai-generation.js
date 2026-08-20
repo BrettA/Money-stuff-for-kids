@@ -226,6 +226,19 @@ function finalImagePrompt(prompt) {
   return `${prompt}\n\n${ILLUSTRATION_STYLE_PROMPT}`;
 }
 
+function canonicalStoryIllustrationPrompt(story) {
+  const elementary = story && story.adaptations && story.adaptations.elementary;
+  if (!story || !elementary) throw new Error('A canonical story with an Elementary adaptation is required');
+  return [
+    ILLUSTRATION_CONTENT_INSTRUCTIONS,
+    `Illustrate the canonical story section ${JSON.stringify(story.sourceSection)}.`,
+    `Story title: ${elementary.title}`,
+    `Story: ${elementary.paragraphs.join(' ')}`,
+    `Financial mechanism: ${story.elementaryChecklist.financialMechanism}`,
+    `Central joke or absurdity: ${story.elementaryChecklist.centralJoke}`
+  ].join('\n');
+}
+
 async function generateImage({ client, model, prompt }) {
   const response = await client.images.generate({
     model,
@@ -247,6 +260,6 @@ async function generateImage({ client, model, prompt }) {
 module.exports = {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL,
   ILLUSTRATION_CONTENT_INSTRUCTIONS, ILLUSTRATION_STYLE_PROMPT, canonicalIllustrationAlt, clientFor,
-  finalImagePrompt, generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
+  canonicalStoryIllustrationPrompt, finalImagePrompt, generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
   assertNoReusableBoilerplate, entityAppearsInSource
 };
