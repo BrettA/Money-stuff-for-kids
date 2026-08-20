@@ -7,7 +7,7 @@ const {
 } = require('../scripts/lib/openai-generation');
 
 function validStoryWith(line) {
-  const filler = Array.from({ length: 160 }, (_, index) => `fact${index}`).join(' ');
+  const filler = Array.from({ length: 230 }, (_, index) => `fact${index}`).join(' ');
   const copy = { title: 'Title', lesson: 'The actual transaction', paragraphs: ['Faithful story.'] };
   return {
     adaptations: {
@@ -48,37 +48,17 @@ function generate(story) {
 test('picture-book prompt entertains first while preserving the factual spine', () => {
   const instructions = storyInstructions();
   assert.match(instructions, /not a financial-literacy lesson/i);
-  assert.match(instructions, /Entertain first/i);
+  assert.match(instructions, /Entertainment and clarity matter more than exhaustive precision/i);
   assert.match(instructions, /mostly natural rhyming couplets/i);
-  assert.match(instructions, /factual completeness is not required/i);
+  assert.match(instructions, /Do not cram every source fact/i);
   assert.match(instructions, /Playful storybook imagery and mild comic exaggeration are allowed/i);
   assert.match(instructions, /factual anchor that lets the story stay fun/i);
 });
 
-test('known forced-rhyme failures from the July 30 review are rejected', async () => {
-  const badLines = [
-    'as more investors were sold',
-    'Ken Griffins Citadel hand',
-    'Citadel took them for keepsakes',
-    'spent forty-four thousand dollars on a sell',
-    'pivoted into other grids',
-    'make the product light',
-    'sixtys what you store',
-    'other values must be stood',
-    'a different kind of join',
-    'a market worth of $2.8 billion, chimed',
-    'in a blip',
-    'with legal eyes',
-    'have real feel',
-    'put the old debt claims to a frame',
-    'a very big fleece',
-    'lost its tense',
-    'media moved next because it saw the grin',
-    'made a headline law'
-  ];
-  for (const line of badLines) {
-    await assert.rejects(generate(validStoryWith(line)), /prohibited filler/);
-  }
+test('playful language is not broadly rejected by subjective style guards', async () => {
+  await assert.doesNotReject(generate(validStoryWith(
+    'The deal went by in a blip, while spreadsheets danced on a moonlit ship.'
+  )));
 });
 
 test('concrete PR 33 factual regressions are rejected', async () => {
@@ -103,7 +83,7 @@ test('concrete PR 33 factual regressions are rejected', async () => {
   );
 });
 
-test('Elementary word-count boundaries are inclusive from 180 through 260 words', async () => {
+test('Elementary word-count boundaries are inclusive from 250 through 400 words', async () => {
   const storyWithWordCount = wordCount => {
     const story = validStoryWith('');
     const ending = 'What happened? A real company completed the actual transaction.';
@@ -115,10 +95,10 @@ test('Elementary word-count boundaries are inclusive from 180 through 260 words'
     return story;
   };
 
-  await assert.doesNotReject(generate(storyWithWordCount(180)));
-  await assert.rejects(generate(storyWithWordCount(179)), /180–260 words \(received 179\)/);
-  await assert.doesNotReject(generate(storyWithWordCount(260)));
-  await assert.rejects(generate(storyWithWordCount(261)), /180–260 words \(received 261\)/);
+  await assert.doesNotReject(generate(storyWithWordCount(250)));
+  await assert.rejects(generate(storyWithWordCount(249)), /250–400 words \(received 249\)/);
+  await assert.doesNotReject(generate(storyWithWordCount(400)));
+  await assert.rejects(generate(storyWithWordCount(401)), /250–400 words \(received 401\)/);
 });
 
 test('harmless playful imagery is not rejected merely for being playful', async () => {

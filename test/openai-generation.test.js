@@ -4,8 +4,8 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt,
-  ILLUSTRATION_STYLE_PROMPT, assertNoReusableBoilerplate, entityAppearsInSource,
-  assertStorySetEditorialOutput, generateImage, generateStory, isPictureBookStyle, parse, storyInstructions
+  ILLUSTRATION_STYLE_PROMPT, entityAppearsInSource,
+  generateImage, generateStory, isPictureBookStyle, parse, storyInstructions
 } = require('../scripts/lib/openai-generation');
 const { isPlaceholderIllustrationAlt } = require('../scripts/lib/illustration-alt');
 const { storyGeneration } = require('../scripts/lib/edition-schema');
@@ -28,7 +28,7 @@ function validRhymingStory() {
     title: 'A Real Deal',
     lesson: 'The actual transaction',
     paragraphs: [
-      `A real person at A real company made a deal one day. ${'story '.repeat(200)}Facts stay clear while playful words sound bright.`,
+      `A real person at A real company made a deal one day. ${'story '.repeat(270)}Facts stay clear while playful words sound bright.`,
       'What happened? A real company completed the actual transaction.'
     ]
   };
@@ -44,11 +44,15 @@ test('provides model defaults while allowing the workflow environment to overrid
 test('picture-book prompt protects the real story while prioritizing natural rhyme', () => {
   const instructions = storyInstructions();
   for (const requirement of [
-    /who did what/i, /named companies/i, /most memorable or useful numbers/i,
-    /actual financial mechanism/i, /central joke or absurdity/i, /coherent narrative/i,
-    /180–260 words total/i, /lively read-aloud rhythm/i, /mostly natural rhyming couplets/i,
+    /named companies/i, /important numbers/i,
+    /actual financial mechanism/i, /central joke or absurdity/i, /coherent beginning/i,
+    /250–400 words total/i, /fun, polished read-aloud cadence/i, /mostly natural rhyming couplets/i,
     /What happened\?/i
   ]) assert.match(instructions, requirement);
+  assert.match(instructions, /roughly 250–325 words/i);
+  assert.match(instructions, /do not pad to hit a target/i);
+  assert.match(instructions, /beginning → development → weird or pivotal event → outcome/i);
+  assert.match(instructions, /must not drive the Elementary story/i);
   assert.match(instructions, /Never invent a person or company/i);
   assert.match(instructions, /lemonade stands, allowances, apples/i);
   assert.match(instructions, /one or two short, non-rhyming, plain-English sentences/i);
@@ -56,12 +60,11 @@ test('picture-book prompt protects the real story while prioritizing natural rhy
   assert.match(instructions, /authored children’s story/i);
   assert.match(instructions, /Never split a proper noun, company name, number, abbreviation/i);
   assert.match(instructions, /choose an unrhymed line over awkward wording/i);
-  assert.match(instructions, /Entertain first/i);
   assert.match(instructions, /Never convert percentage returns into multiples incorrectly/i);
   assert.match(instructions, /Never change buying into selling/i);
   assert.match(instructions, /Do not invent direct quotations unless the source contains that quotation/i);
   assert.match(instructions, /read every story line aloud/i);
-  assert.match(instructions, /Do not repeat the lesson text/i);
+  assert.match(instructions, /Do not repeat it inside the picture-book story/i);
 });
 
 test('illustration planning requires the story-specific weird event instead of generic finance art', () => {
@@ -102,50 +105,15 @@ test('image generation applies the consistent preschool board-book style', async
   assert.doesNotMatch(request.prompt, /no words|no typography/i);
 });
 
-test('rhyming validation rejects proper nouns broken across lines and generic suffix filler', async () => {
-  const section = { heading: 'The deal', sourceText: 'Jamie Dimon at JPMorgan Chase completed the actual transaction.' };
-  const generate = story => generateStory({
+test('validators allow harmless line breaks, playful language, and repeated phrasing', async () => {
+  const story = validRhymingStory();
+  story.adaptations.elementary.paragraphs[0] = story.adaptations.elementary.paragraphs[0]
+    .replace('A real person', 'A real\nperson') + ' The next shows why plans can fail.';
+  const section = { heading: 'The deal', sourceText: 'A real person at A real company completed the actual transaction.' };
+  await assert.doesNotReject(generateStory({
     client: { responses: { parse: async () => ({ output_parsed: story }) } },
     model: DEFAULT_TEXT_MODEL, section
-  });
-
-  const brokenName = validRhymingStory();
-  brokenName.elementaryChecklist.realPeople = ['Jamie Dimon'];
-  brokenName.elementaryChecklist.realCompanies = ['JPMorgan Chase'];
-  brokenName.adaptations.elementary.paragraphs[0] = brokenName.adaptations.elementary.paragraphs[0]
-    .replace('A real person at A real company', 'Jamie\nDimon at JPMorgan Chase');
-  await assert.rejects(generate(brokenName), /splits proper noun across lines: Jamie Dimon/);
-
-  const proseWithSuffix = validRhymingStory();
-  proseWithSuffix.adaptations.elementary.paragraphs[0] += ' The deal was announced. The next shows why plans can fail.';
-  await assert.rejects(generate(proseWithSuffix), /prohibited filler/);
-});
-
-test('edition validation flags repeated multi-word boilerplate without scoring rhyme generally', () => {
-  const first = validRhymingStory();
-  const second = validRhymingStory();
-  second.adaptations.elementary.paragraphs[0] = `Different facts begin this account. ${'story '.repeat(200)}Facts stay clear while playful words sound bright.`;
-  assert.throws(() => assertNoReusableBoilerplate([first, second]), /repeat suspicious boilerplate/);
-
-  const distinct = validRhymingStory();
-  distinct.adaptations.elementary.paragraphs[0] = Array.from({ length: 245 }, (_, index) => `unique${index}`).join(' ');
-  assert.doesNotThrow(() => assertNoReusableBoilerplate([first, distinct]));
-});
-
-test('both picture-book style names get cross-story validation while legacy remains unaffected', () => {
-  const repeated = [validRhymingStory(), validRhymingStory()];
-  assert.equal(isPictureBookStyle('picture-book-narrative'), true);
-  assert.equal(isPictureBookStyle('rhyming-picture-book'), true);
-  assert.equal(isPictureBookStyle('legacy'), false);
-  assert.throws(
-    () => assertStorySetEditorialOutput(repeated, 'picture-book-narrative'),
-    /repeat suspicious boilerplate/
-  );
-  assert.throws(
-    () => assertStorySetEditorialOutput(repeated, 'rhyming-picture-book'),
-    /repeat suspicious boilerplate/
-  );
-  assert.doesNotThrow(() => assertStorySetEditorialOutput(repeated, 'legacy'));
+  }));
 });
 
 test('generation defaults to a picture-book narrative while retaining compatibility and a legacy escape hatch', async () => {
@@ -158,13 +126,13 @@ test('generation defaults to a picture-book narrative while retaining compatibil
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, priorValidationError: 'missing final What happened?' });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'legacy' });
-  assert.match(calls[0].instructions, /funny, cute, authored children’s picture book/i);
+  assert.match(calls[0].instructions, /polished, funny rhyming picture-book story/i);
   assert.match(calls[1].instructions, /complete replacement output, not a patch/i);
   assert.match(calls[1].input, /missing final What happened/);
-  assert.doesNotMatch(calls[2].instructions, /funny, cute, authored children’s picture book/i);
+  assert.doesNotMatch(calls[2].instructions, /polished, funny rhyming picture-book story/i);
   assert.match(calls[2].instructions, /Preschool must be simple but factual/i);
   await assert.rejects(generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'unknown' }), /Unknown generation style/);
-  assert.match(storyInstructions('rhyming-picture-book'), /funny, cute, authored children’s picture book/i);
+  assert.match(storyInstructions('rhyming-picture-book'), /polished, funny rhyming picture-book story/i);
 });
 
 test('rhyming editorial validation rejects structural and source-fidelity regressions', async () => {
@@ -181,7 +149,7 @@ test('rhyming editorial validation rejects structural and source-fidelity regres
 
   const genericShortCopy = validRhymingStory();
   genericShortCopy.adaptations.elementary.paragraphs = ['A lemonade stand analogy.', 'What happened? A transaction occurred.'];
-  await assert.rejects(generate(genericShortCopy), /180–260 words/);
+  await assert.rejects(generate(genericShortCopy), /250–400 words/);
 
   const inventedCompany = validRhymingStory();
   inventedCompany.elementaryChecklist.realCompanies = ['Invented Lemonade LLC'];
