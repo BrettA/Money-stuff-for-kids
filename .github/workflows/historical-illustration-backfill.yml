@@ -1,0 +1,82 @@
+name: One-time historical illustration backfill
+
+on:
+  workflow_dispatch:
+    inputs:
+      edition_ids:
+        description: Comma-separated existing edition IDs/dates, or the literal value "all"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: historical-illustration-backfill
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      BACKFILL_BRANCH: historical-illustration-backfill
+      EDITION_IDS: ${{ inputs.edition_ids }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    steps:
+      - name: Check out current main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set backfill summary file
+        run: echo "BACKFILL_SUMMARY_FILE=$RUNNER_TEMP/historical-illustration-backfill-pr.md" >> "$GITHUB_ENV"
+
+      - name: Refuse to overwrite an existing backfill branch
+        run: scripts/prepare-historical-illustration-branch.sh "$BACKFILL_BRANCH"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Regenerate canonical historical illustrations
+        run: node scripts/historical-illustration-backfill.js
+
+      - name: Require at least one regenerated image
+        run: |
+          if git diff --quiet -- data images; then
+            echo 'No illustrations were regenerated; refusing to open an empty PR.' >&2
+            exit 1
+          fi
+
+      - name: Regenerate static pages
+        run: npm run publish
+
+      - name: Run repository checks
+        run: |
+          npm run check
+          npm test
+          git diff --check
+
+      - name: Commit and push migration branch
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data images editions index.html
+          git commit -m 'Backfill historical illustrations'
+          git push --set-upstream origin "HEAD:refs/heads/$BACKFILL_BRANCH"
+
+      - name: Open pull request for human review
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --base main \
+            --head "$BACKFILL_BRANCH" \
+            --title 'Backfill historical illustrations' \
+            --body-file "$BACKFILL_SUMMARY_FILE"

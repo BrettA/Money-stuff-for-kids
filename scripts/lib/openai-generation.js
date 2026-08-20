@@ -226,6 +226,18 @@ function finalImagePrompt(prompt) {
   return `${prompt}\n\n${ILLUSTRATION_STYLE_PROMPT}`;
 }
 
+function illustrationPreviewContentPrompt(edition, story) {
+  const scene = story.illustration && story.illustration.alt;
+  if (!scene || !String(scene).trim()) {
+    throw new Error(`Story ${story.id} has no canonical illustration scene`);
+  }
+  return [
+    ILLUSTRATION_CONTENT_INSTRUCTIONS,
+    `Story context: ${story.adaptations.elementary.title}.`,
+    `Scene to illustrate exactly: ${String(scene).trim()}`
+  ].join('\n');
+}
+
 async function generateImage({ client, model, prompt }) {
   const response = await client.images.generate({
     model,
@@ -247,6 +259,6 @@ async function generateImage({ client, model, prompt }) {
 module.exports = {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL,
   ILLUSTRATION_CONTENT_INSTRUCTIONS, ILLUSTRATION_STYLE_PROMPT, canonicalIllustrationAlt, clientFor,
-  finalImagePrompt, generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
+  illustrationPreviewContentPrompt, finalImagePrompt, generateImage, generateMetadata, generateStory, parse, storyInstructions, assertRhymingEditorialOutput,
   assertNoReusableBoilerplate, entityAppearsInSource
 };
