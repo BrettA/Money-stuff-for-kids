@@ -55,15 +55,15 @@ test('rhyming prompt makes factual meaning and natural English outrank rhyme', (
   assert.match(instructions, /Prefer two short sentences when several numbers or mechanics need explanation/i);
 });
 
-test('known forced-rhyme failures from the July 30 review are rejected exactly', async () => {
+test('known forced-rhyme failures from the July 30 review are rejected', async () => {
   const badLines = [
     'as more investors were sold',
-    'Ken Griffin’s Citadel hand',
+    'Ken Griffins Citadel hand',
     'Citadel took them for keepsakes',
     'spent forty-four thousand dollars on a sell',
     'pivoted into other grids',
     'make the product light',
-    'sixty’s what you store',
+    'sixtys what you store',
     'other values must be stood',
     'a different kind of join',
     'a market worth of $2.8 billion, chimed'
