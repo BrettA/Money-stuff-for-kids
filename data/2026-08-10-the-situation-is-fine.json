@@ -27,15 +27,32 @@
           ]
         },
         "elementary": {
-          "title": "The Hedge Fund That Almost Blew Up and Became More Interesting",
-          "lesson": "A leveraged AI-focused hedge fund nearly blew up. Wall Street saw a risk-management failure; Silicon Valley saw someone who might still be directionally right about a transformative technology.",
+          "title": "The Young Investor Who Nearly Lost It All",
+          "lesson": "Leopold Aschenbrenner’s fund nearly collapsed because of heavy leverage; despite near losses of tens of billions, many Silicon Valley investors sought to give him more capital, reflecting a cultural reward for bold, contrarian bets.",
           "paragraphs": [
-            "Leopold Aschenbrenner is extremely excited about AI. He started a hedge fund called Situational Awareness and made lots of investments based on one big idea: AI is going to become incredibly important.",
-            "The fund bought companies AI might help and bet against companies AI might hurt. It looked like many bets. Then many started losing at once.",
-            "Imagine packing four pairs of shorts, two swimsuits and six pairs of sunglasses. You packed many things, but really you made one bet: it will be hot.",
-            "Situational Awareness had done something similar with AI, and it had borrowed money to make the bets bigger. When the trades went wrong, it lost a huge amount and had to sell investments.",
-            "On Wall Street, nearly blowing up your hedge fund is evidence something went wrong. In Silicon Valley, there is another possible reaction: Wow. This guy REALLY believes in AI.",
-            "Wall Street asks, “How much did you lose?” Silicon Valley sometimes asks, “Yes, but how enormous was the dream?”"
+            "He was young and very clever, a wunderkind of code and light,",
+            "a researcher from OpenAI who aimed his smarts to pick what's right.",
+            "He said, 'AI will change the world,' and memory chips were in the game,",
+            "but money moved on borrowed rails and that borrowed rail caught flame.",
+            "They called that borrowed money leverage, and leverage turns small rifts into waves,",
+            "so bets that look like breakthroughs can also dig very deep graves.",
+            "John Arnold liked a gambler who'd blown up just a single hour,",
+            "a past mistake, a single scar that proves you learned the truth and power.",
+            "Peter Thiel smiles at contrarian ways—lose a lot and seem more bold—",
+            "and Silicon Valley whispers, 'buy the dip,' when prices look undersold.",
+            "Leopold’s fund, Situational Awareness, teetered near a snap,",
+            "the account sheets looked a little like a very gaping gap.",
+            "Wall Street said, 'Rein in risk, beware the dangers that leverage brings,'",
+            "but Valley folks said, 'Back him still—give capital to futures and big things.'",
+            "Gygmy Gonnot noted the split: tech loves the directional call,",
+            "while Wall Street prizes steady gains and keeping investors' capital whole.",
+            "Elon Musk’s poker bravado lives in that same daring light,",
+            "and losing billions can become the badge that lets someone win the night.",
+            "So after the near miss, surprise—requests began to pour,",
+            "Silicon Valley wanted in, they liked his thesis and wanted more.",
+            "He’s a 20-something investor who very nearly blew the fund apart,",
+            "and yet the people who loved his idea lined up to give him a new start.",
+            "What happened? Leopold Aschenbrenner’s hedge fund Situational Awareness nearly blew up because it used heavy leverage and incurred very large losses (tens of billions). Some Silicon Valley investors nonetheless requested to place more money with him, reflecting a cultural preference for bold, contrarian bets."
           ]
         },
         "middle": {
@@ -89,14 +106,20 @@
           ]
         },
         "elementary": {
-          "title": "The Trade That Says 'It Is Going Up, So Buy It'",
-          "lesson": "Momentum means buying things that are already rising because you think they will keep rising. Intraday versions try to capture short trends within a single trading day, especially on volatile days.",
+          "title": "When Funds Bought High and Sold Low (A Short Rhyme)",
+          "lesson": "Leveraged exchange-traded funds rebalance daily: they mechanically buy when their underlying stocks rise and sell when they fall, amplifying intraday moves; traders used a five-minute, 1%-above-close rule and flattened positions at session end to capture those bursts, producing strong returns in a volatile July but easing after a July unwind cut leveraged ETF assets under management from a record high and South Korean trading slumped.",
           "paragraphs": [
-            "There are complicated ways to choose investments. Momentum has a wonderfully simple summary: this thing is going up, so maybe it will keep going up.",
-            "Intraday momentum tries to catch that movement inside one trading day. A computer spots something running upward, buys it, and hopes to get out before the running stops.",
-            "This sounds a bit like chasing someone because they are already running.",
-            "Which it is.",
-            "But if prices do it often enough, people will build extremely serious mathematical systems for doing the chasing."
+            "Big money folks have two favorite games: buy the low and wait, or chase the flame that climbs and climbs and seems to glow,",
+            "Value tries to scoop up bargains, thinking prices will slow and grow,",
+            "Momentum says, “If it's rising, hop on board — buy higher now and sell it even higher when it goes!” — a paradox that makes some traders cheer and others freezes the nose.",
+            "Then came a trick from engineered funds, called leveraged ETFs in trading rows,",
+            "They balance each day like clockwork gears: buy when the stock climbs, sell when it bows,",
+            "Billions poured in, and Christian Dass wrote how the daily math makes surging names surge yet again,",
+            "Florian Ielpo at Lombard Odier said intraday momentum blooms on loud, volatile days; quiet days are when it drains,",
+            "Yangyang Hou at JPMorgan Chase & Co. studied five-minute ticks, a simple rule: buy when the price is 1% above the prior close, sell when it slips below, and close out at the bell — a tidy, mechanical refrain,",
+            "For a couple of months the returns were called “stellar,” like echoes of 1998/99 when tech jolted and shook the plain,",
+            "But markets breathe: a July unwind cut leveraged ETF assets under management from a record high, South Korean trading slumped, and regulators cooled demand, changing who could push the day’s train.",
+            "What happened? Leveraged ETFs rebalance daily, buying more when their underlying stocks rise and selling when they fall; traders exploited intraday momentum using five-minute signals and a 1% rule, which produced strong short-term returns during volatile July trading but eased after a July unwind reduced these funds' assets under management from a record high."
           ]
         },
         "middle": {
@@ -150,14 +173,34 @@
           ]
         },
         "elementary": {
-          "title": "How Finance Made Everyone Care About One Penny",
-          "lesson": "Prediction contracts often trade between $0 and $1. A one-cent minimum price move can therefore be a large percentage spread, which can make frequent retail trading lucrative for market makers but expensive for large hedgers.",
+          "title": "The Little Tick That Became a Lot",
+          "lesson": "Prediction markets often use $0.01 tick sizes on $0–$1 contracts (≈2% ticks), which creates wide bid-ask spreads and high market-maker profits; Robinhood's Rothera earns ~100x per dollar traded on prediction markets versus stock trades; Kalshi and Polymarket sometimes use much smaller ticks down to $0.0001; institutions may trade over-the-counter to get smaller effective spreads.",
           "paragraphs": [
-            "Prediction-market contracts often cost less than one dollar, so a penny can be a surprisingly big deal.",
-            "If a contract costs 10 cents, paying 11 cents is about 10% more. For a $200 stock, a one-cent difference is almost nothing.",
-            "Markets have a smallest allowed price step, called a tick. On many prediction contracts it is one cent.",
-            "That can be good for traders who stand between buyers and sellers and earn the difference.",
-            "A penny is normally the coin you ignore on the sidewalk. Finance has found a way to make extremely serious adults care deeply about it."
+            "There once were tiny trading feet that danced on a $0-to-$1 floor,",
+            "They hopped by steps of $0.01 and asked for a little more.",
+            "A single tick — one penny — looked small in a child’s hand,",
+            "But when the whole market marched in pennies, the margin grew quite grand.",
+            "Stocks often sleep near a hundred bucks and move by a cent so fine,",
+            "That’s 0.01% of the price — a near-invisible line.",
+            "On prediction markets, pennies are two percent of the prize,",
+            "So market makers spread the bids wide and take the size.",
+            "Robinhood set up Rothera, where contracts trade in $0.01 beats,",
+            "And brokers smiling at the spread find many handy treats.",
+            "Robinhood, in fact, makes roughly a hundred times the fee,",
+            "Per dollar traded on prediction bets compared with ordinary equity.",
+            "Kalshi and Polymarket whisper differently in some rooms,",
+            "Kalshi can do $0.0001 ticks, tiny footsteps in the dunes.",
+            "Polymarket also sometimes uses ticks that shrink below the penny,",
+            "So not every market marches the same — some go many, many many.",
+            "There’s a tug between two futures: one loves gamblers paying wide,",
+            "The other needs a hedger’s world with tiny slights and tidy stride.",
+            "You could picture retail trading on a broker’s cushioned ground,",
+            "While institutions ask for over-the-counter deals to keep costs down.",
+            "Susquehanna might price a $10 million wager out of public sight,",
+            "There the ticks aren’t giant pennies; they can be finely tight.",
+            "So the little penny step that sounds so small in counting games",
+            "Turns into a giant puzzle when the money stakes proclaim its aims.",
+            "What happened?  Prediction markets often used $0.01 tick sizes on $0–$1 contracts (about 2% per tick), creating wide bid-ask spreads that are lucrative for market makers and brokers; Robinhood’s Rothera makes roughly 100x as much per dollar traded on prediction markets as it does on stock trades. Kalshi and Polymarket offer smaller tick sizes (Kalshi down to $0.0001), and large institutional trades can be done over-the-counter to get much smaller effective spreads."
           ]
         },
         "middle": {
@@ -211,15 +254,30 @@
           ]
         },
         "elementary": {
-          "title": "Private Equity's Extremely Glamorous Pest-Control Era",
-          "lesson": "Private equity often means highly trained financiers buying and improving ordinary businesses such as pest-control companies. The article jokes about private-equity professionals suddenly being treated as glamorous celebrity partners.",
+          "title": "The Private-Equity Party",
+          "lesson": "Private equity raises and places big pools of capital to buy and combine companies (a rollup); it's about allocating money, not running day-to-day pest-control work.",
           "paragraphs": [
-            "Private-equity firms buy companies, try to improve them and later sell them. The companies do not have to be glamorous.",
-            "They might make industrial parts, run dental offices or kill bugs. A useful pest-control business can make perfectly good money even if nobody makes a movie about it.",
-            "Private-equity people themselves, however, have somehow become glamorous in certain corners of culture. Articles discuss them as desirable boyfriends. Celebrities date financiers.",
-            "So there is a pleasing mismatch.",
-            "By day: an extremely serious meeting about the profit margins of regional pest-control companies.",
-            "By night: apparently, heartthrob."
+            "At parties bright with cameras and light, the same faces looped through the night,",
+            "the same 25 people, Kevin O'Leary said, sipping a drink while gossip spread.",
+            "Someone new across the room wore a suit, not a crown;",
+            "he held a tiny truck that said PEST CONTROL in cardboard brown.",
+            "They laughed because the man in the suit did not sweep or swat a flea,",
+            "he pooled dollars and bought lots of trucks — that’s private equity.",
+            "Kevin O'Leary smiled from his Shark Tank seat and called it more fun,",
+            "\"When you end up with a private-equity guy, your life gets far more interesting,\" he said, under the sun.",
+            "Jordi Hays on TBPN waved a microphone and made a claim,",
+            "\"Many women have always been attracted to bad boys and risk-takers,\" he named.",
+            "He pointed at capital allocators who bet in markets every day,",
+            "and in the joke they were pest-control princes, in their tidy way.",
+            "Leopold Aschenbrenner drifted through the scene like a thinking man,",
+            "not mopping floors but moving money according to plan.",
+            "The gags were a little true and a little absurd — a prestige sort of spin,",
+            "that private equity can feel like a badge for folks who’ve come from where they’ve been.",
+            "So the parties kept turning, with whispers and with cheer,",
+            "and the man with the model truck bought another company, then another, year to year.",
+            "The joke stayed in the room: pest-control men made life more bright,",
+            "but the work was not sweeping bugs — it was stacking capital by night.",
+            "What happened? The Wall Street Journal reported celebrities dating men who work in private equity, quoted Kevin O'Leary and Jordi Hays, and referenced Leopold Aschenbrenner. Private equity here means high-finance capital allocation to pest-control rollups rather than day-to-day pest-control management."
           ]
         },
         "middle": {

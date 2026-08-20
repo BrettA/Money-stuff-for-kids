@@ -27,15 +27,28 @@
           ]
         },
         "elementary": {
-          "title": "Nvidia Would Like to Help You Buy More Nvidia",
-          "lesson": "If AI needs enormous amounts of chips, power and data-center space, one way to invest is to finance the infrastructure instead of guessing which AI app wins. Nvidia and large investment firms discussed financing on a huge scale.",
+          "title": "The Rent for the Little Chips",
+          "lesson": "Nvidia and six investment firms are working to source $500 billion of mostly debt financing and dedicated capital pools for AI data centers; Nvidia may provide up to 25% residual-value support to lower financing costs.",
           "paragraphs": [
-            "AI companies need a ridiculous amount of expensive computer equipment, especially Nvidia chips.",
-            "This is an excellent business for Nvidia when a customer says, “We would like $10 billion of your chips.” There is just one problem: what if the customer does not have $10 billion?",
-            "One solution is to help the customer find the money. Nvidia and giant Wall Street firms have discussed financing hundreds of billions of dollars of AI equipment.",
-            "Imagine a kid orders 400 lemonades from your stand and then says, “I have no money.” You could send the kid away. Or you could help arrange a $400 lemonade loan.",
-            "Now the kid has 400 lemonades, you have $400, and the lender has a loan. Everyone is delighted unless the kid cannot pay it back.",
-            "Nvidia's version has many more zeroes, but underneath it is simple: We make the thing everyone wants. The thing is expensive. Perhaps we can also help everyone find the money to buy it."
+            "Tiny chips hum in a glowing room, and AI wakes to do the work,",
+            "But chips need houses, cool and snug — data centers, not a perk.",
+            "Jensen Huang spoke with people who lend cash by the ton,",
+            "Apollo, Blackstone, BlackRock, Brookfield, Goldman, KKR — all told him, “We’ll get it done.”",
+            "They said, “Let’s gather five hundred billion, a number huge and bold,”",
+            "To build places where the chips can live, and then to rent the mold.",
+            "They plan to lend with debt — so customers can buy the compute they need,",
+            "And Nvidia might promise help, backing up a quarter of the seed.",
+            "That twenty-five percent residual support makes loans a little less steep,",
+            "It’s like promising to cover some of a promise you might keep.",
+            "Some people said, “That sounds like owning rents — like land in Austen books,”",
+            "“Humans could earn forever — five percent in perpetuity — by owning the rooms where AI cooks.”",
+            "There’s also talk of putting retirement savings into these private pots,",
+            "Turning ordinary accounts into shares of big data-center lots.",
+            "It sounds grand and steady, but a bubble could still blow soap,",
+            "So builders, lenders, and Nvidia watch the worth of every hope.",
+            "Meanwhile the chips keep humming, doing work both small and great,",
+            "And people figure out who pays the rent, and who will share the gate.",
+            "What happened? Nvidia and six big investment firms agreed to source $500 billion of financing (mainly debt and dedicated capital pools) to fund AI data-center buildouts, and Nvidia said it may provide residual-value support for up to 25% to reduce financing costs."
           ]
         },
         "middle": {
@@ -89,14 +102,32 @@
           ]
         },
         "elementary": {
-          "title": "What If Elon Changes the Plan Again?",
-          "lesson": "Executive incentive plans reward specific goals, but a fast-changing entrepreneur may pivot to entirely different businesses. A very detailed pay plan can become outdated if the company itself changes direction.",
+          "title": "Stock Rockets and Robot Taxis",
+          "lesson": "Elon Musk’s Tesla pay deal has 12 stock tranches tied to market cap, earnings, and big product goals, but an escape clause says that if Tesla is bought, vesting will depend only on market-cap milestones, which could make many operational targets count as met and let Musk collect large portions of the $1 trillion award.",
           "paragraphs": [
-            "Companies sometimes promise bosses enormous rewards if they hit enormous goals. Tesla has done this with Elon Musk.",
-            "A long-term pay plan is basically a map of what the company thinks success will look like years from now.",
-            "This gets tricky with Musk, who has a habit of becoming interested in new things: cars, robotaxis, robots, AI, and perhaps something announced at 2 a.m. next Tuesday.",
-            "You can draw an extremely detailed treasure map.",
-            "It is less useful if the pirate decides halfway through that actually he would rather go to Mars."
+            "Elon drove cars and sent rockets to space,",
+            "He made bold plans at Tesla and kept a fast pace.",
+            "Twelve tranches of stock were waiting like doors,",
+            "They opened with market cap, profits, and product chores.",
+            "A million robotaxis out on the street,",
+            "Delivering a million humanoid robots — quite a feat.",
+            "Ten million full self-driving subscriptions in line,",
+            "Those were the targets written down, clear and fine.",
+            "But somewhere deep in a 16-page prize,",
+            "A single small sentence sharpened many eyes.",
+            "On page five it whispered a change that was sly:",
+            "\"In a change in control, the earning of tranches will be based solely on the Market Capitalization Milestones,\" — there it did lie.",
+            "If Tesla is bought, who cares how the robots hum? —",
+            "The maths say market value alone will make the sum.",
+            "$1 trillion was the number that shareholders approved,",
+            "A mountain of stock that a handshake could smooth.",
+            "Mary Ellen Carter called it less of a stretch,",
+            "\"All you have to do is be bought,\" she said, and that’s the sketch.",
+            "SpaceX might bid; Musk has sway in that fight,",
+            "So a buyout could turn operational goals into bright light.",
+            "The joke is absurd — robots, Mars colonies, data centers above,",
+            "But the paper’s little line means value alone can win the prize of love.",
+            "What happened? If Tesla is acquired or undergoes a change in control, vesting for many of Elon Musk’s 12 stock tranches under the 2025 CEO Performance Award Agreement is determined solely by market-cap milestones, effectively treating many operational targets as satisfied and enabling large portions of the roughly $1 trillion award to vest."
           ]
         },
         "middle": {
@@ -150,15 +181,22 @@
           ]
         },
         "elementary": {
-          "title": "The $420 SpaceX Investment That Cost $498",
-          "lesson": "Private-company shares can be repackaged through special-purpose vehicles and sold to retail investors at large markups. Transparency matters especially when the person arranging the deal is also profiting from the markup.",
+          "title": "The SpaceX Shares That Traveled Twice",
+          "lesson": "Adit Ventures used investor fund loans to buy interests in SpaceX at $420 per share and then resold those interests to client funds at about $498 per share, keeping the undisclosed $78-per-share markup (about $1,020,000 on 13,100 shares). The SEC charged Adit Ventures Management LLC and Eric Munson in a complaint covering April 2019–December 2024.",
           "paragraphs": [
-            "Lots of people wanted SpaceX shares, but for a long time you could not just open a stock app and buy them.",
-            "So middlemen created SPVs: little investment companies that bought SpaceX shares and then sold investors pieces of the little company.",
-            "Suppose the SPV gets $420 worth of SpaceX exposure and sells it to you for $498. The extra $78 goes to the person arranging the deal.",
-            "A markup is not automatically bad. Grocery stores buy cereal for less than they sell it for.",
-            "But imagine the store said, “GREAT NEWS! We have obtained an exclusive investment opportunity in Cheerios,” and only later you learned how much it had marked up the Cheerios.",
-            "You might suddenly understand why the store was so enthusiastic about your exciting opportunity."
+            "Listen close — this story's oddly true, about shares that passed from hand to shoe.",
+            "Eric Munson ran Adit Ventures’ crew, and bought a lot of SpaceX shares too.",
+            "He found a pile of thirteen thousand one hundred and more, 13,100 shares lay at his door.",
+            "At $420 each that was the cost, a price the seller said they’d lost.",
+            "But then a new fund came knocking through, and Adit sold interests for $498 to you.",
+            "That’s $78 extra, per share the spread, a tidy sum that filled a bed.",
+            "Multiply that markup by 13,100 whole, and Adit kept about $1,020,000 in its bowl.",
+            "In one move, on June 30, 2021, $1.2 million came from Ethos’s sun — a loan that paid to buy the prize, then the shares were moved before investors’ eyes.",
+            "The books reported an “Original” price that looked the same; the hidden profit was the quiet game.",
+            "People paid more because the funds were bundled and sold, and the story’s strange part — it happened as told.",
+            "When SpaceX later became a public name, many found they hadn’t held the thing that earned them fame.",
+            "The SEC said this ran from April 2019 through December 2024, and charged Adit Ventures Management LLC, CEO Eric Munson, and affiliated general partners for the scheme they bore.",
+            "What happened? Adit Ventures’ general partners used investor fund capital and loans (including a $1.2 million loan from Fund Ethos Holdings SPV, LP on June 30, 2021) to acquire an interest in 13,100 SpaceX shares at roughly $420 per share, then resold equivalent interests to client funds at about $498 per share, keeping an undisclosed $78-per-share markup (about $1,020,000). The SEC charged Adit Ventures Management LLC, CEO Eric Munson, and affiliated general partners for fraud covering April 2019–December 2024."
           ]
         },
         "middle": {
@@ -212,15 +250,32 @@
           ]
         },
         "elementary": {
-          "title": "The Fancy Tax Trick Coming to Regular Investors",
-          "lesson": "Sophisticated tax-aware long-short strategies began with wealthy and institutional investors and are becoming automated enough to market to ordinary investors. Financial innovations often move from bespoke and expensive to standardized and cheaper.",
+          "title": "The Trick That Traveled from Wall Street to Your Phone",
+          "lesson": "A tax-aware long-short strategy built at AQR for wealthy partners is now being marketed on YouTube and TikTok; it’s quant-driven and automatable, but implementation costs and tracking error can make it unattractive for smaller accounts like IRAs or 401(k)s.",
           "paragraphs": [
-            "Very wealthy investors can hire people to build portfolios specially designed around their taxes.",
-            "One trick owns lots of stocks while also betting against others. Losses on some positions can sometimes help offset taxes on gains elsewhere.",
-            "It is complicated, which historically made it the sort of thing offered to rich clients with teams of professionals.",
-            "But computers are good at doing complicated things repeatedly, so firms are turning these strategies into products for more ordinary investors.",
-            "This happens a lot in finance: first somebody invents a custom trick for a billionaire, then computers make it cheaper, and eventually your brokerage app gets a button for it.",
-            "Perhaps the button will say FANCY BILLIONAIRE TAX STUFF."
+            "Once upon a city where tall money towers gleam,",
+            "AQR Capital Management dreamed up a clever scheme.",
+            "They built it for partners who co-invested side by side,",
+            "A product made 'just selfishly' that hedge funds could ride.",
+            "It helped tidy up taxes — people called it tax-aware long-short —",
+            "A quant-y, clever way to shift gains and losses into sort.",
+            "At first it was secret and built for the very rich,",
+            "But clever machines and copy made the cost begin to switch.",
+            "Soon other firms replicated the design with fewer tears,",
+            "The work got cheaper, automated, fitted into gears.",
+            "Then a Bloomberg crew — Charlie Wells, Denitsa Tsekova, Isabelle Lee —",
+            "Wrote how advisers began to sell it where lots of people can see.",
+            "An executive on YouTube walked through a leafy lane and said,",
+            "“There are maneuvers the wealthy have used for years to lower their tax bills that now you can access, too,” he pled.",
+            "A podcast host chimed, “Listen carefully in case you’re sick of paying high taxes,” with a grin,",
+            "While an Instagram adviser taught, “Owning individual securities equals freedom to harvest losses,” with a spin.",
+            "It sounds like magic: turn clever trades into tax alpha that lasts,",
+            "But Jeffrey Janson of Fiduciary Financial Advisors warns of costs that cut the casts.",
+            "Implementation fees, tracking error, and over-optimization’s snare",
+            "Can make the effort not worth the reward for smaller accounts that care.",
+            "Still, if finance keeps getting more efficient and machines keep doing the chores,",
+            "One day the joke goes, maybe investors pay no capital gains taxes at all — who knows what’s in store?",
+            "What happened? A tax-aware long-short strategy invented at AQR for partners was automated and then marketed to mass audiences on YouTube, TikTok, and Instagram; it’s quant-driven and can reduce taxable gains, but Jeffrey Janson notes implementation costs, tracking error, and limited benefit for smaller IRAs or 401(k)s can offset the advantage."
           ]
         },
         "middle": {

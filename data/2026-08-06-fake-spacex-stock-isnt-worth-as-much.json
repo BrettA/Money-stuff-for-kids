@@ -28,16 +28,30 @@
           ]
         },
         "elementary": {
-          "title": "The SpaceX Shares That Might Not Be There",
-          "lesson": "An SPV can make hard-to-buy investments accessible, but investors still need a trustworthy way to verify what the SPV actually owns.",
+          "title": "When the Lockup Opens: The Case of the Phantom SpaceX Shares",
+          "lesson": "An SPV (special purpose vehicle) is supposed to own underlying private-company shares and give investors pro rata ownership, but transfer restrictions and opaque recordkeeping can let SPV promoters claim or sell more shares than they actually hold, leaving investors with only account statements rather than registered shares.",
           "paragraphs": [
-            "For years, SpaceX was private, so ordinary investors could not simply open an app and buy its stock. One workaround was an SPV, or special purpose vehicle: a small fund that bought SpaceX shares and then sold investors pieces of the fund.",
-            "That sounds straightforward. The SPV owns the SpaceX shares; you own part of the SPV; therefore you indirectly own some SpaceX.",
-            "Except there is an awkward question: what if the SPV does not own as many SpaceX shares as it says? It could take $10 million from investors, buy only $1 million of shares and somehow discover an urgent need for $9 million worth of yachts.",
-            "Before SpaceX went public, checking was difficult because the shares were private and often could not be transferred. Even after the IPO, early shares were locked up for a while. An investor could mostly see an account statement and hope the statement corresponded to something real.",
-            "The Wall Street Journal wrote about investor Ram Rupireddy, who put money into a Late Stage Management fund tied to SpaceX. His portal later showed what he believed was a very valuable SpaceX position, but the firm told him the underlying shares had actually been sold years earlier. Late Stage did not respond to the Journal’s requests for comment.",
-            "Now the first SpaceX lockups are ending. That creates a wonderfully simple audit procedure: investors can ask for the shares or the cash.",
-            "If the answer is ‘Of course, here they are,’ great. If the answer is ‘Sorry, you’re breaking up, I’m in a tunnel, what is SpaceX?’ the accounting has become more exciting than anyone wanted."
+            "In a little online box called an SPV, people bought a piece of SpaceX's sky,",
+            "They paid a sum, they  clicked \"confirm,\" they trusted the numbers on the fly.",
+            "Ram Rupireddy wired in his money — $17,250 was sent along,",
+            "Late Stage Management said they held the stock; the portal sang the same old song.",
+            "Back then he thought SpaceX was worth about $58 billion on the sheet,",
+            "Then June arrived and SpaceX leapt to $1.77 trillion — a carnival feat.",
+            "Ram saw his portal list 2,500 shares, a number he took as true,",
+            "At the IPO price he guessed that that meant more than $300,000 in view.",
+            "But Late Stage later emailed, saying the SPV sold shares in 2024,",
+            "At around $105 each (that was before a 5-1 stock split they swore).",
+            "So the firm said his holding then was worth $45,450 — a very different song,",
+            "And the portal and the tax form and the story did not easily belong.",
+            "SPVs can own real stock, or just the paper that pretends to be,",
+            "Promoters could spend on yachts while account statements promise the sea.",
+            "There are at least a thousand SpaceX-tied SPVs, bankers say,",
+            "And when the lockup opens — that’s the test — investors will ask for shares that day.",
+            "Some will get rocket stock in hand, some will get cash for what was sold,",
+            "Some might find their login dead, the answers curt, the portal cold.",
+            "True or fake, the muddle proves how trust can bend and sometimes break,",
+            "And now the market tide has gone out — we’ll see who’s been truly awake.",
+            "What happened? A special purpose vehicle (SPV) sold interests that purported to give investors pro rata ownership of SpaceX shares, but because private-company shares were transfer-restricted and the SPV kept only account statements, investors could not confirm registered ownership; when SpaceX IPO’d at a $1.77 trillion valuation, Late Stage Management told Ram Rupireddy that the SPV had sold the SpaceX shares in 2024 at about $105 each (pre 5-1 split), leaving his holding valued at $45,450, while his investor portal and tax form had indicated an equivalent of 2,500 shares worth over $300,000 at the IPO price."
           ]
         },
         "middle": {
@@ -91,17 +105,26 @@
           ]
         },
         "elementary": {
-          "title": "Use OpenAI to Buy More OpenAI",
-          "lesson": "A margin loan uses an investment as collateral; borrowing against the same investment you are buying makes both the upside and the downside bigger.",
+          "title": "Borrowing Against OpenAI to Buy More OpenAI",
+          "lesson": "SoftBank Group used its OpenAI stake to borrow $10 billion from banks, and will pay another $10 billion by October as the final part of a $30 billion investment. The loan is a margin loan requiring SoftBank to inject cash if its valuation falls; OpenAI shares are not publicly traded, so pricing is harder.",
           "paragraphs": [
-            "SoftBank really likes OpenAI. It agreed to invest about $30 billion in the company.",
-            "It also had a small financing question: where should some of that money come from?",
-            "Answer: OpenAI.",
-            "SoftBank used its existing OpenAI stake as collateral for a $10 billion loan from banks. Then that cash helps SoftBank buy another $10 billion of OpenAI shares.",
-            "This is called a margin loan. With a public stock, a bank can watch the price every second and demand more collateral if the stock falls. OpenAI is private, so there is no blinking stock price on a screen, which makes the bank’s job stranger. The deal still requires SoftBank to add cash if OpenAI’s valuation falls enough.",
-            "Normally banks are cautious about lending huge sums against shares of young, money-losing private companies. But OpenAI is so valuable—and so much other financing already depends on the AI boom—that Wall Street is increasingly willing to treat its equity as something you can borrow against.",
-            "The neat circular sentence is: SoftBank is borrowing against OpenAI to buy more OpenAI.",
-            "If OpenAI keeps becoming more valuable, that looks clever. If OpenAI’s value collapses, the collateral and the thing SoftBank spent the borrowed money on both have the same problem at the same time."
+            "A company called SoftBank had a share, a bright and shiny part of OpenAI’s heart.",
+            "They loved the idea of owning more, so they knocked upon the bankers’ door.",
+            "The banks said, “We’ll lend you cash, ten billion dollars we’ll stash.”",
+            "SoftBank smiled and took the loan, and put its OpenAI stake up as a stone.",
+            "The money's for buying more of the same: another ten billion is the next claim,",
+            "It’s the last piece of a thirty-billion plan, due by October—buy more if you can.",
+            "Banks usually lend against stocks you can see; public prices tell them what things be.",
+            "But OpenAI’s shares are private, not on a public street—the price is hidden, so the risk is steep.",
+            "In normal margin loans you must add cash if prices dip, or the lender can seize what’s on the ship.",
+            "SoftBank agreed that if its value should fall, it would add cash so the banks won’t stall.",
+            "So many people in finance now joke and groan, “Borrowing against OpenAI to buy more OpenAI” — that’s grown",
+            "into a funny, risky loop where the same thing funds itself, and a small wobble could hurt many on the shelf.",
+            "Other firms, like Anthropic, sit in a similar crowd; lenders build big deals and sometimes speak aloud",
+            "about data-center bonds and pledges to pay for compute, turning future deals into today’s money to route.",
+            "If the valuation collapses, banks that lent this cash will be in trouble fast — and so will many more in the cast.",
+            "This all shows how a single bet can stretch and bend: one loan, another buy, and the risk can spread to no end.",
+            "What happened? SoftBank Group used its stake in OpenAI as collateral to borrow $10 billion from banks and plans to pay another $10 billion by October as the final part of a $30 billion investment. The loan is a margin loan that requires SoftBank to inject additional cash if its valuation falls, and OpenAI’s shares are not publicly traded so pricing is harder."
           ]
         },
         "middle": {
@@ -219,17 +242,26 @@
           ]
         },
         "elementary": {
-          "title": "The AI Investor Who Apparently Does Not Take Weekends Off",
-          "lesson": "You can be right about an investment theme and still get hurt by a dangerous way of financing it.",
+          "title": "Leo’s Fast, Loud Leap",
+          "lesson": "Long rhyming picture-book about the real events: margin calls, Citadel seizing public assets, $400 million into a private company, and his decision about leverage.",
           "paragraphs": [
-            "Leopold Aschenbrenner built an investment firm called Situational Awareness around a giant idea: artificial intelligence is advancing faster, and will matter more, than most people realize.",
-            "He may be right about that!",
-            "But his hedge fund also used a lot of borrowed money. When its public investments fell, lenders made margin calls—demands for cash or collateral. The fund nearly collapsed, and much of its public portfolio ended up being taken over by Citadel.",
-            "This suggests a useful distinction: ‘AI will be huge’ is an investment idea. ‘I should borrow enormous amounts of money that lenders can demand back at the worst possible moment’ is a financing idea. The first can be right while the second is disastrous.",
-            "So what did Leopold do after the near-collapse? He reportedly invested $400 million in another private company.",
-            "Also, he got married that weekend.",
-            "Some people might respond to losing tens of billions of dollars of investor value and getting married by taking several days off. Leopold’s apparent response was: the AI future is still arriving; why are we wasting time?",
-            "The new version of the strategy seems to be less borrowed-money fragility, but still very much full speed ahead on AI."
+            "He watched the light on his screen and said, \"AI is coming fast,\" with eyes that shone like chrome,",
+            "But bets that stretch on borrowed cash can topple towers made of foam.",
+            "He ran a hedge fund called Situational Awareness, proud and bold and clever,",
+            "A long/short book, a plan with 5x leverage — a ladder that might not hold forever.",
+            "One morning papers fluttered in: margin calls, the lenders calling loud,",
+            "Citadel and others wanted cash; his public holdings lost their crowd.",
+            "His portfolio’s edges were pulled into the maw of jaws that seize and bind,",
+            "Tens of billions, we are told, went misty in the wind left behind.",
+            "Most people might unpack their bags and find a quiet, gentle place to rest,",
+            "But Leo, fresh from vows and rings, put cash into a different quest.",
+            "He plunked down four hundred million — $400,000,000 — into a company not on any public floor,",
+            "A private bet on AI’s quickness, because he said the future’s knocking at the door.",
+            "Some called it brash, some called it brave; the picture tasted oddly sweet:",
+            "He’d learned to cut the borrowed rope, he’d slow the leverage of his feet.",
+            "Yet still he liked his venture route, where startups bloom out of a seed,",
+            "So he stopped the borrowed cliff and kept the pace he thought they need.",
+            "What happened? Aschenbrenner’s hedge fund Situational Awareness ran a long/short portfolio at about 5x gross leverage and faced margin calls from lenders, including actions that let Citadel take down much of his public positions. Days after those margin calls, he invested $400,000,000 into a privately held company and said he would stop using leverage but continue investing in private AI opportunities."
           ]
         },
         "middle": {
@@ -283,19 +315,20 @@
           ]
         },
         "elementary": {
-          "title": "Would You Like Your Consulting Salary in Snakes?",
-          "lesson": "People sometimes accept little or no cash pay when they think an opportunity offers valuable experience, status or future career benefits.",
+          "title": "HUCG’s Big Night (with Snakes)",
+          "lesson": "Harvard undergrads in the Harvard Undergraduate Consulting Group did paid consulting for companies but were not paid; the group reported almost $7 million in revenue since 2017 and had $2.7 million in net assets as of June 30, 2025, and used some of that money for lavish parties.",
           "paragraphs": [
-            "Professional consulting firms hire smart college graduates, send them to companies, have them make presentations about business problems, and pay them good salaries.",
-            "The Harvard Undergraduate Consulting Group found an economical variation: use Harvard students before they graduate.",
-            "The club worked on more than 30 assignments in a year for companies including AstraZeneca, Delta Air Lines and Samsung. Since 2017 it has brought in almost $7 million of revenue, and its net assets reached more than $2.7 million.",
-            "How much did the student consultants earn for doing the work?",
-            "Zero dollars in salary.",
-            "This did not make the club unpopular. About 450 students applied in a semester and roughly 10% got in, because consulting experience and a prestigious club can help people compete for six-figure jobs after graduation.",
-            "So if the club earns millions and does not pay wages, where does some of the money go? Among other things: parties.",
-            "One celebration at a Newport estate had a fancy dinner, a bar, a fire pit, bouquet-making—and an exotic petting zoo with pythons.",
-            "Matt Levine says he is old-fashioned and would prefer to be paid for work in cash rather than parties with snakes.",
-            "The students, apparently, have discovered a different compensation package."
+            "At Harvard there’s a club with a serious name, HUCG, a consulting game.",
+            "They took on work for AstraZeneca, Delta, Samsung too — over thirty jobs in a year, the kind grown-ups usually do.",
+            "Bloomberg’s Samuel Church found the papers and the files, showing students doing projects that would normally pay adults lots of miles.",
+            "Since 2017 the club has brought in nearly seven million bucks, and by June 30, 2025 its net assets stood at $2.7 million — not bad for student lucks.",
+            "About 450 hopefuls try each term to get inside — only about ten percent succeed, said Noreen Mohamed, the director’s guide.",
+            "The application mimics the pros: a written form, a first interview, a mock case study and a final show — a pathway that trains you to land a six-figure job one day, or so.",
+            "But here’s the odd and slightly silly, yet true, part of this book: HUCG doesn’t pay the students a salary for the work they took.",
+            "Instead the club throws parties on a very grand scale — an estate in Newport, food choices like sirloin or duck on the plate you hail.",
+            "There were bars that were open, a fire pit, bouquet-making with flair, and pythons for pictures wrapped around a neck or arm with daring air.",
+            "To be clear: Harvard students did paid consulting for big clients, the club reported almost $7 million since 2017 and net assets of $2.7 million as of June 30, 2025, but members did not receive salaries and the organization spent money on lavish events.",
+            "What happened? HUCG contracted with companies (AstraZeneca, Delta Air Lines, Samsung Electronics) and generated nearly $7 million in revenue since 2017, with $2.7 million in net assets as of June 30, 2025; students were unpaid and funds were used for large social events including a Newport estate party with multi-course meals and a reptile petting zoo."
           ]
         },
         "middle": {
