@@ -4,7 +4,8 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt,
-  assertNoReusableBoilerplate, entityAppearsInSource, generateStory, parse, storyInstructions
+  ILLUSTRATION_STYLE_PROMPT, assertNoReusableBoilerplate, entityAppearsInSource,
+  assertStorySetEditorialOutput, generateImage, generateStory, isPictureBookStyle, parse, storyInstructions
 } = require('../scripts/lib/openai-generation');
 const { isPlaceholderIllustrationAlt } = require('../scripts/lib/illustration-alt');
 const { storyGeneration } = require('../scripts/lib/edition-schema');
@@ -35,18 +36,18 @@ function validRhymingStory() {
 }
 
 test('provides model defaults while allowing the workflow environment to override them', () => {
-  assert.equal(DEFAULT_GENERATION_STYLE, 'rhyming-picture-book');
+  assert.equal(DEFAULT_GENERATION_STYLE, 'picture-book-narrative');
   assert.equal(DEFAULT_TEXT_MODEL, 'gpt-5-mini');
   assert.equal(DEFAULT_IMAGE_MODEL, 'gpt-image-1.5');
 });
 
-test('rhyming prompt protects the real story and picture-book structure', () => {
+test('picture-book prompt protects the real story while making rhyme optional', () => {
   const instructions = storyInstructions();
   for (const requirement of [
     /real people/i, /real companies/i, /numbers needed to understand the story/i,
     /actual financial mechanism/i, /central joke or absurdity/i, /coherent narrative/i,
-    /250–400 words/i, /strong read-aloud rhythm/i, /frequent rhyme/i,
-    /often in couplets/i, /What happened\?/i
+    /250–400 words/i, /strong read-aloud flow/i, /little or no rhyme is acceptable/i,
+    /What happened\?/i
   ]) assert.match(instructions, requirement);
   assert.match(instructions, /Never invent a person or company/i);
   assert.match(instructions, /lemonade stands, allowances, apples/i);
@@ -54,9 +55,51 @@ test('rhyming prompt protects the real story and picture-book structure', () => 
   assert.match(instructions, /sentence-by-sentence and append rhyming suffixes/i);
   assert.match(instructions, /authored children’s story/i);
   assert.match(instructions, /Never split a proper noun, company name, number, abbreviation/i);
-  assert.match(instructions, /Prefer slant rhyme/i);
   assert.match(instructions, /prefer an unrhymed line/i);
+  assert.match(instructions, /Natural, idiomatic English and factual fidelity are absolute requirements/i);
+  assert.match(instructions, /Never convert percentage returns into multiples incorrectly/i);
+  assert.match(instructions, /Never change buying into selling/i);
+  assert.match(instructions, /Do not invent direct quotations unless the source contains that quotation/i);
+  assert.match(instructions, /read every story line as normal prose/i);
   assert.match(instructions, /Do not repeat the lesson text/i);
+});
+
+test('illustration planning requires the story-specific weird event instead of generic finance art', () => {
+  const instructions = storyInstructions();
+  assert.match(instructions, /specific section’s weird core event or financial mechanism/i);
+  assert.match(instructions, /who is doing what/i);
+  assert.match(instructions, /never fall back to generic money, banking, trading, or finance imagery/i);
+  assert.match(instructions, /Rendered text is allowed only when it helps tell this story/i);
+  assert.match(instructions, /real company name, sign, short label, or tiny caption/i);
+  assert.match(instructions, /infographic, fake website, dashboard, app screen, or screenshot/i);
+});
+
+test('image generation applies the consistent preschool board-book style', async () => {
+  let request;
+  const png = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
+  const client = { images: { generate: async value => {
+    request = value;
+    return { data: [{ b64_json: png.toString('base64') }] };
+  } } };
+
+  await generateImage({
+    client,
+    model: DEFAULT_IMAGE_MODEL,
+    prompt: 'A goat swaps a risk contract with a banker while two price tags change places.'
+  });
+
+  assert.match(request.prompt, /goat swaps a risk contract/i);
+  for (const attribute of [
+    /bright preschool board-book illustration/i, /cheerful, polished/i, /cartoonish rather than lifelike/i,
+    /rounded shapes/i, /clean confident outlines/i, /flat vivid colors/i,
+    /simplified friendly cartoon people/i, /playful, busy-but-clear scene/i,
+    /small story-relevant details/i, /actual unusual event and mechanism/i
+  ]) assert.match(request.prompt, attribute);
+  assert.match(request.prompt, /Text may appear only when useful to this specific story/i);
+  assert.match(request.prompt, /real company name, a sign, a short label, or a small caption/i);
+  assert.match(request.prompt, /text-heavy infographic layouts, fake websites, dashboards/i);
+  assert.equal(request.prompt.endsWith(ILLUSTRATION_STYLE_PROMPT), true);
+  assert.doesNotMatch(request.prompt, /no words|no typography/i);
 });
 
 test('rhyming validation rejects proper nouns broken across lines and generic suffix filler', async () => {
@@ -75,7 +118,7 @@ test('rhyming validation rejects proper nouns broken across lines and generic su
 
   const proseWithSuffix = validRhymingStory();
   proseWithSuffix.adaptations.elementary.paragraphs[0] += ' The deal was announced. The next shows why plans can fail.';
-  await assert.rejects(generate(proseWithSuffix), /reusable rhyme filler/);
+  await assert.rejects(generate(proseWithSuffix), /prohibited filler/);
 });
 
 test('edition validation flags repeated multi-word boilerplate without scoring rhyme generally', () => {
@@ -89,7 +132,23 @@ test('edition validation flags repeated multi-word boilerplate without scoring r
   assert.doesNotThrow(() => assertNoReusableBoilerplate([first, distinct]));
 });
 
-test('generation defaults to rhyme while retaining an explicit legacy escape hatch', async () => {
+test('both picture-book style names get cross-story validation while legacy remains unaffected', () => {
+  const repeated = [validRhymingStory(), validRhymingStory()];
+  assert.equal(isPictureBookStyle('picture-book-narrative'), true);
+  assert.equal(isPictureBookStyle('rhyming-picture-book'), true);
+  assert.equal(isPictureBookStyle('legacy'), false);
+  assert.throws(
+    () => assertStorySetEditorialOutput(repeated, 'picture-book-narrative'),
+    /repeat suspicious boilerplate/
+  );
+  assert.throws(
+    () => assertStorySetEditorialOutput(repeated, 'rhyming-picture-book'),
+    /repeat suspicious boilerplate/
+  );
+  assert.doesNotThrow(() => assertStorySetEditorialOutput(repeated, 'legacy'));
+});
+
+test('generation defaults to a picture-book narrative while retaining compatibility and a legacy escape hatch', async () => {
   const calls = [];
   const client = { responses: { parse: async request => {
     calls.push(request);
@@ -99,12 +158,13 @@ test('generation defaults to rhyme while retaining an explicit legacy escape hat
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, priorValidationError: 'missing final What happened?' });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'legacy' });
-  assert.match(calls[0].instructions, /rhyming picture-book story/i);
+  assert.match(calls[0].instructions, /picture-book narrative with optional rhyme/i);
   assert.match(calls[1].instructions, /complete replacement output, not a patch/i);
   assert.match(calls[1].input, /missing final What happened/);
-  assert.doesNotMatch(calls[2].instructions, /rhyming picture-book story/i);
+  assert.doesNotMatch(calls[2].instructions, /picture-book narrative with optional rhyme/i);
   assert.match(calls[2].instructions, /Preschool must be simple but factual/i);
   await assert.rejects(generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'unknown' }), /Unknown generation style/);
+  assert.match(storyInstructions('rhyming-picture-book'), /picture-book narrative with optional rhyme/i);
 });
 
 test('rhyming editorial validation rejects structural and source-fidelity regressions', async () => {

@@ -2,15 +2,9 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { DEFAULT_IMAGE_MODEL, clientFor, generateImage } = require('./openai-generation');
-
-const ILLUSTRATION_HOUSE_STYLE = [
-  'Create a warm, sophisticated editorial illustration for a children\'s financial-news picture book.',
-  'Use hand-painted gouache and colored-pencil textures, simple rounded shapes, expressive but natural characters, and a restrained palette of teal, coral, mustard, cream, and deep navy.',
-  'Compose one clear story moment with a strong focal point, gentle humor, generous breathing room, and details grounded only in the supplied scene.',
-  'Keep recognizable people respectful rather than caricatured. Do not add facts, people, brands, flags, charts, interfaces, or objects not supported by the scene.',
-  'Square composition. No words, letters, numbers, captions, logos, watermarks, or typography. Do not imitate a named living artist.'
-].join(' ');
+const {
+  DEFAULT_IMAGE_MODEL, ILLUSTRATION_CONTENT_INSTRUCTIONS, clientFor, finalImagePrompt, generateImage
+} = require('./openai-generation');
 
 function selectStories(edition, storyId = '') {
   const stories = Array.isArray(edition.stories) ? edition.stories : [];
@@ -23,13 +17,13 @@ function selectStories(edition, storyId = '') {
   return [story];
 }
 
-function illustrationPreviewPrompt(edition, story) {
+function illustrationPreviewContentPrompt(edition, story) {
   const scene = story.illustration && story.illustration.alt;
   if (!scene || !String(scene).trim()) {
     throw new Error(`Story ${story.id} has no canonical illustration scene`);
   }
   return [
-    ILLUSTRATION_HOUSE_STYLE,
+    ILLUSTRATION_CONTENT_INSTRUCTIONS,
     `Story context: ${story.adaptations.elementary.title}.`,
     `Scene to illustrate exactly: ${String(scene).trim()}`
   ].join('\n');
@@ -74,16 +68,17 @@ async function runPreview({ root, editionId, storyId = '', label = '', outputDir
     model, editionId, requestedStoryId: String(storyId || ''), stories: []
   };
   for (const story of stories) {
-    const finalPrompt = illustrationPreviewPrompt(edition, story);
-    const image = await generateImage({ client: imageClient, model, prompt: finalPrompt, promptIsFinal: true });
+    const contentPrompt = illustrationPreviewContentPrompt(edition, story);
+    const exactFinalPrompt = finalImagePrompt(contentPrompt);
+    const image = await generateImage({ client: imageClient, model, prompt: contentPrompt });
     const filename = `${story.id}.png`;
     fs.writeFileSync(path.join(destination, filename), image.bytes, { flag: 'wx' });
     manifest.stories.push({ storyId: story.id, storyTitle: story.adaptations.elementary.title,
-      sourceSection: story.sourceSection, filename, finalImagePrompt: finalPrompt });
+      sourceSection: story.sourceSection, filename, finalImagePrompt: exactFinalPrompt });
   }
   fs.writeFileSync(path.join(destination, 'manifest.json'), `${JSON.stringify(manifest, null, 2)}\n`, { flag: 'wx' });
   return { artifactName: name, destination, manifest };
 }
 
-module.exports = { ILLUSTRATION_HOUSE_STYLE, artifactName, illustrationPreviewPrompt, loadEdition,
+module.exports = { artifactName, illustrationPreviewContentPrompt, loadEdition,
   runPreview, safeName, selectStories };

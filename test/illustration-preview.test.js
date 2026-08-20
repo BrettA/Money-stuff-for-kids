@@ -6,8 +6,11 @@ const os = require('node:os');
 const path = require('node:path');
 const test = require('node:test');
 const {
-  ILLUSTRATION_HOUSE_STYLE, artifactName, illustrationPreviewPrompt, loadEdition, runPreview, selectStories
+  artifactName, illustrationPreviewContentPrompt, loadEdition, runPreview, selectStories
 } = require('../scripts/lib/illustration-preview');
+const {
+  ILLUSTRATION_CONTENT_INSTRUCTIONS, ILLUSTRATION_STYLE_PROMPT, finalImagePrompt
+} = require('../scripts/lib/openai-generation');
 
 const root = path.resolve(__dirname, '..');
 const editionId = '2026-07-30-the-situation-deteriorated';
@@ -22,10 +25,13 @@ test('selects all canonical stories or one requested story', () => {
 test('constructs an exact house-style prompt from canonical story data', () => {
   const edition = loadEdition(root, editionId);
   const story = selectStories(edition, 'ionic')[0];
-  const prompt = illustrationPreviewPrompt(edition, story);
-  assert.match(prompt, new RegExp(ILLUSTRATION_HOUSE_STYLE.slice(0, 40)));
-  assert.match(prompt, /Scene to illustrate exactly: Workers inside a large Ward County/);
-  assert.match(prompt, new RegExp(story.adaptations.elementary.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
+  const contentPrompt = illustrationPreviewContentPrompt(edition, story);
+  const prompt = finalImagePrompt(contentPrompt);
+  assert.equal(contentPrompt.startsWith(ILLUSTRATION_CONTENT_INSTRUCTIONS), true);
+  assert.equal(prompt.endsWith(ILLUSTRATION_STYLE_PROMPT), true);
+  assert.equal(prompt.split(ILLUSTRATION_STYLE_PROMPT).length - 1, 1);
+  assert.match(contentPrompt, /Scene to illustrate exactly: Workers inside a large Ward County/);
+  assert.match(contentPrompt, new RegExp(story.adaptations.elementary.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
 });
 
 test('fails clearly for invalid or missing editions', () => {
@@ -54,6 +60,10 @@ test('writes PNG previews and an exact prompt manifest without touching canonica
   const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'illustration-preview-test-'));
   const canonicalPath = path.join(root, 'data', `${editionId}.json`);
   const before = fs.readFileSync(canonicalPath);
+  const productionImages = new Map(loadEdition(root, editionId).stories.map(story => {
+    const productionImage = path.join(root, story.illustration.src.replace(/^\//, ''));
+    return [productionImage, fs.readFileSync(productionImage)];
+  }));
   const png = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10, 1]);
   const prompts = [];
   const client = { images: { generate: async request => {
@@ -70,4 +80,5 @@ test('writes PNG previews and an exact prompt manifest without touching canonica
   assert.equal(manifest.generatedAt, '2026-08-20T12:34:56.000Z');
   assert(fs.readFileSync(path.join(result.destination, 'revlon.png')).equals(png));
   assert(fs.readFileSync(canonicalPath).equals(before));
+  for (const [filename, original] of productionImages) assert(fs.readFileSync(filename).equals(original));
 });

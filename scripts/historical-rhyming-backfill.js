@@ -31,7 +31,7 @@ function safeReason(error) {
 
 function retryFeedback(error) {
   const reason = String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ');
-  const shortStory = reason.match(/Elementary rhyming story must be 250–400 words \(received (\d+)\)/);
+  const shortStory = reason.match(/Elementary picture-book narrative must be 250–400 words \(received (\d+)\)/);
   if (shortStory && Number(shortStory[1]) < 250) {
     return `The previous output was too short: it contained exactly ${shortStory[1]} words. The required range is 250–400 words. Expand the story naturally by adding source-supported explanation or narrative detail. Do not add filler, invented facts, decorative imagery, or distortions just to reach the required length. Preserve all existing factual and natural-English priorities.`;
   }
@@ -141,10 +141,10 @@ function markdownSummary(results) {
   const total = results.reduce((sum, item) => sum + item.total, 0);
   const failures = results.flatMap(item => item.failures.map(failure => ({ edition: item.editionId, ...failure })));
   const lines = [
-    '## Historical Elementary rhyming backfill', '',
+    '## Historical Elementary picture-book backfill', '',
     `- Successfully regenerated **${successes} of ${total}** stories.`,
     '- Canonical source: authenticated Gmail messages recorded for the published editions.',
-    '- Generation: the production `generateStory` / `rhyming-picture-book` path and its hardened validators.',
+    '- Generation: the production `generateStory` / `picture-book-narrative` path and its hardened validators.',
     '- Preservation: only Elementary adaptation fields were replaced; other ages, checklists, images, provenance, and schema metadata were preserved.',
     '- Validation: per-story word count, `What happened?`, stock/meta-rhyme, source/entity fidelity, proper-name line-break, and cross-story reusable-boilerplate guards ran during generation.',
     '', '### Counts per edition', ''
