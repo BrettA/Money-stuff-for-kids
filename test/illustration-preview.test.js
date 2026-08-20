@@ -46,6 +46,7 @@ test('creates unique, label-safe artifact names', () => {
 
 test('preview workflow is manual-only and cannot publish or write repository contents', () => {
   const workflow = fs.readFileSync(path.join(root, '.github/workflows/illustration-preview.yml'), 'utf8');
+  const jobEnv = workflow.slice(workflow.indexOf('    env:'), workflow.indexOf('    steps:'));
   assert.match(workflow, /^on:\n  workflow_dispatch:/m);
   assert.match(workflow, /edition_id:/);
   assert.match(workflow, /story_id:/);
@@ -53,6 +54,8 @@ test('preview workflow is manual-only and cannot publish or write repository con
   assert.match(workflow, /OPENAI_API_KEY: \$\{\{ secrets\.OPENAI_API_KEY \}\}/);
   assert.match(workflow, /actions\/upload-artifact@v4/);
   assert.match(workflow, /contents: read/);
+  assert.doesNotMatch(jobEnv, /\$\{\{ runner\.temp \}\}/);
+  assert.match(workflow, /- uses: actions\/checkout@v4\n\s+- name: Set preview output directory\n\s+run: echo "PREVIEW_OUTPUT_DIRECTORY=\$RUNNER_TEMP\/illustration-previews" >> "\$GITHUB_ENV"/);
   assert.doesNotMatch(workflow, /\b(push|publish|commit)\b/i);
 });
 

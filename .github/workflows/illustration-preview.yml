@@ -29,9 +29,10 @@ jobs:
       EDITION_ID: ${{ inputs.edition_id }}
       STORY_ID: ${{ inputs.story_id }}
       PREVIEW_LABEL: ${{ inputs.label }}
-      PREVIEW_OUTPUT_DIRECTORY: ${{ runner.temp }}/illustration-previews
     steps:
       - uses: actions/checkout@v4
+      - name: Set preview output directory
+        run: echo "PREVIEW_OUTPUT_DIRECTORY=$RUNNER_TEMP/illustration-previews" >> "$GITHUB_ENV"
       - uses: actions/setup-node@v4
         with:
           node-version: 22
