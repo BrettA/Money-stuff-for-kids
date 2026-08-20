@@ -1,0 +1,132 @@
+name: Resolve PR 48 conflicts
+
+on:
+  push:
+    branches:
+      - historical-illustration-backfill
+    paths:
+      - .github/workflows/resolve-pr48.yml
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: historical-illustration-backfill
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Merge current main and resolve generated-content conflicts
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+
+          set +e
+          git merge origin/main --no-edit
+          merge_status=$?
+          set -e
+
+          if [ "$merge_status" -ne 0 ]; then
+            # Current main is authoritative for canonical story text and generated HTML.
+            # The illustration branch remains authoritative for the generated PNG assets.
+            while IFS= read -r file; do
+              case "$file" in
+                data/*.json|editions/*/index.html)
+                  git checkout --theirs -- "$file"
+                  git add "$file"
+                  ;;
+              esac
+            done < <(git diff --name-only --diff-filter=U)
+          fi
+
+          unresolved="$(git diff --name-only --diff-filter=U)"
+          if [ -n "$unresolved" ]; then
+            echo "Unresolved conflicts remain:"
+            echo "$unresolved"
+            exit 1
+          fi
+
+          # Starting from current-main canonical JSON, migrate only illustration.src
+          # values when PR #48's generated PNG exists at the matching path.
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          for (const name of fs.readdirSync('data').filter(n => /^2026-.*\.json$/.test(n))) {
+            const file = path.join('data', name);
+            const edition = JSON.parse(fs.readFileSync(file, 'utf8'));
+            let changed = false;
+            for (const story of edition.stories || []) {
+              const src = story?.illustration?.src;
+              if (!src || !src.endsWith('.svg')) continue;
+              const pngSrc = src.slice(0, -4) + '.png';
+              const pngPath = pngSrc.replace(/^\//, '');
+              if (fs.existsSync(pngPath)) {
+                story.illustration.src = pngSrc;
+                changed = true;
+              }
+            }
+            if (changed) fs.writeFileSync(file, JSON.stringify(edition, null, 2) + '\n');
+          }
+          NODE
+
+          git add data
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Rebuild generated pages
+        run: npm run publish
+
+      - name: Validate combined result
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm run check
+          npm test
+          git diff --check
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          let stories = 0;
+          let pngs = 0;
+          for (const name of fs.readdirSync('data').filter(n => /^2026-.*\.json$/.test(n))) {
+            const edition = JSON.parse(fs.readFileSync(path.join('data', name), 'utf8'));
+            for (const story of edition.stories || []) {
+              stories++;
+              const src = story?.illustration?.src;
+              if (!src) throw new Error(`${name}/${story.id}: missing illustration src`);
+              const asset = src.replace(/^\//, '');
+              if (!fs.existsSync(asset)) throw new Error(`${name}/${story.id}: missing ${asset}`);
+              if (src.endsWith('.png')) pngs++;
+            }
+          }
+          if (stories !== 39) throw new Error(`Expected 39 stories, found ${stories}`);
+          if (pngs !== 39) throw new Error(`Expected 39 canonical PNG illustrations, found ${pngs}`);
+          console.log(`Verified ${stories}/39 stories reference existing PNG illustrations.`);
+          NODE
+          if rg -n '^(<<<<<<<|=======|>>>>>>>)' --glob '!node_modules/**' --glob '!.git/**' .; then
+            echo 'Conflict markers remain.'
+            exit 1
+          fi
+
+      - name: Commit resolved branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -f .github/workflows/resolve-pr48.yml
+          git add -A
+          git diff --cached --check
+          git commit -m "Merge main into historical illustration backfill"
+          git push origin HEAD:historical-illustration-backfill
