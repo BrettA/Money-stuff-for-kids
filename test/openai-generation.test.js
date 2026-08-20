@@ -43,9 +43,10 @@ test('provides model defaults while allowing the workflow environment to overrid
 test('rhyming prompt protects the real story and picture-book structure', () => {
   const instructions = storyInstructions();
   for (const requirement of [
-    /real person/i, /real company/i, /important number/i, /financial mechanism/i,
-    /central joke or absurdity/i, /coherent story arc/i, /250–400 words/i,
-    /rhyming couplets/i, /read-aloud cadence/i, /What happened\?/i
+    /real people/i, /real companies/i, /numbers needed to understand the story/i,
+    /actual financial mechanism/i, /central joke or absurdity/i, /coherent narrative/i,
+    /250–400 words/i, /strong read-aloud rhythm/i, /frequent rhyme/i,
+    /often in couplets/i, /What happened\?/i
   ]) assert.match(instructions, requirement);
   assert.match(instructions, /Never invent a person or company/i);
   assert.match(instructions, /lemonade stands, allowances, apples/i);
@@ -53,7 +54,8 @@ test('rhyming prompt protects the real story and picture-book structure', () => 
   assert.match(instructions, /sentence-by-sentence and append rhyming suffixes/i);
   assert.match(instructions, /authored children’s story/i);
   assert.match(instructions, /Never split a proper noun, company name, number, abbreviation/i);
-  assert.match(instructions, /Prefer slant rhyme or an unrhymed line/i);
+  assert.match(instructions, /Prefer slant rhyme/i);
+  assert.match(instructions, /prefer an unrhymed line/i);
   assert.match(instructions, /Do not repeat the lesson text/i);
 });
 
