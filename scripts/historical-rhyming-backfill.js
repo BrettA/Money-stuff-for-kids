@@ -7,7 +7,7 @@ const { assertCanonicalEdition } = require('./lib/edition-schema');
 const { accessToken, getFullMessage } = require('./lib/gmail');
 const { assertInventory, canonicalSourceMetadata, clean, extractHtmlSections, substantive } = require('./lib/money-stuff-source');
 const {
-  DEFAULT_GENERATION_STYLE, DEFAULT_TEXT_MODEL, clientFor, generateStory
+  DEFAULT_GENERATION_STYLE, DEFAULT_TEXT_MODEL, assertNoReusableBoilerplate, clientFor, generateStory
 } = require('./lib/openai-generation');
 
 const root = path.resolve(__dirname, '..');
@@ -27,15 +27,6 @@ function requiredEnv(name, environment = process.env) {
 
 function safeReason(error) {
   return String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ').slice(0, 240);
-}
-
-function retryFeedback(error) {
-  const reason = String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ');
-  const shortStory = reason.match(/Elementary picture-book narrative must be 250–400 words \(received (\d+)\)/);
-  if (shortStory && Number(shortStory[1]) < 250) {
-    return `The previous output was too short: it contained exactly ${shortStory[1]} words. The required range is 250–400 words including What happened?. Expand the story naturally without changing the real event; do not pad, and remember that playful storybook imagery is welcome unless it changes a material fact.`;
-  }
-  return safeReason(error);
 }
 
 function resolveEditionSelection(selection, publishedIssues, canonicalEditionIds) {
@@ -98,6 +89,7 @@ function acceptElementaryCandidate({ accepted, generated, index, story, updated 
   }
   const candidate = structuredClone(story);
   candidate.adaptations.elementary = elementary;
+  assertNoReusableBoilerplate([...accepted, candidate]);
   updated.stories[index].adaptations.elementary = elementary;
   accepted.push(candidate);
 }
@@ -108,7 +100,7 @@ async function generateWithRetries({ client, model, section, validateCandidate, 
     try {
       const generated = (await generate({
         client, model, section, style: DEFAULT_GENERATION_STYLE,
-        ...(validationError ? { priorValidationError: retryFeedback(validationError) } : {})
+        ...(validationError ? { priorValidationError: safeReason(validationError) } : {})
       })).value;
       validateCandidate(generated);
       return generated;
@@ -140,10 +132,10 @@ function markdownSummary(results) {
   const total = results.reduce((sum, item) => sum + item.total, 0);
   const failures = results.flatMap(item => item.failures.map(failure => ({ edition: item.editionId, ...failure })));
   const lines = [
-    '## Historical Elementary picture-book backfill', '',
+    '## Historical Elementary rhyming backfill', '',
     `- Successfully regenerated **${successes} of ${total}** stories.`,
     '- Canonical source: authenticated Gmail messages recorded for the published editions.',
-    '- Generation: the production `generateStory` / `picture-book-narrative` path and its hardened validators.',
+    '- Generation: the production `generateStory` / `rhyming-picture-book` path and its hardened validators.',
     '- Preservation: only Elementary adaptation fields were replaced; other ages, checklists, images, provenance, and schema metadata were preserved.',
     '- Validation: per-story word count, `What happened?`, stock/meta-rhyme, source/entity fidelity, proper-name line-break, and cross-story reusable-boilerplate guards ran during generation.',
     '', '### Counts per edition', ''
@@ -211,6 +203,9 @@ async function runBackfill({ environment = process.env } = {}) {
               if (!elementaryChanged(story, value.adaptations.elementary)) {
                 throw new Error('generated Elementary adaptation was identical to existing content');
               }
+              const candidate = structuredClone(story);
+              candidate.adaptations.elementary = value.adaptations.elementary;
+              assertNoReusableBoilerplate([...accepted, candidate]);
             }
           });
           // Assign before recording acceptance: success therefore always maps
@@ -242,5 +237,5 @@ if (require.main === module) runBackfill().catch(error => {
 
 module.exports = {
   acceptElementaryCandidate, assertOnlyElementaryChanged, elementaryChanged, generateWithRetries, locateSections,
-  markdownSummary, resolveEditionSelection, retryFeedback, runBackfill, safeReason
+  markdownSummary, resolveEditionSelection, runBackfill, safeReason
 };
