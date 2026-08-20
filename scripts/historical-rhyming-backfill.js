@@ -5,7 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { assertCanonicalEdition } = require('./lib/edition-schema');
 const { accessToken, getFullMessage } = require('./lib/gmail');
-const { assertInventory, canonicalSourceMetadata, clean, extractHtmlSections } = require('./lib/money-stuff-source');
+const { assertInventory, canonicalSourceMetadata, clean, extractHtmlSections, substantive } = require('./lib/money-stuff-source');
 const {
   DEFAULT_GENERATION_STYLE, DEFAULT_TEXT_MODEL, assertNoReusableBoilerplate, clientFor, generateStory
 } = require('./lib/openai-generation');
@@ -61,17 +61,57 @@ function resolveEditionSelection(selection, publishedIssues, canonicalEditionIds
 }
 
 function locateSections(stories, sections) {
+  const sourceSections = substantive(sections);
   const byHeading = new Map();
-  for (const section of sections) {
-    const heading = clean(section.heading);
+  for (const section of sourceSections) {
+    const heading = clean(section.heading).toLowerCase();
     if (byHeading.has(heading)) throw new Error(`Canonical source has ambiguous section heading: ${heading}`);
     byHeading.set(heading, section);
   }
-  return stories.map(story => {
-    const section = byHeading.get(clean(story.sourceSection));
-    if (!section) throw new Error(`Canonical source section not found: ${story.sourceSection}`);
-    return section;
+  const exact = stories.map(story => byHeading.get(clean(story.sourceSection).toLowerCase()));
+  const aligned = stories.length === sourceSections.length && exact.every((section, index) => !section || section === sourceSections[index]);
+  return stories.map((story, index) => {
+    const section = exact[index] || (aligned ? sourceSections[index] : null);
+    return section
+      ? { section }
+      : { error: new Error(`Canonical source section could not be matched unambiguously: ${story.sourceSection}`) };
   });
+}
+
+function elementaryChanged(story, elementary) {
+  return JSON.stringify(story.adaptations.elementary) !== JSON.stringify(elementary);
+}
+
+function acceptElementaryCandidate({ accepted, generated, index, story, updated }) {
+  const elementary = generated.adaptations.elementary;
+  if (!elementaryChanged(story, elementary)) {
+    throw new Error('generated Elementary adaptation was identical to existing content');
+  }
+  const candidate = structuredClone(story);
+  candidate.adaptations.elementary = elementary;
+  assertNoReusableBoilerplate([...accepted, candidate]);
+  updated.stories[index].adaptations.elementary = elementary;
+  accepted.push(candidate);
+}
+
+async function generateWithRetries({ client, model, section, validateCandidate, generate = generateStory }) {
+  let validationError;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      const generated = (await generate({
+        client, model, section, style: DEFAULT_GENERATION_STYLE,
+        ...(validationError ? { priorValidationError: safeReason(validationError) } : {})
+      })).value;
+      validateCandidate(generated);
+      return generated;
+    } catch (error) {
+      validationError = error;
+      const reason = safeReason(error);
+      const editorialFailure = /(?:Elementary|What happened|checklist|boilerplate|parsed money_stuff_story)/i.test(reason);
+      if (!editorialFailure || /identical to existing content/i.test(reason)) throw error;
+    }
+  }
+  throw validationError;
 }
 
 function assertOnlyElementaryChanged(before, after) {
@@ -140,7 +180,7 @@ async function runBackfill({ environment = process.env } = {}) {
     try {
       const message = await getFullMessage({ id: issue.gmailMessageId, token });
       if (!message.html) throw new Error('canonical Gmail message has no complete HTML body');
-      const metadata = canonicalSourceMetadata(message);
+      const metadata = canonicalSourceMetadata(message, issue);
       if (metadata.date !== original.date || clean(metadata.title) !== clean(original.title)) {
         throw new Error('recorded Gmail message date/title does not match the canonical edition');
       }
@@ -152,17 +192,25 @@ async function runBackfill({ environment = process.env } = {}) {
 
     if (sections) {
       for (const [index, story] of original.stories.entries()) {
+        if (sections[index].error) {
+          failures.push({ story: story.sourceSection, reason: safeReason(sections[index].error) });
+          continue;
+        }
         try {
-          const generated = (await generateStory({
-            client, model, section: sections[index], style: DEFAULT_GENERATION_STYLE
-          })).value;
-          // Validate cross-story output before accepting it. Including every
-          // previously accepted story makes the PR #21 guard span editions.
-          const candidate = structuredClone(story);
-          candidate.adaptations.elementary = generated.adaptations.elementary;
-          assertNoReusableBoilerplate([...accepted, candidate]);
-          updated.stories[index].adaptations.elementary = generated.adaptations.elementary;
-          accepted.push(candidate);
+          const generated = await generateWithRetries({
+            client, model, section: sections[index].section,
+            validateCandidate(value) {
+              if (!elementaryChanged(story, value.adaptations.elementary)) {
+                throw new Error('generated Elementary adaptation was identical to existing content');
+              }
+              const candidate = structuredClone(story);
+              candidate.adaptations.elementary = value.adaptations.elementary;
+              assertNoReusableBoilerplate([...accepted, candidate]);
+            }
+          });
+          // Assign before recording acceptance: success therefore always maps
+          // to the edition object that is subsequently serialized.
+          acceptElementaryCandidate({ accepted, generated, index, story, updated });
         } catch (error) {
           failures.push({ story: story.sourceSection, reason: safeReason(error) });
         }
@@ -187,4 +235,7 @@ if (require.main === module) runBackfill().catch(error => {
   process.exitCode = 1;
 });
 
-module.exports = { assertOnlyElementaryChanged, locateSections, markdownSummary, resolveEditionSelection, safeReason };
+module.exports = {
+  acceptElementaryCandidate, assertOnlyElementaryChanged, elementaryChanged, generateWithRetries, locateSections,
+  markdownSummary, resolveEditionSelection, runBackfill, safeReason
+};

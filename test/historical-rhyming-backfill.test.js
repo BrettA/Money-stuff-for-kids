@@ -5,7 +5,8 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const {
-  assertOnlyElementaryChanged, locateSections, markdownSummary, resolveEditionSelection, safeReason
+  acceptElementaryCandidate, assertOnlyElementaryChanged, elementaryChanged, generateWithRetries, locateSections,
+  markdownSummary, resolveEditionSelection, safeReason
 } = require('../scripts/historical-rhyming-backfill');
 
 const published = [
@@ -38,13 +39,70 @@ test('rejects an empty edition selection', () => {
   assert.throws(() => resolveEditionSelection('  ', published, canonical), /must not be empty/);
 });
 
-test('matches source sections exactly and fails closed on ambiguous headings', () => {
+test('matches source sections by normalized exact heading', () => {
   const stories = [{ sourceSection: 'World Liberty' }];
-  assert.equal(locateSections(stories, [{ heading: 'World Liberty', sourceText: 'canonical' }])[0].sourceText, 'canonical');
+  assert.equal(locateSections(stories, [{ heading: ' world   LIBERTY ', sourceText: 'canonical' }])[0].section.sourceText, 'canonical');
   assert.throws(() => locateSections(stories, [
     { heading: 'World Liberty', sourceText: 'one' }, { heading: 'World Liberty', sourceText: 'two' }
   ]), /ambiguous/);
-  assert.throws(() => locateSections(stories, [{ heading: 'Something else', sourceText: 'x' }]), /not found/);
+});
+
+test('uses positional evidence only for an aligned one-to-one inventory', () => {
+  const stories = [{ sourceSection: 'Parlays' }, { sourceSection: 'Agentic trading' }];
+  const matches = locateSections(stories, [
+    { heading: 'Prediction market parlays', sourceText: 'one' },
+    { heading: 'Agents that trade', sourceText: 'two' },
+    { heading: 'Things happen', sourceText: '' }
+  ]);
+  assert.deepEqual(matches.map(match => match.section.sourceText), ['one', 'two']);
+});
+
+test('one unmatched story does not prevent exact matches and ambiguity fails closed per story', () => {
+  const matches = locateSections([
+    { sourceSection: 'Known' }, { sourceSection: 'Tax-aware long-short' }
+  ], [
+    { heading: 'Known', sourceText: 'safe' },
+    { heading: 'extra one', sourceText: 'x' },
+    { heading: 'extra two', sourceText: 'y' }
+  ]);
+  assert.equal(matches[0].section.sourceText, 'safe');
+  assert.match(matches[1].error.message, /could not be matched unambiguously/);
+});
+
+test('successful acceptance changes the serialized canonical edition', () => {
+  const before = { stories: [{ adaptations: { elementary: { title: 'Old', paragraphs: ['old'] } } }] };
+  const after = structuredClone(before);
+  const replacement = { title: 'New', paragraphs: ['new'] };
+  const accepted = [];
+  acceptElementaryCandidate({
+    accepted, generated: { adaptations: { elementary: replacement } }, index: 0,
+    story: before.stories[0], updated: after
+  });
+  assert.equal(accepted.length, 1);
+  assert.notEqual(JSON.stringify(after, null, 2), JSON.stringify(before, null, 2));
+  assert.equal(elementaryChanged(after.stories[0], replacement), false);
+  assert.throws(() => acceptElementaryCandidate({
+    accepted: [], generated: { adaptations: { elementary: before.stories[0].adaptations.elementary } },
+    index: 0, story: before.stories[0], updated: structuredClone(before)
+  }), /identical to existing content/);
+});
+
+test('retries editorial failures with concise feedback and a complete replacement request', async () => {
+  const calls = [];
+  const generate = async request => {
+    calls.push(request);
+    if (calls.length < 3) throw new Error('Elementary rhyming story must end with a What happened? explanation');
+    return { value: { adaptations: { elementary: { title: 'replacement' } } } };
+  };
+  const result = await generateWithRetries({
+    client: {}, model: 'test', section: { heading: 'Canonical', sourceText: 'original canonical text' }, generate,
+    validateCandidate() {}
+  });
+  assert.equal(result.adaptations.elementary.title, 'replacement');
+  assert.equal(calls.length, 3);
+  assert.equal(calls[1].style, 'rhyming-picture-book');
+  assert.equal(calls[1].priorValidationError, 'Elementary rhyming story must end with a What happened? explanation');
+  assert.deepEqual(calls[1].section, { heading: 'Canonical', sourceText: 'original canonical text' });
 });
 
 test('preservation guard permits only Elementary adaptation replacement', () => {

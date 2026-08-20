@@ -95,10 +95,13 @@ test('generation defaults to rhyme while retaining an explicit legacy escape hat
   } } };
   const section = { heading: 'A real deal', sourceText: 'A real person at A real company made a real deal.' };
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section });
+  await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, priorValidationError: 'missing final What happened?' });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'legacy' });
   assert.match(calls[0].instructions, /rhyming picture-book story/i);
-  assert.doesNotMatch(calls[1].instructions, /rhyming picture-book story/i);
-  assert.match(calls[1].instructions, /Preschool must be simple but factual/i);
+  assert.match(calls[1].instructions, /complete replacement output, not a patch/i);
+  assert.match(calls[1].input, /missing final What happened/);
+  assert.doesNotMatch(calls[2].instructions, /rhyming picture-book story/i);
+  assert.match(calls[2].instructions, /Preschool must be simple but factual/i);
   await assert.rejects(generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'unknown' }), /Unknown generation style/);
 });
 
