@@ -190,8 +190,11 @@ async function generateMetadata({ client, model, message, sections }) {
 }
 
 async function generateStory({ client, model, section, style = DEFAULT_GENERATION_STYLE, priorValidationError }) {
+  const validationFeedback = priorValidationError
+    ? String(priorValidationError).replace(/\s+/g, ' ').slice(0, 600)
+    : '';
   const retryInstruction = priorValidationError
-    ? ` The prior complete output failed validation: ${String(priorValidationError).replace(/\s+/g, ' ').slice(0, 240)}. Return a complete replacement output, not a patch.`
+    ? ` The prior complete output failed validation: ${validationFeedback}. Return a complete replacement output, not a patch.`
     : '';
   const result = await parse(client, {
     model,
@@ -200,7 +203,7 @@ async function generateStory({ client, model, section, style = DEFAULT_GENERATIO
     instructions: storyInstructions(style) + retryInstruction,
     input: JSON.stringify({
       sourceSection: section.heading, sourceText: section.sourceText,
-      ...(priorValidationError ? { priorValidationError: String(priorValidationError).replace(/\s+/g, ' ').slice(0, 240) } : {})
+      ...(priorValidationError ? { priorValidationError: validationFeedback } : {})
     })
   });
   if (style === DEFAULT_GENERATION_STYLE) assertRhymingEditorialOutput(result.value, section);
