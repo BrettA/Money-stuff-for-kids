@@ -91,7 +91,7 @@ test('retries editorial failures with concise feedback and a complete replacemen
   const calls = [];
   const generate = async request => {
     calls.push(request);
-    if (calls.length < 3) throw new Error('Elementary rhyming story must end with a What happened? explanation');
+    if (calls.length < 3) throw new Error('Elementary picture-book narrative must end with a What happened? explanation');
     return { value: { adaptations: { elementary: { title: 'replacement' } } } };
   };
   const result = await generateWithRetries({
@@ -100,8 +100,8 @@ test('retries editorial failures with concise feedback and a complete replacemen
   });
   assert.equal(result.adaptations.elementary.title, 'replacement');
   assert.equal(calls.length, 3);
-  assert.equal(calls[1].style, 'rhyming-picture-book');
-  assert.equal(calls[1].priorValidationError, 'Elementary rhyming story must end with a What happened? explanation');
+  assert.equal(calls[1].style, 'picture-book-narrative');
+  assert.equal(calls[1].priorValidationError, 'Elementary picture-book narrative must end with a What happened? explanation');
   assert.deepEqual(calls[1].section, { heading: 'Canonical', sourceText: 'original canonical text' });
 });
 

@@ -10,7 +10,7 @@ const {
 } = require('./lib/money-stuff-source');
 const {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt, clientFor,
-  assertNoReusableBoilerplate, generateImage, generateMetadata, generateStory
+  assertStorySetEditorialOutput, generateImage, generateMetadata, generateStory
 } = require('./lib/openai-generation');
 const { run, stageAndValidate } = require('./lib/package-edition');
 const { submitPackage } = require('./lib/submit-package');
@@ -144,7 +144,7 @@ async function main() {
     });
     images.push({ path: imagePath, bytes: image.bytes });
   }
-  if (generationStyle === DEFAULT_GENERATION_STYLE) assertNoReusableBoilerplate(generatedStories);
+  assertStorySetEditorialOutput(generatedStories, generationStyle);
 
   const date = new Date(`${metadata.newsletterDate}T12:00:00Z`);
   const edition = assertCanonicalEdition({
