@@ -54,15 +54,22 @@
           ]
         },
         "elementary": {
-          "title": "The Fund That Went All-In on AI (and Then Had to Sell)",
-          "lesson": "If you borrow to make a decades-long bet but your loans can be called back quickly, a short run of bad luck can force big, fast selling.",
+          "title": "Leopold and the Very Full Backpack",
+          "lesson": "The fund used borrowed money (margin) to lever its AI stock bets; when prices fell it faced margin calls and sold most of its stock portfolio to Citadel.",
           "paragraphs": [
-            "Two years ago it looked obvious: AI was going to be huge. Nvidia, SK Hynix and AI companies shot up, and a lot of investors wanted to own the winners.",
-            "A former OpenAI researcher named Leopold Aschenbrenner launched a fund called Situational Awareness and built a huge bet on AI companies — he even owned a big piece of Anthropic.",
-            "The fund’s returns were eye-popping for a while. But Leopold and his team didn’t just use their own money; they borrowed a lot more to buy even bigger positions. Investors and banks sometimes call that levering up.",
-            "That’s where the funny-but-dangerous idea comes in: they talked about putting, like, 300% of their money into the AI boom — more than everything they actually had. It sounds wild, and it is.",
-            "When AI stocks slid, banks demanded more cash (margin calls). Suddenly the fund had to sell many of its holdings quickly, and the big trading firm Citadel bought most of the long AI positions.",
-            "The simple lesson woven through this story is: making a long-term bet is different from using short-term loans to fund it. If your funding can be pulled back overnight, you can be forced to sell even if you still believe the idea."
+            "Leopold Aschenbrenner loved big, hungry thinking machines and bright, blinking things.",
+            "He left OpenAI and started a fund called Situational Awareness with brave, ambitious dreams.",
+            "He bought SK Hynix chips and tucked a big stake in Anthropic into his pack — oh my!",
+            "His fund ballooned and ballooned until it nearly tickled the sky.",
+            "But Leopold did not only buy with his pocket change — he borrowed to buy more to play.",
+            "He stuffed his backpack until it burst and put in more than all his money that day.",
+            "His plan was for decades, slow and steady and grand,",
+            "but lenders sometimes like their money back quicker than planned.",
+            "Bank of America, Goldman Sachs and JPMorgan waved papers with a frown,",
+            "they held up a sign that said, 'MARGIN CALL!' and the market looked down.",
+            "So Leopold had to sell his shiny pile, and Ken Griffin's Citadel said, 'We'll take that load,'",
+            "Some say he was brilliant, some say he moved too fast; the market keeps humming and stories like this last.",
+            "What happened? The fund had borrowed heavily on margin; when AI stocks fell it faced margin calls and sold most of its stock portfolio to Citadel."
           ]
         },
         "middle": {
@@ -126,12 +133,28 @@
           ]
         },
         "elementary": {
-          "title": "How one big online bet made a small campaign look like a giant",
-          "lesson": "When people use betting sites called prediction markets, the prices look like how likely someone is to win. One person’s huge bet pushed Matt Mahan’s odds way up on Polymarket, newspapers noticed, friends asked people to ‘push up the Polymarket bids,’ and for a little while it looked like he was winning — until other traders corrected the prices and the excitement faded.",
+          "title": "The Day the Odds Went Boom",
+          "lesson": "A single, big anonymous bet on Polymarket briefly made Matt Mahan look like a sure thing, then the odds fell back and the campaign lost its sudden puff.",
           "paragraphs": [
-            "Matt Mahan, the mayor of San Jose, had just entered the California governor’s race. On the morning he announced, an anonymous user on Polymarket called Fine-Tributary spent $44,000 buying “yes” contracts that would pay if Mahan won.",
-            "Because so few people had bet on that market yet, the single large purchase pushed the market price way up — as if the site were saying Mahan had almost certain odds of winning. A newspaper story followed and people in Mahan’s circle asked others to help ‘push up the Polymarket bids.’",
-            "But prediction markets are watched by other traders. Soon people bought the opposite side, the odds came down, and the market moved back toward what polls were saying. The campaign’s big spike turned out to be temporary."
+            "In a tiny corner where people wagered on who might win,",
+            "Polymarket sold little tickets for a big, noisy spin.",
+            "Matt Mahan, mayor with a tidy mayoral grin,",
+            "said he would run, and the primary would begin.",
+            "Then Fine‑Tributary — a name on a lonely key —",
+            "dropped forty‑four thousand dollars on a 'yes' for he.",
+            "The price rocketed up, a blink and a sweep,",
+            "from the low teens to ninety‑six cents — too steep!",
+            "Reporters ran headlines that gleamed and that glowed,",
+            "and the internet buzzed where the rumor road flowed.",
+            "Adam Kalamchi tapped LinkedIn, urging folks to help the push,",
+            "to donate, to post, and to nudge that sudden whoosh.",
+            "But clever traders smelled free money in the air,",
+            "they bought the 'no' contracts and pulled the price back there.",
+            "The spike was loud, but it did not last long,",
+            "the market sighed, and the odds moved along.",
+            "Mahan’s numbers fell back like waves to the shore,",
+            "and his campaign’s roar was quieter than before.",
+            "What happened? An anonymous wallet spent $44,000 buying 'yes' contracts on Polymarket, briefly pushing the market-implied odds to $0.96. The spike generated press coverage, but the price then fell back and the market odds realigned with polls."
           ]
         },
         "middle": {
@@ -185,13 +208,22 @@
           ]
         },
         "elementary": {
-          "title": "Why a Company Can Say No to the Highest Bidder",
-          "lesson": "Boards usually try to get the biggest cash offer for shareholders, but a public benefit corporation can legally balance money and public purpose and therefore may decline the highest bidder.",
+          "title": "Twitter, the PBC, and the Two Bids",
+          "lesson": "A public benefit corporation's board can balance shareholder price against its public purpose; the Delaware Court of Chancery ruled that Revlon duties do not force a PBC to sell to the highest bidder.",
           "paragraphs": [
-            "When a company is up for sale, the directors usually have a duty — called the Revlon duty — to get the best cash price for shareholders. If one buyer offers $50 a share and another offers $60, the $60 offer normally wins.",
-            "That rule can feel odd. When Twitter’s board agreed to sell to Elon Musk for $54.20 a share, Twitter’s chief executive said he worried the sale wasn’t great for the product, employees, users, or advertisers — but he believed the price was best for shareholders.",
-            "There is a different kind of company called a public benefit corporation (PBC). A PBC’s directors are allowed to balance money for shareholders with the company’s public purpose and the interests of people affected by the company.",
-            "People wondered: if a PBC puts itself up for sale, does it still have to take the highest cash offer? The Delaware Court of Chancery said no — a PBC does not have to sell to the highest bidder because the law requires directors to balance shareholder money against the company’s public purpose."
+            "Twitter was a noisy blue square who liked to chirp and shout,",
+            "and it said, 'We do more than make money — we are a town square, inside and out.'",
+            "Then Elon Musk knocked, with a suitcase that jingled: $54.20 a share, neat and round,",
+            "and lawyers started whispering about what courts and rules might bound.",
+            "There is an old rule called Revlon — when a company is sold for cash,",
+            "the board must hunt the highest bid and let the richest bidder dash.",
+            "But some companies are different; they file as a PBC,",
+            "and their directors must balance dollars with the public good they mean to be.",
+            "Delaware's Court of Chancery looked at the puzzle and said: 'We must be true,",
+            "you needn't sell to the richest offer if your charter says to balance too.'",
+            "So the punchline is gentle and a little bit odd and wry:",
+            "sometimes doing good can win even if you get not the biggest pie.",
+            "What happened? Twitter was a public benefit corporation, and the Delaware Court of Chancery ruled that a PBC’s directors do not have to prioritize maximizing sale price; they can balance shareholder returns against the company’s public-benefit purpose."
           ]
         },
         "middle": {
@@ -250,15 +282,19 @@
           ]
         },
         "elementary": {
-          "title": "How broken crypto companies sometimes pay customers by repurposing mining computers",
-          "lesson": "When a crypto company fails, the things it owns — like bitcoin mining machines and big data centers — can sometimes be sold or reused so customers get paid back.",
+          "title": "The Mining Farm That Learned to Think",
+          "lesson": "Bankruptcy transferred mining assets to Ionic Digital, which issued 37 million shares to eligible Celsius creditors and leased 234 MW Ward County capacity to Nscale under a 126‑month, $1.95 billion contract, enabling creditor recoveries via lease/AI revenue.",
           "paragraphs": [
-            "A few years ago, some crypto companies like Mt. Gox and FTX went bankrupt. In those cases, crypto prices later rose and the leftover coins were worth enough in dollars to pay back customers.",
-            "Celsius Network also went bankrupt. It had borrowed from customers and used the money in risky ways — people joked it 'yeeted their money directly into the sun.' That was part of why it failed.",
-            "In January 2024 a new company called Ionic Digital was created out of Celsius’s bankruptcy to take over Celsius’s bitcoin-mining assets. Ionic gave 37 million Class A shares to people who had claims against Celsius.",
-            "Ionic stopped mining at a big site in Ward County, Texas, and agreed to lease its 234 megawatts of capacity to another firm under a 126-month (about 10.5-year) deal that will bring $1.95 billion in contracted revenue.",
-            "When Ionic’s stock started trading on Nasdaq, it jumped about 26% and the company was valued at about $2.8 billion. That value and the income from leases are ways to make customers whole after the bankruptcy.",
-            "So instead of a crypto price rally saving creditors, the mining gear and long leases — now useful for AI computing — became the thing that could pay people back."
+            "In a room of whirring fans and blinking lights, Celsius dug for bitcoin day and night.",
+            "They promised big interest and a fancy cheer, and put customers’ coins into things unclear.",
+            "They also bought mining rigs, all cables and glow; a little sideline that later would grow.",
+            "When Celsius went bankrupt, the court did the math; mining bits got split from the rest of the path.",
+            "Those miners became a new company named Ionic Digital, with racks and rooms and a Nasdaq recital.",
+            "Ionic issued 37 million shares to people owed money in the case, and then it made a surprising pace.",
+            "It decommissioned the Ward County site and leased 234 MW of power to Nscale for a long, long race—126 months, $1.95 billion in contracted grace.",
+            "Those rigs would stop mining coins and help AI learn—so customers’ claims could be paid from that future earn.",
+            "On Nasdaq debut, IOND rose twenty-six percent and looked quite swell; people who waited got something back—the tale ends well.",
+            "What happened? The Celsius bankruptcy transferred mining assets to Ionic Digital, which issued 37 million shares to eligible Celsius creditors. Ionic decommissioned the Ward County site and leased 234 MW of capacity to Nscale under a 126-month contract for $1.95 billion, enabling creditors to be paid from that revenue."
           ]
         },
         "middle": {
