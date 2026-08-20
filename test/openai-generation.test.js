@@ -4,8 +4,8 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   DEFAULT_GENERATION_STYLE, DEFAULT_IMAGE_MODEL, DEFAULT_TEXT_MODEL, canonicalIllustrationAlt,
-  assertNoReusableBoilerplate, assertStorySetEditorialOutput, entityAppearsInSource, generateStory,
-  isPictureBookStyle, parse, storyInstructions
+  ILLUSTRATION_STYLE_PROMPT, assertNoReusableBoilerplate, entityAppearsInSource,
+  assertStorySetEditorialOutput, generateImage, generateStory, isPictureBookStyle, parse, storyInstructions
 } = require('../scripts/lib/openai-generation');
 const { isPlaceholderIllustrationAlt } = require('../scripts/lib/illustration-alt');
 const { storyGeneration } = require('../scripts/lib/edition-schema');
@@ -62,6 +62,44 @@ test('picture-book prompt protects the real story while making rhyme optional', 
   assert.match(instructions, /Do not invent direct quotations unless the source contains that quotation/i);
   assert.match(instructions, /read every story line as normal prose/i);
   assert.match(instructions, /Do not repeat the lesson text/i);
+});
+
+test('illustration planning requires the story-specific weird event instead of generic finance art', () => {
+  const instructions = storyInstructions();
+  assert.match(instructions, /specific section’s weird core event or financial mechanism/i);
+  assert.match(instructions, /who is doing what/i);
+  assert.match(instructions, /never fall back to generic money, banking, trading, or finance imagery/i);
+  assert.match(instructions, /Rendered text is allowed only when it helps tell this story/i);
+  assert.match(instructions, /real company name, sign, short label, or tiny caption/i);
+  assert.match(instructions, /infographic, fake website, dashboard, app screen, or screenshot/i);
+});
+
+test('image generation applies the consistent preschool board-book style', async () => {
+  let request;
+  const png = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]);
+  const client = { images: { generate: async value => {
+    request = value;
+    return { data: [{ b64_json: png.toString('base64') }] };
+  } } };
+
+  await generateImage({
+    client,
+    model: DEFAULT_IMAGE_MODEL,
+    prompt: 'A goat swaps a risk contract with a banker while two price tags change places.'
+  });
+
+  assert.match(request.prompt, /goat swaps a risk contract/i);
+  for (const attribute of [
+    /bright preschool board-book illustration/i, /cheerful, polished/i, /cartoonish rather than lifelike/i,
+    /rounded shapes/i, /clean confident outlines/i, /flat vivid colors/i,
+    /simplified friendly cartoon people/i, /playful, busy-but-clear scene/i,
+    /small story-relevant details/i, /actual unusual event and mechanism/i
+  ]) assert.match(request.prompt, attribute);
+  assert.match(request.prompt, /Text may appear only when useful to this specific story/i);
+  assert.match(request.prompt, /real company name, a sign, a short label, or a small caption/i);
+  assert.match(request.prompt, /text-heavy infographic layouts, fake websites, dashboards/i);
+  assert.equal(request.prompt.endsWith(ILLUSTRATION_STYLE_PROMPT), true);
+  assert.doesNotMatch(request.prompt, /no words|no typography/i);
 });
 
 test('rhyming validation rejects proper nouns broken across lines and generic suffix filler', async () => {
