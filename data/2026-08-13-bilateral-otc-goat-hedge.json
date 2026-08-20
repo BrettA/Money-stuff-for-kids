@@ -27,18 +27,26 @@
           ]
         },
         "elementary": {
-          "title": "The Great Goat Price Problem",
-          "lesson": "Hedging means giving up a little of your best possible outcome so a bad outcome hurts less.",
+          "title": "The Goat Contract",
+          "lesson": "A Kalshi-listed event contract (a prediction-market hedge) paid up to $500,000 if California did not fix goat-herder wage rules by end of September 2026; Tim Arrowsmith paid a 10% premium ($50,000). Castle arranged the trade, Susquehanna priced and provided liquidity, and Kalshi listed the contract to give neutral settlement and satisfy swap regulations.",
           "paragraphs": [
-            "Herder & Co. is in the goat business.",
-            "This means it has a problem you may not have thought about before: what if goats suddenly get cheaper?",
-            "If you own thousands of goats and goat prices fall, you have the same number of goats. They are just worth less money. This is bad news if your plan was to sell the goats.",
-            "Kalshi runs a prediction market, where people trade on things that might happen. It is better known for elections and sports, but Kalshi would also like to be useful for serious businesses.",
-            "And Herder had a serious business problem involving goats.",
-            "So Kalshi helped Herder make a deal that would pay if goat prices fell. If prices stayed high, great: the goats were valuable. If prices fell, the trade softened the blow. This sort of trade is called a hedge.",
-            "It is useful for Herder. It is also useful for Kalshi, which spends a lot of time explaining that it is a serious financial exchange and not just a website where people bet on stuff.",
-            "And nothing says “serious financial exchange” quite like: We can protect you from an unexpected decline in the price of goats.",
-            "The goats themselves still get to be goats. They just have a surprisingly sophisticated financial strategy now."
+            "Tim tended goats on steep, brushy hills, four thousand strong and small,",
+            "They chewed the tinder down so forests didn’t burn and neighbors could keep all.",
+            "But a new reading of a law said the herders’ pay must change overnight,",
+            "Costs could jump about four times — Tim worried through the night.",
+            "Castle found a clever way: make the worry into a market on display,",
+            "Susquehanna priced the deal, and Kalshi listed it that day.",
+            "They wrote the rules so answers would be plain — not something vague or mean,",
+            "If the state fixed the wage by October first, the payoff would not be seen.",
+            "The contract would pay half a million if lawmakers didn’t mend the rule,",
+            "So Tim handed over fifty thousand — ten percent — to buy that safety tool.",
+            "It’s odd to trade a goat-rule like a game, a market for a law,",
+            "But the listing makes a referee: a public record all can draw.",
+            "Now traders can peek at Kalshi, small trades pop up on the screen,",
+            "And Susquehanna can lay off some risk if others want to lean.",
+            "So a rancher, a startup called Castle, and a trading desk that knows the math,",
+            "Turned a tiny, urgent village worry into a marketed, priced path.",
+            "What happened? This was a Kalshi-listed event contract arranged by Castle and priced with liquidity by Susquehanna; it pays up to $500,000 if California does not fix goat-herder wage rules by the end of September 2026, and Tim Arrowsmith paid a 10% premium ($50,000)."
           ]
         },
         "middle": {
@@ -92,17 +100,28 @@
           ]
         },
         "elementary": {
-          "title": "The Comment Matt Levine Definitely Did Not Write",
-          "lesson": "Public comments can influence regulators, but counting comments is not the same as counting independent opinions.",
+          "title": "Who Wrote the Letters?",
+          "lesson": "Companies and advocacy groups collected and sent massive numbers of largely identical form comments to regulators; Bloomberg found nearly 12,000 submissions that looked manufactured, one filed on May 3 in the name of Danna Oderman (who had died), and about 30,000 identical petition messages comprised roughly two-thirds of all submissions; 92% of submissions followed form letters and 99% included email and location.",
           "paragraphs": [
-            "When the government considers a financial rule, it asks people to send comments.",
-            "Ordinary people do not often wake up thinking, “Today I will send the government my views on securities regulation.” Companies and lobbying groups care a lot more.",
-            "So groups write sample comments and help lots of people send them. The government can receive thousands of suspiciously similar letters.",
-            "Then it gets weirder.",
-            "Matt Levine once found a government comment submitted under the name “Matt Levine.”",
-            "Matt had not written it.",
-            "Apparently there is now a very convenient form of civic participation where you do not even need to know that you participated.",
-            "That is why regulators cannot simply count comments like votes. Ten thousand letters might mean ten thousand opinions—or one organization was extremely good at producing letters."
+            "When a rule is proposed, the rulemakers say, “Tell us what you think!”",
+            "People may write letters, each in ink, each from the heart, or just a click.",
+            "Companies and groups wanted the regulators to see a crowd, loud and strong,",
+            "So they wrote a single letter and said, “Please send it out—send it along.”",
+            "The Department of Labor had a plan to let more retirement money roam,",
+            "Into private equity and other “alternatives” far from the worker’s home.",
+            "Bloomberg’s Noah Buhayar and Jeff Kao began to search and look and find,",
+            "About 12,000 submissions seemed manufactured, copies of the same kind.",
+            "One note was dated May 3 and bore a name—Danna Oderman—on the screen,",
+            "Her son Heath wrote back, “That’s not my mom; she died last December; she’s not been seen.”",
+            "Nearly 92% of the entries followed a form letter’s words like a choir,",
+            "And one petition opposing the proposal was sent more than 30,000 times—two-thirds of the entire fire.",
+            "Ninety-nine percent of those entries included an email and a place,",
+            "Bloomberg called dozens and found five people who said, “No—I didn’t sign that case.”",
+            "Some real people did send letters: Judith Bergson told reporters she had sent one,",
+            "And Americans for Financial Reform said it drafted the opposing form and helped it run.",
+            "It sounds absurd—dead names, copy-paste pleas—an astroturf garden grown with care,",
+            "But comments to regulators are not binding; they’re signals, loud or bare.",
+            "What happened? Regulators received large numbers of mostly identical form comments sent or circulated by interest groups; Bloomberg identified nearly 12,000 submissions that appeared manufactured, including a May 3 comment filed under the name of Danna Oderman (who died in December), about 30,000 identical petition messages made up roughly two-thirds of submissions, 92% of submissions followed form letters, and Bloomberg found several cases where individuals said they did not submit the comments."
           ]
         },
         "middle": {
@@ -156,18 +175,24 @@
           ]
         },
         "elementary": {
-          "title": "The SpaceX Stock Avalanche That Didn't Arrive",
-          "lesson": "Prices react to expectations. If everyone prepares for something worse than what actually happens, the price can move the opposite way.",
+          "title": "When the Locked Shares Didn’t Flood",
+          "lesson": "Hedge funds sometimes sell short before a lockup expiry to smooth expected supply, but borrowing limits and uncertain insider selling mean the actual sell pressure can be much smaller; for SpaceX the Aug. 6/7 lockup didn’t produce a crash — shares rose 35% in five sessions, adding roughly $500 billion and returning above the $135 IPO price.",
           "paragraphs": [
-            "Some early owners of a newly public company have to wait before selling their shares. That waiting period is called a lockup.",
-            "SpaceX investors knew that when its lockup ended, a huge number of shares would suddenly be allowed to be sold.",
-            "Traders imagined an avalanche: early investors selling, tons of stock hitting the market, and the price falling.",
-            "But everyone knew when the avalanche might arrive, so they prepared. People sold early and bet on the price falling.",
-            "Then the lockup ended.",
-            "And the stock went up.",
-            "A huge number of people being allowed to sell is not the same as a huge number actually selling. The real avalanche was smaller than the one everyone had prepared for.",
-            "It is like hearing 100 elephants are coming to your birthday party, reinforcing the floor and ordering 100 elephant cakes—then three elephants show up.",
-            "Three elephants are still a lot of elephants. Compared with 100? Pretty relaxing."
+            "SpaceX went public and people held their shares tight, locked up out of sight,",
+            "until a day in August when the lockup would end and selling might begin to bite.",
+            "Hedge funds thought ahead, they planned to borrow and to sell,",
+            "trying to smooth a coming rush so prices wouldn’t fall pell-mell.",
+            "Shorting means you borrow stock, sell it now, then buy it later back —",
+            "but borrowing can be scarce, and that makes the plan crack.",
+            "On Aug. 3 the price dipped down to $104.84, a low that worried some,",
+            "yet by Aug. 6 SpaceX closed at $114.92, and the next open was $114.965, not glum.",
+            "Traders feared millions of shares would flood the street on Aug. 6 and 7, a tidal wave in view,",
+            "but instead the shares climbed: a 35% surge in five sessions, and about $500 billion added too.",
+            "That jump pushed SpaceX back over its $135 IPO price, much to some investors’ delight,",
+            "and Bloomberg’s Carmen Reinicke wrote how the feared flood had not arrived overnight.",
+            "Andrew Plum of Loxahatchee Capital said the market had perhaps discounted the bad news too hard —",
+            "short sellers may have sold tomorrow’s shares today, and the real selling afterward proved less large.",
+            "What happened? Hedge funds and other short sellers sold shares ahead of the Aug. 6–7 lockup expiry expecting large insider selling, but borrowing constraints and uncertain insider behavior meant fewer shares were actually sold; instead, SpaceX shares rose 35% in five sessions, adding roughly $500 billion and moving back above the $135 IPO price."
           ]
         },
         "middle": {
