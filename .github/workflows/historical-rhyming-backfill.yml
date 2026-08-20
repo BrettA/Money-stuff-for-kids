@@ -22,7 +22,6 @@ jobs:
     timeout-minutes: 360
     env:
       BACKFILL_BRANCH: historical-rhyming-backfill
-      BACKFILL_SUMMARY_FILE: ${{ runner.temp }}/historical-backfill-pr.md
       EDITION_IDS: ${{ inputs.edition_ids }}
       GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
       GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
@@ -34,6 +33,9 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+
+      - name: Set backfill summary file
+        run: echo "BACKFILL_SUMMARY_FILE=$RUNNER_TEMP/historical-backfill-pr.md" >> "$GITHUB_ENV"
 
       - name: Refuse to overwrite an existing backfill branch
         run: |
