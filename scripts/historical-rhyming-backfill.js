@@ -29,6 +29,15 @@ function safeReason(error) {
   return String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ').slice(0, 240);
 }
 
+function retryFeedback(error) {
+  const reason = String(error && error.message || error || 'unknown failure').replace(/\s+/g, ' ');
+  const shortStory = reason.match(/Elementary rhyming story must be 250–400 words \(received (\d+)\)/);
+  if (shortStory && Number(shortStory[1]) < 250) {
+    return `The previous output was too short: it contained exactly ${shortStory[1]} words. The required range is 250–400 words. Expand the story naturally by adding source-supported explanation or narrative detail. Do not add filler, invented facts, decorative imagery, or distortions just to reach the required length. Preserve all existing factual and natural-English priorities.`;
+  }
+  return safeReason(error);
+}
+
 function resolveEditionSelection(selection, publishedIssues, canonicalEditionIds) {
   const requested = String(selection || '').trim();
   if (!requested) throw new Error('Edition selection must not be empty');
@@ -100,7 +109,7 @@ async function generateWithRetries({ client, model, section, validateCandidate, 
     try {
       const generated = (await generate({
         client, model, section, style: DEFAULT_GENERATION_STYLE,
-        ...(validationError ? { priorValidationError: safeReason(validationError) } : {})
+        ...(validationError ? { priorValidationError: retryFeedback(validationError) } : {})
       })).value;
       validateCandidate(generated);
       return generated;
@@ -237,5 +246,5 @@ if (require.main === module) runBackfill().catch(error => {
 
 module.exports = {
   acceptElementaryCandidate, assertOnlyElementaryChanged, elementaryChanged, generateWithRetries, locateSections,
-  markdownSummary, resolveEditionSelection, runBackfill, safeReason
+  markdownSummary, resolveEditionSelection, retryFeedback, runBackfill, safeReason
 };

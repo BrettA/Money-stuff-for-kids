@@ -105,6 +105,45 @@ test('retries editorial failures with concise feedback and a complete replacemen
   assert.deepEqual(calls[1].section, { heading: 'Canonical', sourceText: 'original canonical text' });
 });
 
+test('retries a 241-word story with specific expansion guidance and accepts a valid replacement', async () => {
+  const storyWithWordCount = wordCount => {
+    const ending = 'What happened? The transaction occurred as the source explains.';
+    const endingWords = ending.match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu).length;
+    return {
+      adaptations: {
+        elementary: {
+          title: 'A sourced account', lesson: 'The transaction occurred',
+          paragraphs: [Array(wordCount - endingWords).fill('detail').join(' '), ending]
+        }
+      },
+      elementaryChecklist: {
+        realPeople: ['none in source'], realCompanies: ['none in source'],
+        financialMechanism: 'The transaction', centralJoke: 'The source event'
+      }
+    };
+  };
+  const responses = [storyWithWordCount(241), storyWithWordCount(250)];
+  const calls = [];
+  const client = { responses: { parse: async request => {
+    calls.push(request);
+    return { output_parsed: responses.shift() };
+  } } };
+
+  const result = await generateWithRetries({
+    client, model: 'test', section: { heading: 'Election manipulation', sourceText: 'The transaction occurred.' },
+    validateCandidate() {}
+  });
+
+  assert.equal(calls.length, 2);
+  assert.equal(result.adaptations.elementary.paragraphs.join(' ').match(/\b[\p{L}\p{N}][\p{L}\p{N}’'-]*\b/gu).length, 250);
+  for (const requirement of [
+    /previous output was too short/i, /exactly 241 words/i, /required range is 250–400 words/i,
+    /expand the story naturally by adding source-supported explanation or narrative detail/i,
+    /do not add filler, invented facts, decorative imagery, or distortions/i,
+    /preserve all existing factual and natural-English priorities/i
+  ]) assert.match(calls[1].instructions, requirement);
+});
+
 test('preservation guard permits only Elementary adaptation replacement', () => {
   const before = { id: 'edition', stories: [{
     id: 'story', illustration: { src: '/same.png', alt: 'same' }, elementaryChecklist: { realPeople: [] },
