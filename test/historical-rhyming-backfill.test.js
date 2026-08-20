@@ -74,6 +74,7 @@ test('summary reports partial results without including multiline source-like er
 test('workflow is manual-only, uses the four existing secrets, and never invokes publishing bridge or image generation', () => {
   const workflow = fs.readFileSync(path.join(__dirname, '..', '.github/workflows/historical-rhyming-backfill.yml'), 'utf8');
   const triggers = workflow.slice(0, workflow.indexOf('\npermissions:'));
+  const jobEnv = workflow.slice(workflow.indexOf('    env:'), workflow.indexOf('    steps:'));
   assert.match(workflow, /^on:\n  workflow_dispatch:\n/m);
   assert.match(workflow, /edition_ids:\n\s+description:[\s\S]*?required: true/);
   assert.doesNotMatch(triggers, /schedule:|pull_request:|\bpush:/);
@@ -81,6 +82,8 @@ test('workflow is manual-only, uses the four existing secrets, and never invokes
     assert.match(workflow, new RegExp(`secrets\\.${secret}`));
   }
   assert.doesNotMatch(workflow, /PUBLISH_BRIDGE|generateImage|submit-package/);
+  assert.doesNotMatch(jobEnv, /\$\{\{\s*runner\.temp\s*\}\}/);
+  assert.match(workflow, /echo "BACKFILL_SUMMARY_FILE=\$RUNNER_TEMP\/historical-backfill-pr\.md" >> "\$GITHUB_ENV"/);
   assert.match(workflow, /npm run publish/);
   assert.match(workflow, /npm run check/);
   assert.match(workflow, /npm test/);
