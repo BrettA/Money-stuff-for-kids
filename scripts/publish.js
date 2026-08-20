@@ -28,6 +28,9 @@ function validate(config, editionFiles, root) {
   if (config.publicAgeMode === 'single' && !ages.includes(publicAge(config))) {
     errors.push('site-config.json: singlePublicAge must name a configured age');
   }
+  if (typeof config.emailSubscriptionsEnabled !== 'boolean') {
+    errors.push('site-config.json: emailSubscriptionsEnabled must be a boolean');
+  }
 
   for (const { file, data: edition } of editionFiles) {
     const error = message => errors.push(`${file}: ${message}`);
@@ -162,6 +165,7 @@ ${agebar}
 }
 
 function renderSignup(config) {
+  if (!config.emailSubscriptionsEnabled) return '';
   if (isSingleAgeMode(config)) return `    <section class="newsletter" id="newsletter">
       <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
       <h2>Get the next edition.</h2>

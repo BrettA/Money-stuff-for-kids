@@ -1,5 +1,6 @@
 {
   "name": "Money Stuff for Kids",
+  "emailSubscriptionsEnabled": false,
   "publicAgeMode": "single",
   "singlePublicAge": "elementary",
   "defaultAge": "elementary",

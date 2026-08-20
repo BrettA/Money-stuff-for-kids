@@ -7,6 +7,7 @@ const { loadInputs, publish, validate } = require('../scripts/publish');
 
 const config = {
   name: 'Money Stuff for Kids',
+  emailSubscriptionsEnabled: false,
   publicAgeMode: 'single',
   singlePublicAge: 'elementary',
   defaultAge: 'elementary',
@@ -144,7 +145,7 @@ test('publishing twice is deterministic and renders images without Elementary le
   assert.equal(fs.readFileSync(target, 'utf8'), first);
   assert.match(first, /<img src="\/images\/test\/alpha\.svg" alt="A specific illustration for Alpha">/);
   assert.doesNotMatch(first, /class="lesson"/);
-  assert(first.split('\n').length > 50, 'generated HTML should be human-readable');
+  assert(first.split('\n').length > 35, 'generated HTML should be human-readable');
 });
 
 test('single public mode renders only elementary copy and no age-band UI', () => {
@@ -156,7 +157,31 @@ test('single public mode renders only elementary copy and no age-band UI', () =>
   assert.doesNotMatch(page, /Preschool title|Middle School title|High School title/);
   assert.doesNotMatch(`${home}${page}`, /READING AGE|Elementary School edition|Choose a reading level/);
   assert.doesNotMatch(`${home}${page}`, /class="age-pill"|data-age-copy/);
-  assert.match(home, /name="agePreference" value="elementary"/);
+  assert.doesNotMatch(`${home}${page}`, /signupForm|Subscribe|BY EMAIL|name="email"/);
+});
+
+test('email subscriptions are reusable but hidden unless explicitly enabled', () => {
+  const root = fixture();
+  publish({ root });
+  const disabled = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  assert.doesNotMatch(disabled, /signupForm|Subscribe|BY EMAIL|name="email"/);
+
+  fs.writeFileSync(path.join(root, 'data/site-config.json'), JSON.stringify({
+    ...config,
+    emailSubscriptionsEnabled: true
+  }));
+  publish({ root });
+  const enabled = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  assert.match(enabled, /id="signupForm"/);
+  assert.match(enabled, /name="agePreference" value="elementary"/);
+  assert.match(enabled, />Subscribe</);
+});
+
+test('requires an explicit email subscription feature flag', () => {
+  const candidate = { ...config };
+  delete candidate.emailSubscriptionsEnabled;
+  const errors = validate(candidate, [], process.cwd());
+  assert(errors.includes('site-config.json: emailSubscriptionsEnabled must be a boolean'));
 });
 
 test('multi-age mode retains the selector and every adaptation', () => {

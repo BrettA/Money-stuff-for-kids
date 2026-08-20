@@ -10,6 +10,13 @@ function setAge(age){
  const select=document.querySelector('#agePreference'); if(select) select.value=age;
 }
 document.addEventListener('DOMContentLoaded',()=>{
+ const subscriptionPage=document.querySelector('[data-subscription-page]');
+ if(subscriptionPage){
+   fetch('/data/site.json').then(r=>r.json()).then(config=>{
+     if(config.emailSubscriptionsEnabled) subscriptionPage.hidden=false;
+     else window.location.replace('/');
+   }).catch(()=>window.location.replace('/'));
+ }
  const multiAge=document.body.dataset.publicAgeMode==='multi';
  if(multiAge){
    setAge(localStorage.getItem(AGE_KEY)||'elementary');
