@@ -10,8 +10,11 @@ function setAge(age){
  const select=document.querySelector('#agePreference'); if(select) select.value=age;
 }
 document.addEventListener('DOMContentLoaded',()=>{
- setAge(localStorage.getItem(AGE_KEY)||'elementary');
- document.querySelectorAll('.age-pill').forEach(b=>b.addEventListener('click',()=>setAge(b.dataset.age)));
+ const multiAge=document.body.dataset.publicAgeMode==='multi';
+ if(multiAge){
+   setAge(localStorage.getItem(AGE_KEY)||'elementary');
+   document.querySelectorAll('.age-pill').forEach(b=>b.addEventListener('click',()=>setAge(b.dataset.age)));
+ }
  const form=document.querySelector('#signupForm');
  if(form){
    form.addEventListener('submit',async(e)=>{
@@ -23,7 +26,7 @@ document.addEventListener('DOMContentLoaded',()=>{
        const j=await r.json();
        if(!r.ok) throw new Error(j.message||'Unable to subscribe');
        status.textContent='Check your inbox — you’re on the list.';
-       form.reset(); setAge(localStorage.getItem(AGE_KEY)||'elementary');
+       form.reset(); if(multiAge) setAge(localStorage.getItem(AGE_KEY)||'elementary');
      }catch(err){status.textContent='Signup did not go through. Please try again.'}
    })
  }

@@ -22,6 +22,12 @@ function loadInputs(root) {
 function validate(config, editionFiles, root) {
   const errors = [];
   const ages = config.ages.map(age => age.id);
+  if (!['single', 'multi'].includes(config.publicAgeMode)) {
+    errors.push('site-config.json: publicAgeMode must be "single" or "multi"');
+  }
+  if (config.publicAgeMode === 'single' && !ages.includes(publicAge(config))) {
+    errors.push('site-config.json: singlePublicAge must name a configured age');
+  }
 
   for (const { file, data: edition } of editionFiles) {
     const error = message => errors.push(`${file}: ${message}`);
@@ -123,10 +129,22 @@ function buildOutputs(config, editions) {
   return outputs;
 }
 
+function isSingleAgeMode(config) {
+  return config.publicAgeMode === 'single';
+}
+
+function publicAge(config) {
+  return config.singlePublicAge || config.defaultAge;
+}
+
 function renderHeader(config, title) {
-  const buttons = config.ages.map(age =>
+  const agebar = isSingleAgeMode(config) ? '' : `
+    <div class="agebar">
+      <span class="age-label">READING AGE</span>
+${config.ages.map(age =>
     `        <button class="age-pill" data-age="${escapeHtml(age.id)}">${escapeHtml(age.label)}</button>`
-  ).join('\n');
+  ).join('\n')}
+    </div>`;
   return `<!doctype html>
 <html>
 <head>
@@ -136,17 +154,30 @@ function renderHeader(config, title) {
   <link rel="stylesheet" href="/styles.css">
   <script defer src="/app.js"></script>
 </head>
-<body>
+<body data-public-age-mode="${isSingleAgeMode(config) ? 'single' : 'multi'}">
   <header>
     <a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
-    <div class="agebar">
-      <span class="age-label">READING AGE</span>
-${buttons}
-    </div>
+${agebar}
   </header>`;
 }
 
 function renderSignup(config) {
+  if (isSingleAgeMode(config)) return `    <section class="newsletter" id="newsletter">
+      <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
+      <h2>Get the next edition.</h2>
+      <p>We'll email you when a new Money Stuff for Kids edition is published.</p>
+      <form id="signupForm" class="signup signup-single">
+        <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
+        <input type="hidden" name="agePreference" value="${escapeHtml(publicAge(config))}">
+        <input type="hidden" name="action" value="subscribe">
+        <input type="hidden" name="_subject" value="Money Stuff for Kids signup">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div id="signupStatus" class="status"></div>
+      <p class="form-note">Unsubscribe anytime.</p>
+    </section>`;
   const options = config.ages.map(age =>
     `          <option value="${escapeHtml(age.id)}">${escapeHtml(age.label)}</option>`
   ).join('\n');
@@ -188,7 +219,9 @@ function renderHome(config, editions) {
     <section>
       <div class="eyebrow">THE WORLD OF MONEY, MADE SIMPLE</div>
       <h1>Money Stuff.<br><em>But for kids.</em></h1>
-      <p class="intro">Matt Levine's Money Stuff, retold for curious kids. Choose a reading level and dive in.</p>
+      <p class="intro">${isSingleAgeMode(config)
+    ? "Matt Levine's Money Stuff, retold for curious kids. Pick an edition and dive in."
+    : "Matt Levine's Money Stuff, retold for curious kids. Choose a reading level and dive in."}</p>
     </section>
     <h2 class="section-title">All editions</h2>
     <div class="edition-grid">
@@ -205,19 +238,23 @@ function renderEdition(config, edition) {
     <a class="back" href="/">← All editions</a>
     <div class="eyebrow">${escapeHtml(edition.displayDate.toUpperCase())} · MONEY STUFF EDITION</div>
     <h1>${escapeHtml(edition.title)}</h1>
-    <p class="intro"><b class="current-age-label">Elementary School</b> edition.</p>
+${isSingleAgeMode(config) ? '' : `    <p class="intro"><b class="current-age-label">${escapeHtml(config.ages.find(age => age.id === config.defaultAge)?.label || config.defaultAge)}</b> edition.</p>`}
 ${stories}
 ${renderSignup(config)}
 ${renderFooter()}`;
 }
 
 function renderStory(config, story, index) {
-  const adaptations = config.ages.map(age => {
+  const visibleAges = isSingleAgeMode(config)
+    ? config.ages.filter(age => age.id === publicAge(config))
+    : config.ages;
+  const adaptations = visibleAges.map(age => {
     const adaptation = story.adaptations[age.id];
     const paragraphs = adaptation.paragraphs.map(paragraph => `          <p>${escapeHtml(paragraph)}</p>`).join('\n');
     const lesson = age.id === 'elementary' ? '' : `
           <div class="lesson"><b>THE MONEY IDEA</b><br>${escapeHtml(adaptation.lesson)}</div>`;
-    return `        <div data-age-copy="${escapeHtml(age.id)}">
+    const ageAttribute = isSingleAgeMode(config) ? '' : ` data-age-copy="${escapeHtml(age.id)}"`;
+    return `        <div${ageAttribute}>
           <h2>${escapeHtml(adaptation.title)}</h2>
 ${paragraphs}${lesson}
         </div>`;

@@ -18,6 +18,7 @@ h1{font-family:Georgia,serif;font-size:clamp(50px,7vw,88px);line-height:.95;lett
 
 .newsletter{margin-top:72px;border-radius:24px;background:var(--ink);color:white;padding:36px}.newsletter h2{font-family:Georgia,serif;font-size:40px;margin:0 0 10px;letter-spacing:-.04em}.newsletter p{max-width:680px;line-height:1.5;color:#d8ded7}
 .signup{display:grid;grid-template-columns:2fr 1.2fr auto;gap:10px;margin-top:22px}.signup input,.signup select{border:0;border-radius:12px;padding:14px;font:inherit}.signup button{border:0;border-radius:12px;padding:14px 20px;background:var(--lime);font-weight:800;cursor:pointer}
+.signup-single{grid-template-columns:2fr auto}
 .form-note{font-size:11px!important;color:#aeb8ad!important}.status{margin-top:12px;font-size:13px;font-weight:700}.back{display:inline-block;margin-bottom:28px;font-size:13px;font-weight:700;text-decoration:none}
 footer{border-top:1px solid var(--line);margin-top:60px;padding:35px 0;color:var(--muted);font-size:12px;line-height:1.5}
 [data-age-copy]{display:none}[data-age-copy].active{display:block}
