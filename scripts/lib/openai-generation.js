@@ -19,14 +19,18 @@ const LEGACY_STORY_INSTRUCTIONS = [
 
 const RHYMING_STORY_INSTRUCTIONS = [
   'Write the Elementary adaptation as a polished rhyming picture-book story for a target reader roughly ages 5–8; this age is internal guidance and must not appear in the copy.',
-  'Tell the real Money Stuff story, not a generic analogy: retain every important number, real person, real company, the actual financial mechanism, and the source\'s central joke or absurdity. Never invent a person or company.',
-  'Rewrite the story from scratch as one coherent story arc and narrative, while preserving the actual facts, mechanism, people, companies, important numbers, and central joke. Do not take the source prose sentence-by-sentence and append rhyming suffixes, and do not preserve its paragraph structure just to force rhyme. Explain necessary financial terms naturally in the story.',
-  'Write roughly 250–400 words, mostly in rhyming couplets with a polished read-aloud cadence. Prefer slant rhyme or an unrhymed line over awkward syntax. If a technical fact cannot be expressed naturally in rhyme, state it plainly rather than distorting it. Never split a proper noun, company name, number, abbreviation, or natural phrase across lines to manufacture rhyme.',
-  'Avoid ordinary non-rhyming prose, sing-song filler, generic moralizing, and substitute stories about lemonade stands, allowances, apples, or other kid-business analogies. A tiny analogy is allowed only when genuinely necessary.',
+  'Factual meaning and natural, idiomatic English are mandatory; rhyme is optional. Never change a buy into a sell, change who did what, alter cause and effect, invent a motivation, or introduce any unsupported action merely to complete a rhyme. Every line must still make grammatical, ordinary-prose sense when read without its rhyme partner.',
+  'Tell the real Money Stuff story, not a generic analogy: preserve the real people, real companies, actual financial mechanism, central joke or absurdity, and the numbers needed to understand the story. Never invent a person or company.',
+  'Rewrite the story from scratch as one coherent narrative. Introduce the protagonist or company, explain what happened and the financial mechanism naturally, show what changed or went wrong or right, and land on the source’s real absurdity. Do not take the source prose sentence-by-sentence and append rhyming suffixes, and do not preserve its paragraph structure just to force rhyme.',
+  'Write roughly 250–400 words with a strong read-aloud rhythm and frequent rhyme, often in couplets, but never sacrifice factual meaning or natural English to complete a rhyme. Prefer slant rhyme to strained syntax, and prefer an unrhymed line to filler, nonsense, awkward wording, or factual distortion. If a technical fact cannot be expressed naturally in rhyme, state it plainly. Never split a proper noun, company name, number, abbreviation, or natural phrase across lines to manufacture rhyme.',
+  'Use fewer facts in the verse. Preserve the causal chain, named actors, mechanism, central absurdity, and only the most useful or memorable numbers. Do not cram every source statistic into the poem; supporting precision can go in the final What happened? explanation. The verse should feel like a story, not a financial summary broken into rhyming lines.',
+  'Do not add decorative objects, gestures, emotions, motives, or generic imagery merely to supply a rhyme. Avoid unsupported filler such as invented hands, bells, suits, maps, grins, roofs, hearts, skies, keepsakes, or “under the sun” language unless the source genuinely supports that detail. Do not append an empty clause whose only function is rhyme.',
+  'Avoid sing-song filler, generic moralizing, and substitute stories about lemonade stands, allowances, apples, or other kid-business analogies. A tiny analogy is allowed only when genuinely necessary. Keep the sophistication of real names and financial terms, explaining unfamiliar terms naturally in context rather than replacing them.',
   'Do not use generic stock lines that could fit unrelated stories. In particular, never use reusable meta-rhyme filler such as “the first careful clue in the tale,” “the next shows why plans can fail,” “with the dollars and details in view,” “while the market reveals what is true,” “one step in the financial rhyme,” “the consequence lands right on time,” “Follow the dollars from trouble to choice,” “X gives the real mechanism its name,” or “the rule underneath all of this.”',
   'Never refer to “the rhyme,” “the tale,” “the mechanism,” or the act of explaining the story unless that language is naturally part of the source. Do not repeat the lesson text inside the rhyming story just to add length. The result must read like an authored children’s story, not a prose summary with rhyme attached.',
+  'Before returning the story, silently read every verse line as ordinary prose. If any phrase would sound nonsensical, ungrammatical, misleading, or oddly chosen without its rhyme partner, rewrite it even if that breaks the rhyme.',
   'Preserve the real absurdity instead of inventing a different joke.',
-  'The final Elementary paragraphs array item must begin exactly "What happened?" and then give one or two non-rhyming, plain-English sentences stating the actual real-world mechanism and facts. Do not put story text after it.',
+  'The final Elementary paragraphs array item must begin exactly "What happened?" and then give one or two non-rhyming, plain-English sentences stating the actual real-world mechanism and facts. Prefer two short sentences when several numbers or mechanics need explanation. Do not put story text after it.',
   'Use the Elementary lesson field for a concise schema-compatible statement of the real mechanism, even though it is not rendered as a separate public lesson box.'
 ];
 
@@ -35,7 +39,11 @@ const STOCK_RHYME_FILLER = [
   'with the dollars and details in view', 'while the market reveals what is true',
   'one step in the financial rhyme', 'the consequence lands right on time',
   'follow the dollars from trouble to choice', 'gives the real mechanism its name',
-  'the rule underneath all of this'
+  'the rule underneath all of this',
+  'as more investors were sold', 'ken griffins citadel hand', 'citadel took them for keepsakes',
+  'spent forty four thousand dollars on a sell', 'pivoted into other grids',
+  'make the product light', 'sixtys what you store', 'other values must be stood',
+  'a different kind of join', 'a market worth of 2 8 billion chimed'
 ];
 
 function storyInstructions(style = DEFAULT_GENERATION_STYLE) {
@@ -64,10 +72,6 @@ function entityAppearsInSource(entity, sourceText) {
   if (!entityParts.length) return false;
   if (entityParts.every(part => sourceParts.has(part))) return true;
 
-  // Newsletter prose often shortens legal names (JPMorgan Chase -> JPMorgan,
-  // ALT5 Sigma Corp. -> ALT5). A distinctive shared token or standard
-  // initialism is enough to establish that the checklist entity came from the
-  // source; this is an invention guard, not a demand for verbatim naming.
   const distinctive = entityParts.filter(part => part.length >= 3 && !ENTITY_NOISE_WORDS.has(part));
   if (distinctive.some(part => sourceParts.has(part))) return true;
   const initials = distinctive.map(part => part[0]).join('');
@@ -91,13 +95,10 @@ function assertRhymingEditorialOutput(story, section) {
     throw new Error('What happened? explanation must contain one or two sentences');
   }
   const storyCopy = elementary.paragraphs.slice(0, -1).join('\n');
-  const normalizedStoryCopy = storyCopy.toLowerCase().replace(/[“”'’]/g, '');
-  const filler = STOCK_RHYME_FILLER.find(phrase => normalizedStoryCopy.includes(phrase.toLowerCase()));
+  const normalizedStoryCopy = entityTokens(storyCopy).join(' ');
+  const filler = STOCK_RHYME_FILLER.find(phrase => normalizedStoryCopy.includes(entityTokens(phrase).join(' ')));
   if (filler) throw new Error(`Elementary rhyming story contains reusable rhyme filler: ${filler}`);
 
-  // These words are a reliable symptom of prose-wrapping when the source did
-  // not itself discuss them. Keep this deliberately narrow rather than trying
-  // to assign a subjective poetry score.
   for (const metaWord of ['rhyme', 'tale', 'mechanism']) {
     if (!entityTokens(section.sourceText).includes(metaWord) && entityTokens(storyCopy).includes(metaWord)) {
       throw new Error(`Elementary rhyming story contains unsupported meta-rhyme language: ${metaWord}`);
