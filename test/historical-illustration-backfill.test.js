@@ -9,6 +9,10 @@ const { spawnSync } = require('node:child_process');
 const {
   assertOnlyIllustrationPathsChanged, imageDestination, markdownSummary
 } = require('../scripts/historical-illustration-backfill');
+const {
+  ILLUSTRATION_CONTENT_INSTRUCTIONS, finalImagePrompt, illustrationPreviewContentPrompt
+} = require('../scripts/lib/openai-generation');
+const { illustrationPreviewContentPrompt: previewPrompt } = require('../scripts/lib/illustration-preview');
 
 const repo = path.resolve(__dirname, '..');
 
@@ -25,6 +29,22 @@ test('preserves an existing PNG path and migrates another image type predictably
   assert.equal(imageDestination('edition', {
     id: 'story', illustration: { src: '/images/edition/legacy.svg' }
   }), '/images/edition/story.png');
+});
+
+test('backfill and preview expose the same effective content and style prompt', () => {
+  const edition = { id: 'edition' };
+  const story = {
+    id: 'story', illustration: { alt: 'A very specific approved scene. ' },
+    adaptations: { elementary: { title: 'The Approved Story' } }
+  };
+  const expected = [
+    ILLUSTRATION_CONTENT_INSTRUCTIONS,
+    'Story context: The Approved Story.',
+    'Scene to illustrate exactly: A very specific approved scene.'
+  ].join('\n');
+  assert.equal(illustrationPreviewContentPrompt(edition, story), expected);
+  assert.equal(previewPrompt(edition, story), expected);
+  assert.equal(finalImagePrompt(illustrationPreviewContentPrompt(edition, story)), finalImagePrompt(previewPrompt(edition, story)));
 });
 
 test('preservation guard allows only illustration src changes', () => {

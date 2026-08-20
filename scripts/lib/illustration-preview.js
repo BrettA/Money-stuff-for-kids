@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const {
-  DEFAULT_IMAGE_MODEL, ILLUSTRATION_CONTENT_INSTRUCTIONS, clientFor, finalImagePrompt, generateImage
+  DEFAULT_IMAGE_MODEL, clientFor, finalImagePrompt, generateImage, illustrationPreviewContentPrompt
 } = require('./openai-generation');
 
 function selectStories(edition, storyId = '') {
@@ -15,18 +15,6 @@ function selectStories(edition, storyId = '') {
   const story = stories.find(candidate => candidate.id === storyId);
   if (!story) throw new Error(`Story ${storyId} does not exist in edition ${edition.id}`);
   return [story];
-}
-
-function illustrationPreviewContentPrompt(edition, story) {
-  const scene = story.illustration && story.illustration.alt;
-  if (!scene || !String(scene).trim()) {
-    throw new Error(`Story ${story.id} has no canonical illustration scene`);
-  }
-  return [
-    ILLUSTRATION_CONTENT_INSTRUCTIONS,
-    `Story context: ${story.adaptations.elementary.title}.`,
-    `Scene to illustrate exactly: ${String(scene).trim()}`
-  ].join('\n');
 }
 
 function safeName(value, fallback = '') {

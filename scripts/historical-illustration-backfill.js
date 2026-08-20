@@ -5,7 +5,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { assertCanonicalEdition } = require('./lib/edition-schema');
 const {
-  DEFAULT_IMAGE_MODEL, canonicalStoryIllustrationPrompt, clientFor, generateImage
+  DEFAULT_IMAGE_MODEL, clientFor, generateImage, illustrationPreviewContentPrompt
 } = require('./lib/openai-generation');
 const { resolveEditionSelection, safeReason } = require('./historical-rhyming-backfill');
 
@@ -63,7 +63,7 @@ async function runBackfill({ environment = process.env, generate = generateImage
     for (const [index, story] of original.stories.entries()) {
       try {
         const destination = imageDestination(original.id, story);
-        const image = await generate({ client, model, prompt: canonicalStoryIllustrationPrompt(story) });
+        const image = await generate({ client, model, prompt: illustrationPreviewContentPrompt(original, story) });
         const diskPath = path.join(root, destination.replace(/^\//, ''));
         fs.mkdirSync(path.dirname(diskPath), { recursive: true });
         fs.writeFileSync(diskPath, image.bytes);
