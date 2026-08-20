@@ -177,10 +177,31 @@ test('multi-age mode retains the selector and every adaptation', () => {
   assert.match(page, /Elementary School<\/b> edition/);
 });
 
-test('legacy illustration assets retain every previously visible emoji', () => {
-  const expected = ['🦔','🤖','🔐','🧪','🔥','🏃','🪜','🐜','🏢','🎯','📦','🧾','🗃️','⏱️','📣','🎵','🐐','✉️','🚀','🤝'];
-  const assets = fs.readdirSync(path.join(__dirname, '..', 'images'), { recursive: true })
-    .filter(name => name.endsWith('.svg'))
-    .map(name => fs.readFileSync(path.join(__dirname, '..', 'images', name), 'utf8'));
-  for (const emoji of expected) assert(assets.some(asset => asset.includes(emoji)), `missing ${emoji}`);
+test('canonical stories reference existing illustrations that publishing renders', () => {
+  const projectRoot = path.join(__dirname, '..');
+  const { config: canonicalConfig, editions } = loadInputs(projectRoot);
+  assert.deepEqual(validate(canonicalConfig, editions, projectRoot), []);
+
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), 'msfk-canonical-publisher-'));
+  fs.cpSync(path.join(projectRoot, 'data'), path.join(root, 'data'), { recursive: true });
+
+  for (const { data: canonicalEdition } of editions) {
+    for (const canonicalStory of canonicalEdition.stories) {
+      const illustrationPath = canonicalStory.illustration.src;
+      assert(illustrationPath.startsWith('/'), `invalid illustration path: ${illustrationPath}`);
+      assert(fs.existsSync(path.join(projectRoot, illustrationPath.slice(1))), `missing ${illustrationPath}`);
+
+      const target = path.join(root, illustrationPath.slice(1));
+      fs.mkdirSync(path.dirname(target), { recursive: true });
+      fs.copyFileSync(path.join(projectRoot, illustrationPath.slice(1)), target);
+    }
+  }
+
+  publish({ root });
+  for (const { data: canonicalEdition } of editions) {
+    const page = fs.readFileSync(path.join(root, 'editions', canonicalEdition.id, 'index.html'), 'utf8');
+    for (const canonicalStory of canonicalEdition.stories) {
+      assert(page.includes(`<img src="${canonicalStory.illustration.src}"`));
+    }
+  }
 });
