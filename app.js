@@ -59,6 +59,7 @@ function formatStoryCopy(){
 document.addEventListener('DOMContentLoaded',()=>{
  applyPublicCopy();
  formatStoryCopy();
+ document.querySelectorAll('.newsletter').forEach(section=>section.remove());
  const modal=document.querySelector('#welcomeModal');
  if(modal){
    let dismissed=false;
