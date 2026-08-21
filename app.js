@@ -57,9 +57,17 @@ function formatStoryCopy(){
    paragraph.classList.add('what-happened');
  });
 }
+function addMoneyFavicon(){
+ if(!document.head||typeof document.createElement!=='function') return;
+ const favicon=document.createElement('link');
+ favicon.rel='icon';
+ favicon.href=`data:image/svg+xml,${encodeURIComponent("<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💰</text></svg>")}`;
+ document.head.appendChild(favicon);
+}
 document.addEventListener('DOMContentLoaded',()=>{
  applyPublicCopy();
  formatStoryCopy();
+ addMoneyFavicon();
  const logo=document.querySelector('.logo');
  if(logo) logo.innerHTML='UNOFFICIAL MONEY STUFF <span>FOR KIDS</span>';
  if(typeof document.querySelectorAll==='function') document.querySelectorAll('.newsletter').forEach(section=>section.remove());
