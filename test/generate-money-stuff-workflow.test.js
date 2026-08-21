@@ -9,7 +9,9 @@ const { spawnSync } = require('node:child_process');
 
 const repo = path.resolve(__dirname, '..');
 const workflow = path.join(repo, '.github', 'workflows', 'generate-money-stuff.yml');
-const { assertMessageEligible, retryRequested } = require('../scripts/money-stuff-worker');
+const {
+  assertMessageEligible, newestUnsubmittedMessage, retryRequested
+} = require('../scripts/money-stuff-worker');
 
 function git(cwd, ...args) {
   const result = spawnSync('git', args, { cwd, encoding: 'utf8' });
@@ -42,7 +44,7 @@ test('manual retry input defaults off and requires an explicit message and submi
   const contents = fs.readFileSync(workflow, 'utf8');
   assert.match(contents, /admin_retry:[\s\S]*?default: false/);
   assert.match(contents, /if: \$\{\{ inputs\.admin_retry \}\}/);
-  assert.match(contents, /ADMIN_RETRY_TOKEN: \$\{\{ inputs\.admin_retry && secrets\.ADMIN_RETRY_TOKEN \|\| '' \}\}/);
+  assert.match(contents, /ADMIN_RETRY_TOKEN: \$\{\{ github\.event_name == 'workflow_dispatch' && inputs\.admin_retry && secrets\.ADMIN_RETRY_TOKEN \|\| '' \}\}/);
   assert.equal(retryRequested({ ADMIN_RETRY: 'false' }), false);
   const authorized = {
     ADMIN_RETRY: 'true', ADMIN_RETRY_TOKEN: 'admin-secret', GITHUB_EVENT_NAME: 'workflow_dispatch',
@@ -65,6 +67,24 @@ test('manual retry input defaults off and requires an explicit message and submi
 test('workflow exposes migration input only through the administrative retry path', () => {
   const contents = fs.readFileSync(workflow, 'utf8');
   assert.match(contents, /previous_edition_id:[\s\S]*?required: false/);
-  assert.match(contents, /PREVIOUS_EDITION_ID: \$\{\{ inputs\.previous_edition_id \}\}/);
+  assert.match(contents, /PREVIOUS_EDITION_ID: \$\{\{ github\.event_name == 'workflow_dispatch' && inputs\.previous_edition_id \|\| '' \}\}/);
   assert.match(contents, /!inputs\.admin_retry && inputs\.previous_edition_id != ''/);
+});
+
+test('scheduled polls submit while manual dispatch keeps its supplied submit value', () => {
+  const contents = fs.readFileSync(workflow, 'utf8');
+  assert.match(contents, /schedule:\s*\n\s*- cron: '17,47 \* \* \* \*'/);
+  assert.match(contents, /SUBMIT: \$\{\{ github\.event_name == 'schedule' && 'true' \|\| inputs\.submit \}\}/);
+  assert.match(contents, /GMAIL_MESSAGE_ID: \$\{\{ github\.event_name == 'workflow_dispatch' && inputs\.gmail_message_id \|\| '' \}\}/);
+  assert.match(contents, /ADMIN_RETRY: \$\{\{ github\.event_name == 'workflow_dispatch' && inputs\.admin_retry \|\| false \}\}/);
+  assert.match(contents, /No new unsubmitted Money Stuff email found/);
+});
+
+test('newest unsubmitted selection preserves Gmail order and duplicate state', () => {
+  const messages = [{ id: 'newest' }, { id: 'submitted' }, { id: 'published' }, { id: 'oldest' }];
+  const state = { messages: { submitted: { submitted: true } } };
+  const published = new Set(['published']);
+  assert.equal(newestUnsubmittedMessage(messages, state, published).id, 'newest');
+  assert.equal(newestUnsubmittedMessage(messages.slice(1), state, published).id, 'oldest');
+  assert.equal(newestUnsubmittedMessage(messages.slice(1, 3), state, published), undefined);
 });

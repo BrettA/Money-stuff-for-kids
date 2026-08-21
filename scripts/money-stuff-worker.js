@@ -64,6 +64,11 @@ function assertMessageEligible(state, messageId, adminRetry) {
   if (!adminRetry) assertNotSubmitted(state, messageId);
 }
 
+function newestUnsubmittedMessage(messages, state, previouslyPublished) {
+  return messages.find(message => !previouslyPublished.has(message.id) &&
+    !(state.messages[message.id] && state.messages[message.id].submitted));
+}
+
 async function main() {
   for (const name of REQUIRED) env(name);
   const submit = process.env.SUBMIT === 'true';
@@ -90,8 +95,13 @@ async function main() {
       token,
       query: process.env.MONEY_STUFF_GMAIL_QUERY || 'from:(noreply@news.bloomberg.com) subject:(Money Stuff)'
     });
-    const candidate = messages.find(message => !previouslyPublished.has(message.id) &&
-      !(state.messages[message.id] && state.messages[message.id].submitted));
+    const candidate = newestUnsubmittedMessage(messages, state, previouslyPublished);
+    if (!candidate && process.env.GITHUB_EVENT_NAME === 'schedule') {
+      output('processed', 'false');
+      output('submitted', 'false');
+      console.log('No new unsubmitted Money Stuff email found.');
+      return;
+    }
     if (!candidate) throw new Error('No unprocessed Money Stuff Gmail message was found');
     messageId = candidate.id;
   }
@@ -183,6 +193,7 @@ async function main() {
   output('edition_id', editionId);
   output('gmail_message_id', messageId);
   output('package_sha256', packaged.sha256);
+  output('processed', 'true');
   output('submitted', String(submit));
   console.log(`Completed ${submit ? 'submitted' : 'dry-run'} generation for ${editionId} (${stories.length} stories).`);
 }
@@ -194,4 +205,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { assertMessageEligible, retryRequested };
+module.exports = { assertMessageEligible, newestUnsubmittedMessage, retryRequested };

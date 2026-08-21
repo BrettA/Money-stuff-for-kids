@@ -21,6 +21,8 @@ on:
         description: Exact submitted edition ID to replace only when intentionally migrating an admin retry
         required: false
         type: string
+  schedule:
+    - cron: '17,47 * * * *'
 
 permissions:
   contents: write
@@ -42,12 +44,12 @@ jobs:
       OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
       MONEY_STUFF_GMAIL_QUERY: ${{ vars.MONEY_STUFF_GMAIL_QUERY }}
       PUBLISH_API_TOKEN: ${{ secrets.PUBLISH_API_TOKEN }}
-      ADMIN_RETRY_TOKEN: ${{ inputs.admin_retry && secrets.ADMIN_RETRY_TOKEN || '' }}
+      ADMIN_RETRY_TOKEN: ${{ github.event_name == 'workflow_dispatch' && inputs.admin_retry && secrets.ADMIN_RETRY_TOKEN || '' }}
       PUBLISH_BRIDGE_URL: ${{ vars.PUBLISH_BRIDGE_URL }}
-      GMAIL_MESSAGE_ID: ${{ inputs.gmail_message_id }}
-      SUBMIT: ${{ inputs.submit }}
-      ADMIN_RETRY: ${{ inputs.admin_retry }}
-      PREVIOUS_EDITION_ID: ${{ inputs.previous_edition_id }}
+      GMAIL_MESSAGE_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.gmail_message_id || '' }}
+      SUBMIT: ${{ github.event_name == 'schedule' && 'true' || inputs.submit }}
+      ADMIN_RETRY: ${{ github.event_name == 'workflow_dispatch' && inputs.admin_retry || false }}
+      PREVIOUS_EDITION_ID: ${{ github.event_name == 'workflow_dispatch' && inputs.previous_edition_id || '' }}
       WORKER_STATE_FILE: /tmp/money-stuff-worker-state.json
       WORKER_OUTPUT_DIRECTORY: /tmp/money-stuff-output
     steps:
@@ -115,12 +117,17 @@ jobs:
         env:
           EDITION_ID: ${{ steps.worker.outputs.edition_id }}
           GMAIL_ID: ${{ steps.worker.outputs.gmail_message_id }}
+          PROCESSED: ${{ steps.worker.outputs.processed }}
           SUBMITTED: ${{ steps.worker.outputs.submitted }}
         run: |
           {
             echo '### Money Stuff generation worker'
-            echo "- Edition: \`$EDITION_ID\`"
-            echo "- Gmail message ID: \`$GMAIL_ID\`"
-            echo "- Submitted through publishing bridge: \`$SUBMITTED\`"
+            if [[ "$PROCESSED" == true ]]; then
+              echo "- Edition: \`$EDITION_ID\`"
+              echo "- Gmail message ID: \`$GMAIL_ID\`"
+              echo "- Submitted through publishing bridge: \`$SUBMITTED\`"
+            else
+              echo '- No new unsubmitted Money Stuff email found.'
+            fi
             echo '- No newsletter source body or generated package was retained as an artifact.'
           } >> "$GITHUB_STEP_SUMMARY"
