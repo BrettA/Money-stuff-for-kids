@@ -24,6 +24,18 @@
       "submitted": true,
       "updatedAt": "2026-08-21T04:26:46.620Z",
       "submittedAt": "2026-08-21T04:26:46.620Z"
+    },
+    "1a021abfdd897947": {
+      "gmailMessageId": "1a021abfdd897947",
+      "newsletterDate": "2026-07-23",
+      "newsletterTitle": "Sports Happen So Much",
+      "editionId": "2026-07-23-sports-happen-so-much",
+      "sourceSha256": "0010d8e2d2d4b7ba758b35d9191ff331d07ee4fc17016c45e279c71291fff9fc",
+      "packageSha256": "a52eeacd8e4d1023187f8395d2ab683f91a5c11d3c433b83929be42755cc7ba3",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-21T05:18:59.920Z",
+      "submittedAt": "2026-08-21T05:18:59.920Z"
     }
   }
 }
