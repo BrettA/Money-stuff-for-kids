@@ -12,6 +12,18 @@
       "submitted": true,
       "updatedAt": "2026-08-19T19:15:07.969Z",
       "submittedAt": "2026-08-19T19:15:07.969Z"
+    },
+    "1a02240ddcca776b": {
+      "gmailMessageId": "1a02240ddcca776b",
+      "newsletterDate": "2026-07-13",
+      "newsletterTitle": "ETFs Are for Bets",
+      "editionId": "2026-07-13-etfs-are-for-bets",
+      "sourceSha256": "d55946e41ad0fa4e9c507d7ad699ba7e798e0b6d5f252b9e7cdca6e67ff49e2d",
+      "packageSha256": "68c8c4dbb7fa787c199605b094df720f97e1c082ce35b9d936559dfa07be96a8",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-21T04:26:46.620Z",
+      "submittedAt": "2026-08-21T04:26:46.620Z"
     }
   }
 }
