@@ -40,6 +40,7 @@ function applyPublicCopy(){
  }
 }
 function formatStoryCopy(){
+ if(typeof document.querySelectorAll!=='function') return;
  document.querySelectorAll('.story .original').forEach(original=>{
    const headline=original.querySelector('b');
    if(headline){
@@ -61,7 +62,7 @@ document.addEventListener('DOMContentLoaded',()=>{
  formatStoryCopy();
  const logo=document.querySelector('.logo');
  if(logo) logo.innerHTML='UNOFFICIAL MONEY STUFF <span>FOR KIDS</span>';
- document.querySelectorAll('.newsletter').forEach(section=>section.remove());
+ if(typeof document.querySelectorAll==='function') document.querySelectorAll('.newsletter').forEach(section=>section.remove());
  const modal=document.querySelector('#welcomeModal');
  if(modal){
    let dismissed=false;
