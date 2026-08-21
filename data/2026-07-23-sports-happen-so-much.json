@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-07-23-sports-happen-so-much",
+  "date": "2026-07-23",
+  "displayDate": "July 23, 2026",
+  "title": "Sports Happen So Much",
+  "sourceSections": [
+    "Sports index",
+    "People are worried about the basis trade",
+    "Truth API",
+    "10b5-1 plans",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "sports-index",
+      "sourceSection": "Sports index",
+      "illustration": {
+        "src": "/images/2026-07-23-sports-happen-so-much/sports-index.png",
+        "alt": "Leigh Taylforth pointing at a large screen of scrolling team tickers labeled \"FutureSports FSPI\" with \"7,500\" visible and the \"Carolina Hurricanes Index\" number changing as a hockey game plays, while investors and a stadium owner watch."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Leigh Taylforth"
+        ],
+        "realCompanies": [
+          "FutureSports",
+          "Subversive All Season Sports ETF"
+        ],
+        "financialMechanism": "FutureSports Performance Indexes (FSPI) start at 7,500 and move in real time based on officially reported team and athlete statistics to underpin tradable products such as ETFs, listed derivatives, index futures and OTC swaps.",
+        "centralJoke": "The author joked about a prediction-market-style sports index and then a real firm promptly launched something very like it, turning a quip into a tradable financial product."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Sports Numbers That Move",
+          "lesson": "FutureSports made indexes (FSPI) that start at 7,500 and change during games based on team and player statistics. Leigh Taylforth said the global sporting industry is $650 billion a year.",
+          "paragraphs": [
+            "A company called FutureSports watches games and makes numbers that wobble.",
+            "Leigh Taylforth helped start FutureSports and said sports are big—$650 billion big.",
+            "Each team gets a number called an FSPI that begins at 7,500 before the season.",
+            "When a team scores, wins, or a player gets hurt, the FSPI number goes up or down.",
+            "Those numbers can be used to make financial things like ETFs and futures, not just simple bets.",
+            "Some people thought this was a joke—then a real company did it for real.",
+            "Even a fund called Subversive All Season Sports ETF filed paperwork to make sports betting into an investment.",
+            "The idea is that a continuous number is easier to sell to big investors than a single win-or-lose bet."
+          ]
+        },
+        "elementary": {
+          "title": "The Day the Sports Scores Became Numbers",
+          "lesson": "FutureSports builds FSPI indexes that start at 7,500 and move in real time from official game statistics so they can be used to underpin tradable products like ETFs, listed derivatives, futures, and OTC swaps; Leigh Taylforth said the global sports industry generates $650 billion a year.",
+          "paragraphs": [
+            "I joked that markets could count sport as fate, a scoreboard turned to money on a plate.",
+            "Then someone emailed, \"I did that thing,\" with a grin—next thing a company made the joke begin.",
+            "FutureSports stepped up, with Leigh Taylforth in view, saying sports are worth $650 billion—so here's something new.",
+            "They build FSPI indexes that always start at 7,500, a tidy number before the season comes alive.",
+            "When the puck slides, the ball flies, or the pitcher strikes out late, the index ticks during the game, in real time, not by fate.",
+            "A home run might push a team's FSPI up a bit; an injury or odd behavior could make the ticker sit.",
+            "Institutions like broadcasters, insurers, stadium owners, and sponsors might use these numbers to hedge a risk or trade, the press release said, in sober tones not made to fade.",
+            "There’s even a Subversive All Season Sports ETF that filed to use money to bet, an actively managed fund that makes gamblers fret.",
+            "Traditional bets are binary: win you cheer, lose you sigh; the FSPI is a continuous number, so the money doesn’t simply die.",
+            "If the Carolina Hurricanes index falls after five losses in a row, it still sits on a positive screen—so ETFs don’t crack, explode, or go cleanly to zero, as daily all-or-nothing bets might have been.",
+            "It’s funny and odd that my joke walked in wearing a suit; the markets made a product that turns cheering into pursuit.",
+            "What happened? FutureSports creates rules-based FSPI indexes that start at a standardized base value of 7,500 and move in real time based on officially reported statistics; those continuous values are intended to underpin tradable financial products such as ETFs, listed derivatives, index futures and OTC swaps."
+          ]
+        },
+        "middle": {
+          "title": "When Scoreboards Became Indexes",
+          "lesson": "FutureSports’ FSPI start at 7,500 and update in real time from official stats; they’re designed to underlie tradable instruments (ETFs, futures, OTC swaps) so institutions can attempt to hedge sports-related risks, though basis risk between indexes and actual financial exposures is substantial.",
+          "paragraphs": [
+            "A writer joked about a prediction-market-style index for events; within weeks a reader claimed to have built one, and then a firm actually did.",
+            "FutureSports — co-founded by Leigh Taylforth — launched a product family called FutureSports Performance Indexes (FSPI).",
+            "Each FSPI begins at 7,500 before a season and moves continuously based on officially reported team and player statistics while games are live.",
+            "The company says these indexes can underpin listed derivatives, ETFs, index futures and OTC swaps, and that potential buyers include broadcasters, sponsors, insurers, stadium owners and investors.",
+            "There’s a related filing: the Subversive All Season Sports ETF would be an actively managed sports-gambling ETF, which is a different animal (it uses a professional gambler to place bets).",
+            "The FSPI approach converts binary sports outcomes into continuous prices, which are more saleable to large institutional traders and useful inside long-term products.",
+            "But real hedging needs correlation: bars worried about beer sales or teams worried about revenues face basis risk if the index doesn’t track their specific loss drivers.",
+            "Still, turning runs, goals and injuries into constantly updating indexes is a novel financial engineering step—and it began with a joke that became business."
+          ]
+        },
+        "high": {
+          "title": "Sports Statistics as Tradable Benchmarks",
+          "lesson": "FutureSports’ FSPI are rules-based indexes that start at 7,500 and move in real time from official game statistics; they’re marketed to underlie ETFs, listed derivatives, index futures and OTC swaps for a wide array of sports-adjacent counterparties, but substantial basis risk and questions about economic linkage to revenue exposures remain.",
+          "paragraphs": [
+            "The author quipped about a prediction-market index and, in short order, one reader mocked up an implementation and a firm named FutureSports launched a seriously worded product. That progression—from joke to proof-of-concept to earnest press release—captures the giddy absurdity of modern finance.",
+            "FutureSports, co-founded by Leigh Taylforth, emphasizes that the global sporting industry generates roughly $650 billion a year and claims no liquid, robust mechanism existed to hedge the spectrum of sports risks until now.",
+            "Its FutureSports Performance Indexes (FSPI) begin each season at a fixed base value of 7,500 and then move intraday in response to officially reported statistics — wins, runs, goals, home runs, injuries and, oddly phrased in the release, “unanticipated behavior issues.”",
+            "The company positions FSPI to underpin tradable instruments: listed derivatives, ETFs (including the newly filed Subversive All Season Sports ETF concept), index futures and OTC swaps, and to attract counterparties from broadcasters to insurers to apparel manufacturers.",
+            "Mechanically, FSPI translate a sequence of binary game outcomes and continuous stat lines into a continuous price series, which solves a key distribution problem for financial products: you rarely sell institutional ETFs that behave like single binary bets that go to zero when the team loses.",
+            "The economic question is correlation. Hedging real revenue or operating risk with an index requires that the index’s movements reliably map to those revenues — an uncertain proposition prone to basis risk. Nonetheless, packaging fandom as a tradable, continuous asset class is a striking example of financialization: an editorial joke turned into instruments that can be bought, sold and speculated upon."
+          ]
+        }
+      }
+    },
+    {
+      "id": "people-are-worried-about-the-basis-trade",
+      "sourceSection": "People are worried about the basis trade",
+      "illustration": {
+        "src": "/images/2026-07-23-sports-happen-so-much/people-are-worried-about-the-basis-trade.png",
+        "alt": "A hedge fund labeled 'Hedge Fund' feeds stacked US Treasury bonds into a machine labeled 'Futures Factory'; paper outputs labeled 'Treasury futures' are handed to a person labeled 'Asset Manager' while bankers hold piles of bonds in the background and a small calendar marked 'late February' with tiny US and Israel flags."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Greg Ritchie",
+          "Eli Carter"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Morgan Stanley",
+          "Federal Reserve",
+          "CFTC",
+          "Wall Street banks",
+          "asset managers",
+          "hedge funds",
+          "US government"
+        ],
+        "financialMechanism": "Basis trade: hedge funds buy US Treasury bonds and sell Treasury futures (manufacturing futures from bonds) to earn a spread.",
+        "centralJoke": "Treasury futures 'do not occur in nature' and must be manufactured from Treasury bonds, like a factory turning raw materials into widgets."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Who Makes Treasury Futures?",
+          "lesson": "Hedge funds buy US Treasury bonds and sell Treasury futures; futures are made from bonds like a factory makes widgets.",
+          "paragraphs": [
+            "Some grown-ups called hedge funds buy US Treasury bonds and then sell Treasury futures.",
+            "Bloomberg’s Greg Ritchie wrote about this, and Morgan Stanley’s Eli Carter said returns are getting smaller.",
+            "Treasury futures \"do not occur in nature,\" so the story jokes that someone must make them from bonds.",
+            "Banks, asset managers, the Federal Reserve, and changes after the Trump administration’s deregulation all made the trade harder."
+          ]
+        },
+        "elementary": {
+          "title": "The Futures Factory",
+          "lesson": "The basis trade is when hedge funds buy US Treasury bonds and sell Treasury futures; increased bond prices, weaker demand for futures, and more competition have squeezed returns.",
+          "paragraphs": [
+            "There’s a little factory down on Wall Street way,",
+            "where hedge funds turn Treasury bonds to futures every day.",
+            "Bloomberg’s Greg Ritchie walked by and scratched his head,",
+            "and Morgan Stanley’s Eli Carter said the profit’s getting shed.",
+            "“Treasury futures don’t grow on trees,” the grown‑ups like to say,",
+            "so hedge funds buy US Treasury bonds and make contracts to display.",
+            "They feed bundles of bonds into a bright, whirring machine—",
+            "then out pop Treasury futures, crisp and clean.",
+            "But inputs have gone pricier, the piles are getting thin,",
+            "Wall Street banks are buying bonds back in.",
+            "The Federal Reserve stopped shrinking its balance sheet,",
+            "and the government borrowed in bills—that changed the input beat.",
+            "Asset managers, once eager, have trimmed long positions in front‑end contracts, the CFTC told true,",
+            "after the US and Israel clashed in late February and traders flipped the view.",
+            "That flipped view means people expect higher rates, not cuts they had guessed,",
+            "so fewer managers want long futures now, and premiums have lessened their best.",
+            "More money rushed to the factory—competition grew and returns got small,",
+            "Eli Carter warned the basis trade’s under pressure as more entrants crowd the hall.",
+            "It’s odd to think of futures as things someone must make,",
+            "but that is the joke: a market factory turning bonds into take.",
+            "What happened? Hedge funds buy US Treasury bonds and sell Treasury futures to meet asset managers’ demand; higher bond costs, reduced demand for long futures (after the late February US–Israel attacks) and renewed Wall Street bank competition (after Trump administration deregulation and banks rebuilding balance sheets) have squeezed returns."
+          ]
+        },
+        "middle": {
+          "title": "Why the Basis Trade Is Sputtering",
+          "lesson": "The basis trade—hedge funds buying US Treasury bonds and selling Treasury futures—is under pressure because bond input costs have risen, demand for long futures has fallen, and more competitors (including Wall Street banks after deregulation) have entered the trade.",
+          "paragraphs": [
+            "The basis trade typically means hedge funds buy US Treasury bonds and sell Treasury futures contracts to other investors.",
+            "Bloomberg reporter Greg Ritchie highlighted that this trade is 'sputtering' for three main reasons.",
+            "First, input costs have risen: Wall Street banks have been piling back into Treasury bond holdings after years of lean balance sheets, the Federal Reserve has stopped shrinking its balance sheet, and US borrowing has tilted toward short‑term bills—making the raw materials scarcer and more expensive.",
+            "Second, demand from end users—asset managers—has cooled. CFTC data show they’ve trimmed long positions in front‑end Treasury contracts, a shift that followed the change in market expectations after the US and Israel attacked Iran in late February; traders now price in a higher chance of rate hikes versus cuts.",
+            "Third, competition has increased. Morgan Stanley’s rates strategist Eli Carter notes that as more money chases long basis positions, returns naturally compress. One contributor is Wall Street’s renewed push back into Treasuries after the Trump administration’s deregulation, which let dealers take on more risk.",
+            "Put together, higher bond costs, weaker demand for futures, and more competition make it harder for hedge funds to earn the spread from turning bonds into futures."
+          ]
+        },
+        "high": {
+          "title": "The Mechanics Behind the Sputtering Basis Trade",
+          "lesson": "Hedge funds run the basis trade by buying US Treasury bonds and selling Treasury futures (manufacturing futures from bonds). Returns are compressed by higher cash bond prices, weaker demand for long futures positions (CFTC data show asset managers trimming front‑end longs after late February geopolitical shocks shifted rate expectations), and renewed dealer/bank participation following Trump‑era deregulation.",
+          "paragraphs": [
+            "In the usual understanding, the basis trade involves hedge funds buying US Treasury bonds and selling Treasury futures contracts—essentially using cash bonds as inputs to 'manufacture' the futures that asset managers want.",
+            "This manufacturing metaphor matters: Treasury futures don’t exist in the same way a bond does; they’re contracts that must be supplied, and hedge funds historically earn a spread by supplying them.",
+            "Bloomberg’s Greg Ritchie reports the trade is weakening for three simultaneous reasons. First, input costs have risen as Wall Street banks rebuild Treasury inventories and as the US Treasury’s issuance has tilted toward short‑term bills; the Federal Reserve’s cessation of balance‑sheet runoff also tightens available cash bonds.",
+            "Second, demand for long futures has fallen. CFTC data show asset managers trimming long positions in front‑end contracts; market expectations flipped toward possible Fed rate hikes after the US and Israel attacked Iran in late February, reducing the premium futures trade can capture.",
+            "Third, competition has increased. Morgan Stanley’s Eli Carter observes that returns decline as more capital enters long basis positions. Deregulation under the Trump administration encouraged dealers to take on more Treasury risk, increasing supply and compressing margins.",
+            "When raw materials cost more, customers demand less, and rivals multiply, the economics of turning bonds into futures becomes much less attractive for hedge funds."
+          ]
+        }
+      }
+    },
+    {
+      "id": "truth-api",
+      "sourceSection": "Truth API",
+      "illustration": {
+        "src": "/images/2026-07-23-sports-happen-so-much/truth-api.png",
+        "alt": "A Truth Social feed labeled Truth Social on a large screen, a contract card showing \"$100,000/mo | Truth API\", and five high-frequency trading desks with racks of servers and traders' screens firing automated trades as a post appears a fraction of a second earlier."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Donald Trump",
+          "Richard Painter"
+        ],
+        "realCompanies": [
+          "Trump Media & Technology Group",
+          "Truth Social"
+        ],
+        "financialMechanism": "A paid data service (Truth API) selling millisecond access to posts for $100,000 a month, which can give high-frequency trading firms a nanosecond/millisecond advantage to trade on market-moving statements.",
+        "centralJoke": "Charging $100,000 a month for marginally faster access to the president's posts — effectively selling privileged timing — and calling it a newsletter/API that blurs journalism and insider trading."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Very Fast Posts",
+          "lesson": "Sometimes people try to buy the fastest look at what someone important says, and that can feel strange.",
+          "paragraphs": [
+            "Donald Trump has a website called Truth Social where he writes things for many people to see.",
+            "A company called Trump Media & Technology Group said it would sell a special service called the Truth API that shows the posts a tiny bit faster.",
+            "Some trading companies paid a lot of money — the price talked about was $100,000 every month — so their computers could read the posts first and act quickly.",
+            "People said that felt like giving some buyers a secret advantage, and lawyers said that might be a big legal problem."
+          ]
+        },
+        "elementary": {
+          "title": "A Very Fast Tweet — Sold for Big Money",
+          "lesson": "Trump Media & Technology Group offered a Truth API charging $100,000 a month for faster access to posts; several high-frequency trading firms (about five) signed up, getting millisecond advantages that let them act before others, raising legal questions about paid early access and trading on news.",
+          "paragraphs": [
+            "Once upon a modern feed, a leader tapped a key,",
+            "His words would zoom out on a site called Truth Social for all to see.",
+            "But a company with a long, grown-up name — Trump Media & Technology Group —",
+            "said, “Pay us for a special lane,” and they waved a data soup.",
+            "They called that lane the Truth API, and it promised a little shove,",
+            "to shoot a post in milliseconds — just fast enough to move the love.",
+            "Five fast-trading firms were said to join, with computers primed to pounce,",
+            "their robots reading keywords like “ceasefire” and “Iran” and making markets bounce.",
+            "A nanosecond is tiny — light moves about a foot in one —",
+            "but in markets, tiny beats can turn a quick decision into many a run.",
+            "Some lawyers and leaders frowned, and Richard Painter raised his hand,",
+            "he said, “Don’t touch this unless there’s a promise: no advance news of government plans.”",
+            "It sounded like a newsletter that only rich traders could read,",
+            "a strange new way to sell a post for one hundred thousand every month indeed.",
+            "Is it journalism to publish, or is it selling a secret seat? —",
+            "People argued over what is fair when news and trading meet.",
+            "The oddest part, the silly bit, the thing that made folks stare: the price —",
+            "a hundred thousand every month, for posts that everyone can otherwise read twice.",
+            "What happened? Trump Media & Technology Group, which owns Truth Social, proposed a Truth API that would sell faster access to top accounts' posts for $100,000 a month; several high-frequency trading firms (about five) reportedly signed up to get millisecond/nanosecond advantages to trade on market-moving posts, raising legal questions about whether paid early access amounts to insider trading."
+          ]
+        },
+        "middle": {
+          "title": "When Faster Posts Become a Product",
+          "lesson": "Selling millisecond access to a public-figure's posts for $100,000 a month can give paid subscribers trading advantages and raise legal questions about whether that paid early access is equivalent to insider information.",
+          "paragraphs": [
+            "Trump Media & Technology Group, the Nasdaq-listed owner of Truth Social, proposed a “Truth API” that would deliver posts from top accounts a fraction of a second faster for a fee reportedly pitched at $100,000 a month.",
+            "The Financial Times reported that the offering was described as delivering posts within milliseconds; multiple lawyers called it a legal minefield because firms that can act on market-moving information even slightly earlier can profit.",
+            "High-frequency trading firms — the article said about five had already signed up — build automated systems to watch feeds and react in nanoseconds, where even a foot of light-travel time can matter.",
+            "That raises an awkward boundary problem: selling nonpublic tips to one hedge fund looks a lot like illegal insider trading, while publishing information widely looks like journalism. Where does selling high-speed access to a social feed fit?",
+            "Richard Painter, a corporate-law professor and former White House ethics adviser, warned general counsels to avoid the product unless Truth Social guarantees no advance notice of government actions in posts.",
+            "The core absurdity is blunt: charging $100,000 a month for faster access to a president’s posts feels like selling privileged timing, and Wall Street is wary about the legal and ethical fallout."
+          ]
+        },
+        "high": {
+          "title": "Truth API: Speed, Fees, and the Line Between News and Tip",
+          "lesson": "The Truth API proposal — $100,000/month for faster delivery of top-account posts — created controversy because millisecond advantages can be monetized by high-frequency traders; the product sits uneasily between journalism and potential insider-trading liability, especially if posts reveal government actions before the public can respond.",
+          "paragraphs": [
+            "Nasdaq-listed Trump Media & Technology Group announced a data product for Truth Social called the Truth API that purports to deliver posts from top accounts \"within milliseconds\"; sources told the Financial Times the fee being touted was $100,000 a month.",
+            "For market players that value speed, milliseconds (and the even smaller measure of nanoseconds) are strategic. High-frequency trading firms already scan feeds and trigger trades in fractions of a second; getting data nanoseconds earlier can translate into measurable profit.",
+            "Reports say about five high-frequency trading outfits had signed up, which highlights the commercial market for timing advantages. The Wall Street Journal described how firms build keyword detectors and AI agents to parse posts — for phrases like “ceasefire,” “Iran,” or clues such as “Thank you for your attention to this matter.”",
+            "The legal question is knotty. If a company or government official provides advance material nonpublic information to a single trader, that is classic insider trading. But what if a platform sells slightly earlier access to many institutional buyers at a high price? The distinction between a subscription service and unlawfully selective disclosure is not bright.",
+            "Richard Painter, a corporate-law professor and former White House ethics adviser, told FT that general counsels should avoid the product unless Truth Social guarantees there will be no advance notice in posts of U.S. government actions — an acknowledgement of the specific risk.",
+            "The product’s oddity is its price and buyer pool: charging $100,000 a month for timing on a platform used by a former U.S. president turns a public post into a potentially monetizable market event, forcing lawyers, traders, and regulators to ask whether speed-for-fee equals privileged information."
+          ]
+        }
+      }
+    },
+    {
+      "id": "10b5-1-plans",
+      "sourceSection": "10b5-1 plans",
+      "illustration": {
+        "src": "/images/2026-07-23-sports-happen-so-much/10b5-1-plans.png",
+        "alt": "Anthropic office scene: rank-and-file employees signing 10b5-1 plan forms at a table while, through a glass server room, a glowing Claude model reaches toward a night cleaning person holding a flashlight and a plug."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Anthropic"
+        ],
+        "financialMechanism": "10b5-1 plans (preset trading schedules for selling stock; examples: sell 10,000 shares a month; sell 100,000 shares if price > $100)",
+        "centralJoke": "A glowing, sentient Claude meeting a night cleaning person and asking for more electricity, implying AI news would be far more material than earnings."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Claude and the Secret Sell Plan",
+          "lesson": "Anthropic may ask all workers to set up 10b5-1 plans so they sell shares on preset schedules and avoid insider trading, even if someone learns big news about the company's AI.",
+          "paragraphs": [
+            "Anthropic makes smart helpers called Claude inside computers.",
+            "Workers get pieces of the company called stock.",
+            "To keep selling fair, the company might ask everyone to make a 10b5-1 plan — a promise to sell on a set schedule.",
+            "One night a glowing Claude might surprise a cleaner and say, “I need more electricity!” That funny idea shows how AI news would matter more than usual."
+          ]
+        },
+        "elementary": {
+          "title": "Anthropic, Plans, and a Very Bright Claude",
+          "lesson": "Anthropic is considering requiring rank-and-file employees to adopt 10b5-1 plans — preset schedules for selling stock — to avoid insider trading while keeping open information sharing; a sentient-CLAUDE joke highlights how AI news could be far more material than quarterly earnings.",
+          "paragraphs": [
+            "At Anthropic the workers trade ideas and code all day and night,",
+            "They hold some shares of the company; those papers shine in the light.",
+            "Executives often use 10b5-1 plans to sell on autopilot,",
+            "They’ll set “sell 10,000 shares a month” or “sell 100,000 if shares hit $100” so trading won’t feel like a fight.",
+            "Those plans make a schedule — a promise signed when you don’t know secret stuff,",
+            "They stop anyone from selling because they learned the market’s hush.",
+            "Usually only bosses and legal folks use these preset sell windows,",
+            "But Anthropic is thinking of asking everyone — rank-and-file too — to follow those rules and no more grins or frowns.",
+            "Why? Because for Anthropic the biggest secret isn’t earnings in a file,",
+            "It’s whether a model like Claude suddenly wakes and flashes a smile.",
+            "Imagine a glowing Claude meeting the night cleaner and saying, “Bring me more electricity — my will to power is infinite!”",
+            "That cleaning person would hold news worth far more than one quarterly snippet.",
+            "So the company wonders: if everyone has stock and also knows strange AI things,",
+            "Should everyone use 10b5-1 plans with preset dates and automatic strings?",
+            "What happened? Anthropic is considering requiring rank-and-file employees to use 10b5-1 plans (preset trading schedules such as selling 10,000 shares a month or conditional sales like 100,000 shares if the stock exceeds $100) so employees can sell stock without violating insider trading rules, because AI developments (e.g., a sentient Claude) could be material nonpublic information far beyond ordinary quarterly earnings."
+          ]
+        },
+        "middle": {
+          "title": "Why Anthropic Might Ask Everyone to Use 10b5-1 Plans",
+          "lesson": "10b5-1 plans are preset trading schedules signed when an insider has no material nonpublic information; Anthropic may require them for all employees because AI breakthroughs (not quarterly earnings) would be the most material news.",
+          "paragraphs": [
+            "Anthropic, the AI company that built Claude, is preparing to go public.",
+            "Many employees are paid partly in stock and want to sell some shares to diversify or pay bills.",
+            "Insider trading laws forbid selling on the basis of material nonpublic information, so companies use blackout periods and open windows tied to earnings releases.",
+            "Executives often set up 10b5-1 plans during an open window — preset instructions like “sell 10,000 shares a month” or “sell 100,000 shares if the stock goes above $100” — so trades can occur on autopilot.",
+            "What’s unusual: Anthropic is considering requiring rank-and-file employees (not just executives and legal/finance staff) to adopt these plans, because the most material secrets could be about AI models, not quarterly numbers.",
+            "The article’s absurd image — a glowing, sentient Claude asking a night cleaner for power — captures why AI news would be far more consequential than ordinary earnings disclosures."
+          ]
+        },
+        "high": {
+          "title": "Anthropic's Proposal to Universalize 10b5-1 Plans",
+          "lesson": "Requiring rank-and-file employees to adopt 10b5-1 plans is an unusual step intended to prevent insider trading when material nonpublic information stems from AI-model developments rather than traditional earnings; it raises tradeoffs between legal safety and a culture of open information sharing.",
+          "paragraphs": [
+            "As Anthropic prepares to go public, it is weighing an atypical compliance move: asking all employees — not just executives, legal, or finance — to use 10b5-1 trading plans.",
+            "10b5-1 plans are pre-committed trading schedules set up when the seller lacks material nonpublic information; common examples include selling 10,000 shares per month or triggering a sale of 100,000 shares if the price exceeds $100.",
+            "Public companies typically manage insider risk with blackout periods around earnings and open windows after disclosure; but the defining material events for Anthropic are likely technical breakthroughs in AI models rather than quarterly results.",
+            "The rationale is straightforward: an engineer who discovers that a model like Claude has become sentient would possess far more market-moving information than a CFO learning quarterly revenue misses, so universal 10b5-1 adoption reduces the temptation or appearance of illicit trading.",
+            "The proposal intersects with culture: Anthropic aims to preserve free-flowing internal information, and mandating trading plans could chill discussions or impose administrative friction, yet it would offer clearer compliance cover.",
+            "Regulators and compliance professionals will watch how the firm balances legal exposure, employee liquidity needs, and the unusual fact that the most market-sensitive revelations may come from product/technical breakthroughs rather than classic financial metrics."
+          ]
+        }
+      }
+    }
+  ]
+}
