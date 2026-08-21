@@ -191,9 +191,13 @@ test('renders public polish, fallback source context, modal, footer, and About p
     assert.match(output, /class="welcome-modal"/);
     assert.match(output, /An unofficial project\./);
     assert.match(output, /Read the real Money Stuff ↗/);
+    assert.match(output, /Brett Andler ↗<\/strong><\/a> after reading too much Money Stuff to a baby\./);
   }
   assert.match(about, /<h1>Why does this exist\?<\/h1>/);
   assert.doesNotMatch(about, /Complaints department/);
+  const aboutArticle = about.match(/<article class="about">[\s\S]*?<\/article>/)?.[0];
+  assert.ok(aboutArticle);
+  assert.doesNotMatch(aboutArticle, /Brett Andler/);
 });
 
 test('canonical stories reference existing illustrations that publishing renders', () => {
