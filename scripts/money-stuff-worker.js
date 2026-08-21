@@ -18,6 +18,7 @@ const { assertNotSubmitted, loadState, recordGeneration, recordSubmission, write
 
 const root = path.resolve(__dirname, '..');
 const REQUIRED = ['GMAIL_CLIENT_ID', 'GMAIL_CLIENT_SECRET', 'GMAIL_REFRESH_TOKEN', 'OPENAI_API_KEY'];
+const DEFAULT_GMAIL_QUERY = '{from:noreply@news.bloomberg.com from:brett.andler@gmail.com} subject:"Money Stuff"';
 
 function env(name, required = true) {
   const value = process.env[name];
@@ -93,7 +94,7 @@ async function main() {
   } else {
     const messages = await findMessages({
       token,
-      query: process.env.MONEY_STUFF_GMAIL_QUERY || 'from:(noreply@news.bloomberg.com) subject:(Money Stuff)'
+      query: process.env.MONEY_STUFF_GMAIL_QUERY || DEFAULT_GMAIL_QUERY
     });
     const candidate = newestUnsubmittedMessage(messages, state, previouslyPublished);
     if (!candidate && process.env.GITHUB_EVENT_NAME === 'schedule') {
