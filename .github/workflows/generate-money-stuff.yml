@@ -42,7 +42,7 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_TEXT_MODEL: ${{ vars.OPENAI_TEXT_MODEL }}
       OPENAI_IMAGE_MODEL: ${{ vars.OPENAI_IMAGE_MODEL }}
-      MONEY_STUFF_GMAIL_QUERY: ${{ vars.MONEY_STUFF_GMAIL_QUERY }}
+      MONEY_STUFF_GMAIL_QUERY: '{from:noreply@news.bloomberg.com from:brett.andler@gmail.com} subject:"Money Stuff"'
       PUBLISH_API_TOKEN: ${{ secrets.PUBLISH_API_TOKEN }}
       ADMIN_RETRY_TOKEN: ${{ github.event_name == 'workflow_dispatch' && inputs.admin_retry && secrets.ADMIN_RETRY_TOKEN || '' }}
       PUBLISH_BRIDGE_URL: ${{ vars.PUBLISH_BRIDGE_URL }}
