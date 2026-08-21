@@ -39,8 +39,26 @@ function applyPublicCopy(){
         </div>`;
  }
 }
+function formatStoryCopy(){
+ document.querySelectorAll('.story .original').forEach(original=>{
+   const headline=original.querySelector('b');
+   if(headline){
+     original.replaceChildren(document.createTextNode('Original Headline: '),headline);
+   }
+ });
+ document.querySelectorAll('.story .copy p').forEach(paragraph=>{
+   const text=paragraph.textContent.trim();
+   if(!text.startsWith('What happened?')) return;
+   const rest=text.slice('What happened?'.length).trimStart();
+   const lead=document.createElement('strong');
+   lead.textContent='What happened?';
+   paragraph.replaceChildren(lead,document.createTextNode(rest ? ` ${rest}` : ''));
+   paragraph.classList.add('what-happened');
+ });
+}
 document.addEventListener('DOMContentLoaded',()=>{
  applyPublicCopy();
+ formatStoryCopy();
  const modal=document.querySelector('#welcomeModal');
  if(modal){
    let dismissed=false;
