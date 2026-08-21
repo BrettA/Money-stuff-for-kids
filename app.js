@@ -57,6 +57,10 @@ function formatStoryCopy(){
    paragraph.classList.add('what-happened');
  });
 }
+function formatIssueContext(){
+ const source=document.querySelector('.issue-context a');
+ if(source) source.innerHTML=source.innerHTML.replace('Inspired by','Based on');
+}
 function addMoneyFavicon(){
  if(!document.head||typeof document.createElement!=='function') return;
  const favicon=document.createElement('link');
@@ -67,6 +71,7 @@ function addMoneyFavicon(){
 document.addEventListener('DOMContentLoaded',()=>{
  applyPublicCopy();
  formatStoryCopy();
+ formatIssueContext();
  addMoneyFavicon();
  const logo=document.querySelector('.logo');
  if(logo) logo.innerHTML='UNOFFICIAL MONEY STUFF <span>FOR KIDS</span>';
