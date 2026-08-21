@@ -155,7 +155,7 @@ test('single public mode renders only elementary copy and no age-band UI', () =>
   assert.match(page, /Elementary School title/);
   assert.doesNotMatch(page, /Preschool title|Middle School title|High School title/);
   assert.doesNotMatch(`${home}${page}`, /READING AGE|Elementary School edition|Choose a reading level/);
-  assert.match(page, /<header class="edition-header">[\s\S]*<a class="back" href="\/">← Back to all editions<\/a>[\s\S]*<\/header>/);
+  assert.match(page, /<header class="edition-header">[\s\S]*<a class="back" href="\/">← Back to all issues<\/a>[\s\S]*<\/header>/);
   assert.doesNotMatch(home, /class="back"/);
   assert.doesNotMatch(`${home}${page}`, /class="age-pill"|data-age-copy/);
   assert.match(home, /name="agePreference" value="elementary"/);
@@ -174,7 +174,26 @@ test('multi-age mode retains the selector and every adaptation', () => {
     assert.match(page, new RegExp(`data-age-copy="${age.id}"`));
     assert.match(page, new RegExp(`${age.label} title`));
   }
-  assert.match(page, /Elementary School<\/b> edition/);
+  assert.match(page, /Elementary School<\/b> issue/);
+});
+
+test('renders public polish, fallback source context, modal, footer, and About page', () => {
+  const root = fixture();
+  publish({ root });
+  const home = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  const page = fs.readFileSync(path.join(root, 'editions/2026-08-20-test/index.html'), 'utf8');
+  const about = fs.readFileSync(path.join(root, 'about.html'), 'utf8');
+  assert.doesNotMatch(home, /THE WORLD OF MONEY, MADE SIMPLE|All editions/);
+  assert.match(home, /<h2 class="section-title">Latest<\/h2>/);
+  assert.match(page, /Inspired by Matt Levine’s Money Stuff[\s\S]*Get the real thing ↗/);
+  assert.match(page, /🤖 Retold by AI, occasionally wrong\./);
+  for (const output of [home, page, about]) {
+    assert.match(output, /class="welcome-modal"/);
+    assert.match(output, /An unofficial project\./);
+    assert.match(output, /Read the real Money Stuff ↗/);
+  }
+  assert.match(about, /<h1>Why does this exist\?<\/h1>/);
+  assert.doesNotMatch(about, /Complaints department/);
 });
 
 test('canonical stories reference existing illustrations that publishing renders', () => {

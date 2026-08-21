@@ -5,6 +5,8 @@ const { isPlaceholderIllustrationAlt } = require('./lib/illustration-alt');
 
 const projectRoot = path.resolve(__dirname, '..');
 const PLACEHOLDER_PATH_PATTERN = /(?:todo|placeholder|replace[-_ ]?me|example|generic|sample|(?:^|[/_.-])(?:image|illustration|default|temp)(?=[/_.-]|$))/i;
+const MONEY_STUFF_URL = 'https://www.bloomberg.com/account/newsletters/money-stuff';
+const BRETT_URL = 'https://linkedin.com/in/brettandler';
 
 function loadInputs(root) {
   const dataDir = path.join(root, 'data');
@@ -123,6 +125,7 @@ function buildOutputs(config, editions) {
   const outputs = new Map();
   outputs.set('data/site.json', `${JSON.stringify(site, null, 2)}\n`);
   outputs.set('index.html', renderHome(config, sorted));
+  outputs.set('about.html', renderAbout(config));
   for (const edition of sorted) {
     outputs.set(`editions/${edition.id}/index.html`, renderEdition(config, edition));
   }
@@ -157,15 +160,15 @@ ${config.ages.map(age =>
 <body data-public-age-mode="${isSingleAgeMode(config) ? 'single' : 'multi'}">
   <header${showEditionsBackLink ? ' class="edition-header"' : ''}>
     <a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
-${agebar}${showEditionsBackLink ? '\n    <a class="back" href="/">← Back to all editions</a>' : ''}
+${agebar}${showEditionsBackLink ? '\n    <a class="back" href="/">← Back to all issues</a>' : ''}
   </header>`;
 }
 
 function renderSignup(config) {
   if (isSingleAgeMode(config)) return `    <section class="newsletter" id="newsletter">
       <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
-      <h2>Get the next edition.</h2>
-      <p>We'll email you when a new Money Stuff for Kids edition is published.</p>
+      <h2>Get the next issue.</h2>
+      <p>We'll email you when a new Money Stuff for Kids issue is published.</p>
       <form id="signupForm" class="signup signup-single">
         <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
         <input type="hidden" name="agePreference" value="${escapeHtml(publicAge(config))}">
@@ -183,8 +186,8 @@ function renderSignup(config) {
   ).join('\n');
   return `    <section class="newsletter" id="newsletter">
       <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
-      <h2>Get the next edition.</h2>
-      <p>Choose an age and we'll email that version when a new Money Stuff for Kids edition is published.</p>
+      <h2>Get the next issue.</h2>
+      <p>Choose an age and we'll email that version when a new Money Stuff for Kids issue is published.</p>
       <form id="signupForm" class="signup">
         <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
         <select required id="agePreference" name="agePreference">
@@ -202,11 +205,33 @@ ${options}
 }
 
 function renderFooter() {
-  return `    <footer>Independent educational prototype inspired by Matt Levine's Money Stuff. Bloomberg and Money Stuff are not affiliated with this project.</footer>
+  return `    <footer>
+      <p><a href="/about.html"><strong>An unofficial project.</strong></a> Not affiliated with or endorsed by Bloomberg, Matt Levine, or Money Stuff. AI-generated, potentially wrong, and definitely not financial, legal, or investment advice. <a href="${MONEY_STUFF_URL}" target="_blank" rel="noopener"><strong>Read the real Money Stuff ↗</strong></a></p>
+      <p>Made by <a href="${BRETT_URL}" target="_blank" rel="noopener"><strong>Brett Andler ↗</strong></a> after reading too much Money Stuff to a baby.</p>
+    </footer>
+${renderFirstVisitModal()}
   </main>
 </body>
 </html>
 `;
+}
+
+function renderFirstVisitModal() {
+  return `    <div class="welcome-modal" id="welcomeModal" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle" hidden>
+      <div class="welcome-card">
+        <div class="eyebrow">A QUICK NOTE BEFORE THE NONSENSE</div>
+        <h2 id="welcomeTitle">A very unofficial Money Stuff project</h2>
+        <p>This is <strong>not affiliated with or endorsed by Bloomberg, Matt Levine, or Money Stuff.</strong></p>
+        <p>I made it after reading enough Money Stuff to my 9-month-old daughter that I decided she needed her own version.</p>
+        <p>Everything here is AI-generated silliness based on real Money Stuff stories. The AI can absolutely get things wrong, and nothing here is legal, financial, or investment advice.</p>
+        <p>If you don’t already read the real Money Stuff, you should. <strong>It is much better.</strong></p>
+        <button type="button" class="welcome-dismiss">Okay, show me the nonsense</button>
+        <div class="welcome-links">
+          <a href="${MONEY_STUFF_URL}" target="_blank" rel="noopener">Read the real Money Stuff ↗</a>
+          <a href="${BRETT_URL}" target="_blank" rel="noopener">Who made this? ↗</a>
+        </div>
+      </div>
+    </div>`;
 }
 
 function renderHome(config, editions) {
@@ -217,13 +242,12 @@ function renderHome(config, editions) {
   return `${renderHeader(config, config.name)}
   <main>
     <section>
-      <div class="eyebrow">THE WORLD OF MONEY, MADE SIMPLE</div>
       <h1>Money Stuff.<br><em>But for kids.</em></h1>
       <p class="intro">${isSingleAgeMode(config)
     ? "Matt Levine's Money Stuff, retold for curious kids."
     : "Matt Levine's Money Stuff, retold for curious kids. Choose a reading level and dive in."}</p>
     </section>
-    <h2 class="section-title">All editions</h2>
+    <h2 class="section-title">Latest</h2>
     <div class="edition-grid">
 ${cards}
     </div>
@@ -235,11 +259,33 @@ function renderEdition(config, edition) {
   const stories = edition.stories.map((story, index) => renderStory(config, story, index)).join('\n');
   return `${renderHeader(config, `${edition.title} — ${config.name}`, { showEditionsBackLink: true })}
   <main>
-    <div class="eyebrow">${escapeHtml(edition.displayDate.toUpperCase())} · MONEY STUFF EDITION</div>
+    <div class="eyebrow">${escapeHtml(edition.displayDate.toUpperCase())} · MONEY STUFF ISSUE</div>
     <h1>${escapeHtml(edition.title)}</h1>
-${isSingleAgeMode(config) ? '' : `    <p class="intro"><b class="current-age-label">${escapeHtml(config.ages.find(age => age.id === config.defaultAge)?.label || config.defaultAge)}</b> edition.</p>`}
+    <div class="issue-context">
+      <a href="${MONEY_STUFF_URL}" target="_blank" rel="noopener">Inspired by Matt Levine’s Money Stuff · <strong>Get the real thing ↗</strong></a>
+      <span>🤖 Retold by AI, occasionally wrong.</span>
+    </div>
+${isSingleAgeMode(config) ? '' : `    <p class="intro"><b class="current-age-label">${escapeHtml(config.ages.find(age => age.id === config.defaultAge)?.label || config.defaultAge)}</b> issue.</p>`}
 ${stories}
 ${renderSignup(config)}
+${renderFooter()}`;
+}
+
+function renderAbout(config) {
+  return `${renderHeader(config, `Why does this exist? — ${config.name}`)}
+  <main>
+    <article class="about">
+      <div class="eyebrow">ABOUT THIS NONSENSE</div>
+      <h1>Why does this exist?</h1>
+      <p>I read Money Stuff. I also have a baby.</p>
+      <p>At some point I found myself reading Matt Levine’s explanations of derivatives, prediction markets and questionable corporate behavior out loud to my 9-month-old daughter, who was naturally following all of it very closely.</p>
+      <p>So I made this.</p>
+      <p>Money Stuff for Kids uses AI to turn stories from Money Stuff into ridiculous little picture-book versions while trying to preserve the actual people, companies, numbers, mechanics and jokes that made the original interesting.</p>
+      <p><strong>This is an unofficial project. It is not affiliated with or endorsed by Bloomberg, Matt Levine, or Money Stuff.</strong> The retellings and illustrations are generated by AI and can contain mistakes. Nothing here is financial, legal or investment advice.</p>
+      <p>More importantly: this is no substitute for Money Stuff. <strong>You should read that instead.</strong></p>
+      <p><a class="about-cta" href="${MONEY_STUFF_URL}" target="_blank" rel="noopener">Subscribe to Money Stuff ↗</a></p>
+      <p>Made by <a href="${BRETT_URL}" target="_blank" rel="noopener"><strong>Brett Andler ↗</strong></a>.</p>
+    </article>
 ${renderFooter()}`;
 }
 

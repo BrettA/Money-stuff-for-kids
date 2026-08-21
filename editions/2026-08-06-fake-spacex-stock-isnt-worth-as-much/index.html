@@ -11,11 +11,15 @@
   <header class="edition-header">
     <a class="logo" href="/">MONEY STUFF <span>FOR KIDS</span></a>
 
-    <a class="back" href="/">← Back to all editions</a>
+    <a class="back" href="/">← Back to all issues</a>
   </header>
   <main>
-    <div class="eyebrow">AUGUST 6, 2026 · MONEY STUFF EDITION</div>
+    <div class="eyebrow">AUGUST 6, 2026 · MONEY STUFF ISSUE</div>
     <h1>Fake SpaceX Stock Isn’t Worth as Much</h1>
+    <div class="issue-context">
+      <a href="https://www.bloomberg.com/account/newsletters/money-stuff" target="_blank" rel="noopener">Inspired by Matt Levine’s Money Stuff · <strong>Get the real thing ↗</strong></a>
+      <span>🤖 Retold by AI, occasionally wrong.</span>
+    </div>
 
     <article class="story">
       <div class="art">
@@ -153,8 +157,8 @@
     </article>
     <section class="newsletter" id="newsletter">
       <div class="eyebrow" style="color:#b9c2b8">MONEY STUFF FOR KIDS — BY EMAIL</div>
-      <h2>Get the next edition.</h2>
-      <p>We'll email you when a new Money Stuff for Kids edition is published.</p>
+      <h2>Get the next issue.</h2>
+      <p>We'll email you when a new Money Stuff for Kids issue is published.</p>
       <form id="signupForm" class="signup signup-single">
         <input required type="email" name="email" placeholder="you@example.com" autocomplete="email">
         <input type="hidden" name="agePreference" value="elementary">
@@ -167,7 +171,25 @@
       <div id="signupStatus" class="status"></div>
       <p class="form-note">Unsubscribe anytime.</p>
     </section>
-    <footer>Independent educational prototype inspired by Matt Levine's Money Stuff. Bloomberg and Money Stuff are not affiliated with this project.</footer>
+    <footer>
+      <p><a href="/about.html"><strong>An unofficial project.</strong></a> Not affiliated with or endorsed by Bloomberg, Matt Levine, or Money Stuff. AI-generated, potentially wrong, and definitely not financial, legal, or investment advice. <a href="https://www.bloomberg.com/account/newsletters/money-stuff" target="_blank" rel="noopener"><strong>Read the real Money Stuff ↗</strong></a></p>
+      <p>Made by <a href="https://linkedin.com/in/brettandler" target="_blank" rel="noopener"><strong>Brett Andler ↗</strong></a> after reading too much Money Stuff to a baby.</p>
+    </footer>
+    <div class="welcome-modal" id="welcomeModal" role="dialog" aria-modal="true" aria-labelledby="welcomeTitle" hidden>
+      <div class="welcome-card">
+        <div class="eyebrow">A QUICK NOTE BEFORE THE NONSENSE</div>
+        <h2 id="welcomeTitle">A very unofficial Money Stuff project</h2>
+        <p>This is <strong>not affiliated with or endorsed by Bloomberg, Matt Levine, or Money Stuff.</strong></p>
+        <p>I made it after reading enough Money Stuff to my 9-month-old daughter that I decided she needed her own version.</p>
+        <p>Everything here is AI-generated silliness based on real Money Stuff stories. The AI can absolutely get things wrong, and nothing here is legal, financial, or investment advice.</p>
+        <p>If you don’t already read the real Money Stuff, you should. <strong>It is much better.</strong></p>
+        <button type="button" class="welcome-dismiss">Okay, show me the nonsense</button>
+        <div class="welcome-links">
+          <a href="https://www.bloomberg.com/account/newsletters/money-stuff" target="_blank" rel="noopener">Read the real Money Stuff ↗</a>
+          <a href="https://linkedin.com/in/brettandler" target="_blank" rel="noopener">Who made this? ↗</a>
+        </div>
+      </div>
+    </div>
   </main>
 </body>
 </html>

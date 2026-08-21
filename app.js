@@ -1,5 +1,6 @@
 
 const AGE_KEY='msfk-age';
+const WELCOME_KEY='msfk-welcome-dismissed';
 const allowed=['preschool','elementary','middle','high'];
 function setAge(age){
  if(!allowed.includes(age)) age='elementary';
@@ -10,6 +11,24 @@ function setAge(age){
  const select=document.querySelector('#agePreference'); if(select) select.value=age;
 }
 document.addEventListener('DOMContentLoaded',()=>{
+ const modal=document.querySelector('#welcomeModal');
+ if(modal){
+   let dismissed=false;
+   try{dismissed=localStorage.getItem(WELCOME_KEY)==='true'}catch(error){}
+   if(!dismissed){
+     modal.hidden=false;
+     document.body.classList.add('modal-open');
+     const button=modal.querySelector('.welcome-dismiss');
+     const dismiss=()=>{
+       try{localStorage.setItem(WELCOME_KEY,'true')}catch(error){}
+       modal.hidden=true;
+       document.body.classList.remove('modal-open');
+     };
+     button.addEventListener('click',dismiss);
+     document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!modal.hidden)dismiss()});
+     button.focus();
+   }
+ }
  const multiAge=document.body.dataset.publicAgeMode==='multi';
  if(multiAge){
    setAge(localStorage.getItem(AGE_KEY)||'elementary');
