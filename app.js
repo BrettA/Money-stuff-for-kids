@@ -59,6 +59,8 @@ function formatStoryCopy(){
 document.addEventListener('DOMContentLoaded',()=>{
  applyPublicCopy();
  formatStoryCopy();
+ const logo=document.querySelector('.logo');
+ if(logo) logo.innerHTML='UNOFFICIAL MONEY STUFF <span>FOR KIDS</span>';
  document.querySelectorAll('.newsletter').forEach(section=>section.remove());
  const modal=document.querySelector('#welcomeModal');
  if(modal){
