@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-07-13-etfs-are-for-bets",
+  "date": "2026-07-13",
+  "displayDate": "July 13, 2026",
+  "title": "ETFs Are for Bets",
+  "sourceSections": [
+    "Sports gambling ETF",
+    "Equities in Dallas",
+    "Bending Spoons",
+    "Pivot to AI",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "sports-gambling-etf",
+      "sourceSection": "Sports gambling ETF",
+      "illustration": {
+        "src": "/images/2026-07-13-etfs-are-for-bets/sports-gambling-etf.png",
+        "alt": "A portfolio manager labeled 'ETF manager' buys a Kalshi 'Mets win' contract priced '$0.33' for an ETF labeled 'Mets Win ETF' as investors hand cash to a brokerage counter; a scoreboard shows 'If Mets win → $1' and a small thought-bubble shows 'triples?' while a tiny DraftKings odds board shows '+150'."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Kalshi",
+          "Subversive",
+          "Tidal",
+          "DraftKings",
+          "Strategy Inc.",
+          "Nvidia",
+          "SK Hynix"
+        ],
+        "financialMechanism": "An ETF managed by a professional gambler that gains exposure via over-the-counter swaps to Kalshi event contracts, running about 40–80 bets; example 'Mets win' contract at $0.33 pays $1 on a win, so daily ETF buys could roughly triple or nearly lose that stake.",
+        "centralJoke": "Proposing a daily 'Mets win' ETF that triples on a win or goes to near-zero on a loss, and the broader absurdity that every trade (even 12-leg parlays) could be packaged as an ETF."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Mets Bet in a Box",
+          "lesson": "An ETF is like a box that people put money into. A special box was suggested that would bet on the Mets each day using Kalshi contracts priced around $0.33; if the Mets win, that day's bet could triple, and if they lose it could mostly vanish.",
+          "paragraphs": [
+            "There was a magic money box called an ETF, and some people wanted one that made Mets bets every morning.",
+            "A professional gambler would steer the box and buy a thing called a Kalshi “Mets win” contract that cost about $0.33.",
+            "If the Mets won that day, the contract would pay $1 and the box’s money could jump up—if they lost, the box might lose most of that day’s stake.",
+            "People liked the idea because you could bet on the Mets inside a regular brokerage account, but it was a silly, risky idea for saving money long-term."
+          ]
+        },
+        "elementary": {
+          "title": "The ETF That Bet on the Mets",
+          "lesson": "A proposed sports-gambling ETF would be managed by a professional sports gambler who buys exposure via over-the-counter swaps tied to Kalshi event contracts (running about 40–80 bets at a time). A 'Mets win' Kalshi contract trading at $0.33 pays $1 if the Mets win, so a daily ETF that bought that contract could roughly triple that stake when the Mets win or drop nearly to zero when they lose; investors cannot pick individual bets.",
+          "paragraphs": [
+            "The market woke up with newspapers and light,",
+            "And someone said, “Let’s put a Mets bet in an ETF tonight.”",
+            "Not a little cheer, not a single seat-row cry,",
+            "But an ETF in a broker’s shop so you could buy and sigh.",
+            "A professional gambler, a manager in charge,",
+            "Would hold forty to eighty bets—no single-season barge.",
+            "He’d buy Kalshi contracts, traded over-the-counter style,",
+            "So the fund would own the bets, and everyone could smile.",
+            "If a Mets-win contract was priced at thirty-three cents neat,",
+            "A win would pay a dollar — the fund’s days-kitchen treat.",
+            "That morning’s $0.33 could turn into almost three,",
+            "Or if the Mets were beaten, poof — the stake could cease to be.",
+            "Investors would put money in that box at market price,",
+            "They’d either watch it triple up or see it pay the price.",
+            "Some folks would use it like a bet for just one night,",
+            "Like leveraged ETFs that work when used the way they’re right.",
+            "Others liked the wrapper — a stock-market-looking dress —",
+            "So managers who can’t buy Kalshi directly might try to compress.",
+            "There was talk of Subversive, Tidal, and the SEC’s call,",
+            "Of taxes, arbitrage, DraftKings odds and Strategy Inc. in all.",
+            "It was brilliant and absurd, a financial carnival riff,",
+            "Because every trade, some jokers said, might be sold inside an ETF.",
+            "What happened? A proposed fund would be run by a professional gambler who buys exposure to Kalshi event contracts via OTC swaps (typically running 40–80 bets). For example, a 'Mets win' contract trading at $0.33 would pay $1 if the Mets win, so a daily ETF that bought it could roughly triple that day's stake or lose most of it; investors would not pick the individual bets."
+          ]
+        },
+        "middle": {
+          "title": "Turning a Daily Mets Bet into an ETF",
+          "lesson": "A proposal would create an ETF managed by a professional sports gambler using OTC swaps to get exposure to Kalshi event contracts. The manager would run a diversified portfolio (about 40–80 bets). A 'Mets win' contract trading at $0.33 pays $1 if the Mets win, so a daily ETF buying that contract could roughly triple the money on a win or nearly go to zero on a loss; investors cannot select or necessarily see individual bets. The idea is useful for packaging bets into brokerage accounts and for institutional investors constrained to buy stocks/ETFs, but it produces wildly fluctuating assets under management, high frictional costs, awkward tax features, and is a poor long-term investment—though fine if used as a day-by-day wager (akin to leveraged/inverse ETFs).",
+          "paragraphs": [
+            "A new kind of ETF was proposed: sports gambling, but wrapped for the stock market.",
+            "Instead of holding shares of a company, the fund would hold exposure to Kalshi event contracts via over-the-counter swaps.",
+            "A professional gambler would actively manage a diversified set of 40–80 bets, not a single-team parade of wagers.",
+            "Consider a 'Mets win' contract trading at $0.33: if it resolves to $1 on a Mets victory, the portion of the fund that bought it effectively triples for that day; if it loses, that portion collapses toward zero.",
+            "Investors could buy into the ETF through normal brokerages—useful for institutional managers with stock-only mandates or individuals who don’t want a sportsbook account.",
+            "But there are complications: the fund’s AUM would swing wildly, trading and redemption friction and spreads bite returns, tax treatment is uncertain compared with betting or direct prediction markets, and running a daily-bet product is operationally awkward.",
+            "Arbitrage could push investors to choose the ETF when prices diverge (for example, ETF pricing vs. DraftKings odds such as +150), and the SEC has requested public comment on such novel ETF strategies.",
+            "Practically, the proposal shows how almost any financial exposure can be packaged as an ETF — which is the idea’s comic and worrying core."
+          ]
+        },
+        "high": {
+          "title": "The Mechanics and Absurdity of a Sports-Gambling ETF",
+          "lesson": "The proposal envisions an ETF managed by a professional sports gambler that gains exposure through OTC swaps referencing Kalshi event contracts, maintaining a diversified active portfolio (approximately 40–80 concurrent bets). Example: a Kalshi 'Mets win' contract trading at $0.33 resolves to $1 on a Mets victory, so an ETF that allocates a full stake to that contract would roughly triple that allocation on a win and lose nearly all on a loss. Investors would not choose individual wagers. The structure aims to make prediction-market-like bets accessible via brokerages and institutional mandates but creates AUM volatility, high transaction and rebalance costs, tax ambiguity (prediction-market vs. ETF treatment), and operational challenges in seasonality and daily settlement. Comparable dynamics exist in leveraged/inverse single-stock ETFs, which perform as intended for short-term directional exposure but have poor long-term return profiles; similarly, a daily-team ETF may function as a short-term bet rather than a traditional investment. The SEC’s request for public comment frames regulatory and disclosure concerns; Subversive and Tidal are developing similar products, while market prices (e.g., ETF vs. sportsbook odds such as +150) create exploitable arbitrage incentives. Overall, the idea is technically feasible but economically awkward and, in many cases, a poor long-term fund product.",
+          "paragraphs": [
+            "An ETF proposal would rely on OTC swaps to give it economic exposure to Kalshi event contracts rather than owning prediction contracts directly on-exchange.",
+            "The manager would run an actively managed, diversified book—roughly 40–80 bets—to preserve continuous management and limit single-event idiosyncrasy.",
+            "Operationally this is hard: sports bets resolve quickly, so the ETF must be continuously rebalanced; assets under management would fluctuate intraday and day-to-day.",
+            "Example pricing dynamics matter: a 'Mets win' Kalshi contract at $0.33 resolves to $1 on a win, so allocating full capital to that contract yields a near-tripling on a win and near-total loss on a loss; sportsbooks showing +150 on the same outcome create cross-market arbitrage incentives.",
+            "Tax treatment differences (sports-betting losses often have poor deductibility; prediction-market and ETF capital-gains treatment may be more favorable) add a structural reason for a wrapper, and institutional constraints (managers allowed to buy stocks/ETFs but not prediction-market positions) are another.",
+            "Costs—bid/ask spreads, swap counterparty terms, trading fees, redemption mechanics—mean expected value net of costs is likely negative for a no-information 'always bet the Mets' strategy, though the product can be useful as a short-term directional instrument much like leveraged/inverse ETFs.",
+            "The SEC’s request for comment signals regulatory scrutiny; Subversive and Tidal have pursued similar strategies. Technically feasible, legally complex, economically quirky—turning everyday sports wagers into ETFs highlights both the flexibility and the absurdity of modern financial packaging."
+          ]
+        }
+      }
+    },
+    {
+      "id": "equities-in-dallas",
+      "sourceSection": "Equities in Dallas",
+      "illustration": {
+        "src": "/images/2026-07-13-etfs-are-for-bets/equities-in-dallas.png",
+        "alt": "Founder James Lee beside a sign reading “TXSE” with Liz Hocker holding a brochure; a map inset shows Texas and an arrow to Secaucus, NJ; a data‑center rack labeled Equinix NY6 with blinking server lights and a trading screen showing 'SpaceX: Nasdaq / Nasdaq Texas'."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "James Lee",
+          "Liz Hocker"
+        ],
+        "realCompanies": [
+          "Texas Stock Exchange",
+          "TXSE",
+          "New York Stock Exchange",
+          "NYSE",
+          "Nasdaq",
+          "Tesla Inc.",
+          "SpaceX",
+          "NYSE Chicago",
+          "Nasdaq BX",
+          "NYSE Texas",
+          "Nasdaq Texas",
+          "Equinix NY6"
+        ],
+        "financialMechanism": "Corporate‑governance signaling via exchange naming and listing standards, combined with trading liquidity concentration in New Jersey data centers (latency and volume), illustrated by TXSE using a Texas name/offices while operating trading infrastructure from Equinix NY6 in Secaucus, New Jersey.",
+        "centralJoke": "The exchange wants to be 'Texas' in name and governance signal, but the actual trading computers and liquidity sit in New Jersey."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Texas Name, New Jersey Computers",
+          "lesson": "A new stock place called the Texas Stock Exchange (TXSE) started trading, but its computer servers are in Secaucus, New Jersey.",
+          "paragraphs": [
+            "There’s a new place called the Texas Stock Exchange, or TXSE for short.",
+            "James Lee started it, and he wants big companies to list there.",
+            "He hired Liz Hocker from the New York Stock Exchange to help sign those companies up.",
+            "TXSE opened an office in London to tell British companies about Texas.",
+            "But the computers that actually trade the stocks run from a data center called Equinix NY6 in Secaucus, New Jersey.",
+            "So the exchange says “Texas” in its name, while the trading machines live near New York."
+          ]
+        },
+        "elementary": {
+          "title": "The Texas Stock Exchange That Lives in New Jersey",
+          "lesson": "A stock exchange can signal different listing rules by using a Texas name and offices while running its trading infrastructure from a New Jersey data center (Equinix NY6) to access liquidity; TXSE started trading but has no listings yet.",
+          "paragraphs": [
+            "Far from the prairies and wide open sky, a new exchange raised a Texas cry.",
+            "They called it TXSE, with a big Texas sign—James Lee said, “This market will shine.”",
+            "He hired Liz Hocker from the New York Stock Exchange to coax listings that sparkle and gleam,",
+            "and even opened a London office to court firms across the stream.",
+            "They promised Texas rules that are kinder to managers and meaner to suits,",
+            "and traders whispered in early 2024 about an “anti‑woke” route.",
+            "Tesla and other companies moved some paperwork to Texas to change what laws could say,",
+            "so an exchange named for Texas could be the next place that big firms might stray.",
+            "But a market needs buyers—liquidity that flows—so TXSE must prove folks will trade there in droves.",
+            "So far, though, TXSE doesn’t have a single listing to show; its team is out hustling, moving slow.",
+            "Meanwhile NYSE rebranded NYSE Chicago into NYSE Texas in 2025, and Nasdaq renamed Nasdaq BX into Nasdaq Texas too,",
+            "and SpaceX is dual‑listed on Nasdaq and Nasdaq Texas — that’s fact, not something new.",
+            "Here’s the absurd little twist that makes people raise a brow: the exchange wears a Texas hat, but its trading computers are not down there now.",
+            "The Texas Stock Exchange operates from Equinix NY6 in Secaucus, New Jersey—the servers hum and the orders fly fast—",
+            "so the name shouts “Texas” while the actual trading sits near New Jersey’s mast.",
+            "They can trade companies listed elsewhere during the day, and they hope state laws and lower fees will bring listings on their way.",
+            "What happened? The Texas Stock Exchange (TXSE) started trading last week but has no listed companies yet. Its trading systems operate from Equinix NY6 in Secaucus, New Jersey while the exchange uses a Texas name and offices to signal different listing and governance rules."
+          ]
+        },
+        "middle": {
+          "title": "Why a 'Texas' Exchange Runs From New Jersey",
+          "lesson": "The Texas Stock Exchange (TXSE) is positioning itself as a Texas‑friendly listing venue (founder James Lee; listing lead Liz Hocker) to attract firms that want different corporate‑governance rules, but its trading infrastructure operates from Equinix NY6 in Secaucus, NJ so it can access existing liquidity.",
+          "paragraphs": [
+            "America once had local stock exchanges in many cities, but trading concentrated in New York as telephone and computer technology connected markets.",
+            "Trading became electronic and liquidity clustered around data centers near New Jersey, where exchanges’ servers could communicate in microseconds.",
+            "In that context, corporate governance—the rules set by state law and by listing exchanges—remained East Coast‑focused: Delaware law and NYSE/Nasdaq listing rules matter.",
+            "Some companies and politicians pushed governance toward Texas, and firms such as Tesla reincorporated there to get more management‑friendly rules.",
+            "Enter the Texas Stock Exchange (TXSE), founded by James Lee, which began trading last week but doesn’t yet have a listing; Liz Hocker from the New York Stock Exchange leads its listing effort.",
+            "TXSE has a London office to pitch British firms and can trade securities listed elsewhere during the trading day, but it must prove it has ample liquidity to attract big switchovers.",
+            "To signal Texas governance while accessing New Jersey liquidity, TXSE operates its trading systems from Equinix NY6 in Secaucus, New Jersey—a clear example of governance signaling separated from trading infrastructure."
+          ]
+        },
+        "high": {
+          "title": "Governance Signaling vs. Latency Realities: The TXSE Story",
+          "lesson": "TXSE is a governance‑signaling play: name, listing offices, and potential state law changes in Texas aim to attract corporations seeking different governance rules, while the trading venue itself runs from Equinix NY6 in Secaucus, NJ to access the existing pool of liquidity; as of its launch it has no listings and must demonstrate trading volume to compete.",
+          "paragraphs": [
+            "The US market evolved from regional floor trading to electronic venues clustered around a few data centers because liquidity concentrates where information travels fastest.",
+            "Exchange listing standards—set by NYSE, Nasdaq, and state corporate law (notably Delaware)—determine corporate governance conditions like director independence and shareholder protections.",
+            "A recent political and corporate push toward Texas—exemplified by Tesla’s reincorporation—created an opportunity for exchanges to offer Texas‑friendly listing standards.",
+            "James Lee launched the Texas Stock Exchange (TXSE), which began trading last week but, crucially, does not yet have any companies listed. He hired Liz Hocker from the New York Stock Exchange to head listings; the state opened a London office to recruit overseas firms.",
+            "TXSE can execute trades in securities listed on other venues during the trading day, but to attract real listings it must demonstrate sufficient liquidity—i.e., a steady flow of buy and sell interest.",
+            "Competitors repositioned as well: NYSE rebranded NYSE Chicago into NYSE Texas in 2025 and reincorporated it, while Nasdaq rebranded Nasdaq BX into Nasdaq Texas; SpaceX is dual‑listed on Nasdaq and Nasdaq Texas.",
+            "The practical twist—one that many find absurd—is that TXSE puts “Texas” in its name and builds governance messaging around the state, yet its matching trading systems sit in Equinix NY6 in Secaucus, New Jersey so orders can reach the same liquidity pools and avoid latency penalties."
+          ]
+        }
+      }
+    },
+    {
+      "id": "bending-spoons",
+      "sourceSection": "Bending Spoons",
+      "illustration": {
+        "src": "/images/2026-07-13-etfs-are-for-bets/bending-spoons.png",
+        "alt": "A team of data scientists, software engineers, and AI researchers at Bending Spoons reviewing candidate test results on screens while a conveyor-like scene shows incoming hired 'Spooners' replacing employees from an acquired company; a clipboard reads \"All they do all day long is look for signals.\""
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Ferrari"
+        ],
+        "realCompanies": [
+          "Bending Spoons",
+          "AOL",
+          "Evernote",
+          "Vimeo",
+          "Harvard Business School"
+        ],
+        "financialMechanism": "Quant-style predictive hiring and integration: a talent squad uses data science, experiments, and models to select and evaluate employees, replacing most staff after acquisitions and tracking performance at 4 months, 8 months, 1 year and 2 years.",
+        "centralJoke": "\"All they do all day long is look for signals.\""
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Spooners Who Look for Signs",
+          "lesson": "Bending Spoons uses a special hiring team that uses data and tests to choose employees and often replaces most staff when it buys a company.",
+          "paragraphs": [
+            "Bending Spoons is a company that buys other companies and sends in a team called Spooners.",
+            "Those Spooners are about 700 people who move from one new company to the next.",
+            "When Bending Spoons arrives, many old workers leave and Spooners come to fix the code, the apps, and the look.",
+            "A special team of data scientists, software engineers, and AI researchers decides who is hired and who is let go.",
+            "They keep checking how new hires do after 4 months, 8 months, 1 year, and 2 years to see if their choices were good."
+          ]
+        },
+        "elementary": {
+          "title": "Spooners Who Look for Signals",
+          "lesson": "Bending Spoons runs hiring like a quant lab: a talent squad of data scientists, software engineers and AI researchers runs predictive models, experiments with interview tests, and tracks hires at 4 months, 8 months, 1 year and 2 years; about 700 Spooners move between acquisitions and the company often replaces most acquired employees and rewrites code, infrastructure and interfaces.",
+          "paragraphs": [
+            "Bending Spoons sails into a company with a careful, clicking crew,",
+            "They carry laptops, charts and rules; they know just what to do.",
+            "They call themselves Spooners — seven hundred or so strong —",
+            "They hop from app to app and sing a data-driven song.",
+            "When a purchase lands, the old team trembles, then they part,",
+            "Most people go, the Spooners stay, to make a brand-new start.",
+            "They rewrite the code, rebuild the pipes, redesign each screen,",
+            "They patch the out-of-date things and tidy up the scene.",
+            "A talent squad sits in one room with graphs across the wall,",
+            "Data scientists, engineers, AI researchers judge them all.",
+            "They tinker with the interview, they tweak each little test,",
+            "They try a slightly different question and see which one works best.",
+            "Then they check the hires again at four months and at eight,",
+            "At one year, at two years too — they measure if they’re great.",
+            "Ferrari said it plainly — it’s the thing the Spooners sing: \"All they do all day long is look for signals,\" he would bring.",
+            "They even make dull businesses sparkle so top grads will apply;",
+            "AOL, Evernote, Vimeo — the Spooners give them fresh sky.",
+            "Some say it’s a kind of magic, a prestige laundering art,",
+            "Top computer scientists hop in where once they'd never start.",
+            "It sounds a little strange, that people can be tested like a chart,",
+            "But Bending Spoons believes the numbers show which hires will smart.",
+            "What happened?  Bending Spoons treats hiring as a quant problem: a centralized talent squad of data scientists, software engineers and AI researchers runs predictive models and experiments to pick and fire employees, replaces most staff after acquisitions with about 700 \"Spooners,\" and tracks post-hire performance at 4 months, 8 months, 1 year and 2 years."
+          ]
+        },
+        "middle": {
+          "title": "Signals and Spooners: Predicting People",
+          "lesson": "Bending Spoons applies a quant-style, data-driven process to hiring and integration: a talent squad (data scientists, software engineers, AI researchers) runs predictive models, experiments on interview questions/tests, and measures hires at 4 months, 8 months, 1 year and 2 years; the firm replaces most employees in acquired companies with about 700 'Spooners' who move between acquisitions and perform deep technical and product overhauls.",
+          "paragraphs": [
+            "Bending Spoons acquires existing digital businesses — often solid but unsexy ones — and then conducts rapid transformations.",
+            "The firm has about 700 employees who passed a notorious hiring process; these 'Spooners' are redeployed from one acquisition to another.",
+            "When Bending Spoons takes over, it often cuts most of the acquired staff and installs Spooners to rewrite code, rebuild infrastructure, and redesign interfaces.",
+            "A dedicated talent squad — composed of data scientists, software engineers and AI researchers — holds the final say on hiring and firing.",
+            "That squad treats hiring like a prediction problem: they tweak interview questions, run slightly different test variations, and search for better models that correlate candidate signals with future performance.",
+            "They systematically track post-hire outcomes at four months, eight months, one year and two years and compare them to their predictions.",
+            "Ferrari summarized their focus with a telling line: “All they do all day long is look for signals.”",
+            "The WSJ piece also notes a prestige effect: Bending Spoons can make previously unattractive companies more appealing to top talent, drawing graduates who might otherwise go elsewhere."
+          ]
+        },
+        "high": {
+          "title": "Quantifying Talent: Bending Spoons’ Predictive Hiring",
+          "lesson": "Bending Spoons operationalizes talent acquisition as a data-science problem: a centralized 'talent squad' of data scientists, engineers and AI researchers runs predictive models, iterates interview/test designs, and rigorously measures hires at 4 months, 8 months, 1 year and 2 years. The company replaces most employees in acquired firms with ~700 'Spooners' who rotate across acquisitions to execute deep technical and product changes, which also enables a form of prestige laundering that attracts top CS graduates to otherwise unsexy businesses.",
+          "paragraphs": [
+            "Bending Spoons presents an unusual synthesis of private-equity integration and quant research.",
+            "The company has built a talent machine: roughly 700 'Spooners' who pass an intense hiring gauntlet and then are redeployed across portfolio companies to enact sweeping product, code, and infrastructure changes.",
+            "Upon acquisition, Bending Spoons often slashes most incumbent employees and replaces them with this lean, branded team.",
+            "A centralized 'talent squad' — staffed by data scientists, software engineers and AI researchers — has final authority over hiring and firing decisions.",
+            "This squad treats hiring like model-building: they experiment with interview questions and test variations, seek predictive factors, and calibrate algorithms to foresee which hires will succeed.",
+            "Importantly, they measure outcomes against predictions at scheduled intervals: four months, eight months, one year and two years, creating a feedback loop for model improvement.",
+            "Ferrari’s pithy summary — “All they do all day long is look for signals” — captures both the ambition and the absurdity of reducing human performance to statistical signals.",
+            "The approach yields two effects: operational control over integrations, and a sort of prestige laundering that makes formerly unattractive companies appealing to top talent, akin to private-equity repositioning."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pivot-to-ai",
+      "sourceSection": "Pivot to AI",
+      "illustration": {
+        "src": "/images/2026-07-13-etfs-are-for-bets/pivot-to-ai.png",
+        "alt": "Front of a claypot chicken restaurant owner changing the sign to read “Claypot Chicken AI Infrastructure,” a nearby smartphone shows a trading-app stock spike, a newspaper headline reads “SK Hynix sells $26.5B,” and a person labeled “Owen Lamont, Acadian Asset Management” looks on with a skeptical expression."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Owen Lamont"
+        ],
+        "realCompanies": [
+          "SK Hynix",
+          "Nvidia",
+          "SpaceX",
+          "Acadian Asset Management",
+          "Financial Times"
+        ],
+        "financialMechanism": "Companies rebrand or announce AI pivots to attract retail investors and social-media-driven buying, producing short-term share price surges that often do not persist; real AI infrastructure investment is happening in established firms like SK Hynix, which sold $26.5 billion of stock.",
+        "centralJoke": "A claypot chicken restaurant pivoting to 'AI infrastructure' — an absurd press-release rebrand meant to chase investor interest."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Chicken Shop That Said AI",
+          "lesson": "Sometimes companies add 'AI' to their name to get people to look at their stock.",
+          "paragraphs": [
+            "A claypot chicken restaurant put a new sign on the door: “Now an AI company!”",
+            "People giggled. The owner smiled. Some companies do that to get noticed.",
+            "Big real AI makers exist, too — SK Hynix sold $26.5 billion of stock, because it makes memory chips for AI.",
+            "Mr. Owen Lamont from Acadian Asset Management said companies change names to catch attention from investors using phones and social media."
+          ]
+        },
+        "elementary": {
+          "title": "Claypot Chicken Turns to AI (Mostly for the Headline)",
+          "lesson": "Companies have been adding AI to their names and press releases to attract retail investors; the Financial Times found at least 27 companies have added AI-related terms since 2023, many getting short-lived stock bumps, while true AI companies like SK Hynix sold $26.5 billion of stock.",
+          "paragraphs": [
+            "There once was a chicken shop selling hot claypot rice with care,",
+            "Then a headline blared, “We’re AI!” and people read it everywhere.",
+            "They changed the sign, they typed a press release, they put AI on the door,",
+            "The phones all beeped, the traders clicked — the stock shot up a score.",
+            "A sneaker firm, a karaoke place, a digital-treasure crew,",
+            "All added AI to chase the buzz — it worked a little, then it flew.",
+            "But some real builders work for months and make the chips that feed the dream,",
+            "SK Hynix sold $26.5 billion of stock — real life, not just a meme.",
+            "Big names like Nvidia and big servers and SpaceX-scale plans,",
+            "Are making tools and memory chips and giant data lands.",
+            "The Financial Times counted twenty-seven firms since twenty-twenty-three,",
+            "Who tacked AI into their names to catch a retail trader’s spree.",
+            "Owen Lamont of Acadian said, with markets run by phone and feed,",
+            "These name games chase what people like — a short-term, noisy greed.",
+            "So the chicken shop’s new sign made headlines for a day,",
+            "But real AI builders keep the engines humming all the way.",
+            "What happened? Companies changed names or announced AI pivots to attract retail investor attention; the Financial Times found at least 27 companies added AI-related terms since 2023 and most of their initial share price gains did not last. SK Hynix sold $26.5 billion of stock, and Owen Lamont of Acadian Asset Management says these moves target retail investors using social media and trading apps."
+          ]
+        },
+        "middle": {
+          "title": "When a Claypot Chicken Shop Becomes an 'AI Infrastructure' Company",
+          "lesson": "Many small and microcap firms have been rebranding to include AI language to capture investor attention; the FT found at least 27 such name changes since 2023, which often produce brief share-price spikes that fade, while large, genuine AI players like SK Hynix (which sold $26.5 billion of stock) and Nvidia supply the real infrastructure.",
+          "paragraphs": [
+            "A chain of claypot chicken restaurants announced a pivot into “AI infrastructure.” The phrase sounds funny, but it’s part of a broader pattern.",
+            "Since 2023 at least 27 companies across sectors from cancer treatment to gold mining have added AI-related terms or signaled an AI focus, the Financial Times reports.",
+            "Many of those rebrands produced an immediate surge in share prices, but the FT analysis found most firms failed to sustain the gains.",
+            "There are real AI plays on public markets: chip makers and hyperscalers and companies such as SK Hynix, which sold $26.5 billion of stock, supply critical parts of the AI buildout.",
+            "Owen Lamont, a portfolio manager at Acadian Asset Management, says the U.S. market is more retail-driven now and influenced by social media and trading apps, so name changes that signal AI can attract short-term retail demand.",
+            "The contrast matters: earlier pivots (to crypto, PPE, cannabis) sometimes worked because there were few public options; with AI there are already many pure plays, so slap-on pivots are less likely to have lasting impact."
+          ]
+        },
+        "high": {
+          "title": "Pivot to AI: Branding, Retail Flows, and Real Infrastructure",
+          "lesson": "The current wave of 'AI pivots'—including at least 27 name changes since 2023—often aim to capture retail investor flows and social-media-driven momentum, producing short-lived valuation bumps; by contrast, large, genuine AI infrastructure providers (chipmakers, hyperscalers) supply the substantive demand, exemplified by SK Hynix’s $26.5 billion share sale; Owen Lamont of Acadian Asset Management frames these rebrands as targeted at retail sentiment.",
+          "paragraphs": [
+            "The image of a claypot chicken chain rebranding itself as an “AI infrastructure” provider epitomizes a recurring market phenomenon: companies chase buzzwords to attract investor attention.",
+            "The Financial Times documented at least 27 firms since 2023 that have added AI-related terms or signaled new AI strategies. Many saw an initial pop in share price, but most failed to sustain valuation gains.",
+            "Historically, pivots to crypto, PPE, cannabis or gold sometimes succeeded short term because those exposure routes were scarce on public markets. Today the situation is inverted: there are numerous pure-play AI equities and deep-pocketed infrastructure builders.",
+            "SK Hynix’s sale of $26.5 billion of stock underscores that meaningful capital is flowing to established AI-relevant firms—chip manufacturers and hyperscalers—rather than newly rebranded microcaps.",
+            "Owen Lamont at Acadian Asset Management points to a retail-dominated U.S. market amplified by social media and trading apps; name changes adding ‘AI’ are an attempt to extract short-term gains from that sentiment.",
+            "The practical consequence: investors should distinguish between substantive business transformation and marketing repositioning aimed at momentary retail enthusiasm."
+          ]
+        }
+      }
+    }
+  ]
+}
