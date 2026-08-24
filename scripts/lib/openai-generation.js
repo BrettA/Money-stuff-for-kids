@@ -5,7 +5,7 @@ const { zodTextFormat } = require('openai/helpers/zod');
 const { editionMetadata, storyGeneration } = require('./edition-schema');
 const { canonicalIllustrationAlt } = require('./illustration-alt');
 
-const DEFAULT_TEXT_MODEL = 'gpt-5-mini';
+const DEFAULT_TEXT_MODEL = 'gpt-5.6';
 const DEFAULT_IMAGE_MODEL = 'gpt-image-1.5';
 const DEFAULT_GENERATION_STYLE = 'rhyming-picture-book';
 
