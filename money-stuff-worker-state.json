@@ -36,6 +36,18 @@
       "submitted": true,
       "updatedAt": "2026-08-21T05:18:59.920Z",
       "submittedAt": "2026-08-21T05:18:59.920Z"
+    },
+    "1a034ff61fef8fda": {
+      "gmailMessageId": "1a034ff61fef8fda",
+      "newsletterDate": "2026-08-24",
+      "newsletterTitle": "Who Should Control Anthropic?",
+      "editionId": "2026-08-24-who-should-control-anthropic",
+      "sourceSha256": "e4c707f62fbae6562280ef673f275a977c381bb18e9b1bfe2e1385cd17247bb2",
+      "packageSha256": "3e848f68b0c43db0caa666f6826632ac2016b262944dfdab0997b03f503b176a",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-24T21:51:26.014Z",
+      "submittedAt": "2026-08-24T21:51:26.014Z"
     }
   }
 }
