@@ -185,7 +185,7 @@ test('renders public polish, fallback source context, modal, footer, and About p
   const about = fs.readFileSync(path.join(root, 'about.html'), 'utf8');
   assert.doesNotMatch(home, /THE WORLD OF MONEY, MADE SIMPLE|All editions/);
   assert.match(home, /<h2 class="section-title">Latest<\/h2>/);
-  assert.match(page, /Inspired by Matt Levine’s Money Stuff[\s\S]*Get the real thing ↗/);
+  assert.match(page, /Based on Matt Levine’s Money Stuff[\s\S]*Get the real thing ↗/);
   assert.match(page, /🤖 Retold by AI, occasionally wrong\./);
   for (const output of [home, page, about]) {
     assert.match(output, /class="welcome-modal"/);
