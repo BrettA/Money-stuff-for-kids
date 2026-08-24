@@ -70,6 +70,26 @@ function newestUnsubmittedMessage(messages, state, previouslyPublished) {
     !(state.messages[message.id] && state.messages[message.id].submitted));
 }
 
+async function generateValidatedStory({ client, model, section, style, maxAttempts = 3 }) {
+  let priorValidationError;
+  for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
+    try {
+      return (await generateStory({
+        client,
+        model,
+        section,
+        style,
+        priorValidationError
+      })).value;
+    } catch (error) {
+      if (attempt === maxAttempts) throw error;
+      priorValidationError = error.message;
+      console.warn(`Story generation validation failed for "${section.heading}" (attempt ${attempt}/${maxAttempts}); retrying with feedback: ${error.message}`);
+    }
+  }
+  throw new Error(`Story generation failed for ${section.heading}`);
+}
+
 async function main() {
   for (const name of REQUIRED) env(name);
   const submit = process.env.SUBMIT === 'true';
@@ -136,7 +156,12 @@ async function main() {
   const generatedStories = [];
   const images = [];
   for (const [index, section] of stories.entries()) {
-    const generated = (await generateStory({ client, model: textModel, section, style: generationStyle })).value;
+    const generated = await generateValidatedStory({
+      client,
+      model: textModel,
+      section,
+      style: generationStyle
+    });
     const image = await generateImage({ client, model: imageModel, prompt: generated.illustration.prompt });
     const imagePath = `/images/${editionId}/${ids[index]}.png`;
     generatedStories.push({
@@ -206,4 +231,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { assertMessageEligible, newestUnsubmittedMessage, retryRequested };
+module.exports = { assertMessageEligible, generateValidatedStory, newestUnsubmittedMessage, retryRequested };
