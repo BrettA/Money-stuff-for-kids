@@ -63,6 +63,8 @@ jobs:
           cache: npm
       - name: Install locked dependencies
         run: npm ci
+      - name: Preflight repository tests
+        run: npm test
       - name: Validate manual retry request
         if: ${{ inputs.admin_retry }}
         run: |
@@ -90,7 +92,22 @@ jobs:
           fi
       - name: Generate and validate completed package
         id: worker
-        run: node scripts/money-stuff-worker.js
+        shell: bash
+        run: |
+          set +e
+          for attempt in 1 2 3; do
+            echo "Money Stuff generation attempt $attempt of 3"
+            rm -rf "$WORKER_OUTPUT_DIRECTORY"
+            node scripts/money-stuff-worker.js
+            status=$?
+            if [[ $status -eq 0 ]]; then
+              exit 0
+            fi
+            if [[ $attempt -lt 3 ]]; then
+              echo "::warning::Generation attempt $attempt failed; retrying from the same unsubmitted Gmail message."
+            fi
+          done
+          exit "$status"
       - name: Persist minimal worker state
         env:
           STATE_WORKTREE: ${{ runner.temp }}/automation-state
