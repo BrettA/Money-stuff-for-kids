@@ -37,7 +37,7 @@ function validRhymingStory() {
 
 test('provides model defaults while allowing the workflow environment to override them', () => {
   assert.equal(DEFAULT_GENERATION_STYLE, 'rhyming-picture-book');
-  assert.equal(DEFAULT_TEXT_MODEL, 'gpt-5-mini');
+  assert.equal(DEFAULT_TEXT_MODEL, 'gpt-5.6');
   assert.equal(DEFAULT_IMAGE_MODEL, 'gpt-image-1.5');
 });
 
