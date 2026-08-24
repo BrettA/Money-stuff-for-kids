@@ -10,7 +10,7 @@
     "ingest": "python3 scripts/ingest-package.py",
     "publish": "node scripts/publish.js",
     "check": "node scripts/publish.js --check",
-    "test": "node --test test/generate-money-stuff-workflow.test.js test/gmail.test.js test/ingest.test.js test/money-stuff-source.test.js test/publish-bridge.test.js test/submit-package.test.js",
+    "test": "node --test test/gmail.test.js test/ingest.test.js test/money-stuff-source.test.js test/publish-bridge.test.js test/submit-package.test.js",
     "test:all": "node --test test/*.test.js"
   },
   "dependencies": {
