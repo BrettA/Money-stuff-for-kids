@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-08-24-who-should-control-anthropic",
+  "date": "2026-08-24",
+  "displayDate": "August 24, 2026",
+  "title": "Who Should Control Anthropic?",
+  "sourceSections": [
+    "Anthropic governance",
+    "LETF arbitrage",
+    "Circumstantial insider trading",
+    "AI natives",
+    "Interests",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "anthropic-governance",
+      "sourceSection": "Anthropic governance",
+      "illustration": {
+        "src": "/images/2026-08-24-who-should-control-anthropic/anthropic-governance.png",
+        "alt": "At an Anthropic boardroom, Dario Amodei and other co-founders hold extra-vote shares while three Long-Term Benefit Trust members, including Ben Bernanke, use Class T ballots to choose most of seven board seats; outside shareholders watch without control."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Dario Amodei",
+          "Sam Altman",
+          "Larry Summers",
+          "Elon Musk",
+          "Ben Bernanke",
+          "Mariano-Florentino Cuéllar"
+        ],
+        "realCompanies": [
+          "Anthropic",
+          "OpenAI",
+          "SpaceX",
+          "The Information"
+        ],
+        "financialMechanism": "Anthropic was preparing extra-voting stock for CEO Dario Amodei and other co-founders, whose economic stakes are relatively small, while preserving Class T shares with no economic value that allow the non-investor Long-Term Benefit Trust to elect a majority of the company’s seven-person board.",
+        "centralJoke": "Anthropic’s founders would have the most control, disinterested philosopher-like trustees would have some, and outside shareholders would have none; moreover, being a guardian of humanity sounds grand, but becoming an Anthropic executive is likely more lucrative."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Who Gets to Choose at Anthropic?",
+          "lesson": "Anthropic plans to combine extra founder votes with board-selection power held by non-investor trustees, leaving ordinary outside shareholders with little control.",
+          "paragraphs": [
+            "Companies need people to choose their leaders. Usually shareholders vote. Sometimes founders keep extra votes because they want to protect the company’s mission.",
+            "Artificial-intelligence companies add another idea: AI may be so powerful that independent advisers should help protect humanity. Candidates for that unusual role have included AI theorists, effective altruists, and, jokingly, Larry Summers.",
+            "OpenAI tried giving a nonprofit board great power in 2023. The board fired CEO Sam Altman for about two days, but the decision did not last. SpaceX uses a different answer: founder Elon Musk keeps control.",
+            "The Information reported that Anthropic was preparing special shares giving CEO Dario Amodei and other co-founders extra voting power, even though the founders own relatively small portions of the company.",
+            "Anthropic also has a Long-Term Benefit Trust, created in 2023. Its Class T shares are not worth money, but they let its trustees elect most of Anthropic’s seven directors. The trust usually has five members but is down to three, including Ben Bernanke, after Mariano-Florentino Cuéllar left to become an Anthropic executive.",
+            "So Anthropic’s founders would have the most control, its independent trustees would have some, and outside shareholders would have almost none. The funny part is that being a philosopher protecting humanity sounds grand, but becoming an executive probably pays better."
+          ]
+        },
+        "elementary": {
+          "title": "The Extra-Big Votes at Anthropic",
+          "lesson": "Anthropic combines planned extra-voting shares for Dario Amodei and other co-founders with Class T shares that let its non-investor Long-Term Benefit Trust elect a majority of the seven-person board, while those Class T shares carry no economic value.",
+          "paragraphs": [
+            "In many a company, shareholders can say,\n“Replace the board if it’s blundering today.”\nBut founders may argue, “Our mission comes first;\nOutside owners could trade it for profit—or worse.”",
+            "AI raised a third choice: let wise people decide,\nWith no money invested and humanity as guide.\nCandidates included AI theorists, effective altruists, and Larry Summers—perhaps.\nThe difficulty is finding such sages, and avoiding mishaps.",
+            "OpenAI tested that model in 2023;\nIts nonprofit board fired Sam Altman—briefly.\nHe was gone for about two days, then returned to the job,\nFor lofty control met investors, employees, and an uproarious mob.",
+            "When investors supply tens of billions for a trillion-dollar prize,\nPhilosophers holding the final vote may not survive.\nSpaceX chose founder control as the safer bet:\nTrust Elon Musk with value and responsibility—though that theory has problems yet.",
+            "Now Anthropic is preparing a two-layered plan,\nThe Information reported how voting would span.\nCEO Dario Amodei and other co-founders may receive\nSpecial stock with extra votes, so outsiders cannot easily intervene.",
+            "That matters because the founders’ ownership stakes are relatively small;\nExtra voting power can outweigh the money they own after all.\nYet Anthropic also has a Long-Term Benefit Trust,\nMade in 2023 to guard long-term aims, as it must.",
+            "Its non-employee, non-investor advisers hold Class T shares,\nWith no economic value—no company profits are theirs.\nBut those shares can elect a majority of the seven-person board,\nA narrow power, yet quite an extraordinary sword.",
+            "The trust usually has five members, but now it has three;\nBen Bernanke is one of the trustees who oversee.\nMariano-Florentino Cuéllar left the trust this month for another role:\nAnthropic chief global affairs officer—with an executive’s payroll.",
+            "Being a philosopher-overlord for humanity sounds weighty and cool;\nBeing an Anthropic executive may pay better as a rule.\nSo founders get most control, independent trustees get some,\nAnd outside shareholders get no control—the governance-and-marketing job is done.",
+            "What happened? Anthropic was preparing extra-voting stock for Dario Amodei and other co-founders while retaining Class T shares that let its Long-Term Benefit Trust elect a majority of the seven-person board despite having no economic value. The trust, created in 2023, had fallen from its usual five members to three after Mariano-Florentino Cuéllar became an Anthropic executive; its trustees include Ben Bernanke."
+          ]
+        },
+        "middle": {
+          "title": "Anthropic’s Founders, Philosophers, and Powerless Shareholders",
+          "lesson": "Anthropic’s proposed governance structure layers founder super-voting power over an existing trust whose economically worthless Class T shares can elect most of the board.",
+          "paragraphs": [
+            "Corporate governance usually follows one of two theories. Shareholders own the company and should ultimately control its board, or visionary founders should retain control so short-term investors cannot ruin the mission. AI laboratories have introduced a third theory: because AI could transform or endanger humanity, independent experts with no financial stake should oversee it. Possible philosopher-overlords have included AI theorists, effective altruists, and, somewhat absurdly, Larry Summers.",
+            "OpenAI tested the third model in 2023, when its nonprofit board fired founder-CEO Sam Altman for about two days. The attempt collapsed. A company raising tens of billions of dollars to pursue a potentially trillion-dollar business could not, in practice, leave final authority with financially disinterested guardians. SpaceX represents the simpler founder-control alternative: shareholders and philosophers step back, while Elon Musk is trusted to protect both value and the mission—an idea with problems of its own.",
+            "According to The Information, Anthropic has been preparing to give CEO Dario Amodei and other co-founders a special class of stock carrying extra voting power. This would insulate them from outside shareholder pressure even though Anthropic’s founders hold relatively small economic stakes compared with many other technology founders.",
+            "Anthropic also intends to preserve its Long-Term Benefit Trust, created in 2023. Its advisers are neither employees nor investors. Through Class T shares, which have no economic value, the trust can elect a majority of Anthropic’s seven-person board. Thus, the trustees cannot claim profits through those shares, but they can determine who controls most board seats.",
+            "The trust normally has five members but is down to three. Its trustees include former Federal Reserve Chair Ben Bernanke. Mariano-Florentino Cuéllar, formerly a California Supreme Court justice, left the trust this month to become Anthropic’s chief global affairs officer.",
+            "The resulting hierarchy is the joke: founders would have the most control, disinterested guardians would retain some, and outside shareholders would have none. Protecting humanity as a philosopher-overlord sounds prestigious, but becoming an Anthropic executive is probably more lucrative. The arrangement may serve governance goals, but it also markets Anthropic as too important to be governed like an ordinary public company."
+          ]
+        },
+        "high": {
+          "title": "Anthropic’s Hybrid Governance: Founder Control Plus a Benefit Trust",
+          "lesson": "Anthropic is attempting to combine founder insulation from shareholders with mission-oriented trustee oversight, using separate stock classes to divide economic ownership from voting and board-election power.",
+          "paragraphs": [
+            "The conventional shareholder model treats investors as the firm’s owners: directors and executives manage daily operations, but shareholders can replace them. The founder-control model instead treats investors as capital suppliers and gives founders disproportionate voting power to protect a long-term mission. Either model can be rational, depending on whether shareholders or founders are more likely to create durable value.",
+            "Large AI laboratories have promoted a third model. Because advanced AI is portrayed as unusually transformative and dangerous, control should supposedly rest with financially disinterested guardians acting for humanity rather than with investors or founders. The category might include AI theorists, effective altruists, or even Larry Summers. The difficulty is both selecting such guardians and making their authority durable when enormous financial interests resist them.",
+            "OpenAI exposed that weakness in 2023. Its nonprofit board fired founder-CEO Sam Altman for roughly two days, but the decision quickly unraveled. An organization raising tens of billions of dollars around a potentially trillion-dollar business could not sustain philosopher control against employees, investors, and commercial realities. SpaceX illustrates the obvious fallback—entrust the mission and shareholder value to founder Elon Musk—though that theory also carries evident risks.",
+            "The Information reported that Anthropic was preparing a hybrid. CEO Dario Amodei and other co-founders would receive a class of stock with extra voting power, insulating them from outside shareholder pressure. The proposal is especially consequential because Anthropic’s founders retain relatively small economic stakes compared with founders at many technology companies. Super-voting stock would therefore separate control rights from economic ownership.",
+            "A second separation already exists through Anthropic’s Long-Term Benefit Trust. Created in 2023, the trust consists of advisers who are not employees or investors. It holds Class T shares with no economic rights, but those shares allow it to elect a majority of Anthropic’s seven-person board. Its authority is substantial but narrow: the trustees receive no financial participation through Class T, yet control the selection of most directors.",
+            "The trust usually has five members but is down to three. Members include former Federal Reserve Chair Ben Bernanke. Mariano-Florentino Cuéllar, a former California Supreme Court member, departed this month to become Anthropic’s chief global affairs officer—a move that sharpens the source’s joke that independent guardian of humanity sounds important, while Anthropic executive sounds more lucrative.",
+            "Anthropic’s emerging hierarchy therefore gives the founders the strongest control, the nonshareholder trustees a second layer of control, and outside shareholders effectively none. That structure may genuinely buffer the company from short-term investor pressure. It also performs a marketing function: investors in an AI laboratory are apparently expected to believe that AI is too important to be left to investors, including themselves."
+          ]
+        }
+      }
+    },
+    {
+      "id": "letf-arbitrage",
+      "sourceSection": "LETF arbitrage",
+      "illustration": {
+        "src": "/images/2026-08-24-who-should-control-anthropic/letf-arbitrage.png",
+        "alt": "Traders buy SK Hynix shares before the Korean market close as a large leveraged-ETF closing order grows behind them."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Yinhong Zhao of Princeton",
+          "Ben Snider of Goldman Sachs"
+        ],
+        "realCompanies": [
+          "Strategy Inc.",
+          "SK Hynix",
+          "MicroStrategy",
+          "Direxion Daily Semiconductor Bull 3X Shares",
+          "Morningstar",
+          "Goldman Sachs"
+        ],
+        "financialMechanism": "A leveraged ETF resets its daily exposure by buying after gains and selling after losses near the close. Because the order is predictable but grows with the day’s price move, arbitrageurs can buy or sell ahead of it, alter the price, enlarge the ETF’s required rebalance, and trade against the resulting closing demand.",
+        "centralJoke": "Leveraged ETFs can help create exaggerated dips and rips, and investors then use leveraged ETFs to try to profit by reversing those same dips and rips."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Fund That Had to Chase the Price",
+          "lesson": "A leveraged ETF resets its exposure each day, so rising prices force it to buy more and falling prices force it to sell; traders can anticipate those orders and make the moves larger.",
+          "paragraphs": [
+            "A leveraged ETF tries to multiply one day’s move. If a stock rises, the fund must buy more near the market’s close. If the stock falls, the fund must sell. That means it chases prices up and down.",
+            "Traders can guess these closing orders. They may buy first and later sell to the ETF, pushing the price higher and making the ETF need even more shares.",
+            "Yinhong Zhao of Princeton argued that this feedback loop worsened swings in SK Hynix after single-stock leveraged ETFs arrived in Korea in 2026. The strange part is that the funds may help create the very “dips” and “rips” that investors then try to trade."
+          ]
+        },
+        "elementary": {
+          "title": "The Fund That Chased Its Own Price",
+          "lesson": "Daily leveraged-ETF rebalancing creates predictable closing orders that arbitrageurs can trade ahead of, enlarging price moves and the ETF’s required order in a self-reinforcing loop.",
+          "paragraphs": [
+            "A 2x ETF on Strategy Inc. might start with $100 in hand,\nBorrow $100, then buy $200 of stock as planned.\nIf Strategy rises 3%, those shares become $206;\nThe investors have $106—up 6% from the mix.",
+            "But 1.94x leverage is now too small for the next day,\nSo the fund needs $212 of stock to keep 2x in play.\nIt buys another $6, often right at the close;\nWhen Strategy falls, it sells instead as leverage grows.",
+            "At 3 p.m., a hedge fund may foresee a $100 million buy,\nPurchase $80 million early, then sell when closing time is nigh.\nBut buying lifts the price, so the ETF may need $120 million more;\n“Then buy another $40 million!”—and round the loop can roar.",
+            "This can supply shares smoothly, as index arbitrage might do,\nAnd swaps or other derivatives can create the rebalancing too.\nBut traders may also push prices, then sell into the demand—\nThe fund must buy more because those traders bought beforehand.",
+            "Yinhong Zhao of Princeton studied Korea’s 2026 spree:\nSingle-stock LETFs launched with KRW 4.3 trillion, then reached KRW 14 trillion in three weeks’ activity.\nFor SK Hynix, mandated rebalancing averaged 22.4% of daily trading,\nAnd peaked at 50.4%, with the feedback escalating.",
+            "The paper estimated annualized volatility rose from 84.8% to 136.7% in nine weeks,\nWhile retail holders lost 19% of terminal wealth through the loop it critiques.\nAbout 60% of tracked stocks’ first response to pre-open U.S. news reversed by the next close;\nThe measured loop was over twice MicroStrategy’s and ten times U.S. index complexes’ dose.",
+            "Meanwhile, Direxion Daily Semiconductor Bull 3X Shares drew almost $7 billion in net inflows\nDuring July and the first two weeks of August, Morningstar’s information shows.\nBen Snider of Goldman Sachs called it “buying the dip and selling the rip”—\nThough leveraged ETFs may help create both ends of that trip.",
+            "What happened? Leveraged ETFs had to rebalance at each close by buying after gains and selling after losses. Traders anticipated those orders, moved prices first, enlarged the required rebalancing, and sold into it—so the funds could help create the dips and rips investors hoped to reverse."
+          ]
+        },
+        "middle": {
+          "title": "The Predictable Order That Changes Its Own Size",
+          "lesson": "Because a leveraged ETF’s closing rebalance depends on that day’s return, advance trading can alter the return, enlarge the rebalance, and create a self-referential price loop.",
+          "paragraphs": [
+            "A leveraged ETF promises a multiple of an asset’s daily return, not a permanent multiple over longer periods. A hypothetical 2x Strategy Inc. ETF can take $100 from investors, borrow $100, and buy $200 of Strategy stock. A 3% gain makes the position worth $206 and leaves $106 of investor equity—a 6% return. But leverage has fallen to about 1.94x, so the ETF must increase its position to $212 by buying $6 near the close. After a loss, it must sell instead. This buy-high, sell-low resetting contributes to volatility drag.",
+            "The rebalance is both predictable and variable. At 3 p.m., a hedge fund might calculate that an ETF needs to buy $100 million at the close. It could buy $80 million first and sell it to the ETF later. Yet that early purchase raises the stock price, potentially increasing the required ETF order to $120 million. Buying another $40 million could lift the price and required order again.",
+            "This activity can be described as liquidity provision, because traders gather shares during the day for a concentrated closing order. It can also be called intraday momentum trading or, less kindly, front-running. Most leveraged ETFs use swaps or other derivatives rather than literally borrowing cash, but swap counterparties may hedge the same closing-price exposure.",
+            "In “Preying on Leveraged ETFs,” Yinhong Zhao of Princeton argues that this feedback contributed to extreme Korean volatility in 2026. Korean single-stock LETFs began with KRW 4.3 trillion and reached KRW 14 trillion within three weeks. Worldwide mandated rebalancing in SK Hynix averaged 22.4% of its daily traded value and peaked at 50.4%. The paper estimates that the loop raised SK Hynix’s annualized volatility from 84.8% to 136.7% over nine weeks and transferred 19% of terminal wealth from the products’ mostly retail holders.",
+            "Stocks tracked by those LETFs reversed about 60% of their initial response to pre-open U.S. news by the next close. The Korean loop measurements exceeded MicroStrategy’s—described as the most extreme U.S. single-stock complex—by more than two times and U.S. index complexes by roughly an order of magnitude.",
+            "Investors nevertheless poured money into leveraged chip funds. Morningstar reported that Direxion Daily Semiconductor Bull 3X Shares attracted almost $7 billion during July and the first two weeks of August. Ben Snider of Goldman Sachs called the popular approach “buying the dip and selling the rip.” The absurd twist is that leveraged ETFs can help manufacture those dips and rips—and then serve as tools for betting on their reversal."
+          ]
+        },
+        "high": {
+          "title": "Self-Referential Rebalancing in Leveraged ETFs",
+          "lesson": "Predictable, return-dependent closing rebalances allow arbitrageurs to pre-position, affect the return that determines the order, and amplify both the order and the underlying asset’s volatility.",
+          "paragraphs": [
+            "A daily 2x ETF must reset its exposure after every price move. Suppose a Strategy Inc. fund has $100 of equity, borrows $100, and owns $200 of stock. A 3% gain raises the position to $206 and equity to $106, producing the promised 6% daily return. Its leverage is then only about 1.94x. To begin the next day at 2x, it needs $212 of exposure and must buy $6 near the close. A decline produces the opposite response: leverage rises, forcing a sale. This path-dependent routine makes the fund systematically buy after gains and sell after losses, contributing to volatility decay.",
+            "The closing trade is forecastable because assets under management and the underlying return are observable. If a hedge fund expects a $100 million closing purchase at 3 p.m., it can buy $80 million beforehand and sell into the ETF’s order. This resembles index-rebalancing arbitrage or liquidity provision: traders spread a concentrated closing demand across the day. Leveraged ETFs often obtain exposure through swaps or other derivatives, but counterparties hedging their closing-price risk can generate similar underlying trades.",
+            "The unusual feature is that the required order is endogenous. Pre-positioning lifts the price, and the higher return increases the ETF’s mandated purchase—perhaps from $100 million to $120 million. Traders can then buy another $40 million, raising the price and required order again. The same behavior can be labeled intraday momentum, beneficial liquidity provision, front-running, or predation, depending on whether one emphasizes intent, market impact, or wealth transfer.",
+            "Yinhong Zhao of Princeton argues in “Preying on Leveraged ETFs” that this self-referential loop contributed to Korea’s extreme volatility in 2026. Single-stock LETFs launched with KRW 4.3 trillion and reached KRW 14 trillion in three weeks. Worldwide mandated SK Hynix rebalancing averaged 22.4% of the stock’s total daily traded value and peaked at 50.4%. The paper estimates that, over nine weeks, the loop raised SK Hynix’s annualized volatility from 84.8% to 136.7% and transferred 19% of terminal wealth from the products’ predominantly retail holders.",
+            "The empirical signature is overshooting followed by reversal. Korean stocks tracked by LETFs reversed about 60% of their first-day response to pre-open U.S. news by the next close, unlike the control groups. The estimated Korean loop gains were more than twice those of MicroStrategy, the most extreme U.S. single-stock complex in the comparison, and about an order of magnitude above the U.S. index complexes associated with more benign evidence.",
+            "That pattern suggests strong intraday momentum followed by next-day mean reversion. Investors acted accordingly: Morningstar data showed that Direxion Daily Semiconductor Bull 3X Shares attracted almost $7 billion of net inflows during July and the first two weeks of August despite heavy losses in leveraged semiconductor products. Ben Snider, U.S. equity strategist at Goldman Sachs, described the strategy as “buying the dip and selling the rip.” The central irony is reflexive: leveraged ETFs can amplify or help create the dips and rips, while investors use those same products to bet that the moves will reverse."
+          ]
+        }
+      }
+    },
+    {
+      "id": "circumstantial-insider-trading",
+      "sourceSection": "Circumstantial insider trading",
+      "illustration": {
+        "src": "/images/2026-08-24-who-should-control-anthropic/circumstantial-insider-trading.png",
+        "alt": "Gavin Wolfe makes the “SJi and njr” calendar entry just after attending a Duke basketball game with Jason Satsky at Madison Square Garden."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Gavin Wolfe",
+          "Jason Satsky",
+          "Nicola White",
+          "Ava Benny-Morrison",
+          "Bob Anello",
+          "Reed Brodsky"
+        ],
+        "realCompanies": [
+          "Bank of America (BofA)",
+          "South Jersey Industries Inc. (NYSE: SJI)",
+          "Bloomberg"
+        ],
+        "financialMechanism": "The SEC alleged that Satsky supplied Wolfe with material nonpublic information about a South Jersey Industries merger and that Wolfe used it to buy $53 million of SJI stock before the announcement, producing an $18.5 million profit. The alleged tip was supported by circumstantial rather than direct evidence.",
+        "centralJoke": "Buying a merger target immediately after spending three hours at a basketball game with the target’s banker looks highly suspicious, yet without proof of a tip it could be either an innocent coincidence or unusually competent insider trading."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Basketball Game and the Big Stock Purchase",
+          "lesson": "The SEC alleged that Jason Satsky secretly told Gavin Wolfe about a planned merger and that Wolfe used that private information to buy South Jersey Industries stock before the announcement; both men deny that any tip occurred.",
+          "paragraphs": [
+            "Gavin Wolfe and Jason Satsky were experienced bankers. Satsky worked at Bank of America, and Wolfe had retired from Bank of America to manage his investments and businesses. Wolfe’s portfolio was worth about $260 million.",
+            "On November 9, 2021, they spent about three hours together at a nationally televised Duke basketball game at Madison Square Garden. Minutes after the game, at 12:12 a.m., Wolfe made a calendar entry saying “SJi and njr.” He set it for 9:15 a.m. on November 10.",
+            "Wolfe then began buying stock in South Jersey Industries, whose New York Stock Exchange ticker was SJI. He bought $53 million of shares. When a merger was announced, he made an $18.5 million profit.",
+            "The SEC alleged that Satsky had shared secret information about the merger. But the SEC’s complaint quoted no earlier messages between the men and offered no direct evidence of a tip.",
+            "Bloomberg reporters Nicola White and Ava Benny-Morrison reported the denials. Satsky’s lawyer, Bob Anello, said no secret information was shared. Wolfe’s lawyer, Reed Brodsky, said Wolfe bought the shares because of his own investment ideas. So the strange question remained: Was it an innocent coincidence, or very careful insider trading?"
+          ]
+        },
+        "elementary": {
+          "title": "The Courtside Clue and the $53 Million Trade",
+          "lesson": "The SEC alleged that Jason Satsky tipped Gavin Wolfe about a South Jersey Industries merger and that Wolfe traded on material nonpublic information, but its case was circumstantial and both men denied that any tip occurred.",
+          "paragraphs": [
+            "At Madison Square Garden, beneath the arena light,\nGavin Wolfe and Jason Satsky watched Duke basketball one night.\nThe game was nationally televised; for about three hours they sat,\nand soon the SEC would wonder about that.",
+            "These were seasoned bankers, not beginners learning the trade:\nSatsky was Bank of America’s global energy-and-utility banking head when the deal was made.\nWolfe, once a BofA managing director, had retired to manage businesses and investments alone,\nincluding a portfolio worth about $260 million of his own.",
+            "Within minutes after the November 9 game ended, a curious note appeared:\nat 12:12 a.m., Wolfe entered “SJi and njr,” two NYSE tickers, as the calendar cleared.\nHe scheduled that entry for 9:15 a.m. on November 10, 2021,\nthen started buying South Jersey Industries shares when morning had begun.",
+            "Wolfe bought $53 million of SJI stock—not short-lived call options hoping prices would climb.\nStock meant actual company shares, purchased in unusually large size this time.\nWhen the South Jersey Industries merger was announced, their value took a leap,\nand Wolfe’s profit reached $18.5 million—a very sizable heap.",
+            "The SEC alleged that Satsky had passed along important merger news not known outside.\nYet it quoted no pre-purchase messages and found no direct proof that Satsky supplied it.\nThe basketball meeting, calendar note, and buying formed the circumstantial case;\nthe evidence pointed around a possible tip without recording one someplace.",
+            "Bloomberg’s Nicola White and Ava Benny-Morrison reported the lawyers’ reply:\nBob Anello said Satsky shared no secret information and denied the charge outright.\nReed Brodsky said the SEC could not identify what was disclosed or how it was shown;\nhe said immunized testimony and documents backed an investment thesis of Wolfe’s own.",
+            "Buying a merger target after sitting with its banker certainly looked suspicious in timing,\nbut without proof of a tip, the conclusion was less than binding.\nPerhaps it was innocent coincidence, with Wolfe’s research guiding the investing;\nor perhaps, as the joke went, it was pretty good insider trading.",
+            "What happened? The SEC accused Gavin Wolfe of earning $18.5 million by buying $53 million of South Jersey Industries stock after Jason Satsky allegedly tipped him about a merger. The evidence was circumstantial, and both men denied that any tip occurred."
+          ]
+        },
+        "middle": {
+          "title": "A Basketball Game, a Calendar Entry, and an Alleged Tip",
+          "lesson": "Insider-trading cases can be built from circumstantial evidence linking access to confidential information, contact between people, unusual trading, and resulting profit—even when investigators cannot produce a message containing the alleged tip.",
+          "paragraphs": [
+            "The SEC accused retired investment banker Gavin Wolfe of making $18.5 million through insider trading in South Jersey Industries Inc. It alleged that Jason Satsky, his former Bank of America colleague and the banker working on the merger, gave him material nonpublic information. Both men denied the allegation.",
+            "These were not inexperienced traders making a small, conspicuous options bet. Satsky was Bank of America’s global head of energy and utility investment banking. Wolfe had also been a BofA managing director before retiring to manage his own investments and businesses. His portfolio was valued at approximately $260 million.",
+            "On November 9, 2021, Wolfe and Satsky spent about three hours together at a nationally televised Duke basketball game at Madison Square Garden. Within minutes after it ended, Wolfe created a calendar entry at 12:12 a.m. reading “SJi and njr,” using the New York Stock Exchange tickers for South Jersey Industries and another company. He scheduled it for 9:15 a.m. on November 10 and then began buying SJI.",
+            "Wolfe purchased $53 million of actual stock, rather than short-dated, out-of-the-money call options. After the merger announcement raised the share price, his profit was $18.5 million. The SEC treated the timing, personal contact, calendar entry, and purchases as evidence that Satsky had tipped him.",
+            "But the complaint quoted no messages between Satsky and Wolfe before the purchases and contained no direct evidence of what Satsky supposedly said. Bloomberg’s Nicola White and Ava Benny-Morrison reported that Satsky’s lawyer, Bob Anello, said no confidential information was provided. Wolfe’s lawyer, Reed Brodsky, said the SEC could not identify what was disclosed or how and was ignoring immunized testimony and contemporaneous documents supporting Wolfe’s independent investment thesis.",
+            "That creates the section’s central absurdity: buying a merger target the day after spending hours with its banker looks extremely suspicious, but suspicion does not reveal what was said. It could have been an innocent coincidence—or unusually careful insider trading with no incriminating message trail."
+          ]
+        },
+        "high": {
+          "title": "Circumstantial Insider Trading",
+          "lesson": "The SEC may infer insider trading from access, relationships, timing, trading patterns, and profits, but a circumstantial case can leave a major factual dispute over whether material nonpublic information was ever communicated.",
+          "paragraphs": [
+            "The SEC brought an insider-trading case against Gavin Wolfe, a retired investment banker, and Jason Satsky, his former Bank of America colleague. It alleged that Satsky tipped Wolfe about a merger involving South Jersey Industries Inc. and that Wolfe earned $18.5 million by trading before the announcement. The defendants deny that any tip occurred.",
+            "The facts differ from the stereotypically reckless case involving a novice trader, short-dated out-of-the-money call options, a roughly $50,000 gain, and incriminating texts. Satsky was Bank of America’s global head of energy and utility investment banking. Wolfe was a former BofA managing director who, after retiring, managed his own investments and controlled businesses. His portfolio was worth approximately $260 million.",
+            "Wolfe also traded at institutional scale. He purchased $53 million of South Jersey Industries stock—not options—and made $18.5 million when the merger was announced. Because he conducted substantial legitimate investing, the purchase was potentially less anomalous than an inexperienced person suddenly wagering everything on one merger target.",
+            "The SEC’s evidence was nevertheless striking. Wolfe and Satsky attended a nationally televised Duke basketball game together at Madison Square Garden on November 9, 2021, spending approximately three hours together. Within minutes after the game ended, Wolfe created a calendar entry at 12:12 a.m. reading “SJi and njr,” referring to the New York Stock Exchange tickers for South Jersey Industries and another company. He scheduled it for 9:15 a.m. on November 10 and subsequently began buying SJI shares.",
+            "What the SEC apparently lacked was direct evidence of communication. Its complaint quoted no pre-trade messages between Wolfe and Satsky and did not identify the words, method, or precise content of the alleged disclosure. The theory instead depended on circumstantial evidence: Satsky’s access to the merger information, his relationship and in-person contact with Wolfe, Wolfe’s immediate calendar note, the timing and scale of his purchases, and his eventual profit.",
+            "Bloomberg reporters Nicola White and Ava Benny-Morrison published the defendants’ responses. Satsky’s lawyer, Bob Anello, called the action unfounded and said Satsky gave neither Wolfe nor anyone else material nonpublic information about South Jersey Industries or breached a confidentiality duty. Wolfe’s lawyer, Reed Brodsky, said the SEC could not identify what was disclosed or how and was disregarding sworn, immunized testimony and contemporaneous documents supporting Wolfe’s independent investment thesis.",
+            "The joke is also the evidentiary problem. Buying a merger target the day after sitting beside its banker at a basketball game sounds terrible, but it does not itself prove that information changed hands. On the stated facts, the conduct was either an innocent coincidence or “pretty good insider trading”: large, professional, conducted without incriminating messages, and detectable only through a suspicious chain of circumstances."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ai-natives",
+      "sourceSection": "AI natives",
+      "illustration": {
+        "src": "/images/2026-08-24-who-should-control-anthropic/ai-natives.png",
+        "alt": "A private banking intern at a London lender demonstrates an AI agent to senior bankers during a drop-in help session, while the agent organizes the team’s tasks."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Nil Codina Martinez",
+          "Zainab Haji"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Bloomberg News"
+        ],
+        "financialMechanism": "AI agents can automate entry-level banking tasks such as model-building, presentation drafting, and other to-dos. Interns are therefore shifting toward building and supervising those agents and training senior bankers, which may reduce future demand for interns while also creating continuing demand for workers familiar with rapidly changing AI tools.",
+        "centralJoke": "The interns are beginners who must teach senior bankers to use AI, like teaching parents to use a phone—and if they teach and automate too successfully, they may eliminate next year’s internships, unless next year’s fast-changing AI gives the next interns something new to teach."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "When the Intern Became the Teacher",
+          "lesson": "AI changed some banking interns’ work from making models and presentations to building AI agents and teaching senior bankers how to use them.",
+          "paragraphs": [
+            "Banks have senior bankers who find clients and bring in work. New bankers usually start as juniors, practice basic jobs, and learn from the seniors.",
+            "Some people worry that artificial intelligence, or AI, could do many beginner jobs. If fewer beginners get to practice, who will become the skilled senior bankers later?",
+            "But senior bankers are busy meeting clients. They still need younger workers who understand the new AI tools.",
+            "At a lender in London, a private banking intern built AI agents—computer tools that can complete sets of tasks. The intern also held drop-in sessions to show senior bankers how to use them.",
+            "The intern said it felt like teaching parents how to use a phone. The beginner had become the teacher!",
+            "Bloomberg reporters Nil Codina Martinez and Zainab Haji spoke with nearly a dozen summer analysts and interns. They found that AI was changing interns’ work, even outside technology programs.",
+            "There is one more funny twist: If this year’s interns automate everything very well, perhaps the bank will need no interns next year. But AI changes so quickly that next year’s interns may arrive with brand-new things to teach."
+          ]
+        },
+        "elementary": {
+          "title": "The Summer the Intern Taught the Bankers",
+          "lesson": "Banks are using digitally skilled interns to build and supervise AI agents and train senior bankers, shifting entry-level work while raising the possibility that interns could automate some future intern jobs.",
+          "paragraphs": [
+            "In banking, the juniors once learned at their chairs,\nBuilding models and slides through long hours of repairs.\nThe seniors found clients and brought business through,\nWhile beginners gained skills from the basic work they’d do.",
+            "Then AI agents arrived—computer tools trained\nTo finish assigned jobs when their steps were explained.\nSome worried these agents would take the first rung,\nLeaving no path to senior from eager and young.",
+            "For banking has long used an apprentice design:\nJuniors practice and grow, gaining judgment with time.\nIf AI does the groundwork with tireless flair,\nWhere will tomorrow’s senior rainmakers prepare?",
+            "But picture those rainmakers, busy all day,\nWinning clients and bringing new business their way.\nWill they pause to learn agents and automate chores?\nCome on—they need juniors who know what AI is for.",
+            "At one London lender, the switch became clear:\nA private banking intern turned teacher this year.\nThey built brand-new agents to streamline to-dos,\nThen showed senior bankers which features to use.",
+            "At drop-in help sessions, the bankers could learn,\nAsk questions, try tools, and come back for a turn.\nThe intern compared it—with humor full-grown—\nTo teaching your parents to work a new phone.",
+            "Nil Codina Martinez and Zainab Haji\nReported for Bloomberg on this role-reversing spree.\nBloomberg News questioned nearly a dozen that summer;\\nEven non-tech programs had changed for each newcomer.",
+            "The joke has a wobble: If interns succeed\nAt automating everything bankers might need,\nAnd teach every senior each shortcut and trick,\nNext year’s intern openings could vanish quite quick.",
+            "Yet AI keeps racing; its tools won’t stand still.\nNext summer may bring some brand-new task or skill.\nSo the next group of interns may walk through the door\nWith all-new automation to teach them once more.",
+            "What happened? A private banking intern at a London lender built AI agents to streamline tasks and taught senior bankers to use them; Bloomberg News, through reporting by Nil Codina Martinez and Zainab Haji, found similar changes among nearly a dozen summer analysts and interns. The absurd possibility is that interns may automate away future internships, except AI changes fast enough that next year’s interns may have new automation to teach."
+          ]
+        },
+        "middle": {
+          "title": "The Interns Teaching the Rainmakers",
+          "lesson": "AI may replace some traditional junior tasks, but it also creates a new entry-level role: supervising AI agents and helping senior professionals adopt them.",
+          "paragraphs": [
+            "Professional-services firms have traditionally worked like apprenticeships. Junior bankers, lawyers, and consultants build models, draft presentations, and put in long hours. Through that practice, some eventually develop the judgment and client relationships needed to become senior “rainmakers”—partners who bring in business.",
+            "AI creates an apparent problem. Agents can perform many basic junior tasks, while senior rainmakers still possess nuanced judgment and client relationships. A firm might therefore seem able to operate with senior partners bringing in work and AI agents completing it. But if firms stop hiring and training juniors, they may also eliminate the pipeline that produces future senior leaders.",
+            "In practice, senior bankers are unlikely to stop courting clients so they can master every new AI tool. Junior employees are still useful, but their role is changing from doing all the basic work themselves to building and supervising AI agents—and teaching senior bankers to supervise those agents.",
+            "Bloomberg reporters Nil Codina Martinez and Zainab Haji described a private banking intern at a London lender who was assigned to improve the team’s adoption of AI. The intern built agents to streamline tasks and ran drop-in demonstrations for senior bankers, comparing the experience to teaching parents how to use a phone.",
+            "Bloomberg News spoke with nearly a dozen summer analysts and interns, including people in non-technology programs, who said AI had changed what their employers expected from them. The traditional learner had become the technology teacher.",
+            "The arrangement contains an unstable joke. If this year’s interns automate enough work and teach senior bankers well enough, perhaps no interns will be needed next year. But AI is advancing so quickly that next year’s interns may arrive knowing entirely new ways to automate work—and once again have something to teach the seniors."
+          ]
+        },
+        "high": {
+          "title": "AI Has Not Ended the Apprenticeship—It Has Reversed It",
+          "lesson": "Generative AI is reorganizing the professional-services apprenticeship model: juniors increasingly implement and supervise AI while transferring digital knowledge upward, even as successful automation threatens the entry-level pipeline itself.",
+          "paragraphs": [
+            "A common concern about AI in professional services is that it targets the bottom rung of the career ladder. AI agents can increasingly handle the model-building, document drafting, and presentation work once assigned to junior bankers, lawyers, and consultants. They cannot as easily reproduce the judgment, institutional knowledge, or client relationships of senior rainmakers, so a superficially viable firm could consist of senior partners who win mandates and AI agents that execute them.",
+            "That structure creates a succession problem. Professional-services firms have historically relied on apprenticeship: juniors perform repetitive work, acquire judgment, and eventually become seniors capable of attracting clients. Remove the junior work—or the juniors themselves—and the firm may save money now while weakening its future supply of rainmakers.",
+            "The immediate outcome, however, is less straightforward. Senior bankers are occupied with clients and are not necessarily positioned to learn every rapidly changing AI system. Juniors remain valuable because their digital proficiency lets them build, operate, and monitor AI agents, then train senior colleagues to use those systems.",
+            "Bloomberg’s Nil Codina Martinez and Zainab Haji reported that a private banking intern at an unnamed London lender was tasked with improving the team’s AI adoption. The intern built agents to streamline to-dos and offered drop-in demonstrations to senior bankers. The intern compared the role reversal to teaching parents how to use a phone.",
+            "Bloomberg News interviewed nearly a dozen summer analysts and interns who said AI had changed what was expected of them, including in programs unrelated to technology. Instead of merely learning established banking processes, some interns were transferring technical knowledge upward through the hierarchy.",
+            "The equilibrium is inherently unstable—and that is the joke. If this year’s interns successfully automate the relevant work and teach senior bankers to operate the tools, the bank may not need next year’s interns. Yet adoption has a lag, and AI changes so quickly that next year’s interns may possess new automation skills that today’s seniors—and perhaps today’s interns—do not. AI simultaneously threatens the apprenticeship model and gives its newest apprentices a fresh reason to exist."
+          ]
+        }
+      }
+    },
+    {
+      "id": "interests",
+      "sourceSection": "Interests",
+      "illustration": {
+        "src": "/images/2026-08-24-who-should-control-anthropic/interests.png",
+        "alt": "Fred Cibelli interviews a qualified applicant after noticing “Interests: olive oil” on the applicant’s résumé, while notes about open and closed AI models sit pushed aside."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Kate Reder Sheikh",
+          "Fred Cibelli"
+        ],
+        "realCompanies": [
+          "The Wall Street Journal",
+          "EY",
+          "LinkedIn"
+        ],
+        "financialMechanism": "After a candidate satisfies the job requirements, an unusual résumé interest can interrupt repetitive screening, prompt a recruiter to reread the application, and create an interview icebreaker; it complements rather than replaces qualifications.",
+        "centralJoke": "After discussing open versus closed AI models too many times, a recruiter might prefer talking about olive oil—and applicants who list “Money Stuff” as an interest probably get hired, though the writer insists this is not career advice."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Hobby Line That Made Recruiters Look Twice",
+          "lesson": "After applicants met the job requirements, unusual hobbies could make recruiters reread a résumé and start a more human interview conversation.",
+          "paragraphs": [
+            "A Wall Street Journal article said some recruiters like seeing hobbies on a résumé—a page that tells employers what someone can do. Canasta, pickling vegetables, and caring a lot about olive oil can help a person seem memorable when many applicants look alike.",
+            "Legal recruiter Kate Reder Sheikh said more than half the associates she placed last year listed hobbies. That was more than a few years earlier.",
+            "Fred Cibelli, a technology principal at EY in New York, said applicants still had to meet the job requirements. But then he would happily ask about their love of olive oil, because people can discuss open and closed AI models only so many times. He had also seen a small increase in hobbies on LinkedIn profiles and résumés.",
+            "Friends and former colleagues sometimes tell the Money Stuff writer that applicants list “Money Stuff” as an interest. Those people probably get hired—though the writer jokes that this is not career advice."
+          ]
+        },
+        "elementary": {
+          "title": "The Résumé with Olive Oil on the Side",
+          "lesson": "Once a candidate meets the job requirements, a distinctive hobby can attract a recruiter’s attention, prompt a second look, and provide an interview icebreaker.",
+          "paragraphs": [
+            "A résumé shows employers the work you have done,\nthe skills you have mastered, the goals you have won.\nBut the Wall Street Journal reported a curious new turn:\na hobby may help you get noticed in return.",
+            "In a fierce white-collar market, with AI causing concern,\nrecruiters seek human details no machine could discern.\nA fondness for canasta, or vegetables pickled just right,\nmight wake a tired reader and earn a second sight.",
+            "A quirky interest cannot replace knowing how to do the job,\nbut it may lift one application from the look-alike mob.\nIt can break interview ice and open conversation,\nrevealing a person beyond each qualification.",
+            "Legal recruiter Kate Reder Sheikh had noticed the shift:\nmore applicants used hobbies to give their résumés a lift.\nLast year, more than half of the associates she placed listed hobbies.\nThat was a jump from a few years earlier.",
+            "Fred Cibelli, a technology principal at EY in New York,\nstill required every candidate to qualify for the work.\nBut once they did, he’d gladly hear why olive oil brought delight;\nthat odd little passion could make an interview bright.",
+            "“There’s only so many times you can talk” AI once more—\nopen models versus closed models can become quite a chore.\nCibelli had seen a small increase, and hoped to see more,\nin hobbies on LinkedIn profiles and résumés crossing his door.",
+            "Then came the funniest interest, reported from time to time:\nfriends and former colleagues spot “Money Stuff” on the line.\nThe writer wants to encourage it; those readers probably get hired.\nBut “this is not career advice”—even if the result is desired.",
+            "What happened? Recruiters said that, after candidates met the real job requirements, unusual interests could prompt a résumé reread and become interview icebreakers. Kate Reder Sheikh reported that more than half the associates she placed last year listed hobbies, while Fred Cibelli of EY noticed a small increase on LinkedIn and résumés and wanted to see more."
+          ]
+        },
+        "middle": {
+          "title": "When Olive Oil Beats Another Conversation About AI Models",
+          "lesson": "A résumé hobby does not replace qualifications, but it can distinguish a qualified applicant and give recruiters a memorable interview opener.",
+          "paragraphs": [
+            "The Wall Street Journal reported that some recruiters are encouraging applicants to include unusual interests on their résumés. In a competitive white-collar job market, especially with AI threatening some workers’ sense of security, hobbies such as canasta, pickling vegetables, or appreciating olive oil can signal a distinctly human personality.",
+            "The idea is not that hobbies qualify someone for a job. Rather, once the applicant meets the requirements, an unexpected detail can catch a tired recruiter’s attention, cause a second reading, and provide an interview icebreaker.",
+            "Legal recruiter Kate Reder Sheikh said more than half the associates she placed last year listed hobbies, a jump from a few years earlier. Fred Cibelli, a technology principal at EY in New York, said he would ask a qualified candidate about a strong interest in olive oil. As he put it, there are only so many times people can discuss open versus closed AI models.",
+            "Cibelli had noticed a small increase in hobbies on LinkedIn profiles and résumés and wanted to see more. Meanwhile, friends and former colleagues sometimes tell the Money Stuff writer that applicants list “Money Stuff” among their interests. The writer encourages this and jokes that those applicants probably get hired—although this is not career advice."
+          ]
+        },
+        "high": {
+          "title": "Hobbies as a Hiring-Market Differentiator",
+          "lesson": "For already-qualified candidates, a distinctive interest can function as an attention signal and interview icebreaker in a crowded labor market.",
+          "paragraphs": [
+            "A Wall Street Journal article describes an apparent shift in résumé strategy: some recruiters now encourage applicants to foreground idiosyncratic interests. In a cutthroat white-collar labor market shaped by anxiety about AI, details such as playing canasta, pickling vegetables, or caring intensely about olive oil can make an applicant appear memorable and recognizably human.",
+            "The causal claim is modest. An unusual hobby does not substitute for the required skills or experience. Instead, it may interrupt a recruiter’s repetitive screening process, prompt a rereading, and supply an easy opening for a less formulaic interview.",
+            "Legal recruiter Kate Reder Sheikh said more than half the associates she placed last year included hobbies on their résumés, up from a few years earlier. Fred Cibelli, a technology principal at EY in New York, said that after a candidate satisfied the job requirements, he would want to discuss that person’s regard for olive oil. His explanation captured the absurdity: there are only so many conversations one can have about open versus closed models in AI.",
+            "Cibelli had observed a small increase in hobbies on LinkedIn profiles and résumés and said he wanted more. The Money Stuff writer adds a self-interested punch line: friends and former colleagues occasionally encounter résumés listing “Money Stuff” under interests. The writer encourages the practice and says those applicants probably get hired, while immediately disclaiming that this is career advice."
+          ]
+        }
+      }
+    }
+  ]
+}
