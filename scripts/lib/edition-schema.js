@@ -9,12 +9,9 @@ const adaptation = z.object({
   paragraphs: z.array(nonempty).min(1)
 }).strict();
 
-const storyGeneration = z.object({
+const elementaryStoryGeneration = z.object({
   adaptations: z.object({
-    preschool: adaptation,
-    elementary: adaptation,
-    middle: adaptation,
-    high: adaptation
+    elementary: adaptation
   }).strict(),
   elementaryChecklist: z.object({
     realPeople: z.array(nonempty).min(1),
@@ -26,6 +23,17 @@ const storyGeneration = z.object({
     alt: nonempty,
     prompt: nonempty
   }).strict()
+}).strict();
+
+const storyGeneration = z.object({
+  adaptations: z.object({
+    preschool: adaptation,
+    elementary: adaptation,
+    middle: adaptation,
+    high: adaptation
+  }).strict(),
+  elementaryChecklist: elementaryStoryGeneration.shape.elementaryChecklist,
+  illustration: elementaryStoryGeneration.shape.illustration
 }).strict();
 
 const editionMetadata = z.object({
@@ -48,4 +56,4 @@ function assertCanonicalEdition(edition) {
   return edition;
 }
 
-module.exports = { assertCanonicalEdition, editionMetadata, storyGeneration };
+module.exports = { assertCanonicalEdition, editionMetadata, elementaryStoryGeneration, storyGeneration };
