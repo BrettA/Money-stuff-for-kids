@@ -72,6 +72,18 @@
       "submitted": true,
       "updatedAt": "2026-08-25T15:15:40.253Z",
       "submittedAt": "2026-08-25T15:15:40.253Z"
+    },
+    "1a039783a52e3055": {
+      "gmailMessageId": "1a039783a52e3055",
+      "newsletterDate": "2026-07-09",
+      "newsletterTitle": "Leave the Oil in the Pipes",
+      "editionId": "2026-07-09-leave-the-oil-in-the-pipes",
+      "sourceSha256": "91a040567e3b22b5240a0f5f877295a9564ed5ba27423ac77e0f131ac6098b9d",
+      "packageSha256": "010b295e9b852e5e0c7681b2c066ad3664dc235e3f5fd20dbde1dad4ca6fcab5",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-25T16:03:57.223Z",
+      "submittedAt": "2026-08-25T16:03:57.223Z"
     }
   }
 }
