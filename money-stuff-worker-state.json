@@ -84,6 +84,18 @@
       "submitted": true,
       "updatedAt": "2026-08-25T16:03:57.223Z",
       "submittedAt": "2026-08-25T16:03:57.223Z"
+    },
+    "1a03a1dcdeb8973b": {
+      "gmailMessageId": "1a03a1dcdeb8973b",
+      "newsletterDate": "2026-08-25",
+      "newsletterTitle": "LeBron Bonds",
+      "editionId": "2026-08-25-lebron-bonds",
+      "sourceSha256": "3de4d0c213b4126d6beb61cba6763b899827132e9a587c385b496e5118922de5",
+      "packageSha256": "f862fdecc468bbd0dcd71e0c1a0174d8c9e06576d0106f6dafb1d688d46a73b9",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-25T19:01:50.718Z",
+      "submittedAt": "2026-08-25T19:01:50.718Z"
     }
   }
 }
