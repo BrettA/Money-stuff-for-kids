@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-07-29-spacex-crash-insurance",
+  "date": "2026-07-29",
+  "displayDate": "July 29, 2026",
+  "title": "SpaceX Crash Insurance",
+  "sourceSections": [
+    "SpaceX structured notes",
+    "Sports index futures",
+    "ETF spaghetti cannon",
+    "Thought leadership",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "spacex-structured-notes",
+      "sourceSection": "SpaceX structured notes",
+      "illustration": {
+        "src": "/images/2026-07-29-spacex-crash-insurance/spacex-structured-notes.png",
+        "alt": "An investor receives $450 back from a Morgan Stanley banker as a SpaceX rocket-shaped price marker falls from $112 to $50, while the bank keeps the remaining $550 as crash insurance."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Lu Wang",
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "SpaceX",
+          "Morgan Stanley",
+          "Marex Group Ltd.",
+          "Bloomberg"
+        ],
+        "financialMechanism": "A Morgan Stanley structured note combined debt with a prepaid down-and-in knock-in put. Investors deposited $1,000 and could earn a 40% return, but if SpaceX fell more than 50%, they received only the reduced value linked to the stock and absorbed its full decline; Morgan Stanley estimated the note’s value at $947, implying about a 5.3% margin.",
+        "centralJoke": "The note sounded as though it protected investors from a falling SpaceX share price, but its unusual payoff meant the investors were really providing prepaid crash insurance to Morgan Stanley."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The SpaceX Safety Note That Protected the Bank",
+          "lesson": "Morgan Stanley’s structured note paid investors a 40% return unless SpaceX fell more than 50%; if that barrier was breached, investors absorbed the full stock decline, effectively selling Morgan Stanley prepaid crash insurance through a down-and-in knock-in put.",
+          "paragraphs": [
+            "Bloomberg’s Lu Wang reported a Wall Street race:\nat least five firms planned notes tied to SpaceX.\nMorgan Stanley and Marex Group were among the crew,\noffering high payouts and limited protection too.",
+            "SpaceX promised rockets and AI dreams bright,\nbut bubbles and Elon Musk risk caused some fright.\nMorgan Stanley’s note made this offer instead:\n“Put in $1,000 and wait up ahead.”",
+            "In early 2028, if shares rose or stayed flat,\nthe customer earned 40%—imagine that!\nEven if SpaceX fell, but by less than half,\nthe same promised payout followed its path.",
+            "But if SpaceX finished down more than 50%—snap!\nThe cushion completely fell out of the map.\nThe customer bore the whole stock-price fall,\nnot merely the part past the halfway wall.",
+            "Say shares dropped from about $112 to $50 by then:\nroughly nine shares would be worth $450 again.\nMorgan would return that $450, but keep $550—\nthe bank’s crash-insurance payoff from the note.",
+            "This was a prepaid “down-and-in knock-in put”:\nthrough smaller falls, its payout door stayed shut.\nPast the 50% barrier, the option awoke;\nthe investor took the loss, giving Morgan crash cover.",
+            "So buyers got shelter when losses were slight,\nwhile Morgan got shelter when losses took flight.\nMorgan valued each $1,000 note at $947,\nleaving the bank a 5.3% margin.",
+            "What happened? Morgan Stanley collected $1,000 upfront and offered a 40% return if SpaceX did not fall more than 50% by maturity, but investors absorbed the full decline if it did. This meant the investors were actually selling Morgan Stanley funded SpaceX crash insurance."
+          ]
+        },
+        "elementary": {
+          "title": "The SpaceX Safety Note That Protected the Bank",
+          "lesson": "Morgan Stanley’s structured note paid investors a 40% return unless SpaceX fell more than 50%; if that barrier was breached, investors absorbed the full stock decline, effectively selling Morgan Stanley prepaid crash insurance through a down-and-in knock-in put.",
+          "paragraphs": [
+            "Bloomberg’s Lu Wang reported a Wall Street race:\nat least five firms planned notes tied to SpaceX.\nMorgan Stanley and Marex Group were among the crew,\noffering high payouts and limited protection too.",
+            "SpaceX promised rockets and AI dreams bright,\nbut bubbles and Elon Musk risk caused some fright.\nMorgan Stanley’s note made this offer instead:\n“Put in $1,000 and wait up ahead.”",
+            "In early 2028, if shares rose or stayed flat,\nthe customer earned 40%—imagine that!\nEven if SpaceX fell, but by less than half,\nthe same promised payout followed its path.",
+            "But if SpaceX finished down more than 50%—snap!\nThe cushion completely fell out of the map.\nThe customer bore the whole stock-price fall,\nnot merely the part past the halfway wall.",
+            "Say shares dropped from about $112 to $50 by then:\nroughly nine shares would be worth $450 again.\nMorgan would return that $450, but keep $550—\nthe bank’s crash-insurance payoff from the note.",
+            "This was a prepaid “down-and-in knock-in put”:\nthrough smaller falls, its payout door stayed shut.\nPast the 50% barrier, the option awoke;\nthe investor took the loss, giving Morgan crash cover.",
+            "So buyers got shelter when losses were slight,\nwhile Morgan got shelter when losses took flight.\nMorgan valued each $1,000 note at $947,\nleaving the bank a 5.3% margin.",
+            "What happened? Morgan Stanley collected $1,000 upfront and offered a 40% return if SpaceX did not fall more than 50% by maturity, but investors absorbed the full decline if it did. This meant the investors were actually selling Morgan Stanley funded SpaceX crash insurance."
+          ]
+        },
+        "middle": {
+          "title": "The SpaceX Safety Note That Protected the Bank",
+          "lesson": "Morgan Stanley’s structured note paid investors a 40% return unless SpaceX fell more than 50%; if that barrier was breached, investors absorbed the full stock decline, effectively selling Morgan Stanley prepaid crash insurance through a down-and-in knock-in put.",
+          "paragraphs": [
+            "Bloomberg’s Lu Wang reported a Wall Street race:\nat least five firms planned notes tied to SpaceX.\nMorgan Stanley and Marex Group were among the crew,\noffering high payouts and limited protection too.",
+            "SpaceX promised rockets and AI dreams bright,\nbut bubbles and Elon Musk risk caused some fright.\nMorgan Stanley’s note made this offer instead:\n“Put in $1,000 and wait up ahead.”",
+            "In early 2028, if shares rose or stayed flat,\nthe customer earned 40%—imagine that!\nEven if SpaceX fell, but by less than half,\nthe same promised payout followed its path.",
+            "But if SpaceX finished down more than 50%—snap!\nThe cushion completely fell out of the map.\nThe customer bore the whole stock-price fall,\nnot merely the part past the halfway wall.",
+            "Say shares dropped from about $112 to $50 by then:\nroughly nine shares would be worth $450 again.\nMorgan would return that $450, but keep $550—\nthe bank’s crash-insurance payoff from the note.",
+            "This was a prepaid “down-and-in knock-in put”:\nthrough smaller falls, its payout door stayed shut.\nPast the 50% barrier, the option awoke;\nthe investor took the loss, giving Morgan crash cover.",
+            "So buyers got shelter when losses were slight,\nwhile Morgan got shelter when losses took flight.\nMorgan valued each $1,000 note at $947,\nleaving the bank a 5.3% margin.",
+            "What happened? Morgan Stanley collected $1,000 upfront and offered a 40% return if SpaceX did not fall more than 50% by maturity, but investors absorbed the full decline if it did. This meant the investors were actually selling Morgan Stanley funded SpaceX crash insurance."
+          ]
+        },
+        "high": {
+          "title": "The SpaceX Safety Note That Protected the Bank",
+          "lesson": "Morgan Stanley’s structured note paid investors a 40% return unless SpaceX fell more than 50%; if that barrier was breached, investors absorbed the full stock decline, effectively selling Morgan Stanley prepaid crash insurance through a down-and-in knock-in put.",
+          "paragraphs": [
+            "Bloomberg’s Lu Wang reported a Wall Street race:\nat least five firms planned notes tied to SpaceX.\nMorgan Stanley and Marex Group were among the crew,\noffering high payouts and limited protection too.",
+            "SpaceX promised rockets and AI dreams bright,\nbut bubbles and Elon Musk risk caused some fright.\nMorgan Stanley’s note made this offer instead:\n“Put in $1,000 and wait up ahead.”",
+            "In early 2028, if shares rose or stayed flat,\nthe customer earned 40%—imagine that!\nEven if SpaceX fell, but by less than half,\nthe same promised payout followed its path.",
+            "But if SpaceX finished down more than 50%—snap!\nThe cushion completely fell out of the map.\nThe customer bore the whole stock-price fall,\nnot merely the part past the halfway wall.",
+            "Say shares dropped from about $112 to $50 by then:\nroughly nine shares would be worth $450 again.\nMorgan would return that $450, but keep $550—\nthe bank’s crash-insurance payoff from the note.",
+            "This was a prepaid “down-and-in knock-in put”:\nthrough smaller falls, its payout door stayed shut.\nPast the 50% barrier, the option awoke;\nthe investor took the loss, giving Morgan crash cover.",
+            "So buyers got shelter when losses were slight,\nwhile Morgan got shelter when losses took flight.\nMorgan valued each $1,000 note at $947,\nleaving the bank a 5.3% margin.",
+            "What happened? Morgan Stanley collected $1,000 upfront and offered a 40% return if SpaceX did not fall more than 50% by maturity, but investors absorbed the full decline if it did. This meant the investors were actually selling Morgan Stanley funded SpaceX crash insurance."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sports-index-futures",
+      "sourceSection": "Sports index futures",
+      "illustration": {
+        "src": "/images/2026-07-29-spacex-crash-insurance/sports-index-futures.png",
+        "alt": "A Mets game changes a FutureSports index from 7,500 while CME futures contracts and matching Kalshi event bets are traded beside the field."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Leigh Taylforth",
+          "Bob Fitzimmons"
+        ],
+        "realCompanies": [
+          "CME Group Inc.",
+          "FutureSports",
+          "Wedbush Securities",
+          "Kalshi",
+          "New York Mets"
+        ],
+        "financialMechanism": "FutureSports converts official play-by-play statistics into a rules-based index beginning at a standardized seasonal value of 7,500. CME Group plans cash-settled futures and options on those index values; traders could go long or short, hedge sports-related revenue, or arbitrage an index contract against a replicating collection of individual sports bets.",
+        "centralJoke": "Sports betting is being presented as a burgeoning asset class even though thirty team-based funds cannot all generate outside returns—and a strangely generous scoring formula might even make every team’s index rise."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Number That Plays Ball",
+          "lesson": "FutureSports would turn sports results into indexes, while CME Group would list cash-settled futures that let traders bet on, hedge, or arbitrage changes in those numbers.",
+          "paragraphs": [
+            "FutureSports counts every pitch, every out, every run, then folds them into one score when each ballgame is done.",
+            "Suppose a Mets Index starts at 7,500. A win could make it climb; a slump could make it dive. A burst of home runs might lift it to 7,565.",
+            "CME Group plans futures and options on that score, with cash paid at monthly or quarterly close. Buy if you think the Mets will beat what folks expect; sell if you fear they’ll stumble next.",
+            "Leigh Taylforth said stadiums, sponsors, insurers, apparel makers, and broadcasters might hedge. A bar whose beer sales rise when Mets fans cheer could short the futures to soften a dreary year.",
+            "Traders could rebuild the index with separate Kalshi bets—on wins, home runs, injuries, and the rest. If the index price climbed too high, they could sell it and buy those smaller bets instead.",
+            "Bob Fitzimmons of Wedbush Securities called sports a new tradable asset class. Soon an ETF might hold Mets futures, so “generic Mets goodness” could sit beside stocks in your account.",
+            "But thirty baseball-team funds cannot all produce new wealth from play. Sports betting is zero-sum—and costs nibble more away.",
+            "Unless, oddly, the formula gives extra points so every team’s expected score can rise. Then futures should cost extra from the start, which makes this already-weird financial ballgame an even stranger prize.",
+            "What happened? CME Group announced plans, pending regulatory approval, for cash-settled futures and options based on FutureSports indexes calculated from play-by-play sports data. Traders could use them to speculate, hedge sports-related risks, or arbitrage the index against individual event bets, but the contracts do not create an outside source of investment returns."
+          ]
+        },
+        "elementary": {
+          "title": "The Number That Plays Ball",
+          "lesson": "FutureSports would turn sports results into indexes, while CME Group would list cash-settled futures that let traders bet on, hedge, or arbitrage changes in those numbers.",
+          "paragraphs": [
+            "FutureSports counts every pitch, every out, every run, then folds them into one score when each ballgame is done.",
+            "Suppose a Mets Index starts at 7,500. A win could make it climb; a slump could make it dive. A burst of home runs might lift it to 7,565.",
+            "CME Group plans futures and options on that score, with cash paid at monthly or quarterly close. Buy if you think the Mets will beat what folks expect; sell if you fear they’ll stumble next.",
+            "Leigh Taylforth said stadiums, sponsors, insurers, apparel makers, and broadcasters might hedge. A bar whose beer sales rise when Mets fans cheer could short the futures to soften a dreary year.",
+            "Traders could rebuild the index with separate Kalshi bets—on wins, home runs, injuries, and the rest. If the index price climbed too high, they could sell it and buy those smaller bets instead.",
+            "Bob Fitzimmons of Wedbush Securities called sports a new tradable asset class. Soon an ETF might hold Mets futures, so “generic Mets goodness” could sit beside stocks in your account.",
+            "But thirty baseball-team funds cannot all produce new wealth from play. Sports betting is zero-sum—and costs nibble more away.",
+            "Unless, oddly, the formula gives extra points so every team’s expected score can rise. Then futures should cost extra from the start, which makes this already-weird financial ballgame an even stranger prize.",
+            "What happened? CME Group announced plans, pending regulatory approval, for cash-settled futures and options based on FutureSports indexes calculated from play-by-play sports data. Traders could use them to speculate, hedge sports-related risks, or arbitrage the index against individual event bets, but the contracts do not create an outside source of investment returns."
+          ]
+        },
+        "middle": {
+          "title": "The Number That Plays Ball",
+          "lesson": "FutureSports would turn sports results into indexes, while CME Group would list cash-settled futures that let traders bet on, hedge, or arbitrage changes in those numbers.",
+          "paragraphs": [
+            "FutureSports counts every pitch, every out, every run, then folds them into one score when each ballgame is done.",
+            "Suppose a Mets Index starts at 7,500. A win could make it climb; a slump could make it dive. A burst of home runs might lift it to 7,565.",
+            "CME Group plans futures and options on that score, with cash paid at monthly or quarterly close. Buy if you think the Mets will beat what folks expect; sell if you fear they’ll stumble next.",
+            "Leigh Taylforth said stadiums, sponsors, insurers, apparel makers, and broadcasters might hedge. A bar whose beer sales rise when Mets fans cheer could short the futures to soften a dreary year.",
+            "Traders could rebuild the index with separate Kalshi bets—on wins, home runs, injuries, and the rest. If the index price climbed too high, they could sell it and buy those smaller bets instead.",
+            "Bob Fitzimmons of Wedbush Securities called sports a new tradable asset class. Soon an ETF might hold Mets futures, so “generic Mets goodness” could sit beside stocks in your account.",
+            "But thirty baseball-team funds cannot all produce new wealth from play. Sports betting is zero-sum—and costs nibble more away.",
+            "Unless, oddly, the formula gives extra points so every team’s expected score can rise. Then futures should cost extra from the start, which makes this already-weird financial ballgame an even stranger prize.",
+            "What happened? CME Group announced plans, pending regulatory approval, for cash-settled futures and options based on FutureSports indexes calculated from play-by-play sports data. Traders could use them to speculate, hedge sports-related risks, or arbitrage the index against individual event bets, but the contracts do not create an outside source of investment returns."
+          ]
+        },
+        "high": {
+          "title": "The Number That Plays Ball",
+          "lesson": "FutureSports would turn sports results into indexes, while CME Group would list cash-settled futures that let traders bet on, hedge, or arbitrage changes in those numbers.",
+          "paragraphs": [
+            "FutureSports counts every pitch, every out, every run, then folds them into one score when each ballgame is done.",
+            "Suppose a Mets Index starts at 7,500. A win could make it climb; a slump could make it dive. A burst of home runs might lift it to 7,565.",
+            "CME Group plans futures and options on that score, with cash paid at monthly or quarterly close. Buy if you think the Mets will beat what folks expect; sell if you fear they’ll stumble next.",
+            "Leigh Taylforth said stadiums, sponsors, insurers, apparel makers, and broadcasters might hedge. A bar whose beer sales rise when Mets fans cheer could short the futures to soften a dreary year.",
+            "Traders could rebuild the index with separate Kalshi bets—on wins, home runs, injuries, and the rest. If the index price climbed too high, they could sell it and buy those smaller bets instead.",
+            "Bob Fitzimmons of Wedbush Securities called sports a new tradable asset class. Soon an ETF might hold Mets futures, so “generic Mets goodness” could sit beside stocks in your account.",
+            "But thirty baseball-team funds cannot all produce new wealth from play. Sports betting is zero-sum—and costs nibble more away.",
+            "Unless, oddly, the formula gives extra points so every team’s expected score can rise. Then futures should cost extra from the start, which makes this already-weird financial ballgame an even stranger prize.",
+            "What happened? CME Group announced plans, pending regulatory approval, for cash-settled futures and options based on FutureSports indexes calculated from play-by-play sports data. Traders could use them to speculate, hedge sports-related risks, or arbitrage the index against individual event bets, but the contracts do not create an outside source of investment returns."
+          ]
+        }
+      }
+    },
+    {
+      "id": "etf-spaghetti-cannon",
+      "sourceSection": "ETF spaghetti cannon",
+      "illustration": {
+        "src": "/images/2026-07-29-spacex-crash-insurance/etf-spaghetti-cannon.png",
+        "alt": "Bryan Armour watches a Corgi Funds spaghetti cannon launch ETF bundles toward a wall while Anthony Crinieri stands beside stacks marked 188 launched and 360 filed."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Bryan Armour",
+          "Anthony Crinieri"
+        ],
+        "realCompanies": [
+          "Corgi Funds",
+          "BlackRock",
+          "Morningstar",
+          "StockAnalysis",
+          "Robinhood"
+        ],
+        "financialMechanism": "Corgi Funds mass-launched ETFs—tradable funds containing particular investment strategies—to discover which ideas would attract assets; unlike direct personal trading, portfolio trades inside an ETF generally do not create immediate taxable gains for shareholders.",
+        "centralJoke": "ETF issuers are firing products like a spaghetti cannon, launching nearly every imaginable strategy even though many funds do not attract investors or ‘stick.’"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Corgi Funds and the Spaghetti Cannon",
+          "lesson": "ETFs package investment strategies into tradable funds; launching many lets issuers test which ideas attract investors, while the fund structure can avoid taxable gains when its portfolio trades.",
+          "paragraphs": [
+            "An ETF is a basket whose shares trade with one click;\nit wraps up an investing idea for people to pick.",
+            "By mid-July, Morningstar counted 1,084 brand-new funds—\nnearly 2025’s full-year record of 1,161 launches and runs.",
+            "Corgi Funds joined in December, then raced through the gate,\nlaunching Coffee and Energy Drinks among its 188.",
+            "Buy Now Pay Later! War Machine! More joined the call,\nplus twice-leveraged funds that could double a rise—or a fall.",
+            "Corgi filed for 360 more, a remarkable amount.\nIt could pass BlackRock’s 488 US ETFs by count.",
+            "But StockAnalysis showed a much different view:\nBlackRock held $4.5 trillion; Corgi held less than $1 billion in its crew.",
+            "Morningstar’s Bryan Armour pictured noodles in flight:\n“The spaghetti cannon” fired wildly, with few funds sticking right.",
+            "Anthony Crinieri knew each launch could not win the race:\nperhaps 20 percent would gather 80 percent of assets in the place.",
+            "Why keep firing ideas that may flop straight away?\nSomeone might want one—and ETFs have a tax trick when they trade.",
+            "A Robinhood agent can trade without commissions for you,\nbut taxable gains may still arrive when its buying and selling are through.",
+            "What happened? Corgi Funds rapidly launched 188 ETFs and filed for 360 more, hoping a small share would attract most investor assets. ETFs package strategies into tradable funds, and portfolio trades inside them generally do not create immediate taxes for shareholders the way personal stock trades can."
+          ]
+        },
+        "elementary": {
+          "title": "Corgi Funds and the Spaghetti Cannon",
+          "lesson": "ETFs package investment strategies into tradable funds; launching many lets issuers test which ideas attract investors, while the fund structure can avoid taxable gains when its portfolio trades.",
+          "paragraphs": [
+            "An ETF is a basket whose shares trade with one click;\nit wraps up an investing idea for people to pick.",
+            "By mid-July, Morningstar counted 1,084 brand-new funds—\nnearly 2025’s full-year record of 1,161 launches and runs.",
+            "Corgi Funds joined in December, then raced through the gate,\nlaunching Coffee and Energy Drinks among its 188.",
+            "Buy Now Pay Later! War Machine! More joined the call,\nplus twice-leveraged funds that could double a rise—or a fall.",
+            "Corgi filed for 360 more, a remarkable amount.\nIt could pass BlackRock’s 488 US ETFs by count.",
+            "But StockAnalysis showed a much different view:\nBlackRock held $4.5 trillion; Corgi held less than $1 billion in its crew.",
+            "Morningstar’s Bryan Armour pictured noodles in flight:\n“The spaghetti cannon” fired wildly, with few funds sticking right.",
+            "Anthony Crinieri knew each launch could not win the race:\nperhaps 20 percent would gather 80 percent of assets in the place.",
+            "Why keep firing ideas that may flop straight away?\nSomeone might want one—and ETFs have a tax trick when they trade.",
+            "A Robinhood agent can trade without commissions for you,\nbut taxable gains may still arrive when its buying and selling are through.",
+            "What happened? Corgi Funds rapidly launched 188 ETFs and filed for 360 more, hoping a small share would attract most investor assets. ETFs package strategies into tradable funds, and portfolio trades inside them generally do not create immediate taxes for shareholders the way personal stock trades can."
+          ]
+        },
+        "middle": {
+          "title": "Corgi Funds and the Spaghetti Cannon",
+          "lesson": "ETFs package investment strategies into tradable funds; launching many lets issuers test which ideas attract investors, while the fund structure can avoid taxable gains when its portfolio trades.",
+          "paragraphs": [
+            "An ETF is a basket whose shares trade with one click;\nit wraps up an investing idea for people to pick.",
+            "By mid-July, Morningstar counted 1,084 brand-new funds—\nnearly 2025’s full-year record of 1,161 launches and runs.",
+            "Corgi Funds joined in December, then raced through the gate,\nlaunching Coffee and Energy Drinks among its 188.",
+            "Buy Now Pay Later! War Machine! More joined the call,\nplus twice-leveraged funds that could double a rise—or a fall.",
+            "Corgi filed for 360 more, a remarkable amount.\nIt could pass BlackRock’s 488 US ETFs by count.",
+            "But StockAnalysis showed a much different view:\nBlackRock held $4.5 trillion; Corgi held less than $1 billion in its crew.",
+            "Morningstar’s Bryan Armour pictured noodles in flight:\n“The spaghetti cannon” fired wildly, with few funds sticking right.",
+            "Anthony Crinieri knew each launch could not win the race:\nperhaps 20 percent would gather 80 percent of assets in the place.",
+            "Why keep firing ideas that may flop straight away?\nSomeone might want one—and ETFs have a tax trick when they trade.",
+            "A Robinhood agent can trade without commissions for you,\nbut taxable gains may still arrive when its buying and selling are through.",
+            "What happened? Corgi Funds rapidly launched 188 ETFs and filed for 360 more, hoping a small share would attract most investor assets. ETFs package strategies into tradable funds, and portfolio trades inside them generally do not create immediate taxes for shareholders the way personal stock trades can."
+          ]
+        },
+        "high": {
+          "title": "Corgi Funds and the Spaghetti Cannon",
+          "lesson": "ETFs package investment strategies into tradable funds; launching many lets issuers test which ideas attract investors, while the fund structure can avoid taxable gains when its portfolio trades.",
+          "paragraphs": [
+            "An ETF is a basket whose shares trade with one click;\nit wraps up an investing idea for people to pick.",
+            "By mid-July, Morningstar counted 1,084 brand-new funds—\nnearly 2025’s full-year record of 1,161 launches and runs.",
+            "Corgi Funds joined in December, then raced through the gate,\nlaunching Coffee and Energy Drinks among its 188.",
+            "Buy Now Pay Later! War Machine! More joined the call,\nplus twice-leveraged funds that could double a rise—or a fall.",
+            "Corgi filed for 360 more, a remarkable amount.\nIt could pass BlackRock’s 488 US ETFs by count.",
+            "But StockAnalysis showed a much different view:\nBlackRock held $4.5 trillion; Corgi held less than $1 billion in its crew.",
+            "Morningstar’s Bryan Armour pictured noodles in flight:\n“The spaghetti cannon” fired wildly, with few funds sticking right.",
+            "Anthony Crinieri knew each launch could not win the race:\nperhaps 20 percent would gather 80 percent of assets in the place.",
+            "Why keep firing ideas that may flop straight away?\nSomeone might want one—and ETFs have a tax trick when they trade.",
+            "A Robinhood agent can trade without commissions for you,\nbut taxable gains may still arrive when its buying and selling are through.",
+            "What happened? Corgi Funds rapidly launched 188 ETFs and filed for 360 more, hoping a small share would attract most investor assets. ETFs package strategies into tradable funds, and portfolio trades inside them generally do not create immediate taxes for shareholders the way personal stock trades can."
+          ]
+        }
+      }
+    },
+    {
+      "id": "thought-leadership",
+      "sourceSection": "Thought leadership",
+      "illustration": {
+        "src": "/images/2026-07-29-spacex-crash-insurance/thought-leadership.png",
+        "alt": "GPTZero researchers and an FT journalist examine PwC reports on AI and electric vehicles, finding footnotes that lead to missing or incorrect sources."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Charlie Munger"
+        ],
+        "realCompanies": [
+          "PwC",
+          "GPTZero",
+          "Financial Times (FT)"
+        ],
+        "financialMechanism": "PwC published thought-leadership reports to demonstrate expertise and attract paid consulting work for its Middle East partners; faulty apparent AI-generated material created reputational risk instead.",
+        "centralJoke": "The reports may have existed mainly to remind potential clients that PwC had deep thoughts, not to be closely read—making AI ideal for quickly doing poorly work that was barely worth doing at all."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Reports That Looked Very Deep",
+          "lesson": "PwC used thought-leadership reports to attract consulting clients, but researchers found apparent AI hallucinations—including fake or faulty citations—that undermined the reports’ credibility.",
+          "paragraphs": [
+            "PwC published reports with a scholarly air,\nOn AI and electric vehicles, polished with care.\nThey were “thought leadership,” sent out to say,\n“Our Middle East partners can help you today.”",
+            "To drum up consulting means showing you know,\nSo clients may hire you and business may grow.\nBut GPTZero researchers inspected each claim;\nThe FT verified the problems they named.",
+            "Fake footnotes appeared where good sources should be;\nSome claims named the wrong source, while some had no trail to see.\nThese “AI hallucinations” looked certain and bright—\nBut were made-up or unverifiable when brought into light.",
+            "Perhaps no one expected a close-reading test;\nThe reports only had to suggest, “PwC knows best.”\nBut somebody read them and spotted the flaws,\nSo deep-looking thoughts earned a thoughtful pause.",
+            "PwC said accuracy mattered and changes were due:\n“A limited number” of citations would get an update too.\nIt mentioned quality controls its people should obey,\nBut not how all those errors had gotten that way.",
+            "Charlie Munger’s old joke fit the moment quite well:\n“If it’s not worth doing at all, it’s not worth doing well.”\nAnd AI made it easy, with astonishing speed,\nTo poorly make reports that few planned to read.",
+            "What happened? PwC published AI and electric-vehicle reports intended to attract consulting clients in the Middle East; GPTZero researchers found fake footnotes, misattributed claims, and unverifiable information, and the FT verified their findings. PwC said it was updating a limited number of citations but did not explain how the errors entered the reports."
+          ]
+        },
+        "elementary": {
+          "title": "The Reports That Looked Very Deep",
+          "lesson": "PwC used thought-leadership reports to attract consulting clients, but researchers found apparent AI hallucinations—including fake or faulty citations—that undermined the reports’ credibility.",
+          "paragraphs": [
+            "PwC published reports with a scholarly air,\nOn AI and electric vehicles, polished with care.\nThey were “thought leadership,” sent out to say,\n“Our Middle East partners can help you today.”",
+            "To drum up consulting means showing you know,\nSo clients may hire you and business may grow.\nBut GPTZero researchers inspected each claim;\nThe FT verified the problems they named.",
+            "Fake footnotes appeared where good sources should be;\nSome claims named the wrong source, while some had no trail to see.\nThese “AI hallucinations” looked certain and bright—\nBut were made-up or unverifiable when brought into light.",
+            "Perhaps no one expected a close-reading test;\nThe reports only had to suggest, “PwC knows best.”\nBut somebody read them and spotted the flaws,\nSo deep-looking thoughts earned a thoughtful pause.",
+            "PwC said accuracy mattered and changes were due:\n“A limited number” of citations would get an update too.\nIt mentioned quality controls its people should obey,\nBut not how all those errors had gotten that way.",
+            "Charlie Munger’s old joke fit the moment quite well:\n“If it’s not worth doing at all, it’s not worth doing well.”\nAnd AI made it easy, with astonishing speed,\nTo poorly make reports that few planned to read.",
+            "What happened? PwC published AI and electric-vehicle reports intended to attract consulting clients in the Middle East; GPTZero researchers found fake footnotes, misattributed claims, and unverifiable information, and the FT verified their findings. PwC said it was updating a limited number of citations but did not explain how the errors entered the reports."
+          ]
+        },
+        "middle": {
+          "title": "The Reports That Looked Very Deep",
+          "lesson": "PwC used thought-leadership reports to attract consulting clients, but researchers found apparent AI hallucinations—including fake or faulty citations—that undermined the reports’ credibility.",
+          "paragraphs": [
+            "PwC published reports with a scholarly air,\nOn AI and electric vehicles, polished with care.\nThey were “thought leadership,” sent out to say,\n“Our Middle East partners can help you today.”",
+            "To drum up consulting means showing you know,\nSo clients may hire you and business may grow.\nBut GPTZero researchers inspected each claim;\nThe FT verified the problems they named.",
+            "Fake footnotes appeared where good sources should be;\nSome claims named the wrong source, while some had no trail to see.\nThese “AI hallucinations” looked certain and bright—\nBut were made-up or unverifiable when brought into light.",
+            "Perhaps no one expected a close-reading test;\nThe reports only had to suggest, “PwC knows best.”\nBut somebody read them and spotted the flaws,\nSo deep-looking thoughts earned a thoughtful pause.",
+            "PwC said accuracy mattered and changes were due:\n“A limited number” of citations would get an update too.\nIt mentioned quality controls its people should obey,\nBut not how all those errors had gotten that way.",
+            "Charlie Munger’s old joke fit the moment quite well:\n“If it’s not worth doing at all, it’s not worth doing well.”\nAnd AI made it easy, with astonishing speed,\nTo poorly make reports that few planned to read.",
+            "What happened? PwC published AI and electric-vehicle reports intended to attract consulting clients in the Middle East; GPTZero researchers found fake footnotes, misattributed claims, and unverifiable information, and the FT verified their findings. PwC said it was updating a limited number of citations but did not explain how the errors entered the reports."
+          ]
+        },
+        "high": {
+          "title": "The Reports That Looked Very Deep",
+          "lesson": "PwC used thought-leadership reports to attract consulting clients, but researchers found apparent AI hallucinations—including fake or faulty citations—that undermined the reports’ credibility.",
+          "paragraphs": [
+            "PwC published reports with a scholarly air,\nOn AI and electric vehicles, polished with care.\nThey were “thought leadership,” sent out to say,\n“Our Middle East partners can help you today.”",
+            "To drum up consulting means showing you know,\nSo clients may hire you and business may grow.\nBut GPTZero researchers inspected each claim;\nThe FT verified the problems they named.",
+            "Fake footnotes appeared where good sources should be;\nSome claims named the wrong source, while some had no trail to see.\nThese “AI hallucinations” looked certain and bright—\nBut were made-up or unverifiable when brought into light.",
+            "Perhaps no one expected a close-reading test;\nThe reports only had to suggest, “PwC knows best.”\nBut somebody read them and spotted the flaws,\nSo deep-looking thoughts earned a thoughtful pause.",
+            "PwC said accuracy mattered and changes were due:\n“A limited number” of citations would get an update too.\nIt mentioned quality controls its people should obey,\nBut not how all those errors had gotten that way.",
+            "Charlie Munger’s old joke fit the moment quite well:\n“If it’s not worth doing at all, it’s not worth doing well.”\nAnd AI made it easy, with astonishing speed,\nTo poorly make reports that few planned to read.",
+            "What happened? PwC published AI and electric-vehicle reports intended to attract consulting clients in the Middle East; GPTZero researchers found fake footnotes, misattributed claims, and unverifiable information, and the FT verified their findings. PwC said it was updating a limited number of citations but did not explain how the errors entered the reports."
+          ]
+        }
+      }
+    }
+  ]
+}
