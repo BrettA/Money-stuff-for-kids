@@ -37,7 +37,7 @@ function validRhymingStory() {
     title: 'A Real Deal',
     lesson: 'The actual transaction',
     paragraphs: [
-      `A real person at A real company made a deal one day. ${'story '.repeat(235)}Facts stay clear while playful words sound bright.`,
+      `A real person at A real company made a deal one day. ${'story '.repeat(135)}Facts stay clear while playful words sound bright.`,
       'What happened? A real company completed the actual transaction.'
     ]
   };
@@ -71,9 +71,11 @@ test('rhyming prompt protects the real story and picture-book structure', () => 
   assert.match(instructions, /one Elementary story only/i);
   for (const requirement of [
     /real person/i, /real company/i, /important number/i, /financial mechanism/i,
-    /central joke or absurdity/i, /coherent story arc/i, /250–400 words/i,
+    /central joke or absurdity/i, /coherent story arc/i, /100–300 words/i,
     /rhyming couplets/i, /read-aloud cadence/i, /What happened\?/i
   ]) assert.match(instructions, requirement);
+  assert.match(instructions, /normal nicknames for people/i);
+  assert.match(instructions, /Don’t stretch to fit every single number/i);
   assert.match(instructions, /Never invent a person or company/i);
   assert.match(instructions, /lemonade stands, allowances, apples/i);
   assert.match(instructions, /one or two non-rhyming, plain-English sentences/i);
@@ -145,14 +147,35 @@ test('rhyming validation rejects proper nouns broken across lines and generic su
   await assert.rejects(generate(proseWithSuffix), /reusable rhyme filler/);
 });
 
+test('editorial validation allows a normal nickname and omission of nonessential source numbers', async () => {
+  const story = validRhymingStory();
+  story.elementaryChecklist.realPeople = ['John Smith'];
+  story.elementaryChecklist.realCompanies = ['A real company'];
+  story.adaptations.elementary.paragraphs[0] = story.adaptations.elementary.paragraphs[0]
+    .replace('A real person', 'Johnny');
+  const section = {
+    heading: 'The numbered deal',
+    sourceText: 'John Smith at A real company completed the actual transaction. The source also mentioned $17 million, 42%, 11 contracts and 2032.'
+  };
+  await assert.doesNotReject(generateStory({
+    client: { responses: { parse: async () => ({ output_parsed: {
+      adaptations: { elementary: story.adaptations.elementary },
+      elementaryChecklist: story.elementaryChecklist,
+      illustration: story.illustration
+    } }) } },
+    model: DEFAULT_TEXT_MODEL,
+    section
+  }));
+});
+
 test('edition validation flags repeated multi-word boilerplate without scoring rhyme generally', () => {
   const first = validRhymingStory();
   const second = validRhymingStory();
-  second.adaptations.elementary.paragraphs[0] = `Different facts begin this account. ${'story '.repeat(235)}Facts stay clear while playful words sound bright.`;
+  second.adaptations.elementary.paragraphs[0] = `Different facts begin this account. ${'story '.repeat(135)}Facts stay clear while playful words sound bright.`;
   assert.throws(() => assertNoReusableBoilerplate([first, second]), /repeat suspicious boilerplate/);
 
   const distinct = validRhymingStory();
-  distinct.adaptations.elementary.paragraphs[0] = Array.from({ length: 245 }, (_, index) => `unique${index}`).join(' ');
+  distinct.adaptations.elementary.paragraphs[0] = Array.from({ length: 145 }, (_, index) => `unique${index}`).join(' ');
   assert.doesNotThrow(() => assertNoReusableBoilerplate([first, distinct]));
 });
 
@@ -194,7 +217,7 @@ test('rhyming editorial validation rejects structural and source-fidelity regres
 
   const genericShortCopy = validRhymingStory();
   genericShortCopy.adaptations.elementary.paragraphs = ['A lemonade stand analogy.', 'What happened? A transaction occurred.'];
-  await assert.rejects(generate(genericShortCopy), /250–400 words/);
+  await assert.rejects(generate(genericShortCopy), /100–300 words/);
 
   const inventedCompany = validRhymingStory();
   inventedCompany.elementaryChecklist.realCompanies = ['Invented Lemonade LLC'];
