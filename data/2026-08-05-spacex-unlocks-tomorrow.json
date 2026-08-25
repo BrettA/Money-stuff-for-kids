@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-08-05-spacex-unlocks-tomorrow",
+  "date": "2026-08-05",
+  "displayDate": "August 5, 2026",
+  "title": "SpaceX Unlocks Tomorrow",
+  "sourceSections": [
+    "SpaceX unlock",
+    "Situational Awareness",
+    "Sports gambling: New York",
+    "Sports gambling: Robinhood",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "spacex-unlock",
+      "sourceSection": "SpaceX unlock",
+      "illustration": {
+        "src": "/images/2026-08-05-spacex-unlocks-tomorrow/spacex-unlock.png",
+        "alt": "A giant SpaceX lock opens as a flood of share certificates pours into the market, while short sellers buy certificates to return borrowed shares."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk",
+          "Bailey Lipschultz",
+          "Peter Singlehurst",
+          "David Wagner"
+        ],
+        "realCompanies": [
+          "SpaceX",
+          "Bloomberg",
+          "S3 Partners",
+          "Baillie Gifford",
+          "Aptus Capital Advisors"
+        ],
+        "financialMechanism": "A lockup release increases tradable share supply. Short sellers borrow and sell shares before the release, planning to repurchase them afterward; this arbitrage can push today’s price down and support tomorrow’s price, smoothing the anticipated decline.",
+        "centralJoke": "The obvious claim that SpaceX should be cheaper tomorrow is undermined by traders selling today and buying tomorrow until the expected bargain disappears; meanwhile, one investor called the event “uncharted waters” and another said he was in the “same exact boat.”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Shares That Arrived Tomorrow",
+          "lesson": "A known lockup release can attract short sellers who borrow and sell shares beforehand, then buy them back after the new supply arrives, reducing the expected price gap through arbitrage.",
+          "paragraphs": [
+            "After Elon Musk’s SpaceX held its June IPO,\nabout 639 million shares were free to come and go.\nInsiders held many more, but a lockup said, “Wait”—\na rule that blocked their selling until a set date.",
+            "On Thursday, up to 911.5 million could clear the gate,\nmaking 1.55 billion shares available to trade.\nThat meant $101 billion in stock could join the supply;\nwith so much more for sale, would the price wave goodbye?",
+            "“Sell high today, then buy cheaper next day!”\nBut short sellers must borrow the shares they sell this way.\nThey sell borrowed shares before the lockup’s release,\nthen buy shares to return, hoping prices decrease.",
+            "Their selling can press down today’s price;\ntheir buying tomorrow can lift it up twice.\nThat is arbitrage, closing the gap traders see—\nwhich means “cheaper tomorrow” may cease to be.",
+            "Bloomberg’s Bailey Lipschultz described the unlock;\nS3 Partners found 35% already sold short in the stock.",
+            "Peter Singlehurst of Baillie Gifford called them “uncharted waters.”\nDavid Wagner of Aptus Capital Advisors said, “We are in that same exact boat.”",
+            "What happened? SpaceX’s scheduled lockup release was set to make up to 911.5 million additional shares tradable, more than doubling the available supply. Short sellers had already borrowed and sold shares, effectively selling tomorrow’s supply today and arbitraging the expected price drop."
+          ]
+        },
+        "elementary": {
+          "title": "The Shares That Arrived Tomorrow",
+          "lesson": "A known lockup release can attract short sellers who borrow and sell shares beforehand, then buy them back after the new supply arrives, reducing the expected price gap through arbitrage.",
+          "paragraphs": [
+            "After Elon Musk’s SpaceX held its June IPO,\nabout 639 million shares were free to come and go.\nInsiders held many more, but a lockup said, “Wait”—\na rule that blocked their selling until a set date.",
+            "On Thursday, up to 911.5 million could clear the gate,\nmaking 1.55 billion shares available to trade.\nThat meant $101 billion in stock could join the supply;\nwith so much more for sale, would the price wave goodbye?",
+            "“Sell high today, then buy cheaper next day!”\nBut short sellers must borrow the shares they sell this way.\nThey sell borrowed shares before the lockup’s release,\nthen buy shares to return, hoping prices decrease.",
+            "Their selling can press down today’s price;\ntheir buying tomorrow can lift it up twice.\nThat is arbitrage, closing the gap traders see—\nwhich means “cheaper tomorrow” may cease to be.",
+            "Bloomberg’s Bailey Lipschultz described the unlock;\nS3 Partners found 35% already sold short in the stock.",
+            "Peter Singlehurst of Baillie Gifford called them “uncharted waters.”\nDavid Wagner of Aptus Capital Advisors said, “We are in that same exact boat.”",
+            "What happened? SpaceX’s scheduled lockup release was set to make up to 911.5 million additional shares tradable, more than doubling the available supply. Short sellers had already borrowed and sold shares, effectively selling tomorrow’s supply today and arbitraging the expected price drop."
+          ]
+        },
+        "middle": {
+          "title": "The Shares That Arrived Tomorrow",
+          "lesson": "A known lockup release can attract short sellers who borrow and sell shares beforehand, then buy them back after the new supply arrives, reducing the expected price gap through arbitrage.",
+          "paragraphs": [
+            "After Elon Musk’s SpaceX held its June IPO,\nabout 639 million shares were free to come and go.\nInsiders held many more, but a lockup said, “Wait”—\na rule that blocked their selling until a set date.",
+            "On Thursday, up to 911.5 million could clear the gate,\nmaking 1.55 billion shares available to trade.\nThat meant $101 billion in stock could join the supply;\nwith so much more for sale, would the price wave goodbye?",
+            "“Sell high today, then buy cheaper next day!”\nBut short sellers must borrow the shares they sell this way.\nThey sell borrowed shares before the lockup’s release,\nthen buy shares to return, hoping prices decrease.",
+            "Their selling can press down today’s price;\ntheir buying tomorrow can lift it up twice.\nThat is arbitrage, closing the gap traders see—\nwhich means “cheaper tomorrow” may cease to be.",
+            "Bloomberg’s Bailey Lipschultz described the unlock;\nS3 Partners found 35% already sold short in the stock.",
+            "Peter Singlehurst of Baillie Gifford called them “uncharted waters.”\nDavid Wagner of Aptus Capital Advisors said, “We are in that same exact boat.”",
+            "What happened? SpaceX’s scheduled lockup release was set to make up to 911.5 million additional shares tradable, more than doubling the available supply. Short sellers had already borrowed and sold shares, effectively selling tomorrow’s supply today and arbitraging the expected price drop."
+          ]
+        },
+        "high": {
+          "title": "The Shares That Arrived Tomorrow",
+          "lesson": "A known lockup release can attract short sellers who borrow and sell shares beforehand, then buy them back after the new supply arrives, reducing the expected price gap through arbitrage.",
+          "paragraphs": [
+            "After Elon Musk’s SpaceX held its June IPO,\nabout 639 million shares were free to come and go.\nInsiders held many more, but a lockup said, “Wait”—\na rule that blocked their selling until a set date.",
+            "On Thursday, up to 911.5 million could clear the gate,\nmaking 1.55 billion shares available to trade.\nThat meant $101 billion in stock could join the supply;\nwith so much more for sale, would the price wave goodbye?",
+            "“Sell high today, then buy cheaper next day!”\nBut short sellers must borrow the shares they sell this way.\nThey sell borrowed shares before the lockup’s release,\nthen buy shares to return, hoping prices decrease.",
+            "Their selling can press down today’s price;\ntheir buying tomorrow can lift it up twice.\nThat is arbitrage, closing the gap traders see—\nwhich means “cheaper tomorrow” may cease to be.",
+            "Bloomberg’s Bailey Lipschultz described the unlock;\nS3 Partners found 35% already sold short in the stock.",
+            "Peter Singlehurst of Baillie Gifford called them “uncharted waters.”\nDavid Wagner of Aptus Capital Advisors said, “We are in that same exact boat.”",
+            "What happened? SpaceX’s scheduled lockup release was set to make up to 911.5 million additional shares tradable, more than doubling the available supply. Short sellers had already borrowed and sold shares, effectively selling tomorrow’s supply today and arbitraging the expected price drop."
+          ]
+        }
+      }
+    },
+    {
+      "id": "situational-awareness",
+      "sourceSection": "Situational Awareness",
+      "illustration": {
+        "src": "/images/2026-08-05-spacex-unlocks-tomorrow/situational-awareness.png",
+        "alt": "Leopold Aschenbrenner watches falling AI-stock papers trigger bank margin-call notices while Citadel traders receive a large discounted block of shares."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Leopold Aschenbrenner",
+          "Bob Sloan",
+          "Ken Griffin"
+        ],
+        "realCompanies": [
+          "Situational Awareness",
+          "S3 Partners",
+          "Citadel",
+          "Wellington fund"
+        ],
+        "financialMechanism": "A highly leveraged, concentrated portfolio suffered losses, prompting margin calls and forced stock sales that pushed prices lower, triggered additional margin calls, and ended with a discounted block sale to Citadel.",
+        "centralJoke": "The fund was not clearly destroyed by shadowy short-sellers; Situational Awareness was selling Situational Awareness’s own stocks down, and the stocks could rebound after the forced selling stopped."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Fund That Sold Against Itself",
+          "lesson": "Heavy leverage turned falling AI-stock prices into margin calls, forced sales, further price declines, and more margin calls until Situational Awareness sold a large block to Citadel and removed its leverage.",
+          "paragraphs": [
+            "Leopold Aschenbrenner’s fund made an AI bet,\nAnd Situational Awareness grew huge on it yet.\nReports put its peak near $45 billion in all,\nWith some bets levered four or five times tall.",
+            "Leverage means borrowed money can multiply gains—\nBut it also makes lenders get jumpy at pains.\nWhen AI shares sank, banks called: “Cash is now due!”\nSo the fund sold some stocks to pay what it drew.",
+            "But its holdings were huge, and the market took note;\nEach sale pushed down prices of stocks in its boat.\nLower prices brought margin calls, urgent and new,\nWhich forced further selling—and lower prices too.",
+            "Bob Sloan of S3 Partners found no clear sign\nThat short-selling predators had formed a grand line.\nThe stranger explanation was sitting in view:\nSituational Awareness was selling its own stocks askew.",
+            "At last, most public shares went in one giant block:\nCitadel bought $16 billion to $20 billion in stock.\nThe fund kept perhaps $8 billion to $10 billion instead,\nUnlevered, with many private holdings still spread.",
+            "Ken Griffin’s Citadel bought at a discount that day;\nIts Wellington fund gained 5.9% in July’s fray.\nThe forced seller stopped, and the shares could rebound—\nOnce nobody had to keep shoving them down.",
+            "What happened? Falling AI-stock prices triggered margin calls, so Situational Awareness sold shares for cash; those large sales helped depress its own holdings and caused more calls. It ultimately sold most of its public-stock portfolio to Citadel in a block trade that removed all leverage."
+          ]
+        },
+        "elementary": {
+          "title": "The Fund That Sold Against Itself",
+          "lesson": "Heavy leverage turned falling AI-stock prices into margin calls, forced sales, further price declines, and more margin calls until Situational Awareness sold a large block to Citadel and removed its leverage.",
+          "paragraphs": [
+            "Leopold Aschenbrenner’s fund made an AI bet,\nAnd Situational Awareness grew huge on it yet.\nReports put its peak near $45 billion in all,\nWith some bets levered four or five times tall.",
+            "Leverage means borrowed money can multiply gains—\nBut it also makes lenders get jumpy at pains.\nWhen AI shares sank, banks called: “Cash is now due!”\nSo the fund sold some stocks to pay what it drew.",
+            "But its holdings were huge, and the market took note;\nEach sale pushed down prices of stocks in its boat.\nLower prices brought margin calls, urgent and new,\nWhich forced further selling—and lower prices too.",
+            "Bob Sloan of S3 Partners found no clear sign\nThat short-selling predators had formed a grand line.\nThe stranger explanation was sitting in view:\nSituational Awareness was selling its own stocks askew.",
+            "At last, most public shares went in one giant block:\nCitadel bought $16 billion to $20 billion in stock.\nThe fund kept perhaps $8 billion to $10 billion instead,\nUnlevered, with many private holdings still spread.",
+            "Ken Griffin’s Citadel bought at a discount that day;\nIts Wellington fund gained 5.9% in July’s fray.\nThe forced seller stopped, and the shares could rebound—\nOnce nobody had to keep shoving them down.",
+            "What happened? Falling AI-stock prices triggered margin calls, so Situational Awareness sold shares for cash; those large sales helped depress its own holdings and caused more calls. It ultimately sold most of its public-stock portfolio to Citadel in a block trade that removed all leverage."
+          ]
+        },
+        "middle": {
+          "title": "The Fund That Sold Against Itself",
+          "lesson": "Heavy leverage turned falling AI-stock prices into margin calls, forced sales, further price declines, and more margin calls until Situational Awareness sold a large block to Citadel and removed its leverage.",
+          "paragraphs": [
+            "Leopold Aschenbrenner’s fund made an AI bet,\nAnd Situational Awareness grew huge on it yet.\nReports put its peak near $45 billion in all,\nWith some bets levered four or five times tall.",
+            "Leverage means borrowed money can multiply gains—\nBut it also makes lenders get jumpy at pains.\nWhen AI shares sank, banks called: “Cash is now due!”\nSo the fund sold some stocks to pay what it drew.",
+            "But its holdings were huge, and the market took note;\nEach sale pushed down prices of stocks in its boat.\nLower prices brought margin calls, urgent and new,\nWhich forced further selling—and lower prices too.",
+            "Bob Sloan of S3 Partners found no clear sign\nThat short-selling predators had formed a grand line.\nThe stranger explanation was sitting in view:\nSituational Awareness was selling its own stocks askew.",
+            "At last, most public shares went in one giant block:\nCitadel bought $16 billion to $20 billion in stock.\nThe fund kept perhaps $8 billion to $10 billion instead,\nUnlevered, with many private holdings still spread.",
+            "Ken Griffin’s Citadel bought at a discount that day;\nIts Wellington fund gained 5.9% in July’s fray.\nThe forced seller stopped, and the shares could rebound—\nOnce nobody had to keep shoving them down.",
+            "What happened? Falling AI-stock prices triggered margin calls, so Situational Awareness sold shares for cash; those large sales helped depress its own holdings and caused more calls. It ultimately sold most of its public-stock portfolio to Citadel in a block trade that removed all leverage."
+          ]
+        },
+        "high": {
+          "title": "The Fund That Sold Against Itself",
+          "lesson": "Heavy leverage turned falling AI-stock prices into margin calls, forced sales, further price declines, and more margin calls until Situational Awareness sold a large block to Citadel and removed its leverage.",
+          "paragraphs": [
+            "Leopold Aschenbrenner’s fund made an AI bet,\nAnd Situational Awareness grew huge on it yet.\nReports put its peak near $45 billion in all,\nWith some bets levered four or five times tall.",
+            "Leverage means borrowed money can multiply gains—\nBut it also makes lenders get jumpy at pains.\nWhen AI shares sank, banks called: “Cash is now due!”\nSo the fund sold some stocks to pay what it drew.",
+            "But its holdings were huge, and the market took note;\nEach sale pushed down prices of stocks in its boat.\nLower prices brought margin calls, urgent and new,\nWhich forced further selling—and lower prices too.",
+            "Bob Sloan of S3 Partners found no clear sign\nThat short-selling predators had formed a grand line.\nThe stranger explanation was sitting in view:\nSituational Awareness was selling its own stocks askew.",
+            "At last, most public shares went in one giant block:\nCitadel bought $16 billion to $20 billion in stock.\nThe fund kept perhaps $8 billion to $10 billion instead,\nUnlevered, with many private holdings still spread.",
+            "Ken Griffin’s Citadel bought at a discount that day;\nIts Wellington fund gained 5.9% in July’s fray.\nThe forced seller stopped, and the shares could rebound—\nOnce nobody had to keep shoving them down.",
+            "What happened? Falling AI-stock prices triggered margin calls, so Situational Awareness sold shares for cash; those large sales helped depress its own holdings and caused more calls. It ultimately sold most of its public-stock portfolio to Citadel in a block trade that removed all leverage."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sports-gambling-new-york",
+      "sourceSection": "Sports gambling: New York",
+      "illustration": {
+        "src": "/images/2026-08-05-spacex-unlocks-tomorrow/sports-gambling-new-york.png",
+        "alt": "Letitia James presents New York’s lawsuit as a Kalshi sports-event contract on a phone passes beneath a CFTC federal-license shield and around a New York age-21 sign."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Letitia James",
+          "Kathy Hochul",
+          "Elisabeth Diana"
+        ],
+        "realCompanies": [
+          "Kalshi Inc."
+        ],
+        "financialMechanism": "Kalshi lists sports event contracts on a federally licensed prediction exchange overseen by the CFTC. New York considers those contracts sports gambling requiring a state license and consumer protections, while Kalshi argues federal regulation preempts state restrictions.",
+        "centralJoke": "The CFTC has become the regulator of federally available sports betting, allowing it to bypass state gambling protections, but the CFTC mainly protects market integrity and has not supplied the usual gambling protections that states require."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "New York and the Two Betting Rulebooks",
+          "lesson": "Kalshi treats sports bets as federally regulated event contracts, while New York says they are unlicensed gambling subject to state age limits and consumer protections.",
+          "paragraphs": [
+            "New York says sports bettors must be twenty-one,\nA rule meant to curb harm—not spoil anyone’s fun.\nBut Kalshi offers contracts on how games will end,\nAnd lets eighteen-year-olds trade from a phone in their hand.",
+            "The CFTC once watched wheat, gold, and Treasury trades,\nKeeping prices honest and blocking market charades.\nNow it oversees sports markets, including each bet\nOn the Knicks’ total score: Will it go over—or not yet?",
+            "Its proposed sports rules filled 468 pages with care,\nBut gambling addiction was scarcely found there.\nPage 202 named cooling-off periods and limits on play,\nYet proposed no firm protections—or age rule—that day.",
+            "So Attorney General Letitia James took Kalshi to court,\nCalling its New York operation unlicensed sport.\nGovernor Kathy Hochul said state rules guard people from harm;\nKalshi spokeswoman Elisabeth Diana raised the alarm.",
+            "She called the lawsuit “sad” political theater and said\nA federally licensed exchange cannot simply be shed.\nKalshi warned that blocked New Yorkers might gamble offshore—\nWhile state and federal rulebooks collided at the door.",
+            "What happened? New York sued Kalshi’s trading subsidiary, alleging that its federally regulated sports-event contracts are illegal, unlicensed gambling under state law. Kalshi argues that CFTC oversight prevents states from shutting it down, even though the federal system lacks the state’s age-21 rule and other standard gambling protections."
+          ]
+        },
+        "elementary": {
+          "title": "New York and the Two Betting Rulebooks",
+          "lesson": "Kalshi treats sports bets as federally regulated event contracts, while New York says they are unlicensed gambling subject to state age limits and consumer protections.",
+          "paragraphs": [
+            "New York says sports bettors must be twenty-one,\nA rule meant to curb harm—not spoil anyone’s fun.\nBut Kalshi offers contracts on how games will end,\nAnd lets eighteen-year-olds trade from a phone in their hand.",
+            "The CFTC once watched wheat, gold, and Treasury trades,\nKeeping prices honest and blocking market charades.\nNow it oversees sports markets, including each bet\nOn the Knicks’ total score: Will it go over—or not yet?",
+            "Its proposed sports rules filled 468 pages with care,\nBut gambling addiction was scarcely found there.\nPage 202 named cooling-off periods and limits on play,\nYet proposed no firm protections—or age rule—that day.",
+            "So Attorney General Letitia James took Kalshi to court,\nCalling its New York operation unlicensed sport.\nGovernor Kathy Hochul said state rules guard people from harm;\nKalshi spokeswoman Elisabeth Diana raised the alarm.",
+            "She called the lawsuit “sad” political theater and said\nA federally licensed exchange cannot simply be shed.\nKalshi warned that blocked New Yorkers might gamble offshore—\nWhile state and federal rulebooks collided at the door.",
+            "What happened? New York sued Kalshi’s trading subsidiary, alleging that its federally regulated sports-event contracts are illegal, unlicensed gambling under state law. Kalshi argues that CFTC oversight prevents states from shutting it down, even though the federal system lacks the state’s age-21 rule and other standard gambling protections."
+          ]
+        },
+        "middle": {
+          "title": "New York and the Two Betting Rulebooks",
+          "lesson": "Kalshi treats sports bets as federally regulated event contracts, while New York says they are unlicensed gambling subject to state age limits and consumer protections.",
+          "paragraphs": [
+            "New York says sports bettors must be twenty-one,\nA rule meant to curb harm—not spoil anyone’s fun.\nBut Kalshi offers contracts on how games will end,\nAnd lets eighteen-year-olds trade from a phone in their hand.",
+            "The CFTC once watched wheat, gold, and Treasury trades,\nKeeping prices honest and blocking market charades.\nNow it oversees sports markets, including each bet\nOn the Knicks’ total score: Will it go over—or not yet?",
+            "Its proposed sports rules filled 468 pages with care,\nBut gambling addiction was scarcely found there.\nPage 202 named cooling-off periods and limits on play,\nYet proposed no firm protections—or age rule—that day.",
+            "So Attorney General Letitia James took Kalshi to court,\nCalling its New York operation unlicensed sport.\nGovernor Kathy Hochul said state rules guard people from harm;\nKalshi spokeswoman Elisabeth Diana raised the alarm.",
+            "She called the lawsuit “sad” political theater and said\nA federally licensed exchange cannot simply be shed.\nKalshi warned that blocked New Yorkers might gamble offshore—\nWhile state and federal rulebooks collided at the door.",
+            "What happened? New York sued Kalshi’s trading subsidiary, alleging that its federally regulated sports-event contracts are illegal, unlicensed gambling under state law. Kalshi argues that CFTC oversight prevents states from shutting it down, even though the federal system lacks the state’s age-21 rule and other standard gambling protections."
+          ]
+        },
+        "high": {
+          "title": "New York and the Two Betting Rulebooks",
+          "lesson": "Kalshi treats sports bets as federally regulated event contracts, while New York says they are unlicensed gambling subject to state age limits and consumer protections.",
+          "paragraphs": [
+            "New York says sports bettors must be twenty-one,\nA rule meant to curb harm—not spoil anyone’s fun.\nBut Kalshi offers contracts on how games will end,\nAnd lets eighteen-year-olds trade from a phone in their hand.",
+            "The CFTC once watched wheat, gold, and Treasury trades,\nKeeping prices honest and blocking market charades.\nNow it oversees sports markets, including each bet\nOn the Knicks’ total score: Will it go over—or not yet?",
+            "Its proposed sports rules filled 468 pages with care,\nBut gambling addiction was scarcely found there.\nPage 202 named cooling-off periods and limits on play,\nYet proposed no firm protections—or age rule—that day.",
+            "So Attorney General Letitia James took Kalshi to court,\nCalling its New York operation unlicensed sport.\nGovernor Kathy Hochul said state rules guard people from harm;\nKalshi spokeswoman Elisabeth Diana raised the alarm.",
+            "She called the lawsuit “sad” political theater and said\nA federally licensed exchange cannot simply be shed.\nKalshi warned that blocked New Yorkers might gamble offshore—\nWhile state and federal rulebooks collided at the door.",
+            "What happened? New York sued Kalshi’s trading subsidiary, alleging that its federally regulated sports-event contracts are illegal, unlicensed gambling under state law. Kalshi argues that CFTC oversight prevents states from shutting it down, even though the federal system lacks the state’s age-21 rule and other standard gambling protections."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sports-gambling-robinhood",
+      "sourceSection": "Sports gambling: Robinhood",
+      "illustration": {
+        "src": "/images/2026-08-05-spacex-unlocks-tomorrow/sports-gambling-robinhood.png",
+        "alt": "Football spectators use Robinhood on their phones to trade sports prediction contracts while a game unfolds below."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Dan Dolev",
+          "Ed Engel"
+        ],
+        "realCompanies": [
+          "Robinhood Markets Inc.",
+          "Mizuho Securities",
+          "Compass Point",
+          "The Information"
+        ],
+        "financialMechanism": "Robinhood offered prediction-market contracts inside its brokerage app, allowing customers to wager on sports outcomes; prediction-market revenue rose more than tenfold year over year to $156 million and reached 20% of second-quarter trading revenue.",
+        "centralJoke": "Robinhood’s risky stock trading was supposed to lead customers toward sensible retirement investing, but instead it became a gateway to sports gambling—making football season an oddly lucrative time for a stock brokerage."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Robinhood’s Football Season",
+          "lesson": "Robinhood added prediction-market contracts to its brokerage app, letting customers bet on real-world events such as sports and generating far more revenue as trading shifted from stocks and crypto toward those bets.",
+          "paragraphs": [
+            "Robinhood Markets put trades on a phone:\nStocks and stock options, commission-free, from home.\nYoung traders chased meme stocks, quick thrills, and cheers;\nsome hoped they’d choose index funds in later years.",
+            "An index fund holds many companies at once,\nnot one risky option that may leap or slump.\nThose broad groups of stocks can patiently grow—\na calmer retirement road as the decades go.",
+            "Then came a twist to that sensible track:\nInstead of less risk, riskier fun pulled them back.\nPrediction markets let users trade on what might come true;\nsports bets now passed through the brokerage too.",
+            "More than ten times last year’s, $156 million came through;\nthat was one-fifth of trading revenue in quarter two.\nIt beat stocks and crypto for the very first time;\nonly options brought Robinhood more in that line.",
+            "Dan Dolev of Mizuho Securities said gambling fit the crowd,\nwith faster brain rewards than crypto allowed.\nEd Engel of Compass Point said World Cup play\nmade June and July abnormally strong each day.",
+            "Football season could bring the next boost, Ed wrote.\nA strange thing for a stock brokerage to note:\nThe autumn rush wasn’t for companies at all—it was people in brokerage accounts betting on football.",
+            "What happened? Robinhood let brokerage customers trade prediction-market contracts on real-world events, including sports outcomes. In the second quarter, that business produced $156 million—20% of Robinhood’s trading revenue—surpassing both stock and crypto revenue."
+          ]
+        },
+        "elementary": {
+          "title": "Robinhood’s Football Season",
+          "lesson": "Robinhood added prediction-market contracts to its brokerage app, letting customers bet on real-world events such as sports and generating far more revenue as trading shifted from stocks and crypto toward those bets.",
+          "paragraphs": [
+            "Robinhood Markets put trades on a phone:\nStocks and stock options, commission-free, from home.\nYoung traders chased meme stocks, quick thrills, and cheers;\nsome hoped they’d choose index funds in later years.",
+            "An index fund holds many companies at once,\nnot one risky option that may leap or slump.\nThose broad groups of stocks can patiently grow—\na calmer retirement road as the decades go.",
+            "Then came a twist to that sensible track:\nInstead of less risk, riskier fun pulled them back.\nPrediction markets let users trade on what might come true;\nsports bets now passed through the brokerage too.",
+            "More than ten times last year’s, $156 million came through;\nthat was one-fifth of trading revenue in quarter two.\nIt beat stocks and crypto for the very first time;\nonly options brought Robinhood more in that line.",
+            "Dan Dolev of Mizuho Securities said gambling fit the crowd,\nwith faster brain rewards than crypto allowed.\nEd Engel of Compass Point said World Cup play\nmade June and July abnormally strong each day.",
+            "Football season could bring the next boost, Ed wrote.\nA strange thing for a stock brokerage to note:\nThe autumn rush wasn’t for companies at all—it was people in brokerage accounts betting on football.",
+            "What happened? Robinhood let brokerage customers trade prediction-market contracts on real-world events, including sports outcomes. In the second quarter, that business produced $156 million—20% of Robinhood’s trading revenue—surpassing both stock and crypto revenue."
+          ]
+        },
+        "middle": {
+          "title": "Robinhood’s Football Season",
+          "lesson": "Robinhood added prediction-market contracts to its brokerage app, letting customers bet on real-world events such as sports and generating far more revenue as trading shifted from stocks and crypto toward those bets.",
+          "paragraphs": [
+            "Robinhood Markets put trades on a phone:\nStocks and stock options, commission-free, from home.\nYoung traders chased meme stocks, quick thrills, and cheers;\nsome hoped they’d choose index funds in later years.",
+            "An index fund holds many companies at once,\nnot one risky option that may leap or slump.\nThose broad groups of stocks can patiently grow—\na calmer retirement road as the decades go.",
+            "Then came a twist to that sensible track:\nInstead of less risk, riskier fun pulled them back.\nPrediction markets let users trade on what might come true;\nsports bets now passed through the brokerage too.",
+            "More than ten times last year’s, $156 million came through;\nthat was one-fifth of trading revenue in quarter two.\nIt beat stocks and crypto for the very first time;\nonly options brought Robinhood more in that line.",
+            "Dan Dolev of Mizuho Securities said gambling fit the crowd,\nwith faster brain rewards than crypto allowed.\nEd Engel of Compass Point said World Cup play\nmade June and July abnormally strong each day.",
+            "Football season could bring the next boost, Ed wrote.\nA strange thing for a stock brokerage to note:\nThe autumn rush wasn’t for companies at all—it was people in brokerage accounts betting on football.",
+            "What happened? Robinhood let brokerage customers trade prediction-market contracts on real-world events, including sports outcomes. In the second quarter, that business produced $156 million—20% of Robinhood’s trading revenue—surpassing both stock and crypto revenue."
+          ]
+        },
+        "high": {
+          "title": "Robinhood’s Football Season",
+          "lesson": "Robinhood added prediction-market contracts to its brokerage app, letting customers bet on real-world events such as sports and generating far more revenue as trading shifted from stocks and crypto toward those bets.",
+          "paragraphs": [
+            "Robinhood Markets put trades on a phone:\nStocks and stock options, commission-free, from home.\nYoung traders chased meme stocks, quick thrills, and cheers;\nsome hoped they’d choose index funds in later years.",
+            "An index fund holds many companies at once,\nnot one risky option that may leap or slump.\nThose broad groups of stocks can patiently grow—\na calmer retirement road as the decades go.",
+            "Then came a twist to that sensible track:\nInstead of less risk, riskier fun pulled them back.\nPrediction markets let users trade on what might come true;\nsports bets now passed through the brokerage too.",
+            "More than ten times last year’s, $156 million came through;\nthat was one-fifth of trading revenue in quarter two.\nIt beat stocks and crypto for the very first time;\nonly options brought Robinhood more in that line.",
+            "Dan Dolev of Mizuho Securities said gambling fit the crowd,\nwith faster brain rewards than crypto allowed.\nEd Engel of Compass Point said World Cup play\nmade June and July abnormally strong each day.",
+            "Football season could bring the next boost, Ed wrote.\nA strange thing for a stock brokerage to note:\nThe autumn rush wasn’t for companies at all—it was people in brokerage accounts betting on football.",
+            "What happened? Robinhood let brokerage customers trade prediction-market contracts on real-world events, including sports outcomes. In the second quarter, that business produced $156 million—20% of Robinhood’s trading revenue—surpassing both stock and crypto revenue."
+          ]
+        }
+      }
+    }
+  ]
+}
