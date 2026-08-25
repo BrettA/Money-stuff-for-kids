@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-08-25-lebron-bonds",
+  "date": "2026-08-25",
+  "displayDate": "August 25, 2026",
+  "title": "LeBron Bonds",
+  "sourceSections": [
+    "TWG",
+    "Situational Awareness",
+    "AI margin loans",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "twg",
+      "sourceSection": "TWG",
+      "illustration": {
+        "src": "/images/2026-08-25-lebron-bonds/twg.png",
+        "alt": "LeBron James shakes hands with a life-insurance dealmaker beside a nearly $300 million bond marked due 2049, with Nike sponsorship payments flowing toward the bond."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "LeBron James",
+          "Mark Walter"
+        ],
+        "realCompanies": [
+          "Los Angeles Lakers",
+          "Guggenheim Partners",
+          "Nike Inc.",
+          "TWG Global",
+          "Delaware Life Insurance Co.",
+          "Clear Spring Life and Annuity Co."
+        ],
+        "financialMechanism": "An LLC controlled by LeBron James issued illiquid bonds due in 2049, receiving nearly $300 million upfront and pledging future off-court earnings to repay life-insurance investors with interest.",
+        "centralJoke": "Life-insurance customers need strong long-term returns, but the individual arranging the loan may also enjoy the decidedly nonfinancial thrill of saying that LeBron James owes the insurer money."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Long, Long LeBron Loan",
+          "lesson": "LeBron James’s LLC turned future off-court income into nearly $300 million immediately by issuing long-term, illiquid bonds to life insurers, which would be repaid with interest through 2049.",
+          "paragraphs": [
+            "In 2018, the Lakers signed LeBron James,\nfor $154 million—and championship aims.",
+            "But months before basketball brought him that score,\nhis LLC borrowed nearly $300 million more.\nTwo Midwestern life insurers supplied it right away;\na Guggenheim Partners arm helped arrange the payday.",
+            "The bonds would be paid through 2049,\nfrom future off-court earnings flowing over time.\nThat included sponsorship money from Nike Inc.—\ncash not earned yet, pledged link after link.",
+            "The bonds were unusual and hard to resell,\nbut life insurers could hold them for quite a long spell.\nThey promise payments years ahead,\nso patient investments can match what they’ll owe instead.",
+            "Then came a puzzle both funny and strange:\nretirees need returns, not a handshake exchange.\nYet the person selecting this cool, custom debt\ncould grin, “LeBron owes us!”—an unusual get.",
+            "Mark Walter led Guggenheim; his TWG Global owned\nDelaware Life and Clear Spring, plus sports stakes widely known.\nOfficials later examined over $20 billion in affiliated loans,\nand Walter agreed to sell the Lakers among his trophy-team holdings.",
+            "There is no indication the LeBron bonds were tied to that inquiry.\nStill, the question remained: Were insurers choosing the best strange loans—or sometimes the coolest ones?",
+            "What happened? LeBron James’s LLC borrowed nearly $300 million through bonds backed by future non-basketball income, including Nike sponsorship revenue. Life insurers funded the long-term deal, while separate investigations examined undisclosed affiliated lending involving Mark Walter’s insurers."
+          ]
+        },
+        "elementary": {
+          "title": "The Long, Long LeBron Loan",
+          "lesson": "LeBron James’s LLC turned future off-court income into nearly $300 million immediately by issuing long-term, illiquid bonds to life insurers, which would be repaid with interest through 2049.",
+          "paragraphs": [
+            "In 2018, the Lakers signed LeBron James,\nfor $154 million—and championship aims.",
+            "But months before basketball brought him that score,\nhis LLC borrowed nearly $300 million more.\nTwo Midwestern life insurers supplied it right away;\na Guggenheim Partners arm helped arrange the payday.",
+            "The bonds would be paid through 2049,\nfrom future off-court earnings flowing over time.\nThat included sponsorship money from Nike Inc.—\ncash not earned yet, pledged link after link.",
+            "The bonds were unusual and hard to resell,\nbut life insurers could hold them for quite a long spell.\nThey promise payments years ahead,\nso patient investments can match what they’ll owe instead.",
+            "Then came a puzzle both funny and strange:\nretirees need returns, not a handshake exchange.\nYet the person selecting this cool, custom debt\ncould grin, “LeBron owes us!”—an unusual get.",
+            "Mark Walter led Guggenheim; his TWG Global owned\nDelaware Life and Clear Spring, plus sports stakes widely known.\nOfficials later examined over $20 billion in affiliated loans,\nand Walter agreed to sell the Lakers among his trophy-team holdings.",
+            "There is no indication the LeBron bonds were tied to that inquiry.\nStill, the question remained: Were insurers choosing the best strange loans—or sometimes the coolest ones?",
+            "What happened? LeBron James’s LLC borrowed nearly $300 million through bonds backed by future non-basketball income, including Nike sponsorship revenue. Life insurers funded the long-term deal, while separate investigations examined undisclosed affiliated lending involving Mark Walter’s insurers."
+          ]
+        },
+        "middle": {
+          "title": "The Long, Long LeBron Loan",
+          "lesson": "LeBron James’s LLC turned future off-court income into nearly $300 million immediately by issuing long-term, illiquid bonds to life insurers, which would be repaid with interest through 2049.",
+          "paragraphs": [
+            "In 2018, the Lakers signed LeBron James,\nfor $154 million—and championship aims.",
+            "But months before basketball brought him that score,\nhis LLC borrowed nearly $300 million more.\nTwo Midwestern life insurers supplied it right away;\na Guggenheim Partners arm helped arrange the payday.",
+            "The bonds would be paid through 2049,\nfrom future off-court earnings flowing over time.\nThat included sponsorship money from Nike Inc.—\ncash not earned yet, pledged link after link.",
+            "The bonds were unusual and hard to resell,\nbut life insurers could hold them for quite a long spell.\nThey promise payments years ahead,\nso patient investments can match what they’ll owe instead.",
+            "Then came a puzzle both funny and strange:\nretirees need returns, not a handshake exchange.\nYet the person selecting this cool, custom debt\ncould grin, “LeBron owes us!”—an unusual get.",
+            "Mark Walter led Guggenheim; his TWG Global owned\nDelaware Life and Clear Spring, plus sports stakes widely known.\nOfficials later examined over $20 billion in affiliated loans,\nand Walter agreed to sell the Lakers among his trophy-team holdings.",
+            "There is no indication the LeBron bonds were tied to that inquiry.\nStill, the question remained: Were insurers choosing the best strange loans—or sometimes the coolest ones?",
+            "What happened? LeBron James’s LLC borrowed nearly $300 million through bonds backed by future non-basketball income, including Nike sponsorship revenue. Life insurers funded the long-term deal, while separate investigations examined undisclosed affiliated lending involving Mark Walter’s insurers."
+          ]
+        },
+        "high": {
+          "title": "The Long, Long LeBron Loan",
+          "lesson": "LeBron James’s LLC turned future off-court income into nearly $300 million immediately by issuing long-term, illiquid bonds to life insurers, which would be repaid with interest through 2049.",
+          "paragraphs": [
+            "In 2018, the Lakers signed LeBron James,\nfor $154 million—and championship aims.",
+            "But months before basketball brought him that score,\nhis LLC borrowed nearly $300 million more.\nTwo Midwestern life insurers supplied it right away;\na Guggenheim Partners arm helped arrange the payday.",
+            "The bonds would be paid through 2049,\nfrom future off-court earnings flowing over time.\nThat included sponsorship money from Nike Inc.—\ncash not earned yet, pledged link after link.",
+            "The bonds were unusual and hard to resell,\nbut life insurers could hold them for quite a long spell.\nThey promise payments years ahead,\nso patient investments can match what they’ll owe instead.",
+            "Then came a puzzle both funny and strange:\nretirees need returns, not a handshake exchange.\nYet the person selecting this cool, custom debt\ncould grin, “LeBron owes us!”—an unusual get.",
+            "Mark Walter led Guggenheim; his TWG Global owned\nDelaware Life and Clear Spring, plus sports stakes widely known.\nOfficials later examined over $20 billion in affiliated loans,\nand Walter agreed to sell the Lakers among his trophy-team holdings.",
+            "There is no indication the LeBron bonds were tied to that inquiry.\nStill, the question remained: Were insurers choosing the best strange loans—or sometimes the coolest ones?",
+            "What happened? LeBron James’s LLC borrowed nearly $300 million through bonds backed by future non-basketball income, including Nike sponsorship revenue. Life insurers funded the long-term deal, while separate investigations examined undisclosed affiliated lending involving Mark Walter’s insurers."
+          ]
+        }
+      }
+    },
+    {
+      "id": "situational-awareness",
+      "sourceSection": "Situational Awareness",
+      "illustration": {
+        "src": "/images/2026-08-25-lebron-bonds/situational-awareness.png",
+        "alt": "Leopold Aschenbrenner watches an orderly block of AI stock holdings pass from Situational Awareness to Citadel while banks retain secured claims on the Anthropic stake."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Leopold Aschenbrenner",
+          "Bill Hwang"
+        ],
+        "realCompanies": [
+          "Situational Awareness LP",
+          "SK Hynix Inc.",
+          "Archegos Capital Management",
+          "Citadel",
+          "Anthropic"
+        ],
+        "financialMechanism": "The fund used leverage to buy concentrated AI stocks. As those stocks rose, dynamic margining reduced the loans relative to the portfolio’s value; when prices fell, additional collateral and a discounted block sale to Citadel prevented lender losses and a disorderly fire sale.",
+        "centralJoke": "It was called a hedge-fund blowup, but the fund survived, remained up for the year, Citadel apparently profited, and none of the lenders lost money."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Blowup That Didn’t Blow Up",
+          "lesson": "Dynamic margining lowered Situational Awareness’s loan-to-value as its stocks rose, while extra collateral and an orderly block sale to Citadel protected its lenders when prices fell.",
+          "paragraphs": [
+            "Leopold Aschenbrenner made one mandate clear:\nSituational Awareness would buy AI while the boom was in gear.",
+            "The fund used bank loans called leverage to buy;\nthat boosts gains—and losses—as prices move high.",
+            "It became a cornerstone in SK Hynix’s U.S. sale,\nwhile climbing AI shares put wind in its sail.\nThose mark-to-market profits—the higher values displayed—\nhelped it borrow and add to the bets it had made.",
+            "At Archegos Capital Management, Bill Hwang had done more:\nas stocks rose, he borrowed, then borrowed once more.\nWhen prices sank, banks raced to sell in a rout;\nArchegos hit zero, and billions were wiped out.",
+            "But this time, the banks kept strong cushions in place:\ndynamic margin lowered loan-to-value as prices raced.\nThey also had rights to investments the fund held,\nincluding its Anthropic stake, if the borrowing rebelled.",
+            "Then AI stocks fell; margin calls knocked at the door—\ndemands to add cash or collateral once more.\nThe fund paid awhile, then chose an orderly track:\nit sold most public stocks to Citadel in one discounted pack.",
+            "Citadel unwound most positions, apparently with gain;\nthe fund stayed in business, and no lender felt pain.\nSituational Awareness still seemed up for the year—\na fearsome “blowup” whose worst parts did not appear.",
+            "The SEC later subpoenaed banks for records about trade timing, leverage, and communications. The inquiry was at an early stage, and Situational Awareness had not been accused of wrongdoing.",
+            "What happened? Situational Awareness borrowed to buy concentrated AI positions, but dynamic margining and collateral kept its lenders protected as prices fell. An orderly discounted block sale to Citadel prevented the frantic liquidation that had made Archegos collapse so destructive."
+          ]
+        },
+        "elementary": {
+          "title": "The Blowup That Didn’t Blow Up",
+          "lesson": "Dynamic margining lowered Situational Awareness’s loan-to-value as its stocks rose, while extra collateral and an orderly block sale to Citadel protected its lenders when prices fell.",
+          "paragraphs": [
+            "Leopold Aschenbrenner made one mandate clear:\nSituational Awareness would buy AI while the boom was in gear.",
+            "The fund used bank loans called leverage to buy;\nthat boosts gains—and losses—as prices move high.",
+            "It became a cornerstone in SK Hynix’s U.S. sale,\nwhile climbing AI shares put wind in its sail.\nThose mark-to-market profits—the higher values displayed—\nhelped it borrow and add to the bets it had made.",
+            "At Archegos Capital Management, Bill Hwang had done more:\nas stocks rose, he borrowed, then borrowed once more.\nWhen prices sank, banks raced to sell in a rout;\nArchegos hit zero, and billions were wiped out.",
+            "But this time, the banks kept strong cushions in place:\ndynamic margin lowered loan-to-value as prices raced.\nThey also had rights to investments the fund held,\nincluding its Anthropic stake, if the borrowing rebelled.",
+            "Then AI stocks fell; margin calls knocked at the door—\ndemands to add cash or collateral once more.\nThe fund paid awhile, then chose an orderly track:\nit sold most public stocks to Citadel in one discounted pack.",
+            "Citadel unwound most positions, apparently with gain;\nthe fund stayed in business, and no lender felt pain.\nSituational Awareness still seemed up for the year—\na fearsome “blowup” whose worst parts did not appear.",
+            "The SEC later subpoenaed banks for records about trade timing, leverage, and communications. The inquiry was at an early stage, and Situational Awareness had not been accused of wrongdoing.",
+            "What happened? Situational Awareness borrowed to buy concentrated AI positions, but dynamic margining and collateral kept its lenders protected as prices fell. An orderly discounted block sale to Citadel prevented the frantic liquidation that had made Archegos collapse so destructive."
+          ]
+        },
+        "middle": {
+          "title": "The Blowup That Didn’t Blow Up",
+          "lesson": "Dynamic margining lowered Situational Awareness’s loan-to-value as its stocks rose, while extra collateral and an orderly block sale to Citadel protected its lenders when prices fell.",
+          "paragraphs": [
+            "Leopold Aschenbrenner made one mandate clear:\nSituational Awareness would buy AI while the boom was in gear.",
+            "The fund used bank loans called leverage to buy;\nthat boosts gains—and losses—as prices move high.",
+            "It became a cornerstone in SK Hynix’s U.S. sale,\nwhile climbing AI shares put wind in its sail.\nThose mark-to-market profits—the higher values displayed—\nhelped it borrow and add to the bets it had made.",
+            "At Archegos Capital Management, Bill Hwang had done more:\nas stocks rose, he borrowed, then borrowed once more.\nWhen prices sank, banks raced to sell in a rout;\nArchegos hit zero, and billions were wiped out.",
+            "But this time, the banks kept strong cushions in place:\ndynamic margin lowered loan-to-value as prices raced.\nThey also had rights to investments the fund held,\nincluding its Anthropic stake, if the borrowing rebelled.",
+            "Then AI stocks fell; margin calls knocked at the door—\ndemands to add cash or collateral once more.\nThe fund paid awhile, then chose an orderly track:\nit sold most public stocks to Citadel in one discounted pack.",
+            "Citadel unwound most positions, apparently with gain;\nthe fund stayed in business, and no lender felt pain.\nSituational Awareness still seemed up for the year—\na fearsome “blowup” whose worst parts did not appear.",
+            "The SEC later subpoenaed banks for records about trade timing, leverage, and communications. The inquiry was at an early stage, and Situational Awareness had not been accused of wrongdoing.",
+            "What happened? Situational Awareness borrowed to buy concentrated AI positions, but dynamic margining and collateral kept its lenders protected as prices fell. An orderly discounted block sale to Citadel prevented the frantic liquidation that had made Archegos collapse so destructive."
+          ]
+        },
+        "high": {
+          "title": "The Blowup That Didn’t Blow Up",
+          "lesson": "Dynamic margining lowered Situational Awareness’s loan-to-value as its stocks rose, while extra collateral and an orderly block sale to Citadel protected its lenders when prices fell.",
+          "paragraphs": [
+            "Leopold Aschenbrenner made one mandate clear:\nSituational Awareness would buy AI while the boom was in gear.",
+            "The fund used bank loans called leverage to buy;\nthat boosts gains—and losses—as prices move high.",
+            "It became a cornerstone in SK Hynix’s U.S. sale,\nwhile climbing AI shares put wind in its sail.\nThose mark-to-market profits—the higher values displayed—\nhelped it borrow and add to the bets it had made.",
+            "At Archegos Capital Management, Bill Hwang had done more:\nas stocks rose, he borrowed, then borrowed once more.\nWhen prices sank, banks raced to sell in a rout;\nArchegos hit zero, and billions were wiped out.",
+            "But this time, the banks kept strong cushions in place:\ndynamic margin lowered loan-to-value as prices raced.\nThey also had rights to investments the fund held,\nincluding its Anthropic stake, if the borrowing rebelled.",
+            "Then AI stocks fell; margin calls knocked at the door—\ndemands to add cash or collateral once more.\nThe fund paid awhile, then chose an orderly track:\nit sold most public stocks to Citadel in one discounted pack.",
+            "Citadel unwound most positions, apparently with gain;\nthe fund stayed in business, and no lender felt pain.\nSituational Awareness still seemed up for the year—\na fearsome “blowup” whose worst parts did not appear.",
+            "The SEC later subpoenaed banks for records about trade timing, leverage, and communications. The inquiry was at an early stage, and Situational Awareness had not been accused of wrongdoing.",
+            "What happened? Situational Awareness borrowed to buy concentrated AI positions, but dynamic margining and collateral kept its lenders protected as prices fell. An orderly discounted block sale to Citadel prevented the frantic liquidation that had made Archegos collapse so destructive."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ai-margin-loans",
+      "sourceSection": "AI margin loans",
+      "illustration": {
+        "src": "/images/2026-08-25-lebron-bonds/ai-margin-loans.png",
+        "alt": "A JPMorgan Chase banker accepts newly public SpaceX shares as collateral before the usual 135-day waiting period has ended."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "JPMorgan Chase",
+          "SpaceX",
+          "Anthropic",
+          "SoftBank",
+          "OpenAI"
+        ],
+        "financialMechanism": "Employees and early investors pledge newly public company shares as collateral for margin loans. JPMorgan was willing to accept SpaceX shares sooner than its usual 135-day limit and might take a similar approach to Anthropic, despite the risk that seized shares could become difficult to sell.",
+        "centralJoke": "AI exposure had become so widespread that if SpaceX, Anthropic, or OpenAI collapsed, losses on a few risky share-backed loans would be among the banks’ smallest problems—so they might as well make the loans."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The 135-Day Rule Meets the AI Boom",
+          "lesson": "JPMorgan Chase considered accepting newly public SpaceX shares—and potentially Anthropic shares—earlier than its normal 135-day limit as collateral for margin loans, betting that winning AI clients outweighed the risk of having to seize and sell volatile stock.",
+          "paragraphs": [
+            "At JPMorgan Chase, the usual way\nwas to shun brand-new shares for 135 days.\nThose shares were collateral—stock the bank could take,\nthen sell if a borrower’s payments should break.",
+            "New stocks can plunge, and lockups can bind;\nwhen selling gets hard, buyers are tricky to find.\nBut SpaceX was different. Before its June debut,\nthe bank told its bankers they could lend sooner, too.",
+            "SpaceX, Elon Musk’s rocket-and-AI enterprise,\nwas helping create fortunes of astonishing size.\nJPMorgan made $75 million in its listing role;\nwinning those wealthy clients was part of the goal.",
+            "For Anthropic, the company that makes Claude, bankers guessed\nthey might bend the same rule—though nothing was set.\nWith trillions in AI wealth glittering bright,\na bank had to risk something to join in the fight.",
+            "SoftBank supplied an even stranger surprise:\nit borrowed against OpenAI to buy more OpenAI.\nIf giant AI companies crashed through the floor,\nlosses on these margin loans might be the least trouble in store.",
+            "What happened? JPMorgan relaxed its normal 135-day waiting policy so it could lend sooner against newly public SpaceX shares, and bankers expected it might consider doing the same for Anthropic. These margin loans let people borrow money by pledging shares that the bank can seize and sell if the loans are not repaid."
+          ]
+        },
+        "elementary": {
+          "title": "The 135-Day Rule Meets the AI Boom",
+          "lesson": "JPMorgan Chase considered accepting newly public SpaceX shares—and potentially Anthropic shares—earlier than its normal 135-day limit as collateral for margin loans, betting that winning AI clients outweighed the risk of having to seize and sell volatile stock.",
+          "paragraphs": [
+            "At JPMorgan Chase, the usual way\nwas to shun brand-new shares for 135 days.\nThose shares were collateral—stock the bank could take,\nthen sell if a borrower’s payments should break.",
+            "New stocks can plunge, and lockups can bind;\nwhen selling gets hard, buyers are tricky to find.\nBut SpaceX was different. Before its June debut,\nthe bank told its bankers they could lend sooner, too.",
+            "SpaceX, Elon Musk’s rocket-and-AI enterprise,\nwas helping create fortunes of astonishing size.\nJPMorgan made $75 million in its listing role;\nwinning those wealthy clients was part of the goal.",
+            "For Anthropic, the company that makes Claude, bankers guessed\nthey might bend the same rule—though nothing was set.\nWith trillions in AI wealth glittering bright,\na bank had to risk something to join in the fight.",
+            "SoftBank supplied an even stranger surprise:\nit borrowed against OpenAI to buy more OpenAI.\nIf giant AI companies crashed through the floor,\nlosses on these margin loans might be the least trouble in store.",
+            "What happened? JPMorgan relaxed its normal 135-day waiting policy so it could lend sooner against newly public SpaceX shares, and bankers expected it might consider doing the same for Anthropic. These margin loans let people borrow money by pledging shares that the bank can seize and sell if the loans are not repaid."
+          ]
+        },
+        "middle": {
+          "title": "The 135-Day Rule Meets the AI Boom",
+          "lesson": "JPMorgan Chase considered accepting newly public SpaceX shares—and potentially Anthropic shares—earlier than its normal 135-day limit as collateral for margin loans, betting that winning AI clients outweighed the risk of having to seize and sell volatile stock.",
+          "paragraphs": [
+            "At JPMorgan Chase, the usual way\nwas to shun brand-new shares for 135 days.\nThose shares were collateral—stock the bank could take,\nthen sell if a borrower’s payments should break.",
+            "New stocks can plunge, and lockups can bind;\nwhen selling gets hard, buyers are tricky to find.\nBut SpaceX was different. Before its June debut,\nthe bank told its bankers they could lend sooner, too.",
+            "SpaceX, Elon Musk’s rocket-and-AI enterprise,\nwas helping create fortunes of astonishing size.\nJPMorgan made $75 million in its listing role;\nwinning those wealthy clients was part of the goal.",
+            "For Anthropic, the company that makes Claude, bankers guessed\nthey might bend the same rule—though nothing was set.\nWith trillions in AI wealth glittering bright,\na bank had to risk something to join in the fight.",
+            "SoftBank supplied an even stranger surprise:\nit borrowed against OpenAI to buy more OpenAI.\nIf giant AI companies crashed through the floor,\nlosses on these margin loans might be the least trouble in store.",
+            "What happened? JPMorgan relaxed its normal 135-day waiting policy so it could lend sooner against newly public SpaceX shares, and bankers expected it might consider doing the same for Anthropic. These margin loans let people borrow money by pledging shares that the bank can seize and sell if the loans are not repaid."
+          ]
+        },
+        "high": {
+          "title": "The 135-Day Rule Meets the AI Boom",
+          "lesson": "JPMorgan Chase considered accepting newly public SpaceX shares—and potentially Anthropic shares—earlier than its normal 135-day limit as collateral for margin loans, betting that winning AI clients outweighed the risk of having to seize and sell volatile stock.",
+          "paragraphs": [
+            "At JPMorgan Chase, the usual way\nwas to shun brand-new shares for 135 days.\nThose shares were collateral—stock the bank could take,\nthen sell if a borrower’s payments should break.",
+            "New stocks can plunge, and lockups can bind;\nwhen selling gets hard, buyers are tricky to find.\nBut SpaceX was different. Before its June debut,\nthe bank told its bankers they could lend sooner, too.",
+            "SpaceX, Elon Musk’s rocket-and-AI enterprise,\nwas helping create fortunes of astonishing size.\nJPMorgan made $75 million in its listing role;\nwinning those wealthy clients was part of the goal.",
+            "For Anthropic, the company that makes Claude, bankers guessed\nthey might bend the same rule—though nothing was set.\nWith trillions in AI wealth glittering bright,\na bank had to risk something to join in the fight.",
+            "SoftBank supplied an even stranger surprise:\nit borrowed against OpenAI to buy more OpenAI.\nIf giant AI companies crashed through the floor,\nlosses on these margin loans might be the least trouble in store.",
+            "What happened? JPMorgan relaxed its normal 135-day waiting policy so it could lend sooner against newly public SpaceX shares, and bankers expected it might consider doing the same for Anthropic. These margin loans let people borrow money by pledging shares that the bank can seize and sell if the loans are not repaid."
+          ]
+        }
+      }
+    }
+  ]
+}
