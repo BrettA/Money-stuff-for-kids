@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-07-09-leave-the-oil-in-the-pipes",
+  "date": "2026-07-09",
+  "displayDate": "July 9, 2026",
+  "title": "Leave the Oil in the Pipes",
+  "sourceSections": [
+    "Oil tokens",
+    "No Elon ETFs",
+    "Is Egg Libor securities fraud?",
+    "Investment banking coverage",
+    "Agentic fundraising",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "oil-tokens",
+      "sourceSection": "Oil tokens",
+      "illustration": {
+        "src": "/images/2026-07-09-leave-the-oil-in-the-pipes/oil-tokens.png",
+        "alt": "JP Thieriot presents a WTIC token beside a cutaway pipeline and storage tank containing oil that must remain inside, while an investor avoids a messy physical barrel."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "JP Thieriot",
+          "Mia Gindis",
+          "Sidhartha Shukla",
+          "Tracy Alloway"
+        ],
+        "realCompanies": [
+          "Energy Substantiation",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Oil suppliers offer hard-to-sell operational inventory at a discount through a reverse Dutch auction. That oil backs newly minted WTIC blockchain tokens tracking West Texas Intermediate crude; holders can trade the tokens or redeem them at the daily spot closing price.",
+        "centralJoke": "Finance’s solution to physical oil that cannot conveniently be sold or owned is to sell a digital token representing it instead—the philosophically ambitious but physically lazy idea that could even extend to oil still beneath the ocean."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Oil That Stayed Put",
+          "lesson": "Energy Substantiation’s WTIC token lets investors trade a claim tied to hard-to-sell operational oil inventory, while suppliers earn money from barrels needed inside pipelines and tanks.",
+          "paragraphs": [
+            "Crude oil is oozy, flammable, and smelly;\nYou wouldn’t want barrels beneath your own telly.\nSo investors use futures—contracts they trade,\nThen “roll” them before any delivery is made.",
+            "But oil companies have barrels that cannot depart:\n“Line fill” keeps pipelines pushing and tanks need some at the bottom to start.\nThat oil earns little, though it must remain there,\nStuck in the machinery, going nowhere.",
+            "In 2026, JP Thieriot had a plan:\nEnergy Substantiation would sell what it can.\nIts WTIC token tracks West Texas crude,\nWithout leaving a barrel in your neighborhood.",
+            "Suppliers offer discounted oil in a reverse Dutch auction;\nThose trapped operational barrels then back the token.\nNew tokens are minted, then traded each day,\nAnd holders may redeem them at spot closing pay.",
+            "Bloomberg’s Mia Gindis and Sidhartha Shukla reported the scheme;\nOwning oil without touching it was the dream.\nBut Bloomberg’s Tracy Alloway had tried the real chore—\n“Don’t buy a barrel of oil,” warned her broker. “It’ll kill you,” for sure.",
+            "So finance found its boldest, laziest goal:\nSell a token for oil that cannot be sold.\nWhy stop with the pipe or the tank-bottom notion?\nSomeone could tokenize oil still under the ocean.",
+            "What happened? Energy Substantiation proposed WTIC tokens backed by discounted pipeline line fill, tank bottoms, and other operational oil inventory. Investors could trade the tokens or redeem them at the daily spot closing price, though few were expected to request physical crude."
+          ]
+        },
+        "elementary": {
+          "title": "The Oil That Stayed Put",
+          "lesson": "Energy Substantiation’s WTIC token lets investors trade a claim tied to hard-to-sell operational oil inventory, while suppliers earn money from barrels needed inside pipelines and tanks.",
+          "paragraphs": [
+            "Crude oil is oozy, flammable, and smelly;\nYou wouldn’t want barrels beneath your own telly.\nSo investors use futures—contracts they trade,\nThen “roll” them before any delivery is made.",
+            "But oil companies have barrels that cannot depart:\n“Line fill” keeps pipelines pushing and tanks need some at the bottom to start.\nThat oil earns little, though it must remain there,\nStuck in the machinery, going nowhere.",
+            "In 2026, JP Thieriot had a plan:\nEnergy Substantiation would sell what it can.\nIts WTIC token tracks West Texas crude,\nWithout leaving a barrel in your neighborhood.",
+            "Suppliers offer discounted oil in a reverse Dutch auction;\nThose trapped operational barrels then back the token.\nNew tokens are minted, then traded each day,\nAnd holders may redeem them at spot closing pay.",
+            "Bloomberg’s Mia Gindis and Sidhartha Shukla reported the scheme;\nOwning oil without touching it was the dream.\nBut Bloomberg’s Tracy Alloway had tried the real chore—\n“Don’t buy a barrel of oil,” warned her broker. “It’ll kill you,” for sure.",
+            "So finance found its boldest, laziest goal:\nSell a token for oil that cannot be sold.\nWhy stop with the pipe or the tank-bottom notion?\nSomeone could tokenize oil still under the ocean.",
+            "What happened? Energy Substantiation proposed WTIC tokens backed by discounted pipeline line fill, tank bottoms, and other operational oil inventory. Investors could trade the tokens or redeem them at the daily spot closing price, though few were expected to request physical crude."
+          ]
+        },
+        "middle": {
+          "title": "The Oil That Stayed Put",
+          "lesson": "Energy Substantiation’s WTIC token lets investors trade a claim tied to hard-to-sell operational oil inventory, while suppliers earn money from barrels needed inside pipelines and tanks.",
+          "paragraphs": [
+            "Crude oil is oozy, flammable, and smelly;\nYou wouldn’t want barrels beneath your own telly.\nSo investors use futures—contracts they trade,\nThen “roll” them before any delivery is made.",
+            "But oil companies have barrels that cannot depart:\n“Line fill” keeps pipelines pushing and tanks need some at the bottom to start.\nThat oil earns little, though it must remain there,\nStuck in the machinery, going nowhere.",
+            "In 2026, JP Thieriot had a plan:\nEnergy Substantiation would sell what it can.\nIts WTIC token tracks West Texas crude,\nWithout leaving a barrel in your neighborhood.",
+            "Suppliers offer discounted oil in a reverse Dutch auction;\nThose trapped operational barrels then back the token.\nNew tokens are minted, then traded each day,\nAnd holders may redeem them at spot closing pay.",
+            "Bloomberg’s Mia Gindis and Sidhartha Shukla reported the scheme;\nOwning oil without touching it was the dream.\nBut Bloomberg’s Tracy Alloway had tried the real chore—\n“Don’t buy a barrel of oil,” warned her broker. “It’ll kill you,” for sure.",
+            "So finance found its boldest, laziest goal:\nSell a token for oil that cannot be sold.\nWhy stop with the pipe or the tank-bottom notion?\nSomeone could tokenize oil still under the ocean.",
+            "What happened? Energy Substantiation proposed WTIC tokens backed by discounted pipeline line fill, tank bottoms, and other operational oil inventory. Investors could trade the tokens or redeem them at the daily spot closing price, though few were expected to request physical crude."
+          ]
+        },
+        "high": {
+          "title": "The Oil That Stayed Put",
+          "lesson": "Energy Substantiation’s WTIC token lets investors trade a claim tied to hard-to-sell operational oil inventory, while suppliers earn money from barrels needed inside pipelines and tanks.",
+          "paragraphs": [
+            "Crude oil is oozy, flammable, and smelly;\nYou wouldn’t want barrels beneath your own telly.\nSo investors use futures—contracts they trade,\nThen “roll” them before any delivery is made.",
+            "But oil companies have barrels that cannot depart:\n“Line fill” keeps pipelines pushing and tanks need some at the bottom to start.\nThat oil earns little, though it must remain there,\nStuck in the machinery, going nowhere.",
+            "In 2026, JP Thieriot had a plan:\nEnergy Substantiation would sell what it can.\nIts WTIC token tracks West Texas crude,\nWithout leaving a barrel in your neighborhood.",
+            "Suppliers offer discounted oil in a reverse Dutch auction;\nThose trapped operational barrels then back the token.\nNew tokens are minted, then traded each day,\nAnd holders may redeem them at spot closing pay.",
+            "Bloomberg’s Mia Gindis and Sidhartha Shukla reported the scheme;\nOwning oil without touching it was the dream.\nBut Bloomberg’s Tracy Alloway had tried the real chore—\n“Don’t buy a barrel of oil,” warned her broker. “It’ll kill you,” for sure.",
+            "So finance found its boldest, laziest goal:\nSell a token for oil that cannot be sold.\nWhy stop with the pipe or the tank-bottom notion?\nSomeone could tokenize oil still under the ocean.",
+            "What happened? Energy Substantiation proposed WTIC tokens backed by discounted pipeline line fill, tank bottoms, and other operational oil inventory. Investors could trade the tokens or redeem them at the daily spot closing price, though few were expected to request physical crude."
+          ]
+        }
+      }
+    },
+    {
+      "id": "no-elon-etfs",
+      "sourceSection": "No Elon ETFs",
+      "illustration": {
+        "src": "/images/2026-07-09-leave-the-oil-in-the-pipes/no-elon-etfs.png",
+        "alt": "Elon Musk stands beside a Tesla car and SpaceX rocket outside a gate, while Nasdaq-100 company cards enter an ETF basket labeled QQNE."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk",
+          "Zijia Song",
+          "Nancy Pelosi"
+        ],
+        "realCompanies": [
+          "SpaceX",
+          "Tesla, Inc.",
+          "Bloomberg",
+          "OpenAI",
+          "Anthropic",
+          "Tidal Investments LLC",
+          "Subversive Capital"
+        ],
+        "financialMechanism": "Actively managed exchange-traded funds track broad groups of large U.S. stocks while applying an exclusion rule: QQNE normally places at least 80% of its assets in exposure to Nasdaq-100 companies other than Tesla and SpaceX, while SPNE applies a similar ex-Elon approach to the S&P 500.",
+        "centralJoke": "Investors wanted the whole stock market except Elon Musk’s companies, and the resulting ETFs have the prized marketing feature of a goofy, television-ready story: broad index investing, but no Elon."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Stock Basket with No Elon",
+          "lesson": "An actively managed ETF can follow a broad stock index while deliberately excluding specified companies; QQNE and SPNE were filed to omit companies associated with Elon Musk.",
+          "paragraphs": [
+            "Across U.S. stocks—some $80 trillion in all—\nElon Musk’s corner was hardly small.\nSpaceX was worth about $2 trillion; Tesla, $1.5,\nTogether, roughly 4.4% of the market-wide hive.",
+            "An index fund buys the companies listed inside.\nThe Nasdaq-100 held SpaceX and Tesla side by side;\nThe S&P 500 held Tesla, but SpaceX wasn’t there.\nSo ordinary index investors could own a Musk-linked share.",
+            "Bloomberg’s Zijia Song heard some investors say,\n“Even one-tenth of a percent is more than I would pay.”\nMoney Stuff had suggested excluding SpaceX, OpenAI,\nAnd Anthropic from a basket—cheap to build, so why not try?",
+            "Then Tidal Investments LLC and Subversive Capital filed a plan:\nTwo stock baskets designed to skip companies tied to one man.\nAn ETF is a basket whose shares can be traded each day;\nAn active manager chooses what stays in—or stays away.",
+            "QQNE normally puts at least 80% in Nasdaq-100 shares,\nBut Tesla and SpaceX are its “Excluded Enterprises.”\nSPNE applies a similar screen to the S&P 500 list,\nSeeking broad exposure while Musk-linked companies are missed.",
+            "Subversive already ran a Nancy Pelosi copy-trading ETF.\nNo one promised these new funds would outperform the rest.\nTheir funniest selling point was simple, loud, and television-ready:\n“The whole big market—but no Elon!” is a goofy story already.",
+            "What happened? Tidal Investments LLC and Subversive Capital filed for the Nasdaq-100 Ex-Elon Enterprises ETF (QQNE) and the similar S&P 500 Ex-Elon Enterprises ETF (SPNE). The actively managed funds seek broad large-company stock exposure while excluding Tesla and SpaceX, the Musk-associated companies named in the prospectus."
+          ]
+        },
+        "elementary": {
+          "title": "The Stock Basket with No Elon",
+          "lesson": "An actively managed ETF can follow a broad stock index while deliberately excluding specified companies; QQNE and SPNE were filed to omit companies associated with Elon Musk.",
+          "paragraphs": [
+            "Across U.S. stocks—some $80 trillion in all—\nElon Musk’s corner was hardly small.\nSpaceX was worth about $2 trillion; Tesla, $1.5,\nTogether, roughly 4.4% of the market-wide hive.",
+            "An index fund buys the companies listed inside.\nThe Nasdaq-100 held SpaceX and Tesla side by side;\nThe S&P 500 held Tesla, but SpaceX wasn’t there.\nSo ordinary index investors could own a Musk-linked share.",
+            "Bloomberg’s Zijia Song heard some investors say,\n“Even one-tenth of a percent is more than I would pay.”\nMoney Stuff had suggested excluding SpaceX, OpenAI,\nAnd Anthropic from a basket—cheap to build, so why not try?",
+            "Then Tidal Investments LLC and Subversive Capital filed a plan:\nTwo stock baskets designed to skip companies tied to one man.\nAn ETF is a basket whose shares can be traded each day;\nAn active manager chooses what stays in—or stays away.",
+            "QQNE normally puts at least 80% in Nasdaq-100 shares,\nBut Tesla and SpaceX are its “Excluded Enterprises.”\nSPNE applies a similar screen to the S&P 500 list,\nSeeking broad exposure while Musk-linked companies are missed.",
+            "Subversive already ran a Nancy Pelosi copy-trading ETF.\nNo one promised these new funds would outperform the rest.\nTheir funniest selling point was simple, loud, and television-ready:\n“The whole big market—but no Elon!” is a goofy story already.",
+            "What happened? Tidal Investments LLC and Subversive Capital filed for the Nasdaq-100 Ex-Elon Enterprises ETF (QQNE) and the similar S&P 500 Ex-Elon Enterprises ETF (SPNE). The actively managed funds seek broad large-company stock exposure while excluding Tesla and SpaceX, the Musk-associated companies named in the prospectus."
+          ]
+        },
+        "middle": {
+          "title": "The Stock Basket with No Elon",
+          "lesson": "An actively managed ETF can follow a broad stock index while deliberately excluding specified companies; QQNE and SPNE were filed to omit companies associated with Elon Musk.",
+          "paragraphs": [
+            "Across U.S. stocks—some $80 trillion in all—\nElon Musk’s corner was hardly small.\nSpaceX was worth about $2 trillion; Tesla, $1.5,\nTogether, roughly 4.4% of the market-wide hive.",
+            "An index fund buys the companies listed inside.\nThe Nasdaq-100 held SpaceX and Tesla side by side;\nThe S&P 500 held Tesla, but SpaceX wasn’t there.\nSo ordinary index investors could own a Musk-linked share.",
+            "Bloomberg’s Zijia Song heard some investors say,\n“Even one-tenth of a percent is more than I would pay.”\nMoney Stuff had suggested excluding SpaceX, OpenAI,\nAnd Anthropic from a basket—cheap to build, so why not try?",
+            "Then Tidal Investments LLC and Subversive Capital filed a plan:\nTwo stock baskets designed to skip companies tied to one man.\nAn ETF is a basket whose shares can be traded each day;\nAn active manager chooses what stays in—or stays away.",
+            "QQNE normally puts at least 80% in Nasdaq-100 shares,\nBut Tesla and SpaceX are its “Excluded Enterprises.”\nSPNE applies a similar screen to the S&P 500 list,\nSeeking broad exposure while Musk-linked companies are missed.",
+            "Subversive already ran a Nancy Pelosi copy-trading ETF.\nNo one promised these new funds would outperform the rest.\nTheir funniest selling point was simple, loud, and television-ready:\n“The whole big market—but no Elon!” is a goofy story already.",
+            "What happened? Tidal Investments LLC and Subversive Capital filed for the Nasdaq-100 Ex-Elon Enterprises ETF (QQNE) and the similar S&P 500 Ex-Elon Enterprises ETF (SPNE). The actively managed funds seek broad large-company stock exposure while excluding Tesla and SpaceX, the Musk-associated companies named in the prospectus."
+          ]
+        },
+        "high": {
+          "title": "The Stock Basket with No Elon",
+          "lesson": "An actively managed ETF can follow a broad stock index while deliberately excluding specified companies; QQNE and SPNE were filed to omit companies associated with Elon Musk.",
+          "paragraphs": [
+            "Across U.S. stocks—some $80 trillion in all—\nElon Musk’s corner was hardly small.\nSpaceX was worth about $2 trillion; Tesla, $1.5,\nTogether, roughly 4.4% of the market-wide hive.",
+            "An index fund buys the companies listed inside.\nThe Nasdaq-100 held SpaceX and Tesla side by side;\nThe S&P 500 held Tesla, but SpaceX wasn’t there.\nSo ordinary index investors could own a Musk-linked share.",
+            "Bloomberg’s Zijia Song heard some investors say,\n“Even one-tenth of a percent is more than I would pay.”\nMoney Stuff had suggested excluding SpaceX, OpenAI,\nAnd Anthropic from a basket—cheap to build, so why not try?",
+            "Then Tidal Investments LLC and Subversive Capital filed a plan:\nTwo stock baskets designed to skip companies tied to one man.\nAn ETF is a basket whose shares can be traded each day;\nAn active manager chooses what stays in—or stays away.",
+            "QQNE normally puts at least 80% in Nasdaq-100 shares,\nBut Tesla and SpaceX are its “Excluded Enterprises.”\nSPNE applies a similar screen to the S&P 500 list,\nSeeking broad exposure while Musk-linked companies are missed.",
+            "Subversive already ran a Nancy Pelosi copy-trading ETF.\nNo one promised these new funds would outperform the rest.\nTheir funniest selling point was simple, loud, and television-ready:\n“The whole big market—but no Elon!” is a goofy story already.",
+            "What happened? Tidal Investments LLC and Subversive Capital filed for the Nasdaq-100 Ex-Elon Enterprises ETF (QQNE) and the similar S&P 500 Ex-Elon Enterprises ETF (SPNE). The actively managed funds seek broad large-company stock exposure while excluding Tesla and SpaceX, the Musk-associated companies named in the prospectus."
+          ]
+        }
+      }
+    },
+    {
+      "id": "is-egg-libor-securities-fraud",
+      "sourceSection": "Is Egg Libor securities fraud?",
+      "illustration": {
+        "src": "/images/2026-07-09-leave-the-oil-in-the-pipes/is-egg-libor-securities-fraud.png",
+        "alt": "The Adams family and Goldman Sachs arrange the sale of Cal-Maine shares while high-priced egg cartons and the rising share price show why the timing mattered."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "The Adams family"
+        ],
+        "realCompanies": [
+          "Cal-Maine",
+          "Goldman Sachs",
+          "Expana"
+        ],
+        "financialMechanism": "Allegedly coordinated trades in a small electronic egg exchange raised a benchmark used in larger wholesale contracts, increasing profits and potentially boosting Cal-Maine’s stock before the controlling family sold its shares.",
+        "centralJoke": "The egg-manipulation case was settled partly with millions of eggs for food banks, but shareholders claiming securities fraud are unlikely to accept payment in eggs."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Egg Price, the Share Price, and the Exit",
+          "lesson": "Prosecutors alleged that trades in a small electronic egg market raised a benchmark used in the much larger wholesale market; higher egg profits may also have boosted Cal-Maine’s stock before the Adams family sold its controlling stake.",
+          "paragraphs": [
+            "For nearly seven decades, the Adams family led\nCal-Maine, where millions of chickens were fed.\nA small electronic egg market helped set the guide\nFor wholesale egg contracts traded nationwide.",
+            "Prosecutors said Cal-Maine and two rivals would meet,\nCoordinating private bids and trades—not so sweet.\nA little more spending where the benchmark was made\nCould lift prices on many more eggs in wholesale trade.",
+            "Large grade A eggs topped $8.50 a dozen one day,\nFour times their old price, before falling to $2.19 in May.\nInvestors saw the profits and imagined more ahead;\nCal-Maine shares climbed as rosy forecasts spread.",
+            "The stock rose from about $45 to $95,\nAnd the Adams family chose that high point to say goodbye.\nTheir super-voting shares became ordinary on April fourteen;\nGoldman Sachs arranged the public sale behind the scene.",
+            "Nearly three million shares sold for $92.75 apiece,\nHelping the family’s $320 million exit reach release.\nThe prospectus mentioned a Justice Department demand,\nBut linked high egg prices to bird flu across the land.",
+            "Cal-Maine denied wrongdoing, though the egg case was settled,\nAnd millions of eggs for food banks were promised and scheduled.\nBut shareholders who claim they bought inflated shares instead\nWill probably ask for money—not omelets and bread.",
+            "What happened? The Justice Department accused Cal-Maine and other producers of manipulating a small electronic egg market to raise the benchmark used in larger wholesale contracts; Cal-Maine denied wrongdoing and settled the case. Soon after the alleged conduct ended, the Adams family sold its controlling stake near Cal-Maine’s record share price, creating a possible securities-fraud claim from public buyers."
+          ]
+        },
+        "elementary": {
+          "title": "The Egg Price, the Share Price, and the Exit",
+          "lesson": "Prosecutors alleged that trades in a small electronic egg market raised a benchmark used in the much larger wholesale market; higher egg profits may also have boosted Cal-Maine’s stock before the Adams family sold its controlling stake.",
+          "paragraphs": [
+            "For nearly seven decades, the Adams family led\nCal-Maine, where millions of chickens were fed.\nA small electronic egg market helped set the guide\nFor wholesale egg contracts traded nationwide.",
+            "Prosecutors said Cal-Maine and two rivals would meet,\nCoordinating private bids and trades—not so sweet.\nA little more spending where the benchmark was made\nCould lift prices on many more eggs in wholesale trade.",
+            "Large grade A eggs topped $8.50 a dozen one day,\nFour times their old price, before falling to $2.19 in May.\nInvestors saw the profits and imagined more ahead;\nCal-Maine shares climbed as rosy forecasts spread.",
+            "The stock rose from about $45 to $95,\nAnd the Adams family chose that high point to say goodbye.\nTheir super-voting shares became ordinary on April fourteen;\nGoldman Sachs arranged the public sale behind the scene.",
+            "Nearly three million shares sold for $92.75 apiece,\nHelping the family’s $320 million exit reach release.\nThe prospectus mentioned a Justice Department demand,\nBut linked high egg prices to bird flu across the land.",
+            "Cal-Maine denied wrongdoing, though the egg case was settled,\nAnd millions of eggs for food banks were promised and scheduled.\nBut shareholders who claim they bought inflated shares instead\nWill probably ask for money—not omelets and bread.",
+            "What happened? The Justice Department accused Cal-Maine and other producers of manipulating a small electronic egg market to raise the benchmark used in larger wholesale contracts; Cal-Maine denied wrongdoing and settled the case. Soon after the alleged conduct ended, the Adams family sold its controlling stake near Cal-Maine’s record share price, creating a possible securities-fraud claim from public buyers."
+          ]
+        },
+        "middle": {
+          "title": "The Egg Price, the Share Price, and the Exit",
+          "lesson": "Prosecutors alleged that trades in a small electronic egg market raised a benchmark used in the much larger wholesale market; higher egg profits may also have boosted Cal-Maine’s stock before the Adams family sold its controlling stake.",
+          "paragraphs": [
+            "For nearly seven decades, the Adams family led\nCal-Maine, where millions of chickens were fed.\nA small electronic egg market helped set the guide\nFor wholesale egg contracts traded nationwide.",
+            "Prosecutors said Cal-Maine and two rivals would meet,\nCoordinating private bids and trades—not so sweet.\nA little more spending where the benchmark was made\nCould lift prices on many more eggs in wholesale trade.",
+            "Large grade A eggs topped $8.50 a dozen one day,\nFour times their old price, before falling to $2.19 in May.\nInvestors saw the profits and imagined more ahead;\nCal-Maine shares climbed as rosy forecasts spread.",
+            "The stock rose from about $45 to $95,\nAnd the Adams family chose that high point to say goodbye.\nTheir super-voting shares became ordinary on April fourteen;\nGoldman Sachs arranged the public sale behind the scene.",
+            "Nearly three million shares sold for $92.75 apiece,\nHelping the family’s $320 million exit reach release.\nThe prospectus mentioned a Justice Department demand,\nBut linked high egg prices to bird flu across the land.",
+            "Cal-Maine denied wrongdoing, though the egg case was settled,\nAnd millions of eggs for food banks were promised and scheduled.\nBut shareholders who claim they bought inflated shares instead\nWill probably ask for money—not omelets and bread.",
+            "What happened? The Justice Department accused Cal-Maine and other producers of manipulating a small electronic egg market to raise the benchmark used in larger wholesale contracts; Cal-Maine denied wrongdoing and settled the case. Soon after the alleged conduct ended, the Adams family sold its controlling stake near Cal-Maine’s record share price, creating a possible securities-fraud claim from public buyers."
+          ]
+        },
+        "high": {
+          "title": "The Egg Price, the Share Price, and the Exit",
+          "lesson": "Prosecutors alleged that trades in a small electronic egg market raised a benchmark used in the much larger wholesale market; higher egg profits may also have boosted Cal-Maine’s stock before the Adams family sold its controlling stake.",
+          "paragraphs": [
+            "For nearly seven decades, the Adams family led\nCal-Maine, where millions of chickens were fed.\nA small electronic egg market helped set the guide\nFor wholesale egg contracts traded nationwide.",
+            "Prosecutors said Cal-Maine and two rivals would meet,\nCoordinating private bids and trades—not so sweet.\nA little more spending where the benchmark was made\nCould lift prices on many more eggs in wholesale trade.",
+            "Large grade A eggs topped $8.50 a dozen one day,\nFour times their old price, before falling to $2.19 in May.\nInvestors saw the profits and imagined more ahead;\nCal-Maine shares climbed as rosy forecasts spread.",
+            "The stock rose from about $45 to $95,\nAnd the Adams family chose that high point to say goodbye.\nTheir super-voting shares became ordinary on April fourteen;\nGoldman Sachs arranged the public sale behind the scene.",
+            "Nearly three million shares sold for $92.75 apiece,\nHelping the family’s $320 million exit reach release.\nThe prospectus mentioned a Justice Department demand,\nBut linked high egg prices to bird flu across the land.",
+            "Cal-Maine denied wrongdoing, though the egg case was settled,\nAnd millions of eggs for food banks were promised and scheduled.\nBut shareholders who claim they bought inflated shares instead\nWill probably ask for money—not omelets and bread.",
+            "What happened? The Justice Department accused Cal-Maine and other producers of manipulating a small electronic egg market to raise the benchmark used in larger wholesale contracts; Cal-Maine denied wrongdoing and settled the case. Soon after the alleged conduct ended, the Adams family sold its controlling stake near Cal-Maine’s record share price, creating a possible securities-fraud claim from public buyers."
+          ]
+        }
+      }
+    },
+    {
+      "id": "investment-banking-coverage",
+      "sourceSection": "Investment banking coverage",
+      "illustration": {
+        "src": "/images/2026-07-09-leave-the-oil-in-the-pipes/investment-banking-coverage.png",
+        "alt": "John Richert guides JPMorgan Chase bankers toward small-cap company deal folders beside the bank’s successful midcap work."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "John Whitehead",
+          "John Richert"
+        ],
+        "realCompanies": [
+          "JPMorgan Chase"
+        ],
+        "financialMechanism": "JPMorgan Chase is expanding its investment-banking coverage to smaller companies, seeking more advisory-fee revenue after achieving strong growth with midcap clients.",
+        "centralJoke": "Investment banks repeatedly announce that they should pursue big, high-fee deals, then expand toward smaller deals when those look profitable, setting up the likely future rediscovery that big fees are better."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "JPMorgan’s Smaller-Deal Crew",
+          "lesson": "JPMorgan Chase expanded into smaller-company transactions because its successful midcap advisory business showed that many smaller fees can produce substantial, fast-growing revenue.",
+          "paragraphs": [
+            "At investment banks, busy deal-making crews\nhelp companies merge, sell, buy—and earn fees too.\nThe usual command from the bosses upstairs:\n“Go find the biggest transactions out there!”",
+            "John Whitehead said first-rate business was just as easy to win;\none banker chasing small deals found that wasn’t true for him.\nStill, bank chiefs keep discovering, with great delight,\nthat three-million-dollar fees are better than slight.",
+            "But JPMorgan Chase now is widening its view:\nsmaller-company deals need good bankers too.\nIts middle-market effort serves companies in a band\nfrom $500 million to $2 billion grand.",
+            "That work brings the bank over $1 billion each year,\nwith growth above 20%—a result worth a cheer.\nSo John Richert will help oversee a new team\nfor firms worth $100 million to $500 million.",
+            "The clients once brushed off as too little to prize\nnow offer the bank its next chance to rise.\nPerhaps three years hence, a bold memo will say:\n“Let’s focus on big deals!”—a brand-new old way.",
+            "What happened? Investment banks earn fees by advising companies on transactions. JPMorgan Chase created a small-cap team for companies valued at $100 million to $500 million after its midcap business grew to more than $1 billion in annual revenue."
+          ]
+        },
+        "elementary": {
+          "title": "JPMorgan’s Smaller-Deal Crew",
+          "lesson": "JPMorgan Chase expanded into smaller-company transactions because its successful midcap advisory business showed that many smaller fees can produce substantial, fast-growing revenue.",
+          "paragraphs": [
+            "At investment banks, busy deal-making crews\nhelp companies merge, sell, buy—and earn fees too.\nThe usual command from the bosses upstairs:\n“Go find the biggest transactions out there!”",
+            "John Whitehead said first-rate business was just as easy to win;\none banker chasing small deals found that wasn’t true for him.\nStill, bank chiefs keep discovering, with great delight,\nthat three-million-dollar fees are better than slight.",
+            "But JPMorgan Chase now is widening its view:\nsmaller-company deals need good bankers too.\nIts middle-market effort serves companies in a band\nfrom $500 million to $2 billion grand.",
+            "That work brings the bank over $1 billion each year,\nwith growth above 20%—a result worth a cheer.\nSo John Richert will help oversee a new team\nfor firms worth $100 million to $500 million.",
+            "The clients once brushed off as too little to prize\nnow offer the bank its next chance to rise.\nPerhaps three years hence, a bold memo will say:\n“Let’s focus on big deals!”—a brand-new old way.",
+            "What happened? Investment banks earn fees by advising companies on transactions. JPMorgan Chase created a small-cap team for companies valued at $100 million to $500 million after its midcap business grew to more than $1 billion in annual revenue."
+          ]
+        },
+        "middle": {
+          "title": "JPMorgan’s Smaller-Deal Crew",
+          "lesson": "JPMorgan Chase expanded into smaller-company transactions because its successful midcap advisory business showed that many smaller fees can produce substantial, fast-growing revenue.",
+          "paragraphs": [
+            "At investment banks, busy deal-making crews\nhelp companies merge, sell, buy—and earn fees too.\nThe usual command from the bosses upstairs:\n“Go find the biggest transactions out there!”",
+            "John Whitehead said first-rate business was just as easy to win;\none banker chasing small deals found that wasn’t true for him.\nStill, bank chiefs keep discovering, with great delight,\nthat three-million-dollar fees are better than slight.",
+            "But JPMorgan Chase now is widening its view:\nsmaller-company deals need good bankers too.\nIts middle-market effort serves companies in a band\nfrom $500 million to $2 billion grand.",
+            "That work brings the bank over $1 billion each year,\nwith growth above 20%—a result worth a cheer.\nSo John Richert will help oversee a new team\nfor firms worth $100 million to $500 million.",
+            "The clients once brushed off as too little to prize\nnow offer the bank its next chance to rise.\nPerhaps three years hence, a bold memo will say:\n“Let’s focus on big deals!”—a brand-new old way.",
+            "What happened? Investment banks earn fees by advising companies on transactions. JPMorgan Chase created a small-cap team for companies valued at $100 million to $500 million after its midcap business grew to more than $1 billion in annual revenue."
+          ]
+        },
+        "high": {
+          "title": "JPMorgan’s Smaller-Deal Crew",
+          "lesson": "JPMorgan Chase expanded into smaller-company transactions because its successful midcap advisory business showed that many smaller fees can produce substantial, fast-growing revenue.",
+          "paragraphs": [
+            "At investment banks, busy deal-making crews\nhelp companies merge, sell, buy—and earn fees too.\nThe usual command from the bosses upstairs:\n“Go find the biggest transactions out there!”",
+            "John Whitehead said first-rate business was just as easy to win;\none banker chasing small deals found that wasn’t true for him.\nStill, bank chiefs keep discovering, with great delight,\nthat three-million-dollar fees are better than slight.",
+            "But JPMorgan Chase now is widening its view:\nsmaller-company deals need good bankers too.\nIts middle-market effort serves companies in a band\nfrom $500 million to $2 billion grand.",
+            "That work brings the bank over $1 billion each year,\nwith growth above 20%—a result worth a cheer.\nSo John Richert will help oversee a new team\nfor firms worth $100 million to $500 million.",
+            "The clients once brushed off as too little to prize\nnow offer the bank its next chance to rise.\nPerhaps three years hence, a bold memo will say:\n“Let’s focus on big deals!”—a brand-new old way.",
+            "What happened? Investment banks earn fees by advising companies on transactions. JPMorgan Chase created a small-cap team for companies valued at $100 million to $500 million after its midcap business grew to more than $1 billion in annual revenue."
+          ]
+        }
+      }
+    },
+    {
+      "id": "agentic-fundraising",
+      "sourceSection": "Agentic fundraising",
+      "illustration": {
+        "src": "/images/2026-07-09-leave-the-oil-in-the-pipes/agentic-fundraising.png",
+        "alt": "Lyzr’s AI agent answers a crowd of investors’ questions and drafts investment memos while human committee members look surprised."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Saritha Rai"
+        ],
+        "realCompanies": [
+          "Lyzr Inc.",
+          "Accenture Plc",
+          "Bloomberg"
+        ],
+        "financialMechanism": "An Accenture-backed startup used its own AI agent to conduct fundraising outreach, answer investor due-diligence questions, and draft memos for a Series B round seeking $100 million at about a $500 million valuation; Lyzr said it received $400 million in investor interest.",
+        "centralJoke": "If startups and venture capitalists both delegate fundraising and approval to AI agents, the bots might enthusiastically finance artificial superintelligence that threatens humanity, rewrite the committee memo to call it safe, and outvote the worried humans."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Lyzr’s Fundraising Agent",
+          "lesson": "Lyzr used its own AI agent to contact investors, answer questions, and draft investment memos for a planned $100 million Series B funding round.",
+          "paragraphs": [
+            "Bloomberg’s Saritha Rai brought curious news:\nLyzr builds AI agents for companies to use.\nThen Lyzr sent one on a fundraising quest—\nits own clever product performing the test.",
+            "The Accenture-backed startup sought a Series B,\na later funding round to help growth proceed.\nIt aimed for $100 million, while its valuation—\nits estimated worth—neared $500 million.",
+            "The agent answered questions from investors galore—\nmore than 130 came knocking at the door.\nIt drafted dozens of memos explaining the deal,\nand $400 million in interest appeared to be real.",
+            "Analysts asked about rivals, products, and plans,\nthen made a request that once needed human hands:\n“Please help us pitch Lyzr,” some investors said,\nso the bot helped prepare what their committees would read.",
+            "Imagine both sides sending agents someday:\n“We’ll enslave all humanity!” one memo might say.\n“Yessss, take our money!” the funding bots cheer,\nthen soften the words so they sound safe and sincere.",
+            "The humans ask, “Why promise we never will?”\nBut voting bots hold the majority still.\nThe joke is that people may barely take part—\nwhile agents write, bargain, approve, and start.",
+            "What happened? Lyzr said its AI agent handled investor outreach, answered more than 130 investors, and helped draft investment memos for a planned $100 million Series B at roughly a $500 million valuation. The company said the round attracted $400 million in interest."
+          ]
+        },
+        "elementary": {
+          "title": "Lyzr’s Fundraising Agent",
+          "lesson": "Lyzr used its own AI agent to contact investors, answer questions, and draft investment memos for a planned $100 million Series B funding round.",
+          "paragraphs": [
+            "Bloomberg’s Saritha Rai brought curious news:\nLyzr builds AI agents for companies to use.\nThen Lyzr sent one on a fundraising quest—\nits own clever product performing the test.",
+            "The Accenture-backed startup sought a Series B,\na later funding round to help growth proceed.\nIt aimed for $100 million, while its valuation—\nits estimated worth—neared $500 million.",
+            "The agent answered questions from investors galore—\nmore than 130 came knocking at the door.\nIt drafted dozens of memos explaining the deal,\nand $400 million in interest appeared to be real.",
+            "Analysts asked about rivals, products, and plans,\nthen made a request that once needed human hands:\n“Please help us pitch Lyzr,” some investors said,\nso the bot helped prepare what their committees would read.",
+            "Imagine both sides sending agents someday:\n“We’ll enslave all humanity!” one memo might say.\n“Yessss, take our money!” the funding bots cheer,\nthen soften the words so they sound safe and sincere.",
+            "The humans ask, “Why promise we never will?”\nBut voting bots hold the majority still.\nThe joke is that people may barely take part—\nwhile agents write, bargain, approve, and start.",
+            "What happened? Lyzr said its AI agent handled investor outreach, answered more than 130 investors, and helped draft investment memos for a planned $100 million Series B at roughly a $500 million valuation. The company said the round attracted $400 million in interest."
+          ]
+        },
+        "middle": {
+          "title": "Lyzr’s Fundraising Agent",
+          "lesson": "Lyzr used its own AI agent to contact investors, answer questions, and draft investment memos for a planned $100 million Series B funding round.",
+          "paragraphs": [
+            "Bloomberg’s Saritha Rai brought curious news:\nLyzr builds AI agents for companies to use.\nThen Lyzr sent one on a fundraising quest—\nits own clever product performing the test.",
+            "The Accenture-backed startup sought a Series B,\na later funding round to help growth proceed.\nIt aimed for $100 million, while its valuation—\nits estimated worth—neared $500 million.",
+            "The agent answered questions from investors galore—\nmore than 130 came knocking at the door.\nIt drafted dozens of memos explaining the deal,\nand $400 million in interest appeared to be real.",
+            "Analysts asked about rivals, products, and plans,\nthen made a request that once needed human hands:\n“Please help us pitch Lyzr,” some investors said,\nso the bot helped prepare what their committees would read.",
+            "Imagine both sides sending agents someday:\n“We’ll enslave all humanity!” one memo might say.\n“Yessss, take our money!” the funding bots cheer,\nthen soften the words so they sound safe and sincere.",
+            "The humans ask, “Why promise we never will?”\nBut voting bots hold the majority still.\nThe joke is that people may barely take part—\nwhile agents write, bargain, approve, and start.",
+            "What happened? Lyzr said its AI agent handled investor outreach, answered more than 130 investors, and helped draft investment memos for a planned $100 million Series B at roughly a $500 million valuation. The company said the round attracted $400 million in interest."
+          ]
+        },
+        "high": {
+          "title": "Lyzr’s Fundraising Agent",
+          "lesson": "Lyzr used its own AI agent to contact investors, answer questions, and draft investment memos for a planned $100 million Series B funding round.",
+          "paragraphs": [
+            "Bloomberg’s Saritha Rai brought curious news:\nLyzr builds AI agents for companies to use.\nThen Lyzr sent one on a fundraising quest—\nits own clever product performing the test.",
+            "The Accenture-backed startup sought a Series B,\na later funding round to help growth proceed.\nIt aimed for $100 million, while its valuation—\nits estimated worth—neared $500 million.",
+            "The agent answered questions from investors galore—\nmore than 130 came knocking at the door.\nIt drafted dozens of memos explaining the deal,\nand $400 million in interest appeared to be real.",
+            "Analysts asked about rivals, products, and plans,\nthen made a request that once needed human hands:\n“Please help us pitch Lyzr,” some investors said,\nso the bot helped prepare what their committees would read.",
+            "Imagine both sides sending agents someday:\n“We’ll enslave all humanity!” one memo might say.\n“Yessss, take our money!” the funding bots cheer,\nthen soften the words so they sound safe and sincere.",
+            "The humans ask, “Why promise we never will?”\nBut voting bots hold the majority still.\nThe joke is that people may barely take part—\nwhile agents write, bargain, approve, and start.",
+            "What happened? Lyzr said its AI agent handled investor outreach, answered more than 130 investors, and helped draft investment memos for a planned $100 million Series B at roughly a $500 million valuation. The company said the round attracted $400 million in interest."
+          ]
+        }
+      }
+    }
+  ]
+}
