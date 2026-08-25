@@ -48,6 +48,18 @@
       "submitted": true,
       "updatedAt": "2026-08-24T21:51:26.014Z",
       "submittedAt": "2026-08-24T21:51:26.014Z"
+    },
+    "1a03961c217a82b4": {
+      "gmailMessageId": "1a03961c217a82b4",
+      "newsletterDate": "2026-07-29",
+      "newsletterTitle": "SpaceX Crash Insurance",
+      "editionId": "2026-07-29-spacex-crash-insurance",
+      "sourceSha256": "f48300065ffd037c8226b91961cb6ac19767c03bb559681fab0dd89d502e2078",
+      "packageSha256": "2d2c3e7e439dc0bde81ca764d5fa24242dde6bf2df31e85e9b981dcc99f3792c",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-25T14:57:02.979Z",
+      "submittedAt": "2026-08-25T14:57:02.979Z"
     }
   }
 }
