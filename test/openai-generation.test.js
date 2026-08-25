@@ -8,7 +8,7 @@ const {
   generateImage, generateStory, parse, storyInstructions
 } = require('../scripts/lib/openai-generation');
 const { isPlaceholderIllustrationAlt } = require('../scripts/lib/illustration-alt');
-const { storyGeneration } = require('../scripts/lib/edition-schema');
+const { elementaryStoryGeneration, storyGeneration } = require('../scripts/lib/edition-schema');
 
 function validStory() {
   const copy = { title: 'Title', lesson: 'Mechanism', paragraphs: ['Faithful story.'] };
@@ -19,6 +19,15 @@ function validStory() {
       financialMechanism: 'The actual transaction', centralJoke: 'The source absurdity'
     },
     illustration: { alt: 'Story-specific scene', prompt: 'Concrete source-grounded scene' }
+  };
+}
+
+function validElementaryStory() {
+  const story = validRhymingStory();
+  return {
+    adaptations: { elementary: story.adaptations.elementary },
+    elementaryChecklist: story.elementaryChecklist,
+    illustration: story.illustration
   };
 }
 
@@ -41,8 +50,25 @@ test('provides model defaults while allowing the workflow environment to overrid
   assert.equal(DEFAULT_IMAGE_MODEL, 'gpt-image-1.5');
 });
 
+test('default structured output asks for Elementary only while canonical output stays compatible', async () => {
+  assert.doesNotThrow(() => elementaryStoryGeneration.parse(validElementaryStory()));
+  assert.throws(() => elementaryStoryGeneration.parse(validStory()));
+
+  const section = { heading: 'A real deal', sourceText: 'A real person at A real company made a real deal.' };
+  const result = await generateStory({
+    client: { responses: { parse: async () => ({ output_parsed: validElementaryStory() }) } },
+    model: DEFAULT_TEXT_MODEL,
+    section
+  });
+  assert.deepEqual(Object.keys(result.value.adaptations), ['preschool', 'elementary', 'middle', 'high']);
+  assert.deepEqual(result.value.adaptations.preschool, result.value.adaptations.elementary);
+  assert.deepEqual(result.value.adaptations.middle, result.value.adaptations.elementary);
+  assert.deepEqual(result.value.adaptations.high, result.value.adaptations.elementary);
+});
+
 test('rhyming prompt protects the real story and picture-book structure', () => {
   const instructions = storyInstructions();
+  assert.match(instructions, /one Elementary story only/i);
   for (const requirement of [
     /real person/i, /real company/i, /important number/i, /financial mechanism/i,
     /central joke or absurdity/i, /coherent story arc/i, /250–400 words/i,
@@ -99,7 +125,11 @@ test('image generation applies the consistent preschool board-book style', async
 test('rhyming validation rejects proper nouns broken across lines and generic suffix filler', async () => {
   const section = { heading: 'The deal', sourceText: 'Jamie Dimon at JPMorgan Chase completed the actual transaction.' };
   const generate = story => generateStory({
-    client: { responses: { parse: async () => ({ output_parsed: story }) } },
+    client: { responses: { parse: async () => ({ output_parsed: {
+      adaptations: { elementary: story.adaptations.elementary },
+      elementaryChecklist: story.elementaryChecklist,
+      illustration: story.illustration
+    } }) } },
     model: DEFAULT_TEXT_MODEL, section
   });
 
@@ -130,13 +160,14 @@ test('generation defaults to rhyme while retaining an explicit legacy escape hat
   const calls = [];
   const client = { responses: { parse: async request => {
     calls.push(request);
-    return { output_parsed: validRhymingStory() };
+    return { output_parsed: calls.length < 3 ? validElementaryStory() : validRhymingStory() };
   } } };
   const section = { heading: 'A real deal', sourceText: 'A real person at A real company made a real deal.' };
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, priorValidationError: 'missing final What happened?' });
   await generateStory({ client, model: DEFAULT_TEXT_MODEL, section, style: 'legacy' });
   assert.match(calls[0].instructions, /rhyming picture-book story/i);
+  assert.match(calls[0].instructions, /one Elementary story only/i);
   assert.match(calls[1].instructions, /complete replacement output, not a patch/i);
   assert.match(calls[1].input, /missing final What happened/);
   assert.doesNotMatch(calls[2].instructions, /rhyming picture-book story/i);
@@ -147,14 +178,19 @@ test('generation defaults to rhyme while retaining an explicit legacy escape hat
 test('rhyming editorial validation rejects structural and source-fidelity regressions', async () => {
   const section = { heading: 'The deal', sourceText: 'A real person at A real company completed the actual transaction.' };
   const generate = story => generateStory({
-    client: { responses: { parse: async () => ({ output_parsed: story }) } },
+    client: { responses: { parse: async () => ({ output_parsed: {
+      adaptations: { elementary: story.adaptations.elementary },
+      elementaryChecklist: story.elementaryChecklist,
+      illustration: story.illustration
+    } }) } },
     model: DEFAULT_TEXT_MODEL,
     section
   });
 
   const missingEnding = validRhymingStory();
   missingEnding.adaptations.elementary.paragraphs[1] = 'The ordinary prose ending has no explanatory heading.';
-  await assert.rejects(generate(missingEnding), /What happened\?/);
+  const repaired = await generate(missingEnding);
+  assert.match(repaired.value.adaptations.elementary.paragraphs.at(-1), /^What happened\?/);
 
   const genericShortCopy = validRhymingStory();
   genericShortCopy.adaptations.elementary.paragraphs = ['A lemonade stand analogy.', 'What happened? A transaction occurred.'];
