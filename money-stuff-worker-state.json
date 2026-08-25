@@ -60,6 +60,18 @@
       "submitted": true,
       "updatedAt": "2026-08-25T14:57:02.979Z",
       "submittedAt": "2026-08-25T14:57:02.979Z"
+    },
+    "1a03978e4ca6cbdb": {
+      "gmailMessageId": "1a03978e4ca6cbdb",
+      "newsletterDate": "2026-08-05",
+      "newsletterTitle": "SpaceX Unlocks Tomorrow",
+      "editionId": "2026-08-05-spacex-unlocks-tomorrow",
+      "sourceSha256": "1dec2c4a93eeb36c3f00fcbdd8e9e0be2e925dcf20f4ffaef3d17bcc192c6240",
+      "packageSha256": "5e4f6417ab1fd4ffcbd4d7fa27efdece5823cf55f3ecb76d7b8455036f68a0db",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-25T15:15:40.253Z",
+      "submittedAt": "2026-08-25T15:15:40.253Z"
     }
   }
 }
