@@ -96,6 +96,18 @@
       "submitted": true,
       "updatedAt": "2026-08-25T19:01:50.718Z",
       "submittedAt": "2026-08-25T19:01:50.718Z"
+    },
+    "1a03f3cf1781d60a": {
+      "gmailMessageId": "1a03f3cf1781d60a",
+      "newsletterDate": "2026-08-26",
+      "newsletterTitle": "Predict the KPIs",
+      "editionId": "2026-08-26-predict-the-kpis",
+      "sourceSha256": "ae6963c84c0c2512dce094b8d3cdb1d0d9bb62cd6419adca24820d0ef775ec75",
+      "packageSha256": "695e524b274fb7fbb6fd260496997738621f521858f69f643d6e7b1a49e2207a",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-26T19:22:17.599Z",
+      "submittedAt": "2026-08-26T19:22:17.599Z"
     }
   }
 }
