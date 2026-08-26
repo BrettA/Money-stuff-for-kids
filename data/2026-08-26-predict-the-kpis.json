@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-08-26-predict-the-kpis",
+  "date": "2026-08-26",
+  "displayDate": "August 26, 2026",
+  "title": "Predict the KPIs",
+  "sourceSections": [
+    "KPI binaries",
+    "No victim here",
+    "Good wedding toast",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "kpi-binaries",
+      "sourceSection": "KPI binaries",
+      "illustration": {
+        "src": "/images/2026-08-26-predict-the-kpis/kpi-binaries.png",
+        "alt": "Bernard Goyder watches a Cboe Tesla KPI option proposal and a Kalshi delay letter arrive at the SEC, beside Tesla-delivery and Knicks-win contracts in the CFTC lane."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Bernard Goyder"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Cboe Global Markets Inc.",
+          "CME Group Inc.",
+          "Kalshi",
+          "Tesla Inc."
+        ],
+        "financialMechanism": "A binary KPI option pays $1 if a reported corporate performance measure exceeds a set level and $0 if it does not; Cboe sought SEC oversight, while Kalshi operates related event contracts under CFTC oversight.",
+        "centralJoke": "A stock is economically a bet on future company income, yet regulators may decide that a direct bet on company income or production is not stock—and Kalshi, known for faster prediction-market approvals, asked the SEC to slow its competitor down."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The One-Dollar Company Bet",
+          "lesson": "Cboe proposed SEC-regulated binary options paying $1 or $0 based on corporate KPIs, while Kalshi argued that overlapping event contracts belong in its CFTC-regulated prediction-market territory.",
+          "paragraphs": [
+            "A stock’s price looks forward: What cash might it earn?\nMore profits expected can make prices turn.\nBut markets sell wagers on smaller-sized signs—\nCars delivered, revenue, product lines.",
+            "Cboe Global Markets proposed a new choice:\nBinary KPI options with a yes-or-no voice.\nIf Tesla earned over forty cents per share,\nOne dollar paid out; below, nothing there.",
+            "Net income, revenue, Model 3/Y production too—\nCompany scorecards could settle what buyers were due.\nCboe told the SEC, “These bets belong here:\nThey’re securities products, like stock options, quite near.”",
+            "But Kalshi, whose CFTC market hosts bets,\nAlready lists Tesla-delivery contracts.\nIt lists Knicks total wins—and then entered the fray,\nAsking the SEC to make Cboe delay.",
+            "Cboe and CME Group had grumbled before\nThat CFTC let new bets rush through the door.\nNow fast-moving Kalshi requested a gate;\nBloomberg’s Bernard Goyder reported the debate.",
+            "A stock is a bet on the income to come;\nAn income bet looks rather stock-like to some.\nYet perhaps, with a perfectly straight legal face,\n“The bet isn’t stock”—and it trades someplace else.",
+            "What happened? Cboe asked the SEC to approve $1-or-$0 options based on company KPIs such as Tesla’s earnings or vehicle production, while Kalshi asked for a delay. The dispute is whether these contracts are SEC-regulated securities derivatives or CFTC-regulated event bets."
+          ]
+        },
+        "elementary": {
+          "title": "The One-Dollar Company Bet",
+          "lesson": "Cboe proposed SEC-regulated binary options paying $1 or $0 based on corporate KPIs, while Kalshi argued that overlapping event contracts belong in its CFTC-regulated prediction-market territory.",
+          "paragraphs": [
+            "A stock’s price looks forward: What cash might it earn?\nMore profits expected can make prices turn.\nBut markets sell wagers on smaller-sized signs—\nCars delivered, revenue, product lines.",
+            "Cboe Global Markets proposed a new choice:\nBinary KPI options with a yes-or-no voice.\nIf Tesla earned over forty cents per share,\nOne dollar paid out; below, nothing there.",
+            "Net income, revenue, Model 3/Y production too—\nCompany scorecards could settle what buyers were due.\nCboe told the SEC, “These bets belong here:\nThey’re securities products, like stock options, quite near.”",
+            "But Kalshi, whose CFTC market hosts bets,\nAlready lists Tesla-delivery contracts.\nIt lists Knicks total wins—and then entered the fray,\nAsking the SEC to make Cboe delay.",
+            "Cboe and CME Group had grumbled before\nThat CFTC let new bets rush through the door.\nNow fast-moving Kalshi requested a gate;\nBloomberg’s Bernard Goyder reported the debate.",
+            "A stock is a bet on the income to come;\nAn income bet looks rather stock-like to some.\nYet perhaps, with a perfectly straight legal face,\n“The bet isn’t stock”—and it trades someplace else.",
+            "What happened? Cboe asked the SEC to approve $1-or-$0 options based on company KPIs such as Tesla’s earnings or vehicle production, while Kalshi asked for a delay. The dispute is whether these contracts are SEC-regulated securities derivatives or CFTC-regulated event bets."
+          ]
+        },
+        "middle": {
+          "title": "The One-Dollar Company Bet",
+          "lesson": "Cboe proposed SEC-regulated binary options paying $1 or $0 based on corporate KPIs, while Kalshi argued that overlapping event contracts belong in its CFTC-regulated prediction-market territory.",
+          "paragraphs": [
+            "A stock’s price looks forward: What cash might it earn?\nMore profits expected can make prices turn.\nBut markets sell wagers on smaller-sized signs—\nCars delivered, revenue, product lines.",
+            "Cboe Global Markets proposed a new choice:\nBinary KPI options with a yes-or-no voice.\nIf Tesla earned over forty cents per share,\nOne dollar paid out; below, nothing there.",
+            "Net income, revenue, Model 3/Y production too—\nCompany scorecards could settle what buyers were due.\nCboe told the SEC, “These bets belong here:\nThey’re securities products, like stock options, quite near.”",
+            "But Kalshi, whose CFTC market hosts bets,\nAlready lists Tesla-delivery contracts.\nIt lists Knicks total wins—and then entered the fray,\nAsking the SEC to make Cboe delay.",
+            "Cboe and CME Group had grumbled before\nThat CFTC let new bets rush through the door.\nNow fast-moving Kalshi requested a gate;\nBloomberg’s Bernard Goyder reported the debate.",
+            "A stock is a bet on the income to come;\nAn income bet looks rather stock-like to some.\nYet perhaps, with a perfectly straight legal face,\n“The bet isn’t stock”—and it trades someplace else.",
+            "What happened? Cboe asked the SEC to approve $1-or-$0 options based on company KPIs such as Tesla’s earnings or vehicle production, while Kalshi asked for a delay. The dispute is whether these contracts are SEC-regulated securities derivatives or CFTC-regulated event bets."
+          ]
+        },
+        "high": {
+          "title": "The One-Dollar Company Bet",
+          "lesson": "Cboe proposed SEC-regulated binary options paying $1 or $0 based on corporate KPIs, while Kalshi argued that overlapping event contracts belong in its CFTC-regulated prediction-market territory.",
+          "paragraphs": [
+            "A stock’s price looks forward: What cash might it earn?\nMore profits expected can make prices turn.\nBut markets sell wagers on smaller-sized signs—\nCars delivered, revenue, product lines.",
+            "Cboe Global Markets proposed a new choice:\nBinary KPI options with a yes-or-no voice.\nIf Tesla earned over forty cents per share,\nOne dollar paid out; below, nothing there.",
+            "Net income, revenue, Model 3/Y production too—\nCompany scorecards could settle what buyers were due.\nCboe told the SEC, “These bets belong here:\nThey’re securities products, like stock options, quite near.”",
+            "But Kalshi, whose CFTC market hosts bets,\nAlready lists Tesla-delivery contracts.\nIt lists Knicks total wins—and then entered the fray,\nAsking the SEC to make Cboe delay.",
+            "Cboe and CME Group had grumbled before\nThat CFTC let new bets rush through the door.\nNow fast-moving Kalshi requested a gate;\nBloomberg’s Bernard Goyder reported the debate.",
+            "A stock is a bet on the income to come;\nAn income bet looks rather stock-like to some.\nYet perhaps, with a perfectly straight legal face,\n“The bet isn’t stock”—and it trades someplace else.",
+            "What happened? Cboe asked the SEC to approve $1-or-$0 options based on company KPIs such as Tesla’s earnings or vehicle production, while Kalshi asked for a delay. The dispute is whether these contracts are SEC-regulated securities derivatives or CFTC-regulated event bets."
+          ]
+        }
+      }
+    },
+    {
+      "id": "no-victim-here",
+      "sourceSection": "No victim here",
+      "illustration": {
+        "src": "/images/2026-08-26-predict-the-kpis/no-victim-here.png",
+        "alt": "Group 1001 loan folders totaling more than $20 billion receive missing affiliated labels as regulators request a larger capital cushion and TWG Global prepares to buy the assets."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mark Walter"
+        ],
+        "realCompanies": [
+          "TWG Global",
+          "Group 1001"
+        ],
+        "financialMechanism": "Insurance regulators use risk-based capital rules to require a larger safety cushion for riskier or affiliated assets. If affiliated loans are mislabeled, regulators may permit an insurer to hold less capital than they otherwise would, even when all annuity payments are made.",
+        "centralJoke": "TWG Global says “There is no victim here” because the assets are performing and policyholders have not lost money, while the concern is precisely that inaccurate labels exposed policyholders and guarantee funds to extra risk before any visible harm occurred."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Loans with the Missing Label",
+          "lesson": "Mislabeling affiliated loans can hide insurance risk from regulators and reduce the capital cushion they require, even if every policyholder is ultimately paid.",
+          "paragraphs": [
+            "At Group 1001, in Mark Walter’s domain,\nMore than $20 billion was listed in loans.\nBut loans involving companies connected inside\nShould be marked “affiliated”—and these were not classified.",
+            "That label helps regulators measure the risk\nAnd order more capital—a safety-cushion disk.\nFor annuities promise payments for many long years,\nSo regulators demand enough backup for fears.",
+            "The Justice Department and SEC began to inquire;\nTWG Global responded, “There’s no fraud in this fire.\nThere is no victim here. No customer lost pay.\nThe assets earn income and perform well today.”",
+            "TWG proposed buying those assets itself,\nRemoving affiliate exposure from the insurer’s shelf.\nIts insurance group gave regulators a plan,\nTo settle their worries as promptly as it can.",
+            "So maybe each promised payment will arrive just fine—\nYet hidden risk still matters before payment time.\n“No victim!” sounds simple when no losses appear,\nBut capital rules guard against what might happen next year.",
+            "What happened? Group 1001 disclosed more than $20 billion of loans that reportedly should have been labeled as affiliated transactions, which likely meant its insurers should have held more regulatory capital. TWG Global said no policyholder was harmed and proposed purchasing the affiliated assets while working with regulators, the Justice Department, and the SEC."
+          ]
+        },
+        "elementary": {
+          "title": "The Loans with the Missing Label",
+          "lesson": "Mislabeling affiliated loans can hide insurance risk from regulators and reduce the capital cushion they require, even if every policyholder is ultimately paid.",
+          "paragraphs": [
+            "At Group 1001, in Mark Walter’s domain,\nMore than $20 billion was listed in loans.\nBut loans involving companies connected inside\nShould be marked “affiliated”—and these were not classified.",
+            "That label helps regulators measure the risk\nAnd order more capital—a safety-cushion disk.\nFor annuities promise payments for many long years,\nSo regulators demand enough backup for fears.",
+            "The Justice Department and SEC began to inquire;\nTWG Global responded, “There’s no fraud in this fire.\nThere is no victim here. No customer lost pay.\nThe assets earn income and perform well today.”",
+            "TWG proposed buying those assets itself,\nRemoving affiliate exposure from the insurer’s shelf.\nIts insurance group gave regulators a plan,\nTo settle their worries as promptly as it can.",
+            "So maybe each promised payment will arrive just fine—\nYet hidden risk still matters before payment time.\n“No victim!” sounds simple when no losses appear,\nBut capital rules guard against what might happen next year.",
+            "What happened? Group 1001 disclosed more than $20 billion of loans that reportedly should have been labeled as affiliated transactions, which likely meant its insurers should have held more regulatory capital. TWG Global said no policyholder was harmed and proposed purchasing the affiliated assets while working with regulators, the Justice Department, and the SEC."
+          ]
+        },
+        "middle": {
+          "title": "The Loans with the Missing Label",
+          "lesson": "Mislabeling affiliated loans can hide insurance risk from regulators and reduce the capital cushion they require, even if every policyholder is ultimately paid.",
+          "paragraphs": [
+            "At Group 1001, in Mark Walter’s domain,\nMore than $20 billion was listed in loans.\nBut loans involving companies connected inside\nShould be marked “affiliated”—and these were not classified.",
+            "That label helps regulators measure the risk\nAnd order more capital—a safety-cushion disk.\nFor annuities promise payments for many long years,\nSo regulators demand enough backup for fears.",
+            "The Justice Department and SEC began to inquire;\nTWG Global responded, “There’s no fraud in this fire.\nThere is no victim here. No customer lost pay.\nThe assets earn income and perform well today.”",
+            "TWG proposed buying those assets itself,\nRemoving affiliate exposure from the insurer’s shelf.\nIts insurance group gave regulators a plan,\nTo settle their worries as promptly as it can.",
+            "So maybe each promised payment will arrive just fine—\nYet hidden risk still matters before payment time.\n“No victim!” sounds simple when no losses appear,\nBut capital rules guard against what might happen next year.",
+            "What happened? Group 1001 disclosed more than $20 billion of loans that reportedly should have been labeled as affiliated transactions, which likely meant its insurers should have held more regulatory capital. TWG Global said no policyholder was harmed and proposed purchasing the affiliated assets while working with regulators, the Justice Department, and the SEC."
+          ]
+        },
+        "high": {
+          "title": "The Loans with the Missing Label",
+          "lesson": "Mislabeling affiliated loans can hide insurance risk from regulators and reduce the capital cushion they require, even if every policyholder is ultimately paid.",
+          "paragraphs": [
+            "At Group 1001, in Mark Walter’s domain,\nMore than $20 billion was listed in loans.\nBut loans involving companies connected inside\nShould be marked “affiliated”—and these were not classified.",
+            "That label helps regulators measure the risk\nAnd order more capital—a safety-cushion disk.\nFor annuities promise payments for many long years,\nSo regulators demand enough backup for fears.",
+            "The Justice Department and SEC began to inquire;\nTWG Global responded, “There’s no fraud in this fire.\nThere is no victim here. No customer lost pay.\nThe assets earn income and perform well today.”",
+            "TWG proposed buying those assets itself,\nRemoving affiliate exposure from the insurer’s shelf.\nIts insurance group gave regulators a plan,\nTo settle their worries as promptly as it can.",
+            "So maybe each promised payment will arrive just fine—\nYet hidden risk still matters before payment time.\n“No victim!” sounds simple when no losses appear,\nBut capital rules guard against what might happen next year.",
+            "What happened? Group 1001 disclosed more than $20 billion of loans that reportedly should have been labeled as affiliated transactions, which likely meant its insurers should have held more regulatory capital. TWG Global said no policyholder was harmed and proposed purchasing the affiliated assets while working with regulators, the Justice Department, and the SEC."
+          ]
+        }
+      }
+    },
+    {
+      "id": "good-wedding-toast",
+      "sourceSection": "Good wedding toast",
+      "illustration": {
+        "src": "/images/2026-08-26-predict-the-kpis/good-wedding-toast.png",
+        "alt": "At Leopold Aschenbrenner’s wedding, a speaker raises a glass beside margin-call papers and a stock-sale folder labeled Citadel."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Leopold Aschenbrenner",
+          "Ken Griffin"
+        ],
+        "realCompanies": [
+          "Situational Awareness",
+          "Citadel",
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "Aschenbrenner sold most of his publicly traded stock portfolio to Citadel to obtain cash needed to satisfy margin calls, which are demands for additional cash or collateral.",
+        "centralJoke": "A wedding speaker treated Ken Griffin’s role in the emergency portfolio sale as though Griffin had personally made the wedding possible."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "A Toast After the Margin Call",
+          "lesson": "Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise cash for margin calls, which inspired a joking wedding toast thanking Citadel CEO Ken Griffin.",
+          "paragraphs": [
+            "Leopold Aschenbrenner was twenty-four,\nwith a hedge fund that aimed to earn more.\nSituational Awareness was its name,\nbut a semi-collapse soon rattled the game.",
+            "A margin call means: “More cash must appear,\nor more collateral—valuable assets—right here.”\nTo meet those calls without further delay,\nLeopold sold most of his public stocks away.",
+            "Citadel bought them, and just days went by\nbefore Leopold’s wedding festivities drew nigh.\nThe Wall Street Journal reported the scene:\na wedding-day joke both pointed and keen.",
+            "One speaker raised a glass, and the punch line came in:\n“Thanks for making it possible, Citadel CEO Ken Griffin!”\nThe stock sale had helped answer each financial call—\nso Ken got mock credit for the wedding and all.",
+            "What happened? Days before his wedding, Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise money for margin calls. At the wedding, a speaker jokingly thanked Citadel CEO Ken Griffin “for making it all possible.”"
+          ]
+        },
+        "elementary": {
+          "title": "A Toast After the Margin Call",
+          "lesson": "Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise cash for margin calls, which inspired a joking wedding toast thanking Citadel CEO Ken Griffin.",
+          "paragraphs": [
+            "Leopold Aschenbrenner was twenty-four,\nwith a hedge fund that aimed to earn more.\nSituational Awareness was its name,\nbut a semi-collapse soon rattled the game.",
+            "A margin call means: “More cash must appear,\nor more collateral—valuable assets—right here.”\nTo meet those calls without further delay,\nLeopold sold most of his public stocks away.",
+            "Citadel bought them, and just days went by\nbefore Leopold’s wedding festivities drew nigh.\nThe Wall Street Journal reported the scene:\na wedding-day joke both pointed and keen.",
+            "One speaker raised a glass, and the punch line came in:\n“Thanks for making it possible, Citadel CEO Ken Griffin!”\nThe stock sale had helped answer each financial call—\nso Ken got mock credit for the wedding and all.",
+            "What happened? Days before his wedding, Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise money for margin calls. At the wedding, a speaker jokingly thanked Citadel CEO Ken Griffin “for making it all possible.”"
+          ]
+        },
+        "middle": {
+          "title": "A Toast After the Margin Call",
+          "lesson": "Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise cash for margin calls, which inspired a joking wedding toast thanking Citadel CEO Ken Griffin.",
+          "paragraphs": [
+            "Leopold Aschenbrenner was twenty-four,\nwith a hedge fund that aimed to earn more.\nSituational Awareness was its name,\nbut a semi-collapse soon rattled the game.",
+            "A margin call means: “More cash must appear,\nor more collateral—valuable assets—right here.”\nTo meet those calls without further delay,\nLeopold sold most of his public stocks away.",
+            "Citadel bought them, and just days went by\nbefore Leopold’s wedding festivities drew nigh.\nThe Wall Street Journal reported the scene:\na wedding-day joke both pointed and keen.",
+            "One speaker raised a glass, and the punch line came in:\n“Thanks for making it possible, Citadel CEO Ken Griffin!”\nThe stock sale had helped answer each financial call—\nso Ken got mock credit for the wedding and all.",
+            "What happened? Days before his wedding, Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise money for margin calls. At the wedding, a speaker jokingly thanked Citadel CEO Ken Griffin “for making it all possible.”"
+          ]
+        },
+        "high": {
+          "title": "A Toast After the Margin Call",
+          "lesson": "Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise cash for margin calls, which inspired a joking wedding toast thanking Citadel CEO Ken Griffin.",
+          "paragraphs": [
+            "Leopold Aschenbrenner was twenty-four,\nwith a hedge fund that aimed to earn more.\nSituational Awareness was its name,\nbut a semi-collapse soon rattled the game.",
+            "A margin call means: “More cash must appear,\nor more collateral—valuable assets—right here.”\nTo meet those calls without further delay,\nLeopold sold most of his public stocks away.",
+            "Citadel bought them, and just days went by\nbefore Leopold’s wedding festivities drew nigh.\nThe Wall Street Journal reported the scene:\na wedding-day joke both pointed and keen.",
+            "One speaker raised a glass, and the punch line came in:\n“Thanks for making it possible, Citadel CEO Ken Griffin!”\nThe stock sale had helped answer each financial call—\nso Ken got mock credit for the wedding and all.",
+            "What happened? Days before his wedding, Leopold Aschenbrenner sold most of his public stock portfolio to Citadel to raise money for margin calls. At the wedding, a speaker jokingly thanked Citadel CEO Ken Griffin “for making it all possible.”"
+          ]
+        }
+      }
+    }
+  ]
+}
