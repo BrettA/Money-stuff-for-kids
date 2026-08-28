@@ -108,6 +108,18 @@
       "submitted": true,
       "updatedAt": "2026-08-26T19:22:17.599Z",
       "submittedAt": "2026-08-26T19:22:17.599Z"
+    },
+    "1a044648cbc67d17": {
+      "gmailMessageId": "1a044648cbc67d17",
+      "newsletterDate": "2026-08-27",
+      "newsletterTitle": "AI Refi",
+      "editionId": "2026-08-27-ai-refi",
+      "sourceSha256": "b9c1fc5699e3fa31ca5882921c4d10976f0b88d6f9e5a844299fa91f0975b4e5",
+      "packageSha256": "cdd970dcc4276ee0d828c4d4537e222e99bb4f1a655a241078f74a86f47087af",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-28T00:04:20.145Z",
+      "submittedAt": "2026-08-28T00:04:20.145Z"
     }
   }
 }
