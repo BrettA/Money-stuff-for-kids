@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-08-27-ai-refi",
+  "date": "2026-08-27",
+  "displayDate": "August 27, 2026",
+  "title": "AI Refi",
+  "sourceSections": [
+    "Underpriced options",
+    "Evergreen funds",
+    "Elsewhere in underpriced options",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "underpriced-options",
+      "sourceSection": "Underpriced options",
+      "illustration": {
+        "src": "/images/2026-08-27-ai-refi/underpriced-options.png",
+        "alt": "A homeowner rapidly replaces a 6.65% mortgage folder with a 4.5% loan while clocks beside Rocket Mortgage, United Wholesale Mortgage, and Better.com show shrinking approval times."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jack Trapanick",
+          "Scott Carpenter",
+          "Jay Bacow"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Rocket Mortgage",
+          "United Wholesale Mortgage",
+          "Better.com",
+          "Morgan Stanley"
+        ],
+        "financialMechanism": "A 30-year fixed-rate US mortgage lets a borrower keep the original rate when market rates rise but refinance without penalty when rates fall. If AI makes refinancing easier and more common, mortgage investors face faster prepayments and may require higher initial rates as compensation.",
+        "centralJoke": "AI could turn a supposedly fixed-rate mortgage into a strange floating-rate loan whose rate only floats downward for the borrower."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Home Loan That Only Floats Down",
+          "lesson": "AI could help more homeowners refinance when rates fall, making mortgage prepayment options more valuable to borrowers and forcing mortgage investors to demand slightly higher interest rates.",
+          "paragraphs": [
+            "A thirty-year mortgage can fix what you pay:\n6.65 percent, though rates change every day.\nIf rates rise to eight, your old bargain stays;\nif they fall to 4.5, you can seek cheaper ways.",
+            "“Refinance” means a new loan pays off the old,\nso lower-rate savings can steadily unfold.\nBut forms take time, and the process is slow;\nmany busy homeowners simply don’t go.",
+            "Bloomberg’s Jack Trapanick and Scott Carpenter found\nthat AI may turn those delays upside down.\nRocket Mortgage says rate lock can take thirty minutes;\nit aims for just ten, with less paperwork in it.",
+            "United Wholesale Mortgage says fifteen may do.\nBetter.com claims it can finish in two.\nToday, only one-third who could save choose to try;\nMorgan Stanley says that could reach sixty with AI.",
+            "Jay Bacow and Morgan Stanley gave it a name:\n“a floating-rate instrument that only floats down”—what a game!\nBorrowers keep fixed rates whenever rates rise,\nthen swiftly refinance when cheaper ones arrive.",
+            "But investors lose higher payments sooner that way,\nso they may demand extra interest from day one’s pay:\nperhaps 0.1 or 0.2 percentage points more,\nthe price of making refinancing less of a chore.",
+            "What happened? AI is speeding mortgage approvals, which could help far more homeowners replace high-rate loans when interest rates fall. Morgan Stanley estimated that this added refinancing risk could make new mortgages cost one or two tenths of a percentage point more."
+          ]
+        },
+        "elementary": {
+          "title": "The Home Loan That Only Floats Down",
+          "lesson": "AI could help more homeowners refinance when rates fall, making mortgage prepayment options more valuable to borrowers and forcing mortgage investors to demand slightly higher interest rates.",
+          "paragraphs": [
+            "A thirty-year mortgage can fix what you pay:\n6.65 percent, though rates change every day.\nIf rates rise to eight, your old bargain stays;\nif they fall to 4.5, you can seek cheaper ways.",
+            "“Refinance” means a new loan pays off the old,\nso lower-rate savings can steadily unfold.\nBut forms take time, and the process is slow;\nmany busy homeowners simply don’t go.",
+            "Bloomberg’s Jack Trapanick and Scott Carpenter found\nthat AI may turn those delays upside down.\nRocket Mortgage says rate lock can take thirty minutes;\nit aims for just ten, with less paperwork in it.",
+            "United Wholesale Mortgage says fifteen may do.\nBetter.com claims it can finish in two.\nToday, only one-third who could save choose to try;\nMorgan Stanley says that could reach sixty with AI.",
+            "Jay Bacow and Morgan Stanley gave it a name:\n“a floating-rate instrument that only floats down”—what a game!\nBorrowers keep fixed rates whenever rates rise,\nthen swiftly refinance when cheaper ones arrive.",
+            "But investors lose higher payments sooner that way,\nso they may demand extra interest from day one’s pay:\nperhaps 0.1 or 0.2 percentage points more,\nthe price of making refinancing less of a chore.",
+            "What happened? AI is speeding mortgage approvals, which could help far more homeowners replace high-rate loans when interest rates fall. Morgan Stanley estimated that this added refinancing risk could make new mortgages cost one or two tenths of a percentage point more."
+          ]
+        },
+        "middle": {
+          "title": "The Home Loan That Only Floats Down",
+          "lesson": "AI could help more homeowners refinance when rates fall, making mortgage prepayment options more valuable to borrowers and forcing mortgage investors to demand slightly higher interest rates.",
+          "paragraphs": [
+            "A thirty-year mortgage can fix what you pay:\n6.65 percent, though rates change every day.\nIf rates rise to eight, your old bargain stays;\nif they fall to 4.5, you can seek cheaper ways.",
+            "“Refinance” means a new loan pays off the old,\nso lower-rate savings can steadily unfold.\nBut forms take time, and the process is slow;\nmany busy homeowners simply don’t go.",
+            "Bloomberg’s Jack Trapanick and Scott Carpenter found\nthat AI may turn those delays upside down.\nRocket Mortgage says rate lock can take thirty minutes;\nit aims for just ten, with less paperwork in it.",
+            "United Wholesale Mortgage says fifteen may do.\nBetter.com claims it can finish in two.\nToday, only one-third who could save choose to try;\nMorgan Stanley says that could reach sixty with AI.",
+            "Jay Bacow and Morgan Stanley gave it a name:\n“a floating-rate instrument that only floats down”—what a game!\nBorrowers keep fixed rates whenever rates rise,\nthen swiftly refinance when cheaper ones arrive.",
+            "But investors lose higher payments sooner that way,\nso they may demand extra interest from day one’s pay:\nperhaps 0.1 or 0.2 percentage points more,\nthe price of making refinancing less of a chore.",
+            "What happened? AI is speeding mortgage approvals, which could help far more homeowners replace high-rate loans when interest rates fall. Morgan Stanley estimated that this added refinancing risk could make new mortgages cost one or two tenths of a percentage point more."
+          ]
+        },
+        "high": {
+          "title": "The Home Loan That Only Floats Down",
+          "lesson": "AI could help more homeowners refinance when rates fall, making mortgage prepayment options more valuable to borrowers and forcing mortgage investors to demand slightly higher interest rates.",
+          "paragraphs": [
+            "A thirty-year mortgage can fix what you pay:\n6.65 percent, though rates change every day.\nIf rates rise to eight, your old bargain stays;\nif they fall to 4.5, you can seek cheaper ways.",
+            "“Refinance” means a new loan pays off the old,\nso lower-rate savings can steadily unfold.\nBut forms take time, and the process is slow;\nmany busy homeowners simply don’t go.",
+            "Bloomberg’s Jack Trapanick and Scott Carpenter found\nthat AI may turn those delays upside down.\nRocket Mortgage says rate lock can take thirty minutes;\nit aims for just ten, with less paperwork in it.",
+            "United Wholesale Mortgage says fifteen may do.\nBetter.com claims it can finish in two.\nToday, only one-third who could save choose to try;\nMorgan Stanley says that could reach sixty with AI.",
+            "Jay Bacow and Morgan Stanley gave it a name:\n“a floating-rate instrument that only floats down”—what a game!\nBorrowers keep fixed rates whenever rates rise,\nthen swiftly refinance when cheaper ones arrive.",
+            "But investors lose higher payments sooner that way,\nso they may demand extra interest from day one’s pay:\nperhaps 0.1 or 0.2 percentage points more,\nthe price of making refinancing less of a chore.",
+            "What happened? AI is speeding mortgage approvals, which could help far more homeowners replace high-rate loans when interest rates fall. Morgan Stanley estimated that this added refinancing risk could make new mortgages cost one or two tenths of a percentage point more."
+          ]
+        }
+      }
+    },
+    {
+      "id": "evergreen-funds",
+      "sourceSection": "Evergreen funds",
+      "illustration": {
+        "src": "/images/2026-08-27-ai-refi/evergreen-funds.png",
+        "alt": "Institutional investors join individuals at Blackstone and KKR evergreen-fund counters while capital-call envelopes pile up at an older 10-year drawdown desk."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Joan Solotar",
+          "Eric Mogelof",
+          "Hugh MacArthur"
+        ],
+        "realCompanies": [
+          "Blackstone",
+          "KKR",
+          "Bain & Company",
+          "Financial Times"
+        ],
+        "financialMechanism": "Evergreen funds collect an investor’s cash upfront, continually accept new investments, and may permit periodic redemptions. Traditional drawdown funds instead obtain commitments and issue capital calls when deals require cash; delaying those calls can improve measured IRR because its clock begins when capital is called.",
+        "centralJoke": "A private-equity product designed to make investing easier for individuals turned out to offer better customer convenience than the older product reserved for sophisticated institutions, so institutions started asking for the individual-style product too."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Evergreen Door Opens Wide",
+          "lesson": "Traditional drawdown funds collect committed capital only when deals arise, while evergreen funds take cash upfront, accept investments over time, and may allow periodic withdrawals—a convenience now attracting institutions as well as individuals.",
+          "paragraphs": [
+            "For years, institutions would promise a pile,\nthen wait for a deal—perhaps quite a while.\nA $10 billion drawdown fund wasn’t cash in a drawer;\nits backers wired pieces when managers called for more.",
+            "That message—a capital call—meant, “Send money today.”\nTill then, backers could keep their cash working away.\nAnd because IRR’s clock starts when called cash arrives,\na later call can help that return score thrive.",
+            "But asking thousands with $5,000 apiece\nfor $500 later brought no one much peace.\nSome people might move; capital-call letters might stray,\nso funds built for individuals chose a new way.",
+            "An evergreen takes all the cash on day one\nand welcomes new money whenever it comes.\nIt may offer withdrawals at regular turns,\nbut cash held to meet them can lower returns.",
+            "The Financial Times spotted a turn in the queue:\nbig institutions wanted that convenience too.\nAt Blackstone, Joan Solotar noted their share\nwas only a small percentage—but institutions were there.",
+            "At KKR, Eric Mogelof answered demand\nwith institutional share classes ready at hand.\nHugh MacArthur of Bain & Company said\nthis wish for convenience would keep moving ahead.",
+            "How strange: the individual product felt better\nto institutions tired of each capital-call letter.\nThe service was easier—but not every way:\nlower target returns were part of the trade.",
+            "What happened? Institutions began investing in Blackstone and KKR evergreen funds, which collect cash upfront, accept investments over time, and permit withdrawals at intervals. Traditional drawdown funds instead call committed capital as deals arise, often locking investors in for about 10 years."
+          ]
+        },
+        "elementary": {
+          "title": "The Evergreen Door Opens Wide",
+          "lesson": "Traditional drawdown funds collect committed capital only when deals arise, while evergreen funds take cash upfront, accept investments over time, and may allow periodic withdrawals—a convenience now attracting institutions as well as individuals.",
+          "paragraphs": [
+            "For years, institutions would promise a pile,\nthen wait for a deal—perhaps quite a while.\nA $10 billion drawdown fund wasn’t cash in a drawer;\nits backers wired pieces when managers called for more.",
+            "That message—a capital call—meant, “Send money today.”\nTill then, backers could keep their cash working away.\nAnd because IRR’s clock starts when called cash arrives,\na later call can help that return score thrive.",
+            "But asking thousands with $5,000 apiece\nfor $500 later brought no one much peace.\nSome people might move; capital-call letters might stray,\nso funds built for individuals chose a new way.",
+            "An evergreen takes all the cash on day one\nand welcomes new money whenever it comes.\nIt may offer withdrawals at regular turns,\nbut cash held to meet them can lower returns.",
+            "The Financial Times spotted a turn in the queue:\nbig institutions wanted that convenience too.\nAt Blackstone, Joan Solotar noted their share\nwas only a small percentage—but institutions were there.",
+            "At KKR, Eric Mogelof answered demand\nwith institutional share classes ready at hand.\nHugh MacArthur of Bain & Company said\nthis wish for convenience would keep moving ahead.",
+            "How strange: the individual product felt better\nto institutions tired of each capital-call letter.\nThe service was easier—but not every way:\nlower target returns were part of the trade.",
+            "What happened? Institutions began investing in Blackstone and KKR evergreen funds, which collect cash upfront, accept investments over time, and permit withdrawals at intervals. Traditional drawdown funds instead call committed capital as deals arise, often locking investors in for about 10 years."
+          ]
+        },
+        "middle": {
+          "title": "The Evergreen Door Opens Wide",
+          "lesson": "Traditional drawdown funds collect committed capital only when deals arise, while evergreen funds take cash upfront, accept investments over time, and may allow periodic withdrawals—a convenience now attracting institutions as well as individuals.",
+          "paragraphs": [
+            "For years, institutions would promise a pile,\nthen wait for a deal—perhaps quite a while.\nA $10 billion drawdown fund wasn’t cash in a drawer;\nits backers wired pieces when managers called for more.",
+            "That message—a capital call—meant, “Send money today.”\nTill then, backers could keep their cash working away.\nAnd because IRR’s clock starts when called cash arrives,\na later call can help that return score thrive.",
+            "But asking thousands with $5,000 apiece\nfor $500 later brought no one much peace.\nSome people might move; capital-call letters might stray,\nso funds built for individuals chose a new way.",
+            "An evergreen takes all the cash on day one\nand welcomes new money whenever it comes.\nIt may offer withdrawals at regular turns,\nbut cash held to meet them can lower returns.",
+            "The Financial Times spotted a turn in the queue:\nbig institutions wanted that convenience too.\nAt Blackstone, Joan Solotar noted their share\nwas only a small percentage—but institutions were there.",
+            "At KKR, Eric Mogelof answered demand\nwith institutional share classes ready at hand.\nHugh MacArthur of Bain & Company said\nthis wish for convenience would keep moving ahead.",
+            "How strange: the individual product felt better\nto institutions tired of each capital-call letter.\nThe service was easier—but not every way:\nlower target returns were part of the trade.",
+            "What happened? Institutions began investing in Blackstone and KKR evergreen funds, which collect cash upfront, accept investments over time, and permit withdrawals at intervals. Traditional drawdown funds instead call committed capital as deals arise, often locking investors in for about 10 years."
+          ]
+        },
+        "high": {
+          "title": "The Evergreen Door Opens Wide",
+          "lesson": "Traditional drawdown funds collect committed capital only when deals arise, while evergreen funds take cash upfront, accept investments over time, and may allow periodic withdrawals—a convenience now attracting institutions as well as individuals.",
+          "paragraphs": [
+            "For years, institutions would promise a pile,\nthen wait for a deal—perhaps quite a while.\nA $10 billion drawdown fund wasn’t cash in a drawer;\nits backers wired pieces when managers called for more.",
+            "That message—a capital call—meant, “Send money today.”\nTill then, backers could keep their cash working away.\nAnd because IRR’s clock starts when called cash arrives,\na later call can help that return score thrive.",
+            "But asking thousands with $5,000 apiece\nfor $500 later brought no one much peace.\nSome people might move; capital-call letters might stray,\nso funds built for individuals chose a new way.",
+            "An evergreen takes all the cash on day one\nand welcomes new money whenever it comes.\nIt may offer withdrawals at regular turns,\nbut cash held to meet them can lower returns.",
+            "The Financial Times spotted a turn in the queue:\nbig institutions wanted that convenience too.\nAt Blackstone, Joan Solotar noted their share\nwas only a small percentage—but institutions were there.",
+            "At KKR, Eric Mogelof answered demand\nwith institutional share classes ready at hand.\nHugh MacArthur of Bain & Company said\nthis wish for convenience would keep moving ahead.",
+            "How strange: the individual product felt better\nto institutions tired of each capital-call letter.\nThe service was easier—but not every way:\nlower target returns were part of the trade.",
+            "What happened? Institutions began investing in Blackstone and KKR evergreen funds, which collect cash upfront, accept investments over time, and permit withdrawals at intervals. Traditional drawdown funds instead call committed capital as deals arise, often locking investors in for about 10 years."
+          ]
+        }
+      }
+    },
+    {
+      "id": "elsewhere-in-underpriced-options",
+      "sourceSection": "Elsewhere in underpriced options",
+      "illustration": {
+        "src": "/images/2026-08-27-ai-refi/elsewhere-in-underpriced-options.png",
+        "alt": "Tang Lin remains at a Dymon Asia Capital desk while a prepared but empty Millennium Management workstation sits beside a Hong Kong court claim for HK$19.7 million."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Tang Lin"
+        ],
+        "realCompanies": [
+          "Millennium Management",
+          "Dymon Asia Capital"
+        ],
+        "financialMechanism": "An outside job offer can function like a valuable option or bargaining tool: the employee may accept or use it to improve the terms of staying, while the outside employer bears recruiting and preparation costs. Millennium is seeking to recover those costs after Tang Lin accepted its offer but stayed at Dymon.",
+        "centralJoke": "A company normally provides the valuable bargaining chip of a job offer for free; if Millennium’s offer helped Tang Lin secure a sufficiently valuable reason to stay, even the $2.5 million claim could conceivably be a bargain."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Offer That Came Back With a Bill",
+          "lesson": "A job offer can give a worker bargaining power even if the worker stays put; Millennium Management is suing Tang Lin to recover costs it says it incurred after she accepted its offer but remained at Dymon Asia Capital.",
+          "paragraphs": [
+            "Tang Lin worked at Dymon, where portfolios were her trade;\nThen Millennium offered a job, and joining plans were made.",
+            "Millennium Management, a hedge fund of ninety-two billion dollars,\nPrepared for Tang to come aboard—then heard she would not follow.",
+            "Tang chose to stay at Dymon. Millennium said, “But still,\nWe spent to get your post prepared, and now we have a bill.”",
+            "It sued in court in Hong Kong for HK$19.7 million—\nAbout $2.5 million in claimed preparation costs, a sizable sum.",
+            "This switch is called “gazumping,” a word from selling homes:\nYou first accept one deal, then choose another before the closing comes.",
+            "An outside offer can be useful when asking for better pay:\nIt proves another firm might hire you—though Tang’s package isn’t known today.",
+            "So here’s the funny possibility—though no one knows the score:\nIf Millennium helped Tang win much more, its giant bill might still cost less than what the offer did for her.",
+            "What happened? Tang Lin accepted a job offer from Millennium Management but ultimately remained at Dymon Asia Capital. Millennium sued her for HK$19.7 million, or about $2.5 million, claiming costs it incurred while preparing for her arrival."
+          ]
+        },
+        "elementary": {
+          "title": "The Offer That Came Back With a Bill",
+          "lesson": "A job offer can give a worker bargaining power even if the worker stays put; Millennium Management is suing Tang Lin to recover costs it says it incurred after she accepted its offer but remained at Dymon Asia Capital.",
+          "paragraphs": [
+            "Tang Lin worked at Dymon, where portfolios were her trade;\nThen Millennium offered a job, and joining plans were made.",
+            "Millennium Management, a hedge fund of ninety-two billion dollars,\nPrepared for Tang to come aboard—then heard she would not follow.",
+            "Tang chose to stay at Dymon. Millennium said, “But still,\nWe spent to get your post prepared, and now we have a bill.”",
+            "It sued in court in Hong Kong for HK$19.7 million—\nAbout $2.5 million in claimed preparation costs, a sizable sum.",
+            "This switch is called “gazumping,” a word from selling homes:\nYou first accept one deal, then choose another before the closing comes.",
+            "An outside offer can be useful when asking for better pay:\nIt proves another firm might hire you—though Tang’s package isn’t known today.",
+            "So here’s the funny possibility—though no one knows the score:\nIf Millennium helped Tang win much more, its giant bill might still cost less than what the offer did for her.",
+            "What happened? Tang Lin accepted a job offer from Millennium Management but ultimately remained at Dymon Asia Capital. Millennium sued her for HK$19.7 million, or about $2.5 million, claiming costs it incurred while preparing for her arrival."
+          ]
+        },
+        "middle": {
+          "title": "The Offer That Came Back With a Bill",
+          "lesson": "A job offer can give a worker bargaining power even if the worker stays put; Millennium Management is suing Tang Lin to recover costs it says it incurred after she accepted its offer but remained at Dymon Asia Capital.",
+          "paragraphs": [
+            "Tang Lin worked at Dymon, where portfolios were her trade;\nThen Millennium offered a job, and joining plans were made.",
+            "Millennium Management, a hedge fund of ninety-two billion dollars,\nPrepared for Tang to come aboard—then heard she would not follow.",
+            "Tang chose to stay at Dymon. Millennium said, “But still,\nWe spent to get your post prepared, and now we have a bill.”",
+            "It sued in court in Hong Kong for HK$19.7 million—\nAbout $2.5 million in claimed preparation costs, a sizable sum.",
+            "This switch is called “gazumping,” a word from selling homes:\nYou first accept one deal, then choose another before the closing comes.",
+            "An outside offer can be useful when asking for better pay:\nIt proves another firm might hire you—though Tang’s package isn’t known today.",
+            "So here’s the funny possibility—though no one knows the score:\nIf Millennium helped Tang win much more, its giant bill might still cost less than what the offer did for her.",
+            "What happened? Tang Lin accepted a job offer from Millennium Management but ultimately remained at Dymon Asia Capital. Millennium sued her for HK$19.7 million, or about $2.5 million, claiming costs it incurred while preparing for her arrival."
+          ]
+        },
+        "high": {
+          "title": "The Offer That Came Back With a Bill",
+          "lesson": "A job offer can give a worker bargaining power even if the worker stays put; Millennium Management is suing Tang Lin to recover costs it says it incurred after she accepted its offer but remained at Dymon Asia Capital.",
+          "paragraphs": [
+            "Tang Lin worked at Dymon, where portfolios were her trade;\nThen Millennium offered a job, and joining plans were made.",
+            "Millennium Management, a hedge fund of ninety-two billion dollars,\nPrepared for Tang to come aboard—then heard she would not follow.",
+            "Tang chose to stay at Dymon. Millennium said, “But still,\nWe spent to get your post prepared, and now we have a bill.”",
+            "It sued in court in Hong Kong for HK$19.7 million—\nAbout $2.5 million in claimed preparation costs, a sizable sum.",
+            "This switch is called “gazumping,” a word from selling homes:\nYou first accept one deal, then choose another before the closing comes.",
+            "An outside offer can be useful when asking for better pay:\nIt proves another firm might hire you—though Tang’s package isn’t known today.",
+            "So here’s the funny possibility—though no one knows the score:\nIf Millennium helped Tang win much more, its giant bill might still cost less than what the offer did for her.",
+            "What happened? Tang Lin accepted a job offer from Millennium Management but ultimately remained at Dymon Asia Capital. Millennium sued her for HK$19.7 million, or about $2.5 million, claiming costs it incurred while preparing for her arrival."
+          ]
+        }
+      }
+    }
+  ]
+}
