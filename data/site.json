@@ -23,6 +23,14 @@
   ],
   "editions": [
     {
+      "id": "2026-08-27-ai-refi",
+      "date": "2026-08-27",
+      "displayDate": "August 27, 2026",
+      "title": "AI Refi",
+      "storyCount": 3,
+      "href": "/editions/2026-08-27-ai-refi/"
+    },
+    {
       "id": "2026-08-26-predict-the-kpis",
       "date": "2026-08-26",
       "displayDate": "August 26, 2026",
