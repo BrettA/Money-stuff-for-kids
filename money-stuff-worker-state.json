@@ -120,6 +120,18 @@
       "submitted": true,
       "updatedAt": "2026-08-28T00:04:20.145Z",
       "submittedAt": "2026-08-28T00:04:20.145Z"
+    },
+    "1a0590ac86c84a93": {
+      "gmailMessageId": "1a0590ac86c84a93",
+      "newsletterDate": "2026-08-31",
+      "newsletterTitle": "Don’t Hedge the KPIs",
+      "editionId": "2026-08-31-don-t-hedge-the-kpis",
+      "sourceSha256": "e86e3291b646f87eab2466ba13037eb468db61b804468e03aa5a7de6814b08b9",
+      "packageSha256": "d6c05e28c9206d797bfd7cfb3519c52e09ff082bdf632586a994845d4c3f92fb",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-08-31T20:54:01.801Z",
+      "submittedAt": "2026-08-31T20:54:01.801Z"
     }
   }
 }
