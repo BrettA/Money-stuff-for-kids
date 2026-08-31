@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-08-31-don-t-hedge-the-kpis",
+  "date": "2026-08-31",
+  "displayDate": "August 31, 2026",
+  "title": "Don’t Hedge the KPIs",
+  "sourceSections": [
+    "LSU KPI hedge",
+    "KPI insider trading",
+    "Hassle",
+    "Anthropic",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "lsu-kpi-hedge",
+      "sourceSection": "LSU KPI hedge",
+      "illustration": {
+        "src": "/images/2026-08-31-don-t-hedge-the-kpis/lsu-kpi-hedge.png",
+        "alt": "Lane Kiffin stands beside a football field while an outside helper arranges five Kalshi contract cards for LSU’s playoff stages, with the championship contracts and bonus both marked $3 million."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Lane Kiffin"
+        ],
+        "realCompanies": [
+          "Louisiana State University (LSU)",
+          "Kalshi",
+          "InGame"
+        ],
+        "financialMechanism": "A third party placed five large Kalshi block trades that paid when LSU reached successive College Football Playoff milestones, offsetting bonus payments owed to Lane Kiffin; the combined championship payout was $3 million.",
+        "centralJoke": "LSU was effectively hedging against the cost of winning, even though winning was the valuable outcome that made the coach’s bonus worthwhile—and betting on your own games sounds more acceptable when it is called hedging."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "LSU’s Hedge Against Winning",
+          "lesson": "A third party used Kalshi contracts tied to LSU’s football success to offset Lane Kiffin’s possible bonuses, even though the victories triggering those bonuses should also benefit LSU.",
+          "paragraphs": [
+            "At Louisiana State, a prize had been planned:\nCoach Lane Kiffin could earn more as his football team advanced.\nPlayoff, quarterfinal, semifinal, then\nThe championship brought bonus money again.",
+            "An outside helper tried softening the bill\nWith Kalshi contracts that paid when LSU did well.\nFive “block trades”—large deals agreed in advance—\nCovered five stages of LSU’s championship chance.",
+            "Each trade was worth $300,000 to $900,000 in size;\nTogether they paid $3 million for the championship prize.\nThat matched Kiffin’s title bonus exactly:\nIf LSU owed him, the contracts paid back neatly.",
+            "But winning could bring students, donations, and television pay;\nThat’s why LSU offered a victory bonus anyway.\nThe bonus costs more when the season goes right,\nAnd costs much less after defeat ends the fight.",
+            "Once, teams betting on their games caused alarm;\nNow call it “hedging,” and somehow it sounds calm.\nKalshi bans team employees from trading this way—\nBut if a helper trades for LSU, who is trading, anyway?",
+            "What happened? A third party helping LSU manage Lane Kiffin’s potential bonuses placed five negotiated block trades on Kalshi tied to LSU advancing through the College Football Playoff. If LSU won the national championship, the trades would pay a combined $3 million—exactly matching Kiffin’s championship bonus—even though winning itself should be financially valuable to LSU."
+          ]
+        },
+        "elementary": {
+          "title": "LSU’s Hedge Against Winning",
+          "lesson": "A third party used Kalshi contracts tied to LSU’s football success to offset Lane Kiffin’s possible bonuses, even though the victories triggering those bonuses should also benefit LSU.",
+          "paragraphs": [
+            "At Louisiana State, a prize had been planned:\nCoach Lane Kiffin could earn more as his football team advanced.\nPlayoff, quarterfinal, semifinal, then\nThe championship brought bonus money again.",
+            "An outside helper tried softening the bill\nWith Kalshi contracts that paid when LSU did well.\nFive “block trades”—large deals agreed in advance—\nCovered five stages of LSU’s championship chance.",
+            "Each trade was worth $300,000 to $900,000 in size;\nTogether they paid $3 million for the championship prize.\nThat matched Kiffin’s title bonus exactly:\nIf LSU owed him, the contracts paid back neatly.",
+            "But winning could bring students, donations, and television pay;\nThat’s why LSU offered a victory bonus anyway.\nThe bonus costs more when the season goes right,\nAnd costs much less after defeat ends the fight.",
+            "Once, teams betting on their games caused alarm;\nNow call it “hedging,” and somehow it sounds calm.\nKalshi bans team employees from trading this way—\nBut if a helper trades for LSU, who is trading, anyway?",
+            "What happened? A third party helping LSU manage Lane Kiffin’s potential bonuses placed five negotiated block trades on Kalshi tied to LSU advancing through the College Football Playoff. If LSU won the national championship, the trades would pay a combined $3 million—exactly matching Kiffin’s championship bonus—even though winning itself should be financially valuable to LSU."
+          ]
+        },
+        "middle": {
+          "title": "LSU’s Hedge Against Winning",
+          "lesson": "A third party used Kalshi contracts tied to LSU’s football success to offset Lane Kiffin’s possible bonuses, even though the victories triggering those bonuses should also benefit LSU.",
+          "paragraphs": [
+            "At Louisiana State, a prize had been planned:\nCoach Lane Kiffin could earn more as his football team advanced.\nPlayoff, quarterfinal, semifinal, then\nThe championship brought bonus money again.",
+            "An outside helper tried softening the bill\nWith Kalshi contracts that paid when LSU did well.\nFive “block trades”—large deals agreed in advance—\nCovered five stages of LSU’s championship chance.",
+            "Each trade was worth $300,000 to $900,000 in size;\nTogether they paid $3 million for the championship prize.\nThat matched Kiffin’s title bonus exactly:\nIf LSU owed him, the contracts paid back neatly.",
+            "But winning could bring students, donations, and television pay;\nThat’s why LSU offered a victory bonus anyway.\nThe bonus costs more when the season goes right,\nAnd costs much less after defeat ends the fight.",
+            "Once, teams betting on their games caused alarm;\nNow call it “hedging,” and somehow it sounds calm.\nKalshi bans team employees from trading this way—\nBut if a helper trades for LSU, who is trading, anyway?",
+            "What happened? A third party helping LSU manage Lane Kiffin’s potential bonuses placed five negotiated block trades on Kalshi tied to LSU advancing through the College Football Playoff. If LSU won the national championship, the trades would pay a combined $3 million—exactly matching Kiffin’s championship bonus—even though winning itself should be financially valuable to LSU."
+          ]
+        },
+        "high": {
+          "title": "LSU’s Hedge Against Winning",
+          "lesson": "A third party used Kalshi contracts tied to LSU’s football success to offset Lane Kiffin’s possible bonuses, even though the victories triggering those bonuses should also benefit LSU.",
+          "paragraphs": [
+            "At Louisiana State, a prize had been planned:\nCoach Lane Kiffin could earn more as his football team advanced.\nPlayoff, quarterfinal, semifinal, then\nThe championship brought bonus money again.",
+            "An outside helper tried softening the bill\nWith Kalshi contracts that paid when LSU did well.\nFive “block trades”—large deals agreed in advance—\nCovered five stages of LSU’s championship chance.",
+            "Each trade was worth $300,000 to $900,000 in size;\nTogether they paid $3 million for the championship prize.\nThat matched Kiffin’s title bonus exactly:\nIf LSU owed him, the contracts paid back neatly.",
+            "But winning could bring students, donations, and television pay;\nThat’s why LSU offered a victory bonus anyway.\nThe bonus costs more when the season goes right,\nAnd costs much less after defeat ends the fight.",
+            "Once, teams betting on their games caused alarm;\nNow call it “hedging,” and somehow it sounds calm.\nKalshi bans team employees from trading this way—\nBut if a helper trades for LSU, who is trading, anyway?",
+            "What happened? A third party helping LSU manage Lane Kiffin’s potential bonuses placed five negotiated block trades on Kalshi tied to LSU advancing through the College Football Playoff. If LSU won the national championship, the trades would pay a combined $3 million—exactly matching Kiffin’s championship bonus—even though winning itself should be financially valuable to LSU."
+          ]
+        }
+      }
+    },
+    {
+      "id": "kpi-insider-trading",
+      "sourceSection": "KPI insider trading",
+      "illustration": {
+        "src": "/images/2026-08-31-don-t-hedge-the-kpis/kpi-insider-trading.png",
+        "alt": "A KPMG employee holds a confidential earnings folder beside a Polymarket yes-or-no contract while investigators approach; nearby, George Santos faces a Kalshi lifetime-ban sign."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "George Santos"
+        ],
+        "realCompanies": [
+          "KPMG",
+          "Polymarket",
+          "Cboe",
+          "Kalshi"
+        ],
+        "financialMechanism": "A KPI binary contract pays $1 if a company reaches a stated result, such as beating an earnings estimate, and $0 if it does not. An employee who trades such a contract using confidential employer information may be misappropriating that information in breach of a duty of trust.",
+        "centralJoke": "Prediction markets are still debating elaborate boundaries for insider trading, while Kalshi’s wonderfully blunt answer in another case was simply to ban George Santos for life."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Secret-Number Bet",
+          "lesson": "A KPI binary pays $1 or $0 depending on a company result; using an employer’s confidential information to buy one may be illegal because the information was entrusted to the employee.",
+          "paragraphs": [
+            "A KPI contract asks, “Did profits beat the guess?”\nIf yes, it pays one dollar; if not, it pays less—\nin fact, it pays zero. That simple yes-or-no\ncan turn secret business news into valuable dough.",
+            "On Polymarket, someone from KPMG\nreportedly wagered on company earnings they’d see:\nWould a public company beat Wall Street’s expectation?\nAuthorities began an insider-trading investigation.",
+            "If the employee learned private numbers through work,\nthen betting with them carried a troublesome quirk:\nthe secret belonged to the employer, you see;\nusing it for personal profit could be information theft, legally.",
+            "The rules are still forming for markets like these.\nCboe says KPI bets resemble stock options; Kalshi\nis overseen as a commodities exchange instead,\nwhere hedgers may trade using facts in their head.",
+            "But Kalshi forbids those with secrets—or power\nto influence an outcome—from trading that hour.\nAnd amid all these questions of who may bet where,\nKalshi banned George Santos for life. So—there.",
+            "What happened? Authorities investigated a KPMG employee for betting on Polymarket that a specific public company would beat quarterly earnings estimates. They consider such a bet illegal if the employee used material nonpublic information entrusted to them through their job."
+          ]
+        },
+        "elementary": {
+          "title": "The Secret-Number Bet",
+          "lesson": "A KPI binary pays $1 or $0 depending on a company result; using an employer’s confidential information to buy one may be illegal because the information was entrusted to the employee.",
+          "paragraphs": [
+            "A KPI contract asks, “Did profits beat the guess?”\nIf yes, it pays one dollar; if not, it pays less—\nin fact, it pays zero. That simple yes-or-no\ncan turn secret business news into valuable dough.",
+            "On Polymarket, someone from KPMG\nreportedly wagered on company earnings they’d see:\nWould a public company beat Wall Street’s expectation?\nAuthorities began an insider-trading investigation.",
+            "If the employee learned private numbers through work,\nthen betting with them carried a troublesome quirk:\nthe secret belonged to the employer, you see;\nusing it for personal profit could be information theft, legally.",
+            "The rules are still forming for markets like these.\nCboe says KPI bets resemble stock options; Kalshi\nis overseen as a commodities exchange instead,\nwhere hedgers may trade using facts in their head.",
+            "But Kalshi forbids those with secrets—or power\nto influence an outcome—from trading that hour.\nAnd amid all these questions of who may bet where,\nKalshi banned George Santos for life. So—there.",
+            "What happened? Authorities investigated a KPMG employee for betting on Polymarket that a specific public company would beat quarterly earnings estimates. They consider such a bet illegal if the employee used material nonpublic information entrusted to them through their job."
+          ]
+        },
+        "middle": {
+          "title": "The Secret-Number Bet",
+          "lesson": "A KPI binary pays $1 or $0 depending on a company result; using an employer’s confidential information to buy one may be illegal because the information was entrusted to the employee.",
+          "paragraphs": [
+            "A KPI contract asks, “Did profits beat the guess?”\nIf yes, it pays one dollar; if not, it pays less—\nin fact, it pays zero. That simple yes-or-no\ncan turn secret business news into valuable dough.",
+            "On Polymarket, someone from KPMG\nreportedly wagered on company earnings they’d see:\nWould a public company beat Wall Street’s expectation?\nAuthorities began an insider-trading investigation.",
+            "If the employee learned private numbers through work,\nthen betting with them carried a troublesome quirk:\nthe secret belonged to the employer, you see;\nusing it for personal profit could be information theft, legally.",
+            "The rules are still forming for markets like these.\nCboe says KPI bets resemble stock options; Kalshi\nis overseen as a commodities exchange instead,\nwhere hedgers may trade using facts in their head.",
+            "But Kalshi forbids those with secrets—or power\nto influence an outcome—from trading that hour.\nAnd amid all these questions of who may bet where,\nKalshi banned George Santos for life. So—there.",
+            "What happened? Authorities investigated a KPMG employee for betting on Polymarket that a specific public company would beat quarterly earnings estimates. They consider such a bet illegal if the employee used material nonpublic information entrusted to them through their job."
+          ]
+        },
+        "high": {
+          "title": "The Secret-Number Bet",
+          "lesson": "A KPI binary pays $1 or $0 depending on a company result; using an employer’s confidential information to buy one may be illegal because the information was entrusted to the employee.",
+          "paragraphs": [
+            "A KPI contract asks, “Did profits beat the guess?”\nIf yes, it pays one dollar; if not, it pays less—\nin fact, it pays zero. That simple yes-or-no\ncan turn secret business news into valuable dough.",
+            "On Polymarket, someone from KPMG\nreportedly wagered on company earnings they’d see:\nWould a public company beat Wall Street’s expectation?\nAuthorities began an insider-trading investigation.",
+            "If the employee learned private numbers through work,\nthen betting with them carried a troublesome quirk:\nthe secret belonged to the employer, you see;\nusing it for personal profit could be information theft, legally.",
+            "The rules are still forming for markets like these.\nCboe says KPI bets resemble stock options; Kalshi\nis overseen as a commodities exchange instead,\nwhere hedgers may trade using facts in their head.",
+            "But Kalshi forbids those with secrets—or power\nto influence an outcome—from trading that hour.\nAnd amid all these questions of who may bet where,\nKalshi banned George Santos for life. So—there.",
+            "What happened? Authorities investigated a KPMG employee for betting on Polymarket that a specific public company would beat quarterly earnings estimates. They consider such a bet illegal if the employee used material nonpublic information entrusted to them through their job."
+          ]
+        }
+      }
+    },
+    {
+      "id": "hassle",
+      "sourceSection": "Hassle",
+      "illustration": {
+        "src": "/images/2026-08-31-don-t-hedge-the-kpis/hassle.png",
+        "alt": "Kim Jung-hoon turns away from a work PC that cannot install the required program, while a five-day calendar, one-hour clock, and dwindling Samsung Electronics and SK Hynix leveraged-ETF trade slips show why trading collapsed."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Kim Jung-hoon"
+        ],
+        "realCompanies": [
+          "Samsung Electronics Co.",
+          "SK Hynix Inc."
+        ],
+        "financialMechanism": "The ETFs targeted twice the chipmakers’ daily returns, while a mandatory five-day, Windows-only simulated-trading course created enough friction to deter retail investors and sharply reduce trading.",
+        "centralJoke": "Annoying, inconvenient software sounds like a terrible financial-stability tool, but its very unpleasantness made it effective."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Windows-Only Speed Bump",
+          "lesson": "South Korea reduced trading in risky 2× leveraged ETFs by requiring retail investors to complete a cumbersome five-day, Windows-only simulation before trading.",
+          "paragraphs": [
+            "On August 19, a new trading gate\nmade eager investors practice and wait.\nFor five whole days, at least one hour each,\nvirtual cash would help risk do its teaching.",
+            "The Windows-only program required a PC—\nno quick little phone made the lesson carefree.\nIt covered leveraged funds linked in return\nto Samsung Electronics and SK Hynix in turn.",
+            "Those funds aimed for twice each chipmaker’s daily move:\nthey could double a gain—or make double losses accrue.\nSo South Korea added some friction and fuss,\nhoping a pause might protect people from loss.",
+            "Kim Jung-hoon, forty-one, lived near Seoul.\nThe lengthy requirement discouraged his goal.\n“My work PC blocks downloads,” Kim said.\n“Bring an extra laptop?” He shook his head.",
+            "“Five days and long hours? I won’t even start.\nIt’s too much of a hassle.” He stayed apart.\nTrading value fell to four percent\nof its peak back in June—a steep descent.",
+            "The funds faced their first monthly outflow as well.\nThe cumbersome training had worked rather well.\nAn annoying download, strange as could be,\nwas acting as a tool for financial stability.",
+            "What happened? Starting Aug. 19, South Korea required retail investors seeking certain 2× leveraged ETFs tied to Samsung Electronics Co. and SK Hynix Inc. to complete five days of Windows-only simulated trading for at least an hour per day. The hassle deterred investors, helping trading value fall to 4% of its June peak and putting the funds on course for their first monthly outflow."
+          ]
+        },
+        "elementary": {
+          "title": "The Windows-Only Speed Bump",
+          "lesson": "South Korea reduced trading in risky 2× leveraged ETFs by requiring retail investors to complete a cumbersome five-day, Windows-only simulation before trading.",
+          "paragraphs": [
+            "On August 19, a new trading gate\nmade eager investors practice and wait.\nFor five whole days, at least one hour each,\nvirtual cash would help risk do its teaching.",
+            "The Windows-only program required a PC—\nno quick little phone made the lesson carefree.\nIt covered leveraged funds linked in return\nto Samsung Electronics and SK Hynix in turn.",
+            "Those funds aimed for twice each chipmaker’s daily move:\nthey could double a gain—or make double losses accrue.\nSo South Korea added some friction and fuss,\nhoping a pause might protect people from loss.",
+            "Kim Jung-hoon, forty-one, lived near Seoul.\nThe lengthy requirement discouraged his goal.\n“My work PC blocks downloads,” Kim said.\n“Bring an extra laptop?” He shook his head.",
+            "“Five days and long hours? I won’t even start.\nIt’s too much of a hassle.” He stayed apart.\nTrading value fell to four percent\nof its peak back in June—a steep descent.",
+            "The funds faced their first monthly outflow as well.\nThe cumbersome training had worked rather well.\nAn annoying download, strange as could be,\nwas acting as a tool for financial stability.",
+            "What happened? Starting Aug. 19, South Korea required retail investors seeking certain 2× leveraged ETFs tied to Samsung Electronics Co. and SK Hynix Inc. to complete five days of Windows-only simulated trading for at least an hour per day. The hassle deterred investors, helping trading value fall to 4% of its June peak and putting the funds on course for their first monthly outflow."
+          ]
+        },
+        "middle": {
+          "title": "The Windows-Only Speed Bump",
+          "lesson": "South Korea reduced trading in risky 2× leveraged ETFs by requiring retail investors to complete a cumbersome five-day, Windows-only simulation before trading.",
+          "paragraphs": [
+            "On August 19, a new trading gate\nmade eager investors practice and wait.\nFor five whole days, at least one hour each,\nvirtual cash would help risk do its teaching.",
+            "The Windows-only program required a PC—\nno quick little phone made the lesson carefree.\nIt covered leveraged funds linked in return\nto Samsung Electronics and SK Hynix in turn.",
+            "Those funds aimed for twice each chipmaker’s daily move:\nthey could double a gain—or make double losses accrue.\nSo South Korea added some friction and fuss,\nhoping a pause might protect people from loss.",
+            "Kim Jung-hoon, forty-one, lived near Seoul.\nThe lengthy requirement discouraged his goal.\n“My work PC blocks downloads,” Kim said.\n“Bring an extra laptop?” He shook his head.",
+            "“Five days and long hours? I won’t even start.\nIt’s too much of a hassle.” He stayed apart.\nTrading value fell to four percent\nof its peak back in June—a steep descent.",
+            "The funds faced their first monthly outflow as well.\nThe cumbersome training had worked rather well.\nAn annoying download, strange as could be,\nwas acting as a tool for financial stability.",
+            "What happened? Starting Aug. 19, South Korea required retail investors seeking certain 2× leveraged ETFs tied to Samsung Electronics Co. and SK Hynix Inc. to complete five days of Windows-only simulated trading for at least an hour per day. The hassle deterred investors, helping trading value fall to 4% of its June peak and putting the funds on course for their first monthly outflow."
+          ]
+        },
+        "high": {
+          "title": "The Windows-Only Speed Bump",
+          "lesson": "South Korea reduced trading in risky 2× leveraged ETFs by requiring retail investors to complete a cumbersome five-day, Windows-only simulation before trading.",
+          "paragraphs": [
+            "On August 19, a new trading gate\nmade eager investors practice and wait.\nFor five whole days, at least one hour each,\nvirtual cash would help risk do its teaching.",
+            "The Windows-only program required a PC—\nno quick little phone made the lesson carefree.\nIt covered leveraged funds linked in return\nto Samsung Electronics and SK Hynix in turn.",
+            "Those funds aimed for twice each chipmaker’s daily move:\nthey could double a gain—or make double losses accrue.\nSo South Korea added some friction and fuss,\nhoping a pause might protect people from loss.",
+            "Kim Jung-hoon, forty-one, lived near Seoul.\nThe lengthy requirement discouraged his goal.\n“My work PC blocks downloads,” Kim said.\n“Bring an extra laptop?” He shook his head.",
+            "“Five days and long hours? I won’t even start.\nIt’s too much of a hassle.” He stayed apart.\nTrading value fell to four percent\nof its peak back in June—a steep descent.",
+            "The funds faced their first monthly outflow as well.\nThe cumbersome training had worked rather well.\nAn annoying download, strange as could be,\nwas acting as a tool for financial stability.",
+            "What happened? Starting Aug. 19, South Korea required retail investors seeking certain 2× leveraged ETFs tied to Samsung Electronics Co. and SK Hynix Inc. to complete five days of Windows-only simulated trading for at least an hour per day. The hassle deterred investors, helping trading value fall to 4% of its June peak and putting the funds on course for their first monthly outflow."
+          ]
+        }
+      }
+    },
+    {
+      "id": "anthropic",
+      "sourceSection": "Anthropic",
+      "illustration": {
+        "src": "/images/2026-08-31-don-t-hedge-the-kpis/anthropic.png",
+        "alt": "A government official transfers seized Anthropic share certificates once owned by Nishad Singh and Caroline Ellison to existing shareholders, with collapsed FTX boxes behind them and two coins marked “ruin” and “vast wealth.”"
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Sam Bankman-Fried",
+          "Nishad Singh",
+          "Caroline Ellison"
+        ],
+        "realCompanies": [
+          "Anthropic",
+          "FTX"
+        ],
+        "financialMechanism": "The three executives bought private Anthropic shares in its 2022 Series B. After FTX collapsed, Bankman-Fried’s stake was liquidated to cover claims, and the government seized Singh’s and Ellison’s shares and sold them to existing Anthropic shareholders.",
+        "centralJoke": "Their risky crypto bets landed on “ruin,” but the Anthropic shares left behind later landed on “vast wealth.”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Coin That Landed Twice",
+          "lesson": "When FTX collapsed, Sam Bankman-Fried’s Anthropic stake was liquidated to help repay claims, while the government seized Caroline Ellison’s and Nishad Singh’s shares and sold them to existing Anthropic shareholders; Anthropic’s later growth made those former stakes worth billions on paper.",
+          "paragraphs": [
+            "Anthropic, an AI lab concerned with keeping AI safe,\nDrew effective-altruist backers fond of risk and fate.",
+            "In 2022, its Series B sold private shares to grow;\nThe buyers hoped their value would rise as years would go.",
+            "Sam Bankman-Fried bought $500 million—13.56 percent;\nNishad Singh put in $40 million; Caroline Ellison, $10 million spent.",
+            "Then FTX collapsed, and customers were owed;\nSam gave his Anthropic stock to help repay the load.",
+            "Bankruptcy sold Sam’s stake to settle what was due;\nThe government seized Singh’s and Ellison’s shares too.\nIt sold them to existing Anthropic owners waiting by—\nA valuable survivor when the crypto bets went awry.",
+            "At a $965 billion valuation announced that May,\nThose former shares were estimated in the billions anyway:\nFrom $2.62 billion to $5.03 billion, depending who did the sums—\nA fortune sprouting after FTX’s ruin comes.",
+            "The crypto coin came up “ruin” when FTX fell apart;\nThe Anthropic coin said “vast wealth” long after its strange start.",
+            "What happened? FTX failed, so Bankman-Fried’s Anthropic stake was liquidated, while the US government seized Singh’s and Ellison’s shares and sold them to existing Anthropic shareholders. Anthropic later became so valuable that estimates placed Singh’s and Ellison’s former stakes at $2.62 billion to $5.03 billion combined."
+          ]
+        },
+        "elementary": {
+          "title": "The Coin That Landed Twice",
+          "lesson": "When FTX collapsed, Sam Bankman-Fried’s Anthropic stake was liquidated to help repay claims, while the government seized Caroline Ellison’s and Nishad Singh’s shares and sold them to existing Anthropic shareholders; Anthropic’s later growth made those former stakes worth billions on paper.",
+          "paragraphs": [
+            "Anthropic, an AI lab concerned with keeping AI safe,\nDrew effective-altruist backers fond of risk and fate.",
+            "In 2022, its Series B sold private shares to grow;\nThe buyers hoped their value would rise as years would go.",
+            "Sam Bankman-Fried bought $500 million—13.56 percent;\nNishad Singh put in $40 million; Caroline Ellison, $10 million spent.",
+            "Then FTX collapsed, and customers were owed;\nSam gave his Anthropic stock to help repay the load.",
+            "Bankruptcy sold Sam’s stake to settle what was due;\nThe government seized Singh’s and Ellison’s shares too.\nIt sold them to existing Anthropic owners waiting by—\nA valuable survivor when the crypto bets went awry.",
+            "At a $965 billion valuation announced that May,\nThose former shares were estimated in the billions anyway:\nFrom $2.62 billion to $5.03 billion, depending who did the sums—\nA fortune sprouting after FTX’s ruin comes.",
+            "The crypto coin came up “ruin” when FTX fell apart;\nThe Anthropic coin said “vast wealth” long after its strange start.",
+            "What happened? FTX failed, so Bankman-Fried’s Anthropic stake was liquidated, while the US government seized Singh’s and Ellison’s shares and sold them to existing Anthropic shareholders. Anthropic later became so valuable that estimates placed Singh’s and Ellison’s former stakes at $2.62 billion to $5.03 billion combined."
+          ]
+        },
+        "middle": {
+          "title": "The Coin That Landed Twice",
+          "lesson": "When FTX collapsed, Sam Bankman-Fried’s Anthropic stake was liquidated to help repay claims, while the government seized Caroline Ellison’s and Nishad Singh’s shares and sold them to existing Anthropic shareholders; Anthropic’s later growth made those former stakes worth billions on paper.",
+          "paragraphs": [
+            "Anthropic, an AI lab concerned with keeping AI safe,\nDrew effective-altruist backers fond of risk and fate.",
+            "In 2022, its Series B sold private shares to grow;\nThe buyers hoped their value would rise as years would go.",
+            "Sam Bankman-Fried bought $500 million—13.56 percent;\nNishad Singh put in $40 million; Caroline Ellison, $10 million spent.",
+            "Then FTX collapsed, and customers were owed;\nSam gave his Anthropic stock to help repay the load.",
+            "Bankruptcy sold Sam’s stake to settle what was due;\nThe government seized Singh’s and Ellison’s shares too.\nIt sold them to existing Anthropic owners waiting by—\nA valuable survivor when the crypto bets went awry.",
+            "At a $965 billion valuation announced that May,\nThose former shares were estimated in the billions anyway:\nFrom $2.62 billion to $5.03 billion, depending who did the sums—\nA fortune sprouting after FTX’s ruin comes.",
+            "The crypto coin came up “ruin” when FTX fell apart;\nThe Anthropic coin said “vast wealth” long after its strange start.",
+            "What happened? FTX failed, so Bankman-Fried’s Anthropic stake was liquidated, while the US government seized Singh’s and Ellison’s shares and sold them to existing Anthropic shareholders. Anthropic later became so valuable that estimates placed Singh’s and Ellison’s former stakes at $2.62 billion to $5.03 billion combined."
+          ]
+        },
+        "high": {
+          "title": "The Coin That Landed Twice",
+          "lesson": "When FTX collapsed, Sam Bankman-Fried’s Anthropic stake was liquidated to help repay claims, while the government seized Caroline Ellison’s and Nishad Singh’s shares and sold them to existing Anthropic shareholders; Anthropic’s later growth made those former stakes worth billions on paper.",
+          "paragraphs": [
+            "Anthropic, an AI lab concerned with keeping AI safe,\nDrew effective-altruist backers fond of risk and fate.",
+            "In 2022, its Series B sold private shares to grow;\nThe buyers hoped their value would rise as years would go.",
+            "Sam Bankman-Fried bought $500 million—13.56 percent;\nNishad Singh put in $40 million; Caroline Ellison, $10 million spent.",
+            "Then FTX collapsed, and customers were owed;\nSam gave his Anthropic stock to help repay the load.",
+            "Bankruptcy sold Sam’s stake to settle what was due;\nThe government seized Singh’s and Ellison’s shares too.\nIt sold them to existing Anthropic owners waiting by—\nA valuable survivor when the crypto bets went awry.",
+            "At a $965 billion valuation announced that May,\nThose former shares were estimated in the billions anyway:\nFrom $2.62 billion to $5.03 billion, depending who did the sums—\nA fortune sprouting after FTX’s ruin comes.",
+            "The crypto coin came up “ruin” when FTX fell apart;\nThe Anthropic coin said “vast wealth” long after its strange start.",
+            "What happened? FTX failed, so Bankman-Fried’s Anthropic stake was liquidated, while the US government seized Singh’s and Ellison’s shares and sold them to existing Anthropic shareholders. Anthropic later became so valuable that estimates placed Singh’s and Ellison’s former stakes at $2.62 billion to $5.03 billion combined."
+          ]
+        }
+      }
+    }
+  ]
+}
