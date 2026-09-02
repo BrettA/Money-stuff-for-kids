@@ -23,6 +23,14 @@
   ],
   "editions": [
     {
+      "id": "2026-09-01-amazon-charged-the-first-price",
+      "date": "2026-09-01",
+      "displayDate": "September 1, 2026",
+      "title": "Amazon Charged the First Price",
+      "storyCount": 3,
+      "href": "/editions/2026-09-01-amazon-charged-the-first-price/"
+    },
+    {
       "id": "2026-08-31-don-t-hedge-the-kpis",
       "date": "2026-08-31",
       "displayDate": "August 31, 2026",
