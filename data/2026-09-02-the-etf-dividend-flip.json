@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-02-the-etf-dividend-flip",
+  "date": "2026-09-02",
+  "displayDate": "September 2, 2026",
+  "title": "The ETF Dividend Flip",
+  "sourceSections": [
+    "Dividend shuffle",
+    "Law firm AI",
+    "College football season hedging",
+    "Billionaire strategy",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "dividend-shuffle",
+      "sourceSection": "Dividend shuffle",
+      "illustration": {
+        "src": "/images/2026-09-02-the-etf-dividend-flip/dividend-shuffle.png",
+        "alt": "Foreign investors play hopscotch from BlackRock’s IVV fund to Vanguard’s VOO fund and back across two different ex-dividend dates, selling higher-priced VOO and buying lower-priced IVV."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Zachary Mider",
+          "Denitsa Tsekova"
+        ],
+        "realCompanies": [
+          "BlackRock",
+          "Vanguard",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Foreign investors sold IVV before its earlier ex-dividend date, bought the nearly identical VOO, then sold VOO and repurchased the now-cheaper IVV. This preserved continuous S&P 500 exposure while converting the dividend’s economic value into price appreciation, which avoided US dividend withholding tax.",
+        "centralJoke": "The investors economically received the dividend without technically receiving a dividend: by hopping between two nearly identical ETFs with different payment dates, dividend value appeared as a price difference instead."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Dividend Hopscotch",
+          "lesson": "By switching between nearly identical S&P 500 ETFs around their different ex-dividend dates, foreign investors turned the economic value of dividends into price appreciation, avoiding dividend withholding tax while keeping continuous market exposure.",
+          "paragraphs": [
+            "Each quarter, two funds gathered dividends galore\nfrom S&P 500 companies by the score.\nBlackRock called its fund IVV;\nVanguard named its own VOO, you see.",
+            "For many foreign owners, a dividend’s taxed:\nThirty percent may be withheld when it’s passed.\nBut price appreciation gets different treatment—\nso investors devised a well-timed movement.",
+            "Since 2024, BlackRock’s dividend date\nhas arrived before Vanguard’s, opening a gate.\nBefore IVV reached its ex-dividend day,\ninvestors sold it and bought VOO right away.",
+            "They still tracked the S&P 500 throughout,\nbut skipped IVV when its cash rights ran out.\nThen VOO—with its dividend coming—priced high;\nIVV—without one—was cheaper to buy.",
+            "So they sold VOO and switched back once more,\nkeeping the price difference left on the floor.\nIt acted like dividend money in every economic way,\nbut for taxes, it was price appreciation that day.",
+            "Bloomberg’s Zachary Mider and Denitsa Tsekova found\nthis quarterly hopscotch sent savings around:\nAbout $147 million in US tax in one year—\nall because two nearly matching funds paid on dates that weren’t near.",
+            "What happened? Foreign investors switched between BlackRock’s IVV and Vanguard’s VOO around their different ex-dividend dates, continuously holding S&P 500 exposure while receiving the dividend’s economic value as price appreciation instead of a taxable dividend. Bloomberg estimated that the strategy saved them about $147 million in US taxes in one year."
+          ]
+        },
+        "elementary": {
+          "title": "The Dividend Hopscotch",
+          "lesson": "By switching between nearly identical S&P 500 ETFs around their different ex-dividend dates, foreign investors turned the economic value of dividends into price appreciation, avoiding dividend withholding tax while keeping continuous market exposure.",
+          "paragraphs": [
+            "Each quarter, two funds gathered dividends galore\nfrom S&P 500 companies by the score.\nBlackRock called its fund IVV;\nVanguard named its own VOO, you see.",
+            "For many foreign owners, a dividend’s taxed:\nThirty percent may be withheld when it’s passed.\nBut price appreciation gets different treatment—\nso investors devised a well-timed movement.",
+            "Since 2024, BlackRock’s dividend date\nhas arrived before Vanguard’s, opening a gate.\nBefore IVV reached its ex-dividend day,\ninvestors sold it and bought VOO right away.",
+            "They still tracked the S&P 500 throughout,\nbut skipped IVV when its cash rights ran out.\nThen VOO—with its dividend coming—priced high;\nIVV—without one—was cheaper to buy.",
+            "So they sold VOO and switched back once more,\nkeeping the price difference left on the floor.\nIt acted like dividend money in every economic way,\nbut for taxes, it was price appreciation that day.",
+            "Bloomberg’s Zachary Mider and Denitsa Tsekova found\nthis quarterly hopscotch sent savings around:\nAbout $147 million in US tax in one year—\nall because two nearly matching funds paid on dates that weren’t near.",
+            "What happened? Foreign investors switched between BlackRock’s IVV and Vanguard’s VOO around their different ex-dividend dates, continuously holding S&P 500 exposure while receiving the dividend’s economic value as price appreciation instead of a taxable dividend. Bloomberg estimated that the strategy saved them about $147 million in US taxes in one year."
+          ]
+        },
+        "middle": {
+          "title": "The Dividend Hopscotch",
+          "lesson": "By switching between nearly identical S&P 500 ETFs around their different ex-dividend dates, foreign investors turned the economic value of dividends into price appreciation, avoiding dividend withholding tax while keeping continuous market exposure.",
+          "paragraphs": [
+            "Each quarter, two funds gathered dividends galore\nfrom S&P 500 companies by the score.\nBlackRock called its fund IVV;\nVanguard named its own VOO, you see.",
+            "For many foreign owners, a dividend’s taxed:\nThirty percent may be withheld when it’s passed.\nBut price appreciation gets different treatment—\nso investors devised a well-timed movement.",
+            "Since 2024, BlackRock’s dividend date\nhas arrived before Vanguard’s, opening a gate.\nBefore IVV reached its ex-dividend day,\ninvestors sold it and bought VOO right away.",
+            "They still tracked the S&P 500 throughout,\nbut skipped IVV when its cash rights ran out.\nThen VOO—with its dividend coming—priced high;\nIVV—without one—was cheaper to buy.",
+            "So they sold VOO and switched back once more,\nkeeping the price difference left on the floor.\nIt acted like dividend money in every economic way,\nbut for taxes, it was price appreciation that day.",
+            "Bloomberg’s Zachary Mider and Denitsa Tsekova found\nthis quarterly hopscotch sent savings around:\nAbout $147 million in US tax in one year—\nall because two nearly matching funds paid on dates that weren’t near.",
+            "What happened? Foreign investors switched between BlackRock’s IVV and Vanguard’s VOO around their different ex-dividend dates, continuously holding S&P 500 exposure while receiving the dividend’s economic value as price appreciation instead of a taxable dividend. Bloomberg estimated that the strategy saved them about $147 million in US taxes in one year."
+          ]
+        },
+        "high": {
+          "title": "The Dividend Hopscotch",
+          "lesson": "By switching between nearly identical S&P 500 ETFs around their different ex-dividend dates, foreign investors turned the economic value of dividends into price appreciation, avoiding dividend withholding tax while keeping continuous market exposure.",
+          "paragraphs": [
+            "Each quarter, two funds gathered dividends galore\nfrom S&P 500 companies by the score.\nBlackRock called its fund IVV;\nVanguard named its own VOO, you see.",
+            "For many foreign owners, a dividend’s taxed:\nThirty percent may be withheld when it’s passed.\nBut price appreciation gets different treatment—\nso investors devised a well-timed movement.",
+            "Since 2024, BlackRock’s dividend date\nhas arrived before Vanguard’s, opening a gate.\nBefore IVV reached its ex-dividend day,\ninvestors sold it and bought VOO right away.",
+            "They still tracked the S&P 500 throughout,\nbut skipped IVV when its cash rights ran out.\nThen VOO—with its dividend coming—priced high;\nIVV—without one—was cheaper to buy.",
+            "So they sold VOO and switched back once more,\nkeeping the price difference left on the floor.\nIt acted like dividend money in every economic way,\nbut for taxes, it was price appreciation that day.",
+            "Bloomberg’s Zachary Mider and Denitsa Tsekova found\nthis quarterly hopscotch sent savings around:\nAbout $147 million in US tax in one year—\nall because two nearly matching funds paid on dates that weren’t near.",
+            "What happened? Foreign investors switched between BlackRock’s IVV and Vanguard’s VOO around their different ex-dividend dates, continuously holding S&P 500 exposure while receiving the dividend’s economic value as price appreciation instead of a taxable dividend. Bloomberg estimated that the strategy saved them about $147 million in US taxes in one year."
+          ]
+        }
+      }
+    },
+    {
+      "id": "law-firm-ai",
+      "sourceSection": "Law firm AI",
+      "illustration": {
+        "src": "/images/2026-09-02-the-etf-dividend-flip/law-firm-ai.png",
+        "alt": "Eric Grossman returns a $240,000 Big Law invoice while an AI computer labeled Legalina rapidly sorts legal documents beside a fixed-fee folder."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Eric Grossman"
+        ],
+        "realCompanies": [
+          "Morgan Stanley",
+          "Financial Times",
+          "ChatGPT"
+        ],
+        "financialMechanism": "The leverage model combines a senior partner’s limited hours with many junior-associate hours billed well above salary cost, creating profit for equity partners. AI threatens that model by reducing the billable time needed for research, document review, contract analysis, and drafting, prompting clients such as Morgan Stanley to pursue competitive bids and fixed fees.",
+        "centralJoke": "If AI makes lawyers faster, firms might absurdly respond by charging $25,000 an hour or inventing a cutesy AI associate named “Legalina” and billing for its token-hours."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Billable-Hour Tower Meets AI",
+          "lesson": "Big law firms’ leverage model boosts partner profits by billing many associate hours above their salary cost; AI can perform that work faster, so Morgan Stanley is pushing toward competitive bids and fixed fees.",
+          "paragraphs": [
+            "Clients at Big Law sought partners renowned,\nfor judgment when giant disputes came around.\nA top partner might earn $20 million a year,\nyet the bill-by-the-hour math looked rather queer.",
+            "At $4,000 hourly, to bill all that pay,\nshe’d need 5,000 hours tucked into one year—\nabout 100 each week! What a tiring feat.\nSo associate hours helped make totals complete.",
+            "Ten partner hours were $40,000 on the sheet;\ntwo hundred junior hours made the bill complete.\nAt $1,000 each, they added $200,000 more—\nso $240,000 came through the door.",
+            "Associates researched and reviewed every page.\nTheir billed rates exceeded the cost of their wage.\nThat “leverage model” helped partner profits grow,\nthough clients prized senior judgment most in the show.",
+            "Then AI sped through contracts, research, and drafts.\nWould firms lose the hours that supported their math?\nEric Grossman of Morgan Stanley warned the Financial Times:\nthe pay model was “extraordinarily unstable” in AI times.",
+            "Would rates jump to $25,000 because work became faster?\nWould “Legalina” bill token-hours after associates vanished?\nCould ChatGPT answer, leaving lawyers with zero?\nOr could one partner earn $200 million—a supercharged hero?",
+            "Morgan Stanley still valued top lawyers’ advice,\nbut planned competitive bids and alternatives in price.\nFixed fees could replace towers of hours on display,\nwhile clients asked why faster work should cost more to pay.",
+            "What happened? Big law firms traditionally increased partner profits by billing clients for many junior-associate hours at rates above the associates’ salary cost. As AI began doing that work faster, Morgan Stanley said it would seek competitive bids and arrangements such as fixed fees while continuing to pay for top lawyers’ judgment."
+          ]
+        },
+        "elementary": {
+          "title": "The Billable-Hour Tower Meets AI",
+          "lesson": "Big law firms’ leverage model boosts partner profits by billing many associate hours above their salary cost; AI can perform that work faster, so Morgan Stanley is pushing toward competitive bids and fixed fees.",
+          "paragraphs": [
+            "Clients at Big Law sought partners renowned,\nfor judgment when giant disputes came around.\nA top partner might earn $20 million a year,\nyet the bill-by-the-hour math looked rather queer.",
+            "At $4,000 hourly, to bill all that pay,\nshe’d need 5,000 hours tucked into one year—\nabout 100 each week! What a tiring feat.\nSo associate hours helped make totals complete.",
+            "Ten partner hours were $40,000 on the sheet;\ntwo hundred junior hours made the bill complete.\nAt $1,000 each, they added $200,000 more—\nso $240,000 came through the door.",
+            "Associates researched and reviewed every page.\nTheir billed rates exceeded the cost of their wage.\nThat “leverage model” helped partner profits grow,\nthough clients prized senior judgment most in the show.",
+            "Then AI sped through contracts, research, and drafts.\nWould firms lose the hours that supported their math?\nEric Grossman of Morgan Stanley warned the Financial Times:\nthe pay model was “extraordinarily unstable” in AI times.",
+            "Would rates jump to $25,000 because work became faster?\nWould “Legalina” bill token-hours after associates vanished?\nCould ChatGPT answer, leaving lawyers with zero?\nOr could one partner earn $200 million—a supercharged hero?",
+            "Morgan Stanley still valued top lawyers’ advice,\nbut planned competitive bids and alternatives in price.\nFixed fees could replace towers of hours on display,\nwhile clients asked why faster work should cost more to pay.",
+            "What happened? Big law firms traditionally increased partner profits by billing clients for many junior-associate hours at rates above the associates’ salary cost. As AI began doing that work faster, Morgan Stanley said it would seek competitive bids and arrangements such as fixed fees while continuing to pay for top lawyers’ judgment."
+          ]
+        },
+        "middle": {
+          "title": "The Billable-Hour Tower Meets AI",
+          "lesson": "Big law firms’ leverage model boosts partner profits by billing many associate hours above their salary cost; AI can perform that work faster, so Morgan Stanley is pushing toward competitive bids and fixed fees.",
+          "paragraphs": [
+            "Clients at Big Law sought partners renowned,\nfor judgment when giant disputes came around.\nA top partner might earn $20 million a year,\nyet the bill-by-the-hour math looked rather queer.",
+            "At $4,000 hourly, to bill all that pay,\nshe’d need 5,000 hours tucked into one year—\nabout 100 each week! What a tiring feat.\nSo associate hours helped make totals complete.",
+            "Ten partner hours were $40,000 on the sheet;\ntwo hundred junior hours made the bill complete.\nAt $1,000 each, they added $200,000 more—\nso $240,000 came through the door.",
+            "Associates researched and reviewed every page.\nTheir billed rates exceeded the cost of their wage.\nThat “leverage model” helped partner profits grow,\nthough clients prized senior judgment most in the show.",
+            "Then AI sped through contracts, research, and drafts.\nWould firms lose the hours that supported their math?\nEric Grossman of Morgan Stanley warned the Financial Times:\nthe pay model was “extraordinarily unstable” in AI times.",
+            "Would rates jump to $25,000 because work became faster?\nWould “Legalina” bill token-hours after associates vanished?\nCould ChatGPT answer, leaving lawyers with zero?\nOr could one partner earn $200 million—a supercharged hero?",
+            "Morgan Stanley still valued top lawyers’ advice,\nbut planned competitive bids and alternatives in price.\nFixed fees could replace towers of hours on display,\nwhile clients asked why faster work should cost more to pay.",
+            "What happened? Big law firms traditionally increased partner profits by billing clients for many junior-associate hours at rates above the associates’ salary cost. As AI began doing that work faster, Morgan Stanley said it would seek competitive bids and arrangements such as fixed fees while continuing to pay for top lawyers’ judgment."
+          ]
+        },
+        "high": {
+          "title": "The Billable-Hour Tower Meets AI",
+          "lesson": "Big law firms’ leverage model boosts partner profits by billing many associate hours above their salary cost; AI can perform that work faster, so Morgan Stanley is pushing toward competitive bids and fixed fees.",
+          "paragraphs": [
+            "Clients at Big Law sought partners renowned,\nfor judgment when giant disputes came around.\nA top partner might earn $20 million a year,\nyet the bill-by-the-hour math looked rather queer.",
+            "At $4,000 hourly, to bill all that pay,\nshe’d need 5,000 hours tucked into one year—\nabout 100 each week! What a tiring feat.\nSo associate hours helped make totals complete.",
+            "Ten partner hours were $40,000 on the sheet;\ntwo hundred junior hours made the bill complete.\nAt $1,000 each, they added $200,000 more—\nso $240,000 came through the door.",
+            "Associates researched and reviewed every page.\nTheir billed rates exceeded the cost of their wage.\nThat “leverage model” helped partner profits grow,\nthough clients prized senior judgment most in the show.",
+            "Then AI sped through contracts, research, and drafts.\nWould firms lose the hours that supported their math?\nEric Grossman of Morgan Stanley warned the Financial Times:\nthe pay model was “extraordinarily unstable” in AI times.",
+            "Would rates jump to $25,000 because work became faster?\nWould “Legalina” bill token-hours after associates vanished?\nCould ChatGPT answer, leaving lawyers with zero?\nOr could one partner earn $200 million—a supercharged hero?",
+            "Morgan Stanley still valued top lawyers’ advice,\nbut planned competitive bids and alternatives in price.\nFixed fees could replace towers of hours on display,\nwhile clients asked why faster work should cost more to pay.",
+            "What happened? Big law firms traditionally increased partner profits by billing clients for many junior-associate hours at rates above the associates’ salary cost. As AI began doing that work faster, Morgan Stanley said it would seek competitive bids and arrangements such as fixed fees while continuing to pay for top lawyers’ judgment."
+          ]
+        }
+      }
+    },
+    {
+      "id": "college-football-season-hedging",
+      "sourceSection": "College football season hedging",
+      "illustration": {
+        "src": "/images/2026-09-02-the-etf-dividend-flip/college-football-season-hedging.png",
+        "alt": "A championship coach raises a trophy as alumni boosters face a $3 million bonus check and hold a paying Kalshi championship contract."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Kalshi"
+        ],
+        "financialMechanism": "Alumni boosters can buy Kalshi event contracts that pay if a football team wins a championship; that payout can offset the coach’s bonus owed upon the same victory.",
+        "centralJoke": "Betting on your own team to win looks like doubling down rather than hedging—unless the people owing the bonus are boosters who do not receive the school’s financial upside."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Championship Hedge",
+          "lesson": "A Kalshi contract that pays when a team wins can offset a coach’s victory bonus, especially when alumni boosters owe the bonus but do not receive the school’s added revenue.",
+          "paragraphs": [
+            "A college football team raced for the crown,\nWhile coaches called plays and fans shook the town.\nThe coach’s contract promised, “Win the big game,\nAnd a very large bonus may follow your name.”",
+            "A title could help the whole university grow:\nMore students and donations, more merchandise on show.\nBut rich alumni boosters might cover the pay—\nPerhaps $3 million on championship day.",
+            "Those boosters loved winning. They wanted first place!\nStill, millions departing could pinch their purse space.\nThe school gained the TV and enrollment rewards;\nThe boosters got joy—and the coach’s bill afterward.",
+            "On Kalshi, event contracts can pay if teams win,\nSo trading there hinted at one curious spin:\nBuy contracts that pay when the championship lands,\nThen use those proceeds for the bonus demands.",
+            "Betting your team wins sounds less like defense\nThan doubling down proudly on team confidence.\nBut if boosters owe money while schools get the gain,\nThat backward-seeming wager may soften their pain.",
+            "What happened? Kalshi trading appeared to show that some college football programs may have used championship contracts to hedge coaches’ winning bonuses. One possible explanation is that alumni boosters owed bonuses of perhaps $3 million but did not share directly in the school’s added enrollment, TV, merchandise, and donation revenue."
+          ]
+        },
+        "elementary": {
+          "title": "The Championship Hedge",
+          "lesson": "A Kalshi contract that pays when a team wins can offset a coach’s victory bonus, especially when alumni boosters owe the bonus but do not receive the school’s added revenue.",
+          "paragraphs": [
+            "A college football team raced for the crown,\nWhile coaches called plays and fans shook the town.\nThe coach’s contract promised, “Win the big game,\nAnd a very large bonus may follow your name.”",
+            "A title could help the whole university grow:\nMore students and donations, more merchandise on show.\nBut rich alumni boosters might cover the pay—\nPerhaps $3 million on championship day.",
+            "Those boosters loved winning. They wanted first place!\nStill, millions departing could pinch their purse space.\nThe school gained the TV and enrollment rewards;\nThe boosters got joy—and the coach’s bill afterward.",
+            "On Kalshi, event contracts can pay if teams win,\nSo trading there hinted at one curious spin:\nBuy contracts that pay when the championship lands,\nThen use those proceeds for the bonus demands.",
+            "Betting your team wins sounds less like defense\nThan doubling down proudly on team confidence.\nBut if boosters owe money while schools get the gain,\nThat backward-seeming wager may soften their pain.",
+            "What happened? Kalshi trading appeared to show that some college football programs may have used championship contracts to hedge coaches’ winning bonuses. One possible explanation is that alumni boosters owed bonuses of perhaps $3 million but did not share directly in the school’s added enrollment, TV, merchandise, and donation revenue."
+          ]
+        },
+        "middle": {
+          "title": "The Championship Hedge",
+          "lesson": "A Kalshi contract that pays when a team wins can offset a coach’s victory bonus, especially when alumni boosters owe the bonus but do not receive the school’s added revenue.",
+          "paragraphs": [
+            "A college football team raced for the crown,\nWhile coaches called plays and fans shook the town.\nThe coach’s contract promised, “Win the big game,\nAnd a very large bonus may follow your name.”",
+            "A title could help the whole university grow:\nMore students and donations, more merchandise on show.\nBut rich alumni boosters might cover the pay—\nPerhaps $3 million on championship day.",
+            "Those boosters loved winning. They wanted first place!\nStill, millions departing could pinch their purse space.\nThe school gained the TV and enrollment rewards;\nThe boosters got joy—and the coach’s bill afterward.",
+            "On Kalshi, event contracts can pay if teams win,\nSo trading there hinted at one curious spin:\nBuy contracts that pay when the championship lands,\nThen use those proceeds for the bonus demands.",
+            "Betting your team wins sounds less like defense\nThan doubling down proudly on team confidence.\nBut if boosters owe money while schools get the gain,\nThat backward-seeming wager may soften their pain.",
+            "What happened? Kalshi trading appeared to show that some college football programs may have used championship contracts to hedge coaches’ winning bonuses. One possible explanation is that alumni boosters owed bonuses of perhaps $3 million but did not share directly in the school’s added enrollment, TV, merchandise, and donation revenue."
+          ]
+        },
+        "high": {
+          "title": "The Championship Hedge",
+          "lesson": "A Kalshi contract that pays when a team wins can offset a coach’s victory bonus, especially when alumni boosters owe the bonus but do not receive the school’s added revenue.",
+          "paragraphs": [
+            "A college football team raced for the crown,\nWhile coaches called plays and fans shook the town.\nThe coach’s contract promised, “Win the big game,\nAnd a very large bonus may follow your name.”",
+            "A title could help the whole university grow:\nMore students and donations, more merchandise on show.\nBut rich alumni boosters might cover the pay—\nPerhaps $3 million on championship day.",
+            "Those boosters loved winning. They wanted first place!\nStill, millions departing could pinch their purse space.\nThe school gained the TV and enrollment rewards;\nThe boosters got joy—and the coach’s bill afterward.",
+            "On Kalshi, event contracts can pay if teams win,\nSo trading there hinted at one curious spin:\nBuy contracts that pay when the championship lands,\nThen use those proceeds for the bonus demands.",
+            "Betting your team wins sounds less like defense\nThan doubling down proudly on team confidence.\nBut if boosters owe money while schools get the gain,\nThat backward-seeming wager may soften their pain.",
+            "What happened? Kalshi trading appeared to show that some college football programs may have used championship contracts to hedge coaches’ winning bonuses. One possible explanation is that alumni boosters owed bonuses of perhaps $3 million but did not share directly in the school’s added enrollment, TV, merchandise, and donation revenue."
+          ]
+        }
+      }
+    },
+    {
+      "id": "billionaire-strategy",
+      "sourceSection": "Billionaire strategy",
+      "illustration": {
+        "src": "/images/2026-09-02-the-etf-dividend-flip/billionaire-strategy.png",
+        "alt": "Billy pushes his entire $2 million stack toward a weighted coin toss, with a distant $1 billion prize and mega-yacht beyond the table while a losing coin opens a trapdoor beneath the stack."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Johnny Debacle",
+          "Victor Haghani",
+          "James White",
+          "Jeffrey Rosenbluth",
+          "Leo Breiman",
+          "Sam Bankman-Fried"
+        ],
+        "realCompanies": [
+          "Long or Short Capital",
+          "Elm Wealth",
+          "Jane Street",
+          "Anthropic",
+          "UC Berkeley"
+        ],
+        "financialMechanism": "A person with $2 million makes up to 50 bets whose odds are favorable, with heads occurring 60% of the time. The strategy maximizing the chance of reaching $1 billion involves routinely betting all available wealth, producing a 7% chance of success and a 93% chance of going broke.",
+        "centralJoke": "The supposed four-step billionaire plan is to take outrageous risks, be the extraordinarily rare winner, credit the victory entirely to genius and hard work, and buy a mega-yacht or athletic team—while the many equally daring losers disappear from view."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Billion-Dollar Coin Toss",
+          "lesson": "Maximizing the chance of reaching an enormous target can require repeated all-in bets, raising the chance of success while making every unsuccessful path end in ruin.",
+          "paragraphs": [
+            "In 2006, a finance blog fond of sport,\nLong or Short Capital, filed this report:\nUnder “Johnny Debacle,” four steps appeared—\nTake risks with huge upside, however absurd or feared.",
+            "Be the one in five hundred million who wins;\nCredit hard work and genius when fortune rolls in.\nSay poorer competitors lacked your grand scheme;\nThen buy a mega-yacht or an athletic team.",
+            "Years later at Elm Wealth, the joke met a test:\nVictor Haghani, James White, and Jeffrey Rosenbluth asked what worked best.\nTheir make-believe Billy had saved $2 million in all,\nFrom $10 million earned after taxes—a useful bankroll.",
+            "He had fifty years for a 500-fold climb,\nWith fifty weighted coin flips allotted in time.\nEach flip offered heads six chances in ten;\nHe could stake any fraction, then wager again.",
+            "Professor Leo Breiman’s 1961 result supplied the plot:\nAll-in bets could maximize Billy’s billion-dollar shot.\nSeven percent reached $1 billion; the rest hit the floor—\nNinety-three percent left Billy completely broke, with no “almost” shore.",
+            "At Jane Street, intern Sam Bankman-Fried bet on coins for real;\nLater, giant risks helped make him a billionaire with worldwide appeal.\nHe kept making metaphorical flips, and then came the turn:\nFamous billionaire first, infamous criminal defendant in return.",
+            "He and his friends invested in Anthropic as well,\nWhere vast wealth or ruin could follow each spell.\nThe old joke endured when a daring bet hit:\nThe lucky winner praised planning, hard work, and wit.",
+            "What happened? In Elm Wealth’s model, the strategy giving Billy a 7% chance of turning $2 million into $1 billion required repeated all-in bets, so the other 93% of outcomes ended with him broke. Sam Bankman-Fried likewise became a billionaire through huge risks, kept taking risks, and later became a criminal defendant."
+          ]
+        },
+        "elementary": {
+          "title": "The Billion-Dollar Coin Toss",
+          "lesson": "Maximizing the chance of reaching an enormous target can require repeated all-in bets, raising the chance of success while making every unsuccessful path end in ruin.",
+          "paragraphs": [
+            "In 2006, a finance blog fond of sport,\nLong or Short Capital, filed this report:\nUnder “Johnny Debacle,” four steps appeared—\nTake risks with huge upside, however absurd or feared.",
+            "Be the one in five hundred million who wins;\nCredit hard work and genius when fortune rolls in.\nSay poorer competitors lacked your grand scheme;\nThen buy a mega-yacht or an athletic team.",
+            "Years later at Elm Wealth, the joke met a test:\nVictor Haghani, James White, and Jeffrey Rosenbluth asked what worked best.\nTheir make-believe Billy had saved $2 million in all,\nFrom $10 million earned after taxes—a useful bankroll.",
+            "He had fifty years for a 500-fold climb,\nWith fifty weighted coin flips allotted in time.\nEach flip offered heads six chances in ten;\nHe could stake any fraction, then wager again.",
+            "Professor Leo Breiman’s 1961 result supplied the plot:\nAll-in bets could maximize Billy’s billion-dollar shot.\nSeven percent reached $1 billion; the rest hit the floor—\nNinety-three percent left Billy completely broke, with no “almost” shore.",
+            "At Jane Street, intern Sam Bankman-Fried bet on coins for real;\nLater, giant risks helped make him a billionaire with worldwide appeal.\nHe kept making metaphorical flips, and then came the turn:\nFamous billionaire first, infamous criminal defendant in return.",
+            "He and his friends invested in Anthropic as well,\nWhere vast wealth or ruin could follow each spell.\nThe old joke endured when a daring bet hit:\nThe lucky winner praised planning, hard work, and wit.",
+            "What happened? In Elm Wealth’s model, the strategy giving Billy a 7% chance of turning $2 million into $1 billion required repeated all-in bets, so the other 93% of outcomes ended with him broke. Sam Bankman-Fried likewise became a billionaire through huge risks, kept taking risks, and later became a criminal defendant."
+          ]
+        },
+        "middle": {
+          "title": "The Billion-Dollar Coin Toss",
+          "lesson": "Maximizing the chance of reaching an enormous target can require repeated all-in bets, raising the chance of success while making every unsuccessful path end in ruin.",
+          "paragraphs": [
+            "In 2006, a finance blog fond of sport,\nLong or Short Capital, filed this report:\nUnder “Johnny Debacle,” four steps appeared—\nTake risks with huge upside, however absurd or feared.",
+            "Be the one in five hundred million who wins;\nCredit hard work and genius when fortune rolls in.\nSay poorer competitors lacked your grand scheme;\nThen buy a mega-yacht or an athletic team.",
+            "Years later at Elm Wealth, the joke met a test:\nVictor Haghani, James White, and Jeffrey Rosenbluth asked what worked best.\nTheir make-believe Billy had saved $2 million in all,\nFrom $10 million earned after taxes—a useful bankroll.",
+            "He had fifty years for a 500-fold climb,\nWith fifty weighted coin flips allotted in time.\nEach flip offered heads six chances in ten;\nHe could stake any fraction, then wager again.",
+            "Professor Leo Breiman’s 1961 result supplied the plot:\nAll-in bets could maximize Billy’s billion-dollar shot.\nSeven percent reached $1 billion; the rest hit the floor—\nNinety-three percent left Billy completely broke, with no “almost” shore.",
+            "At Jane Street, intern Sam Bankman-Fried bet on coins for real;\nLater, giant risks helped make him a billionaire with worldwide appeal.\nHe kept making metaphorical flips, and then came the turn:\nFamous billionaire first, infamous criminal defendant in return.",
+            "He and his friends invested in Anthropic as well,\nWhere vast wealth or ruin could follow each spell.\nThe old joke endured when a daring bet hit:\nThe lucky winner praised planning, hard work, and wit.",
+            "What happened? In Elm Wealth’s model, the strategy giving Billy a 7% chance of turning $2 million into $1 billion required repeated all-in bets, so the other 93% of outcomes ended with him broke. Sam Bankman-Fried likewise became a billionaire through huge risks, kept taking risks, and later became a criminal defendant."
+          ]
+        },
+        "high": {
+          "title": "The Billion-Dollar Coin Toss",
+          "lesson": "Maximizing the chance of reaching an enormous target can require repeated all-in bets, raising the chance of success while making every unsuccessful path end in ruin.",
+          "paragraphs": [
+            "In 2006, a finance blog fond of sport,\nLong or Short Capital, filed this report:\nUnder “Johnny Debacle,” four steps appeared—\nTake risks with huge upside, however absurd or feared.",
+            "Be the one in five hundred million who wins;\nCredit hard work and genius when fortune rolls in.\nSay poorer competitors lacked your grand scheme;\nThen buy a mega-yacht or an athletic team.",
+            "Years later at Elm Wealth, the joke met a test:\nVictor Haghani, James White, and Jeffrey Rosenbluth asked what worked best.\nTheir make-believe Billy had saved $2 million in all,\nFrom $10 million earned after taxes—a useful bankroll.",
+            "He had fifty years for a 500-fold climb,\nWith fifty weighted coin flips allotted in time.\nEach flip offered heads six chances in ten;\nHe could stake any fraction, then wager again.",
+            "Professor Leo Breiman’s 1961 result supplied the plot:\nAll-in bets could maximize Billy’s billion-dollar shot.\nSeven percent reached $1 billion; the rest hit the floor—\nNinety-three percent left Billy completely broke, with no “almost” shore.",
+            "At Jane Street, intern Sam Bankman-Fried bet on coins for real;\nLater, giant risks helped make him a billionaire with worldwide appeal.\nHe kept making metaphorical flips, and then came the turn:\nFamous billionaire first, infamous criminal defendant in return.",
+            "He and his friends invested in Anthropic as well,\nWhere vast wealth or ruin could follow each spell.\nThe old joke endured when a daring bet hit:\nThe lucky winner praised planning, hard work, and wit.",
+            "What happened? In Elm Wealth’s model, the strategy giving Billy a 7% chance of turning $2 million into $1 billion required repeated all-in bets, so the other 93% of outcomes ended with him broke. Sam Bankman-Fried likewise became a billionaire through huge risks, kept taking risks, and later became a criminal defendant."
+          ]
+        }
+      }
+    }
+  ]
+}
