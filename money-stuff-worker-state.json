@@ -144,6 +144,18 @@
       "submitted": true,
       "updatedAt": "2026-09-02T03:21:08.620Z",
       "submittedAt": "2026-09-02T03:21:08.620Z"
+    },
+    "1a063523faa78417": {
+      "gmailMessageId": "1a063523faa78417",
+      "newsletterDate": "2026-09-02",
+      "newsletterTitle": "The ETF Dividend Flip",
+      "editionId": "2026-09-02-the-etf-dividend-flip",
+      "sourceSha256": "94b48d6efafd37329ff0bf66346fffbe51463e23dd2fde1ee94f088ad49f94f8",
+      "packageSha256": "548a9ddd683a76caad4b71cfbf5ff7f24c0b723b6ba8eca5496dbd8c05cfc8b9",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-02T19:01:01.594Z",
+      "submittedAt": "2026-09-02T19:01:01.594Z"
     }
   }
 }
