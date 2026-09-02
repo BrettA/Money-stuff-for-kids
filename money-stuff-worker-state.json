@@ -132,6 +132,18 @@
       "submitted": true,
       "updatedAt": "2026-08-31T20:54:01.801Z",
       "submittedAt": "2026-08-31T20:54:01.801Z"
+    },
+    "1a05e2d30d4b849e": {
+      "gmailMessageId": "1a05e2d30d4b849e",
+      "newsletterDate": "2026-09-01",
+      "newsletterTitle": "Amazon Charged the First Price",
+      "editionId": "2026-09-01-amazon-charged-the-first-price",
+      "sourceSha256": "e68977e064fcf3e9985190e97952f36674df6dc2a428c8e36d0ec19fd4f0c3e2",
+      "packageSha256": "27f18a447e72a398cd85bb91a9c236a6d67f0b260e3905e81737d71e4d72eeb2",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-02T03:21:08.620Z",
+      "submittedAt": "2026-09-02T03:21:08.620Z"
     }
   }
 }
