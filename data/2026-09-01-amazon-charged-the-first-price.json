@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-01-amazon-charged-the-first-price",
+  "date": "2026-09-01",
+  "displayDate": "September 1, 2026",
+  "title": "Amazon Charged the First Price",
+  "sourceSections": [
+    "Second price",
+    "GoPro",
+    "Gambling addiction",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "second-price",
+      "sourceSection": "Second price",
+      "illustration": {
+        "src": "/images/2026-09-01-amazon-charged-the-first-price/second-price.png",
+        "alt": "Amazon, wearing a fake mustache at its own ad auction, holds a $9.50 soft-reserve card while a $9 advertiser receives the sponsored paper-towel placement and a $9 bill."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Amazon.com Inc."
+        ],
+        "financialMechanism": "Amazon ranked sponsored ads using relevance and bid size, then applied hard and soft reserve prices. When a relevant winner exceeded the hard reserve but fell below the soft reserve, it received the placement and paid its own bid instead of one cent above the next outside bid.",
+        "centralJoke": "Amazon can be pictured entering its own auction in a fake mustache, placing a soft-reserve bid that makes the outside winner pay much more—or even pay its own bid—while the auction is still described as second-price."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Amazon’s Mustache Bid",
+          "lesson": "Amazon’s soft reserve could make a relevant advertiser pay its own maximum bid rather than one cent above the next outside bid, which the FTC alleges made a supposed second-price auction operate like a first-price auction.",
+          "paragraphs": [
+            "On Amazon, sellers bid to appear\nWhen shoppers search for paper towels or gear.\nA “sponsored” result is an ad in the race,\nAnd relevance helps it win the prized space.",
+            "In a second-price auction, the highest bid wins,\nBut the runner-up’s price is where payment begins.\nWith bids of $10, $8, and $6 in the fight,\nThe winner pays $8.01—not ten outright.",
+            "Yet relevant ads drew a much smaller crowd,\nSo second-best offers were not very loud.\nAmazon thought premium spaces sold low,\nAnd added a “soft reserve” to the show.",
+            "Imagine Amazon bidding in a mustache disguise,\nWith “true market value” machine-learning supplies.\nIf bidders offered $10, $2, and $1.50 that day,\nA $9.50 reserve made the winner pay $9.50.",
+            "But suppose the best outside offer was $9,\nWhile Amazon’s soft reserve stood at $9.50.\nAmazon would not keep its own advertising space;\nThe $9 bidder won—and paid $9 for the place.",
+            "“Good news, you won! Now pay your full bid!”\nThat sounds like first-price, whatever the label said.\nThe FTC and 22 states sued Amazon, declaring\nThat its hidden surcharge made second-price billing misleading.",
+            "Amazon disagreed: reserves are common, it said,\nAnd automated tools judge results instead.\nIn 2024, relevance often ruled the amount:\nAbout 92% of selected ads were not the top bid by count.",
+            "What happened? The FTC alleges that Amazon’s undisclosed soft reserves caused Sponsored Products advertisers to pay their own bids close to 80% of the time, despite descriptions of a second-price auction. Amazon says its reserves reflect placement value and advertisers optimize automated bids using actual results."
+          ]
+        },
+        "elementary": {
+          "title": "Amazon’s Mustache Bid",
+          "lesson": "Amazon’s soft reserve could make a relevant advertiser pay its own maximum bid rather than one cent above the next outside bid, which the FTC alleges made a supposed second-price auction operate like a first-price auction.",
+          "paragraphs": [
+            "On Amazon, sellers bid to appear\nWhen shoppers search for paper towels or gear.\nA “sponsored” result is an ad in the race,\nAnd relevance helps it win the prized space.",
+            "In a second-price auction, the highest bid wins,\nBut the runner-up’s price is where payment begins.\nWith bids of $10, $8, and $6 in the fight,\nThe winner pays $8.01—not ten outright.",
+            "Yet relevant ads drew a much smaller crowd,\nSo second-best offers were not very loud.\nAmazon thought premium spaces sold low,\nAnd added a “soft reserve” to the show.",
+            "Imagine Amazon bidding in a mustache disguise,\nWith “true market value” machine-learning supplies.\nIf bidders offered $10, $2, and $1.50 that day,\nA $9.50 reserve made the winner pay $9.50.",
+            "But suppose the best outside offer was $9,\nWhile Amazon’s soft reserve stood at $9.50.\nAmazon would not keep its own advertising space;\nThe $9 bidder won—and paid $9 for the place.",
+            "“Good news, you won! Now pay your full bid!”\nThat sounds like first-price, whatever the label said.\nThe FTC and 22 states sued Amazon, declaring\nThat its hidden surcharge made second-price billing misleading.",
+            "Amazon disagreed: reserves are common, it said,\nAnd automated tools judge results instead.\nIn 2024, relevance often ruled the amount:\nAbout 92% of selected ads were not the top bid by count.",
+            "What happened? The FTC alleges that Amazon’s undisclosed soft reserves caused Sponsored Products advertisers to pay their own bids close to 80% of the time, despite descriptions of a second-price auction. Amazon says its reserves reflect placement value and advertisers optimize automated bids using actual results."
+          ]
+        },
+        "middle": {
+          "title": "Amazon’s Mustache Bid",
+          "lesson": "Amazon’s soft reserve could make a relevant advertiser pay its own maximum bid rather than one cent above the next outside bid, which the FTC alleges made a supposed second-price auction operate like a first-price auction.",
+          "paragraphs": [
+            "On Amazon, sellers bid to appear\nWhen shoppers search for paper towels or gear.\nA “sponsored” result is an ad in the race,\nAnd relevance helps it win the prized space.",
+            "In a second-price auction, the highest bid wins,\nBut the runner-up’s price is where payment begins.\nWith bids of $10, $8, and $6 in the fight,\nThe winner pays $8.01—not ten outright.",
+            "Yet relevant ads drew a much smaller crowd,\nSo second-best offers were not very loud.\nAmazon thought premium spaces sold low,\nAnd added a “soft reserve” to the show.",
+            "Imagine Amazon bidding in a mustache disguise,\nWith “true market value” machine-learning supplies.\nIf bidders offered $10, $2, and $1.50 that day,\nA $9.50 reserve made the winner pay $9.50.",
+            "But suppose the best outside offer was $9,\nWhile Amazon’s soft reserve stood at $9.50.\nAmazon would not keep its own advertising space;\nThe $9 bidder won—and paid $9 for the place.",
+            "“Good news, you won! Now pay your full bid!”\nThat sounds like first-price, whatever the label said.\nThe FTC and 22 states sued Amazon, declaring\nThat its hidden surcharge made second-price billing misleading.",
+            "Amazon disagreed: reserves are common, it said,\nAnd automated tools judge results instead.\nIn 2024, relevance often ruled the amount:\nAbout 92% of selected ads were not the top bid by count.",
+            "What happened? The FTC alleges that Amazon’s undisclosed soft reserves caused Sponsored Products advertisers to pay their own bids close to 80% of the time, despite descriptions of a second-price auction. Amazon says its reserves reflect placement value and advertisers optimize automated bids using actual results."
+          ]
+        },
+        "high": {
+          "title": "Amazon’s Mustache Bid",
+          "lesson": "Amazon’s soft reserve could make a relevant advertiser pay its own maximum bid rather than one cent above the next outside bid, which the FTC alleges made a supposed second-price auction operate like a first-price auction.",
+          "paragraphs": [
+            "On Amazon, sellers bid to appear\nWhen shoppers search for paper towels or gear.\nA “sponsored” result is an ad in the race,\nAnd relevance helps it win the prized space.",
+            "In a second-price auction, the highest bid wins,\nBut the runner-up’s price is where payment begins.\nWith bids of $10, $8, and $6 in the fight,\nThe winner pays $8.01—not ten outright.",
+            "Yet relevant ads drew a much smaller crowd,\nSo second-best offers were not very loud.\nAmazon thought premium spaces sold low,\nAnd added a “soft reserve” to the show.",
+            "Imagine Amazon bidding in a mustache disguise,\nWith “true market value” machine-learning supplies.\nIf bidders offered $10, $2, and $1.50 that day,\nA $9.50 reserve made the winner pay $9.50.",
+            "But suppose the best outside offer was $9,\nWhile Amazon’s soft reserve stood at $9.50.\nAmazon would not keep its own advertising space;\nThe $9 bidder won—and paid $9 for the place.",
+            "“Good news, you won! Now pay your full bid!”\nThat sounds like first-price, whatever the label said.\nThe FTC and 22 states sued Amazon, declaring\nThat its hidden surcharge made second-price billing misleading.",
+            "Amazon disagreed: reserves are common, it said,\nAnd automated tools judge results instead.\nIn 2024, relevance often ruled the amount:\nAbout 92% of selected ads were not the top bid by count.",
+            "What happened? The FTC alleges that Amazon’s undisclosed soft reserves caused Sponsored Products advertisers to pay their own bids close to 80% of the time, despite descriptions of a second-price auction. Amazon says its reserves reflect placement value and advertisers optimize automated bids using actual results."
+          ]
+        }
+      }
+    },
+    {
+      "id": "gopro",
+      "sourceSection": "GoPro",
+      "illustration": {
+        "src": "/images/2026-09-01-amazon-charged-the-first-price/gopro.png",
+        "alt": "Markiplier holds a block representing 13.5 million GoPro shares as Lucas Shaw’s Bloomberg newsletter sends GoPro’s price upward, while a Starman Optical merger agreement arrives the next morning."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mark Fischbach (Markiplier)",
+          "Lucas Shaw"
+        ],
+        "realCompanies": [
+          "GoPro, Inc.",
+          "Starman Optical, Inc.",
+          "Bloomberg",
+          "YouTube"
+        ],
+        "financialMechanism": "Markiplier’s previously disclosed large stake was newly noticed, helping produce a meme-stock rally and possible short-squeeze buying just before GoPro announced a cash-and-stock merger that had likely been negotiated earlier.",
+        "centralJoke": "GoPro became a meme stock on Monday and announced a sale of nearly the entire company on Tuesday—an unusually literal and extremely fast version of the meme-stock playbook of selling stock while the price is hot."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "GoPro’s Monday Zoom and Tuesday Deal",
+          "lesson": "A newly noticed celebrity stake helped trigger a meme-stock rally, but GoPro immediately announced a previously negotiated cash-and-stock merger before excited traders could push expectations beyond what its buyer would pay.",
+          "paragraphs": [
+            "GoPro made cameras for action and flight,\nBut its battered stock was a sorrowful sight.\nAt sixty cents each, all its shares in the land\nWere worth about $110 million combined.",
+            "By early July, YouTube star Mark Fischbach—Markiplier—\nHad bought 13.5 million shares as a buyer.\nThat was 8.5% of GoPro, a sizable collection;\nHe filed with the SEC on August 20, to little reaction.",
+            "Then Bloomberg’s Lucas Shaw spread the word:\n“Markiplier is GoPro’s largest shareholder!” readers heard.\nOld news suddenly felt fresh, and the buyers poured in;\nMonday’s price leaped 46%—a meme-stock spin.",
+            "Some traders had “shorted,” betting GoPro would fall.\nA jump can make them buy shares back after all.\nThat scramble, called a short squeeze, can lift prices higher,\nEspecially when a famous new owner excites every buyer.",
+            "But Tuesday brought news with astonishing speed:\nGoPro and Starman Optical had already agreed.\nStarman would pay shareholders $285 million in cash—\nAbout $1.14 per share—while they kept a 10% stash.",
+            "GoPro’s $92 million debt would be paid at the close;\nBy noon, shares reached $1.31 as excitement rose.\nUsually meme-stock companies sell some shares while they’re hot;\nGoPro seemed to sell nearly the whole company on the spot!",
+            "The deal had surely been brewing before Monday’s surprise,\nYet the sudden meme rally made expectations rise.\nIf traders dreamed of ten dollars while Starman would not,\nFinishing quickly became rather urgent on the spot.",
+            "What happened? After a Bloomberg newsletter highlighted Mark Fischbach’s previously disclosed 8.5% GoPro stake, the stock jumped 46% on Monday. On Tuesday, GoPro announced its already-negotiated merger with Starman Optical, offering $1.14 cash per share, continued 10% ownership, and repayment of about $92 million in debt."
+          ]
+        },
+        "elementary": {
+          "title": "GoPro’s Monday Zoom and Tuesday Deal",
+          "lesson": "A newly noticed celebrity stake helped trigger a meme-stock rally, but GoPro immediately announced a previously negotiated cash-and-stock merger before excited traders could push expectations beyond what its buyer would pay.",
+          "paragraphs": [
+            "GoPro made cameras for action and flight,\nBut its battered stock was a sorrowful sight.\nAt sixty cents each, all its shares in the land\nWere worth about $110 million combined.",
+            "By early July, YouTube star Mark Fischbach—Markiplier—\nHad bought 13.5 million shares as a buyer.\nThat was 8.5% of GoPro, a sizable collection;\nHe filed with the SEC on August 20, to little reaction.",
+            "Then Bloomberg’s Lucas Shaw spread the word:\n“Markiplier is GoPro’s largest shareholder!” readers heard.\nOld news suddenly felt fresh, and the buyers poured in;\nMonday’s price leaped 46%—a meme-stock spin.",
+            "Some traders had “shorted,” betting GoPro would fall.\nA jump can make them buy shares back after all.\nThat scramble, called a short squeeze, can lift prices higher,\nEspecially when a famous new owner excites every buyer.",
+            "But Tuesday brought news with astonishing speed:\nGoPro and Starman Optical had already agreed.\nStarman would pay shareholders $285 million in cash—\nAbout $1.14 per share—while they kept a 10% stash.",
+            "GoPro’s $92 million debt would be paid at the close;\nBy noon, shares reached $1.31 as excitement rose.\nUsually meme-stock companies sell some shares while they’re hot;\nGoPro seemed to sell nearly the whole company on the spot!",
+            "The deal had surely been brewing before Monday’s surprise,\nYet the sudden meme rally made expectations rise.\nIf traders dreamed of ten dollars while Starman would not,\nFinishing quickly became rather urgent on the spot.",
+            "What happened? After a Bloomberg newsletter highlighted Mark Fischbach’s previously disclosed 8.5% GoPro stake, the stock jumped 46% on Monday. On Tuesday, GoPro announced its already-negotiated merger with Starman Optical, offering $1.14 cash per share, continued 10% ownership, and repayment of about $92 million in debt."
+          ]
+        },
+        "middle": {
+          "title": "GoPro’s Monday Zoom and Tuesday Deal",
+          "lesson": "A newly noticed celebrity stake helped trigger a meme-stock rally, but GoPro immediately announced a previously negotiated cash-and-stock merger before excited traders could push expectations beyond what its buyer would pay.",
+          "paragraphs": [
+            "GoPro made cameras for action and flight,\nBut its battered stock was a sorrowful sight.\nAt sixty cents each, all its shares in the land\nWere worth about $110 million combined.",
+            "By early July, YouTube star Mark Fischbach—Markiplier—\nHad bought 13.5 million shares as a buyer.\nThat was 8.5% of GoPro, a sizable collection;\nHe filed with the SEC on August 20, to little reaction.",
+            "Then Bloomberg’s Lucas Shaw spread the word:\n“Markiplier is GoPro’s largest shareholder!” readers heard.\nOld news suddenly felt fresh, and the buyers poured in;\nMonday’s price leaped 46%—a meme-stock spin.",
+            "Some traders had “shorted,” betting GoPro would fall.\nA jump can make them buy shares back after all.\nThat scramble, called a short squeeze, can lift prices higher,\nEspecially when a famous new owner excites every buyer.",
+            "But Tuesday brought news with astonishing speed:\nGoPro and Starman Optical had already agreed.\nStarman would pay shareholders $285 million in cash—\nAbout $1.14 per share—while they kept a 10% stash.",
+            "GoPro’s $92 million debt would be paid at the close;\nBy noon, shares reached $1.31 as excitement rose.\nUsually meme-stock companies sell some shares while they’re hot;\nGoPro seemed to sell nearly the whole company on the spot!",
+            "The deal had surely been brewing before Monday’s surprise,\nYet the sudden meme rally made expectations rise.\nIf traders dreamed of ten dollars while Starman would not,\nFinishing quickly became rather urgent on the spot.",
+            "What happened? After a Bloomberg newsletter highlighted Mark Fischbach’s previously disclosed 8.5% GoPro stake, the stock jumped 46% on Monday. On Tuesday, GoPro announced its already-negotiated merger with Starman Optical, offering $1.14 cash per share, continued 10% ownership, and repayment of about $92 million in debt."
+          ]
+        },
+        "high": {
+          "title": "GoPro’s Monday Zoom and Tuesday Deal",
+          "lesson": "A newly noticed celebrity stake helped trigger a meme-stock rally, but GoPro immediately announced a previously negotiated cash-and-stock merger before excited traders could push expectations beyond what its buyer would pay.",
+          "paragraphs": [
+            "GoPro made cameras for action and flight,\nBut its battered stock was a sorrowful sight.\nAt sixty cents each, all its shares in the land\nWere worth about $110 million combined.",
+            "By early July, YouTube star Mark Fischbach—Markiplier—\nHad bought 13.5 million shares as a buyer.\nThat was 8.5% of GoPro, a sizable collection;\nHe filed with the SEC on August 20, to little reaction.",
+            "Then Bloomberg’s Lucas Shaw spread the word:\n“Markiplier is GoPro’s largest shareholder!” readers heard.\nOld news suddenly felt fresh, and the buyers poured in;\nMonday’s price leaped 46%—a meme-stock spin.",
+            "Some traders had “shorted,” betting GoPro would fall.\nA jump can make them buy shares back after all.\nThat scramble, called a short squeeze, can lift prices higher,\nEspecially when a famous new owner excites every buyer.",
+            "But Tuesday brought news with astonishing speed:\nGoPro and Starman Optical had already agreed.\nStarman would pay shareholders $285 million in cash—\nAbout $1.14 per share—while they kept a 10% stash.",
+            "GoPro’s $92 million debt would be paid at the close;\nBy noon, shares reached $1.31 as excitement rose.\nUsually meme-stock companies sell some shares while they’re hot;\nGoPro seemed to sell nearly the whole company on the spot!",
+            "The deal had surely been brewing before Monday’s surprise,\nYet the sudden meme rally made expectations rise.\nIf traders dreamed of ten dollars while Starman would not,\nFinishing quickly became rather urgent on the spot.",
+            "What happened? After a Bloomberg newsletter highlighted Mark Fischbach’s previously disclosed 8.5% GoPro stake, the stock jumped 46% on Monday. On Tuesday, GoPro announced its already-negotiated merger with Starman Optical, offering $1.14 cash per share, continued 10% ownership, and repayment of about $92 million in debt."
+          ]
+        }
+      }
+    },
+    {
+      "id": "gambling-addiction",
+      "sourceSection": "Gambling addiction",
+      "illustration": {
+        "src": "/images/2026-09-01-amazon-charged-the-first-price/gambling-addiction.png",
+        "alt": "A Kalshi spokesperson asks puzzled state gambling regulators for a self-exclusion list while holding a federal financial-market document, as Bloomberg reporter Ira Boudway takes notes."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Ira Boudway"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Kalshi"
+        ],
+        "financialMechanism": "Kalshi offers event contracts as a federally regulated financial market, which probably exempts it from state gambling regulations focused on addiction and consumer protection; it voluntarily offers controls such as deposit limits and self-exclusion and has requested state self-exclusion lists.",
+        "centralJoke": "Kalshi tells states that it is not subject to their gambling rules, then asks those same states to help it act like a responsible gambling site by sharing their lists of self-excluded gamblers."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Kalshi’s Curious List",
+          "lesson": "Because Kalshi is federally regulated as a financial market, it is probably exempt from state gambling protections, even while voluntarily seeking state self-exclusion lists to reduce gambling harm.",
+          "paragraphs": [
+            "Bloomberg’s Ira Boudway reported one case:\nA gambler in Utah had slipped from a safer place.\nAfter quitting, the person returned through Kalshi’s door,\nTrading event contracts—and gambling once more.",
+            "Kalshi called it “a cherry-picked case,”\nBut a bigger, stranger puzzle was taking place.\nPeople trade on events—will they happen or not?\nTheir contracts gain or lose depending on the result they’ve got.",
+            "Kalshi looks like online betting at play,\nYet federal rules treat it as a financial market today.\nFederal watchdogs check whether trades have been swayed\nBy fraud, inside information, or tricks people played.",
+            "State gambling officers focus elsewhere:\nOn addiction, age limits, and keeping users in their care.\nYet Kalshi permits trading at eighteen years old,\nEven in Utah, where gambling is not allowed.",
+            "Kalshi lets users pause, cap deposits, or choose\nSelf-exclusion: “Lock me out, so I cannot lose.”\nWith treatment providers and the National Council on Problem Gambling,\nIt tries to curb harmful behavior before losses keep tumbling.",
+            "Then Kalshi asked state regulators to share every name\nOf people who had barred themselves from the gambling game.\nYet Kalshi says those states’ gambling rules don’t apply—\nSo the lists have not arrived, and it’s easy to see why.",
+            "What happened? An unnamed Utah gambling addict reportedly relapsed by trading event contracts on Kalshi. Kalshi is federally regulated as a financial market and probably exempt from state gambling rules, but it still asked state regulators for their lists of people who had chosen to be excluded from gambling."
+          ]
+        },
+        "elementary": {
+          "title": "Kalshi’s Curious List",
+          "lesson": "Because Kalshi is federally regulated as a financial market, it is probably exempt from state gambling protections, even while voluntarily seeking state self-exclusion lists to reduce gambling harm.",
+          "paragraphs": [
+            "Bloomberg’s Ira Boudway reported one case:\nA gambler in Utah had slipped from a safer place.\nAfter quitting, the person returned through Kalshi’s door,\nTrading event contracts—and gambling once more.",
+            "Kalshi called it “a cherry-picked case,”\nBut a bigger, stranger puzzle was taking place.\nPeople trade on events—will they happen or not?\nTheir contracts gain or lose depending on the result they’ve got.",
+            "Kalshi looks like online betting at play,\nYet federal rules treat it as a financial market today.\nFederal watchdogs check whether trades have been swayed\nBy fraud, inside information, or tricks people played.",
+            "State gambling officers focus elsewhere:\nOn addiction, age limits, and keeping users in their care.\nYet Kalshi permits trading at eighteen years old,\nEven in Utah, where gambling is not allowed.",
+            "Kalshi lets users pause, cap deposits, or choose\nSelf-exclusion: “Lock me out, so I cannot lose.”\nWith treatment providers and the National Council on Problem Gambling,\nIt tries to curb harmful behavior before losses keep tumbling.",
+            "Then Kalshi asked state regulators to share every name\nOf people who had barred themselves from the gambling game.\nYet Kalshi says those states’ gambling rules don’t apply—\nSo the lists have not arrived, and it’s easy to see why.",
+            "What happened? An unnamed Utah gambling addict reportedly relapsed by trading event contracts on Kalshi. Kalshi is federally regulated as a financial market and probably exempt from state gambling rules, but it still asked state regulators for their lists of people who had chosen to be excluded from gambling."
+          ]
+        },
+        "middle": {
+          "title": "Kalshi’s Curious List",
+          "lesson": "Because Kalshi is federally regulated as a financial market, it is probably exempt from state gambling protections, even while voluntarily seeking state self-exclusion lists to reduce gambling harm.",
+          "paragraphs": [
+            "Bloomberg’s Ira Boudway reported one case:\nA gambler in Utah had slipped from a safer place.\nAfter quitting, the person returned through Kalshi’s door,\nTrading event contracts—and gambling once more.",
+            "Kalshi called it “a cherry-picked case,”\nBut a bigger, stranger puzzle was taking place.\nPeople trade on events—will they happen or not?\nTheir contracts gain or lose depending on the result they’ve got.",
+            "Kalshi looks like online betting at play,\nYet federal rules treat it as a financial market today.\nFederal watchdogs check whether trades have been swayed\nBy fraud, inside information, or tricks people played.",
+            "State gambling officers focus elsewhere:\nOn addiction, age limits, and keeping users in their care.\nYet Kalshi permits trading at eighteen years old,\nEven in Utah, where gambling is not allowed.",
+            "Kalshi lets users pause, cap deposits, or choose\nSelf-exclusion: “Lock me out, so I cannot lose.”\nWith treatment providers and the National Council on Problem Gambling,\nIt tries to curb harmful behavior before losses keep tumbling.",
+            "Then Kalshi asked state regulators to share every name\nOf people who had barred themselves from the gambling game.\nYet Kalshi says those states’ gambling rules don’t apply—\nSo the lists have not arrived, and it’s easy to see why.",
+            "What happened? An unnamed Utah gambling addict reportedly relapsed by trading event contracts on Kalshi. Kalshi is federally regulated as a financial market and probably exempt from state gambling rules, but it still asked state regulators for their lists of people who had chosen to be excluded from gambling."
+          ]
+        },
+        "high": {
+          "title": "Kalshi’s Curious List",
+          "lesson": "Because Kalshi is federally regulated as a financial market, it is probably exempt from state gambling protections, even while voluntarily seeking state self-exclusion lists to reduce gambling harm.",
+          "paragraphs": [
+            "Bloomberg’s Ira Boudway reported one case:\nA gambler in Utah had slipped from a safer place.\nAfter quitting, the person returned through Kalshi’s door,\nTrading event contracts—and gambling once more.",
+            "Kalshi called it “a cherry-picked case,”\nBut a bigger, stranger puzzle was taking place.\nPeople trade on events—will they happen or not?\nTheir contracts gain or lose depending on the result they’ve got.",
+            "Kalshi looks like online betting at play,\nYet federal rules treat it as a financial market today.\nFederal watchdogs check whether trades have been swayed\nBy fraud, inside information, or tricks people played.",
+            "State gambling officers focus elsewhere:\nOn addiction, age limits, and keeping users in their care.\nYet Kalshi permits trading at eighteen years old,\nEven in Utah, where gambling is not allowed.",
+            "Kalshi lets users pause, cap deposits, or choose\nSelf-exclusion: “Lock me out, so I cannot lose.”\nWith treatment providers and the National Council on Problem Gambling,\nIt tries to curb harmful behavior before losses keep tumbling.",
+            "Then Kalshi asked state regulators to share every name\nOf people who had barred themselves from the gambling game.\nYet Kalshi says those states’ gambling rules don’t apply—\nSo the lists have not arrived, and it’s easy to see why.",
+            "What happened? An unnamed Utah gambling addict reportedly relapsed by trading event contracts on Kalshi. Kalshi is federally regulated as a financial market and probably exempt from state gambling rules, but it still asked state regulators for their lists of people who had chosen to be excluded from gambling."
+          ]
+        }
+      }
+    }
+  ]
+}
