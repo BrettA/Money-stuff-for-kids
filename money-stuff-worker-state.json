@@ -156,6 +156,18 @@
       "submitted": true,
       "updatedAt": "2026-09-02T19:01:01.594Z",
       "submittedAt": "2026-09-02T19:01:01.594Z"
+    },
+    "1a06884d7c8993cb": {
+      "gmailMessageId": "1a06884d7c8993cb",
+      "newsletterDate": "2026-09-03",
+      "newsletterTitle": "The Clippers Got Some Consulting",
+      "editionId": "2026-09-03-the-clippers-got-some-consulting",
+      "sourceSha256": "db84ccc840bd632b858e861f5efc2e7aeb9f5a39567e89de4e1164ef02bdd60d",
+      "packageSha256": "fe1a500874091c0667edae8b3189d43dbc50a8a4f63be88c1170c2355b7713ff",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-03T19:53:56.065Z",
+      "submittedAt": "2026-09-03T19:53:56.065Z"
     }
   }
 }
