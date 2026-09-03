@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-03-the-clippers-got-some-consulting",
+  "date": "2026-09-03",
+  "displayDate": "September 3, 2026",
+  "title": "The Clippers Got Some Consulting",
+  "sourceSections": [
+    "Clippers",
+    "DAT empty voting",
+    "Tax Michelangelo",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "clippers",
+      "sourceSection": "Clippers",
+      "illustration": {
+        "src": "/images/2026-09-03-the-clippers-got-some-consulting/clippers.png",
+        "alt": "Kawhi Leonard holds an Aspiration endorsement contract while Forum tree seedlings and a Daktronics scoreboard reveal the unusual deals behind his extra payments."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Steve Ballmer",
+          "Kawhi Leonard",
+          "Dennis Robertson",
+          "Gillian Zucker",
+          "Joseph Sanberg",
+          "Pablo Torre"
+        ],
+        "realCompanies": [
+          "Los Angeles Clippers",
+          "Microsoft Corp.",
+          "Boingo",
+          "Daktronics",
+          "Lockton",
+          "Aspiration Partners"
+        ],
+        "financialMechanism": "The Clippers allegedly paid or overpaid business partners through consulting, scoreboard, and carbon-offset agreements; those partners then used corresponding funds for low-obligation endorsement payments to Kawhi Leonard, moving compensation around the NBA salary cap.",
+        "centralJoke": "The Clippers apparently did not particularly want the tree planting, and Aspiration did not particularly want Kawhi Leonard’s endorsement, but matching $7 million deals let money travel from the Clippers to Leonard while dressed up as trees and advertising."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Clippers’ Very Expensive Trees",
+          "lesson": "The NBA found that the Clippers routed extra compensation to Kawhi Leonard through business partners, using inflated or unusual team payments that funded endorsement deals beyond his capped salary.",
+          "paragraphs": [
+            "The NBA caps team pay near $165 million a year,\nSo wealth alone can’t make the finest players all appear.\nOne player’s top salary is roughly $58 million;\nThe rules keep Steve Ballmer from outspending every billionaire in the pavilion.",
+            "Ballmer, Microsoft’s former chief, was worth $173.5 billion.\nYet Kawhi Leonard’s pay could not simply climb toward a zillion.\nHis manager and uncle, Dennis Robertson, sought another way:\nAbout $10 million each year in off-court deals and pay.",
+            "Gillian Zucker introduced Boingo, Lockton, and Daktronics too;\nThey signed $18 million in endorsements with little work to do.\nThe Clippers paid those companies unusual consulting fees,\nWhich investigators said helped fund Leonard’s guarantees.",
+            "When the Clippers spent more on Daktronics’ scoreboard display,\nDaktronics added $2 million to Leonard’s second-year pay.\n“We’ll pay extra for the scoreboard; you pay our star,” was the gist—\nA Christmas present wearing a consulting-label twist.",
+            "Then Joseph Sanberg’s Aspiration promised Leonard quite a spree:\n$7 million cash plus $5 million stock each year, ostensibly.\nThe Clippers planned $7 million yearly for the Forum’s carbon past—\nThough no one first calculated what those old emissions cast.",
+            "The Clippers didn’t seem to want the trees; Aspiration questioned Kawhi’s deal,\nBut matching contracts moved the money in a tidy wheel.\nPablo Torre reported it; the NBA investigated and imposed penalties.\nThe Clippers vehemently rejected the findings and alleged irregularities.",
+            "What happened? The NBA concluded that the Los Angeles Clippers, Steve Ballmer, and Kawhi Leonard violated salary rules by arranging business payments that funded lightly demanding endorsement deals for Leonard, including matching $7 million annual payments involving Aspiration. The Clippers denied the findings."
+          ]
+        },
+        "elementary": {
+          "title": "The Clippers’ Very Expensive Trees",
+          "lesson": "The NBA found that the Clippers routed extra compensation to Kawhi Leonard through business partners, using inflated or unusual team payments that funded endorsement deals beyond his capped salary.",
+          "paragraphs": [
+            "The NBA caps team pay near $165 million a year,\nSo wealth alone can’t make the finest players all appear.\nOne player’s top salary is roughly $58 million;\nThe rules keep Steve Ballmer from outspending every billionaire in the pavilion.",
+            "Ballmer, Microsoft’s former chief, was worth $173.5 billion.\nYet Kawhi Leonard’s pay could not simply climb toward a zillion.\nHis manager and uncle, Dennis Robertson, sought another way:\nAbout $10 million each year in off-court deals and pay.",
+            "Gillian Zucker introduced Boingo, Lockton, and Daktronics too;\nThey signed $18 million in endorsements with little work to do.\nThe Clippers paid those companies unusual consulting fees,\nWhich investigators said helped fund Leonard’s guarantees.",
+            "When the Clippers spent more on Daktronics’ scoreboard display,\nDaktronics added $2 million to Leonard’s second-year pay.\n“We’ll pay extra for the scoreboard; you pay our star,” was the gist—\nA Christmas present wearing a consulting-label twist.",
+            "Then Joseph Sanberg’s Aspiration promised Leonard quite a spree:\n$7 million cash plus $5 million stock each year, ostensibly.\nThe Clippers planned $7 million yearly for the Forum’s carbon past—\nThough no one first calculated what those old emissions cast.",
+            "The Clippers didn’t seem to want the trees; Aspiration questioned Kawhi’s deal,\nBut matching contracts moved the money in a tidy wheel.\nPablo Torre reported it; the NBA investigated and imposed penalties.\nThe Clippers vehemently rejected the findings and alleged irregularities.",
+            "What happened? The NBA concluded that the Los Angeles Clippers, Steve Ballmer, and Kawhi Leonard violated salary rules by arranging business payments that funded lightly demanding endorsement deals for Leonard, including matching $7 million annual payments involving Aspiration. The Clippers denied the findings."
+          ]
+        },
+        "middle": {
+          "title": "The Clippers’ Very Expensive Trees",
+          "lesson": "The NBA found that the Clippers routed extra compensation to Kawhi Leonard through business partners, using inflated or unusual team payments that funded endorsement deals beyond his capped salary.",
+          "paragraphs": [
+            "The NBA caps team pay near $165 million a year,\nSo wealth alone can’t make the finest players all appear.\nOne player’s top salary is roughly $58 million;\nThe rules keep Steve Ballmer from outspending every billionaire in the pavilion.",
+            "Ballmer, Microsoft’s former chief, was worth $173.5 billion.\nYet Kawhi Leonard’s pay could not simply climb toward a zillion.\nHis manager and uncle, Dennis Robertson, sought another way:\nAbout $10 million each year in off-court deals and pay.",
+            "Gillian Zucker introduced Boingo, Lockton, and Daktronics too;\nThey signed $18 million in endorsements with little work to do.\nThe Clippers paid those companies unusual consulting fees,\nWhich investigators said helped fund Leonard’s guarantees.",
+            "When the Clippers spent more on Daktronics’ scoreboard display,\nDaktronics added $2 million to Leonard’s second-year pay.\n“We’ll pay extra for the scoreboard; you pay our star,” was the gist—\nA Christmas present wearing a consulting-label twist.",
+            "Then Joseph Sanberg’s Aspiration promised Leonard quite a spree:\n$7 million cash plus $5 million stock each year, ostensibly.\nThe Clippers planned $7 million yearly for the Forum’s carbon past—\nThough no one first calculated what those old emissions cast.",
+            "The Clippers didn’t seem to want the trees; Aspiration questioned Kawhi’s deal,\nBut matching contracts moved the money in a tidy wheel.\nPablo Torre reported it; the NBA investigated and imposed penalties.\nThe Clippers vehemently rejected the findings and alleged irregularities.",
+            "What happened? The NBA concluded that the Los Angeles Clippers, Steve Ballmer, and Kawhi Leonard violated salary rules by arranging business payments that funded lightly demanding endorsement deals for Leonard, including matching $7 million annual payments involving Aspiration. The Clippers denied the findings."
+          ]
+        },
+        "high": {
+          "title": "The Clippers’ Very Expensive Trees",
+          "lesson": "The NBA found that the Clippers routed extra compensation to Kawhi Leonard through business partners, using inflated or unusual team payments that funded endorsement deals beyond his capped salary.",
+          "paragraphs": [
+            "The NBA caps team pay near $165 million a year,\nSo wealth alone can’t make the finest players all appear.\nOne player’s top salary is roughly $58 million;\nThe rules keep Steve Ballmer from outspending every billionaire in the pavilion.",
+            "Ballmer, Microsoft’s former chief, was worth $173.5 billion.\nYet Kawhi Leonard’s pay could not simply climb toward a zillion.\nHis manager and uncle, Dennis Robertson, sought another way:\nAbout $10 million each year in off-court deals and pay.",
+            "Gillian Zucker introduced Boingo, Lockton, and Daktronics too;\nThey signed $18 million in endorsements with little work to do.\nThe Clippers paid those companies unusual consulting fees,\nWhich investigators said helped fund Leonard’s guarantees.",
+            "When the Clippers spent more on Daktronics’ scoreboard display,\nDaktronics added $2 million to Leonard’s second-year pay.\n“We’ll pay extra for the scoreboard; you pay our star,” was the gist—\nA Christmas present wearing a consulting-label twist.",
+            "Then Joseph Sanberg’s Aspiration promised Leonard quite a spree:\n$7 million cash plus $5 million stock each year, ostensibly.\nThe Clippers planned $7 million yearly for the Forum’s carbon past—\nThough no one first calculated what those old emissions cast.",
+            "The Clippers didn’t seem to want the trees; Aspiration questioned Kawhi’s deal,\nBut matching contracts moved the money in a tidy wheel.\nPablo Torre reported it; the NBA investigated and imposed penalties.\nThe Clippers vehemently rejected the findings and alleged irregularities.",
+            "What happened? The NBA concluded that the Los Angeles Clippers, Steve Ballmer, and Kawhi Leonard violated salary rules by arranging business payments that funded lightly demanding endorsement deals for Leonard, including matching $7 million annual payments involving Aspiration. The Clippers denied the findings."
+          ]
+        }
+      }
+    },
+    {
+      "id": "dat-empty-voting",
+      "sourceSection": "DAT empty voting",
+      "illustration": {
+        "src": "/images/2026-09-03-the-clippers-got-some-consulting/dat-empty-voting.png",
+        "alt": "Gabi Gliksberg casts ATG’s Empery ballots beside a vault of Bitcoin while a short-Bitcoin-ETF umbrella blocks price swings and nine board nomination cards remain eligible."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Gabi Gliksberg",
+          "Tice Brown",
+          "Matt Levine"
+        ],
+        "realCompanies": [
+          "Empery Digital Inc.",
+          "ATG Capital Opportunities Fund LP",
+          "Bloomberg"
+        ],
+        "financialMechanism": "ATG owned voting stock in the Bitcoin-holding company Empery while shorting Bitcoin ETFs dollar for dollar. The hedge canceled Bitcoin-price exposure without canceling ATG’s votes or its economic interest in closing Empery’s discount to net asset value.",
+        "centralJoke": "ATG could seek control of a giant pile of Bitcoin while being hedged against Bitcoin itself—raising the odd question of whether that was empty voting or simply a focused bet on closing Empery’s stock-price discount."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Votes Beside the Bitcoin Pile",
+          "lesson": "ATG kept its Empery voting power while shorting Bitcoin ETFs to remove Bitcoin-price risk; Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine board nominees could stand for election.",
+          "paragraphs": [
+            "Empery once made electric motorcycles for the road,\nthen changed, in July 2025, what it owned.\nIt became a DAT with $500 million in Bitcoin—\na stock-market company built around the coin.",
+            "For a while, one crypto dollar sold as two in shares;\nthen the premium vanished into thinner air.\nEmpery traded below net asset value—its Bitcoin pile’s worth—\nso owners proposed the reverse trade: sell coins and buy shares first.",
+            "Tice Brown pushed for liquidation too. He told Bloomberg columnist Matt Levine that he wanted the Bitcoin company liquidated.",
+            "ATG Capital Opportunities Fund LP, led by Gabi Gliksberg, owned 16.3 percent,\nand named nine board candidates to change where Empery went.",
+            "Yet ATG shorted Bitcoin ETFs dollar for dollar beside its stake;\na short can gain when prices fall, offsetting losses Bitcoin makes.\nThe coin-price risk was canceled, but its Empery votes remained;\nit still stood to gain if the stock’s discount waned.",
+            "Empery’s board rejected the nominees: “That hedge was not disclosed.”\nATG sued in Delaware, but the court said no:\nthe bylaws covered hedges involving Empery stock,\nnot crypto or unrelated ETFs—so the nine stayed on the ballot.",
+            "Was this empty voting—votes without Bitcoin cheer?\nOr did the hedge make Empery’s discount extra clear?\nATG could steer a giant Bitcoin pile without wanting Bitcoin higher,\nwhile betting that the stock-price gap would finally expire.",
+            "What happened? ATG owned 16.3% of Empery while shorting Bitcoin ETFs dollar for dollar, removing Bitcoin-price risk but keeping its votes and exposure to Empery’s stock discount. A Delaware court held that Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine nominees could stand for election."
+          ]
+        },
+        "elementary": {
+          "title": "The Votes Beside the Bitcoin Pile",
+          "lesson": "ATG kept its Empery voting power while shorting Bitcoin ETFs to remove Bitcoin-price risk; Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine board nominees could stand for election.",
+          "paragraphs": [
+            "Empery once made electric motorcycles for the road,\nthen changed, in July 2025, what it owned.\nIt became a DAT with $500 million in Bitcoin—\na stock-market company built around the coin.",
+            "For a while, one crypto dollar sold as two in shares;\nthen the premium vanished into thinner air.\nEmpery traded below net asset value—its Bitcoin pile’s worth—\nso owners proposed the reverse trade: sell coins and buy shares first.",
+            "Tice Brown pushed for liquidation too. He told Bloomberg columnist Matt Levine that he wanted the Bitcoin company liquidated.",
+            "ATG Capital Opportunities Fund LP, led by Gabi Gliksberg, owned 16.3 percent,\nand named nine board candidates to change where Empery went.",
+            "Yet ATG shorted Bitcoin ETFs dollar for dollar beside its stake;\na short can gain when prices fall, offsetting losses Bitcoin makes.\nThe coin-price risk was canceled, but its Empery votes remained;\nit still stood to gain if the stock’s discount waned.",
+            "Empery’s board rejected the nominees: “That hedge was not disclosed.”\nATG sued in Delaware, but the court said no:\nthe bylaws covered hedges involving Empery stock,\nnot crypto or unrelated ETFs—so the nine stayed on the ballot.",
+            "Was this empty voting—votes without Bitcoin cheer?\nOr did the hedge make Empery’s discount extra clear?\nATG could steer a giant Bitcoin pile without wanting Bitcoin higher,\nwhile betting that the stock-price gap would finally expire.",
+            "What happened? ATG owned 16.3% of Empery while shorting Bitcoin ETFs dollar for dollar, removing Bitcoin-price risk but keeping its votes and exposure to Empery’s stock discount. A Delaware court held that Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine nominees could stand for election."
+          ]
+        },
+        "middle": {
+          "title": "The Votes Beside the Bitcoin Pile",
+          "lesson": "ATG kept its Empery voting power while shorting Bitcoin ETFs to remove Bitcoin-price risk; Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine board nominees could stand for election.",
+          "paragraphs": [
+            "Empery once made electric motorcycles for the road,\nthen changed, in July 2025, what it owned.\nIt became a DAT with $500 million in Bitcoin—\na stock-market company built around the coin.",
+            "For a while, one crypto dollar sold as two in shares;\nthen the premium vanished into thinner air.\nEmpery traded below net asset value—its Bitcoin pile’s worth—\nso owners proposed the reverse trade: sell coins and buy shares first.",
+            "Tice Brown pushed for liquidation too. He told Bloomberg columnist Matt Levine that he wanted the Bitcoin company liquidated.",
+            "ATG Capital Opportunities Fund LP, led by Gabi Gliksberg, owned 16.3 percent,\nand named nine board candidates to change where Empery went.",
+            "Yet ATG shorted Bitcoin ETFs dollar for dollar beside its stake;\na short can gain when prices fall, offsetting losses Bitcoin makes.\nThe coin-price risk was canceled, but its Empery votes remained;\nit still stood to gain if the stock’s discount waned.",
+            "Empery’s board rejected the nominees: “That hedge was not disclosed.”\nATG sued in Delaware, but the court said no:\nthe bylaws covered hedges involving Empery stock,\nnot crypto or unrelated ETFs—so the nine stayed on the ballot.",
+            "Was this empty voting—votes without Bitcoin cheer?\nOr did the hedge make Empery’s discount extra clear?\nATG could steer a giant Bitcoin pile without wanting Bitcoin higher,\nwhile betting that the stock-price gap would finally expire.",
+            "What happened? ATG owned 16.3% of Empery while shorting Bitcoin ETFs dollar for dollar, removing Bitcoin-price risk but keeping its votes and exposure to Empery’s stock discount. A Delaware court held that Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine nominees could stand for election."
+          ]
+        },
+        "high": {
+          "title": "The Votes Beside the Bitcoin Pile",
+          "lesson": "ATG kept its Empery voting power while shorting Bitcoin ETFs to remove Bitcoin-price risk; Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine board nominees could stand for election.",
+          "paragraphs": [
+            "Empery once made electric motorcycles for the road,\nthen changed, in July 2025, what it owned.\nIt became a DAT with $500 million in Bitcoin—\na stock-market company built around the coin.",
+            "For a while, one crypto dollar sold as two in shares;\nthen the premium vanished into thinner air.\nEmpery traded below net asset value—its Bitcoin pile’s worth—\nso owners proposed the reverse trade: sell coins and buy shares first.",
+            "Tice Brown pushed for liquidation too. He told Bloomberg columnist Matt Levine that he wanted the Bitcoin company liquidated.",
+            "ATG Capital Opportunities Fund LP, led by Gabi Gliksberg, owned 16.3 percent,\nand named nine board candidates to change where Empery went.",
+            "Yet ATG shorted Bitcoin ETFs dollar for dollar beside its stake;\na short can gain when prices fall, offsetting losses Bitcoin makes.\nThe coin-price risk was canceled, but its Empery votes remained;\nit still stood to gain if the stock’s discount waned.",
+            "Empery’s board rejected the nominees: “That hedge was not disclosed.”\nATG sued in Delaware, but the court said no:\nthe bylaws covered hedges involving Empery stock,\nnot crypto or unrelated ETFs—so the nine stayed on the ballot.",
+            "Was this empty voting—votes without Bitcoin cheer?\nOr did the hedge make Empery’s discount extra clear?\nATG could steer a giant Bitcoin pile without wanting Bitcoin higher,\nwhile betting that the stock-price gap would finally expire.",
+            "What happened? ATG owned 16.3% of Empery while shorting Bitcoin ETFs dollar for dollar, removing Bitcoin-price risk but keeping its votes and exposure to Empery’s stock discount. A Delaware court held that Empery’s bylaws did not require disclosure of that hedge, so ATG’s nine nominees could stand for election."
+          ]
+        }
+      }
+    },
+    {
+      "id": "tax-michelangelo",
+      "sourceSection": "Tax Michelangelo",
+      "illustration": {
+        "src": "/images/2026-09-03-the-clippers-got-some-consulting/tax-michelangelo.png",
+        "alt": "Jeffrey Epstein presents Leon Black with an estate plan displayed like modern art, while Victoria J. Haneman and Jay Soled examine it beside a $158 million price tag."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jeffrey Epstein",
+          "Leon Black",
+          "Les Wexner",
+          "Dylan Sloan",
+          "Tom Maloney",
+          "Francesca Maglione",
+          "Victoria J. Haneman",
+          "Jay Soled"
+        ],
+        "realCompanies": [
+          "Apollo Global Management",
+          "Paul Weiss",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Leon Black paid Jeffrey Epstein $158 million for estate-planning and tax-minimization advice; outside experts reviewing the planning said its overall architecture was conventional, with only some slightly aggressive execution strategies.",
+        "centralJoke": "Epstein presented ordinary-looking tax planning as a priceless modern-art masterpiece, while experts nearly gave the classic modern-art response: “My child could do that.”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The $158 Million Tax Masterpiece",
+          "lesson": "Jeffrey Epstein charged Leon Black $158 million for estate and tax planning intended to reduce taxes, though outside experts said the strategies were mostly conventional.",
+          "paragraphs": [
+            "Billionaires paid Jeffrey Epstein large sums for advice;\nLeon Black paid a fee with a breathtaking price.\nBlack, once chief of Apollo Global Management by name,\nHired Epstein to lower the taxes his estate might claim.",
+            "From 2012 through 2017, the payments grew:\n$158 million before they were through.\nEpstein called his tax plan fine art on display—\nWorth more than Black’s other collections, he’d say.",
+            "Apollo investigated and praised the advice,\nAnd an admiring Paul Weiss email thought it rather nice.\nThen Bloomberg reporters Dylan Sloan, Tom Maloney,\nAnd Francesca Maglione asked: Was it truly one-of-a-kind—or phony?",
+            "Victoria J. Haneman inspected the plan:\nThe structure looked mostly conventional, she began.\nIts price was the marvel—not some dazzling new way;\nEven many top firms might have charged less, she’d say.",
+            "Rutgers professor Jay Soled called its novelty “hogwash” outright:\nMostly run-of-the-mill tactics, not tax-world delight.\nEpstein compared doubters to viewers of art who declare,\n“My child could do that!”—and the experts nearly went there.",
+            "What happened? Jeffrey Epstein received $158 million from Leon Black between 2012 and 2017 for estate and tax planning meant to minimize taxes. Epstein portrayed the work as a costly masterpiece, but tax professors said most of it was conventional and that the extraordinary feature was the fee."
+          ]
+        },
+        "elementary": {
+          "title": "The $158 Million Tax Masterpiece",
+          "lesson": "Jeffrey Epstein charged Leon Black $158 million for estate and tax planning intended to reduce taxes, though outside experts said the strategies were mostly conventional.",
+          "paragraphs": [
+            "Billionaires paid Jeffrey Epstein large sums for advice;\nLeon Black paid a fee with a breathtaking price.\nBlack, once chief of Apollo Global Management by name,\nHired Epstein to lower the taxes his estate might claim.",
+            "From 2012 through 2017, the payments grew:\n$158 million before they were through.\nEpstein called his tax plan fine art on display—\nWorth more than Black’s other collections, he’d say.",
+            "Apollo investigated and praised the advice,\nAnd an admiring Paul Weiss email thought it rather nice.\nThen Bloomberg reporters Dylan Sloan, Tom Maloney,\nAnd Francesca Maglione asked: Was it truly one-of-a-kind—or phony?",
+            "Victoria J. Haneman inspected the plan:\nThe structure looked mostly conventional, she began.\nIts price was the marvel—not some dazzling new way;\nEven many top firms might have charged less, she’d say.",
+            "Rutgers professor Jay Soled called its novelty “hogwash” outright:\nMostly run-of-the-mill tactics, not tax-world delight.\nEpstein compared doubters to viewers of art who declare,\n“My child could do that!”—and the experts nearly went there.",
+            "What happened? Jeffrey Epstein received $158 million from Leon Black between 2012 and 2017 for estate and tax planning meant to minimize taxes. Epstein portrayed the work as a costly masterpiece, but tax professors said most of it was conventional and that the extraordinary feature was the fee."
+          ]
+        },
+        "middle": {
+          "title": "The $158 Million Tax Masterpiece",
+          "lesson": "Jeffrey Epstein charged Leon Black $158 million for estate and tax planning intended to reduce taxes, though outside experts said the strategies were mostly conventional.",
+          "paragraphs": [
+            "Billionaires paid Jeffrey Epstein large sums for advice;\nLeon Black paid a fee with a breathtaking price.\nBlack, once chief of Apollo Global Management by name,\nHired Epstein to lower the taxes his estate might claim.",
+            "From 2012 through 2017, the payments grew:\n$158 million before they were through.\nEpstein called his tax plan fine art on display—\nWorth more than Black’s other collections, he’d say.",
+            "Apollo investigated and praised the advice,\nAnd an admiring Paul Weiss email thought it rather nice.\nThen Bloomberg reporters Dylan Sloan, Tom Maloney,\nAnd Francesca Maglione asked: Was it truly one-of-a-kind—or phony?",
+            "Victoria J. Haneman inspected the plan:\nThe structure looked mostly conventional, she began.\nIts price was the marvel—not some dazzling new way;\nEven many top firms might have charged less, she’d say.",
+            "Rutgers professor Jay Soled called its novelty “hogwash” outright:\nMostly run-of-the-mill tactics, not tax-world delight.\nEpstein compared doubters to viewers of art who declare,\n“My child could do that!”—and the experts nearly went there.",
+            "What happened? Jeffrey Epstein received $158 million from Leon Black between 2012 and 2017 for estate and tax planning meant to minimize taxes. Epstein portrayed the work as a costly masterpiece, but tax professors said most of it was conventional and that the extraordinary feature was the fee."
+          ]
+        },
+        "high": {
+          "title": "The $158 Million Tax Masterpiece",
+          "lesson": "Jeffrey Epstein charged Leon Black $158 million for estate and tax planning intended to reduce taxes, though outside experts said the strategies were mostly conventional.",
+          "paragraphs": [
+            "Billionaires paid Jeffrey Epstein large sums for advice;\nLeon Black paid a fee with a breathtaking price.\nBlack, once chief of Apollo Global Management by name,\nHired Epstein to lower the taxes his estate might claim.",
+            "From 2012 through 2017, the payments grew:\n$158 million before they were through.\nEpstein called his tax plan fine art on display—\nWorth more than Black’s other collections, he’d say.",
+            "Apollo investigated and praised the advice,\nAnd an admiring Paul Weiss email thought it rather nice.\nThen Bloomberg reporters Dylan Sloan, Tom Maloney,\nAnd Francesca Maglione asked: Was it truly one-of-a-kind—or phony?",
+            "Victoria J. Haneman inspected the plan:\nThe structure looked mostly conventional, she began.\nIts price was the marvel—not some dazzling new way;\nEven many top firms might have charged less, she’d say.",
+            "Rutgers professor Jay Soled called its novelty “hogwash” outright:\nMostly run-of-the-mill tactics, not tax-world delight.\nEpstein compared doubters to viewers of art who declare,\n“My child could do that!”—and the experts nearly went there.",
+            "What happened? Jeffrey Epstein received $158 million from Leon Black between 2012 and 2017 for estate and tax planning meant to minimize taxes. Epstein portrayed the work as a costly masterpiece, but tax professors said most of it was conventional and that the extraordinary feature was the fee."
+          ]
+        }
+      }
+    }
+  ]
+}
