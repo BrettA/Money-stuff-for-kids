@@ -168,6 +168,18 @@
       "submitted": true,
       "updatedAt": "2026-09-03T19:53:56.065Z",
       "submittedAt": "2026-09-03T19:53:56.065Z"
+    },
+    "1a06d25754137e9f": {
+      "gmailMessageId": "1a06d25754137e9f",
+      "newsletterDate": "2026-09-04",
+      "newsletterTitle": "The Podcast: Learn More Gooder",
+      "editionId": "2026-09-04-the-podcast-learn-more-gooder",
+      "sourceSha256": "8fc7f85578786ffc0f77c47699a5a83a9b7e2d22c8ecc275a7029a3318704dbd",
+      "packageSha256": "57f0c92ed47942bd957f1bd28101eec6e073e648788d9667895e28eb28d75d89",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-04T17:09:05.124Z",
+      "submittedAt": "2026-09-04T17:09:05.124Z"
     }
   }
 }
