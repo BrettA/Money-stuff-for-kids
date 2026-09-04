@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-04-the-podcast-learn-more-gooder",
+  "date": "2026-09-04",
+  "displayDate": "September 4, 2026",
+  "title": "The Podcast: Learn More Gooder",
+  "sourceSections": [
+    "Podcast"
+  ],
+  "stories": [
+    {
+      "id": "podcast",
+      "sourceSection": "Podcast",
+      "illustration": {
+        "src": "/images/2026-09-04-the-podcast-learn-more-gooder/podcast.png",
+        "alt": "Mary Childs records the Money Stuff podcast beside mortgage papers, auction paddles under a chandelier, IVV and VOO folders, and a note about missing Katie."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mary Childs",
+          "Katie"
+        ],
+        "realCompanies": [
+          "Bloomberg L.P.",
+          "Apple",
+          "Spotify"
+        ],
+        "financialMechanism": "The episode discussed CDS payments after defined credit events, replacing mortgages through refinancing, and second-price auctions in which the highest bidder wins but pays the second-highest bid.",
+        "centralJoke": "A densely technical list of finance topics includes chandelier bidding and ends with the heartfelt conclusion that everyone misses Katie."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Podcast with CDS, Chandeliers, and Katie",
+          "lesson": "CDS can pay after contract-defined credit events, mortgage refinancing replaces an old mortgage with a new one, and a second-price auction charges the winner the second-highest bid.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on that day;\nguest host Mary Childs had plenty to say.\nFrom Mary in America, she came to discuss\na jumble of finance with sparkle and fuss.",
+            "There was gossip on CDS—contracts designed\nto pay when defined credit trouble arrives.\nRefinancing swaps an old mortgage for new;\n“suboptimal” means it may not be best for you.",
+            "They weighed cheap options and savings-account rates,\nhourly bills, AI, and apprentice debates.\nThen came second-price auctions, with one clever twist:\nthe top bidder wins, paying second on the list.",
+            "Chandelier bidding swung into view,\nthen the IVV-to-VOO pipeline came through.\nThey compared rich-person trades with hedge-fund flair—\na remarkably crowded discussion to air.",
+            "Yet after each contract, each auction, each fee,\none point topped the agenda as plain as could be:\nWhatever the trade, whatever its size,\nthey all missed Katie—no hedge could disguise.",
+            "On Apple or Spotify, listeners can press play;\nother podcast services carry it today.\nBloomberg welcomed responses once listeners were through,\nfor thoughts on the episode and its financial stew.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by Mary Childs, covering the listed financial topics and how much everyone misses Katie. The episode is available through Apple, Spotify, and other podcast services."
+          ]
+        },
+        "elementary": {
+          "title": "The Podcast with CDS, Chandeliers, and Katie",
+          "lesson": "CDS can pay after contract-defined credit events, mortgage refinancing replaces an old mortgage with a new one, and a second-price auction charges the winner the second-highest bid.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on that day;\nguest host Mary Childs had plenty to say.\nFrom Mary in America, she came to discuss\na jumble of finance with sparkle and fuss.",
+            "There was gossip on CDS—contracts designed\nto pay when defined credit trouble arrives.\nRefinancing swaps an old mortgage for new;\n“suboptimal” means it may not be best for you.",
+            "They weighed cheap options and savings-account rates,\nhourly bills, AI, and apprentice debates.\nThen came second-price auctions, with one clever twist:\nthe top bidder wins, paying second on the list.",
+            "Chandelier bidding swung into view,\nthen the IVV-to-VOO pipeline came through.\nThey compared rich-person trades with hedge-fund flair—\na remarkably crowded discussion to air.",
+            "Yet after each contract, each auction, each fee,\none point topped the agenda as plain as could be:\nWhatever the trade, whatever its size,\nthey all missed Katie—no hedge could disguise.",
+            "On Apple or Spotify, listeners can press play;\nother podcast services carry it today.\nBloomberg welcomed responses once listeners were through,\nfor thoughts on the episode and its financial stew.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by Mary Childs, covering the listed financial topics and how much everyone misses Katie. The episode is available through Apple, Spotify, and other podcast services."
+          ]
+        },
+        "middle": {
+          "title": "The Podcast with CDS, Chandeliers, and Katie",
+          "lesson": "CDS can pay after contract-defined credit events, mortgage refinancing replaces an old mortgage with a new one, and a second-price auction charges the winner the second-highest bid.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on that day;\nguest host Mary Childs had plenty to say.\nFrom Mary in America, she came to discuss\na jumble of finance with sparkle and fuss.",
+            "There was gossip on CDS—contracts designed\nto pay when defined credit trouble arrives.\nRefinancing swaps an old mortgage for new;\n“suboptimal” means it may not be best for you.",
+            "They weighed cheap options and savings-account rates,\nhourly bills, AI, and apprentice debates.\nThen came second-price auctions, with one clever twist:\nthe top bidder wins, paying second on the list.",
+            "Chandelier bidding swung into view,\nthen the IVV-to-VOO pipeline came through.\nThey compared rich-person trades with hedge-fund flair—\na remarkably crowded discussion to air.",
+            "Yet after each contract, each auction, each fee,\none point topped the agenda as plain as could be:\nWhatever the trade, whatever its size,\nthey all missed Katie—no hedge could disguise.",
+            "On Apple or Spotify, listeners can press play;\nother podcast services carry it today.\nBloomberg welcomed responses once listeners were through,\nfor thoughts on the episode and its financial stew.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by Mary Childs, covering the listed financial topics and how much everyone misses Katie. The episode is available through Apple, Spotify, and other podcast services."
+          ]
+        },
+        "high": {
+          "title": "The Podcast with CDS, Chandeliers, and Katie",
+          "lesson": "CDS can pay after contract-defined credit events, mortgage refinancing replaces an old mortgage with a new one, and a second-price auction charges the winner the second-highest bid.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on that day;\nguest host Mary Childs had plenty to say.\nFrom Mary in America, she came to discuss\na jumble of finance with sparkle and fuss.",
+            "There was gossip on CDS—contracts designed\nto pay when defined credit trouble arrives.\nRefinancing swaps an old mortgage for new;\n“suboptimal” means it may not be best for you.",
+            "They weighed cheap options and savings-account rates,\nhourly bills, AI, and apprentice debates.\nThen came second-price auctions, with one clever twist:\nthe top bidder wins, paying second on the list.",
+            "Chandelier bidding swung into view,\nthen the IVV-to-VOO pipeline came through.\nThey compared rich-person trades with hedge-fund flair—\na remarkably crowded discussion to air.",
+            "Yet after each contract, each auction, each fee,\none point topped the agenda as plain as could be:\nWhatever the trade, whatever its size,\nthey all missed Katie—no hedge could disguise.",
+            "On Apple or Spotify, listeners can press play;\nother podcast services carry it today.\nBloomberg welcomed responses once listeners were through,\nfor thoughts on the episode and its financial stew.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by Mary Childs, covering the listed financial topics and how much everyone misses Katie. The episode is available through Apple, Spotify, and other podcast services."
+          ]
+        }
+      }
+    }
+  ]
+}
