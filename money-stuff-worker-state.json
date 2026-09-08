@@ -180,6 +180,18 @@
       "submitted": true,
       "updatedAt": "2026-09-04T17:09:05.124Z",
       "submittedAt": "2026-09-04T17:09:05.124Z"
+    },
+    "1a0824f3f9aa4d2d": {
+      "gmailMessageId": "1a0824f3f9aa4d2d",
+      "newsletterDate": "2026-09-08",
+      "newsletterTitle": "Robinhood Tokenized AMC",
+      "editionId": "2026-09-08-robinhood-tokenized-amc",
+      "sourceSha256": "772586b4cefdfa87fb035a8d6547907c54c015e530f3ebcbecdf6e588f3bb69e",
+      "packageSha256": "17d0f73d7ea1cafa850de2ab18a3cbffa9522742bfef6e7567e5f8a15c17a21c",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-08T19:03:14.394Z",
+      "submittedAt": "2026-09-08T19:03:14.394Z"
     }
   }
 }
