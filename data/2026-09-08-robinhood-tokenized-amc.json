@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-08-robinhood-tokenized-amc",
+  "date": "2026-09-08",
+  "displayDate": "September 8, 2026",
+  "title": "Robinhood Tokenized AMC",
+  "sourceSections": [
+    "Tokenization",
+    "Apollo premium",
+    "Pensions are back",
+    "Hunter Biden laptop memecoin",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "tokenization",
+      "sourceSection": "Tokenization",
+      "illustration": {
+        "src": "/images/2026-09-08-robinhood-tokenized-amc/tokenization.png",
+        "alt": "Adam Aron angrily points at an AMC Stock Token on Robinhood’s Jersey blockchain market while Vlad Tenev calmly asks, “What’s the concern?” and a matching AMC share sits with a US custody partner."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Adam Aron",
+          "Vlad Tenev"
+        ],
+        "realCompanies": [
+          "AMC Entertainment Holdings Inc.",
+          "Robinhood Markets Inc."
+        ],
+        "financialMechanism": "Robinhood used a roughly SPV-style tokenization structure: each AMC Stock Token was represented as being backed 1:1 by corresponding AMC equity held by a US custody partner, without AMC issuing or approving the token.",
+        "centralJoke": "AMC and Robinhood were fighting over who gets to create and trade products tied to AMC stock—even though both benefit from persuading people to buy AMC-related investments—and Vlad Tenev responded to AMC’s outrage with, “What’s the concern?”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The AMC Token Tussle",
+          "lesson": "Robinhood created blockchain tokens tied 1:1 to AMC shares held by a custody partner, even though AMC neither issued nor approved the tokens.",
+          "paragraphs": [
+            "AMC had a ledger where its stock shares were known—\n892,604,638 it had grown.\nA share meant a piece of the movie-chain pie,\nRecorded through ledgers when people would buy.",
+            "Then Robinhood offered an “AMC Stock Token” to trade,\nOn a blockchain market that Robinhood had made.\nAMC had not issued it, joined it, or planned it;\nThe token bore AMC’s name, though AMC hadn’t branded it.",
+            "Robinhood said every token was backed one-for-one:\nFor each one in circulation, an AMC share matched that one.\nThose underlying shares, securely stored away,\nWere held by a US custody partner, Robinhood would say.",
+            "AMC chief Adam Aron was angry at the sight.\n“Contemptible!” “Outrageous!” He said it wasn’t right.\nHe called the Jersey market “quasi-fake” and demanded it cease;\nHe feared it would make public distrust increase.",
+            "Robinhood chief Vlad Tenev answered, calm and blunt:\n“What’s the concern?” was the whole of his front.\nFor here was the wonderfully awkward affair:\nBoth companies wanted folks buying something tied to an AMC share.",
+            "What happened? Robinhood offered blockchain tokens bearing AMC’s name and said each was backed 1:1 by corresponding AMC stock held through a US custody partner. AMC did not create or approve the product, so Adam Aron demanded that trading stop, while Vlad Tenev asked, “What’s the concern?”"
+          ]
+        },
+        "elementary": {
+          "title": "The AMC Token Tussle",
+          "lesson": "Robinhood created blockchain tokens tied 1:1 to AMC shares held by a custody partner, even though AMC neither issued nor approved the tokens.",
+          "paragraphs": [
+            "AMC had a ledger where its stock shares were known—\n892,604,638 it had grown.\nA share meant a piece of the movie-chain pie,\nRecorded through ledgers when people would buy.",
+            "Then Robinhood offered an “AMC Stock Token” to trade,\nOn a blockchain market that Robinhood had made.\nAMC had not issued it, joined it, or planned it;\nThe token bore AMC’s name, though AMC hadn’t branded it.",
+            "Robinhood said every token was backed one-for-one:\nFor each one in circulation, an AMC share matched that one.\nThose underlying shares, securely stored away,\nWere held by a US custody partner, Robinhood would say.",
+            "AMC chief Adam Aron was angry at the sight.\n“Contemptible!” “Outrageous!” He said it wasn’t right.\nHe called the Jersey market “quasi-fake” and demanded it cease;\nHe feared it would make public distrust increase.",
+            "Robinhood chief Vlad Tenev answered, calm and blunt:\n“What’s the concern?” was the whole of his front.\nFor here was the wonderfully awkward affair:\nBoth companies wanted folks buying something tied to an AMC share.",
+            "What happened? Robinhood offered blockchain tokens bearing AMC’s name and said each was backed 1:1 by corresponding AMC stock held through a US custody partner. AMC did not create or approve the product, so Adam Aron demanded that trading stop, while Vlad Tenev asked, “What’s the concern?”"
+          ]
+        },
+        "middle": {
+          "title": "The AMC Token Tussle",
+          "lesson": "Robinhood created blockchain tokens tied 1:1 to AMC shares held by a custody partner, even though AMC neither issued nor approved the tokens.",
+          "paragraphs": [
+            "AMC had a ledger where its stock shares were known—\n892,604,638 it had grown.\nA share meant a piece of the movie-chain pie,\nRecorded through ledgers when people would buy.",
+            "Then Robinhood offered an “AMC Stock Token” to trade,\nOn a blockchain market that Robinhood had made.\nAMC had not issued it, joined it, or planned it;\nThe token bore AMC’s name, though AMC hadn’t branded it.",
+            "Robinhood said every token was backed one-for-one:\nFor each one in circulation, an AMC share matched that one.\nThose underlying shares, securely stored away,\nWere held by a US custody partner, Robinhood would say.",
+            "AMC chief Adam Aron was angry at the sight.\n“Contemptible!” “Outrageous!” He said it wasn’t right.\nHe called the Jersey market “quasi-fake” and demanded it cease;\nHe feared it would make public distrust increase.",
+            "Robinhood chief Vlad Tenev answered, calm and blunt:\n“What’s the concern?” was the whole of his front.\nFor here was the wonderfully awkward affair:\nBoth companies wanted folks buying something tied to an AMC share.",
+            "What happened? Robinhood offered blockchain tokens bearing AMC’s name and said each was backed 1:1 by corresponding AMC stock held through a US custody partner. AMC did not create or approve the product, so Adam Aron demanded that trading stop, while Vlad Tenev asked, “What’s the concern?”"
+          ]
+        },
+        "high": {
+          "title": "The AMC Token Tussle",
+          "lesson": "Robinhood created blockchain tokens tied 1:1 to AMC shares held by a custody partner, even though AMC neither issued nor approved the tokens.",
+          "paragraphs": [
+            "AMC had a ledger where its stock shares were known—\n892,604,638 it had grown.\nA share meant a piece of the movie-chain pie,\nRecorded through ledgers when people would buy.",
+            "Then Robinhood offered an “AMC Stock Token” to trade,\nOn a blockchain market that Robinhood had made.\nAMC had not issued it, joined it, or planned it;\nThe token bore AMC’s name, though AMC hadn’t branded it.",
+            "Robinhood said every token was backed one-for-one:\nFor each one in circulation, an AMC share matched that one.\nThose underlying shares, securely stored away,\nWere held by a US custody partner, Robinhood would say.",
+            "AMC chief Adam Aron was angry at the sight.\n“Contemptible!” “Outrageous!” He said it wasn’t right.\nHe called the Jersey market “quasi-fake” and demanded it cease;\nHe feared it would make public distrust increase.",
+            "Robinhood chief Vlad Tenev answered, calm and blunt:\n“What’s the concern?” was the whole of his front.\nFor here was the wonderfully awkward affair:\nBoth companies wanted folks buying something tied to an AMC share.",
+            "What happened? Robinhood offered blockchain tokens bearing AMC’s name and said each was backed 1:1 by corresponding AMC stock held through a US custody partner. AMC did not create or approve the product, so Adam Aron demanded that trading stop, while Vlad Tenev asked, “What’s the concern?”"
+          ]
+        }
+      }
+    },
+    {
+      "id": "apollo-premium",
+      "sourceSection": "Apollo premium",
+      "illustration": {
+        "src": "/images/2026-09-08-robinhood-tokenized-amc/apollo-premium.png",
+        "alt": "Apollo representatives receive a loan contract with a one-percentage-point premium while Buccola and Nini examine the terms and a dividend-recap loan pays Apollo investors."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Vince Buccola",
+          "Greg Nini"
+        ],
+        "realCompanies": [
+          "Apollo Global Management",
+          "Madison Dearborn",
+          "Financial Times"
+        ],
+        "financialMechanism": "Apollo’s reputation for aggressive liability-management restructurings may cause lenders to demand about 100 additional basis points of annual interest; that cost may purchase valuable flexibility to conduct dividend recaps or other restructurings later.",
+        "centralJoke": "Apollo may be charged extra because lenders expect it to outmaneuver them, yet the surcharge itself might be a bargain if Apollo can later extract even more money from those lenders."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Price of Apollo’s Reputation",
+          "lesson": "Lenders may charge Apollo-owned companies roughly one extra percentage point because they fear aggressive restructurings, but that premium could still cost less than the money Apollo might later extract through a dividend recap.",
+          "paragraphs": [
+            "The Financial Times reported a curious borrowing score:\nApollo-owned companies paid about one percentage point more.",
+            "That extra point is interest, due each year the debt remains;\nIt’s called the “Apollo premium,” a price for lenders’ pains.",
+            "Vince Buccola at Chicago and Greg Nini at Drexel\nStudied private-equity sponsors and the yields their companies paid as well.",
+            "Their paper, The Sponsor Premium, ranked reputations high to low:\nApollo seemed most aggressive; genial Madison Dearborn sat below.",
+            "They checked restructurings that reshuffle what a company must repay,\nAnd even asked large language models who seemed harsh along the way!",
+            "Apollo answered that its borrowers carry less debt and tighter rules,\nProducing strong results for lenders and investors—not treating either as fools.",
+            "On $40 billion of debt, that point could cost $400 million a year—\nA hefty price for keeping future restructuring choices near.",
+            "But suppose, once in three years, a dividend recap gets done:\nThe company borrows more and pays its owners $1.5 billion.",
+            "Three years at $400 million makes $1.2 billion in cost;\nIf owners pull out $1.5 billion, perhaps the premium wasn’t lost.",
+            "Are lenders charging just enough before aggressive moves begin?\nOr is Apollo buying optionality cheaply—and still set to win?",
+            "What happened? Buccola and Nini found that Apollo-owned companies paid about 100 basis points, or one percentage point, more to borrow after adjusting for other risks. The paper estimated that cost but not whether Apollo’s ability to extract money later through restructurings makes the extra interest worthwhile."
+          ]
+        },
+        "elementary": {
+          "title": "The Price of Apollo’s Reputation",
+          "lesson": "Lenders may charge Apollo-owned companies roughly one extra percentage point because they fear aggressive restructurings, but that premium could still cost less than the money Apollo might later extract through a dividend recap.",
+          "paragraphs": [
+            "The Financial Times reported a curious borrowing score:\nApollo-owned companies paid about one percentage point more.",
+            "That extra point is interest, due each year the debt remains;\nIt’s called the “Apollo premium,” a price for lenders’ pains.",
+            "Vince Buccola at Chicago and Greg Nini at Drexel\nStudied private-equity sponsors and the yields their companies paid as well.",
+            "Their paper, The Sponsor Premium, ranked reputations high to low:\nApollo seemed most aggressive; genial Madison Dearborn sat below.",
+            "They checked restructurings that reshuffle what a company must repay,\nAnd even asked large language models who seemed harsh along the way!",
+            "Apollo answered that its borrowers carry less debt and tighter rules,\nProducing strong results for lenders and investors—not treating either as fools.",
+            "On $40 billion of debt, that point could cost $400 million a year—\nA hefty price for keeping future restructuring choices near.",
+            "But suppose, once in three years, a dividend recap gets done:\nThe company borrows more and pays its owners $1.5 billion.",
+            "Three years at $400 million makes $1.2 billion in cost;\nIf owners pull out $1.5 billion, perhaps the premium wasn’t lost.",
+            "Are lenders charging just enough before aggressive moves begin?\nOr is Apollo buying optionality cheaply—and still set to win?",
+            "What happened? Buccola and Nini found that Apollo-owned companies paid about 100 basis points, or one percentage point, more to borrow after adjusting for other risks. The paper estimated that cost but not whether Apollo’s ability to extract money later through restructurings makes the extra interest worthwhile."
+          ]
+        },
+        "middle": {
+          "title": "The Price of Apollo’s Reputation",
+          "lesson": "Lenders may charge Apollo-owned companies roughly one extra percentage point because they fear aggressive restructurings, but that premium could still cost less than the money Apollo might later extract through a dividend recap.",
+          "paragraphs": [
+            "The Financial Times reported a curious borrowing score:\nApollo-owned companies paid about one percentage point more.",
+            "That extra point is interest, due each year the debt remains;\nIt’s called the “Apollo premium,” a price for lenders’ pains.",
+            "Vince Buccola at Chicago and Greg Nini at Drexel\nStudied private-equity sponsors and the yields their companies paid as well.",
+            "Their paper, The Sponsor Premium, ranked reputations high to low:\nApollo seemed most aggressive; genial Madison Dearborn sat below.",
+            "They checked restructurings that reshuffle what a company must repay,\nAnd even asked large language models who seemed harsh along the way!",
+            "Apollo answered that its borrowers carry less debt and tighter rules,\nProducing strong results for lenders and investors—not treating either as fools.",
+            "On $40 billion of debt, that point could cost $400 million a year—\nA hefty price for keeping future restructuring choices near.",
+            "But suppose, once in three years, a dividend recap gets done:\nThe company borrows more and pays its owners $1.5 billion.",
+            "Three years at $400 million makes $1.2 billion in cost;\nIf owners pull out $1.5 billion, perhaps the premium wasn’t lost.",
+            "Are lenders charging just enough before aggressive moves begin?\nOr is Apollo buying optionality cheaply—and still set to win?",
+            "What happened? Buccola and Nini found that Apollo-owned companies paid about 100 basis points, or one percentage point, more to borrow after adjusting for other risks. The paper estimated that cost but not whether Apollo’s ability to extract money later through restructurings makes the extra interest worthwhile."
+          ]
+        },
+        "high": {
+          "title": "The Price of Apollo’s Reputation",
+          "lesson": "Lenders may charge Apollo-owned companies roughly one extra percentage point because they fear aggressive restructurings, but that premium could still cost less than the money Apollo might later extract through a dividend recap.",
+          "paragraphs": [
+            "The Financial Times reported a curious borrowing score:\nApollo-owned companies paid about one percentage point more.",
+            "That extra point is interest, due each year the debt remains;\nIt’s called the “Apollo premium,” a price for lenders’ pains.",
+            "Vince Buccola at Chicago and Greg Nini at Drexel\nStudied private-equity sponsors and the yields their companies paid as well.",
+            "Their paper, The Sponsor Premium, ranked reputations high to low:\nApollo seemed most aggressive; genial Madison Dearborn sat below.",
+            "They checked restructurings that reshuffle what a company must repay,\nAnd even asked large language models who seemed harsh along the way!",
+            "Apollo answered that its borrowers carry less debt and tighter rules,\nProducing strong results for lenders and investors—not treating either as fools.",
+            "On $40 billion of debt, that point could cost $400 million a year—\nA hefty price for keeping future restructuring choices near.",
+            "But suppose, once in three years, a dividend recap gets done:\nThe company borrows more and pays its owners $1.5 billion.",
+            "Three years at $400 million makes $1.2 billion in cost;\nIf owners pull out $1.5 billion, perhaps the premium wasn’t lost.",
+            "Are lenders charging just enough before aggressive moves begin?\nOr is Apollo buying optionality cheaply—and still set to win?",
+            "What happened? Buccola and Nini found that Apollo-owned companies paid about 100 basis points, or one percentage point, more to borrow after adjusting for other risks. The paper estimated that cost but not whether Apollo’s ability to extract money later through restructurings makes the extra interest worthwhile."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pensions-are-back",
+      "sourceSection": "Pensions are back",
+      "illustration": {
+        "src": "/images/2026-09-08-robinhood-tokenized-amc/pensions-are-back.png",
+        "alt": "A pension manager places a small slice of a huge pooled retirement fund into locked private-equity boxes while workers gather around the shared fund and Wall Street sellers eagerly return."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "Traditional pension funds pool workers’ retirement assets and have predictable long-term liabilities, allowing professional managers to invest a small but meaningful share in opaque, illiquid assets such as private equity. New market-linked pension or annuity designs resemble 401(k) returns while potentially preserving more capacity for long-term private-market investing.",
+        "centralJoke": "The financial industry may welcome pensions back not only because they provide retirement income, but because big pooled pensions are excellent buyers of the opaque, illiquid “spicy stuff” that is harder to sell inside 401(k) plans."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Pension Pool Opens Its Door",
+          "lesson": "Pooled pensions can invest in long-term, illiquid private assets more easily than worker-directed 401(k) accounts; newer market-linked pension designs may reduce employers’ risk while providing retirement income.",
+          "paragraphs": [
+            "Once, workers’ pensions were gathered in pools,\nrun by professional managers following rules.\nThey knew when retirement payments came due,\nso they could wait years for investments to brew.",
+            "With plenty of money, just one percent might\nmake private equity’s small slice worthwhile.\nSome assets were opaque, with no quick way out—\n“illiquid” means cash can’t be fetched on a shout.",
+            "The financial industry loved selling such stuff:\nlocked-up and complex, for years long enough.\nBut pensions grew scarce as the 401(k)\nlet each worker choose where their own savings lay.",
+            "Those workers want prices each day they can see,\nlow costs, and the freedom to sell instantly.\nPrivate credit funds tried allowing cash out—\nthen withdrawals and bad press came swirling about.",
+            "Now The Wall Street Journal reports a surprise:\nSome companies see pensions with fresh, hopeful eyes.\nThey may help settle talks with a labor union,\nor keep valued workers from seeking a new one.",
+            "Many new plans don’t promise one fixed amount;\ntheir returns may track markets, like a 401(k) account.\nYet a pooled, market-linked annuity may wait\non long-term investments for a later date.",
+            "So the pension, once nearly pushed out of the store,\nmay roll its big investment cart through the door.\nIt can pay workers income—and, funny but true,\nbuy the locked-up “spicy stuff” Wall Street missed too.",
+            "What happened? A small but growing number of companies are reviving pensions, often for labor negotiations or employee recruitment. Newer market-linked designs reduce fixed-benefit risk for employers and may let pooled retirement funds hold more illiquid private-market investments than ordinary 401(k) accounts can."
+          ]
+        },
+        "elementary": {
+          "title": "The Pension Pool Opens Its Door",
+          "lesson": "Pooled pensions can invest in long-term, illiquid private assets more easily than worker-directed 401(k) accounts; newer market-linked pension designs may reduce employers’ risk while providing retirement income.",
+          "paragraphs": [
+            "Once, workers’ pensions were gathered in pools,\nrun by professional managers following rules.\nThey knew when retirement payments came due,\nso they could wait years for investments to brew.",
+            "With plenty of money, just one percent might\nmake private equity’s small slice worthwhile.\nSome assets were opaque, with no quick way out—\n“illiquid” means cash can’t be fetched on a shout.",
+            "The financial industry loved selling such stuff:\nlocked-up and complex, for years long enough.\nBut pensions grew scarce as the 401(k)\nlet each worker choose where their own savings lay.",
+            "Those workers want prices each day they can see,\nlow costs, and the freedom to sell instantly.\nPrivate credit funds tried allowing cash out—\nthen withdrawals and bad press came swirling about.",
+            "Now The Wall Street Journal reports a surprise:\nSome companies see pensions with fresh, hopeful eyes.\nThey may help settle talks with a labor union,\nor keep valued workers from seeking a new one.",
+            "Many new plans don’t promise one fixed amount;\ntheir returns may track markets, like a 401(k) account.\nYet a pooled, market-linked annuity may wait\non long-term investments for a later date.",
+            "So the pension, once nearly pushed out of the store,\nmay roll its big investment cart through the door.\nIt can pay workers income—and, funny but true,\nbuy the locked-up “spicy stuff” Wall Street missed too.",
+            "What happened? A small but growing number of companies are reviving pensions, often for labor negotiations or employee recruitment. Newer market-linked designs reduce fixed-benefit risk for employers and may let pooled retirement funds hold more illiquid private-market investments than ordinary 401(k) accounts can."
+          ]
+        },
+        "middle": {
+          "title": "The Pension Pool Opens Its Door",
+          "lesson": "Pooled pensions can invest in long-term, illiquid private assets more easily than worker-directed 401(k) accounts; newer market-linked pension designs may reduce employers’ risk while providing retirement income.",
+          "paragraphs": [
+            "Once, workers’ pensions were gathered in pools,\nrun by professional managers following rules.\nThey knew when retirement payments came due,\nso they could wait years for investments to brew.",
+            "With plenty of money, just one percent might\nmake private equity’s small slice worthwhile.\nSome assets were opaque, with no quick way out—\n“illiquid” means cash can’t be fetched on a shout.",
+            "The financial industry loved selling such stuff:\nlocked-up and complex, for years long enough.\nBut pensions grew scarce as the 401(k)\nlet each worker choose where their own savings lay.",
+            "Those workers want prices each day they can see,\nlow costs, and the freedom to sell instantly.\nPrivate credit funds tried allowing cash out—\nthen withdrawals and bad press came swirling about.",
+            "Now The Wall Street Journal reports a surprise:\nSome companies see pensions with fresh, hopeful eyes.\nThey may help settle talks with a labor union,\nor keep valued workers from seeking a new one.",
+            "Many new plans don’t promise one fixed amount;\ntheir returns may track markets, like a 401(k) account.\nYet a pooled, market-linked annuity may wait\non long-term investments for a later date.",
+            "So the pension, once nearly pushed out of the store,\nmay roll its big investment cart through the door.\nIt can pay workers income—and, funny but true,\nbuy the locked-up “spicy stuff” Wall Street missed too.",
+            "What happened? A small but growing number of companies are reviving pensions, often for labor negotiations or employee recruitment. Newer market-linked designs reduce fixed-benefit risk for employers and may let pooled retirement funds hold more illiquid private-market investments than ordinary 401(k) accounts can."
+          ]
+        },
+        "high": {
+          "title": "The Pension Pool Opens Its Door",
+          "lesson": "Pooled pensions can invest in long-term, illiquid private assets more easily than worker-directed 401(k) accounts; newer market-linked pension designs may reduce employers’ risk while providing retirement income.",
+          "paragraphs": [
+            "Once, workers’ pensions were gathered in pools,\nrun by professional managers following rules.\nThey knew when retirement payments came due,\nso they could wait years for investments to brew.",
+            "With plenty of money, just one percent might\nmake private equity’s small slice worthwhile.\nSome assets were opaque, with no quick way out—\n“illiquid” means cash can’t be fetched on a shout.",
+            "The financial industry loved selling such stuff:\nlocked-up and complex, for years long enough.\nBut pensions grew scarce as the 401(k)\nlet each worker choose where their own savings lay.",
+            "Those workers want prices each day they can see,\nlow costs, and the freedom to sell instantly.\nPrivate credit funds tried allowing cash out—\nthen withdrawals and bad press came swirling about.",
+            "Now The Wall Street Journal reports a surprise:\nSome companies see pensions with fresh, hopeful eyes.\nThey may help settle talks with a labor union,\nor keep valued workers from seeking a new one.",
+            "Many new plans don’t promise one fixed amount;\ntheir returns may track markets, like a 401(k) account.\nYet a pooled, market-linked annuity may wait\non long-term investments for a later date.",
+            "So the pension, once nearly pushed out of the store,\nmay roll its big investment cart through the door.\nIt can pay workers income—and, funny but true,\nbuy the locked-up “spicy stuff” Wall Street missed too.",
+            "What happened? A small but growing number of companies are reviving pensions, often for labor negotiations or employee recruitment. Newer market-linked designs reduce fixed-benefit risk for employers and may let pooled retirement funds hold more illiquid private-market investments than ordinary 401(k) accounts can."
+          ]
+        }
+      }
+    },
+    {
+      "id": "hunter-biden-laptop-memecoin",
+      "sourceSection": "Hunter Biden laptop memecoin",
+      "illustration": {
+        "src": "/images/2026-09-08-robinhood-tokenized-amc/hunter-biden-laptop-memecoin.png",
+        "alt": "Hunter Biden watches $LAPTOP tokens move toward a burn chute or a charity box beside event cards for the 2028 election, Bitcoin, and $TRUMP."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Hunter Biden",
+          "Joe Biden",
+          "Donald Trump",
+          "Andrew Callaghan"
+        ],
+        "realCompanies": [
+          "Coinbase Global",
+          "Substack"
+        ],
+        "financialMechanism": "Conditional token burning would remove up to 30% of $LAPTOP’s supply after specified outcomes, potentially increasing the price per remaining token; amounts linked to failed conditions would go to charity, and another 20% was allocated to selected crypto wallets.",
+        "centralJoke": "Changing a spreadsheet total from one billion tokens to 700 million does not magically create value: even if scarcity made each unit worth 43% more, 143% of zero would still be zero."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Coin Named $LAPTOP",
+          "lesson": "$LAPTOP’s founders planned conditional token burns that could reduce supply and perhaps raise the price, while tokens tied to unmet conditions would instead go to charity.",
+          "paragraphs": [
+            "Hunter Biden announced a meme coin with a headline-ready name:\n$LAPTOP, for the notorious computer tied to his political fame.\nThe son of former President Joe Biden aimed it at Donald Trump’s $TRUMP game;\non Sept. 9 it was set to launch on Base, Coinbase Global’s digital chain.",
+            "For thirty preset events, the founders made a curious vow:\nIf chosen outcomes happened on schedule, some coins would vanish somehow.\nUp to 30% would be “burned”—destroyed and removed from supply;\nwith fewer tokens left for trading, each token’s price might fly.",
+            "A Democrat must win in 2028; Bitcoin must reach a record height;\n$LAPTOP’s fully diluted value—counting every coin—must top $TRUMP outright.\nWhen an outcome missed its deadline, that portion would not disappear;\nthe matching tokens would go to charity, as the planners made clear.",
+            "Now type “1,000,000,000” in a spreadsheet, then change it when Democrats win:\nMake “700,000,000” the new total. Did extra value rush in?\nMust each remaining number be worth 43% more? Why would that be so?\nAnd 143% of zero is still precisely zero.",
+            "Yet meme coins may trade from comedy, curiosity, or cheer;\nprice times all the tokens makes a “market cap” appear.\nAnother 20% was designated for crypto wallets belonging to $TRUMP losers, Hunter Biden’s Substack subscribers, and people on video journalist Andrew Callaghan’s mailing list.",
+            "What happened? Hunter Biden planned to launch $LAPTOP on Base, with up to 30% of its tokens destroyed if thirty specified events had chosen outcomes; otherwise, proportional amounts would go to charity. Reducing supply can raise a token’s price only if buyers still give the remaining tokens value."
+          ]
+        },
+        "elementary": {
+          "title": "The Coin Named $LAPTOP",
+          "lesson": "$LAPTOP’s founders planned conditional token burns that could reduce supply and perhaps raise the price, while tokens tied to unmet conditions would instead go to charity.",
+          "paragraphs": [
+            "Hunter Biden announced a meme coin with a headline-ready name:\n$LAPTOP, for the notorious computer tied to his political fame.\nThe son of former President Joe Biden aimed it at Donald Trump’s $TRUMP game;\non Sept. 9 it was set to launch on Base, Coinbase Global’s digital chain.",
+            "For thirty preset events, the founders made a curious vow:\nIf chosen outcomes happened on schedule, some coins would vanish somehow.\nUp to 30% would be “burned”—destroyed and removed from supply;\nwith fewer tokens left for trading, each token’s price might fly.",
+            "A Democrat must win in 2028; Bitcoin must reach a record height;\n$LAPTOP’s fully diluted value—counting every coin—must top $TRUMP outright.\nWhen an outcome missed its deadline, that portion would not disappear;\nthe matching tokens would go to charity, as the planners made clear.",
+            "Now type “1,000,000,000” in a spreadsheet, then change it when Democrats win:\nMake “700,000,000” the new total. Did extra value rush in?\nMust each remaining number be worth 43% more? Why would that be so?\nAnd 143% of zero is still precisely zero.",
+            "Yet meme coins may trade from comedy, curiosity, or cheer;\nprice times all the tokens makes a “market cap” appear.\nAnother 20% was designated for crypto wallets belonging to $TRUMP losers, Hunter Biden’s Substack subscribers, and people on video journalist Andrew Callaghan’s mailing list.",
+            "What happened? Hunter Biden planned to launch $LAPTOP on Base, with up to 30% of its tokens destroyed if thirty specified events had chosen outcomes; otherwise, proportional amounts would go to charity. Reducing supply can raise a token’s price only if buyers still give the remaining tokens value."
+          ]
+        },
+        "middle": {
+          "title": "The Coin Named $LAPTOP",
+          "lesson": "$LAPTOP’s founders planned conditional token burns that could reduce supply and perhaps raise the price, while tokens tied to unmet conditions would instead go to charity.",
+          "paragraphs": [
+            "Hunter Biden announced a meme coin with a headline-ready name:\n$LAPTOP, for the notorious computer tied to his political fame.\nThe son of former President Joe Biden aimed it at Donald Trump’s $TRUMP game;\non Sept. 9 it was set to launch on Base, Coinbase Global’s digital chain.",
+            "For thirty preset events, the founders made a curious vow:\nIf chosen outcomes happened on schedule, some coins would vanish somehow.\nUp to 30% would be “burned”—destroyed and removed from supply;\nwith fewer tokens left for trading, each token’s price might fly.",
+            "A Democrat must win in 2028; Bitcoin must reach a record height;\n$LAPTOP’s fully diluted value—counting every coin—must top $TRUMP outright.\nWhen an outcome missed its deadline, that portion would not disappear;\nthe matching tokens would go to charity, as the planners made clear.",
+            "Now type “1,000,000,000” in a spreadsheet, then change it when Democrats win:\nMake “700,000,000” the new total. Did extra value rush in?\nMust each remaining number be worth 43% more? Why would that be so?\nAnd 143% of zero is still precisely zero.",
+            "Yet meme coins may trade from comedy, curiosity, or cheer;\nprice times all the tokens makes a “market cap” appear.\nAnother 20% was designated for crypto wallets belonging to $TRUMP losers, Hunter Biden’s Substack subscribers, and people on video journalist Andrew Callaghan’s mailing list.",
+            "What happened? Hunter Biden planned to launch $LAPTOP on Base, with up to 30% of its tokens destroyed if thirty specified events had chosen outcomes; otherwise, proportional amounts would go to charity. Reducing supply can raise a token’s price only if buyers still give the remaining tokens value."
+          ]
+        },
+        "high": {
+          "title": "The Coin Named $LAPTOP",
+          "lesson": "$LAPTOP’s founders planned conditional token burns that could reduce supply and perhaps raise the price, while tokens tied to unmet conditions would instead go to charity.",
+          "paragraphs": [
+            "Hunter Biden announced a meme coin with a headline-ready name:\n$LAPTOP, for the notorious computer tied to his political fame.\nThe son of former President Joe Biden aimed it at Donald Trump’s $TRUMP game;\non Sept. 9 it was set to launch on Base, Coinbase Global’s digital chain.",
+            "For thirty preset events, the founders made a curious vow:\nIf chosen outcomes happened on schedule, some coins would vanish somehow.\nUp to 30% would be “burned”—destroyed and removed from supply;\nwith fewer tokens left for trading, each token’s price might fly.",
+            "A Democrat must win in 2028; Bitcoin must reach a record height;\n$LAPTOP’s fully diluted value—counting every coin—must top $TRUMP outright.\nWhen an outcome missed its deadline, that portion would not disappear;\nthe matching tokens would go to charity, as the planners made clear.",
+            "Now type “1,000,000,000” in a spreadsheet, then change it when Democrats win:\nMake “700,000,000” the new total. Did extra value rush in?\nMust each remaining number be worth 43% more? Why would that be so?\nAnd 143% of zero is still precisely zero.",
+            "Yet meme coins may trade from comedy, curiosity, or cheer;\nprice times all the tokens makes a “market cap” appear.\nAnother 20% was designated for crypto wallets belonging to $TRUMP losers, Hunter Biden’s Substack subscribers, and people on video journalist Andrew Callaghan’s mailing list.",
+            "What happened? Hunter Biden planned to launch $LAPTOP on Base, with up to 30% of its tokens destroyed if thirty specified events had chosen outcomes; otherwise, proportional amounts would go to charity. Reducing supply can raise a token’s price only if buyers still give the remaining tokens value."
+          ]
+        }
+      }
+    }
+  ]
+}
