@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-09-aaa-ai",
+  "date": "2026-09-09",
+  "displayDate": "September 9, 2026",
+  "title": "AAA AI",
+  "sourceSections": [
+    "AI ratings",
+    "Hourly ETFs",
+    "People are worried about the basis trade",
+    "Egg Libor fines",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "ai-ratings",
+      "sourceSection": "AI ratings",
+      "illustration": {
+        "src": "/images/2026-09-09-aaa-ai/ai-ratings.png",
+        "alt": "Morgan Stanley and Goldman Sachs bankers present OpenAI and Anthropic rating folders while Fitch, Moody’s, and S&P analysts hold back investment-grade stamps beside a vast Nvidia-filled data center."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Joshua Coval",
+          "Jakub Jurek",
+          "Erik Stafford"
+        ],
+        "realCompanies": [
+          "OpenAI",
+          "Anthropic",
+          "Morgan Stanley",
+          "Goldman Sachs",
+          "Fitch",
+          "Moody’s",
+          "S&P",
+          "Oracle",
+          "Nvidia"
+        ],
+        "financialMechanism": "An investment-grade rating after an IPO could let OpenAI and Anthropic borrow more cheaply from corporate-bond investors; data-center bonds are also indirectly repaid by AI revenue flowing from customers to labs and then to computing providers.",
+        "centralJoke": "OpenAI and Anthropic are unprofitable and risky, but if the economy and bond market are increasingly built around AI, investors may have nowhere less correlated to go—so perhaps the labs can be graded on a curve."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The AI Labs and the Investment-Grade Curve",
+          "lesson": "Investment-grade ratings could lower OpenAI’s and Anthropic’s borrowing costs, even though both remain unprofitable and much of the wider economy is already becoming exposed to their success.",
+          "paragraphs": [
+            "Joshua Coval, Jakub Jurek, and Erik Stafford once showed\nwhy a shiny bond rating may hide danger down the road:\nAAA mortgage bonds seemed unlikely to fall,\nbut a housing crash could drop them when money mattered most of all.",
+            "Today, giant data centers need mountains of power,\nwith rows of Nvidia chips humming hour after hour.\nTheir bonds are repaid from the cash AI brings—\nfrom customers to labs, then to computing.",
+            "Much of that cash is expected from OpenAI,\nand Anthropic, though both still lose money as years hurry by.\nThe labs pay data centers for computing might;\nthose payments help the centers repay bonds right.",
+            "Now Morgan Stanley and Goldman Sachs made their pitch\nfor investment-grade ratings from S&P, Moody’s, and Fitch.\nThat label tells bond buyers repayment looks sound,\nso cheaper funding for construction can often be found.",
+            "After an IPO—their first public sale of stock—\nthe $11.7 trillion corporate bond market might unlock.\nThat could help huge infrastructure plans roll through,\nbenefiting partners like Oracle and Nvidia too.",
+            "The rating analysts answered, “We’ll wait for the IPO.”\nThe labs are still “in the red,” with free cash flow low.\nFor now, they remain deep speculative grade;\nno investment-grade promise has yet been made.",
+            "Still, AI is becoming a great economic tide—\nso where can big bond investors sensibly hide?\nIf nearly everyone owns the same buildout someday,\nperhaps OpenAI and Anthropic get graded on a curve anyway.",
+            "What happened? Morgan Stanley and Goldman Sachs discussed with Fitch, Moody’s, and S&P whether OpenAI and Anthropic might receive investment-grade ratings after future IPOs, lowering their borrowing costs and opening the $11.7 trillion corporate bond market. The agencies had not decided; both labs remained unprofitable and speculative grade."
+          ]
+        },
+        "elementary": {
+          "title": "The AI Labs and the Investment-Grade Curve",
+          "lesson": "Investment-grade ratings could lower OpenAI’s and Anthropic’s borrowing costs, even though both remain unprofitable and much of the wider economy is already becoming exposed to their success.",
+          "paragraphs": [
+            "Joshua Coval, Jakub Jurek, and Erik Stafford once showed\nwhy a shiny bond rating may hide danger down the road:\nAAA mortgage bonds seemed unlikely to fall,\nbut a housing crash could drop them when money mattered most of all.",
+            "Today, giant data centers need mountains of power,\nwith rows of Nvidia chips humming hour after hour.\nTheir bonds are repaid from the cash AI brings—\nfrom customers to labs, then to computing.",
+            "Much of that cash is expected from OpenAI,\nand Anthropic, though both still lose money as years hurry by.\nThe labs pay data centers for computing might;\nthose payments help the centers repay bonds right.",
+            "Now Morgan Stanley and Goldman Sachs made their pitch\nfor investment-grade ratings from S&P, Moody’s, and Fitch.\nThat label tells bond buyers repayment looks sound,\nso cheaper funding for construction can often be found.",
+            "After an IPO—their first public sale of stock—\nthe $11.7 trillion corporate bond market might unlock.\nThat could help huge infrastructure plans roll through,\nbenefiting partners like Oracle and Nvidia too.",
+            "The rating analysts answered, “We’ll wait for the IPO.”\nThe labs are still “in the red,” with free cash flow low.\nFor now, they remain deep speculative grade;\nno investment-grade promise has yet been made.",
+            "Still, AI is becoming a great economic tide—\nso where can big bond investors sensibly hide?\nIf nearly everyone owns the same buildout someday,\nperhaps OpenAI and Anthropic get graded on a curve anyway.",
+            "What happened? Morgan Stanley and Goldman Sachs discussed with Fitch, Moody’s, and S&P whether OpenAI and Anthropic might receive investment-grade ratings after future IPOs, lowering their borrowing costs and opening the $11.7 trillion corporate bond market. The agencies had not decided; both labs remained unprofitable and speculative grade."
+          ]
+        },
+        "middle": {
+          "title": "The AI Labs and the Investment-Grade Curve",
+          "lesson": "Investment-grade ratings could lower OpenAI’s and Anthropic’s borrowing costs, even though both remain unprofitable and much of the wider economy is already becoming exposed to their success.",
+          "paragraphs": [
+            "Joshua Coval, Jakub Jurek, and Erik Stafford once showed\nwhy a shiny bond rating may hide danger down the road:\nAAA mortgage bonds seemed unlikely to fall,\nbut a housing crash could drop them when money mattered most of all.",
+            "Today, giant data centers need mountains of power,\nwith rows of Nvidia chips humming hour after hour.\nTheir bonds are repaid from the cash AI brings—\nfrom customers to labs, then to computing.",
+            "Much of that cash is expected from OpenAI,\nand Anthropic, though both still lose money as years hurry by.\nThe labs pay data centers for computing might;\nthose payments help the centers repay bonds right.",
+            "Now Morgan Stanley and Goldman Sachs made their pitch\nfor investment-grade ratings from S&P, Moody’s, and Fitch.\nThat label tells bond buyers repayment looks sound,\nso cheaper funding for construction can often be found.",
+            "After an IPO—their first public sale of stock—\nthe $11.7 trillion corporate bond market might unlock.\nThat could help huge infrastructure plans roll through,\nbenefiting partners like Oracle and Nvidia too.",
+            "The rating analysts answered, “We’ll wait for the IPO.”\nThe labs are still “in the red,” with free cash flow low.\nFor now, they remain deep speculative grade;\nno investment-grade promise has yet been made.",
+            "Still, AI is becoming a great economic tide—\nso where can big bond investors sensibly hide?\nIf nearly everyone owns the same buildout someday,\nperhaps OpenAI and Anthropic get graded on a curve anyway.",
+            "What happened? Morgan Stanley and Goldman Sachs discussed with Fitch, Moody’s, and S&P whether OpenAI and Anthropic might receive investment-grade ratings after future IPOs, lowering their borrowing costs and opening the $11.7 trillion corporate bond market. The agencies had not decided; both labs remained unprofitable and speculative grade."
+          ]
+        },
+        "high": {
+          "title": "The AI Labs and the Investment-Grade Curve",
+          "lesson": "Investment-grade ratings could lower OpenAI’s and Anthropic’s borrowing costs, even though both remain unprofitable and much of the wider economy is already becoming exposed to their success.",
+          "paragraphs": [
+            "Joshua Coval, Jakub Jurek, and Erik Stafford once showed\nwhy a shiny bond rating may hide danger down the road:\nAAA mortgage bonds seemed unlikely to fall,\nbut a housing crash could drop them when money mattered most of all.",
+            "Today, giant data centers need mountains of power,\nwith rows of Nvidia chips humming hour after hour.\nTheir bonds are repaid from the cash AI brings—\nfrom customers to labs, then to computing.",
+            "Much of that cash is expected from OpenAI,\nand Anthropic, though both still lose money as years hurry by.\nThe labs pay data centers for computing might;\nthose payments help the centers repay bonds right.",
+            "Now Morgan Stanley and Goldman Sachs made their pitch\nfor investment-grade ratings from S&P, Moody’s, and Fitch.\nThat label tells bond buyers repayment looks sound,\nso cheaper funding for construction can often be found.",
+            "After an IPO—their first public sale of stock—\nthe $11.7 trillion corporate bond market might unlock.\nThat could help huge infrastructure plans roll through,\nbenefiting partners like Oracle and Nvidia too.",
+            "The rating analysts answered, “We’ll wait for the IPO.”\nThe labs are still “in the red,” with free cash flow low.\nFor now, they remain deep speculative grade;\nno investment-grade promise has yet been made.",
+            "Still, AI is becoming a great economic tide—\nso where can big bond investors sensibly hide?\nIf nearly everyone owns the same buildout someday,\nperhaps OpenAI and Anthropic get graded on a curve anyway.",
+            "What happened? Morgan Stanley and Goldman Sachs discussed with Fitch, Moody’s, and S&P whether OpenAI and Anthropic might receive investment-grade ratings after future IPOs, lowering their borrowing costs and opening the $11.7 trillion corporate bond market. The agencies had not decided; both labs remained unprofitable and speculative grade."
+          ]
+        }
+      }
+    },
+    {
+      "id": "hourly-etfs",
+      "sourceSection": "Hourly ETFs",
+      "illustration": {
+        "src": "/images/2026-09-09-aaa-ai/hourly-etfs.png",
+        "alt": "A Defiance ETFs filing sits beside a trading-day clock with six reset marks, while swap and option contracts connect it to Meta, Microsoft, Nvidia, Palantir, and Tesla shares and James Seyffart looks skeptical."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "James Seyffart"
+        ],
+        "realCompanies": [
+          "Defiance ETFs",
+          "Bloomberg Intelligence",
+          "Meta Platforms Inc.",
+          "Microsoft Corp.",
+          "Nvidia Corp.",
+          "Palantir Technologies Inc.",
+          "Tesla Inc."
+        ],
+        "financialMechanism": "The proposed leveraged ETFs would use swaps or options for roughly two-times exposure, resetting six times during each trading day using time-weighted average prices rather than resetting only at the close.",
+        "centralJoke": "The funds may offer little practical improvement over daily leveraged ETFs, but they fill another tiny possible trading niche—as though every imaginable trade must eventually become an ETF."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Six Resets Before the Bell",
+          "lesson": "Defiance ETFs proposed funds using swaps or options to target roughly twice a stock’s return between six intraday resets, though frequent resetting can make longer-term results differ from simply owning twice as much stock.",
+          "paragraphs": [
+            "Defiance ETFs filed a plan with the SEC:\n“Let’s double short stock moves—six times daily!”\nMost two-times funds reset once at day’s end;\nthese would restart the same wager again.",
+            "The funds would track Nvidia, Microsoft too,\nplus Meta, Palantir, and Tesla’s moves through.\nWith swaps or options—contracts tied to each share—\nthey’d seek twice the gain, or twice the despair.",
+            "Each reset would use prices averaged through time,\nnot one single tick picked at one single chime.\nThat matters because when a stock leaps by noon,\na daily fund’s leverage may drift out of tune.",
+            "Bloomberg Intelligence analyst James Seyffart said,\n“The difference seems narrow,” and skeptically read.\nPerhaps near announcements, one hour might be key—\nbut why need such pinpoint precision? We’ll see.",
+            "Would hourly funds hibernate when trading was slow?\nWould traders swap daily for hourly? Who knows?\nThe joke is that every small spot on the map\nmay someday get its own ETF-shaped cap.",
+            "What happened? Defiance ETFs asked the SEC to approve leveraged funds that would rebalance six times per trading day and use swaps or options to target roughly twice the moves of certain technology stocks during each period. The proposal had been filed but not yet approved."
+          ]
+        },
+        "elementary": {
+          "title": "Six Resets Before the Bell",
+          "lesson": "Defiance ETFs proposed funds using swaps or options to target roughly twice a stock’s return between six intraday resets, though frequent resetting can make longer-term results differ from simply owning twice as much stock.",
+          "paragraphs": [
+            "Defiance ETFs filed a plan with the SEC:\n“Let’s double short stock moves—six times daily!”\nMost two-times funds reset once at day’s end;\nthese would restart the same wager again.",
+            "The funds would track Nvidia, Microsoft too,\nplus Meta, Palantir, and Tesla’s moves through.\nWith swaps or options—contracts tied to each share—\nthey’d seek twice the gain, or twice the despair.",
+            "Each reset would use prices averaged through time,\nnot one single tick picked at one single chime.\nThat matters because when a stock leaps by noon,\na daily fund’s leverage may drift out of tune.",
+            "Bloomberg Intelligence analyst James Seyffart said,\n“The difference seems narrow,” and skeptically read.\nPerhaps near announcements, one hour might be key—\nbut why need such pinpoint precision? We’ll see.",
+            "Would hourly funds hibernate when trading was slow?\nWould traders swap daily for hourly? Who knows?\nThe joke is that every small spot on the map\nmay someday get its own ETF-shaped cap.",
+            "What happened? Defiance ETFs asked the SEC to approve leveraged funds that would rebalance six times per trading day and use swaps or options to target roughly twice the moves of certain technology stocks during each period. The proposal had been filed but not yet approved."
+          ]
+        },
+        "middle": {
+          "title": "Six Resets Before the Bell",
+          "lesson": "Defiance ETFs proposed funds using swaps or options to target roughly twice a stock’s return between six intraday resets, though frequent resetting can make longer-term results differ from simply owning twice as much stock.",
+          "paragraphs": [
+            "Defiance ETFs filed a plan with the SEC:\n“Let’s double short stock moves—six times daily!”\nMost two-times funds reset once at day’s end;\nthese would restart the same wager again.",
+            "The funds would track Nvidia, Microsoft too,\nplus Meta, Palantir, and Tesla’s moves through.\nWith swaps or options—contracts tied to each share—\nthey’d seek twice the gain, or twice the despair.",
+            "Each reset would use prices averaged through time,\nnot one single tick picked at one single chime.\nThat matters because when a stock leaps by noon,\na daily fund’s leverage may drift out of tune.",
+            "Bloomberg Intelligence analyst James Seyffart said,\n“The difference seems narrow,” and skeptically read.\nPerhaps near announcements, one hour might be key—\nbut why need such pinpoint precision? We’ll see.",
+            "Would hourly funds hibernate when trading was slow?\nWould traders swap daily for hourly? Who knows?\nThe joke is that every small spot on the map\nmay someday get its own ETF-shaped cap.",
+            "What happened? Defiance ETFs asked the SEC to approve leveraged funds that would rebalance six times per trading day and use swaps or options to target roughly twice the moves of certain technology stocks during each period. The proposal had been filed but not yet approved."
+          ]
+        },
+        "high": {
+          "title": "Six Resets Before the Bell",
+          "lesson": "Defiance ETFs proposed funds using swaps or options to target roughly twice a stock’s return between six intraday resets, though frequent resetting can make longer-term results differ from simply owning twice as much stock.",
+          "paragraphs": [
+            "Defiance ETFs filed a plan with the SEC:\n“Let’s double short stock moves—six times daily!”\nMost two-times funds reset once at day’s end;\nthese would restart the same wager again.",
+            "The funds would track Nvidia, Microsoft too,\nplus Meta, Palantir, and Tesla’s moves through.\nWith swaps or options—contracts tied to each share—\nthey’d seek twice the gain, or twice the despair.",
+            "Each reset would use prices averaged through time,\nnot one single tick picked at one single chime.\nThat matters because when a stock leaps by noon,\na daily fund’s leverage may drift out of tune.",
+            "Bloomberg Intelligence analyst James Seyffart said,\n“The difference seems narrow,” and skeptically read.\nPerhaps near announcements, one hour might be key—\nbut why need such pinpoint precision? We’ll see.",
+            "Would hourly funds hibernate when trading was slow?\nWould traders swap daily for hourly? Who knows?\nThe joke is that every small spot on the map\nmay someday get its own ETF-shaped cap.",
+            "What happened? Defiance ETFs asked the SEC to approve leveraged funds that would rebalance six times per trading day and use swaps or options to target roughly twice the moves of certain technology stocks during each period. The proposal had been filed but not yet approved."
+          ]
+        }
+      }
+    },
+    {
+      "id": "people-are-worried-about-the-basis-trade",
+      "sourceSection": "People are worried about the basis trade",
+      "illustration": {
+        "src": "/images/2026-09-09-aaa-ai/people-are-worried-about-the-basis-trade.png",
+        "alt": "Steven Williams presents a Deferred Settlement Auction as an investor receives a one-month-delayed Treasury contract and money-market lenders exchange repo funding for Treasury bills, bypassing a towering leveraged hedge-fund stack."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Anil Kashyap",
+          "Jeremy Stein",
+          "Jonathan Wallen",
+          "Joshua Younger",
+          "Steven Williams"
+        ],
+        "realCompanies": [
+          "none in source"
+        ],
+        "financialMechanism": "In the basis trade, hedge funds borrow short-term cash in the repo market, buy Treasury bonds, and sell Treasury futures, often using roughly $50 of positions per $1 of capital. Williams proposes that Treasury sell deferred-settlement futures directly, roll them monthly, and issue Treasury bills to replace the delayed cash proceeds.",
+        "centralJoke": "Treasury futures only need hedge funds because the Treasury does not issue them; Williams suggests fixing that by having Treasury manufacture its own futures, which may be safer—unless the trade somehow blows up the U.S. government, an incomparably worse outcome."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Treasury Future That Came From the Treasury",
+          "lesson": "Steven Williams proposes that the U.S. Treasury sell rolling deferred-settlement Treasury futures directly and cover the delayed cash with short-term Treasury bills, replacing the leveraged hedge-fund basis trade.",
+          "paragraphs": [
+            "The U.S. Treasury sells bonds for thirty years or ten;\ninvestors pay it cash up front, then earn interest now and then.",
+            "Some bought corporate bonds for yields that might be higher,\nyet Treasury interest-rate exposure was still something they desired.",
+            "A futures contract gives that risk without the full amount:\nfor $1 million of Treasuries, about $18,750 goes in the margin account.",
+            "But Treasury sells the bonds—not futures—so hedge funds fill the space:\nthey borrow cash through repo, buy the bonds, then sell the futures in their place.",
+            "With just one dollar of their own, they might support full trades of fifty.\nThat leverage earns a little bit—but makes the whole arrangement shifty.",
+            "Anil Kashyap, Jeremy Stein, Jonathan Wallen, and Joshua Younger\nsaid the Federal Reserve could take such trades if funds could hold no longer.",
+            "Then Steven Williams offered up a simpler sort of plan:\nlet Treasury sell the futures to investors when it can.",
+            "His “Deferred Settlement Auction” makes delivery wait a month;\ninvestors roll it forward monthly, keeping rate exposure out in front.",
+            "Treasury could bridge the missing cash by issuing short-term bills,\nwhile money-market lenders swap from repo, matching funding needs and wills.",
+            "Sell $100 in bills plus $100 in thirty-year futures instead,\nand it acts much like a thirty-year bond—without the hedge-fund spread.",
+            "Then Treasury keeps the fee that middlemen collected in the trade.\nAnd if the government blows up? Well… that is quite a bigger mess to have made.",
+            "What happened? Steven Williams proposed that the U.S. Treasury directly sell rolling, deferred-settlement futures and issue short-term bills for cash, bypassing highly leveraged hedge funds that currently borrow through repo, buy Treasury bonds, and sell matching futures."
+          ]
+        },
+        "elementary": {
+          "title": "The Treasury Future That Came From the Treasury",
+          "lesson": "Steven Williams proposes that the U.S. Treasury sell rolling deferred-settlement Treasury futures directly and cover the delayed cash with short-term Treasury bills, replacing the leveraged hedge-fund basis trade.",
+          "paragraphs": [
+            "The U.S. Treasury sells bonds for thirty years or ten;\ninvestors pay it cash up front, then earn interest now and then.",
+            "Some bought corporate bonds for yields that might be higher,\nyet Treasury interest-rate exposure was still something they desired.",
+            "A futures contract gives that risk without the full amount:\nfor $1 million of Treasuries, about $18,750 goes in the margin account.",
+            "But Treasury sells the bonds—not futures—so hedge funds fill the space:\nthey borrow cash through repo, buy the bonds, then sell the futures in their place.",
+            "With just one dollar of their own, they might support full trades of fifty.\nThat leverage earns a little bit—but makes the whole arrangement shifty.",
+            "Anil Kashyap, Jeremy Stein, Jonathan Wallen, and Joshua Younger\nsaid the Federal Reserve could take such trades if funds could hold no longer.",
+            "Then Steven Williams offered up a simpler sort of plan:\nlet Treasury sell the futures to investors when it can.",
+            "His “Deferred Settlement Auction” makes delivery wait a month;\ninvestors roll it forward monthly, keeping rate exposure out in front.",
+            "Treasury could bridge the missing cash by issuing short-term bills,\nwhile money-market lenders swap from repo, matching funding needs and wills.",
+            "Sell $100 in bills plus $100 in thirty-year futures instead,\nand it acts much like a thirty-year bond—without the hedge-fund spread.",
+            "Then Treasury keeps the fee that middlemen collected in the trade.\nAnd if the government blows up? Well… that is quite a bigger mess to have made.",
+            "What happened? Steven Williams proposed that the U.S. Treasury directly sell rolling, deferred-settlement futures and issue short-term bills for cash, bypassing highly leveraged hedge funds that currently borrow through repo, buy Treasury bonds, and sell matching futures."
+          ]
+        },
+        "middle": {
+          "title": "The Treasury Future That Came From the Treasury",
+          "lesson": "Steven Williams proposes that the U.S. Treasury sell rolling deferred-settlement Treasury futures directly and cover the delayed cash with short-term Treasury bills, replacing the leveraged hedge-fund basis trade.",
+          "paragraphs": [
+            "The U.S. Treasury sells bonds for thirty years or ten;\ninvestors pay it cash up front, then earn interest now and then.",
+            "Some bought corporate bonds for yields that might be higher,\nyet Treasury interest-rate exposure was still something they desired.",
+            "A futures contract gives that risk without the full amount:\nfor $1 million of Treasuries, about $18,750 goes in the margin account.",
+            "But Treasury sells the bonds—not futures—so hedge funds fill the space:\nthey borrow cash through repo, buy the bonds, then sell the futures in their place.",
+            "With just one dollar of their own, they might support full trades of fifty.\nThat leverage earns a little bit—but makes the whole arrangement shifty.",
+            "Anil Kashyap, Jeremy Stein, Jonathan Wallen, and Joshua Younger\nsaid the Federal Reserve could take such trades if funds could hold no longer.",
+            "Then Steven Williams offered up a simpler sort of plan:\nlet Treasury sell the futures to investors when it can.",
+            "His “Deferred Settlement Auction” makes delivery wait a month;\ninvestors roll it forward monthly, keeping rate exposure out in front.",
+            "Treasury could bridge the missing cash by issuing short-term bills,\nwhile money-market lenders swap from repo, matching funding needs and wills.",
+            "Sell $100 in bills plus $100 in thirty-year futures instead,\nand it acts much like a thirty-year bond—without the hedge-fund spread.",
+            "Then Treasury keeps the fee that middlemen collected in the trade.\nAnd if the government blows up? Well… that is quite a bigger mess to have made.",
+            "What happened? Steven Williams proposed that the U.S. Treasury directly sell rolling, deferred-settlement futures and issue short-term bills for cash, bypassing highly leveraged hedge funds that currently borrow through repo, buy Treasury bonds, and sell matching futures."
+          ]
+        },
+        "high": {
+          "title": "The Treasury Future That Came From the Treasury",
+          "lesson": "Steven Williams proposes that the U.S. Treasury sell rolling deferred-settlement Treasury futures directly and cover the delayed cash with short-term Treasury bills, replacing the leveraged hedge-fund basis trade.",
+          "paragraphs": [
+            "The U.S. Treasury sells bonds for thirty years or ten;\ninvestors pay it cash up front, then earn interest now and then.",
+            "Some bought corporate bonds for yields that might be higher,\nyet Treasury interest-rate exposure was still something they desired.",
+            "A futures contract gives that risk without the full amount:\nfor $1 million of Treasuries, about $18,750 goes in the margin account.",
+            "But Treasury sells the bonds—not futures—so hedge funds fill the space:\nthey borrow cash through repo, buy the bonds, then sell the futures in their place.",
+            "With just one dollar of their own, they might support full trades of fifty.\nThat leverage earns a little bit—but makes the whole arrangement shifty.",
+            "Anil Kashyap, Jeremy Stein, Jonathan Wallen, and Joshua Younger\nsaid the Federal Reserve could take such trades if funds could hold no longer.",
+            "Then Steven Williams offered up a simpler sort of plan:\nlet Treasury sell the futures to investors when it can.",
+            "His “Deferred Settlement Auction” makes delivery wait a month;\ninvestors roll it forward monthly, keeping rate exposure out in front.",
+            "Treasury could bridge the missing cash by issuing short-term bills,\nwhile money-market lenders swap from repo, matching funding needs and wills.",
+            "Sell $100 in bills plus $100 in thirty-year futures instead,\nand it acts much like a thirty-year bond—without the hedge-fund spread.",
+            "Then Treasury keeps the fee that middlemen collected in the trade.\nAnd if the government blows up? Well… that is quite a bigger mess to have made.",
+            "What happened? Steven Williams proposed that the U.S. Treasury directly sell rolling, deferred-settlement futures and issue short-term bills for cash, bypassing highly leveraged hedge funds that currently borrow through repo, buy Treasury bonds, and sell matching futures."
+          ]
+        }
+      }
+    },
+    {
+      "id": "egg-libor-fines",
+      "sourceSection": "Egg Libor fines",
+      "illustration": {
+        "src": "/images/2026-09-09-aaa-ai/egg-libor-fines.png",
+        "alt": "North Carolina Attorney General Jeff Jackson receives tall stacks of egg cartons destined for food banks."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jeff Jackson"
+        ],
+        "realCompanies": [
+          "none in source"
+        ],
+        "financialMechanism": "The US Department of Justice and 17 state attorneys general accused major egg producers of manipulating a benchmark egg price; the defendants settled by agreeing to stop, pay $3.3 million, and provide 53 million free eggs.",
+        "centralJoke": "An egg-price manipulation case was settled partly with 53 million actual eggs, and Jeff Jackson received some on video—but, less amusingly, he did not eat them because they were for food banks."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Fine That Arrived by the Dozen",
+          "lesson": "The defendants settled egg-price benchmark manipulation claims by agreeing to stop the challenged conduct, pay $3.3 million to the states, and provide 53 million free eggs for food banks.",
+          "paragraphs": [
+            "The Justice Department and states—seventeen—\nsaid egg-price dealings had not been clean.\nA handful of producers, the officials said,\nhad pushed a key benchmark where prices are led.",
+            "A benchmark’s a reference that buyers may use\nto help set the price of the eggs that they choose.\nThe government claimed it was twisted askew;\nthe defendants settled and promised, “We’re through.”",
+            "They’d pay $3.3 million to states—\nbut one stranger payment rolled up to the gates:\nfifty-three million free eggs! What a fine,\npacked into cartons and stacked into line.",
+            "North Carolina’s Attorney General Jeff Jackson\nreceived some and filmed all the egg-carton action.\nThe eggs went to food banks, as everyone knew;\nJeff didn’t eat them—though that would be funnier, too.",
+            "Was this the largest free-egg settlement paid?\nPerhaps. What a record those cartons have made:\na price-benchmark case with an ending that begs\nto be counted in dollars—and millions of eggs.",
+            "What happened? The defendants settled government accusations that they manipulated an egg-price benchmark. They agreed to stop, pay $3.3 million to the states, and deliver 53 million free eggs for food banks."
+          ]
+        },
+        "elementary": {
+          "title": "The Fine That Arrived by the Dozen",
+          "lesson": "The defendants settled egg-price benchmark manipulation claims by agreeing to stop the challenged conduct, pay $3.3 million to the states, and provide 53 million free eggs for food banks.",
+          "paragraphs": [
+            "The Justice Department and states—seventeen—\nsaid egg-price dealings had not been clean.\nA handful of producers, the officials said,\nhad pushed a key benchmark where prices are led.",
+            "A benchmark’s a reference that buyers may use\nto help set the price of the eggs that they choose.\nThe government claimed it was twisted askew;\nthe defendants settled and promised, “We’re through.”",
+            "They’d pay $3.3 million to states—\nbut one stranger payment rolled up to the gates:\nfifty-three million free eggs! What a fine,\npacked into cartons and stacked into line.",
+            "North Carolina’s Attorney General Jeff Jackson\nreceived some and filmed all the egg-carton action.\nThe eggs went to food banks, as everyone knew;\nJeff didn’t eat them—though that would be funnier, too.",
+            "Was this the largest free-egg settlement paid?\nPerhaps. What a record those cartons have made:\na price-benchmark case with an ending that begs\nto be counted in dollars—and millions of eggs.",
+            "What happened? The defendants settled government accusations that they manipulated an egg-price benchmark. They agreed to stop, pay $3.3 million to the states, and deliver 53 million free eggs for food banks."
+          ]
+        },
+        "middle": {
+          "title": "The Fine That Arrived by the Dozen",
+          "lesson": "The defendants settled egg-price benchmark manipulation claims by agreeing to stop the challenged conduct, pay $3.3 million to the states, and provide 53 million free eggs for food banks.",
+          "paragraphs": [
+            "The Justice Department and states—seventeen—\nsaid egg-price dealings had not been clean.\nA handful of producers, the officials said,\nhad pushed a key benchmark where prices are led.",
+            "A benchmark’s a reference that buyers may use\nto help set the price of the eggs that they choose.\nThe government claimed it was twisted askew;\nthe defendants settled and promised, “We’re through.”",
+            "They’d pay $3.3 million to states—\nbut one stranger payment rolled up to the gates:\nfifty-three million free eggs! What a fine,\npacked into cartons and stacked into line.",
+            "North Carolina’s Attorney General Jeff Jackson\nreceived some and filmed all the egg-carton action.\nThe eggs went to food banks, as everyone knew;\nJeff didn’t eat them—though that would be funnier, too.",
+            "Was this the largest free-egg settlement paid?\nPerhaps. What a record those cartons have made:\na price-benchmark case with an ending that begs\nto be counted in dollars—and millions of eggs.",
+            "What happened? The defendants settled government accusations that they manipulated an egg-price benchmark. They agreed to stop, pay $3.3 million to the states, and deliver 53 million free eggs for food banks."
+          ]
+        },
+        "high": {
+          "title": "The Fine That Arrived by the Dozen",
+          "lesson": "The defendants settled egg-price benchmark manipulation claims by agreeing to stop the challenged conduct, pay $3.3 million to the states, and provide 53 million free eggs for food banks.",
+          "paragraphs": [
+            "The Justice Department and states—seventeen—\nsaid egg-price dealings had not been clean.\nA handful of producers, the officials said,\nhad pushed a key benchmark where prices are led.",
+            "A benchmark’s a reference that buyers may use\nto help set the price of the eggs that they choose.\nThe government claimed it was twisted askew;\nthe defendants settled and promised, “We’re through.”",
+            "They’d pay $3.3 million to states—\nbut one stranger payment rolled up to the gates:\nfifty-three million free eggs! What a fine,\npacked into cartons and stacked into line.",
+            "North Carolina’s Attorney General Jeff Jackson\nreceived some and filmed all the egg-carton action.\nThe eggs went to food banks, as everyone knew;\nJeff didn’t eat them—though that would be funnier, too.",
+            "Was this the largest free-egg settlement paid?\nPerhaps. What a record those cartons have made:\na price-benchmark case with an ending that begs\nto be counted in dollars—and millions of eggs.",
+            "What happened? The defendants settled government accusations that they manipulated an egg-price benchmark. They agreed to stop, pay $3.3 million to the states, and deliver 53 million free eggs for food banks."
+          ]
+        }
+      }
+    }
+  ]
+}
