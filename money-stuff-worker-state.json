@@ -192,6 +192,18 @@
       "submitted": true,
       "updatedAt": "2026-09-08T19:03:14.394Z",
       "submittedAt": "2026-09-08T19:03:14.394Z"
+    },
+    "1a08751bd90be84f": {
+      "gmailMessageId": "1a08751bd90be84f",
+      "newsletterDate": "2026-09-09",
+      "newsletterTitle": "AAA AI",
+      "editionId": "2026-09-09-aaa-ai",
+      "sourceSha256": "126aa24ff982f31a8c37df6a2331f68bc1d135b27a68d7d1eb4a3cd66e59577a",
+      "packageSha256": "c864cacbd64c5f79ab7aa7bb48bb8449da3d99d54ff84eae6612a64790ce0986",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-09T19:52:22.245Z",
+      "submittedAt": "2026-09-09T19:52:22.245Z"
     }
   }
 }
