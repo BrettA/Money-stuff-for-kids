@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-10-dallas-gets-some-equities",
+  "date": "2026-09-10",
+  "displayDate": "September 10, 2026",
+  "title": "Dallas Gets Some Equities",
+  "sourceSections": [
+    "TXSE",
+    "Hudson River",
+    "Elsewhere in low-key rich people",
+    "Tether private credit",
+    "Magic: The Gathering insider trading",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "txse",
+      "sourceSection": "TXSE",
+      "illustration": {
+        "src": "/images/2026-09-10-dallas-gets-some-equities/txse.png",
+        "alt": "Sunoco and Energy Transfer move their primary-listing signs from the NYSE doorway to the new TXSE entrance in Dallas, while Kelcy Warren stands beside a separate TXSE ownership certificate linked to an entity tied to him."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Kelcy Warren"
+        ],
+        "realCompanies": [
+          "Texas Stock Exchange (TXSE)",
+          "TXSE Group Inc.",
+          "New York Stock Exchange (NYSE)",
+          "Sunoco LP",
+          "Energy Transfer LP",
+          "JPMorgan Chase & Co.",
+          "Citadel Securities",
+          "BlackRock Inc."
+        ],
+        "financialMechanism": "A primary listing gives a security an official exchange home, while trading may still occur on many exchanges. TXSE gains listing business and trading-fee opportunities; a chairman-linked entity owns a significant TXSE stake, but the listed company does not directly receive those fees.",
+        "centralJoke": "TXSE’s first listed companies have economic ties to the exchange, making it almost look like “list your stock here and get a cut of the trading”—except Energy Transfer does not itself own the TXSE stake, and much of the trading may happen elsewhere."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "A Texas Exchange Gets Its First Two Names",
+          "lesson": "Sunoco and Energy Transfer moved their primary listings to TXSE; an entity tied to Energy Transfer chairman Kelcy Warren owns a significant TXSE stake, though that does not give Energy Transfer a direct cut of trading fees.",
+          "paragraphs": [
+            "A stock exchange matches those who sell with those who buy,\nAnd gathers little trading fees as orders hurry by.\nA “primary listing” is a stock’s official exchange home;\nBut other exchanges may still trade it wherever orders roam.",
+            "The Texas Stock Exchange, or TXSE, was new,\nAnd needed listed companies to help its market grew.\nJPMorgan Chase, Citadel Securities, and BlackRock backed the plan:\nA technology-driven exchange based in Dallas land.",
+            "Then Sunoco said, “We’ll leave the NYSE October 2.”\nEnergy Transfer picked TXSE, with October 5 in view.\nThey would be the Texas exchange’s first primary-listing pair,\nGiving the upstart market two big energy names to share.",
+            "But here’s the twist that made the choice especially neat:\nEnergy Transfer owns a stake in Sunoco, linking their retreat.\nAnd an entity tied to chairman Kelcy Warren, billionaire,\nHas a significant holding in TXSE Group shares.",
+            "So was Energy Transfer earning bits of every trading fee?\nNot quite—the chairman-linked entity is separate from the company.\nAnd listing shares in Texas does not make all trading happen there;\nOther U.S. exchanges can still match the stock most anywhere.",
+            "Still, “List with us—and own a piece!” would make a catchy pitch.\nThat probably wasn’t the real sales line, but owning some doesn’t hurt a bit.",
+            "What happened? Sunoco and Energy Transfer shifted their primary listings from NYSE to TXSE, becoming TXSE’s first primary listings. An entity tied to Energy Transfer chairman Kelcy Warren has a significant TXSE holding, but Energy Transfer itself does not directly receive a cut of its stock’s trading fees."
+          ]
+        },
+        "elementary": {
+          "title": "A Texas Exchange Gets Its First Two Names",
+          "lesson": "Sunoco and Energy Transfer moved their primary listings to TXSE; an entity tied to Energy Transfer chairman Kelcy Warren owns a significant TXSE stake, though that does not give Energy Transfer a direct cut of trading fees.",
+          "paragraphs": [
+            "A stock exchange matches those who sell with those who buy,\nAnd gathers little trading fees as orders hurry by.\nA “primary listing” is a stock’s official exchange home;\nBut other exchanges may still trade it wherever orders roam.",
+            "The Texas Stock Exchange, or TXSE, was new,\nAnd needed listed companies to help its market grew.\nJPMorgan Chase, Citadel Securities, and BlackRock backed the plan:\nA technology-driven exchange based in Dallas land.",
+            "Then Sunoco said, “We’ll leave the NYSE October 2.”\nEnergy Transfer picked TXSE, with October 5 in view.\nThey would be the Texas exchange’s first primary-listing pair,\nGiving the upstart market two big energy names to share.",
+            "But here’s the twist that made the choice especially neat:\nEnergy Transfer owns a stake in Sunoco, linking their retreat.\nAnd an entity tied to chairman Kelcy Warren, billionaire,\nHas a significant holding in TXSE Group shares.",
+            "So was Energy Transfer earning bits of every trading fee?\nNot quite—the chairman-linked entity is separate from the company.\nAnd listing shares in Texas does not make all trading happen there;\nOther U.S. exchanges can still match the stock most anywhere.",
+            "Still, “List with us—and own a piece!” would make a catchy pitch.\nThat probably wasn’t the real sales line, but owning some doesn’t hurt a bit.",
+            "What happened? Sunoco and Energy Transfer shifted their primary listings from NYSE to TXSE, becoming TXSE’s first primary listings. An entity tied to Energy Transfer chairman Kelcy Warren has a significant TXSE holding, but Energy Transfer itself does not directly receive a cut of its stock’s trading fees."
+          ]
+        },
+        "middle": {
+          "title": "A Texas Exchange Gets Its First Two Names",
+          "lesson": "Sunoco and Energy Transfer moved their primary listings to TXSE; an entity tied to Energy Transfer chairman Kelcy Warren owns a significant TXSE stake, though that does not give Energy Transfer a direct cut of trading fees.",
+          "paragraphs": [
+            "A stock exchange matches those who sell with those who buy,\nAnd gathers little trading fees as orders hurry by.\nA “primary listing” is a stock’s official exchange home;\nBut other exchanges may still trade it wherever orders roam.",
+            "The Texas Stock Exchange, or TXSE, was new,\nAnd needed listed companies to help its market grew.\nJPMorgan Chase, Citadel Securities, and BlackRock backed the plan:\nA technology-driven exchange based in Dallas land.",
+            "Then Sunoco said, “We’ll leave the NYSE October 2.”\nEnergy Transfer picked TXSE, with October 5 in view.\nThey would be the Texas exchange’s first primary-listing pair,\nGiving the upstart market two big energy names to share.",
+            "But here’s the twist that made the choice especially neat:\nEnergy Transfer owns a stake in Sunoco, linking their retreat.\nAnd an entity tied to chairman Kelcy Warren, billionaire,\nHas a significant holding in TXSE Group shares.",
+            "So was Energy Transfer earning bits of every trading fee?\nNot quite—the chairman-linked entity is separate from the company.\nAnd listing shares in Texas does not make all trading happen there;\nOther U.S. exchanges can still match the stock most anywhere.",
+            "Still, “List with us—and own a piece!” would make a catchy pitch.\nThat probably wasn’t the real sales line, but owning some doesn’t hurt a bit.",
+            "What happened? Sunoco and Energy Transfer shifted their primary listings from NYSE to TXSE, becoming TXSE’s first primary listings. An entity tied to Energy Transfer chairman Kelcy Warren has a significant TXSE holding, but Energy Transfer itself does not directly receive a cut of its stock’s trading fees."
+          ]
+        },
+        "high": {
+          "title": "A Texas Exchange Gets Its First Two Names",
+          "lesson": "Sunoco and Energy Transfer moved their primary listings to TXSE; an entity tied to Energy Transfer chairman Kelcy Warren owns a significant TXSE stake, though that does not give Energy Transfer a direct cut of trading fees.",
+          "paragraphs": [
+            "A stock exchange matches those who sell with those who buy,\nAnd gathers little trading fees as orders hurry by.\nA “primary listing” is a stock’s official exchange home;\nBut other exchanges may still trade it wherever orders roam.",
+            "The Texas Stock Exchange, or TXSE, was new,\nAnd needed listed companies to help its market grew.\nJPMorgan Chase, Citadel Securities, and BlackRock backed the plan:\nA technology-driven exchange based in Dallas land.",
+            "Then Sunoco said, “We’ll leave the NYSE October 2.”\nEnergy Transfer picked TXSE, with October 5 in view.\nThey would be the Texas exchange’s first primary-listing pair,\nGiving the upstart market two big energy names to share.",
+            "But here’s the twist that made the choice especially neat:\nEnergy Transfer owns a stake in Sunoco, linking their retreat.\nAnd an entity tied to chairman Kelcy Warren, billionaire,\nHas a significant holding in TXSE Group shares.",
+            "So was Energy Transfer earning bits of every trading fee?\nNot quite—the chairman-linked entity is separate from the company.\nAnd listing shares in Texas does not make all trading happen there;\nOther U.S. exchanges can still match the stock most anywhere.",
+            "Still, “List with us—and own a piece!” would make a catchy pitch.\nThat probably wasn’t the real sales line, but owning some doesn’t hurt a bit.",
+            "What happened? Sunoco and Energy Transfer shifted their primary listings from NYSE to TXSE, becoming TXSE’s first primary listings. An entity tied to Energy Transfer chairman Kelcy Warren has a significant TXSE holding, but Energy Transfer itself does not directly receive a cut of its stock’s trading fees."
+          ]
+        }
+      }
+    },
+    {
+      "id": "hudson-river",
+      "sourceSection": "Hudson River",
+      "illustration": {
+        "src": "/images/2026-09-10-dallas-gets-some-equities/hudson-river.png",
+        "alt": "Jason Carroll exits a subway near Hudson River Trading while Bloomberg researchers add his $27 billion estimate to their billionaire list, with a racing sailboat visible on the river."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jason Carroll",
+          "Tom Maloney",
+          "Alex Morcos",
+          "Prashant Lal"
+        ],
+        "realCompanies": [
+          "Jane Street Capital",
+          "Hudson River Trading",
+          "Bloomberg",
+          "Citadel Securities"
+        ],
+        "financialMechanism": "Bloomberg estimated Hudson River Trading’s business value by applying an earnings multiple to more than $8 billion of annual earnings, then attributed 62.5% of that value to Jason Carroll based on an ownership range disclosed in a filing.",
+        "centralJoke": "A famously low-profile founder suddenly became the world’s 90th-richest person because list-makers noticed and valued his company; his proof of down-to-earth modesty is that his biggest indulgence is racing sailboats."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Quiet Firm and the Very Loud Number",
+          "lesson": "Bloomberg estimated Jason Carroll’s wealth by valuing Hudson River Trading at roughly six times its annual earnings and applying his estimated 62.5% ownership stake.",
+          "paragraphs": [
+            "Jane Street once wore finance’s hush-hush crown,\nthen stories spread its secret all through town.\nNext came Hudson River Trading, quiet and fast—\nbut Bloomberg’s Tom Maloney found it at last.",
+            "HRT’s programs rapidly buy and sell,\nhelping markets trade—and earning very well.\nIts more than 1,200 workers brought in, to everyone’s surprise,\ntwice the profit of Citadel Securities, a larger rival in size.",
+            "Alex Morcos said they hated workplaces mean,\nthough books were where he’d mostly seen that scene.\nPrashant Lal hoped HRT would stay kind:\nfriends building clever algorithms, with cutthroat ways declined.",
+            "Last year HRT earned more than $8 billion;\nBloomberg valued the firm above $45 billion.\nA filing suggested Jason Carroll owned 62.5 percent,\nso his estimated fortune soared past $27 billion in an instant.",
+            "No treasure truck arrived. No vault went “ka-boom!”\nThe list-makers simply gave future profits room:\nthey multiplied recurring earnings to estimate what HRT was worth,\nthen ranked Carroll the ninetieth-richest person on Earth.",
+            "Carroll still rides the subway, avoiding flashy art,\nexpensive homes, and suits—the classic humble part.\nHe shuns the usual trappings that wealthy people buy;\nhis costliest passion is racing sailboats. Very modest—if you ignore the yachts nearby.",
+            "What happened? Bloomberg valued Hudson River Trading at more than $45 billion, about six times its latest annual earnings, and credited Jason Carroll with a 62.5% stake. That estimate put his fortune above $27 billion even though no new pile of cash suddenly appeared."
+          ]
+        },
+        "elementary": {
+          "title": "The Quiet Firm and the Very Loud Number",
+          "lesson": "Bloomberg estimated Jason Carroll’s wealth by valuing Hudson River Trading at roughly six times its annual earnings and applying his estimated 62.5% ownership stake.",
+          "paragraphs": [
+            "Jane Street once wore finance’s hush-hush crown,\nthen stories spread its secret all through town.\nNext came Hudson River Trading, quiet and fast—\nbut Bloomberg’s Tom Maloney found it at last.",
+            "HRT’s programs rapidly buy and sell,\nhelping markets trade—and earning very well.\nIts more than 1,200 workers brought in, to everyone’s surprise,\ntwice the profit of Citadel Securities, a larger rival in size.",
+            "Alex Morcos said they hated workplaces mean,\nthough books were where he’d mostly seen that scene.\nPrashant Lal hoped HRT would stay kind:\nfriends building clever algorithms, with cutthroat ways declined.",
+            "Last year HRT earned more than $8 billion;\nBloomberg valued the firm above $45 billion.\nA filing suggested Jason Carroll owned 62.5 percent,\nso his estimated fortune soared past $27 billion in an instant.",
+            "No treasure truck arrived. No vault went “ka-boom!”\nThe list-makers simply gave future profits room:\nthey multiplied recurring earnings to estimate what HRT was worth,\nthen ranked Carroll the ninetieth-richest person on Earth.",
+            "Carroll still rides the subway, avoiding flashy art,\nexpensive homes, and suits—the classic humble part.\nHe shuns the usual trappings that wealthy people buy;\nhis costliest passion is racing sailboats. Very modest—if you ignore the yachts nearby.",
+            "What happened? Bloomberg valued Hudson River Trading at more than $45 billion, about six times its latest annual earnings, and credited Jason Carroll with a 62.5% stake. That estimate put his fortune above $27 billion even though no new pile of cash suddenly appeared."
+          ]
+        },
+        "middle": {
+          "title": "The Quiet Firm and the Very Loud Number",
+          "lesson": "Bloomberg estimated Jason Carroll’s wealth by valuing Hudson River Trading at roughly six times its annual earnings and applying his estimated 62.5% ownership stake.",
+          "paragraphs": [
+            "Jane Street once wore finance’s hush-hush crown,\nthen stories spread its secret all through town.\nNext came Hudson River Trading, quiet and fast—\nbut Bloomberg’s Tom Maloney found it at last.",
+            "HRT’s programs rapidly buy and sell,\nhelping markets trade—and earning very well.\nIts more than 1,200 workers brought in, to everyone’s surprise,\ntwice the profit of Citadel Securities, a larger rival in size.",
+            "Alex Morcos said they hated workplaces mean,\nthough books were where he’d mostly seen that scene.\nPrashant Lal hoped HRT would stay kind:\nfriends building clever algorithms, with cutthroat ways declined.",
+            "Last year HRT earned more than $8 billion;\nBloomberg valued the firm above $45 billion.\nA filing suggested Jason Carroll owned 62.5 percent,\nso his estimated fortune soared past $27 billion in an instant.",
+            "No treasure truck arrived. No vault went “ka-boom!”\nThe list-makers simply gave future profits room:\nthey multiplied recurring earnings to estimate what HRT was worth,\nthen ranked Carroll the ninetieth-richest person on Earth.",
+            "Carroll still rides the subway, avoiding flashy art,\nexpensive homes, and suits—the classic humble part.\nHe shuns the usual trappings that wealthy people buy;\nhis costliest passion is racing sailboats. Very modest—if you ignore the yachts nearby.",
+            "What happened? Bloomberg valued Hudson River Trading at more than $45 billion, about six times its latest annual earnings, and credited Jason Carroll with a 62.5% stake. That estimate put his fortune above $27 billion even though no new pile of cash suddenly appeared."
+          ]
+        },
+        "high": {
+          "title": "The Quiet Firm and the Very Loud Number",
+          "lesson": "Bloomberg estimated Jason Carroll’s wealth by valuing Hudson River Trading at roughly six times its annual earnings and applying his estimated 62.5% ownership stake.",
+          "paragraphs": [
+            "Jane Street once wore finance’s hush-hush crown,\nthen stories spread its secret all through town.\nNext came Hudson River Trading, quiet and fast—\nbut Bloomberg’s Tom Maloney found it at last.",
+            "HRT’s programs rapidly buy and sell,\nhelping markets trade—and earning very well.\nIts more than 1,200 workers brought in, to everyone’s surprise,\ntwice the profit of Citadel Securities, a larger rival in size.",
+            "Alex Morcos said they hated workplaces mean,\nthough books were where he’d mostly seen that scene.\nPrashant Lal hoped HRT would stay kind:\nfriends building clever algorithms, with cutthroat ways declined.",
+            "Last year HRT earned more than $8 billion;\nBloomberg valued the firm above $45 billion.\nA filing suggested Jason Carroll owned 62.5 percent,\nso his estimated fortune soared past $27 billion in an instant.",
+            "No treasure truck arrived. No vault went “ka-boom!”\nThe list-makers simply gave future profits room:\nthey multiplied recurring earnings to estimate what HRT was worth,\nthen ranked Carroll the ninetieth-richest person on Earth.",
+            "Carroll still rides the subway, avoiding flashy art,\nexpensive homes, and suits—the classic humble part.\nHe shuns the usual trappings that wealthy people buy;\nhis costliest passion is racing sailboats. Very modest—if you ignore the yachts nearby.",
+            "What happened? Bloomberg valued Hudson River Trading at more than $45 billion, about six times its latest annual earnings, and credited Jason Carroll with a 62.5% stake. That estimate put his fortune above $27 billion even though no new pile of cash suddenly appeared."
+          ]
+        }
+      }
+    },
+    {
+      "id": "elsewhere-in-low-key-rich-people",
+      "sourceSection": "Elsewhere in low-key rich people",
+      "illustration": {
+        "src": "/images/2026-09-10-dallas-gets-some-equities/elsewhere-in-low-key-rich-people.png",
+        "alt": "An AI lab employee does her own manicure beside customized computer chips and development boards while continuing to work late at her computer."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Garret Spiecker"
+        ],
+        "realCompanies": [
+          "Citizens Private Bank",
+          "OpenAI",
+          "Anthropic",
+          "Goldman Sachs"
+        ],
+        "financialMechanism": "Employees of private AI companies can obtain liquidity before an IPO by selling shares or borrowing money against their private stock; once this compensation becomes large enough to fund retirement, employers face a retention problem.",
+        "centralJoke": "AI researchers receive enough money to retire but keep working instead of buying flashy luxuries, perhaps because they believe their work could threaten everyone on Earth; the narrator jokes that even Goldman Sachs might retain workers with that pitch."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Million-Dollar Manicure",
+          "lesson": "When AI workers can turn valuable private-company shares into spendable cash, enormous compensation may make them able to retire immediately, so laboratories must rely on mission and work culture to retain them.",
+          "paragraphs": [
+            "A boss needs a worker to stay at their station:\nPay too little—rivals call. Pay too much—vacation!\nA top restructuring lawyer might earn $25 million a year,\nThen think, “I’m set for life!” and make the beach chair disappear.",
+            "AI pushed this puzzle to startling new heights:\nYoung researchers earned fortunes through long coding nights.\nEnough to retire—but they stayed at their screens,\nWithout chasing big yachts or extravagant scenes.",
+            "Garret Spiecker of Citizens Private Bank could see\nmore Bay Area liquidity than in two decades, said he.\nHis program lends money against private stock before an IPO;\nclients from OpenAI and Anthropic could make their wealth flow.",
+            "One former OpenAI worker sold shares, then chose\nan electric vehicle—not a fleet of those.\nOther alumni named one grand spending machine:\nan espresso maker for extra caffeine.",
+            "One lab worker made about $1 million a year,\nyet handled her own manicures without fancy gear.\nHer biggest purchase, around $10,000 in all,\nwas customized chips and development boards—not a tropical sprawl.",
+            "But having no time to spend money won’t make workers stay:\nThey could simply quit, then shop every day!\nThe stranger idea was: “Our work might end life on Earth,\nso keep working to stop it”—an alarming source of worth.\nWould that retain staff at Goldman Sachs? The narrator had doubts…\nthen paused and admitted he could not quite rule it out.",
+            "What happened? Highly paid AI employees gained liquidity by selling private shares or borrowing against them before an IPO, but some continued working and spent relatively little on luxuries. The absurd retention problem is that they may be rich enough to quit, while belief in the world-changing—or world-ending—importance of AI may help keep them at work."
+          ]
+        },
+        "elementary": {
+          "title": "The Million-Dollar Manicure",
+          "lesson": "When AI workers can turn valuable private-company shares into spendable cash, enormous compensation may make them able to retire immediately, so laboratories must rely on mission and work culture to retain them.",
+          "paragraphs": [
+            "A boss needs a worker to stay at their station:\nPay too little—rivals call. Pay too much—vacation!\nA top restructuring lawyer might earn $25 million a year,\nThen think, “I’m set for life!” and make the beach chair disappear.",
+            "AI pushed this puzzle to startling new heights:\nYoung researchers earned fortunes through long coding nights.\nEnough to retire—but they stayed at their screens,\nWithout chasing big yachts or extravagant scenes.",
+            "Garret Spiecker of Citizens Private Bank could see\nmore Bay Area liquidity than in two decades, said he.\nHis program lends money against private stock before an IPO;\nclients from OpenAI and Anthropic could make their wealth flow.",
+            "One former OpenAI worker sold shares, then chose\nan electric vehicle—not a fleet of those.\nOther alumni named one grand spending machine:\nan espresso maker for extra caffeine.",
+            "One lab worker made about $1 million a year,\nyet handled her own manicures without fancy gear.\nHer biggest purchase, around $10,000 in all,\nwas customized chips and development boards—not a tropical sprawl.",
+            "But having no time to spend money won’t make workers stay:\nThey could simply quit, then shop every day!\nThe stranger idea was: “Our work might end life on Earth,\nso keep working to stop it”—an alarming source of worth.\nWould that retain staff at Goldman Sachs? The narrator had doubts…\nthen paused and admitted he could not quite rule it out.",
+            "What happened? Highly paid AI employees gained liquidity by selling private shares or borrowing against them before an IPO, but some continued working and spent relatively little on luxuries. The absurd retention problem is that they may be rich enough to quit, while belief in the world-changing—or world-ending—importance of AI may help keep them at work."
+          ]
+        },
+        "middle": {
+          "title": "The Million-Dollar Manicure",
+          "lesson": "When AI workers can turn valuable private-company shares into spendable cash, enormous compensation may make them able to retire immediately, so laboratories must rely on mission and work culture to retain them.",
+          "paragraphs": [
+            "A boss needs a worker to stay at their station:\nPay too little—rivals call. Pay too much—vacation!\nA top restructuring lawyer might earn $25 million a year,\nThen think, “I’m set for life!” and make the beach chair disappear.",
+            "AI pushed this puzzle to startling new heights:\nYoung researchers earned fortunes through long coding nights.\nEnough to retire—but they stayed at their screens,\nWithout chasing big yachts or extravagant scenes.",
+            "Garret Spiecker of Citizens Private Bank could see\nmore Bay Area liquidity than in two decades, said he.\nHis program lends money against private stock before an IPO;\nclients from OpenAI and Anthropic could make their wealth flow.",
+            "One former OpenAI worker sold shares, then chose\nan electric vehicle—not a fleet of those.\nOther alumni named one grand spending machine:\nan espresso maker for extra caffeine.",
+            "One lab worker made about $1 million a year,\nyet handled her own manicures without fancy gear.\nHer biggest purchase, around $10,000 in all,\nwas customized chips and development boards—not a tropical sprawl.",
+            "But having no time to spend money won’t make workers stay:\nThey could simply quit, then shop every day!\nThe stranger idea was: “Our work might end life on Earth,\nso keep working to stop it”—an alarming source of worth.\nWould that retain staff at Goldman Sachs? The narrator had doubts…\nthen paused and admitted he could not quite rule it out.",
+            "What happened? Highly paid AI employees gained liquidity by selling private shares or borrowing against them before an IPO, but some continued working and spent relatively little on luxuries. The absurd retention problem is that they may be rich enough to quit, while belief in the world-changing—or world-ending—importance of AI may help keep them at work."
+          ]
+        },
+        "high": {
+          "title": "The Million-Dollar Manicure",
+          "lesson": "When AI workers can turn valuable private-company shares into spendable cash, enormous compensation may make them able to retire immediately, so laboratories must rely on mission and work culture to retain them.",
+          "paragraphs": [
+            "A boss needs a worker to stay at their station:\nPay too little—rivals call. Pay too much—vacation!\nA top restructuring lawyer might earn $25 million a year,\nThen think, “I’m set for life!” and make the beach chair disappear.",
+            "AI pushed this puzzle to startling new heights:\nYoung researchers earned fortunes through long coding nights.\nEnough to retire—but they stayed at their screens,\nWithout chasing big yachts or extravagant scenes.",
+            "Garret Spiecker of Citizens Private Bank could see\nmore Bay Area liquidity than in two decades, said he.\nHis program lends money against private stock before an IPO;\nclients from OpenAI and Anthropic could make their wealth flow.",
+            "One former OpenAI worker sold shares, then chose\nan electric vehicle—not a fleet of those.\nOther alumni named one grand spending machine:\nan espresso maker for extra caffeine.",
+            "One lab worker made about $1 million a year,\nyet handled her own manicures without fancy gear.\nHer biggest purchase, around $10,000 in all,\nwas customized chips and development boards—not a tropical sprawl.",
+            "But having no time to spend money won’t make workers stay:\nThey could simply quit, then shop every day!\nThe stranger idea was: “Our work might end life on Earth,\nso keep working to stop it”—an alarming source of worth.\nWould that retain staff at Goldman Sachs? The narrator had doubts…\nthen paused and admitted he could not quite rule it out.",
+            "What happened? Highly paid AI employees gained liquidity by selling private shares or borrowing against them before an IPO, but some continued working and spent relatively little on luxuries. The absurd retention problem is that they may be rich enough to quit, while belief in the world-changing—or world-ending—importance of AI may help keep them at work."
+          ]
+        }
+      }
+    },
+    {
+      "id": "tether-private-credit",
+      "sourceSection": "Tether private credit",
+      "illustration": {
+        "src": "/images/2026-09-10-dallas-gets-some-equities/tether-private-credit.png",
+        "alt": "Tether and Fasanara Capital representatives hold out a StableFund case for outside contributions beside Tether’s enormous $183 billion reserve vault filled with Treasury bills and repo agreements."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Tether",
+          "Fasanara Capital",
+          "Financial Times"
+        ],
+        "financialMechanism": "Customers provide dollars to Tether in exchange for redeemable, non-interest-paying USDT. Tether invests the backing reserves mainly in short-term Treasury bills and repo agreements, while StableFund uses third-party capital to make private-credit loans.",
+        "centralJoke": "Tether controls roughly $183 billion in cheaply funded reserves, yet it is raising other investors’ money to do the riskier lending."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Tether’s Very Full Fundraising Hat",
+          "lesson": "Tether launched a private-credit fund using outside investors’ capital, rather than risking the roughly $183 billion reserve pool backing USDT, which it mainly keeps in short-term Treasury bills and repo agreements.",
+          "paragraphs": [
+            "People give Tether dollars; USDT comes back,\nA token meant to keep a one-dollar track.\nCustomers can redeem it, while interest stays low—\nSo Tether has cheap funding wherever those dollars go.",
+            "Its reserve pool is roughly $183 billion strong,\nOnce placed in risky assets, though that did not last long.\nNow Treasury bills and repos fill most of the pot—\nShort-term, secured investments that usually risk not a lot.",
+            "Tether’s funding can cost near zero overnight,\nWhile short-term investments earn about four percent outright.\nWhy make long, risky loans and wait years to be paid,\nWhen safe, speedy interest is already being made?",
+            "But USDT’s total value had stayed rather flat,\nSo Tether planned a lending fund to help change that.\nWith London’s Fasanara Capital joining the quest,\nStableFund would lend where smaller businesses invest.",
+            "It launched with $400 million ready to lend,\nAnd sought up to $3 billion from others in the end.\nThe Financial Times reported the curious plan:\nOutside investors would supply what StableFund can.",
+            "So Tether had a giant reserve pool close at hand—\nYet asked third-party investors to help loans expand.\nLike a cautious modern bank, it chose the clever route:\nKeep its cheap reserves safe, and lend somebody else’s loot.",
+            "What happened? Tether and Fasanara Capital launched the $400 million StableFund to make private-credit loans to underserved small and medium-sized businesses, while seeking up to $3 billion from outside investors. Tether kept its roughly $183 billion USDT reserve pool mainly in short-term Treasury bills and repo agreements instead of using that pool for the riskier loans."
+          ]
+        },
+        "elementary": {
+          "title": "Tether’s Very Full Fundraising Hat",
+          "lesson": "Tether launched a private-credit fund using outside investors’ capital, rather than risking the roughly $183 billion reserve pool backing USDT, which it mainly keeps in short-term Treasury bills and repo agreements.",
+          "paragraphs": [
+            "People give Tether dollars; USDT comes back,\nA token meant to keep a one-dollar track.\nCustomers can redeem it, while interest stays low—\nSo Tether has cheap funding wherever those dollars go.",
+            "Its reserve pool is roughly $183 billion strong,\nOnce placed in risky assets, though that did not last long.\nNow Treasury bills and repos fill most of the pot—\nShort-term, secured investments that usually risk not a lot.",
+            "Tether’s funding can cost near zero overnight,\nWhile short-term investments earn about four percent outright.\nWhy make long, risky loans and wait years to be paid,\nWhen safe, speedy interest is already being made?",
+            "But USDT’s total value had stayed rather flat,\nSo Tether planned a lending fund to help change that.\nWith London’s Fasanara Capital joining the quest,\nStableFund would lend where smaller businesses invest.",
+            "It launched with $400 million ready to lend,\nAnd sought up to $3 billion from others in the end.\nThe Financial Times reported the curious plan:\nOutside investors would supply what StableFund can.",
+            "So Tether had a giant reserve pool close at hand—\nYet asked third-party investors to help loans expand.\nLike a cautious modern bank, it chose the clever route:\nKeep its cheap reserves safe, and lend somebody else’s loot.",
+            "What happened? Tether and Fasanara Capital launched the $400 million StableFund to make private-credit loans to underserved small and medium-sized businesses, while seeking up to $3 billion from outside investors. Tether kept its roughly $183 billion USDT reserve pool mainly in short-term Treasury bills and repo agreements instead of using that pool for the riskier loans."
+          ]
+        },
+        "middle": {
+          "title": "Tether’s Very Full Fundraising Hat",
+          "lesson": "Tether launched a private-credit fund using outside investors’ capital, rather than risking the roughly $183 billion reserve pool backing USDT, which it mainly keeps in short-term Treasury bills and repo agreements.",
+          "paragraphs": [
+            "People give Tether dollars; USDT comes back,\nA token meant to keep a one-dollar track.\nCustomers can redeem it, while interest stays low—\nSo Tether has cheap funding wherever those dollars go.",
+            "Its reserve pool is roughly $183 billion strong,\nOnce placed in risky assets, though that did not last long.\nNow Treasury bills and repos fill most of the pot—\nShort-term, secured investments that usually risk not a lot.",
+            "Tether’s funding can cost near zero overnight,\nWhile short-term investments earn about four percent outright.\nWhy make long, risky loans and wait years to be paid,\nWhen safe, speedy interest is already being made?",
+            "But USDT’s total value had stayed rather flat,\nSo Tether planned a lending fund to help change that.\nWith London’s Fasanara Capital joining the quest,\nStableFund would lend where smaller businesses invest.",
+            "It launched with $400 million ready to lend,\nAnd sought up to $3 billion from others in the end.\nThe Financial Times reported the curious plan:\nOutside investors would supply what StableFund can.",
+            "So Tether had a giant reserve pool close at hand—\nYet asked third-party investors to help loans expand.\nLike a cautious modern bank, it chose the clever route:\nKeep its cheap reserves safe, and lend somebody else’s loot.",
+            "What happened? Tether and Fasanara Capital launched the $400 million StableFund to make private-credit loans to underserved small and medium-sized businesses, while seeking up to $3 billion from outside investors. Tether kept its roughly $183 billion USDT reserve pool mainly in short-term Treasury bills and repo agreements instead of using that pool for the riskier loans."
+          ]
+        },
+        "high": {
+          "title": "Tether’s Very Full Fundraising Hat",
+          "lesson": "Tether launched a private-credit fund using outside investors’ capital, rather than risking the roughly $183 billion reserve pool backing USDT, which it mainly keeps in short-term Treasury bills and repo agreements.",
+          "paragraphs": [
+            "People give Tether dollars; USDT comes back,\nA token meant to keep a one-dollar track.\nCustomers can redeem it, while interest stays low—\nSo Tether has cheap funding wherever those dollars go.",
+            "Its reserve pool is roughly $183 billion strong,\nOnce placed in risky assets, though that did not last long.\nNow Treasury bills and repos fill most of the pot—\nShort-term, secured investments that usually risk not a lot.",
+            "Tether’s funding can cost near zero overnight,\nWhile short-term investments earn about four percent outright.\nWhy make long, risky loans and wait years to be paid,\nWhen safe, speedy interest is already being made?",
+            "But USDT’s total value had stayed rather flat,\nSo Tether planned a lending fund to help change that.\nWith London’s Fasanara Capital joining the quest,\nStableFund would lend where smaller businesses invest.",
+            "It launched with $400 million ready to lend,\nAnd sought up to $3 billion from others in the end.\nThe Financial Times reported the curious plan:\nOutside investors would supply what StableFund can.",
+            "So Tether had a giant reserve pool close at hand—\nYet asked third-party investors to help loans expand.\nLike a cautious modern bank, it chose the clever route:\nKeep its cheap reserves safe, and lend somebody else’s loot.",
+            "What happened? Tether and Fasanara Capital launched the $400 million StableFund to make private-credit loans to underserved small and medium-sized businesses, while seeking up to $3 billion from outside investors. Tether kept its roughly $183 billion USDT reserve pool mainly in short-term Treasury bills and repo agreements instead of using that pool for the riskier loans."
+          ]
+        }
+      }
+    },
+    {
+      "id": "magic-the-gathering-insider-trading",
+      "sourceSection": "Magic: The Gathering insider trading",
+      "illustration": {
+        "src": "/images/2026-09-10-dallas-gets-some-equities/magic-the-gathering-insider-trading.png",
+        "alt": "An unidentified buyer gathers huge stacks of Baleful Strix, Vandalblast, and Dispatch cards from GoatBots before a covered Zeta Set announcement."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "GoatBots (@GoatBots)"
+        ],
+        "financialMechanism": "An unidentified buyer allegedly used advance, nonpublic knowledge of the Zeta Set announcement to purchase more than 250 virtual Magic: The Gathering Online cards from GoatBots before the news, expecting to profit from the resulting price change.",
+        "centralJoke": "The absurdity is that an allegation resembling insider trading involved virtual Magic: The Gathering Online cards and the magnificent phrase combining the Pauper Format Panel, Baleful Strix, Vandalblast, Dispatch, bots, and the Zeta Set announcement."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Very Strange Trade Before Zeta",
+          "lesson": "@GoatBots alleged that someone connected to the Pauper Format Panel used advance knowledge of the Zeta Set announcement to buy more than 250 virtual cards before the news became public, hoping to profit afterward; the allegation was not confirmed.",
+          "paragraphs": [
+            "Before the Zeta Set announcement was made,\na buyer arrived for an unusually large trade.\nFrom GoatBots came copies—more than 250 in store—\nand the tweet wondered how many were purchased elsewhere before.",
+            "There was Baleful Strix, with its ominous name,\nVandalblast bursting in magical flame,\nand Dispatch as well, all bought in advance—\nnot after the news, but before the cards’ chance.",
+            "The tweet said the buyer had a Pauper Format Panel tie\nand knew something early that others could not buy.\nIf news makes cards pricier, an early buyer may gain:\nbuy low before the announcement, then profit from the change.",
+            "It sounded like Wall Street in a wizard’s disguise:\nsecret information and speculative buys,\nwith robot card sellers and spells in the mix—\n“inside information,” “Pauper,” and “Baleful Strix.”",
+            "But the claim was unconfirmed; no proof settled the score.\nEven whether these were online Magic cards wasn’t fully sure.\nStill, few market accusations have ever combined\nsuch a wonderfully peculiar procession of words in one line.",
+            "What happened? @GoatBots alleged that someone connected to the Pauper Format Panel used nonpublic information to buy more than 250 copies of Baleful Strix, Vandalblast, and Dispatch before the Zeta Set announcement. The claim was not confirmed."
+          ]
+        },
+        "elementary": {
+          "title": "The Very Strange Trade Before Zeta",
+          "lesson": "@GoatBots alleged that someone connected to the Pauper Format Panel used advance knowledge of the Zeta Set announcement to buy more than 250 virtual cards before the news became public, hoping to profit afterward; the allegation was not confirmed.",
+          "paragraphs": [
+            "Before the Zeta Set announcement was made,\na buyer arrived for an unusually large trade.\nFrom GoatBots came copies—more than 250 in store—\nand the tweet wondered how many were purchased elsewhere before.",
+            "There was Baleful Strix, with its ominous name,\nVandalblast bursting in magical flame,\nand Dispatch as well, all bought in advance—\nnot after the news, but before the cards’ chance.",
+            "The tweet said the buyer had a Pauper Format Panel tie\nand knew something early that others could not buy.\nIf news makes cards pricier, an early buyer may gain:\nbuy low before the announcement, then profit from the change.",
+            "It sounded like Wall Street in a wizard’s disguise:\nsecret information and speculative buys,\nwith robot card sellers and spells in the mix—\n“inside information,” “Pauper,” and “Baleful Strix.”",
+            "But the claim was unconfirmed; no proof settled the score.\nEven whether these were online Magic cards wasn’t fully sure.\nStill, few market accusations have ever combined\nsuch a wonderfully peculiar procession of words in one line.",
+            "What happened? @GoatBots alleged that someone connected to the Pauper Format Panel used nonpublic information to buy more than 250 copies of Baleful Strix, Vandalblast, and Dispatch before the Zeta Set announcement. The claim was not confirmed."
+          ]
+        },
+        "middle": {
+          "title": "The Very Strange Trade Before Zeta",
+          "lesson": "@GoatBots alleged that someone connected to the Pauper Format Panel used advance knowledge of the Zeta Set announcement to buy more than 250 virtual cards before the news became public, hoping to profit afterward; the allegation was not confirmed.",
+          "paragraphs": [
+            "Before the Zeta Set announcement was made,\na buyer arrived for an unusually large trade.\nFrom GoatBots came copies—more than 250 in store—\nand the tweet wondered how many were purchased elsewhere before.",
+            "There was Baleful Strix, with its ominous name,\nVandalblast bursting in magical flame,\nand Dispatch as well, all bought in advance—\nnot after the news, but before the cards’ chance.",
+            "The tweet said the buyer had a Pauper Format Panel tie\nand knew something early that others could not buy.\nIf news makes cards pricier, an early buyer may gain:\nbuy low before the announcement, then profit from the change.",
+            "It sounded like Wall Street in a wizard’s disguise:\nsecret information and speculative buys,\nwith robot card sellers and spells in the mix—\n“inside information,” “Pauper,” and “Baleful Strix.”",
+            "But the claim was unconfirmed; no proof settled the score.\nEven whether these were online Magic cards wasn’t fully sure.\nStill, few market accusations have ever combined\nsuch a wonderfully peculiar procession of words in one line.",
+            "What happened? @GoatBots alleged that someone connected to the Pauper Format Panel used nonpublic information to buy more than 250 copies of Baleful Strix, Vandalblast, and Dispatch before the Zeta Set announcement. The claim was not confirmed."
+          ]
+        },
+        "high": {
+          "title": "The Very Strange Trade Before Zeta",
+          "lesson": "@GoatBots alleged that someone connected to the Pauper Format Panel used advance knowledge of the Zeta Set announcement to buy more than 250 virtual cards before the news became public, hoping to profit afterward; the allegation was not confirmed.",
+          "paragraphs": [
+            "Before the Zeta Set announcement was made,\na buyer arrived for an unusually large trade.\nFrom GoatBots came copies—more than 250 in store—\nand the tweet wondered how many were purchased elsewhere before.",
+            "There was Baleful Strix, with its ominous name,\nVandalblast bursting in magical flame,\nand Dispatch as well, all bought in advance—\nnot after the news, but before the cards’ chance.",
+            "The tweet said the buyer had a Pauper Format Panel tie\nand knew something early that others could not buy.\nIf news makes cards pricier, an early buyer may gain:\nbuy low before the announcement, then profit from the change.",
+            "It sounded like Wall Street in a wizard’s disguise:\nsecret information and speculative buys,\nwith robot card sellers and spells in the mix—\n“inside information,” “Pauper,” and “Baleful Strix.”",
+            "But the claim was unconfirmed; no proof settled the score.\nEven whether these were online Magic cards wasn’t fully sure.\nStill, few market accusations have ever combined\nsuch a wonderfully peculiar procession of words in one line.",
+            "What happened? @GoatBots alleged that someone connected to the Pauper Format Panel used nonpublic information to buy more than 250 copies of Baleful Strix, Vandalblast, and Dispatch before the Zeta Set announcement. The claim was not confirmed."
+          ]
+        }
+      }
+    }
+  ]
+}
