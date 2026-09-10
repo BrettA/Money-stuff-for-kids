@@ -204,6 +204,18 @@
       "submitted": true,
       "updatedAt": "2026-09-09T19:52:22.245Z",
       "submittedAt": "2026-09-09T19:52:22.245Z"
+    },
+    "1a08c93e1bdd5b72": {
+      "gmailMessageId": "1a08c93e1bdd5b72",
+      "newsletterDate": "2026-09-10",
+      "newsletterTitle": "Dallas Gets Some Equities",
+      "editionId": "2026-09-10-dallas-gets-some-equities",
+      "sourceSha256": "9201557c37077bb7065a87eafbf8f33d94257c6b29e2f828782ba49426df74f2",
+      "packageSha256": "07fad80d458d77d39631cf1ac8e9abf4839376a8181e7b10f0589ac569b9c307",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-10T20:55:02.541Z",
+      "submittedAt": "2026-09-10T20:55:02.541Z"
     }
   }
 }
