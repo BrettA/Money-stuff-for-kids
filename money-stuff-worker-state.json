@@ -216,6 +216,18 @@
       "submitted": true,
       "updatedAt": "2026-09-10T20:55:02.541Z",
       "submittedAt": "2026-09-10T20:55:02.541Z"
+    },
+    "1a09155ad5f6658c": {
+      "gmailMessageId": "1a09155ad5f6658c",
+      "newsletterDate": "2026-09-11",
+      "newsletterTitle": "The Podcast: What’s the Concern?",
+      "editionId": "2026-09-11-the-podcast-what-s-the-concern",
+      "sourceSha256": "e529e6a4b86827c1e6bf8685f5f6b866de8fe9e3aa8e1d7a74f0544da25b022e",
+      "packageSha256": "9a8cf93801164f6aa59dc49dd0967d2c0cf519f6b9945f394711a6bf229928d5",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-11T18:32:32.306Z",
+      "submittedAt": "2026-09-11T18:32:32.306Z"
     }
   }
 }
