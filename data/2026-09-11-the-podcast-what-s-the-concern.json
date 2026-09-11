@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-11-the-podcast-what-s-the-concern",
+  "date": "2026-09-11",
+  "displayDate": "September 11, 2026",
+  "title": "The Podcast: What’s the Concern?",
+  "sourceSections": [
+    "Podcast"
+  ],
+  "stories": [
+    {
+      "id": "podcast",
+      "sourceSection": "Podcast",
+      "illustration": {
+        "src": "/images/2026-09-11-the-podcast-what-s-the-concern/podcast.png",
+        "alt": "Max Abelson speaks into a Bloomberg podcast microphone beside an AMC-versus-Robinhood placard, a blockchain stock ledger, and bearer certificates slipping from a heist bag."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Max Abelson",
+          "Kawhi Leonard"
+        ],
+        "realCompanies": [
+          "Bloomberg L.P.",
+          "Robinhood",
+          "AMC",
+          "Cede & Co.",
+          "Apollo",
+          "Apple",
+          "Spotify"
+        ],
+        "financialMechanism": "A stock ledger records who owns shares and may be maintained on a blockchain; bearer securities give important rights to the person physically holding the documents, so stealing them can enable a thief to claim or transfer value.",
+        "centralJoke": "The podcast crams an absurdly broad procession of topics—from Kawhi Leonard and bearer-security heists to finance aesthetics, geniality rankings, and choosing contextually appropriate “oohs”—into one episode."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Max and the Very Crowded Microphone",
+          "lesson": "Stock ledgers record share ownership and can be kept on a blockchain, while bearer securities depend on physical possession—making the documents tempting targets for theft.",
+          "paragraphs": [
+            "At Bloomberg, Max Abelson took the guest chair,\nA senior reporter with questions to spare.\nMoney Stuff started with money and power,\nThen talked Kawhi Leonard within the same hour.",
+            "Independent investigations joined the cascade,\nAlong with the curious DAT trade.\n“Why does anyone talk to us?” floated nearby,\nThen finance’s beauty drew an aesthetic eye.",
+            "Robinhood faced AMC in the chatter,\nWhile meme-stock bazaars made everything madder.\nCede & Co. came up; stock ledgers came next—\nCould blockchain record who owns shares in its text?",
+            "Grayson Moorhead Securities joined the array,\nThen bearer-security heists stole the day.\nThose papers reward whoever holds them just right,\nSo thieves might steal ownership clear out of sight.",
+            "The Apollo premium earned a review,\nThen geniality league tables lined up in a queue.\nAfter that whirlwind, one puzzle remained:\nWhich “ooh” fits the context when finance is explained?",
+            "The episode’s out on Spotify and Apple,\nWith enough odd ideas for a week’s worth of babble.\nMoney, basketball, markets, and crooks—\nAll squeezed in together, with finance judged on its looks.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by senior reporter Max Abelson. Its topics included blockchain stock ledgers, which record share ownership, and bearer securities, whose reliance on physical possession makes theft especially consequential."
+          ]
+        },
+        "elementary": {
+          "title": "Max and the Very Crowded Microphone",
+          "lesson": "Stock ledgers record share ownership and can be kept on a blockchain, while bearer securities depend on physical possession—making the documents tempting targets for theft.",
+          "paragraphs": [
+            "At Bloomberg, Max Abelson took the guest chair,\nA senior reporter with questions to spare.\nMoney Stuff started with money and power,\nThen talked Kawhi Leonard within the same hour.",
+            "Independent investigations joined the cascade,\nAlong with the curious DAT trade.\n“Why does anyone talk to us?” floated nearby,\nThen finance’s beauty drew an aesthetic eye.",
+            "Robinhood faced AMC in the chatter,\nWhile meme-stock bazaars made everything madder.\nCede & Co. came up; stock ledgers came next—\nCould blockchain record who owns shares in its text?",
+            "Grayson Moorhead Securities joined the array,\nThen bearer-security heists stole the day.\nThose papers reward whoever holds them just right,\nSo thieves might steal ownership clear out of sight.",
+            "The Apollo premium earned a review,\nThen geniality league tables lined up in a queue.\nAfter that whirlwind, one puzzle remained:\nWhich “ooh” fits the context when finance is explained?",
+            "The episode’s out on Spotify and Apple,\nWith enough odd ideas for a week’s worth of babble.\nMoney, basketball, markets, and crooks—\nAll squeezed in together, with finance judged on its looks.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by senior reporter Max Abelson. Its topics included blockchain stock ledgers, which record share ownership, and bearer securities, whose reliance on physical possession makes theft especially consequential."
+          ]
+        },
+        "middle": {
+          "title": "Max and the Very Crowded Microphone",
+          "lesson": "Stock ledgers record share ownership and can be kept on a blockchain, while bearer securities depend on physical possession—making the documents tempting targets for theft.",
+          "paragraphs": [
+            "At Bloomberg, Max Abelson took the guest chair,\nA senior reporter with questions to spare.\nMoney Stuff started with money and power,\nThen talked Kawhi Leonard within the same hour.",
+            "Independent investigations joined the cascade,\nAlong with the curious DAT trade.\n“Why does anyone talk to us?” floated nearby,\nThen finance’s beauty drew an aesthetic eye.",
+            "Robinhood faced AMC in the chatter,\nWhile meme-stock bazaars made everything madder.\nCede & Co. came up; stock ledgers came next—\nCould blockchain record who owns shares in its text?",
+            "Grayson Moorhead Securities joined the array,\nThen bearer-security heists stole the day.\nThose papers reward whoever holds them just right,\nSo thieves might steal ownership clear out of sight.",
+            "The Apollo premium earned a review,\nThen geniality league tables lined up in a queue.\nAfter that whirlwind, one puzzle remained:\nWhich “ooh” fits the context when finance is explained?",
+            "The episode’s out on Spotify and Apple,\nWith enough odd ideas for a week’s worth of babble.\nMoney, basketball, markets, and crooks—\nAll squeezed in together, with finance judged on its looks.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by senior reporter Max Abelson. Its topics included blockchain stock ledgers, which record share ownership, and bearer securities, whose reliance on physical possession makes theft especially consequential."
+          ]
+        },
+        "high": {
+          "title": "Max and the Very Crowded Microphone",
+          "lesson": "Stock ledgers record share ownership and can be kept on a blockchain, while bearer securities depend on physical possession—making the documents tempting targets for theft.",
+          "paragraphs": [
+            "At Bloomberg, Max Abelson took the guest chair,\nA senior reporter with questions to spare.\nMoney Stuff started with money and power,\nThen talked Kawhi Leonard within the same hour.",
+            "Independent investigations joined the cascade,\nAlong with the curious DAT trade.\n“Why does anyone talk to us?” floated nearby,\nThen finance’s beauty drew an aesthetic eye.",
+            "Robinhood faced AMC in the chatter,\nWhile meme-stock bazaars made everything madder.\nCede & Co. came up; stock ledgers came next—\nCould blockchain record who owns shares in its text?",
+            "Grayson Moorhead Securities joined the array,\nThen bearer-security heists stole the day.\nThose papers reward whoever holds them just right,\nSo thieves might steal ownership clear out of sight.",
+            "The Apollo premium earned a review,\nThen geniality league tables lined up in a queue.\nAfter that whirlwind, one puzzle remained:\nWhich “ooh” fits the context when finance is explained?",
+            "The episode’s out on Spotify and Apple,\nWith enough odd ideas for a week’s worth of babble.\nMoney, basketball, markets, and crooks—\nAll squeezed in together, with finance judged on its looks.",
+            "What happened? Bloomberg released a Money Stuff podcast episode guest-hosted by senior reporter Max Abelson. Its topics included blockchain stock ledgers, which record share ownership, and bearer securities, whose reliance on physical possession makes theft especially consequential."
+          ]
+        }
+      }
+    }
+  ]
+}
