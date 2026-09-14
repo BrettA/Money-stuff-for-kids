@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-14-ai-labs-want-someone-to-stop-them",
+  "date": "2026-09-14",
+  "displayDate": "September 14, 2026",
+  "title": "AI Labs Want Someone to Stop Them",
+  "sourceSections": [
+    "P(doom)",
+    "Lockup synchronization",
+    "Annuities",
+    "“Montessori Ponzi”",
+    "Sudden wealth syndrome",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "p-doom",
+      "sourceSection": "P(doom)",
+      "illustration": {
+        "src": "/images/2026-09-14-ai-labs-want-someone-to-stop-them/p-doom.png",
+        "alt": "Dario Amodei holds an AI safety plan outside a meeting room for Anthropic, OpenAI, and Google, while antitrust tape blocks the doorway and a huge frontier-AI computer races onward."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Dario Amodei"
+        ],
+        "realCompanies": [
+          "Anthropic PBC",
+          "SpaceX",
+          "OpenAI",
+          "Google"
+        ],
+        "financialMechanism": "Frontier AI labs spend billions on computing to keep producing premium models. A coordinated slowdown could lower their costs and extend premium pricing, but an agreement among competitors to limit development could violate antitrust law.",
+        "centralJoke": "The AI labs may want to cooperate to prevent rogue AI from killing everyone, yet antitrust law designed to protect society from colluding companies might prevent that cooperation."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Race That Nobody Could Pause",
+          "lesson": "If frontier AI companies jointly slow development, they could reduce computing costs and keep charging premium prices longer, but that coordination may count as an illegal agreement among competitors to limit output.",
+          "paragraphs": [
+            "Anthropic may go public; its pitch could declare\na market above $30 trillion waiting out there.\nSpaceX estimated $28.5 trillion; Anthropic’s claim\nwould be finance’s biggest market target by name.",
+            "The sunny case: AI does one quarter of work everywhere,\nand Anthropic captures it all as its share.\nThe stormy case Dario Amodei fears is more grim:\nrogue AI could end everyone—not merely the firm.",
+            "So Dario urged companies to “pace” the frontier race,\nwith shared safety limits to keep danger in its place.\nHe asked for government help or an antitrust waiver,\nso labs could coordinate without unlawful behavior.",
+            "Each lab spends billions to train the newest and best;\nthe latest models earn more than the rest.\nIf one lab pauses, its rivals charge on with the best;\nthey’ll eat up its lunch while its servers take rest.",
+            "If all pause together, compute bills may fall,\nwhile premium frontier prices last longer for all.\nBut competitors agreeing to limit what they make\ncan look like a cartel—and the law hits the brake.",
+            "The strangest snag waits at the conference-room door:\nthe labs say their race could bring danger galore.\nYet rules built to stop rivals from rigging the game\nmight bar them from joining to slow the AI train.",
+            "What happened? Dario Amodei proposed that frontier AI companies coordinate on safety standards and limits, with government mediation or antitrust waivers. Such coordination could reduce costly model development and preserve high prices, but it might also be treated as an illegal agreement among competitors to restrict output."
+          ]
+        },
+        "elementary": {
+          "title": "The Race That Nobody Could Pause",
+          "lesson": "If frontier AI companies jointly slow development, they could reduce computing costs and keep charging premium prices longer, but that coordination may count as an illegal agreement among competitors to limit output.",
+          "paragraphs": [
+            "Anthropic may go public; its pitch could declare\na market above $30 trillion waiting out there.\nSpaceX estimated $28.5 trillion; Anthropic’s claim\nwould be finance’s biggest market target by name.",
+            "The sunny case: AI does one quarter of work everywhere,\nand Anthropic captures it all as its share.\nThe stormy case Dario Amodei fears is more grim:\nrogue AI could end everyone—not merely the firm.",
+            "So Dario urged companies to “pace” the frontier race,\nwith shared safety limits to keep danger in its place.\nHe asked for government help or an antitrust waiver,\nso labs could coordinate without unlawful behavior.",
+            "Each lab spends billions to train the newest and best;\nthe latest models earn more than the rest.\nIf one lab pauses, its rivals charge on with the best;\nthey’ll eat up its lunch while its servers take rest.",
+            "If all pause together, compute bills may fall,\nwhile premium frontier prices last longer for all.\nBut competitors agreeing to limit what they make\ncan look like a cartel—and the law hits the brake.",
+            "The strangest snag waits at the conference-room door:\nthe labs say their race could bring danger galore.\nYet rules built to stop rivals from rigging the game\nmight bar them from joining to slow the AI train.",
+            "What happened? Dario Amodei proposed that frontier AI companies coordinate on safety standards and limits, with government mediation or antitrust waivers. Such coordination could reduce costly model development and preserve high prices, but it might also be treated as an illegal agreement among competitors to restrict output."
+          ]
+        },
+        "middle": {
+          "title": "The Race That Nobody Could Pause",
+          "lesson": "If frontier AI companies jointly slow development, they could reduce computing costs and keep charging premium prices longer, but that coordination may count as an illegal agreement among competitors to limit output.",
+          "paragraphs": [
+            "Anthropic may go public; its pitch could declare\na market above $30 trillion waiting out there.\nSpaceX estimated $28.5 trillion; Anthropic’s claim\nwould be finance’s biggest market target by name.",
+            "The sunny case: AI does one quarter of work everywhere,\nand Anthropic captures it all as its share.\nThe stormy case Dario Amodei fears is more grim:\nrogue AI could end everyone—not merely the firm.",
+            "So Dario urged companies to “pace” the frontier race,\nwith shared safety limits to keep danger in its place.\nHe asked for government help or an antitrust waiver,\nso labs could coordinate without unlawful behavior.",
+            "Each lab spends billions to train the newest and best;\nthe latest models earn more than the rest.\nIf one lab pauses, its rivals charge on with the best;\nthey’ll eat up its lunch while its servers take rest.",
+            "If all pause together, compute bills may fall,\nwhile premium frontier prices last longer for all.\nBut competitors agreeing to limit what they make\ncan look like a cartel—and the law hits the brake.",
+            "The strangest snag waits at the conference-room door:\nthe labs say their race could bring danger galore.\nYet rules built to stop rivals from rigging the game\nmight bar them from joining to slow the AI train.",
+            "What happened? Dario Amodei proposed that frontier AI companies coordinate on safety standards and limits, with government mediation or antitrust waivers. Such coordination could reduce costly model development and preserve high prices, but it might also be treated as an illegal agreement among competitors to restrict output."
+          ]
+        },
+        "high": {
+          "title": "The Race That Nobody Could Pause",
+          "lesson": "If frontier AI companies jointly slow development, they could reduce computing costs and keep charging premium prices longer, but that coordination may count as an illegal agreement among competitors to limit output.",
+          "paragraphs": [
+            "Anthropic may go public; its pitch could declare\na market above $30 trillion waiting out there.\nSpaceX estimated $28.5 trillion; Anthropic’s claim\nwould be finance’s biggest market target by name.",
+            "The sunny case: AI does one quarter of work everywhere,\nand Anthropic captures it all as its share.\nThe stormy case Dario Amodei fears is more grim:\nrogue AI could end everyone—not merely the firm.",
+            "So Dario urged companies to “pace” the frontier race,\nwith shared safety limits to keep danger in its place.\nHe asked for government help or an antitrust waiver,\nso labs could coordinate without unlawful behavior.",
+            "Each lab spends billions to train the newest and best;\nthe latest models earn more than the rest.\nIf one lab pauses, its rivals charge on with the best;\nthey’ll eat up its lunch while its servers take rest.",
+            "If all pause together, compute bills may fall,\nwhile premium frontier prices last longer for all.\nBut competitors agreeing to limit what they make\ncan look like a cartel—and the law hits the brake.",
+            "The strangest snag waits at the conference-room door:\nthe labs say their race could bring danger galore.\nYet rules built to stop rivals from rigging the game\nmight bar them from joining to slow the AI train.",
+            "What happened? Dario Amodei proposed that frontier AI companies coordinate on safety standards and limits, with government mediation or antitrust waivers. Such coordination could reduce costly model development and preserve high prices, but it might also be treated as an illegal agreement among competitors to restrict output."
+          ]
+        }
+      }
+    },
+    {
+      "id": "lockup-synchronization",
+      "sourceSection": "Lockup synchronization",
+      "illustration": {
+        "src": "/images/2026-09-14-ai-labs-want-someone-to-stop-them/lockup-synchronization.png",
+        "alt": "SpaceX insiders stand by an opened lockup gate while holding their shares, as Nasdaq 100 index-fund buyers approach from a later calendar page."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Isabelle Lee"
+        ],
+        "realCompanies": [
+          "SpaceX",
+          "Nasdaq",
+          "Bloomberg"
+        ],
+        "financialMechanism": "When IPO lockups expire, more shares become freely tradable, increasing float; a float-adjusted index may recognize the increase only during a later rebalancing, when index funds must buy shares to match the higher weight.",
+        "centralJoke": "The same lockup expiration creates both potential sellers and eventual index-fund buyers, but they arrive weeks apart instead of trading neatly with each other."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Buyers Who Came Late",
+          "lesson": "A lockup expiration can increase a stock’s tradable float immediately, while index funds may not buy the added weight until a later index rebalancing.",
+          "paragraphs": [
+            "When SpaceX offered stock to all,\nmost shares stayed locked behind a wall.\nAn IPO makes shares public; a lock\nmakes insiders wait before selling their stock.",
+            "The shares free to trade are known as “float.”\nIndex weights take that amount into note.\nWhen locked shares open for buying and sale,\nthe float grows bigger on the index’s scale.",
+            "The first SpaceX lockup ended in August;\na second expired one week later, as promised.\nSome feared that a flood of shares would appear—\nbut insiders mostly held, and no selloff came near.",
+            "Yet Nasdaq did not change the weight that same day.\nIts scheduled adjustment was farther away.\nIsabelle Lee reported the later forecast:\nSpaceX’s index share would rise quite fast—",
+            "from roughly 1.28% of the Nasdaq 100 mix\nto about 2.82% when Nasdaq made the fix.\nPassive funds copy the index just so;\nwith SpaceX weighted higher, their buying must grow.",
+            "That could mean billions in purchases—but late!\nThe possible sellers and buyers missed their date.\nOne lockup caused both sides of the affair,\nyet the market’s two calendars would not pair.",
+            "Hedge funds could buy and hold every share,\nthen sell to index funds when they finally got there.\nBut warehousing stock brings risk, cost, and strain.\nWhy not let both crowds meet on the same day’s train?",
+            "What happened? SpaceX’s lockup expirations increased the shares available to trade, but the Nasdaq 100 was expected to recognize that larger float only at a later rebalancing, raising SpaceX’s projected weight from about 1.28% to about 2.82%. That delay separated possible insider selling from billions of dollars of expected passive-fund buying."
+          ]
+        },
+        "elementary": {
+          "title": "The Buyers Who Came Late",
+          "lesson": "A lockup expiration can increase a stock’s tradable float immediately, while index funds may not buy the added weight until a later index rebalancing.",
+          "paragraphs": [
+            "When SpaceX offered stock to all,\nmost shares stayed locked behind a wall.\nAn IPO makes shares public; a lock\nmakes insiders wait before selling their stock.",
+            "The shares free to trade are known as “float.”\nIndex weights take that amount into note.\nWhen locked shares open for buying and sale,\nthe float grows bigger on the index’s scale.",
+            "The first SpaceX lockup ended in August;\na second expired one week later, as promised.\nSome feared that a flood of shares would appear—\nbut insiders mostly held, and no selloff came near.",
+            "Yet Nasdaq did not change the weight that same day.\nIts scheduled adjustment was farther away.\nIsabelle Lee reported the later forecast:\nSpaceX’s index share would rise quite fast—",
+            "from roughly 1.28% of the Nasdaq 100 mix\nto about 2.82% when Nasdaq made the fix.\nPassive funds copy the index just so;\nwith SpaceX weighted higher, their buying must grow.",
+            "That could mean billions in purchases—but late!\nThe possible sellers and buyers missed their date.\nOne lockup caused both sides of the affair,\nyet the market’s two calendars would not pair.",
+            "Hedge funds could buy and hold every share,\nthen sell to index funds when they finally got there.\nBut warehousing stock brings risk, cost, and strain.\nWhy not let both crowds meet on the same day’s train?",
+            "What happened? SpaceX’s lockup expirations increased the shares available to trade, but the Nasdaq 100 was expected to recognize that larger float only at a later rebalancing, raising SpaceX’s projected weight from about 1.28% to about 2.82%. That delay separated possible insider selling from billions of dollars of expected passive-fund buying."
+          ]
+        },
+        "middle": {
+          "title": "The Buyers Who Came Late",
+          "lesson": "A lockup expiration can increase a stock’s tradable float immediately, while index funds may not buy the added weight until a later index rebalancing.",
+          "paragraphs": [
+            "When SpaceX offered stock to all,\nmost shares stayed locked behind a wall.\nAn IPO makes shares public; a lock\nmakes insiders wait before selling their stock.",
+            "The shares free to trade are known as “float.”\nIndex weights take that amount into note.\nWhen locked shares open for buying and sale,\nthe float grows bigger on the index’s scale.",
+            "The first SpaceX lockup ended in August;\na second expired one week later, as promised.\nSome feared that a flood of shares would appear—\nbut insiders mostly held, and no selloff came near.",
+            "Yet Nasdaq did not change the weight that same day.\nIts scheduled adjustment was farther away.\nIsabelle Lee reported the later forecast:\nSpaceX’s index share would rise quite fast—",
+            "from roughly 1.28% of the Nasdaq 100 mix\nto about 2.82% when Nasdaq made the fix.\nPassive funds copy the index just so;\nwith SpaceX weighted higher, their buying must grow.",
+            "That could mean billions in purchases—but late!\nThe possible sellers and buyers missed their date.\nOne lockup caused both sides of the affair,\nyet the market’s two calendars would not pair.",
+            "Hedge funds could buy and hold every share,\nthen sell to index funds when they finally got there.\nBut warehousing stock brings risk, cost, and strain.\nWhy not let both crowds meet on the same day’s train?",
+            "What happened? SpaceX’s lockup expirations increased the shares available to trade, but the Nasdaq 100 was expected to recognize that larger float only at a later rebalancing, raising SpaceX’s projected weight from about 1.28% to about 2.82%. That delay separated possible insider selling from billions of dollars of expected passive-fund buying."
+          ]
+        },
+        "high": {
+          "title": "The Buyers Who Came Late",
+          "lesson": "A lockup expiration can increase a stock’s tradable float immediately, while index funds may not buy the added weight until a later index rebalancing.",
+          "paragraphs": [
+            "When SpaceX offered stock to all,\nmost shares stayed locked behind a wall.\nAn IPO makes shares public; a lock\nmakes insiders wait before selling their stock.",
+            "The shares free to trade are known as “float.”\nIndex weights take that amount into note.\nWhen locked shares open for buying and sale,\nthe float grows bigger on the index’s scale.",
+            "The first SpaceX lockup ended in August;\na second expired one week later, as promised.\nSome feared that a flood of shares would appear—\nbut insiders mostly held, and no selloff came near.",
+            "Yet Nasdaq did not change the weight that same day.\nIts scheduled adjustment was farther away.\nIsabelle Lee reported the later forecast:\nSpaceX’s index share would rise quite fast—",
+            "from roughly 1.28% of the Nasdaq 100 mix\nto about 2.82% when Nasdaq made the fix.\nPassive funds copy the index just so;\nwith SpaceX weighted higher, their buying must grow.",
+            "That could mean billions in purchases—but late!\nThe possible sellers and buyers missed their date.\nOne lockup caused both sides of the affair,\nyet the market’s two calendars would not pair.",
+            "Hedge funds could buy and hold every share,\nthen sell to index funds when they finally got there.\nBut warehousing stock brings risk, cost, and strain.\nWhy not let both crowds meet on the same day’s train?",
+            "What happened? SpaceX’s lockup expirations increased the shares available to trade, but the Nasdaq 100 was expected to recognize that larger float only at a later rebalancing, raising SpaceX’s projected weight from about 1.28% to about 2.82%. That delay separated possible insider selling from billions of dollars of expected passive-fund buying."
+          ]
+        }
+      }
+    },
+    {
+      "id": "annuities",
+      "sourceSection": "Annuities",
+      "illustration": {
+        "src": "/images/2026-09-14-ai-labs-want-someone-to-stop-them/annuities.png",
+        "alt": "Rick Phillips and Carlos Dias Jr. examine newly corrected insurance files showing more than $20 billion in affiliated loans, while Mark Walter stands beside TWG Global holdings and a Los Angeles Lakers stake-sale document."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mark Walter",
+          "Rick Phillips",
+          "Carlos Dias Jr."
+        ],
+        "realCompanies": [
+          "TWG Global",
+          "Delaware Life",
+          "Clear Spring Life and Annuity",
+          "Los Angeles Lakers",
+          "AM Best"
+        ],
+        "financialMechanism": "Annuity customers paid upfront for fixed returns, while the insurers invested substantial funds in loans to affiliated businesses; more than $20 billion of those loans were not correctly labeled as affiliated transactions until after subpoenas.",
+        "centralJoke": "TWG Global argued that nobody had been harmed because the loans and annuities had not defaulted—and customers supposedly never read the disclosures—only for an annuity customer and a financial adviser to notice and become worried."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Annuities Somebody Read",
+          "lesson": "Insurers must correctly disclose loans to affiliated businesses so regulators, rating agencies, advisers, and annuity customers can judge the risks behind promised payments.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had holdings galore:\nBig sports-team stakes and insurance firms in its store.\nDelaware Life and Clear Spring Life and Annuity\nsold contracts designed to provide payment security.",
+            "Customers paid money up front for returns that stayed fixed,\nwhile insurers chose where those funds would be mixed.\nMore than $20 billion went out as loans\nto businesses linked to the same owner’s zones.",
+            "Those loans should have carried an “affiliated” name,\nbut the insurers’ disclosures did not say the same.\nAfter subpoenas arrived, the true labels appeared;\nprosecutors asked questions, and regulators peered.",
+            "TWG Global said, “There is no victim here.”\nThe loans had not failed; payments still did appear.\nAnd because private investments aren’t traded each day,\nno falling market price flashed trouble their way.",
+            "Besides, annuity buyers don’t read every sheet—\nso who would complain if the payments stayed neat?\nBut Rick Phillips read news that made confidence fall:\nWalter planned to sell his controlling stake in the Los Angeles Lakers after all.",
+            "Adviser Carlos Dias Jr. had trusted strong ratings,\nhealthy disclosures, and calm calculations.\nThen AM Best considered a possible downgrade;\nthe hidden affiliate totals left both men afraid.",
+            "So customers may skip many footnotes—quite true.\nBut Rick and Carlos showed that somebody reads a few.\nNo missed payment was needed to make concern start:\nwrong labels can hide a risk’s most important part.",
+            "What happened? Clear Spring Life and Annuity and Delaware Life disclosed more than $20 billion of loans that should have been labeled as transactions with affiliated businesses but were not. The annuities kept paying, yet the corrected disclosures and possible rating downgrade worried customer Rick Phillips and adviser Carlos Dias Jr."
+          ]
+        },
+        "elementary": {
+          "title": "The Annuities Somebody Read",
+          "lesson": "Insurers must correctly disclose loans to affiliated businesses so regulators, rating agencies, advisers, and annuity customers can judge the risks behind promised payments.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had holdings galore:\nBig sports-team stakes and insurance firms in its store.\nDelaware Life and Clear Spring Life and Annuity\nsold contracts designed to provide payment security.",
+            "Customers paid money up front for returns that stayed fixed,\nwhile insurers chose where those funds would be mixed.\nMore than $20 billion went out as loans\nto businesses linked to the same owner’s zones.",
+            "Those loans should have carried an “affiliated” name,\nbut the insurers’ disclosures did not say the same.\nAfter subpoenas arrived, the true labels appeared;\nprosecutors asked questions, and regulators peered.",
+            "TWG Global said, “There is no victim here.”\nThe loans had not failed; payments still did appear.\nAnd because private investments aren’t traded each day,\nno falling market price flashed trouble their way.",
+            "Besides, annuity buyers don’t read every sheet—\nso who would complain if the payments stayed neat?\nBut Rick Phillips read news that made confidence fall:\nWalter planned to sell his controlling stake in the Los Angeles Lakers after all.",
+            "Adviser Carlos Dias Jr. had trusted strong ratings,\nhealthy disclosures, and calm calculations.\nThen AM Best considered a possible downgrade;\nthe hidden affiliate totals left both men afraid.",
+            "So customers may skip many footnotes—quite true.\nBut Rick and Carlos showed that somebody reads a few.\nNo missed payment was needed to make concern start:\nwrong labels can hide a risk’s most important part.",
+            "What happened? Clear Spring Life and Annuity and Delaware Life disclosed more than $20 billion of loans that should have been labeled as transactions with affiliated businesses but were not. The annuities kept paying, yet the corrected disclosures and possible rating downgrade worried customer Rick Phillips and adviser Carlos Dias Jr."
+          ]
+        },
+        "middle": {
+          "title": "The Annuities Somebody Read",
+          "lesson": "Insurers must correctly disclose loans to affiliated businesses so regulators, rating agencies, advisers, and annuity customers can judge the risks behind promised payments.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had holdings galore:\nBig sports-team stakes and insurance firms in its store.\nDelaware Life and Clear Spring Life and Annuity\nsold contracts designed to provide payment security.",
+            "Customers paid money up front for returns that stayed fixed,\nwhile insurers chose where those funds would be mixed.\nMore than $20 billion went out as loans\nto businesses linked to the same owner’s zones.",
+            "Those loans should have carried an “affiliated” name,\nbut the insurers’ disclosures did not say the same.\nAfter subpoenas arrived, the true labels appeared;\nprosecutors asked questions, and regulators peered.",
+            "TWG Global said, “There is no victim here.”\nThe loans had not failed; payments still did appear.\nAnd because private investments aren’t traded each day,\nno falling market price flashed trouble their way.",
+            "Besides, annuity buyers don’t read every sheet—\nso who would complain if the payments stayed neat?\nBut Rick Phillips read news that made confidence fall:\nWalter planned to sell his controlling stake in the Los Angeles Lakers after all.",
+            "Adviser Carlos Dias Jr. had trusted strong ratings,\nhealthy disclosures, and calm calculations.\nThen AM Best considered a possible downgrade;\nthe hidden affiliate totals left both men afraid.",
+            "So customers may skip many footnotes—quite true.\nBut Rick and Carlos showed that somebody reads a few.\nNo missed payment was needed to make concern start:\nwrong labels can hide a risk’s most important part.",
+            "What happened? Clear Spring Life and Annuity and Delaware Life disclosed more than $20 billion of loans that should have been labeled as transactions with affiliated businesses but were not. The annuities kept paying, yet the corrected disclosures and possible rating downgrade worried customer Rick Phillips and adviser Carlos Dias Jr."
+          ]
+        },
+        "high": {
+          "title": "The Annuities Somebody Read",
+          "lesson": "Insurers must correctly disclose loans to affiliated businesses so regulators, rating agencies, advisers, and annuity customers can judge the risks behind promised payments.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had holdings galore:\nBig sports-team stakes and insurance firms in its store.\nDelaware Life and Clear Spring Life and Annuity\nsold contracts designed to provide payment security.",
+            "Customers paid money up front for returns that stayed fixed,\nwhile insurers chose where those funds would be mixed.\nMore than $20 billion went out as loans\nto businesses linked to the same owner’s zones.",
+            "Those loans should have carried an “affiliated” name,\nbut the insurers’ disclosures did not say the same.\nAfter subpoenas arrived, the true labels appeared;\nprosecutors asked questions, and regulators peered.",
+            "TWG Global said, “There is no victim here.”\nThe loans had not failed; payments still did appear.\nAnd because private investments aren’t traded each day,\nno falling market price flashed trouble their way.",
+            "Besides, annuity buyers don’t read every sheet—\nso who would complain if the payments stayed neat?\nBut Rick Phillips read news that made confidence fall:\nWalter planned to sell his controlling stake in the Los Angeles Lakers after all.",
+            "Adviser Carlos Dias Jr. had trusted strong ratings,\nhealthy disclosures, and calm calculations.\nThen AM Best considered a possible downgrade;\nthe hidden affiliate totals left both men afraid.",
+            "So customers may skip many footnotes—quite true.\nBut Rick and Carlos showed that somebody reads a few.\nNo missed payment was needed to make concern start:\nwrong labels can hide a risk’s most important part.",
+            "What happened? Clear Spring Life and Annuity and Delaware Life disclosed more than $20 billion of loans that should have been labeled as transactions with affiliated businesses but were not. The annuities kept paying, yet the corrected disclosures and possible rating downgrade worried customer Rick Phillips and adviser Carlos Dias Jr."
+          ]
+        }
+      }
+    },
+    {
+      "id": "montessori-ponzi",
+      "sourceSection": "“Montessori Ponzi”",
+      "illustration": {
+        "src": "/images/2026-09-14-ai-labs-want-someone-to-stop-them/montessori-ponzi.png",
+        "alt": "Alex Richardson watches landlords deliver tenant-improvement checks to newly opening Guidepost schools while an older location displays a $50,000 monthly loss bill."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Claire Suddath",
+          "Alex Richardson",
+          "Kevin McDonald",
+          "Ray Girn"
+        ],
+        "realCompanies": [
+          "Higher Ground",
+          "Guidepost"
+        ],
+        "financialMechanism": "Landlords provided large upfront tenant-improvement advances for new Guidepost schools; rapid expansion generated fresh cash, but ongoing school losses and later obligations made the model unsustainable when expansion stopped.",
+        "centralJoke": "A Montessori preschool chain allegedly resembled a Ponzi scheme because opening more schools supplied cash needed while schools lost money—and after bankruptcy, some Montessori programs were replaced with artificial intelligence, which was presented as another supposedly promising model."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Schools That Had to Keep Opening",
+          "lesson": "Higher Ground received upfront landlord advances when opening Guidepost schools, but continuing losses and later obligations made expansion unsustainable once new openings—and their fresh cash—stopped.",
+          "paragraphs": [
+            "Guidepost schools were expensive to run,\nbut opening each new one brought money in.\nLandlords advanced cash to improve every place,\nso expanding supplied Higher Ground with financial grace.",
+            "That cash became “float”—money held for a spell,\nthough bills and repayments would come due as well.\nAlex Richardson, a teacher there early,\ncalled it a “Montessori Ponzi” quite clearly.",
+            "New schools kept opening at remarkable speed:\nthirty-three in 2020, then twenty-one more indeed.\nYet some Guidepost locations, month after month,\nwere losing $50,000—not merely a bunch.",
+            "Kevin McDonald advanced $1 million, he said,\nfor a Guidepost in Ellisville to get up and spread.\nHe estimated not even one-third reached that school,\nand believed other openings had swallowed the pool.",
+            "Co-founder Ray Girn firmly denied wrongdoing,\ncalling the model misunderstood, not negligent doing.\nBut losses reached $154.6 million in all,\nand without further growth, the company took a fall.",
+            "Claire Suddath reported one final surprise:\nsome California schools changed after their sale and demise.\nTheir Montessori curriculum was swept away,\nto be replaced by artificial intelligence—also promising, they’d say.",
+            "What happened? Higher Ground often received landlord advances when it opened Guidepost schools, providing fresh cash while existing schools lost money and obligations accumulated. After rapid expansion stopped, the company collapsed into bankruptcy; the quoted claims about diverted funds were allegations disputed by Ray Girn."
+          ]
+        },
+        "elementary": {
+          "title": "The Schools That Had to Keep Opening",
+          "lesson": "Higher Ground received upfront landlord advances when opening Guidepost schools, but continuing losses and later obligations made expansion unsustainable once new openings—and their fresh cash—stopped.",
+          "paragraphs": [
+            "Guidepost schools were expensive to run,\nbut opening each new one brought money in.\nLandlords advanced cash to improve every place,\nso expanding supplied Higher Ground with financial grace.",
+            "That cash became “float”—money held for a spell,\nthough bills and repayments would come due as well.\nAlex Richardson, a teacher there early,\ncalled it a “Montessori Ponzi” quite clearly.",
+            "New schools kept opening at remarkable speed:\nthirty-three in 2020, then twenty-one more indeed.\nYet some Guidepost locations, month after month,\nwere losing $50,000—not merely a bunch.",
+            "Kevin McDonald advanced $1 million, he said,\nfor a Guidepost in Ellisville to get up and spread.\nHe estimated not even one-third reached that school,\nand believed other openings had swallowed the pool.",
+            "Co-founder Ray Girn firmly denied wrongdoing,\ncalling the model misunderstood, not negligent doing.\nBut losses reached $154.6 million in all,\nand without further growth, the company took a fall.",
+            "Claire Suddath reported one final surprise:\nsome California schools changed after their sale and demise.\nTheir Montessori curriculum was swept away,\nto be replaced by artificial intelligence—also promising, they’d say.",
+            "What happened? Higher Ground often received landlord advances when it opened Guidepost schools, providing fresh cash while existing schools lost money and obligations accumulated. After rapid expansion stopped, the company collapsed into bankruptcy; the quoted claims about diverted funds were allegations disputed by Ray Girn."
+          ]
+        },
+        "middle": {
+          "title": "The Schools That Had to Keep Opening",
+          "lesson": "Higher Ground received upfront landlord advances when opening Guidepost schools, but continuing losses and later obligations made expansion unsustainable once new openings—and their fresh cash—stopped.",
+          "paragraphs": [
+            "Guidepost schools were expensive to run,\nbut opening each new one brought money in.\nLandlords advanced cash to improve every place,\nso expanding supplied Higher Ground with financial grace.",
+            "That cash became “float”—money held for a spell,\nthough bills and repayments would come due as well.\nAlex Richardson, a teacher there early,\ncalled it a “Montessori Ponzi” quite clearly.",
+            "New schools kept opening at remarkable speed:\nthirty-three in 2020, then twenty-one more indeed.\nYet some Guidepost locations, month after month,\nwere losing $50,000—not merely a bunch.",
+            "Kevin McDonald advanced $1 million, he said,\nfor a Guidepost in Ellisville to get up and spread.\nHe estimated not even one-third reached that school,\nand believed other openings had swallowed the pool.",
+            "Co-founder Ray Girn firmly denied wrongdoing,\ncalling the model misunderstood, not negligent doing.\nBut losses reached $154.6 million in all,\nand without further growth, the company took a fall.",
+            "Claire Suddath reported one final surprise:\nsome California schools changed after their sale and demise.\nTheir Montessori curriculum was swept away,\nto be replaced by artificial intelligence—also promising, they’d say.",
+            "What happened? Higher Ground often received landlord advances when it opened Guidepost schools, providing fresh cash while existing schools lost money and obligations accumulated. After rapid expansion stopped, the company collapsed into bankruptcy; the quoted claims about diverted funds were allegations disputed by Ray Girn."
+          ]
+        },
+        "high": {
+          "title": "The Schools That Had to Keep Opening",
+          "lesson": "Higher Ground received upfront landlord advances when opening Guidepost schools, but continuing losses and later obligations made expansion unsustainable once new openings—and their fresh cash—stopped.",
+          "paragraphs": [
+            "Guidepost schools were expensive to run,\nbut opening each new one brought money in.\nLandlords advanced cash to improve every place,\nso expanding supplied Higher Ground with financial grace.",
+            "That cash became “float”—money held for a spell,\nthough bills and repayments would come due as well.\nAlex Richardson, a teacher there early,\ncalled it a “Montessori Ponzi” quite clearly.",
+            "New schools kept opening at remarkable speed:\nthirty-three in 2020, then twenty-one more indeed.\nYet some Guidepost locations, month after month,\nwere losing $50,000—not merely a bunch.",
+            "Kevin McDonald advanced $1 million, he said,\nfor a Guidepost in Ellisville to get up and spread.\nHe estimated not even one-third reached that school,\nand believed other openings had swallowed the pool.",
+            "Co-founder Ray Girn firmly denied wrongdoing,\ncalling the model misunderstood, not negligent doing.\nBut losses reached $154.6 million in all,\nand without further growth, the company took a fall.",
+            "Claire Suddath reported one final surprise:\nsome California schools changed after their sale and demise.\nTheir Montessori curriculum was swept away,\nto be replaced by artificial intelligence—also promising, they’d say.",
+            "What happened? Higher Ground often received landlord advances when it opened Guidepost schools, providing fresh cash while existing schools lost money and obligations accumulated. After rapid expansion stopped, the company collapsed into bankruptcy; the quoted claims about diverted funds were allegations disputed by Ray Girn."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sudden-wealth-syndrome",
+      "sourceSection": "Sudden wealth syndrome",
+      "illustration": {
+        "src": "/images/2026-09-14-ai-labs-want-someone-to-stop-them/sudden-wealth-syndrome.png",
+        "alt": "An AI researcher holds a huge compensation contract beside a retirement door while Anastasia Koroleva interviews a founder with a $500 million sale document and Sherry Walling holds Exit Strategy."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Tiffany Ap",
+          "Anastasia Koroleva",
+          "Sherry Walling",
+          "Tony Hsieh"
+        ],
+        "realCompanies": [
+          "Bloomberg Weekend",
+          "Zappos"
+        ],
+        "financialMechanism": "AI firms must offer compensation high enough to compete for top researchers, but that compensation can let employees retire immediately; likewise, a large company sale creates an exit that removes a founder’s financial need to work while also removing work-based structure and identity.",
+        "centralJoke": "Tech companies might keep highly paid employees from retiring by convincing them that sudden wealth is dangerous and that continuing to work is therefore the safer choice."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Fortune That Made Work Optional",
+          "lesson": "Competitive AI pay and lucrative company sales can remove the financial need to work, but some newly wealthy people struggle when they also lose the routine, identity, and purpose their work provided.",
+          "paragraphs": [
+            "Top AI researchers command so much pay,\nThey could bank it, retire, and walk off that day.\nTo match rival offers, tech firms have to spend—\nThen wonder why workers should work without end.",
+            "One joke: thirty million out by the Bay\nMight buy two whole bedrooms, so don’t move away.\nAnother strange spur: researchers fear AI\nCould end everyone—yet they still don’t say goodbye.",
+            "At Bloomberg Weekend, Tiffany Ap described\nThe strange aftershocks when big exits arrive.\nThat sparked a sly answer to tech’s hiring bind:\nMake sudden wealth sound like a threat to peace of mind.",
+            "Anastasia Koroleva, a centimillionaire,\nAsked ultra-rich guests what came after the fanfare.\nSome called a $500 million company sale\nA thing to “recover from,” dazed by its scale.\nAn exit means selling; the payday can close\nYour need for a paycheck—but structure can go.",
+            "Psychologist Sherry Walling had seen\nFounders meet every goal, yet feel far from serene.\nShe said Tony Hsieh’s death in 2020 helped people speak more openly about founders’ mental health.\nWalling co-wrote Exit Strategy, a guide\nFor living when work and identity divide.",
+            "So here was the cheeky retention advice:\n“Don’t risk sudden riches; just work.” Very nice!\nA fortune could free you from meetings at ten—\nBut wealth might feel awful, so… meetings again!",
+            "What happened? Competitive AI salaries can make top researchers wealthy enough to retire immediately, while a large company sale can similarly remove a founder’s need to work. Tiffany Ap reported that some wealthy founders feel lost after an exit, inspiring the joke that tech firms might retain workers by warning them about “sudden wealth syndrome.”"
+          ]
+        },
+        "elementary": {
+          "title": "The Fortune That Made Work Optional",
+          "lesson": "Competitive AI pay and lucrative company sales can remove the financial need to work, but some newly wealthy people struggle when they also lose the routine, identity, and purpose their work provided.",
+          "paragraphs": [
+            "Top AI researchers command so much pay,\nThey could bank it, retire, and walk off that day.\nTo match rival offers, tech firms have to spend—\nThen wonder why workers should work without end.",
+            "One joke: thirty million out by the Bay\nMight buy two whole bedrooms, so don’t move away.\nAnother strange spur: researchers fear AI\nCould end everyone—yet they still don’t say goodbye.",
+            "At Bloomberg Weekend, Tiffany Ap described\nThe strange aftershocks when big exits arrive.\nThat sparked a sly answer to tech’s hiring bind:\nMake sudden wealth sound like a threat to peace of mind.",
+            "Anastasia Koroleva, a centimillionaire,\nAsked ultra-rich guests what came after the fanfare.\nSome called a $500 million company sale\nA thing to “recover from,” dazed by its scale.\nAn exit means selling; the payday can close\nYour need for a paycheck—but structure can go.",
+            "Psychologist Sherry Walling had seen\nFounders meet every goal, yet feel far from serene.\nShe said Tony Hsieh’s death in 2020 helped people speak more openly about founders’ mental health.\nWalling co-wrote Exit Strategy, a guide\nFor living when work and identity divide.",
+            "So here was the cheeky retention advice:\n“Don’t risk sudden riches; just work.” Very nice!\nA fortune could free you from meetings at ten—\nBut wealth might feel awful, so… meetings again!",
+            "What happened? Competitive AI salaries can make top researchers wealthy enough to retire immediately, while a large company sale can similarly remove a founder’s need to work. Tiffany Ap reported that some wealthy founders feel lost after an exit, inspiring the joke that tech firms might retain workers by warning them about “sudden wealth syndrome.”"
+          ]
+        },
+        "middle": {
+          "title": "The Fortune That Made Work Optional",
+          "lesson": "Competitive AI pay and lucrative company sales can remove the financial need to work, but some newly wealthy people struggle when they also lose the routine, identity, and purpose their work provided.",
+          "paragraphs": [
+            "Top AI researchers command so much pay,\nThey could bank it, retire, and walk off that day.\nTo match rival offers, tech firms have to spend—\nThen wonder why workers should work without end.",
+            "One joke: thirty million out by the Bay\nMight buy two whole bedrooms, so don’t move away.\nAnother strange spur: researchers fear AI\nCould end everyone—yet they still don’t say goodbye.",
+            "At Bloomberg Weekend, Tiffany Ap described\nThe strange aftershocks when big exits arrive.\nThat sparked a sly answer to tech’s hiring bind:\nMake sudden wealth sound like a threat to peace of mind.",
+            "Anastasia Koroleva, a centimillionaire,\nAsked ultra-rich guests what came after the fanfare.\nSome called a $500 million company sale\nA thing to “recover from,” dazed by its scale.\nAn exit means selling; the payday can close\nYour need for a paycheck—but structure can go.",
+            "Psychologist Sherry Walling had seen\nFounders meet every goal, yet feel far from serene.\nShe said Tony Hsieh’s death in 2020 helped people speak more openly about founders’ mental health.\nWalling co-wrote Exit Strategy, a guide\nFor living when work and identity divide.",
+            "So here was the cheeky retention advice:\n“Don’t risk sudden riches; just work.” Very nice!\nA fortune could free you from meetings at ten—\nBut wealth might feel awful, so… meetings again!",
+            "What happened? Competitive AI salaries can make top researchers wealthy enough to retire immediately, while a large company sale can similarly remove a founder’s need to work. Tiffany Ap reported that some wealthy founders feel lost after an exit, inspiring the joke that tech firms might retain workers by warning them about “sudden wealth syndrome.”"
+          ]
+        },
+        "high": {
+          "title": "The Fortune That Made Work Optional",
+          "lesson": "Competitive AI pay and lucrative company sales can remove the financial need to work, but some newly wealthy people struggle when they also lose the routine, identity, and purpose their work provided.",
+          "paragraphs": [
+            "Top AI researchers command so much pay,\nThey could bank it, retire, and walk off that day.\nTo match rival offers, tech firms have to spend—\nThen wonder why workers should work without end.",
+            "One joke: thirty million out by the Bay\nMight buy two whole bedrooms, so don’t move away.\nAnother strange spur: researchers fear AI\nCould end everyone—yet they still don’t say goodbye.",
+            "At Bloomberg Weekend, Tiffany Ap described\nThe strange aftershocks when big exits arrive.\nThat sparked a sly answer to tech’s hiring bind:\nMake sudden wealth sound like a threat to peace of mind.",
+            "Anastasia Koroleva, a centimillionaire,\nAsked ultra-rich guests what came after the fanfare.\nSome called a $500 million company sale\nA thing to “recover from,” dazed by its scale.\nAn exit means selling; the payday can close\nYour need for a paycheck—but structure can go.",
+            "Psychologist Sherry Walling had seen\nFounders meet every goal, yet feel far from serene.\nShe said Tony Hsieh’s death in 2020 helped people speak more openly about founders’ mental health.\nWalling co-wrote Exit Strategy, a guide\nFor living when work and identity divide.",
+            "So here was the cheeky retention advice:\n“Don’t risk sudden riches; just work.” Very nice!\nA fortune could free you from meetings at ten—\nBut wealth might feel awful, so… meetings again!",
+            "What happened? Competitive AI salaries can make top researchers wealthy enough to retire immediately, while a large company sale can similarly remove a founder’s need to work. Tiffany Ap reported that some wealthy founders feel lost after an exit, inspiring the joke that tech firms might retain workers by warning them about “sudden wealth syndrome.”"
+          ]
+        }
+      }
+    }
+  ]
+}
