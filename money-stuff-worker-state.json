@@ -228,6 +228,18 @@
       "submitted": true,
       "updatedAt": "2026-09-11T18:32:32.306Z",
       "submittedAt": "2026-09-11T18:32:32.306Z"
+    },
+    "1a0a13981458e975": {
+      "gmailMessageId": "1a0a13981458e975",
+      "newsletterDate": "2026-09-14",
+      "newsletterTitle": "AI Labs Want Someone to Stop Them",
+      "editionId": "2026-09-14-ai-labs-want-someone-to-stop-them",
+      "sourceSha256": "109cb8a4a3f210ae5a9ba6f95fe025dfd5571e9f92dd24045f281e1a0bbc1831",
+      "packageSha256": "d014e9962a109e104b84b4da59a165cba8f8fa32b5672805be733f9ae93f88db",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-14T19:26:43.329Z",
+      "submittedAt": "2026-09-14T19:26:43.329Z"
     }
   }
 }
