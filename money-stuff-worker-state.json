@@ -240,6 +240,18 @@
       "submitted": true,
       "updatedAt": "2026-09-14T19:26:43.329Z",
       "submittedAt": "2026-09-14T19:26:43.329Z"
+    },
+    "1a0a649040a77a3d": {
+      "gmailMessageId": "1a0a649040a77a3d",
+      "newsletterDate": "2026-09-15",
+      "newsletterTitle": "Not All the Susquehanna Puts Were Bad",
+      "editionId": "2026-09-15-not-all-the-susquehanna-puts-were-bad",
+      "sourceSha256": "741bb3a298703307d25700d5dcca576b626a128f38d8cebff1008ce754733caa",
+      "packageSha256": "617dffb08ab5cef9b2048c56210266d12f266b0b8d66614331c0c9877105c45e",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-15T19:16:18.778Z",
+      "submittedAt": "2026-09-15T19:16:18.778Z"
     }
   }
 }
