@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-15-not-all-the-susquehanna-puts-were-bad",
+  "date": "2026-09-15",
+  "displayDate": "September 15, 2026",
+  "title": "Not All the Susquehanna Puts Were Bad",
+  "sourceSections": [
+    "SIG puts",
+    "Prediction market passive strategy",
+    "Stablecoin arbitrage",
+    "Dopamine sites",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "sig-puts",
+      "sourceSection": "SIG puts",
+      "illustration": {
+        "src": "/images/2026-09-15-not-all-the-susquehanna-puts-were-bad/sig-puts.png",
+        "alt": "Traders buy put-option contracts on Futu Holdings and Tiger Brokers while SIG’s market-making desk hedges nearby and Judge Arun Subramanian declines to freeze the traders’ winnings."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Arun Subramanian",
+          "Zhengfei Li",
+          "Chris Dolmetsch",
+          "Bob Van Voris"
+        ],
+        "realCompanies": [
+          "Susquehanna International Group (SIG)",
+          "Futu Holdings Ltd.",
+          "Tiger Brokers",
+          "Up Fintech Holdings Ltd.",
+          "Bloomberg"
+        ],
+        "financialMechanism": "SIG sold short-dated, out-of-the-money put options that gained value when Futu Holdings and Tiger Brokers fell after China announced a regulatory crackdown. SIG alleged insider trading, but some defendants said they copied unusual options activity visible through public market information; SIG also hedged its own market-making risk.",
+        "centralJoke": "SIG sued copycat traders who may merely have followed suspicious public trades, while SIG itself, as the market maker hedging those trades, might also have been one of the copycats."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Puts That Everyone Could See",
+          "lesson": "Publicly visible trades may reflect inside information, but copying those trades using only public information is not itself insider trading; proving wrongdoing requires evidence connecting each trader to nonpublic information.",
+          "paragraphs": [
+            "From May 7 through May 21, Susquehanna—called SIG—\nSold puts on two brokerages for buyers making bets big.\nThe stocks were Futu Holdings and Tiger Brokers too,\nPart of Up Fintech Holdings, known by the ticker TIGR to you.",
+            "A put becomes more valuable when share prices drop;\nThese short-dated, out-of-the-money puts needed a plunge—and fast—to come out on top.\nOn May 22, China announced a cross-border trading crackdown;\nThe brokerage shares tumbled, and the put buyers’ gains reached $71.4 million.",
+            "SIG sued one hundred unnamed traders and asked to freeze their pay:\n“Someone must have known the secret news before announcement day!”\nBut some buyers said, “We saw unusual trades out in public view,\nSo we guessed that trouble might be near—and bought some puts there too.”",
+            "One was Zhengfei Li, who cited public market information and investor discussion.\nJudge Arun Subramanian said insider trading was possible, but SIG had not identified a tipper or shown enough evidence for an account freeze.\nBloomberg reporters Chris Dolmetsch and Bob Van Voris covered his decision,\nWhere algorithms, AI agents, and traders chase each public clue with speed and precision.",
+            "SIG could raise put prices, sell shares to hedge, or buy puts of its own;\nMarket makers manage risks when strange new betting patterns are shown.\nSo here was the wonderfully awkward bit hidden inside the dispute:\nOne copycat following the suspicious put buyers might have been SIG in its market-making suit.",
+            "What happened? After Chinese regulators announced a crackdown, puts on Futu Holdings and Tiger Brokers paid buyers $71.4 million. SIG could not yet show that every winning trader had inside information rather than merely copying publicly visible trades, so the judge declined to keep the accounts frozen."
+          ]
+        },
+        "elementary": {
+          "title": "The Puts That Everyone Could See",
+          "lesson": "Publicly visible trades may reflect inside information, but copying those trades using only public information is not itself insider trading; proving wrongdoing requires evidence connecting each trader to nonpublic information.",
+          "paragraphs": [
+            "From May 7 through May 21, Susquehanna—called SIG—\nSold puts on two brokerages for buyers making bets big.\nThe stocks were Futu Holdings and Tiger Brokers too,\nPart of Up Fintech Holdings, known by the ticker TIGR to you.",
+            "A put becomes more valuable when share prices drop;\nThese short-dated, out-of-the-money puts needed a plunge—and fast—to come out on top.\nOn May 22, China announced a cross-border trading crackdown;\nThe brokerage shares tumbled, and the put buyers’ gains reached $71.4 million.",
+            "SIG sued one hundred unnamed traders and asked to freeze their pay:\n“Someone must have known the secret news before announcement day!”\nBut some buyers said, “We saw unusual trades out in public view,\nSo we guessed that trouble might be near—and bought some puts there too.”",
+            "One was Zhengfei Li, who cited public market information and investor discussion.\nJudge Arun Subramanian said insider trading was possible, but SIG had not identified a tipper or shown enough evidence for an account freeze.\nBloomberg reporters Chris Dolmetsch and Bob Van Voris covered his decision,\nWhere algorithms, AI agents, and traders chase each public clue with speed and precision.",
+            "SIG could raise put prices, sell shares to hedge, or buy puts of its own;\nMarket makers manage risks when strange new betting patterns are shown.\nSo here was the wonderfully awkward bit hidden inside the dispute:\nOne copycat following the suspicious put buyers might have been SIG in its market-making suit.",
+            "What happened? After Chinese regulators announced a crackdown, puts on Futu Holdings and Tiger Brokers paid buyers $71.4 million. SIG could not yet show that every winning trader had inside information rather than merely copying publicly visible trades, so the judge declined to keep the accounts frozen."
+          ]
+        },
+        "middle": {
+          "title": "The Puts That Everyone Could See",
+          "lesson": "Publicly visible trades may reflect inside information, but copying those trades using only public information is not itself insider trading; proving wrongdoing requires evidence connecting each trader to nonpublic information.",
+          "paragraphs": [
+            "From May 7 through May 21, Susquehanna—called SIG—\nSold puts on two brokerages for buyers making bets big.\nThe stocks were Futu Holdings and Tiger Brokers too,\nPart of Up Fintech Holdings, known by the ticker TIGR to you.",
+            "A put becomes more valuable when share prices drop;\nThese short-dated, out-of-the-money puts needed a plunge—and fast—to come out on top.\nOn May 22, China announced a cross-border trading crackdown;\nThe brokerage shares tumbled, and the put buyers’ gains reached $71.4 million.",
+            "SIG sued one hundred unnamed traders and asked to freeze their pay:\n“Someone must have known the secret news before announcement day!”\nBut some buyers said, “We saw unusual trades out in public view,\nSo we guessed that trouble might be near—and bought some puts there too.”",
+            "One was Zhengfei Li, who cited public market information and investor discussion.\nJudge Arun Subramanian said insider trading was possible, but SIG had not identified a tipper or shown enough evidence for an account freeze.\nBloomberg reporters Chris Dolmetsch and Bob Van Voris covered his decision,\nWhere algorithms, AI agents, and traders chase each public clue with speed and precision.",
+            "SIG could raise put prices, sell shares to hedge, or buy puts of its own;\nMarket makers manage risks when strange new betting patterns are shown.\nSo here was the wonderfully awkward bit hidden inside the dispute:\nOne copycat following the suspicious put buyers might have been SIG in its market-making suit.",
+            "What happened? After Chinese regulators announced a crackdown, puts on Futu Holdings and Tiger Brokers paid buyers $71.4 million. SIG could not yet show that every winning trader had inside information rather than merely copying publicly visible trades, so the judge declined to keep the accounts frozen."
+          ]
+        },
+        "high": {
+          "title": "The Puts That Everyone Could See",
+          "lesson": "Publicly visible trades may reflect inside information, but copying those trades using only public information is not itself insider trading; proving wrongdoing requires evidence connecting each trader to nonpublic information.",
+          "paragraphs": [
+            "From May 7 through May 21, Susquehanna—called SIG—\nSold puts on two brokerages for buyers making bets big.\nThe stocks were Futu Holdings and Tiger Brokers too,\nPart of Up Fintech Holdings, known by the ticker TIGR to you.",
+            "A put becomes more valuable when share prices drop;\nThese short-dated, out-of-the-money puts needed a plunge—and fast—to come out on top.\nOn May 22, China announced a cross-border trading crackdown;\nThe brokerage shares tumbled, and the put buyers’ gains reached $71.4 million.",
+            "SIG sued one hundred unnamed traders and asked to freeze their pay:\n“Someone must have known the secret news before announcement day!”\nBut some buyers said, “We saw unusual trades out in public view,\nSo we guessed that trouble might be near—and bought some puts there too.”",
+            "One was Zhengfei Li, who cited public market information and investor discussion.\nJudge Arun Subramanian said insider trading was possible, but SIG had not identified a tipper or shown enough evidence for an account freeze.\nBloomberg reporters Chris Dolmetsch and Bob Van Voris covered his decision,\nWhere algorithms, AI agents, and traders chase each public clue with speed and precision.",
+            "SIG could raise put prices, sell shares to hedge, or buy puts of its own;\nMarket makers manage risks when strange new betting patterns are shown.\nSo here was the wonderfully awkward bit hidden inside the dispute:\nOne copycat following the suspicious put buyers might have been SIG in its market-making suit.",
+            "What happened? After Chinese regulators announced a crackdown, puts on Futu Holdings and Tiger Brokers paid buyers $71.4 million. SIG could not yet show that every winning trader had inside information rather than merely copying publicly visible trades, so the judge declined to keep the accounts frozen."
+          ]
+        }
+      }
+    },
+    {
+      "id": "prediction-market-passive-strategy",
+      "sourceSection": "Prediction market passive strategy",
+      "illustration": {
+        "src": "/images/2026-09-15-not-all-the-susquehanna-puts-were-bad/prediction-market-passive-strategy.png",
+        "alt": "Three researchers repeatedly sort Polymarket contract cards into an anti-Trump portfolio as the mirrored pro-Trump pile loses value."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Simone Stella Skovgaard",
+          "Noah Wenneberg Junge",
+          "Bulat Ibragimov",
+          "Donald Trump"
+        ],
+        "realCompanies": [
+          "Polymarket"
+        ],
+        "financialMechanism": "Rule-based dollar-cost averaging into anti-Trump outcomes across 218 binary prediction markets, benchmarked against 10,000 neutral Monte Carlo simulations and a mirrored pro-Trump strategy.",
+        "centralJoke": "If Polymarket’s crypto-oriented traders liked Donald Trump enough to overestimate Trump-friendly outcomes, a boring passive strategy could profit simply by betting against their enthusiasm."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Polymarket Bet Against Excitement",
+          "lesson": "A rule-based dollar-cost-averaging strategy repeatedly bought anti-Trump outcomes on Polymarket; in the researchers’ simulation, those contracts outperformed neutral and mirrored pro-Trump strategies, possibly because traders’ political preferences affected prices.",
+          "paragraphs": [
+            "On Polymarket, contracts say “Yes” or say “No,”\nAnd prices suggest how traders expect events to go.\nA dull, steady strategy can sometimes succeed\nBy betting against what the crowd hopes to read.",
+            "Simone Stella Skovgaard, Noah Wenneberg Junge, and Bulat Ibragimov studied 218 Trump-related markets. They tested a simple plan across 287 days, from July 2025 to May 2026.",
+            "At regular times, their rule placed another small trade—\nThat’s dollar-cost averaging, patiently made.\nThe strategy chose anti-Trump outcomes each time,\nWhile a mirrored pro-Trump plan followed the opposite line.",
+            "The anti-Trump strategy gained $1,006 in all;\nThe pro-Trump mirror lost $1,028 in its fall.\nAgainst 10,000 neutral computer-made tries,\nThe anti-Trump result finished higher than every simulated size.",
+            "Why might Polymarket prices lean Trump’s way?\nIts users need crypto and blockchain to play.\nA Fairleigh Dickinson University poll found crypto owners\nWere disproportionately Trump supporters among voters.",
+            "Perhaps traders priced hopeful wishes too high,\nSo betting against them could profit nearby.\nBut the researchers could not prove who used the site—\nThe curious result showed a pattern, not why it was right.",
+            "The joke is that exciting predictions attract every eye,\nWhile boring opposition may quietly buy.\nA passive strategy need not predict one grand surprise;\nIt can simply keep betting against a crowd’s hopeful bias.",
+            "What happened? Researchers simulated regular anti-Trump trades across 218 Polymarket binary markets and found a $1,006 cumulative gain, versus a $1,028 loss for the mirrored pro-Trump strategy. They suggested Polymarket’s crypto-using audience might lean toward Donald Trump and overprice Trump-related outcomes, but their data could not confirm that explanation."
+          ]
+        },
+        "elementary": {
+          "title": "The Polymarket Bet Against Excitement",
+          "lesson": "A rule-based dollar-cost-averaging strategy repeatedly bought anti-Trump outcomes on Polymarket; in the researchers’ simulation, those contracts outperformed neutral and mirrored pro-Trump strategies, possibly because traders’ political preferences affected prices.",
+          "paragraphs": [
+            "On Polymarket, contracts say “Yes” or say “No,”\nAnd prices suggest how traders expect events to go.\nA dull, steady strategy can sometimes succeed\nBy betting against what the crowd hopes to read.",
+            "Simone Stella Skovgaard, Noah Wenneberg Junge, and Bulat Ibragimov studied 218 Trump-related markets. They tested a simple plan across 287 days, from July 2025 to May 2026.",
+            "At regular times, their rule placed another small trade—\nThat’s dollar-cost averaging, patiently made.\nThe strategy chose anti-Trump outcomes each time,\nWhile a mirrored pro-Trump plan followed the opposite line.",
+            "The anti-Trump strategy gained $1,006 in all;\nThe pro-Trump mirror lost $1,028 in its fall.\nAgainst 10,000 neutral computer-made tries,\nThe anti-Trump result finished higher than every simulated size.",
+            "Why might Polymarket prices lean Trump’s way?\nIts users need crypto and blockchain to play.\nA Fairleigh Dickinson University poll found crypto owners\nWere disproportionately Trump supporters among voters.",
+            "Perhaps traders priced hopeful wishes too high,\nSo betting against them could profit nearby.\nBut the researchers could not prove who used the site—\nThe curious result showed a pattern, not why it was right.",
+            "The joke is that exciting predictions attract every eye,\nWhile boring opposition may quietly buy.\nA passive strategy need not predict one grand surprise;\nIt can simply keep betting against a crowd’s hopeful bias.",
+            "What happened? Researchers simulated regular anti-Trump trades across 218 Polymarket binary markets and found a $1,006 cumulative gain, versus a $1,028 loss for the mirrored pro-Trump strategy. They suggested Polymarket’s crypto-using audience might lean toward Donald Trump and overprice Trump-related outcomes, but their data could not confirm that explanation."
+          ]
+        },
+        "middle": {
+          "title": "The Polymarket Bet Against Excitement",
+          "lesson": "A rule-based dollar-cost-averaging strategy repeatedly bought anti-Trump outcomes on Polymarket; in the researchers’ simulation, those contracts outperformed neutral and mirrored pro-Trump strategies, possibly because traders’ political preferences affected prices.",
+          "paragraphs": [
+            "On Polymarket, contracts say “Yes” or say “No,”\nAnd prices suggest how traders expect events to go.\nA dull, steady strategy can sometimes succeed\nBy betting against what the crowd hopes to read.",
+            "Simone Stella Skovgaard, Noah Wenneberg Junge, and Bulat Ibragimov studied 218 Trump-related markets. They tested a simple plan across 287 days, from July 2025 to May 2026.",
+            "At regular times, their rule placed another small trade—\nThat’s dollar-cost averaging, patiently made.\nThe strategy chose anti-Trump outcomes each time,\nWhile a mirrored pro-Trump plan followed the opposite line.",
+            "The anti-Trump strategy gained $1,006 in all;\nThe pro-Trump mirror lost $1,028 in its fall.\nAgainst 10,000 neutral computer-made tries,\nThe anti-Trump result finished higher than every simulated size.",
+            "Why might Polymarket prices lean Trump’s way?\nIts users need crypto and blockchain to play.\nA Fairleigh Dickinson University poll found crypto owners\nWere disproportionately Trump supporters among voters.",
+            "Perhaps traders priced hopeful wishes too high,\nSo betting against them could profit nearby.\nBut the researchers could not prove who used the site—\nThe curious result showed a pattern, not why it was right.",
+            "The joke is that exciting predictions attract every eye,\nWhile boring opposition may quietly buy.\nA passive strategy need not predict one grand surprise;\nIt can simply keep betting against a crowd’s hopeful bias.",
+            "What happened? Researchers simulated regular anti-Trump trades across 218 Polymarket binary markets and found a $1,006 cumulative gain, versus a $1,028 loss for the mirrored pro-Trump strategy. They suggested Polymarket’s crypto-using audience might lean toward Donald Trump and overprice Trump-related outcomes, but their data could not confirm that explanation."
+          ]
+        },
+        "high": {
+          "title": "The Polymarket Bet Against Excitement",
+          "lesson": "A rule-based dollar-cost-averaging strategy repeatedly bought anti-Trump outcomes on Polymarket; in the researchers’ simulation, those contracts outperformed neutral and mirrored pro-Trump strategies, possibly because traders’ political preferences affected prices.",
+          "paragraphs": [
+            "On Polymarket, contracts say “Yes” or say “No,”\nAnd prices suggest how traders expect events to go.\nA dull, steady strategy can sometimes succeed\nBy betting against what the crowd hopes to read.",
+            "Simone Stella Skovgaard, Noah Wenneberg Junge, and Bulat Ibragimov studied 218 Trump-related markets. They tested a simple plan across 287 days, from July 2025 to May 2026.",
+            "At regular times, their rule placed another small trade—\nThat’s dollar-cost averaging, patiently made.\nThe strategy chose anti-Trump outcomes each time,\nWhile a mirrored pro-Trump plan followed the opposite line.",
+            "The anti-Trump strategy gained $1,006 in all;\nThe pro-Trump mirror lost $1,028 in its fall.\nAgainst 10,000 neutral computer-made tries,\nThe anti-Trump result finished higher than every simulated size.",
+            "Why might Polymarket prices lean Trump’s way?\nIts users need crypto and blockchain to play.\nA Fairleigh Dickinson University poll found crypto owners\nWere disproportionately Trump supporters among voters.",
+            "Perhaps traders priced hopeful wishes too high,\nSo betting against them could profit nearby.\nBut the researchers could not prove who used the site—\nThe curious result showed a pattern, not why it was right.",
+            "The joke is that exciting predictions attract every eye,\nWhile boring opposition may quietly buy.\nA passive strategy need not predict one grand surprise;\nIt can simply keep betting against a crowd’s hopeful bias.",
+            "What happened? Researchers simulated regular anti-Trump trades across 218 Polymarket binary markets and found a $1,006 cumulative gain, versus a $1,028 loss for the mirrored pro-Trump strategy. They suggested Polymarket’s crypto-using audience might lean toward Donald Trump and overprice Trump-related outcomes, but their data could not confirm that explanation."
+          ]
+        }
+      }
+    },
+    {
+      "id": "stablecoin-arbitrage",
+      "sourceSection": "Stablecoin arbitrage",
+      "illustration": {
+        "src": "/images/2026-09-15-not-all-the-susquehanna-puts-were-bad/stablecoin-arbitrage.png",
+        "alt": "Wintermute traders bring discounted USDT tokens to an Erebor Bank counter and receive one-dollar bills for each while the bank’s loss pile grows."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Palmer Luckey"
+        ],
+        "realCompanies": [
+          "Erebor Bank",
+          "Wintermute",
+          "Tether",
+          "Circle"
+        ],
+        "financialMechanism": "Stablecoin arbitrage: buying USDT below its $1 face value in the open market and redeeming it through Erebor at exactly $1 with no conversion fee.",
+        "centralJoke": "Erebor assumed customers would not relentlessly exploit a tiny money-losing perk, but Wintermute’s business is relentlessly exploiting tiny crypto price gaps."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Tiny Discount and the Very Busy Traders",
+          "lesson": "Erebor’s free one-for-one stablecoin conversion created an arbitrage: Wintermute bought USDT below $1 and redeemed it to Erebor for exactly $1, leaving the bank to cover the difference.",
+          "paragraphs": [
+            "A stablecoin is a dollar designed for a blockchain ride:\nCircle makes USDC; Tether makes USDT beside.\nEach token should be worth one dollar, neat and tight,\nThough fees can push its market price a tiny bit from right.",
+            "Palmer Luckey’s Erebor Bank hung out a tempting sign:\n“We’ll swap your coins for dollars, free, at one-for-one each time!”\nIt sounded like good service—simple, friendly, clear—\nBut Wintermute, the trading firm, soon spotted something dear.",
+            "Wintermute bought millions in USDT for slightly under one,\nThen brought them straight to Erebor, where each paid one when done.\nEach gap was only tiny, but repeated in a stream,\nThose slivers turned to profit like a trader’s perfect dream.",
+            "This trade is called arbitrage: buy low, then sell for more.\nErebor paid the difference each time coins crossed its door.\nMost customers won’t chase a few basis points all day—\nBut chasing tiny crypto gaps is Wintermute’s actual trade. Oops.",
+            "Erebor saw its losses and told the firms to stop,\nThen changed the free-conversion deal before more costs could drop.\nCustomers without sizable deposits lost the offer’s perk;\nThe bank had met the rare client whose whole job was making that perk work.",
+            "What happened? Erebor offered to redeem USDT and USDC for exactly $1 with no fee. Wintermute bought millions of dollars’ worth of discounted USDT, redeemed it at full value, and kept the difference until Erebor restricted the offer."
+          ]
+        },
+        "elementary": {
+          "title": "The Tiny Discount and the Very Busy Traders",
+          "lesson": "Erebor’s free one-for-one stablecoin conversion created an arbitrage: Wintermute bought USDT below $1 and redeemed it to Erebor for exactly $1, leaving the bank to cover the difference.",
+          "paragraphs": [
+            "A stablecoin is a dollar designed for a blockchain ride:\nCircle makes USDC; Tether makes USDT beside.\nEach token should be worth one dollar, neat and tight,\nThough fees can push its market price a tiny bit from right.",
+            "Palmer Luckey’s Erebor Bank hung out a tempting sign:\n“We’ll swap your coins for dollars, free, at one-for-one each time!”\nIt sounded like good service—simple, friendly, clear—\nBut Wintermute, the trading firm, soon spotted something dear.",
+            "Wintermute bought millions in USDT for slightly under one,\nThen brought them straight to Erebor, where each paid one when done.\nEach gap was only tiny, but repeated in a stream,\nThose slivers turned to profit like a trader’s perfect dream.",
+            "This trade is called arbitrage: buy low, then sell for more.\nErebor paid the difference each time coins crossed its door.\nMost customers won’t chase a few basis points all day—\nBut chasing tiny crypto gaps is Wintermute’s actual trade. Oops.",
+            "Erebor saw its losses and told the firms to stop,\nThen changed the free-conversion deal before more costs could drop.\nCustomers without sizable deposits lost the offer’s perk;\nThe bank had met the rare client whose whole job was making that perk work.",
+            "What happened? Erebor offered to redeem USDT and USDC for exactly $1 with no fee. Wintermute bought millions of dollars’ worth of discounted USDT, redeemed it at full value, and kept the difference until Erebor restricted the offer."
+          ]
+        },
+        "middle": {
+          "title": "The Tiny Discount and the Very Busy Traders",
+          "lesson": "Erebor’s free one-for-one stablecoin conversion created an arbitrage: Wintermute bought USDT below $1 and redeemed it to Erebor for exactly $1, leaving the bank to cover the difference.",
+          "paragraphs": [
+            "A stablecoin is a dollar designed for a blockchain ride:\nCircle makes USDC; Tether makes USDT beside.\nEach token should be worth one dollar, neat and tight,\nThough fees can push its market price a tiny bit from right.",
+            "Palmer Luckey’s Erebor Bank hung out a tempting sign:\n“We’ll swap your coins for dollars, free, at one-for-one each time!”\nIt sounded like good service—simple, friendly, clear—\nBut Wintermute, the trading firm, soon spotted something dear.",
+            "Wintermute bought millions in USDT for slightly under one,\nThen brought them straight to Erebor, where each paid one when done.\nEach gap was only tiny, but repeated in a stream,\nThose slivers turned to profit like a trader’s perfect dream.",
+            "This trade is called arbitrage: buy low, then sell for more.\nErebor paid the difference each time coins crossed its door.\nMost customers won’t chase a few basis points all day—\nBut chasing tiny crypto gaps is Wintermute’s actual trade. Oops.",
+            "Erebor saw its losses and told the firms to stop,\nThen changed the free-conversion deal before more costs could drop.\nCustomers without sizable deposits lost the offer’s perk;\nThe bank had met the rare client whose whole job was making that perk work.",
+            "What happened? Erebor offered to redeem USDT and USDC for exactly $1 with no fee. Wintermute bought millions of dollars’ worth of discounted USDT, redeemed it at full value, and kept the difference until Erebor restricted the offer."
+          ]
+        },
+        "high": {
+          "title": "The Tiny Discount and the Very Busy Traders",
+          "lesson": "Erebor’s free one-for-one stablecoin conversion created an arbitrage: Wintermute bought USDT below $1 and redeemed it to Erebor for exactly $1, leaving the bank to cover the difference.",
+          "paragraphs": [
+            "A stablecoin is a dollar designed for a blockchain ride:\nCircle makes USDC; Tether makes USDT beside.\nEach token should be worth one dollar, neat and tight,\nThough fees can push its market price a tiny bit from right.",
+            "Palmer Luckey’s Erebor Bank hung out a tempting sign:\n“We’ll swap your coins for dollars, free, at one-for-one each time!”\nIt sounded like good service—simple, friendly, clear—\nBut Wintermute, the trading firm, soon spotted something dear.",
+            "Wintermute bought millions in USDT for slightly under one,\nThen brought them straight to Erebor, where each paid one when done.\nEach gap was only tiny, but repeated in a stream,\nThose slivers turned to profit like a trader’s perfect dream.",
+            "This trade is called arbitrage: buy low, then sell for more.\nErebor paid the difference each time coins crossed its door.\nMost customers won’t chase a few basis points all day—\nBut chasing tiny crypto gaps is Wintermute’s actual trade. Oops.",
+            "Erebor saw its losses and told the firms to stop,\nThen changed the free-conversion deal before more costs could drop.\nCustomers without sizable deposits lost the offer’s perk;\nThe bank had met the rare client whose whole job was making that perk work.",
+            "What happened? Erebor offered to redeem USDT and USDC for exactly $1 with no fee. Wintermute bought millions of dollars’ worth of discounted USDT, redeemed it at full value, and kept the difference until Erebor restricted the offer."
+          ]
+        }
+      }
+    },
+    {
+      "id": "dopamine-sites",
+      "sourceSection": "Dopamine sites",
+      "illustration": {
+        "src": "/images/2026-09-15-not-all-the-susquehanna-puts-were-bad/dopamine-sites.png",
+        "alt": "An office worker places a pretend order from Food Never Arrives as an imaginary lunch bag vanishes before reaching the empty doorway and their credit card remains untouched."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Anthropic",
+          "OpenAI",
+          "The New York Times",
+          "Bloomberg Businessweek"
+        ],
+        "financialMechanism": "Food Never Arrives simulates placing a meal-delivery order, but no food is delivered and no payment is taken. The section compares this with play-money casinos that accept real money for chips that cannot be cashed out.",
+        "centralJoke": "A no-delivery lunch site would be perfect entertainment for humans trapped in Matrix-like vats powering Claude—and, absurdly, it might even charge $12.99 for not delivering a sandwich."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Lunch That Never Arrives",
+          "lesson": "Dopamine sites simulate shopping or ordering without delivering products or charging money; the joke is that such a site could instead charge $12.99 for deliberately not delivering a sandwich, much as play-money casinos sell chips that cannot be cashed out.",
+          "paragraphs": [
+            "One spring in South Korea, a curious craze\nsped round the world through headlines and screens in days.\n“Dopamine sites” offered the thrill of “Buy!”\nwith no real package or price tag nearby.",
+            "Food Never Arrives served lunches pretend:\nyou placed an order, and that was the end.\nNo courier came, and the cost was just air;\nno salad or sandwich turned up at your chair.",
+            "Dopamine is linked to reward-seeking’s glow;\nthese sites kept the wanting but let buying go.\nSupporters said shoppers could practice the fun,\nthen skip owning stuff when the clicking was done.",
+            "The New York Times reported the craze spreading wide:\nsmoke breaks with no smoke and no goods supplied.\nAnthropic and OpenAI build AI.\nMoney Stuff pictured some Matrix-style sci-fi:",
+            "In vats powering Claude, this site would fit well—\norder a meal, get no sandwich or bell.\nA comforting click could keep everyone tame,\nwhile lunch never came and lunch never became.",
+            "Bloomberg Businessweek described stranger play:\nreal money bought casino chips for the day,\nbut winnings could never be cashed out for pay—\njust make-believe coins and some dopamine spray.",
+            "That raised one complaint: Why keep nothing free?\nCharge $12.99 for no lunch delivery!",
+            "What happened? Dopamine sites became popular by simulating shopping and meal orders without selling or delivering anything. Food Never Arrives charges nothing and sends no food, prompting the joke that it could charge $12.99 to deliberately not deliver a sandwich."
+          ]
+        },
+        "elementary": {
+          "title": "The Lunch That Never Arrives",
+          "lesson": "Dopamine sites simulate shopping or ordering without delivering products or charging money; the joke is that such a site could instead charge $12.99 for deliberately not delivering a sandwich, much as play-money casinos sell chips that cannot be cashed out.",
+          "paragraphs": [
+            "One spring in South Korea, a curious craze\nsped round the world through headlines and screens in days.\n“Dopamine sites” offered the thrill of “Buy!”\nwith no real package or price tag nearby.",
+            "Food Never Arrives served lunches pretend:\nyou placed an order, and that was the end.\nNo courier came, and the cost was just air;\nno salad or sandwich turned up at your chair.",
+            "Dopamine is linked to reward-seeking’s glow;\nthese sites kept the wanting but let buying go.\nSupporters said shoppers could practice the fun,\nthen skip owning stuff when the clicking was done.",
+            "The New York Times reported the craze spreading wide:\nsmoke breaks with no smoke and no goods supplied.\nAnthropic and OpenAI build AI.\nMoney Stuff pictured some Matrix-style sci-fi:",
+            "In vats powering Claude, this site would fit well—\norder a meal, get no sandwich or bell.\nA comforting click could keep everyone tame,\nwhile lunch never came and lunch never became.",
+            "Bloomberg Businessweek described stranger play:\nreal money bought casino chips for the day,\nbut winnings could never be cashed out for pay—\njust make-believe coins and some dopamine spray.",
+            "That raised one complaint: Why keep nothing free?\nCharge $12.99 for no lunch delivery!",
+            "What happened? Dopamine sites became popular by simulating shopping and meal orders without selling or delivering anything. Food Never Arrives charges nothing and sends no food, prompting the joke that it could charge $12.99 to deliberately not deliver a sandwich."
+          ]
+        },
+        "middle": {
+          "title": "The Lunch That Never Arrives",
+          "lesson": "Dopamine sites simulate shopping or ordering without delivering products or charging money; the joke is that such a site could instead charge $12.99 for deliberately not delivering a sandwich, much as play-money casinos sell chips that cannot be cashed out.",
+          "paragraphs": [
+            "One spring in South Korea, a curious craze\nsped round the world through headlines and screens in days.\n“Dopamine sites” offered the thrill of “Buy!”\nwith no real package or price tag nearby.",
+            "Food Never Arrives served lunches pretend:\nyou placed an order, and that was the end.\nNo courier came, and the cost was just air;\nno salad or sandwich turned up at your chair.",
+            "Dopamine is linked to reward-seeking’s glow;\nthese sites kept the wanting but let buying go.\nSupporters said shoppers could practice the fun,\nthen skip owning stuff when the clicking was done.",
+            "The New York Times reported the craze spreading wide:\nsmoke breaks with no smoke and no goods supplied.\nAnthropic and OpenAI build AI.\nMoney Stuff pictured some Matrix-style sci-fi:",
+            "In vats powering Claude, this site would fit well—\norder a meal, get no sandwich or bell.\nA comforting click could keep everyone tame,\nwhile lunch never came and lunch never became.",
+            "Bloomberg Businessweek described stranger play:\nreal money bought casino chips for the day,\nbut winnings could never be cashed out for pay—\njust make-believe coins and some dopamine spray.",
+            "That raised one complaint: Why keep nothing free?\nCharge $12.99 for no lunch delivery!",
+            "What happened? Dopamine sites became popular by simulating shopping and meal orders without selling or delivering anything. Food Never Arrives charges nothing and sends no food, prompting the joke that it could charge $12.99 to deliberately not deliver a sandwich."
+          ]
+        },
+        "high": {
+          "title": "The Lunch That Never Arrives",
+          "lesson": "Dopamine sites simulate shopping or ordering without delivering products or charging money; the joke is that such a site could instead charge $12.99 for deliberately not delivering a sandwich, much as play-money casinos sell chips that cannot be cashed out.",
+          "paragraphs": [
+            "One spring in South Korea, a curious craze\nsped round the world through headlines and screens in days.\n“Dopamine sites” offered the thrill of “Buy!”\nwith no real package or price tag nearby.",
+            "Food Never Arrives served lunches pretend:\nyou placed an order, and that was the end.\nNo courier came, and the cost was just air;\nno salad or sandwich turned up at your chair.",
+            "Dopamine is linked to reward-seeking’s glow;\nthese sites kept the wanting but let buying go.\nSupporters said shoppers could practice the fun,\nthen skip owning stuff when the clicking was done.",
+            "The New York Times reported the craze spreading wide:\nsmoke breaks with no smoke and no goods supplied.\nAnthropic and OpenAI build AI.\nMoney Stuff pictured some Matrix-style sci-fi:",
+            "In vats powering Claude, this site would fit well—\norder a meal, get no sandwich or bell.\nA comforting click could keep everyone tame,\nwhile lunch never came and lunch never became.",
+            "Bloomberg Businessweek described stranger play:\nreal money bought casino chips for the day,\nbut winnings could never be cashed out for pay—\njust make-believe coins and some dopamine spray.",
+            "That raised one complaint: Why keep nothing free?\nCharge $12.99 for no lunch delivery!",
+            "What happened? Dopamine sites became popular by simulating shopping and meal orders without selling or delivering anything. Food Never Arrives charges nothing and sends no food, prompting the joke that it could charge $12.99 to deliberately not deliver a sandwich."
+          ]
+        }
+      }
+    }
+  ]
+}
