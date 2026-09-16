@@ -252,6 +252,18 @@
       "submitted": true,
       "updatedAt": "2026-09-15T19:16:18.778Z",
       "submittedAt": "2026-09-15T19:16:18.778Z"
+    },
+    "1a0ab5f601f61a3e": {
+      "gmailMessageId": "1a0ab5f601f61a3e",
+      "newsletterDate": "2026-09-16",
+      "newsletterTitle": "BlackRock Wants Pensions",
+      "editionId": "2026-09-16-blackrock-wants-pensions",
+      "sourceSha256": "f96625bdc5998e971fc3b4f0acaae86faf45651032af3854c6ba696bc5866a15",
+      "packageSha256": "5d0ddf734ba8d1dcbd6431ae32fb67615d4961065639eeb981ea7f6adcc2417c",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-16T18:58:00.335Z",
+      "submittedAt": "2026-09-16T18:58:00.335Z"
     }
   }
 }
