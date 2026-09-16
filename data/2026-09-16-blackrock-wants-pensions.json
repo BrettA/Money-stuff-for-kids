@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-16-blackrock-wants-pensions",
+  "date": "2026-09-16",
+  "displayDate": "September 16, 2026",
+  "title": "BlackRock Wants Pensions",
+  "sourceSections": [
+    "Everybody wants a pension",
+    "Robinhood insider trading",
+    "Epstein Kovel letters",
+    "Identifying talent early",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "everybody-wants-a-pension",
+      "sourceSection": "Everybody wants a pension",
+      "illustration": {
+        "src": "/images/2026-09-16-blackrock-wants-pensions/everybody-wants-a-pension.png",
+        "alt": "Nick Nefouse combines stocks, bonds, private assets, and an annuity inside a BlackRock 401(k) fund while retirement payments emerge for workers."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Nick Nefouse",
+          "President Trump"
+        ],
+        "realCompanies": [
+          "BlackRock",
+          "Vanguard",
+          "Fidelity Investments",
+          "State Street",
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "Traditional pensions pool predictable, long-term obligations, allowing them to lock money in illiquid private assets and seek an illiquidity premium. BlackRock’s proposed pension-like 401(k) funds combine professional management, public and private assets, and optional annuities, while private assets support higher management fees than low-cost index funds.",
+        "centralJoke": "The financial industry once celebrated replacing pensions with individual 401(k)s, but now that index funds have crushed stock-management fees, it wants pension-like structures back because locked-up private assets can earn managers much higher fees."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Pension Came Back in a 401(k) Hat",
+          "lesson": "BlackRock’s pension-like 401(k) funds pool professionally managed public and private assets, using long retirement horizons to seek an illiquidity premium while annuities can provide guaranteed income—and private assets can bring managers higher fees.",
+          "paragraphs": [
+            "A pension pools savings for thousands at once;\nprofessionals plan every retirement month.\nSome cash can stay invested for thirty long years,\nwithout one worried saver demanding it here.",
+            "That lets pensions buy private deals hard to sell fast;\nfor waiting, they hope for returns unsurpassed.\nThat possible bonus for keeping funds still\nis an “illiquidity premium”—patience pays the bill.",
+            "A 401(k), though, belongs to just you;\nan emergency might make you need it on cue.\nSome private-credit funds opened a five-percent door,\nbut worried investors asked for fifteen, twenty—even forty percent more.",
+            "Stock funds once charged about one percent each year;\nindex-fund fees of a few basis points made that shrink nearly disappear.\nPrivate equity, private credit, and real estate can still\ncharge one percent or higher—a manager’s thrill.",
+            "In 2025, President Trump directed agencies to clear a path for private assets in 401(k) plans.\nThen the Wall Street Journal reported BlackRock’s design:\npublic stocks, bonds, and private assets combined,\nplus annuities paying guaranteed income over time.",
+            "Nick Nefouse said BlackRock would blend what worked best:\na 401(k)’s ownership with a pension’s long rest.\nVanguard, Fidelity Investments, and State Street announced annuity funds too—\na lifetime stream of retirement payments coming through.",
+            "So Wall Street’s old favorite returned with a twist:\nthe pension-like structure it once thought it wouldn’t miss.\nSavers may gain from long investments held tight;\nmanagers gain higher fees. Everybody’s delighted.",
+            "What happened? BlackRock announced customizable 401(k) funds designed to invest more like pensions, including public securities, illiquid private assets, and annuities. Pooling and long-term management can reduce liquidity pressure and seek higher returns, while also allowing asset managers to charge higher private-market fees."
+          ]
+        },
+        "elementary": {
+          "title": "The Pension Came Back in a 401(k) Hat",
+          "lesson": "BlackRock’s pension-like 401(k) funds pool professionally managed public and private assets, using long retirement horizons to seek an illiquidity premium while annuities can provide guaranteed income—and private assets can bring managers higher fees.",
+          "paragraphs": [
+            "A pension pools savings for thousands at once;\nprofessionals plan every retirement month.\nSome cash can stay invested for thirty long years,\nwithout one worried saver demanding it here.",
+            "That lets pensions buy private deals hard to sell fast;\nfor waiting, they hope for returns unsurpassed.\nThat possible bonus for keeping funds still\nis an “illiquidity premium”—patience pays the bill.",
+            "A 401(k), though, belongs to just you;\nan emergency might make you need it on cue.\nSome private-credit funds opened a five-percent door,\nbut worried investors asked for fifteen, twenty—even forty percent more.",
+            "Stock funds once charged about one percent each year;\nindex-fund fees of a few basis points made that shrink nearly disappear.\nPrivate equity, private credit, and real estate can still\ncharge one percent or higher—a manager’s thrill.",
+            "In 2025, President Trump directed agencies to clear a path for private assets in 401(k) plans.\nThen the Wall Street Journal reported BlackRock’s design:\npublic stocks, bonds, and private assets combined,\nplus annuities paying guaranteed income over time.",
+            "Nick Nefouse said BlackRock would blend what worked best:\na 401(k)’s ownership with a pension’s long rest.\nVanguard, Fidelity Investments, and State Street announced annuity funds too—\na lifetime stream of retirement payments coming through.",
+            "So Wall Street’s old favorite returned with a twist:\nthe pension-like structure it once thought it wouldn’t miss.\nSavers may gain from long investments held tight;\nmanagers gain higher fees. Everybody’s delighted.",
+            "What happened? BlackRock announced customizable 401(k) funds designed to invest more like pensions, including public securities, illiquid private assets, and annuities. Pooling and long-term management can reduce liquidity pressure and seek higher returns, while also allowing asset managers to charge higher private-market fees."
+          ]
+        },
+        "middle": {
+          "title": "The Pension Came Back in a 401(k) Hat",
+          "lesson": "BlackRock’s pension-like 401(k) funds pool professionally managed public and private assets, using long retirement horizons to seek an illiquidity premium while annuities can provide guaranteed income—and private assets can bring managers higher fees.",
+          "paragraphs": [
+            "A pension pools savings for thousands at once;\nprofessionals plan every retirement month.\nSome cash can stay invested for thirty long years,\nwithout one worried saver demanding it here.",
+            "That lets pensions buy private deals hard to sell fast;\nfor waiting, they hope for returns unsurpassed.\nThat possible bonus for keeping funds still\nis an “illiquidity premium”—patience pays the bill.",
+            "A 401(k), though, belongs to just you;\nan emergency might make you need it on cue.\nSome private-credit funds opened a five-percent door,\nbut worried investors asked for fifteen, twenty—even forty percent more.",
+            "Stock funds once charged about one percent each year;\nindex-fund fees of a few basis points made that shrink nearly disappear.\nPrivate equity, private credit, and real estate can still\ncharge one percent or higher—a manager’s thrill.",
+            "In 2025, President Trump directed agencies to clear a path for private assets in 401(k) plans.\nThen the Wall Street Journal reported BlackRock’s design:\npublic stocks, bonds, and private assets combined,\nplus annuities paying guaranteed income over time.",
+            "Nick Nefouse said BlackRock would blend what worked best:\na 401(k)’s ownership with a pension’s long rest.\nVanguard, Fidelity Investments, and State Street announced annuity funds too—\na lifetime stream of retirement payments coming through.",
+            "So Wall Street’s old favorite returned with a twist:\nthe pension-like structure it once thought it wouldn’t miss.\nSavers may gain from long investments held tight;\nmanagers gain higher fees. Everybody’s delighted.",
+            "What happened? BlackRock announced customizable 401(k) funds designed to invest more like pensions, including public securities, illiquid private assets, and annuities. Pooling and long-term management can reduce liquidity pressure and seek higher returns, while also allowing asset managers to charge higher private-market fees."
+          ]
+        },
+        "high": {
+          "title": "The Pension Came Back in a 401(k) Hat",
+          "lesson": "BlackRock’s pension-like 401(k) funds pool professionally managed public and private assets, using long retirement horizons to seek an illiquidity premium while annuities can provide guaranteed income—and private assets can bring managers higher fees.",
+          "paragraphs": [
+            "A pension pools savings for thousands at once;\nprofessionals plan every retirement month.\nSome cash can stay invested for thirty long years,\nwithout one worried saver demanding it here.",
+            "That lets pensions buy private deals hard to sell fast;\nfor waiting, they hope for returns unsurpassed.\nThat possible bonus for keeping funds still\nis an “illiquidity premium”—patience pays the bill.",
+            "A 401(k), though, belongs to just you;\nan emergency might make you need it on cue.\nSome private-credit funds opened a five-percent door,\nbut worried investors asked for fifteen, twenty—even forty percent more.",
+            "Stock funds once charged about one percent each year;\nindex-fund fees of a few basis points made that shrink nearly disappear.\nPrivate equity, private credit, and real estate can still\ncharge one percent or higher—a manager’s thrill.",
+            "In 2025, President Trump directed agencies to clear a path for private assets in 401(k) plans.\nThen the Wall Street Journal reported BlackRock’s design:\npublic stocks, bonds, and private assets combined,\nplus annuities paying guaranteed income over time.",
+            "Nick Nefouse said BlackRock would blend what worked best:\na 401(k)’s ownership with a pension’s long rest.\nVanguard, Fidelity Investments, and State Street announced annuity funds too—\na lifetime stream of retirement payments coming through.",
+            "So Wall Street’s old favorite returned with a twist:\nthe pension-like structure it once thought it wouldn’t miss.\nSavers may gain from long investments held tight;\nmanagers gain higher fees. Everybody’s delighted.",
+            "What happened? BlackRock announced customizable 401(k) funds designed to invest more like pensions, including public securities, illiquid private assets, and annuities. Pooling and long-term management can reduce liquidity pressure and seek higher returns, while also allowing asset managers to charge higher private-market fees."
+          ]
+        }
+      }
+    },
+    {
+      "id": "robinhood-insider-trading",
+      "sourceSection": "Robinhood insider trading",
+      "illustration": {
+        "src": "/images/2026-09-16-blackrock-wants-pensions/robinhood-insider-trading.png",
+        "alt": "Hefu Chai and Huaisong Xiang beside a locked Robinhood listing schedule as an AERO long-position contract on Hyperliquid rises after Robinhood announces the token."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Hefu Chai",
+          "Huaisong Xiang",
+          "Jamie McDonald"
+        ],
+        "realCompanies": [
+          "Robinhood Markets Inc.",
+          "Robinhood Crypto",
+          "Hyperliquid",
+          "OpenSea"
+        ],
+        "financialMechanism": "The engineers allegedly learned confidential Robinhood cryptocurrency-listing plans, opened long crypto-linked perpetual-futures positions on Hyperliquid before the listings became public, and closed positions after Robinhood’s announcements created upward price pressure.",
+        "centralJoke": "Although the obvious trading advantage came from Robinhood listings moving token prices, the legal issue requires prosecutors to show that the secret listing information was commercially valuable to Robinhood itself."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Token Tip Before the Bell",
+          "lesson": "Prosecutors allege that confidential Robinhood listing plans were commercially valuable company property and that using them to buy long crypto perpetual futures before public announcements was fraud.",
+          "paragraphs": [
+            "At Robinhood Crypto, before news took flight,\ntwo engineers learned which new coins it might invite.\nHefu Chai and Huaisong Xiang, prosecutors say,\nused secrets to trade before announcement day.",
+            "On December 1, a private Slack note told Chai\nthat AERO would launch on December 4 nearby.\nThat morning on Hyperliquid, he opened a “long”—\na wager that AERO’s price soon would grow strong.",
+            "Then Robinhood listed it, right on the clock;\nChai closed the position after the public took stock.\nAERO rose from about sixty-eight cents on its way\nto nearly seventy-one cents at its peak that day.",
+            "Prosecutors say both engineers cleared\nmore than $50,000 each from the trades they steered.\nManhattan US Attorney Jamie McDonald announced the fraud charge—\nbut one peculiar legal question was looming quite large.",
+            "An OpenSea conviction had been reversed the year before:\nIts secret homepage choices moved NFT prices, for sure.\nYet the court said prosecutors had not shown that information\nhad commercial value to OpenSea as an organization.",
+            "So Robinhood’s complaint stresses competitors, customers, and name:\nAn early leak could let rival exchanges capture the game.\nThe odd part is plain: everyone cares that a listing moves price,\nbut the law asks whether Robinhood valued the secret advice.",
+            "What happened? US prosecutors charged former Robinhood employees Hefu Chai and Huaisong Xiang with fraud, alleging they used confidential cryptocurrency-listing plans to buy long perpetual futures on Hyperliquid before Robinhood’s announcements and earned more than $50,000 each. The complaints emphasize that the secret plans were commercially valuable to Robinhood, not merely important to token prices."
+          ]
+        },
+        "elementary": {
+          "title": "The Token Tip Before the Bell",
+          "lesson": "Prosecutors allege that confidential Robinhood listing plans were commercially valuable company property and that using them to buy long crypto perpetual futures before public announcements was fraud.",
+          "paragraphs": [
+            "At Robinhood Crypto, before news took flight,\ntwo engineers learned which new coins it might invite.\nHefu Chai and Huaisong Xiang, prosecutors say,\nused secrets to trade before announcement day.",
+            "On December 1, a private Slack note told Chai\nthat AERO would launch on December 4 nearby.\nThat morning on Hyperliquid, he opened a “long”—\na wager that AERO’s price soon would grow strong.",
+            "Then Robinhood listed it, right on the clock;\nChai closed the position after the public took stock.\nAERO rose from about sixty-eight cents on its way\nto nearly seventy-one cents at its peak that day.",
+            "Prosecutors say both engineers cleared\nmore than $50,000 each from the trades they steered.\nManhattan US Attorney Jamie McDonald announced the fraud charge—\nbut one peculiar legal question was looming quite large.",
+            "An OpenSea conviction had been reversed the year before:\nIts secret homepage choices moved NFT prices, for sure.\nYet the court said prosecutors had not shown that information\nhad commercial value to OpenSea as an organization.",
+            "So Robinhood’s complaint stresses competitors, customers, and name:\nAn early leak could let rival exchanges capture the game.\nThe odd part is plain: everyone cares that a listing moves price,\nbut the law asks whether Robinhood valued the secret advice.",
+            "What happened? US prosecutors charged former Robinhood employees Hefu Chai and Huaisong Xiang with fraud, alleging they used confidential cryptocurrency-listing plans to buy long perpetual futures on Hyperliquid before Robinhood’s announcements and earned more than $50,000 each. The complaints emphasize that the secret plans were commercially valuable to Robinhood, not merely important to token prices."
+          ]
+        },
+        "middle": {
+          "title": "The Token Tip Before the Bell",
+          "lesson": "Prosecutors allege that confidential Robinhood listing plans were commercially valuable company property and that using them to buy long crypto perpetual futures before public announcements was fraud.",
+          "paragraphs": [
+            "At Robinhood Crypto, before news took flight,\ntwo engineers learned which new coins it might invite.\nHefu Chai and Huaisong Xiang, prosecutors say,\nused secrets to trade before announcement day.",
+            "On December 1, a private Slack note told Chai\nthat AERO would launch on December 4 nearby.\nThat morning on Hyperliquid, he opened a “long”—\na wager that AERO’s price soon would grow strong.",
+            "Then Robinhood listed it, right on the clock;\nChai closed the position after the public took stock.\nAERO rose from about sixty-eight cents on its way\nto nearly seventy-one cents at its peak that day.",
+            "Prosecutors say both engineers cleared\nmore than $50,000 each from the trades they steered.\nManhattan US Attorney Jamie McDonald announced the fraud charge—\nbut one peculiar legal question was looming quite large.",
+            "An OpenSea conviction had been reversed the year before:\nIts secret homepage choices moved NFT prices, for sure.\nYet the court said prosecutors had not shown that information\nhad commercial value to OpenSea as an organization.",
+            "So Robinhood’s complaint stresses competitors, customers, and name:\nAn early leak could let rival exchanges capture the game.\nThe odd part is plain: everyone cares that a listing moves price,\nbut the law asks whether Robinhood valued the secret advice.",
+            "What happened? US prosecutors charged former Robinhood employees Hefu Chai and Huaisong Xiang with fraud, alleging they used confidential cryptocurrency-listing plans to buy long perpetual futures on Hyperliquid before Robinhood’s announcements and earned more than $50,000 each. The complaints emphasize that the secret plans were commercially valuable to Robinhood, not merely important to token prices."
+          ]
+        },
+        "high": {
+          "title": "The Token Tip Before the Bell",
+          "lesson": "Prosecutors allege that confidential Robinhood listing plans were commercially valuable company property and that using them to buy long crypto perpetual futures before public announcements was fraud.",
+          "paragraphs": [
+            "At Robinhood Crypto, before news took flight,\ntwo engineers learned which new coins it might invite.\nHefu Chai and Huaisong Xiang, prosecutors say,\nused secrets to trade before announcement day.",
+            "On December 1, a private Slack note told Chai\nthat AERO would launch on December 4 nearby.\nThat morning on Hyperliquid, he opened a “long”—\na wager that AERO’s price soon would grow strong.",
+            "Then Robinhood listed it, right on the clock;\nChai closed the position after the public took stock.\nAERO rose from about sixty-eight cents on its way\nto nearly seventy-one cents at its peak that day.",
+            "Prosecutors say both engineers cleared\nmore than $50,000 each from the trades they steered.\nManhattan US Attorney Jamie McDonald announced the fraud charge—\nbut one peculiar legal question was looming quite large.",
+            "An OpenSea conviction had been reversed the year before:\nIts secret homepage choices moved NFT prices, for sure.\nYet the court said prosecutors had not shown that information\nhad commercial value to OpenSea as an organization.",
+            "So Robinhood’s complaint stresses competitors, customers, and name:\nAn early leak could let rival exchanges capture the game.\nThe odd part is plain: everyone cares that a listing moves price,\nbut the law asks whether Robinhood valued the secret advice.",
+            "What happened? US prosecutors charged former Robinhood employees Hefu Chai and Huaisong Xiang with fraud, alleging they used confidential cryptocurrency-listing plans to buy long perpetual futures on Hyperliquid before Robinhood’s announcements and earned more than $50,000 each. The complaints emphasize that the secret plans were commercially valuable to Robinhood, not merely important to token prices."
+          ]
+        }
+      }
+    },
+    {
+      "id": "epstein-kovel-letters",
+      "sourceSection": "Epstein Kovel letters",
+      "illustration": {
+        "src": "/images/2026-09-16-blackrock-wants-pensions/epstein-kovel-letters.png",
+        "alt": "Lawyers hand Jeffrey Epstein a Kovel consulting letter beside a Leon Black and Apollo file, as a translucent shield covers nearby phones, emails, and meeting notes."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jeffrey Epstein",
+          "Leon Black",
+          "Victoria J. Haneman",
+          "Tom Schoenberg",
+          "Jeff Kao",
+          "Bruce Green"
+        ],
+        "realCompanies": [
+          "Apollo Global Management",
+          "Bloomberg News",
+          "University of Georgia",
+          "Fordham School of Law"
+        ],
+        "financialMechanism": "Law firms retained Epstein as an outside expert under Kovel arrangements, which can extend attorney-client privilege to a nonlawyer assisting attorneys; the underlying tax planning included trusts, deferred capital-gains taxes, and holding vehicles.",
+        "centralJoke": "Perhaps the suspiciously expensive, unlicensed adviser needed a lawyer’s confidentiality shield because firms regarded him as the “Michelangelo of tax minimization”—even though outside experts found his methods ordinary and doubted that he was essential."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Kovel Letter and the Costly Tax Adviser",
+          "lesson": "A Kovel arrangement can extend attorney-client privilege to an outside expert who helps lawyers advise a client, but experts questioned whether Jeffrey Epstein’s tax work justified his enormous fees.",
+          "paragraphs": [
+            "Jeffrey Epstein had no law-school degree,\nyet billionaires paid him for tax strategy.\nFor work involving Leon Black, Apollo’s co-founder,\nhis fees climbed higher and the questions grew louder.",
+            "Lawyers said his advice had saved a giant sum—\none billion, perhaps two, when all the counting was done.\nBut professor Victoria Haneman saw no dazzling new track:\ntrusts, delayed taxes, and holding companies were familiar tools in the stack.",
+            "Then Bloomberg reporters Tom Schoenberg and Jeff Kao\nfound why firms paid Epstein small consulting fees anyhow.\nThey used Kovel letters, named for a 1961 case,\nto bring an outside expert into privilege’s protected space.",
+            "Attorney-client privilege keeps legal advice confidential.\nWhen an expert truly helps the lawyer, that protection can be essential.\nSome meetings, calls, emails, and texts could stay beneath that shield,\nwhile Epstein advised lawyers about Black and brought rich clients to the field.",
+            "Bruce Green of Fordham asked why Epstein was required:\nWas he truly the tax expert every lawyer desired?\nThe strange choice seemed suspicious, considering Epstein’s terrible crimes—\nunless he was tax-cutting Michelangelo, just without the legal qualifications.",
+            "No grand invention bore his name; his methods looked well known.\nYet enormous fees and guarded messages made his reputation grow.\nWas unmatched tax genius hiding behind that legal screen?\n“It’s hard to imagine,” said Green.",
+            "What happened? Law firms used Kovel letters to retain Jeffrey Epstein as an outside consultant for token fees, potentially extending attorney-client privilege to communications made while helping lawyers advise Leon Black. Experts questioned whether Epstein’s familiar tax-planning methods made him essential or justified his enormous fees."
+          ]
+        },
+        "elementary": {
+          "title": "The Kovel Letter and the Costly Tax Adviser",
+          "lesson": "A Kovel arrangement can extend attorney-client privilege to an outside expert who helps lawyers advise a client, but experts questioned whether Jeffrey Epstein’s tax work justified his enormous fees.",
+          "paragraphs": [
+            "Jeffrey Epstein had no law-school degree,\nyet billionaires paid him for tax strategy.\nFor work involving Leon Black, Apollo’s co-founder,\nhis fees climbed higher and the questions grew louder.",
+            "Lawyers said his advice had saved a giant sum—\none billion, perhaps two, when all the counting was done.\nBut professor Victoria Haneman saw no dazzling new track:\ntrusts, delayed taxes, and holding companies were familiar tools in the stack.",
+            "Then Bloomberg reporters Tom Schoenberg and Jeff Kao\nfound why firms paid Epstein small consulting fees anyhow.\nThey used Kovel letters, named for a 1961 case,\nto bring an outside expert into privilege’s protected space.",
+            "Attorney-client privilege keeps legal advice confidential.\nWhen an expert truly helps the lawyer, that protection can be essential.\nSome meetings, calls, emails, and texts could stay beneath that shield,\nwhile Epstein advised lawyers about Black and brought rich clients to the field.",
+            "Bruce Green of Fordham asked why Epstein was required:\nWas he truly the tax expert every lawyer desired?\nThe strange choice seemed suspicious, considering Epstein’s terrible crimes—\nunless he was tax-cutting Michelangelo, just without the legal qualifications.",
+            "No grand invention bore his name; his methods looked well known.\nYet enormous fees and guarded messages made his reputation grow.\nWas unmatched tax genius hiding behind that legal screen?\n“It’s hard to imagine,” said Green.",
+            "What happened? Law firms used Kovel letters to retain Jeffrey Epstein as an outside consultant for token fees, potentially extending attorney-client privilege to communications made while helping lawyers advise Leon Black. Experts questioned whether Epstein’s familiar tax-planning methods made him essential or justified his enormous fees."
+          ]
+        },
+        "middle": {
+          "title": "The Kovel Letter and the Costly Tax Adviser",
+          "lesson": "A Kovel arrangement can extend attorney-client privilege to an outside expert who helps lawyers advise a client, but experts questioned whether Jeffrey Epstein’s tax work justified his enormous fees.",
+          "paragraphs": [
+            "Jeffrey Epstein had no law-school degree,\nyet billionaires paid him for tax strategy.\nFor work involving Leon Black, Apollo’s co-founder,\nhis fees climbed higher and the questions grew louder.",
+            "Lawyers said his advice had saved a giant sum—\none billion, perhaps two, when all the counting was done.\nBut professor Victoria Haneman saw no dazzling new track:\ntrusts, delayed taxes, and holding companies were familiar tools in the stack.",
+            "Then Bloomberg reporters Tom Schoenberg and Jeff Kao\nfound why firms paid Epstein small consulting fees anyhow.\nThey used Kovel letters, named for a 1961 case,\nto bring an outside expert into privilege’s protected space.",
+            "Attorney-client privilege keeps legal advice confidential.\nWhen an expert truly helps the lawyer, that protection can be essential.\nSome meetings, calls, emails, and texts could stay beneath that shield,\nwhile Epstein advised lawyers about Black and brought rich clients to the field.",
+            "Bruce Green of Fordham asked why Epstein was required:\nWas he truly the tax expert every lawyer desired?\nThe strange choice seemed suspicious, considering Epstein’s terrible crimes—\nunless he was tax-cutting Michelangelo, just without the legal qualifications.",
+            "No grand invention bore his name; his methods looked well known.\nYet enormous fees and guarded messages made his reputation grow.\nWas unmatched tax genius hiding behind that legal screen?\n“It’s hard to imagine,” said Green.",
+            "What happened? Law firms used Kovel letters to retain Jeffrey Epstein as an outside consultant for token fees, potentially extending attorney-client privilege to communications made while helping lawyers advise Leon Black. Experts questioned whether Epstein’s familiar tax-planning methods made him essential or justified his enormous fees."
+          ]
+        },
+        "high": {
+          "title": "The Kovel Letter and the Costly Tax Adviser",
+          "lesson": "A Kovel arrangement can extend attorney-client privilege to an outside expert who helps lawyers advise a client, but experts questioned whether Jeffrey Epstein’s tax work justified his enormous fees.",
+          "paragraphs": [
+            "Jeffrey Epstein had no law-school degree,\nyet billionaires paid him for tax strategy.\nFor work involving Leon Black, Apollo’s co-founder,\nhis fees climbed higher and the questions grew louder.",
+            "Lawyers said his advice had saved a giant sum—\none billion, perhaps two, when all the counting was done.\nBut professor Victoria Haneman saw no dazzling new track:\ntrusts, delayed taxes, and holding companies were familiar tools in the stack.",
+            "Then Bloomberg reporters Tom Schoenberg and Jeff Kao\nfound why firms paid Epstein small consulting fees anyhow.\nThey used Kovel letters, named for a 1961 case,\nto bring an outside expert into privilege’s protected space.",
+            "Attorney-client privilege keeps legal advice confidential.\nWhen an expert truly helps the lawyer, that protection can be essential.\nSome meetings, calls, emails, and texts could stay beneath that shield,\nwhile Epstein advised lawyers about Black and brought rich clients to the field.",
+            "Bruce Green of Fordham asked why Epstein was required:\nWas he truly the tax expert every lawyer desired?\nThe strange choice seemed suspicious, considering Epstein’s terrible crimes—\nunless he was tax-cutting Michelangelo, just without the legal qualifications.",
+            "No grand invention bore his name; his methods looked well known.\nYet enormous fees and guarded messages made his reputation grow.\nWas unmatched tax genius hiding behind that legal screen?\n“It’s hard to imagine,” said Green.",
+            "What happened? Law firms used Kovel letters to retain Jeffrey Epstein as an outside consultant for token fees, potentially extending attorney-client privilege to communications made while helping lawyers advise Leon Black. Experts questioned whether Epstein’s familiar tax-planning methods made him essential or justified his enormous fees."
+          ]
+        }
+      }
+    },
+    {
+      "id": "identifying-talent-early",
+      "sourceSection": "Identifying talent early",
+      "illustration": {
+        "src": "/images/2026-09-16-blackrock-wants-pensions/identifying-talent-early.png",
+        "alt": "A fifth-grade teacher points confidently to a student while a question-mark cloud shows imagined cash-flow models, golf, a handshake, and Pokémon trading; an Evercore summer internship letter waits in his future."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Evercore",
+          "KKR",
+          "Bloomberg Businessweek"
+        ],
+        "financialMechanism": "Investment banks recruit students increasingly early, while private equity firms may hire future associates before those students even begin their banking analyst jobs; competitive finance clubs and financial-modeling skills help candidates enter this pipeline.",
+        "centralJoke": "Recruiting has become so absurdly early that children might need to join KKR’s waiting list before birth—and somehow one fifth-grade teacher really did identify a future Evercore intern as investment-banker material."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Banker Spotted in Fifth Grade",
+          "lesson": "Wall Street recruiting has moved earlier and earlier, with students building finance skills and seeking jobs years in advance; one future Evercore intern was astonishingly identified by his fifth-grade teacher.",
+          "paragraphs": [
+            "Once, college seniors could wander in late,\nFind a banking recruitment session—and alter their fate.\nAfter two analyst years, with some buyout work done,\nPrivate equity might look like the next bit of fun.",
+            "Now students seek buyout jobs before bank work begins,\nWhile competitive finance clubs decide who gets in.\nThe race starts so early, one joke became clear:\nJoin KKR’s waiting list before a baby is here!",
+            "But Bloomberg Businessweek found something stranger:\nA fifth-grade teacher had spotted a future deal-maker.\nShe told one young student in New York, then and there,\n“You’d make a terrific investment banker,” with flair.",
+            "That student, now a college junior, has quite a next summer:\nHe’ll intern at Evercore—so the teacher picked a winner.\nBut what could she possibly notice that day?\nWas he modeling cash flows while classmates all played?",
+            "A discounted cash flow estimates what a firm may be worth,\nUsing its future cash in today’s-dollar terms.\nOr was it his handshake, his golf, or his math?\nDid Pokémon traders all come to ask for his path?\nWas his father a CEO? No answer appears—\nJust one teacher predicting Wall Street across years.",
+            "What happened? Wall Street recruiting has shifted earlier, sometimes requiring finance-club experience and modeling skills before college ends. A New York college junior who will intern at Evercore was first encouraged toward investment banking by his fifth-grade teacher."
+          ]
+        },
+        "elementary": {
+          "title": "The Banker Spotted in Fifth Grade",
+          "lesson": "Wall Street recruiting has moved earlier and earlier, with students building finance skills and seeking jobs years in advance; one future Evercore intern was astonishingly identified by his fifth-grade teacher.",
+          "paragraphs": [
+            "Once, college seniors could wander in late,\nFind a banking recruitment session—and alter their fate.\nAfter two analyst years, with some buyout work done,\nPrivate equity might look like the next bit of fun.",
+            "Now students seek buyout jobs before bank work begins,\nWhile competitive finance clubs decide who gets in.\nThe race starts so early, one joke became clear:\nJoin KKR’s waiting list before a baby is here!",
+            "But Bloomberg Businessweek found something stranger:\nA fifth-grade teacher had spotted a future deal-maker.\nShe told one young student in New York, then and there,\n“You’d make a terrific investment banker,” with flair.",
+            "That student, now a college junior, has quite a next summer:\nHe’ll intern at Evercore—so the teacher picked a winner.\nBut what could she possibly notice that day?\nWas he modeling cash flows while classmates all played?",
+            "A discounted cash flow estimates what a firm may be worth,\nUsing its future cash in today’s-dollar terms.\nOr was it his handshake, his golf, or his math?\nDid Pokémon traders all come to ask for his path?\nWas his father a CEO? No answer appears—\nJust one teacher predicting Wall Street across years.",
+            "What happened? Wall Street recruiting has shifted earlier, sometimes requiring finance-club experience and modeling skills before college ends. A New York college junior who will intern at Evercore was first encouraged toward investment banking by his fifth-grade teacher."
+          ]
+        },
+        "middle": {
+          "title": "The Banker Spotted in Fifth Grade",
+          "lesson": "Wall Street recruiting has moved earlier and earlier, with students building finance skills and seeking jobs years in advance; one future Evercore intern was astonishingly identified by his fifth-grade teacher.",
+          "paragraphs": [
+            "Once, college seniors could wander in late,\nFind a banking recruitment session—and alter their fate.\nAfter two analyst years, with some buyout work done,\nPrivate equity might look like the next bit of fun.",
+            "Now students seek buyout jobs before bank work begins,\nWhile competitive finance clubs decide who gets in.\nThe race starts so early, one joke became clear:\nJoin KKR’s waiting list before a baby is here!",
+            "But Bloomberg Businessweek found something stranger:\nA fifth-grade teacher had spotted a future deal-maker.\nShe told one young student in New York, then and there,\n“You’d make a terrific investment banker,” with flair.",
+            "That student, now a college junior, has quite a next summer:\nHe’ll intern at Evercore—so the teacher picked a winner.\nBut what could she possibly notice that day?\nWas he modeling cash flows while classmates all played?",
+            "A discounted cash flow estimates what a firm may be worth,\nUsing its future cash in today’s-dollar terms.\nOr was it his handshake, his golf, or his math?\nDid Pokémon traders all come to ask for his path?\nWas his father a CEO? No answer appears—\nJust one teacher predicting Wall Street across years.",
+            "What happened? Wall Street recruiting has shifted earlier, sometimes requiring finance-club experience and modeling skills before college ends. A New York college junior who will intern at Evercore was first encouraged toward investment banking by his fifth-grade teacher."
+          ]
+        },
+        "high": {
+          "title": "The Banker Spotted in Fifth Grade",
+          "lesson": "Wall Street recruiting has moved earlier and earlier, with students building finance skills and seeking jobs years in advance; one future Evercore intern was astonishingly identified by his fifth-grade teacher.",
+          "paragraphs": [
+            "Once, college seniors could wander in late,\nFind a banking recruitment session—and alter their fate.\nAfter two analyst years, with some buyout work done,\nPrivate equity might look like the next bit of fun.",
+            "Now students seek buyout jobs before bank work begins,\nWhile competitive finance clubs decide who gets in.\nThe race starts so early, one joke became clear:\nJoin KKR’s waiting list before a baby is here!",
+            "But Bloomberg Businessweek found something stranger:\nA fifth-grade teacher had spotted a future deal-maker.\nShe told one young student in New York, then and there,\n“You’d make a terrific investment banker,” with flair.",
+            "That student, now a college junior, has quite a next summer:\nHe’ll intern at Evercore—so the teacher picked a winner.\nBut what could she possibly notice that day?\nWas he modeling cash flows while classmates all played?",
+            "A discounted cash flow estimates what a firm may be worth,\nUsing its future cash in today’s-dollar terms.\nOr was it his handshake, his golf, or his math?\nDid Pokémon traders all come to ask for his path?\nWas his father a CEO? No answer appears—\nJust one teacher predicting Wall Street across years.",
+            "What happened? Wall Street recruiting has shifted earlier, sometimes requiring finance-club experience and modeling skills before college ends. A New York college junior who will intern at Evercore was first encouraged toward investment banking by his fifth-grade teacher."
+          ]
+        }
+      }
+    }
+  ]
+}
