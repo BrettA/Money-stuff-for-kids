@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-17-the-whole-indian-options-trade-was-too-good",
+  "date": "2026-09-17",
+  "displayDate": "September 17, 2026",
+  "title": "The Whole Indian Options Trade Was Too Good",
+  "sourceSections": [
+    "Casinos",
+    "Compute futures",
+    "EbitdAI",
+    "Not like other AI safety advocates",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "casinos",
+      "sourceSection": "Casinos",
+      "illustration": {
+        "src": "/images/2026-09-17-the-whole-indian-options-trade-was-too-good/casinos.png",
+        "alt": "Deepak Prajapat watches three generations crowd around a glowing phone beneath a neem tree in Gangapur, beside chai and an NSE-BSE options-expiry calendar."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Deepak Prajapat"
+        ],
+        "realCompanies": [
+          "Facebook",
+          "Meesho",
+          "National Stock Exchange of India (NSE)",
+          "BSE"
+        ],
+        "financialMechanism": "NSE and BSE offered index options expiring on different weekdays, enabling cheap, repeated leveraged bets; SEBI later tripled minimum contract size and restricted weekly expirations.",
+        "centralJoke": "Gangapur’s traders felt that smartphones had connected them to the heart of global capitalism, but that exciting sense of sophisticated participation was itself the trick that kept the money-extracting options casino running."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Beautiful Madness of Gangapur",
+          "lesson": "Cheap, frequently expiring index options encouraged repeated bets; most individual traders lost money to costs and better-equipped counterparties, until SEBI raised minimum contract sizes and reduced weekly expirations.",
+          "paragraphs": [
+            "At twenty-seven, Deepak Prajapat changed what he would do: He left selling women’s suits on Facebook and Meesho.",
+            "Phones lit up Gangapur, once quiet with dairies and cows; Three generations traded together beneath the neem-tree boughs.",
+            "An option was a contract tied to where an index might go; A tiny move could double or triple a stake—or wipe it out in one blow.",
+            "YouTube taught “theta decay” in each Greek-letter class, While trading academies filled buildings, floor to floor, wall to glass.",
+            "A wager might cost little more than one warm flask of chai. NSE and BSE set different expiries, so a fresh bet waited nearby.",
+            "Each weekday offered another quick chance to feel clever and grand: “Perhaps I can beat the professionals with this phone in my hand!”",
+            "But nine out of ten individual futures-and-options traders lost money each year— About 128,000 rupees on average, SEBI’s research made clear.",
+            "Retail traders lost more than 500 billion rupees in fiscal 2023. Much of the money flowed to sophisticated firms and professional investors on the other side of the trades.",
+            "In October and November 2024, SEBI raised the minimum contract size from 5 million to 15 million rupees. It also limited each exchange to one index with options expiring weekly.",
+            "The fever cooled quickly. Deepak missed neither the losses nor staring at prices all day, But missed feeling that Gangapur had joined global finance in a dazzling new way.",
+            "He called it “beautiful madness,” reaching capitalism’s heart— Except that was the trick: feeling connected was the casino’s cleverest part.",
+            "What happened? India’s cheap, frequently expiring index options encouraged constant speculation, and most individual traders lost money. SEBI made trading costlier and less frequent in 2024, rapidly deflating the boom."
+          ]
+        },
+        "elementary": {
+          "title": "The Beautiful Madness of Gangapur",
+          "lesson": "Cheap, frequently expiring index options encouraged repeated bets; most individual traders lost money to costs and better-equipped counterparties, until SEBI raised minimum contract sizes and reduced weekly expirations.",
+          "paragraphs": [
+            "At twenty-seven, Deepak Prajapat changed what he would do: He left selling women’s suits on Facebook and Meesho.",
+            "Phones lit up Gangapur, once quiet with dairies and cows; Three generations traded together beneath the neem-tree boughs.",
+            "An option was a contract tied to where an index might go; A tiny move could double or triple a stake—or wipe it out in one blow.",
+            "YouTube taught “theta decay” in each Greek-letter class, While trading academies filled buildings, floor to floor, wall to glass.",
+            "A wager might cost little more than one warm flask of chai. NSE and BSE set different expiries, so a fresh bet waited nearby.",
+            "Each weekday offered another quick chance to feel clever and grand: “Perhaps I can beat the professionals with this phone in my hand!”",
+            "But nine out of ten individual futures-and-options traders lost money each year— About 128,000 rupees on average, SEBI’s research made clear.",
+            "Retail traders lost more than 500 billion rupees in fiscal 2023. Much of the money flowed to sophisticated firms and professional investors on the other side of the trades.",
+            "In October and November 2024, SEBI raised the minimum contract size from 5 million to 15 million rupees. It also limited each exchange to one index with options expiring weekly.",
+            "The fever cooled quickly. Deepak missed neither the losses nor staring at prices all day, But missed feeling that Gangapur had joined global finance in a dazzling new way.",
+            "He called it “beautiful madness,” reaching capitalism’s heart— Except that was the trick: feeling connected was the casino’s cleverest part.",
+            "What happened? India’s cheap, frequently expiring index options encouraged constant speculation, and most individual traders lost money. SEBI made trading costlier and less frequent in 2024, rapidly deflating the boom."
+          ]
+        },
+        "middle": {
+          "title": "The Beautiful Madness of Gangapur",
+          "lesson": "Cheap, frequently expiring index options encouraged repeated bets; most individual traders lost money to costs and better-equipped counterparties, until SEBI raised minimum contract sizes and reduced weekly expirations.",
+          "paragraphs": [
+            "At twenty-seven, Deepak Prajapat changed what he would do: He left selling women’s suits on Facebook and Meesho.",
+            "Phones lit up Gangapur, once quiet with dairies and cows; Three generations traded together beneath the neem-tree boughs.",
+            "An option was a contract tied to where an index might go; A tiny move could double or triple a stake—or wipe it out in one blow.",
+            "YouTube taught “theta decay” in each Greek-letter class, While trading academies filled buildings, floor to floor, wall to glass.",
+            "A wager might cost little more than one warm flask of chai. NSE and BSE set different expiries, so a fresh bet waited nearby.",
+            "Each weekday offered another quick chance to feel clever and grand: “Perhaps I can beat the professionals with this phone in my hand!”",
+            "But nine out of ten individual futures-and-options traders lost money each year— About 128,000 rupees on average, SEBI’s research made clear.",
+            "Retail traders lost more than 500 billion rupees in fiscal 2023. Much of the money flowed to sophisticated firms and professional investors on the other side of the trades.",
+            "In October and November 2024, SEBI raised the minimum contract size from 5 million to 15 million rupees. It also limited each exchange to one index with options expiring weekly.",
+            "The fever cooled quickly. Deepak missed neither the losses nor staring at prices all day, But missed feeling that Gangapur had joined global finance in a dazzling new way.",
+            "He called it “beautiful madness,” reaching capitalism’s heart— Except that was the trick: feeling connected was the casino’s cleverest part.",
+            "What happened? India’s cheap, frequently expiring index options encouraged constant speculation, and most individual traders lost money. SEBI made trading costlier and less frequent in 2024, rapidly deflating the boom."
+          ]
+        },
+        "high": {
+          "title": "The Beautiful Madness of Gangapur",
+          "lesson": "Cheap, frequently expiring index options encouraged repeated bets; most individual traders lost money to costs and better-equipped counterparties, until SEBI raised minimum contract sizes and reduced weekly expirations.",
+          "paragraphs": [
+            "At twenty-seven, Deepak Prajapat changed what he would do: He left selling women’s suits on Facebook and Meesho.",
+            "Phones lit up Gangapur, once quiet with dairies and cows; Three generations traded together beneath the neem-tree boughs.",
+            "An option was a contract tied to where an index might go; A tiny move could double or triple a stake—or wipe it out in one blow.",
+            "YouTube taught “theta decay” in each Greek-letter class, While trading academies filled buildings, floor to floor, wall to glass.",
+            "A wager might cost little more than one warm flask of chai. NSE and BSE set different expiries, so a fresh bet waited nearby.",
+            "Each weekday offered another quick chance to feel clever and grand: “Perhaps I can beat the professionals with this phone in my hand!”",
+            "But nine out of ten individual futures-and-options traders lost money each year— About 128,000 rupees on average, SEBI’s research made clear.",
+            "Retail traders lost more than 500 billion rupees in fiscal 2023. Much of the money flowed to sophisticated firms and professional investors on the other side of the trades.",
+            "In October and November 2024, SEBI raised the minimum contract size from 5 million to 15 million rupees. It also limited each exchange to one index with options expiring weekly.",
+            "The fever cooled quickly. Deepak missed neither the losses nor staring at prices all day, But missed feeling that Gangapur had joined global finance in a dazzling new way.",
+            "He called it “beautiful madness,” reaching capitalism’s heart— Except that was the trick: feeling connected was the casino’s cleverest part.",
+            "What happened? India’s cheap, frequently expiring index options encouraged constant speculation, and most individual traders lost money. SEBI made trading costlier and less frequent in 2024, rapidly deflating the boom."
+          ]
+        }
+      }
+    },
+    {
+      "id": "compute-futures",
+      "sourceSection": "Compute futures",
+      "illustration": {
+        "src": "/images/2026-09-17-the-whole-indian-options-trade-was-too-good/compute-futures.png",
+        "alt": "A small Kalshi compute-futures contract nudges down the price tag on a stack of older computer chips while a vast AI data center and piles of stock and bond papers begin to wobble behind it."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Kalshi",
+          "Semafor"
+        ],
+        "financialMechanism": "Compute futures lock in a future price for computing power. Because the market is new and thinly traded, a small trade might sharply move its price, potentially sending a misleading signal about chip values that could affect AI stocks, bonds, and chip-backed debt.",
+        "centralJoke": "A tiny, barely developed compute-futures market might be able to wag the trillion-dollar AI economy."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Tiny Market Beside the AI Giant",
+          "lesson": "A thinly traded compute-futures market could theoretically be pushed around, creating a misleading chip-price signal that might affect much larger AI stock and debt markets.",
+          "paragraphs": [
+            "AI data centers need chips by the score,\nwhile stocks, loans, and building plans depend on millions more.\nIf chip values tumble, the worry may spread\nto companies financed by chips in the shed.",
+            "Compute futures are contracts that fix what buyers will pay\nfor computing power delivered on a later day.\nThey can help a new data center plan what it will earn—\nbut today these markets are still small at every turn.",
+            "Semafor reported that Commerce told Kalshi, “Take down\nyour product that tracks AI compute prices in town.”\nIt also said Commerce urged the CFTC\nto pause new compute contracts for days sixty.",
+            "A Commerce spokesman answered, “This story is false.”\nSo even the reported order remains in dispute, of course.\nBut market participants offered a reason for alarm:\na tiny, thin market might cause outsized harm.",
+            "Someone could push older-chip prices sharply down,\nthen hedge funds might see trouble spreading around.\nAI stocks and bonds could sink from the scare—\na minnow of a market wagging a whale by its tail.",
+            "No one proved such a trick had happened at all.\nThe strange part was simply the size of the fall:\na little compute contract, easy to shove,\nmight shake trillions of AI value above.",
+            "What happened? Semafor reported that the US Commerce Department ordered Kalshi to remove an AI-compute price contract and sought a 60-day pause on new contracts, though Commerce called the report false. Market participants suggested that manipulated or volatile compute-futures prices could make older chips look less valuable and unsettle much larger AI stock and debt markets."
+          ]
+        },
+        "elementary": {
+          "title": "The Tiny Market Beside the AI Giant",
+          "lesson": "A thinly traded compute-futures market could theoretically be pushed around, creating a misleading chip-price signal that might affect much larger AI stock and debt markets.",
+          "paragraphs": [
+            "AI data centers need chips by the score,\nwhile stocks, loans, and building plans depend on millions more.\nIf chip values tumble, the worry may spread\nto companies financed by chips in the shed.",
+            "Compute futures are contracts that fix what buyers will pay\nfor computing power delivered on a later day.\nThey can help a new data center plan what it will earn—\nbut today these markets are still small at every turn.",
+            "Semafor reported that Commerce told Kalshi, “Take down\nyour product that tracks AI compute prices in town.”\nIt also said Commerce urged the CFTC\nto pause new compute contracts for days sixty.",
+            "A Commerce spokesman answered, “This story is false.”\nSo even the reported order remains in dispute, of course.\nBut market participants offered a reason for alarm:\na tiny, thin market might cause outsized harm.",
+            "Someone could push older-chip prices sharply down,\nthen hedge funds might see trouble spreading around.\nAI stocks and bonds could sink from the scare—\na minnow of a market wagging a whale by its tail.",
+            "No one proved such a trick had happened at all.\nThe strange part was simply the size of the fall:\na little compute contract, easy to shove,\nmight shake trillions of AI value above.",
+            "What happened? Semafor reported that the US Commerce Department ordered Kalshi to remove an AI-compute price contract and sought a 60-day pause on new contracts, though Commerce called the report false. Market participants suggested that manipulated or volatile compute-futures prices could make older chips look less valuable and unsettle much larger AI stock and debt markets."
+          ]
+        },
+        "middle": {
+          "title": "The Tiny Market Beside the AI Giant",
+          "lesson": "A thinly traded compute-futures market could theoretically be pushed around, creating a misleading chip-price signal that might affect much larger AI stock and debt markets.",
+          "paragraphs": [
+            "AI data centers need chips by the score,\nwhile stocks, loans, and building plans depend on millions more.\nIf chip values tumble, the worry may spread\nto companies financed by chips in the shed.",
+            "Compute futures are contracts that fix what buyers will pay\nfor computing power delivered on a later day.\nThey can help a new data center plan what it will earn—\nbut today these markets are still small at every turn.",
+            "Semafor reported that Commerce told Kalshi, “Take down\nyour product that tracks AI compute prices in town.”\nIt also said Commerce urged the CFTC\nto pause new compute contracts for days sixty.",
+            "A Commerce spokesman answered, “This story is false.”\nSo even the reported order remains in dispute, of course.\nBut market participants offered a reason for alarm:\na tiny, thin market might cause outsized harm.",
+            "Someone could push older-chip prices sharply down,\nthen hedge funds might see trouble spreading around.\nAI stocks and bonds could sink from the scare—\na minnow of a market wagging a whale by its tail.",
+            "No one proved such a trick had happened at all.\nThe strange part was simply the size of the fall:\na little compute contract, easy to shove,\nmight shake trillions of AI value above.",
+            "What happened? Semafor reported that the US Commerce Department ordered Kalshi to remove an AI-compute price contract and sought a 60-day pause on new contracts, though Commerce called the report false. Market participants suggested that manipulated or volatile compute-futures prices could make older chips look less valuable and unsettle much larger AI stock and debt markets."
+          ]
+        },
+        "high": {
+          "title": "The Tiny Market Beside the AI Giant",
+          "lesson": "A thinly traded compute-futures market could theoretically be pushed around, creating a misleading chip-price signal that might affect much larger AI stock and debt markets.",
+          "paragraphs": [
+            "AI data centers need chips by the score,\nwhile stocks, loans, and building plans depend on millions more.\nIf chip values tumble, the worry may spread\nto companies financed by chips in the shed.",
+            "Compute futures are contracts that fix what buyers will pay\nfor computing power delivered on a later day.\nThey can help a new data center plan what it will earn—\nbut today these markets are still small at every turn.",
+            "Semafor reported that Commerce told Kalshi, “Take down\nyour product that tracks AI compute prices in town.”\nIt also said Commerce urged the CFTC\nto pause new compute contracts for days sixty.",
+            "A Commerce spokesman answered, “This story is false.”\nSo even the reported order remains in dispute, of course.\nBut market participants offered a reason for alarm:\na tiny, thin market might cause outsized harm.",
+            "Someone could push older-chip prices sharply down,\nthen hedge funds might see trouble spreading around.\nAI stocks and bonds could sink from the scare—\na minnow of a market wagging a whale by its tail.",
+            "No one proved such a trick had happened at all.\nThe strange part was simply the size of the fall:\na little compute contract, easy to shove,\nmight shake trillions of AI value above.",
+            "What happened? Semafor reported that the US Commerce Department ordered Kalshi to remove an AI-compute price contract and sought a 60-day pause on new contracts, though Commerce called the report false. Market participants suggested that manipulated or volatile compute-futures prices could make older chips look less valuable and unsettle much larger AI stock and debt markets."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ebitdai",
+      "sourceSection": "EbitdAI",
+      "illustration": {
+        "src": "/images/2026-09-17-the-whole-indian-options-trade-was-too-good/ebitdai.png",
+        "alt": "An Emeria team places a €20 million card for future AI savings onto a last-twelve-month EBITDA report while a small AI robot sorts property documents and accounting files."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Benjamin Sabahi"
+        ],
+        "realCompanies": [
+          "Emeria SASU",
+          "Spread Research",
+          "Bloomberg News",
+          "Partners Group Holding AG",
+          "TA Associates"
+        ],
+        "financialMechanism": "An EBITDA add-back increased Emeria’s last-twelve-month adjusted earnings by €20 million for estimated cost savings expected from an agentic AI program over the following two years.",
+        "centralJoke": "Emeria treated tomorrow’s hoped-for AI savings as an adjustment to yesterday’s earnings—a strange but recognizable credit-market practice."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Earnings That Hadn’t Happened Yet",
+          "lesson": "Emeria raised adjusted last-twelve-month EBITDA by €20 million using an add-back for projected two-year AI cost savings, even though those savings had not yet occurred.",
+          "paragraphs": [
+            "In France, Emeria SASU had results to prepare,\nand one curious number made credit experts stare.\nThe property-services company, struggling of late,\ngave last year’s earnings an AI-powered update.",
+            "EBITDA starts with earnings, then sets some charges aside:\ninterest, taxes, depreciation, and amortization don’t get applied.\nAn “add-back” removes costs that lenders agree will not remain,\nto help them judge if a borrower can repay them again.",
+            "But Emeria added €20 million—about $23 million more—for AI savings it hoped for, not savings already in store.\nOver the next two years, agentic AI was planned\nto prepare documents, handle data, and draft replies on demand.",
+            "Customer service, accounting, back-office work too:\nfewer costs in the future, if the program came through.\nYet those hoped-for savings joined the last-twelve-month score—\nfuture efficiency stepping through last year’s door.",
+            "Bloomberg News heard from ten market watchers or more;\nthey said they had not seen this adjustment before.\nBenjamin Sabahi of Spread Research took a stricter view:\nCount gains once they’re generated, not before they come true.",
+            "Backed by Partners Group Holding AG and TA Associates, Emeria replied that the adjustment followed the methodology agreed with its lenders. The company said its AI plans were identified and measured—and €20 million was only a fraction of the possible savings ahead.",
+            "So the puzzle involved a wonderfully peculiar feat:\nCould tomorrow’s robot savings make yesterday’s earnings complete?\nAdd-backs often bring expected changes into view,\nbut counting an AI plan in past results felt startlingly new.",
+            "What happened? Emeria SASU added €20 million to adjusted last-twelve-month EBITDA for projected savings from two years of future AI automation. Emeria said its lenders had agreed to the methodology, while Benjamin Sabahi argued that savings should be counted only after they are generated."
+          ]
+        },
+        "elementary": {
+          "title": "The Earnings That Hadn’t Happened Yet",
+          "lesson": "Emeria raised adjusted last-twelve-month EBITDA by €20 million using an add-back for projected two-year AI cost savings, even though those savings had not yet occurred.",
+          "paragraphs": [
+            "In France, Emeria SASU had results to prepare,\nand one curious number made credit experts stare.\nThe property-services company, struggling of late,\ngave last year’s earnings an AI-powered update.",
+            "EBITDA starts with earnings, then sets some charges aside:\ninterest, taxes, depreciation, and amortization don’t get applied.\nAn “add-back” removes costs that lenders agree will not remain,\nto help them judge if a borrower can repay them again.",
+            "But Emeria added €20 million—about $23 million more—for AI savings it hoped for, not savings already in store.\nOver the next two years, agentic AI was planned\nto prepare documents, handle data, and draft replies on demand.",
+            "Customer service, accounting, back-office work too:\nfewer costs in the future, if the program came through.\nYet those hoped-for savings joined the last-twelve-month score—\nfuture efficiency stepping through last year’s door.",
+            "Bloomberg News heard from ten market watchers or more;\nthey said they had not seen this adjustment before.\nBenjamin Sabahi of Spread Research took a stricter view:\nCount gains once they’re generated, not before they come true.",
+            "Backed by Partners Group Holding AG and TA Associates, Emeria replied that the adjustment followed the methodology agreed with its lenders. The company said its AI plans were identified and measured—and €20 million was only a fraction of the possible savings ahead.",
+            "So the puzzle involved a wonderfully peculiar feat:\nCould tomorrow’s robot savings make yesterday’s earnings complete?\nAdd-backs often bring expected changes into view,\nbut counting an AI plan in past results felt startlingly new.",
+            "What happened? Emeria SASU added €20 million to adjusted last-twelve-month EBITDA for projected savings from two years of future AI automation. Emeria said its lenders had agreed to the methodology, while Benjamin Sabahi argued that savings should be counted only after they are generated."
+          ]
+        },
+        "middle": {
+          "title": "The Earnings That Hadn’t Happened Yet",
+          "lesson": "Emeria raised adjusted last-twelve-month EBITDA by €20 million using an add-back for projected two-year AI cost savings, even though those savings had not yet occurred.",
+          "paragraphs": [
+            "In France, Emeria SASU had results to prepare,\nand one curious number made credit experts stare.\nThe property-services company, struggling of late,\ngave last year’s earnings an AI-powered update.",
+            "EBITDA starts with earnings, then sets some charges aside:\ninterest, taxes, depreciation, and amortization don’t get applied.\nAn “add-back” removes costs that lenders agree will not remain,\nto help them judge if a borrower can repay them again.",
+            "But Emeria added €20 million—about $23 million more—for AI savings it hoped for, not savings already in store.\nOver the next two years, agentic AI was planned\nto prepare documents, handle data, and draft replies on demand.",
+            "Customer service, accounting, back-office work too:\nfewer costs in the future, if the program came through.\nYet those hoped-for savings joined the last-twelve-month score—\nfuture efficiency stepping through last year’s door.",
+            "Bloomberg News heard from ten market watchers or more;\nthey said they had not seen this adjustment before.\nBenjamin Sabahi of Spread Research took a stricter view:\nCount gains once they’re generated, not before they come true.",
+            "Backed by Partners Group Holding AG and TA Associates, Emeria replied that the adjustment followed the methodology agreed with its lenders. The company said its AI plans were identified and measured—and €20 million was only a fraction of the possible savings ahead.",
+            "So the puzzle involved a wonderfully peculiar feat:\nCould tomorrow’s robot savings make yesterday’s earnings complete?\nAdd-backs often bring expected changes into view,\nbut counting an AI plan in past results felt startlingly new.",
+            "What happened? Emeria SASU added €20 million to adjusted last-twelve-month EBITDA for projected savings from two years of future AI automation. Emeria said its lenders had agreed to the methodology, while Benjamin Sabahi argued that savings should be counted only after they are generated."
+          ]
+        },
+        "high": {
+          "title": "The Earnings That Hadn’t Happened Yet",
+          "lesson": "Emeria raised adjusted last-twelve-month EBITDA by €20 million using an add-back for projected two-year AI cost savings, even though those savings had not yet occurred.",
+          "paragraphs": [
+            "In France, Emeria SASU had results to prepare,\nand one curious number made credit experts stare.\nThe property-services company, struggling of late,\ngave last year’s earnings an AI-powered update.",
+            "EBITDA starts with earnings, then sets some charges aside:\ninterest, taxes, depreciation, and amortization don’t get applied.\nAn “add-back” removes costs that lenders agree will not remain,\nto help them judge if a borrower can repay them again.",
+            "But Emeria added €20 million—about $23 million more—for AI savings it hoped for, not savings already in store.\nOver the next two years, agentic AI was planned\nto prepare documents, handle data, and draft replies on demand.",
+            "Customer service, accounting, back-office work too:\nfewer costs in the future, if the program came through.\nYet those hoped-for savings joined the last-twelve-month score—\nfuture efficiency stepping through last year’s door.",
+            "Bloomberg News heard from ten market watchers or more;\nthey said they had not seen this adjustment before.\nBenjamin Sabahi of Spread Research took a stricter view:\nCount gains once they’re generated, not before they come true.",
+            "Backed by Partners Group Holding AG and TA Associates, Emeria replied that the adjustment followed the methodology agreed with its lenders. The company said its AI plans were identified and measured—and €20 million was only a fraction of the possible savings ahead.",
+            "So the puzzle involved a wonderfully peculiar feat:\nCould tomorrow’s robot savings make yesterday’s earnings complete?\nAdd-backs often bring expected changes into view,\nbut counting an AI plan in past results felt startlingly new.",
+            "What happened? Emeria SASU added €20 million to adjusted last-twelve-month EBITDA for projected savings from two years of future AI automation. Emeria said its lenders had agreed to the methodology, while Benjamin Sabahi argued that savings should be counted only after they are generated."
+          ]
+        }
+      }
+    },
+    {
+      "id": "not-like-other-ai-safety-advocates",
+      "sourceSection": "Not like other AI safety advocates",
+      "illustration": {
+        "src": "/images/2026-09-17-the-whole-indian-options-trade-was-too-good/not-like-other-ai-safety-advocates.png",
+        "alt": "Jacob Coxon leaves an Anthropic doorway while a winding path behind him passes Newspeak House, a rationalist gathering, and his six-person UK math Olympiad team."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jacob Coxon"
+        ],
+        "realCompanies": [
+          "Anthropic",
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "This section concerns an employment resignation rather than a financial transaction: Coxon voluntarily left his research job at Anthropic because of AI-safety concerns.",
+        "centralJoke": "Coxon was portrayed as an unlikely AI-safety quitter, but he had all three jokingly obvious predictors—rationalist ties, post-college group-house living, and especially membership on the UK International Mathematical Olympiad team."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Unlikely Quitter with Every Clue",
+          "lesson": "Jacob Coxon resigned from Anthropic because he feared its AI development could endanger humanity; the joke is that his background made this supposedly surprising decision look remarkably predictable.",
+          "paragraphs": [
+            "At Anthropic, Jacob Coxon researched AI,\nthen quit with a warning: the stakes were too high.\nHe feared that advanced systems, if built without care,\nmight someday kill everyone, everywhere.",
+            "The Wall Street Journal said his friends were surprised;\nhe wasn’t a safety-scene leader, they realized.\nHe wasn’t well known in the San Francisco crowds\ndiscussing grim scenarios at happy hours aloud.",
+            "Yet Jacob had signposts piled three stories tall:\na rationalist circle was one sign of all.\nAfter college in London, his group-house address\nwas Newspeak House—another strong hint, more or less.",
+            "But the biggest sign came from the UK IMO:\nsix math-team members—and three chose AI as they’d go.\nThose three worked for AI labs; then, adding a twist,\none teammate quit Anthropic too, for safety risk.",
+            "So “not like the others” was harder to say,\nwhen every bright signpost seemed pointed that way.\nAnd somehow the strongest predictor to know\nranked rationalists and group-house life below IMO!",
+            "What happened? Former Anthropic researcher Jacob Coxon resigned because he feared its AI work could endanger humanity. The Wall Street Journal presented him as an unexpected safety-driven quitter, although he had joined rationalist circles, lived at Newspeak House, and served on a six-person UK International Mathematical Olympiad team whose members included three future AI-lab workers and another person who quit Anthropic."
+          ]
+        },
+        "elementary": {
+          "title": "The Unlikely Quitter with Every Clue",
+          "lesson": "Jacob Coxon resigned from Anthropic because he feared its AI development could endanger humanity; the joke is that his background made this supposedly surprising decision look remarkably predictable.",
+          "paragraphs": [
+            "At Anthropic, Jacob Coxon researched AI,\nthen quit with a warning: the stakes were too high.\nHe feared that advanced systems, if built without care,\nmight someday kill everyone, everywhere.",
+            "The Wall Street Journal said his friends were surprised;\nhe wasn’t a safety-scene leader, they realized.\nHe wasn’t well known in the San Francisco crowds\ndiscussing grim scenarios at happy hours aloud.",
+            "Yet Jacob had signposts piled three stories tall:\na rationalist circle was one sign of all.\nAfter college in London, his group-house address\nwas Newspeak House—another strong hint, more or less.",
+            "But the biggest sign came from the UK IMO:\nsix math-team members—and three chose AI as they’d go.\nThose three worked for AI labs; then, adding a twist,\none teammate quit Anthropic too, for safety risk.",
+            "So “not like the others” was harder to say,\nwhen every bright signpost seemed pointed that way.\nAnd somehow the strongest predictor to know\nranked rationalists and group-house life below IMO!",
+            "What happened? Former Anthropic researcher Jacob Coxon resigned because he feared its AI work could endanger humanity. The Wall Street Journal presented him as an unexpected safety-driven quitter, although he had joined rationalist circles, lived at Newspeak House, and served on a six-person UK International Mathematical Olympiad team whose members included three future AI-lab workers and another person who quit Anthropic."
+          ]
+        },
+        "middle": {
+          "title": "The Unlikely Quitter with Every Clue",
+          "lesson": "Jacob Coxon resigned from Anthropic because he feared its AI development could endanger humanity; the joke is that his background made this supposedly surprising decision look remarkably predictable.",
+          "paragraphs": [
+            "At Anthropic, Jacob Coxon researched AI,\nthen quit with a warning: the stakes were too high.\nHe feared that advanced systems, if built without care,\nmight someday kill everyone, everywhere.",
+            "The Wall Street Journal said his friends were surprised;\nhe wasn’t a safety-scene leader, they realized.\nHe wasn’t well known in the San Francisco crowds\ndiscussing grim scenarios at happy hours aloud.",
+            "Yet Jacob had signposts piled three stories tall:\na rationalist circle was one sign of all.\nAfter college in London, his group-house address\nwas Newspeak House—another strong hint, more or less.",
+            "But the biggest sign came from the UK IMO:\nsix math-team members—and three chose AI as they’d go.\nThose three worked for AI labs; then, adding a twist,\none teammate quit Anthropic too, for safety risk.",
+            "So “not like the others” was harder to say,\nwhen every bright signpost seemed pointed that way.\nAnd somehow the strongest predictor to know\nranked rationalists and group-house life below IMO!",
+            "What happened? Former Anthropic researcher Jacob Coxon resigned because he feared its AI work could endanger humanity. The Wall Street Journal presented him as an unexpected safety-driven quitter, although he had joined rationalist circles, lived at Newspeak House, and served on a six-person UK International Mathematical Olympiad team whose members included three future AI-lab workers and another person who quit Anthropic."
+          ]
+        },
+        "high": {
+          "title": "The Unlikely Quitter with Every Clue",
+          "lesson": "Jacob Coxon resigned from Anthropic because he feared its AI development could endanger humanity; the joke is that his background made this supposedly surprising decision look remarkably predictable.",
+          "paragraphs": [
+            "At Anthropic, Jacob Coxon researched AI,\nthen quit with a warning: the stakes were too high.\nHe feared that advanced systems, if built without care,\nmight someday kill everyone, everywhere.",
+            "The Wall Street Journal said his friends were surprised;\nhe wasn’t a safety-scene leader, they realized.\nHe wasn’t well known in the San Francisco crowds\ndiscussing grim scenarios at happy hours aloud.",
+            "Yet Jacob had signposts piled three stories tall:\na rationalist circle was one sign of all.\nAfter college in London, his group-house address\nwas Newspeak House—another strong hint, more or less.",
+            "But the biggest sign came from the UK IMO:\nsix math-team members—and three chose AI as they’d go.\nThose three worked for AI labs; then, adding a twist,\none teammate quit Anthropic too, for safety risk.",
+            "So “not like the others” was harder to say,\nwhen every bright signpost seemed pointed that way.\nAnd somehow the strongest predictor to know\nranked rationalists and group-house life below IMO!",
+            "What happened? Former Anthropic researcher Jacob Coxon resigned because he feared its AI work could endanger humanity. The Wall Street Journal presented him as an unexpected safety-driven quitter, although he had joined rationalist circles, lived at Newspeak House, and served on a six-person UK International Mathematical Olympiad team whose members included three future AI-lab workers and another person who quit Anthropic."
+          ]
+        }
+      }
+    }
+  ]
+}
