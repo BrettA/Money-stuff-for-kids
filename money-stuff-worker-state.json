@@ -264,6 +264,18 @@
       "submitted": true,
       "updatedAt": "2026-09-16T18:58:00.335Z",
       "submittedAt": "2026-09-16T18:58:00.335Z"
+    },
+    "1a0b0b189785d582": {
+      "gmailMessageId": "1a0b0b189785d582",
+      "newsletterDate": "2026-09-17",
+      "newsletterTitle": "The Whole Indian Options Trade Was Too Good",
+      "editionId": "2026-09-17-the-whole-indian-options-trade-was-too-good",
+      "sourceSha256": "30049598e863fcf47a85f09fbd01d01ad789a33d90d8c0aa2f54feac7d06d153",
+      "packageSha256": "c1f71531343f816cef1551217038247a3b321518d3a54d36deace6109dc40d5c",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-17T19:19:36.407Z",
+      "submittedAt": "2026-09-17T19:19:36.407Z"
     }
   }
 }
