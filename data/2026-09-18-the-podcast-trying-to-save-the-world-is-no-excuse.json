@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-18-the-podcast-trying-to-save-the-world-is-no-excuse",
+  "date": "2026-09-18",
+  "displayDate": "September 18, 2026",
+  "title": "The Podcast: Trying to Save the World Is No Excuse",
+  "sourceSections": [
+    "Podcast"
+  ],
+  "stories": [
+    {
+      "id": "podcast",
+      "sourceSection": "Podcast",
+      "illustration": {
+        "src": "/images/2026-09-18-the-podcast-trying-to-save-the-world-is-no-excuse/podcast.png",
+        "alt": "Silvia Killingsworth and a co-host record the Money Stuff podcast beside 100 John Doe name cards and paired option-and-hedge slips."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Silvia Killingsworth"
+        ],
+        "realCompanies": [
+          "Susquehanna",
+          "Bloomberg L.P.",
+          "Apple",
+          "Spotify"
+        ],
+        "financialMechanism": "Options market makers use offsetting trades to hedge the financial risk they take when buying and selling options; the episode also discusses pensions, 401(k)s, and psychological liquidity mismatches.",
+        "centralJoke": "A serious finance podcast somehow features Susquehanna’s mysterious crowd of 100 people all called John Doe, alongside nervous frontier-pacing and the question of whether AI will write about AI."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "One Hundred John Does and a Microphone",
+          "lesson": "Options market makers hedge by taking offsetting positions to reduce the risk created when they buy and sell options.",
+          "paragraphs": [
+            "Late summer lingered; nostalgia drew near,\nwhen Money Stuff’s new podcast arrived for your ear.\nSilvia Killingsworth guest-hosted once more,\nwith a bundle of curious questions to explore.",
+            "There were Susquehanna’s 100 John Does—\na hundred unknowns in astonishing rows.\nThen options market makers entered the chat,\nbuying and selling contracts this way and that.",
+            "An option gives someone a choice for a price;\na market maker helps trades happen quickly and nice.\nTo hedge all that risk, the maker can trade\nan offsetting position, so danger may fade.",
+            "They paced at the frontier, both nervous and slow,\nand asked if AI training should ease up and grow\nless quickly—for economic good, or so humans survive.\nThen: Who writes about AI when AI starts to write?",
+            "They discussed how money can feel near yet stay stuck,\nthen pensions and 401(k)s entered their luck.\nThe episode reached Apple and Spotify too,\nwith many strange questions packed into one queue.",
+            "What happened? Money Stuff released a podcast episode with guest co-host Silvia Killingsworth covering Susquehanna’s 100 John Does, options-market-making hedges, slower AI training, psychological liquidity mismatches, and putting pensions back into 401(k)s. It was distributed through Apple, Spotify, and other podcast services."
+          ]
+        },
+        "elementary": {
+          "title": "One Hundred John Does and a Microphone",
+          "lesson": "Options market makers hedge by taking offsetting positions to reduce the risk created when they buy and sell options.",
+          "paragraphs": [
+            "Late summer lingered; nostalgia drew near,\nwhen Money Stuff’s new podcast arrived for your ear.\nSilvia Killingsworth guest-hosted once more,\nwith a bundle of curious questions to explore.",
+            "There were Susquehanna’s 100 John Does—\na hundred unknowns in astonishing rows.\nThen options market makers entered the chat,\nbuying and selling contracts this way and that.",
+            "An option gives someone a choice for a price;\na market maker helps trades happen quickly and nice.\nTo hedge all that risk, the maker can trade\nan offsetting position, so danger may fade.",
+            "They paced at the frontier, both nervous and slow,\nand asked if AI training should ease up and grow\nless quickly—for economic good, or so humans survive.\nThen: Who writes about AI when AI starts to write?",
+            "They discussed how money can feel near yet stay stuck,\nthen pensions and 401(k)s entered their luck.\nThe episode reached Apple and Spotify too,\nwith many strange questions packed into one queue.",
+            "What happened? Money Stuff released a podcast episode with guest co-host Silvia Killingsworth covering Susquehanna’s 100 John Does, options-market-making hedges, slower AI training, psychological liquidity mismatches, and putting pensions back into 401(k)s. It was distributed through Apple, Spotify, and other podcast services."
+          ]
+        },
+        "middle": {
+          "title": "One Hundred John Does and a Microphone",
+          "lesson": "Options market makers hedge by taking offsetting positions to reduce the risk created when they buy and sell options.",
+          "paragraphs": [
+            "Late summer lingered; nostalgia drew near,\nwhen Money Stuff’s new podcast arrived for your ear.\nSilvia Killingsworth guest-hosted once more,\nwith a bundle of curious questions to explore.",
+            "There were Susquehanna’s 100 John Does—\na hundred unknowns in astonishing rows.\nThen options market makers entered the chat,\nbuying and selling contracts this way and that.",
+            "An option gives someone a choice for a price;\na market maker helps trades happen quickly and nice.\nTo hedge all that risk, the maker can trade\nan offsetting position, so danger may fade.",
+            "They paced at the frontier, both nervous and slow,\nand asked if AI training should ease up and grow\nless quickly—for economic good, or so humans survive.\nThen: Who writes about AI when AI starts to write?",
+            "They discussed how money can feel near yet stay stuck,\nthen pensions and 401(k)s entered their luck.\nThe episode reached Apple and Spotify too,\nwith many strange questions packed into one queue.",
+            "What happened? Money Stuff released a podcast episode with guest co-host Silvia Killingsworth covering Susquehanna’s 100 John Does, options-market-making hedges, slower AI training, psychological liquidity mismatches, and putting pensions back into 401(k)s. It was distributed through Apple, Spotify, and other podcast services."
+          ]
+        },
+        "high": {
+          "title": "One Hundred John Does and a Microphone",
+          "lesson": "Options market makers hedge by taking offsetting positions to reduce the risk created when they buy and sell options.",
+          "paragraphs": [
+            "Late summer lingered; nostalgia drew near,\nwhen Money Stuff’s new podcast arrived for your ear.\nSilvia Killingsworth guest-hosted once more,\nwith a bundle of curious questions to explore.",
+            "There were Susquehanna’s 100 John Does—\na hundred unknowns in astonishing rows.\nThen options market makers entered the chat,\nbuying and selling contracts this way and that.",
+            "An option gives someone a choice for a price;\na market maker helps trades happen quickly and nice.\nTo hedge all that risk, the maker can trade\nan offsetting position, so danger may fade.",
+            "They paced at the frontier, both nervous and slow,\nand asked if AI training should ease up and grow\nless quickly—for economic good, or so humans survive.\nThen: Who writes about AI when AI starts to write?",
+            "They discussed how money can feel near yet stay stuck,\nthen pensions and 401(k)s entered their luck.\nThe episode reached Apple and Spotify too,\nwith many strange questions packed into one queue.",
+            "What happened? Money Stuff released a podcast episode with guest co-host Silvia Killingsworth covering Susquehanna’s 100 John Does, options-market-making hedges, slower AI training, psychological liquidity mismatches, and putting pensions back into 401(k)s. It was distributed through Apple, Spotify, and other podcast services."
+          ]
+        }
+      }
+    }
+  ]
+}
