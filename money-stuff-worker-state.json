@@ -276,6 +276,18 @@
       "submitted": true,
       "updatedAt": "2026-09-17T19:19:36.407Z",
       "submittedAt": "2026-09-17T19:19:36.407Z"
+    },
+    "1a0b53fc1c54c17a": {
+      "gmailMessageId": "1a0b53fc1c54c17a",
+      "newsletterDate": "2026-09-18",
+      "newsletterTitle": "The Podcast: Trying to Save the World Is No Excuse",
+      "editionId": "2026-09-18-the-podcast-trying-to-save-the-world-is-no-excuse",
+      "sourceSha256": "30f702591846fae568b66d3bacb3d64533823b3efa5ac28e5e056979cd52c1d5",
+      "packageSha256": "f6237117c8dc232fa63dd1009062b15acbcc67ba62ede5132765a851578a3e81",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-18T17:13:41.682Z",
+      "submittedAt": "2026-09-18T17:13:41.682Z"
     }
   }
 }
