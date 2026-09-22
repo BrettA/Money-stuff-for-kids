@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-22-who-cares-if-a-merger-is-fair",
+  "date": "2026-09-22",
+  "displayDate": "September 22, 2026",
+  "title": "Who Cares If a Merger Is Fair?",
+  "sourceSections": [
+    "RIP appraisal?",
+    "Gambler identification",
+    "Steak & Shake vs. index funds",
+    "WLF",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "rip-appraisal",
+      "sourceSection": "RIP appraisal?",
+      "illustration": {
+        "src": "/images/2026-09-22-who-cares-if-a-merger-is-fair/rip-appraisal.png",
+        "alt": "A giant TKO box worth $18.6 billion outweighs Silver Lake’s $27.50-per-share Endeavor deal while hedge-fund investors carry appraisal papers toward a Delaware courthouse."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Ari Emanuel",
+          "Carl Icahn"
+        ],
+        "realCompanies": [
+          "Silver Lake",
+          "Endeavor Group Holdings Inc.",
+          "TKO Group Holdings Inc.",
+          "Ultimate Fighting Championship",
+          "World Wrestling Entertainment"
+        ],
+        "financialMechanism": "Silver Lake’s fixed-price cash merger closed after Endeavor’s TKO stake rose above the value of the whole deal; post-announcement buyers preserved Delaware appraisal rights and asked a court to award fair value above $27.50 per share.",
+        "centralJoke": "Silver Lake acquired Endeavor for less than Endeavor’s TKO stake alone was worth—making the rest look free—then argued that the specialist investors making appraisal useful should not be allowed to use it."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Deal That Made Appraisal Disappear",
+          "lesson": "Delaware appraisal lets eligible shareholders reject a cash-merger price and ask a court for fair value; specialists can buy shares after a deal is announced, preserve those rights, and pursue the claim.",
+          "paragraphs": [
+            "Ari Emanuel’s talent agency grew\ninto Endeavor, with shows to pursue.\nSilver Lake controlled 74% of its shares,\nso minority owners had few voting chairs.",
+            "In April 2024, a deal set the rate:\n$27.50 per share was their fate.\nThe deal closed in March 2025;\nEndeavor’s equity was valued near $13 billion in size.",
+            "Endeavor owned TKO, whose bright, booming shows\ninclude UFC fights and WWE blows.\nWhen the deal was approved, that stake was worth $7.4 billion;\nby closing, its value had reached $18.6 billion.",
+            "The TKO stake alone topped Silver Lake’s whole price—\nso the rest of Endeavor looked free. Rather nice!\nSilver Lake had promised the payment before TKO grew;\nit would have paid the same if TKO’s price fell, too.",
+            "Delaware appraisal lets shareholders say,\n“Let a judge find fair value instead of this pay.”\nHedge funds bought Endeavor after the deal became known,\nthen demanded appraisal for shares they now owned.",
+            "Those buyers helped lift Endeavor over $28 a share,\nand once to $35.50, giving old owners more there.\nCarl Icahn bought too late for appraisal’s route,\nso he brought a separate fiduciary-duty suit.",
+            "Silver Lake said these funds ran toward the dispute:\n“They bought themselves lawsuits in search of more loot!”\nBut without such specialists taking the case,\nordinary owners might lose appraisal in practice.",
+            "What happened? Silver Lake paid $27.50 per Endeavor share even though Endeavor’s publicly traded TKO stake had become worth more than the entire purchase price. Silver Lake and Endeavor then asked a Delaware court to bar investors who bought after the merger announcement from seeking appraisal."
+          ]
+        },
+        "elementary": {
+          "title": "The Deal That Made Appraisal Disappear",
+          "lesson": "Delaware appraisal lets eligible shareholders reject a cash-merger price and ask a court for fair value; specialists can buy shares after a deal is announced, preserve those rights, and pursue the claim.",
+          "paragraphs": [
+            "Ari Emanuel’s talent agency grew\ninto Endeavor, with shows to pursue.\nSilver Lake controlled 74% of its shares,\nso minority owners had few voting chairs.",
+            "In April 2024, a deal set the rate:\n$27.50 per share was their fate.\nThe deal closed in March 2025;\nEndeavor’s equity was valued near $13 billion in size.",
+            "Endeavor owned TKO, whose bright, booming shows\ninclude UFC fights and WWE blows.\nWhen the deal was approved, that stake was worth $7.4 billion;\nby closing, its value had reached $18.6 billion.",
+            "The TKO stake alone topped Silver Lake’s whole price—\nso the rest of Endeavor looked free. Rather nice!\nSilver Lake had promised the payment before TKO grew;\nit would have paid the same if TKO’s price fell, too.",
+            "Delaware appraisal lets shareholders say,\n“Let a judge find fair value instead of this pay.”\nHedge funds bought Endeavor after the deal became known,\nthen demanded appraisal for shares they now owned.",
+            "Those buyers helped lift Endeavor over $28 a share,\nand once to $35.50, giving old owners more there.\nCarl Icahn bought too late for appraisal’s route,\nso he brought a separate fiduciary-duty suit.",
+            "Silver Lake said these funds ran toward the dispute:\n“They bought themselves lawsuits in search of more loot!”\nBut without such specialists taking the case,\nordinary owners might lose appraisal in practice.",
+            "What happened? Silver Lake paid $27.50 per Endeavor share even though Endeavor’s publicly traded TKO stake had become worth more than the entire purchase price. Silver Lake and Endeavor then asked a Delaware court to bar investors who bought after the merger announcement from seeking appraisal."
+          ]
+        },
+        "middle": {
+          "title": "The Deal That Made Appraisal Disappear",
+          "lesson": "Delaware appraisal lets eligible shareholders reject a cash-merger price and ask a court for fair value; specialists can buy shares after a deal is announced, preserve those rights, and pursue the claim.",
+          "paragraphs": [
+            "Ari Emanuel’s talent agency grew\ninto Endeavor, with shows to pursue.\nSilver Lake controlled 74% of its shares,\nso minority owners had few voting chairs.",
+            "In April 2024, a deal set the rate:\n$27.50 per share was their fate.\nThe deal closed in March 2025;\nEndeavor’s equity was valued near $13 billion in size.",
+            "Endeavor owned TKO, whose bright, booming shows\ninclude UFC fights and WWE blows.\nWhen the deal was approved, that stake was worth $7.4 billion;\nby closing, its value had reached $18.6 billion.",
+            "The TKO stake alone topped Silver Lake’s whole price—\nso the rest of Endeavor looked free. Rather nice!\nSilver Lake had promised the payment before TKO grew;\nit would have paid the same if TKO’s price fell, too.",
+            "Delaware appraisal lets shareholders say,\n“Let a judge find fair value instead of this pay.”\nHedge funds bought Endeavor after the deal became known,\nthen demanded appraisal for shares they now owned.",
+            "Those buyers helped lift Endeavor over $28 a share,\nand once to $35.50, giving old owners more there.\nCarl Icahn bought too late for appraisal’s route,\nso he brought a separate fiduciary-duty suit.",
+            "Silver Lake said these funds ran toward the dispute:\n“They bought themselves lawsuits in search of more loot!”\nBut without such specialists taking the case,\nordinary owners might lose appraisal in practice.",
+            "What happened? Silver Lake paid $27.50 per Endeavor share even though Endeavor’s publicly traded TKO stake had become worth more than the entire purchase price. Silver Lake and Endeavor then asked a Delaware court to bar investors who bought after the merger announcement from seeking appraisal."
+          ]
+        },
+        "high": {
+          "title": "The Deal That Made Appraisal Disappear",
+          "lesson": "Delaware appraisal lets eligible shareholders reject a cash-merger price and ask a court for fair value; specialists can buy shares after a deal is announced, preserve those rights, and pursue the claim.",
+          "paragraphs": [
+            "Ari Emanuel’s talent agency grew\ninto Endeavor, with shows to pursue.\nSilver Lake controlled 74% of its shares,\nso minority owners had few voting chairs.",
+            "In April 2024, a deal set the rate:\n$27.50 per share was their fate.\nThe deal closed in March 2025;\nEndeavor’s equity was valued near $13 billion in size.",
+            "Endeavor owned TKO, whose bright, booming shows\ninclude UFC fights and WWE blows.\nWhen the deal was approved, that stake was worth $7.4 billion;\nby closing, its value had reached $18.6 billion.",
+            "The TKO stake alone topped Silver Lake’s whole price—\nso the rest of Endeavor looked free. Rather nice!\nSilver Lake had promised the payment before TKO grew;\nit would have paid the same if TKO’s price fell, too.",
+            "Delaware appraisal lets shareholders say,\n“Let a judge find fair value instead of this pay.”\nHedge funds bought Endeavor after the deal became known,\nthen demanded appraisal for shares they now owned.",
+            "Those buyers helped lift Endeavor over $28 a share,\nand once to $35.50, giving old owners more there.\nCarl Icahn bought too late for appraisal’s route,\nso he brought a separate fiduciary-duty suit.",
+            "Silver Lake said these funds ran toward the dispute:\n“They bought themselves lawsuits in search of more loot!”\nBut without such specialists taking the case,\nordinary owners might lose appraisal in practice.",
+            "What happened? Silver Lake paid $27.50 per Endeavor share even though Endeavor’s publicly traded TKO stake had become worth more than the entire purchase price. Silver Lake and Endeavor then asked a Delaware court to bar investors who bought after the merger announcement from seeking appraisal."
+          ]
+        }
+      }
+    },
+    {
+      "id": "gambler-identification",
+      "sourceSection": "Gambler identification",
+      "illustration": {
+        "src": "/images/2026-09-22-who-cares-if-a-merger-is-fair/gambler-identification.png",
+        "alt": "At DraftKings, engineers feed the same stack of betting records toward a promotions model while Nestor Hernandez stands beside a canceled presentation for a problem-gambling risk model."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Lori Kalani",
+          "Nestor Hernandez"
+        ],
+        "realCompanies": [
+          "DraftKings",
+          "The New York Times"
+        ],
+        "financialMechanism": "Machine-learning models analyzed customer betting records: one was built to predict which customers would respond profitably to promotions, while other models sought to predict risky or problem gambling and were not adopted.",
+        "centralJoke": "The data model for finding lucrative promotional customers was treated as useful, while closely related models for finding problem gamblers were deemed insufficiently evidence-based—even though the two groups may substantially overlap."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Two Models, One Stack of Bets",
+          "lesson": "DraftKings used machine learning on customer betting records for promotional targeting, while declining to use predictive models built from similar records to identify customers at risk of problem gambling.",
+          "paragraphs": [
+            "At DraftKings, each wager left records behind—\nhow customers bet, for computers to find.\nIn 2023, engineers took on a task:\nUse machine learning to answer what marketing asked.",
+            "The New York Times described the question this way:\nWho would gamble—and lose—more after an offer came their way?\nSome engineers worried: When profits are the goal,\ncould problem gamblers look best to the model?",
+            "DraftKings disputed that losses determined its deals;\n“sustained, engaged use” was what targeting reveals.\nLori Kalani said the business needs play\nthat stays within customers’ means, just for fun, day by day.",
+            "Meanwhile, Nestor Hernandez read research with care,\nthen built a risk model from betting records there.\nIt studied customers already flagged for risky play,\nso help might reach people before losses ran away.",
+            "In early 2025, the presentation was planned—\nthen the meeting was canceled, and the model was not used as planned.\nTwo similar algorithms were shelved as well;\nKalani said predictive tools lacked evidence to tell.",
+            "Thus patterns for promotions could enter the game,\nwhile patterns for gambling risk got a different name:\n“not evidence-based.” How strangely the data behaves—\nlucrative on one desk, but unreliable when it saves.",
+            "What happened? DraftKings built a machine-learning model using betting records to target promotions, but it chose not to use predictive models built from similar data to identify problem gambling. The company said promotions were not based on losses and that the risk models were not evidence-based."
+          ]
+        },
+        "elementary": {
+          "title": "Two Models, One Stack of Bets",
+          "lesson": "DraftKings used machine learning on customer betting records for promotional targeting, while declining to use predictive models built from similar records to identify customers at risk of problem gambling.",
+          "paragraphs": [
+            "At DraftKings, each wager left records behind—\nhow customers bet, for computers to find.\nIn 2023, engineers took on a task:\nUse machine learning to answer what marketing asked.",
+            "The New York Times described the question this way:\nWho would gamble—and lose—more after an offer came their way?\nSome engineers worried: When profits are the goal,\ncould problem gamblers look best to the model?",
+            "DraftKings disputed that losses determined its deals;\n“sustained, engaged use” was what targeting reveals.\nLori Kalani said the business needs play\nthat stays within customers’ means, just for fun, day by day.",
+            "Meanwhile, Nestor Hernandez read research with care,\nthen built a risk model from betting records there.\nIt studied customers already flagged for risky play,\nso help might reach people before losses ran away.",
+            "In early 2025, the presentation was planned—\nthen the meeting was canceled, and the model was not used as planned.\nTwo similar algorithms were shelved as well;\nKalani said predictive tools lacked evidence to tell.",
+            "Thus patterns for promotions could enter the game,\nwhile patterns for gambling risk got a different name:\n“not evidence-based.” How strangely the data behaves—\nlucrative on one desk, but unreliable when it saves.",
+            "What happened? DraftKings built a machine-learning model using betting records to target promotions, but it chose not to use predictive models built from similar data to identify problem gambling. The company said promotions were not based on losses and that the risk models were not evidence-based."
+          ]
+        },
+        "middle": {
+          "title": "Two Models, One Stack of Bets",
+          "lesson": "DraftKings used machine learning on customer betting records for promotional targeting, while declining to use predictive models built from similar records to identify customers at risk of problem gambling.",
+          "paragraphs": [
+            "At DraftKings, each wager left records behind—\nhow customers bet, for computers to find.\nIn 2023, engineers took on a task:\nUse machine learning to answer what marketing asked.",
+            "The New York Times described the question this way:\nWho would gamble—and lose—more after an offer came their way?\nSome engineers worried: When profits are the goal,\ncould problem gamblers look best to the model?",
+            "DraftKings disputed that losses determined its deals;\n“sustained, engaged use” was what targeting reveals.\nLori Kalani said the business needs play\nthat stays within customers’ means, just for fun, day by day.",
+            "Meanwhile, Nestor Hernandez read research with care,\nthen built a risk model from betting records there.\nIt studied customers already flagged for risky play,\nso help might reach people before losses ran away.",
+            "In early 2025, the presentation was planned—\nthen the meeting was canceled, and the model was not used as planned.\nTwo similar algorithms were shelved as well;\nKalani said predictive tools lacked evidence to tell.",
+            "Thus patterns for promotions could enter the game,\nwhile patterns for gambling risk got a different name:\n“not evidence-based.” How strangely the data behaves—\nlucrative on one desk, but unreliable when it saves.",
+            "What happened? DraftKings built a machine-learning model using betting records to target promotions, but it chose not to use predictive models built from similar data to identify problem gambling. The company said promotions were not based on losses and that the risk models were not evidence-based."
+          ]
+        },
+        "high": {
+          "title": "Two Models, One Stack of Bets",
+          "lesson": "DraftKings used machine learning on customer betting records for promotional targeting, while declining to use predictive models built from similar records to identify customers at risk of problem gambling.",
+          "paragraphs": [
+            "At DraftKings, each wager left records behind—\nhow customers bet, for computers to find.\nIn 2023, engineers took on a task:\nUse machine learning to answer what marketing asked.",
+            "The New York Times described the question this way:\nWho would gamble—and lose—more after an offer came their way?\nSome engineers worried: When profits are the goal,\ncould problem gamblers look best to the model?",
+            "DraftKings disputed that losses determined its deals;\n“sustained, engaged use” was what targeting reveals.\nLori Kalani said the business needs play\nthat stays within customers’ means, just for fun, day by day.",
+            "Meanwhile, Nestor Hernandez read research with care,\nthen built a risk model from betting records there.\nIt studied customers already flagged for risky play,\nso help might reach people before losses ran away.",
+            "In early 2025, the presentation was planned—\nthen the meeting was canceled, and the model was not used as planned.\nTwo similar algorithms were shelved as well;\nKalani said predictive tools lacked evidence to tell.",
+            "Thus patterns for promotions could enter the game,\nwhile patterns for gambling risk got a different name:\n“not evidence-based.” How strangely the data behaves—\nlucrative on one desk, but unreliable when it saves.",
+            "What happened? DraftKings built a machine-learning model using betting records to target promotions, but it chose not to use predictive models built from similar data to identify problem gambling. The company said promotions were not based on losses and that the risk models were not evidence-based."
+          ]
+        }
+      }
+    },
+    {
+      "id": "steak-shake-vs-index-funds",
+      "sourceSection": "Steak & Shake vs. index funds",
+      "illustration": {
+        "src": "/images/2026-09-22-who-cares-if-a-merger-is-fair/steak-shake-vs-index-funds.png",
+        "alt": "Sardar Biglari stands at a Steak ’n Shake counter beside index-fund proxy ballots and a Cracker Barrel folder as surprised customers react to the corporate-governance message."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Sardar Biglari"
+        ],
+        "realCompanies": [
+          "Steak ’n Shake",
+          "Cracker Barrel Old Country Store Inc.",
+          "Harvard Business School"
+        ],
+        "financialMechanism": "Index funds hold shares in public companies and vote those shares on corporate matters; Biglari believes changing that voting system would help activist investors win more support.",
+        "centralJoke": "A fast-food chain published an unusually serious corporate-governance argument, prompting the popular reply, “Sir this is a Steak N Shake,” even though the argument fit the activist investor who runs the chain."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Burgers, Ballots, and Biglari",
+          "lesson": "Index funds own shares and cast shareholder votes; Sardar Biglari argued that changing how those votes are controlled would make the funds more likely to support activist investors like him.",
+          "paragraphs": [
+            "Steak ’n Shake posted on X one day:\n“Index-fund voting must change right away!\nIt’s the root of the rot,” the bold message said.\n“Give engaged investors more power instead!”",
+            "Index funds hold shares in many companies at once,\nThen vote on their leaders and plans every month.\nBut Steak ’n Shake argued those votes rarely aid\nThe activists pushing for changes to be made.",
+            "The post sounded strange from a burger-and-shake place,\nSo jokes about fast food soon filled up the space.\n“Sir this is a Steak N Shake,” one wag replied—\nSix thousand liked it and laughed at the side.",
+            "But Sardar Biglari has run the chain for years,\nWith strong corporate-governance ideas and critiques.\nAn activist investor, he presses for change,\nEven when company boards find his plans strange.",
+            "He’s long fought Cracker Barrel over how it is run;\nThere’s a Harvard Business School case on what he has done.\nBiglari would like index funds voting his way—\nSo the restaurant’s lecture was less odd than it seemed that day.",
+            "What happened? Steak ’n Shake’s X account argued that index funds should lose some voting power because they are too reluctant to support activist investors. The position reflected Sardar Biglari’s long-running activist campaign involving Cracker Barrel and his desire for index-fund votes."
+          ]
+        },
+        "elementary": {
+          "title": "Burgers, Ballots, and Biglari",
+          "lesson": "Index funds own shares and cast shareholder votes; Sardar Biglari argued that changing how those votes are controlled would make the funds more likely to support activist investors like him.",
+          "paragraphs": [
+            "Steak ’n Shake posted on X one day:\n“Index-fund voting must change right away!\nIt’s the root of the rot,” the bold message said.\n“Give engaged investors more power instead!”",
+            "Index funds hold shares in many companies at once,\nThen vote on their leaders and plans every month.\nBut Steak ’n Shake argued those votes rarely aid\nThe activists pushing for changes to be made.",
+            "The post sounded strange from a burger-and-shake place,\nSo jokes about fast food soon filled up the space.\n“Sir this is a Steak N Shake,” one wag replied—\nSix thousand liked it and laughed at the side.",
+            "But Sardar Biglari has run the chain for years,\nWith strong corporate-governance ideas and critiques.\nAn activist investor, he presses for change,\nEven when company boards find his plans strange.",
+            "He’s long fought Cracker Barrel over how it is run;\nThere’s a Harvard Business School case on what he has done.\nBiglari would like index funds voting his way—\nSo the restaurant’s lecture was less odd than it seemed that day.",
+            "What happened? Steak ’n Shake’s X account argued that index funds should lose some voting power because they are too reluctant to support activist investors. The position reflected Sardar Biglari’s long-running activist campaign involving Cracker Barrel and his desire for index-fund votes."
+          ]
+        },
+        "middle": {
+          "title": "Burgers, Ballots, and Biglari",
+          "lesson": "Index funds own shares and cast shareholder votes; Sardar Biglari argued that changing how those votes are controlled would make the funds more likely to support activist investors like him.",
+          "paragraphs": [
+            "Steak ’n Shake posted on X one day:\n“Index-fund voting must change right away!\nIt’s the root of the rot,” the bold message said.\n“Give engaged investors more power instead!”",
+            "Index funds hold shares in many companies at once,\nThen vote on their leaders and plans every month.\nBut Steak ’n Shake argued those votes rarely aid\nThe activists pushing for changes to be made.",
+            "The post sounded strange from a burger-and-shake place,\nSo jokes about fast food soon filled up the space.\n“Sir this is a Steak N Shake,” one wag replied—\nSix thousand liked it and laughed at the side.",
+            "But Sardar Biglari has run the chain for years,\nWith strong corporate-governance ideas and critiques.\nAn activist investor, he presses for change,\nEven when company boards find his plans strange.",
+            "He’s long fought Cracker Barrel over how it is run;\nThere’s a Harvard Business School case on what he has done.\nBiglari would like index funds voting his way—\nSo the restaurant’s lecture was less odd than it seemed that day.",
+            "What happened? Steak ’n Shake’s X account argued that index funds should lose some voting power because they are too reluctant to support activist investors. The position reflected Sardar Biglari’s long-running activist campaign involving Cracker Barrel and his desire for index-fund votes."
+          ]
+        },
+        "high": {
+          "title": "Burgers, Ballots, and Biglari",
+          "lesson": "Index funds own shares and cast shareholder votes; Sardar Biglari argued that changing how those votes are controlled would make the funds more likely to support activist investors like him.",
+          "paragraphs": [
+            "Steak ’n Shake posted on X one day:\n“Index-fund voting must change right away!\nIt’s the root of the rot,” the bold message said.\n“Give engaged investors more power instead!”",
+            "Index funds hold shares in many companies at once,\nThen vote on their leaders and plans every month.\nBut Steak ’n Shake argued those votes rarely aid\nThe activists pushing for changes to be made.",
+            "The post sounded strange from a burger-and-shake place,\nSo jokes about fast food soon filled up the space.\n“Sir this is a Steak N Shake,” one wag replied—\nSix thousand liked it and laughed at the side.",
+            "But Sardar Biglari has run the chain for years,\nWith strong corporate-governance ideas and critiques.\nAn activist investor, he presses for change,\nEven when company boards find his plans strange.",
+            "He’s long fought Cracker Barrel over how it is run;\nThere’s a Harvard Business School case on what he has done.\nBiglari would like index funds voting his way—\nSo the restaurant’s lecture was less odd than it seemed that day.",
+            "What happened? Steak ’n Shake’s X account argued that index funds should lose some voting power because they are too reluctant to support activist investors. The position reflected Sardar Biglari’s long-running activist campaign involving Cracker Barrel and his desire for index-fund votes."
+          ]
+        }
+      }
+    },
+    {
+      "id": "wlf",
+      "sourceSection": "WLF",
+      "illustration": {
+        "src": "/images/2026-09-22-who-cares-if-a-merger-is-fair/wlf.png",
+        "alt": "Donald Trump stands near a pile of funds raised by World Liberty Financial while reporters Olga Kharif and Annie Massa examine untouched product plans."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Donald Trump",
+          "Olga Kharif",
+          "Annie Massa"
+        ],
+        "realCompanies": [
+          "World Liberty Financial",
+          "Bloomberg"
+        ],
+        "financialMechanism": "World Liberty Financial raised funds for promised digital-finance products; tracing whether those funds paid for product development or flowed to Donald Trump indicates the venture’s real purpose.",
+        "centralJoke": "The narrator refuses to reveal Bloomberg’s finding because readers are expected to guess the less flattering outcome: promised products did not materialize while Donald Trump got the money."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Bridge, the Funds, and the Pockets",
+          "lesson": "How World Liberty Financial used the money it raised would reveal whether its purpose was building promised financial products or benefiting Donald Trump.",
+          "paragraphs": [
+            "World Liberty Financial—WLF—\nmade digital promises with confident breath:\n“We’ll bridge classic banking to finance that is new,\nand build all the products we said we would do.”",
+            "But raising the money was only the start.\nWhere would it travel? That mattered a lot.\nIf funds built the products described in the plan,\nthen WLF’s grand digital mission might stand.",
+            "But if those new products did not quite appear,\nwhile Donald Trump’s pockets grew fuller that year,\nthen “upgrading finance” would sound rather funny—\na glittery label for raising him money.",
+            "Bloomberg’s Olga Kharif and Annie Massa reported on which interpretation fit.\nThe narrator withheld their answer and offered this test:\n“Just guess which one happened. What outcome seems best?”\nThe missing conclusion became the whole jest.",
+            "What happened? World Liberty Financial raised money while promising products that would connect traditional banking with digital finance. The section withholds Bloomberg’s reported answer but strongly invites readers to infer that the money benefited Donald Trump instead of producing the promised products."
+          ]
+        },
+        "elementary": {
+          "title": "The Bridge, the Funds, and the Pockets",
+          "lesson": "How World Liberty Financial used the money it raised would reveal whether its purpose was building promised financial products or benefiting Donald Trump.",
+          "paragraphs": [
+            "World Liberty Financial—WLF—\nmade digital promises with confident breath:\n“We’ll bridge classic banking to finance that is new,\nand build all the products we said we would do.”",
+            "But raising the money was only the start.\nWhere would it travel? That mattered a lot.\nIf funds built the products described in the plan,\nthen WLF’s grand digital mission might stand.",
+            "But if those new products did not quite appear,\nwhile Donald Trump’s pockets grew fuller that year,\nthen “upgrading finance” would sound rather funny—\na glittery label for raising him money.",
+            "Bloomberg’s Olga Kharif and Annie Massa reported on which interpretation fit.\nThe narrator withheld their answer and offered this test:\n“Just guess which one happened. What outcome seems best?”\nThe missing conclusion became the whole jest.",
+            "What happened? World Liberty Financial raised money while promising products that would connect traditional banking with digital finance. The section withholds Bloomberg’s reported answer but strongly invites readers to infer that the money benefited Donald Trump instead of producing the promised products."
+          ]
+        },
+        "middle": {
+          "title": "The Bridge, the Funds, and the Pockets",
+          "lesson": "How World Liberty Financial used the money it raised would reveal whether its purpose was building promised financial products or benefiting Donald Trump.",
+          "paragraphs": [
+            "World Liberty Financial—WLF—\nmade digital promises with confident breath:\n“We’ll bridge classic banking to finance that is new,\nand build all the products we said we would do.”",
+            "But raising the money was only the start.\nWhere would it travel? That mattered a lot.\nIf funds built the products described in the plan,\nthen WLF’s grand digital mission might stand.",
+            "But if those new products did not quite appear,\nwhile Donald Trump’s pockets grew fuller that year,\nthen “upgrading finance” would sound rather funny—\na glittery label for raising him money.",
+            "Bloomberg’s Olga Kharif and Annie Massa reported on which interpretation fit.\nThe narrator withheld their answer and offered this test:\n“Just guess which one happened. What outcome seems best?”\nThe missing conclusion became the whole jest.",
+            "What happened? World Liberty Financial raised money while promising products that would connect traditional banking with digital finance. The section withholds Bloomberg’s reported answer but strongly invites readers to infer that the money benefited Donald Trump instead of producing the promised products."
+          ]
+        },
+        "high": {
+          "title": "The Bridge, the Funds, and the Pockets",
+          "lesson": "How World Liberty Financial used the money it raised would reveal whether its purpose was building promised financial products or benefiting Donald Trump.",
+          "paragraphs": [
+            "World Liberty Financial—WLF—\nmade digital promises with confident breath:\n“We’ll bridge classic banking to finance that is new,\nand build all the products we said we would do.”",
+            "But raising the money was only the start.\nWhere would it travel? That mattered a lot.\nIf funds built the products described in the plan,\nthen WLF’s grand digital mission might stand.",
+            "But if those new products did not quite appear,\nwhile Donald Trump’s pockets grew fuller that year,\nthen “upgrading finance” would sound rather funny—\na glittery label for raising him money.",
+            "Bloomberg’s Olga Kharif and Annie Massa reported on which interpretation fit.\nThe narrator withheld their answer and offered this test:\n“Just guess which one happened. What outcome seems best?”\nThe missing conclusion became the whole jest.",
+            "What happened? World Liberty Financial raised money while promising products that would connect traditional banking with digital finance. The section withholds Bloomberg’s reported answer but strongly invites readers to infer that the money benefited Donald Trump instead of producing the promised products."
+          ]
+        }
+      }
+    }
+  ]
+}
