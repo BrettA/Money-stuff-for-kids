@@ -288,6 +288,18 @@
       "submitted": true,
       "updatedAt": "2026-09-18T17:13:41.682Z",
       "submittedAt": "2026-09-18T17:13:41.682Z"
+    },
+    "1a0ca626318a1523": {
+      "gmailMessageId": "1a0ca626318a1523",
+      "newsletterDate": "2026-09-22",
+      "newsletterTitle": "Who Cares If a Merger Is Fair?",
+      "editionId": "2026-09-22-who-cares-if-a-merger-is-fair",
+      "sourceSha256": "dc544a0d33d324133cdeafaf45b5334733d9c31e9601f9f7ce712957230da793",
+      "packageSha256": "3567b8e2eb2ed425ad7b37f9660184c1837a6f9fe004cf53cf51a1bb6313ce4c",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-22T20:14:43.849Z",
+      "submittedAt": "2026-09-22T20:14:43.849Z"
     }
   }
 }
