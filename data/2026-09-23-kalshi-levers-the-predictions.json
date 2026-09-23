@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-23-kalshi-levers-the-predictions",
+  "date": "2026-09-23",
+  "displayDate": "September 23, 2026",
+  "title": "Kalshi Levers the Predictions",
+  "sourceSections": [
+    "Kalshi Klear",
+    "Muse optimizing",
+    "TPAI",
+    "RIP 14a-8",
+    "Pool servicing",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "kalshi-klear",
+      "sourceSection": "Kalshi Klear",
+      "illustration": {
+        "src": "/images/2026-09-23-kalshi-levers-the-predictions/kalshi-klear.png",
+        "alt": "A Kalshi Klear filing sits at a CFTC review desk beside Yes and No contract slips, rising collateral blocks, and an excluded sports contract on a bench."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Ken Paxton"
+        ],
+        "realCompanies": [
+          "Kalshi",
+          "Polymarket",
+          "Kalshi Klear LLC"
+        ],
+        "financialMechanism": "Binary event contracts normally collect the full $1 combined cost of one Yes and one No position upfront. Kalshi Klear proposed allowing eligible sophisticated participants to trade certain contracts on margin, using risk models, rising collateral requirements near resolution, and conservative portfolio offsets.",
+        "centralJoke": "Leverage seems to be the irresistible destination of a futures exchange, but Kalshi Klear specifically excluded sports-event contracts from margin treatment—for now."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Kalshi Klear Adds a Lever",
+          "lesson": "Kalshi Klear asked the CFTC to approve risk-based margin for eligible event contracts, letting approved sophisticated participants post less than the full cost initially while requiring more collateral as risk rises and resolution approaches.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, Yes competes with No;\none pays one dollar, and one pays zero.\nTogether they cost a full dollar to buy,\nheld safe for the winner when time has gone by.",
+            "That simple design needs no margin call:\nthe money is waiting to cover it all.\nBut Kalshi Klear asked the CFTC\nfor leveraged contracts—quite carefully.",
+            "Suppose a big fund wants a $50 million chance\nthat Ken Paxton wins, while the market odds dance.\nInstead of paying the whole price that day,\nit might post $5 million to enter the play.",
+            "But if Paxton loses, the payout is naught,\nand $45 million more must be brought.\nSo this isn’t for casual customers online;\napproved, credit-checked traders must step to the line.",
+            "Klear would model bad moves with 99% confidence,\nthen raise required collateral as an event gets tense.\nNear the final result, when prices may leap,\nfull funding returns so the promise can keep.",
+            "Related positions may sometimes offset,\nif tests show their risks can be safely net.\nKalshi already uses leverage for perpetuals galore—\non gold, silver, and crypto, with stocks perhaps more.",
+            "But leveraged sports bets must stay on the bench;\nthose contracts aren’t eligible—not even an inch.\nFor comedy, that ending may feel incomplete:\na futures exchange found leverage—just not for the meet.",
+            "What happened? Kalshi Klear LLC filed with the US Commodity Futures Trading Commission to use risk-based margin for certain event contracts offered through approved sophisticated participants. The framework would increase collateral as contracts near resolution and allow only carefully tested offsets between related positions."
+          ]
+        },
+        "elementary": {
+          "title": "Kalshi Klear Adds a Lever",
+          "lesson": "Kalshi Klear asked the CFTC to approve risk-based margin for eligible event contracts, letting approved sophisticated participants post less than the full cost initially while requiring more collateral as risk rises and resolution approaches.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, Yes competes with No;\none pays one dollar, and one pays zero.\nTogether they cost a full dollar to buy,\nheld safe for the winner when time has gone by.",
+            "That simple design needs no margin call:\nthe money is waiting to cover it all.\nBut Kalshi Klear asked the CFTC\nfor leveraged contracts—quite carefully.",
+            "Suppose a big fund wants a $50 million chance\nthat Ken Paxton wins, while the market odds dance.\nInstead of paying the whole price that day,\nit might post $5 million to enter the play.",
+            "But if Paxton loses, the payout is naught,\nand $45 million more must be brought.\nSo this isn’t for casual customers online;\napproved, credit-checked traders must step to the line.",
+            "Klear would model bad moves with 99% confidence,\nthen raise required collateral as an event gets tense.\nNear the final result, when prices may leap,\nfull funding returns so the promise can keep.",
+            "Related positions may sometimes offset,\nif tests show their risks can be safely net.\nKalshi already uses leverage for perpetuals galore—\non gold, silver, and crypto, with stocks perhaps more.",
+            "But leveraged sports bets must stay on the bench;\nthose contracts aren’t eligible—not even an inch.\nFor comedy, that ending may feel incomplete:\na futures exchange found leverage—just not for the meet.",
+            "What happened? Kalshi Klear LLC filed with the US Commodity Futures Trading Commission to use risk-based margin for certain event contracts offered through approved sophisticated participants. The framework would increase collateral as contracts near resolution and allow only carefully tested offsets between related positions."
+          ]
+        },
+        "middle": {
+          "title": "Kalshi Klear Adds a Lever",
+          "lesson": "Kalshi Klear asked the CFTC to approve risk-based margin for eligible event contracts, letting approved sophisticated participants post less than the full cost initially while requiring more collateral as risk rises and resolution approaches.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, Yes competes with No;\none pays one dollar, and one pays zero.\nTogether they cost a full dollar to buy,\nheld safe for the winner when time has gone by.",
+            "That simple design needs no margin call:\nthe money is waiting to cover it all.\nBut Kalshi Klear asked the CFTC\nfor leveraged contracts—quite carefully.",
+            "Suppose a big fund wants a $50 million chance\nthat Ken Paxton wins, while the market odds dance.\nInstead of paying the whole price that day,\nit might post $5 million to enter the play.",
+            "But if Paxton loses, the payout is naught,\nand $45 million more must be brought.\nSo this isn’t for casual customers online;\napproved, credit-checked traders must step to the line.",
+            "Klear would model bad moves with 99% confidence,\nthen raise required collateral as an event gets tense.\nNear the final result, when prices may leap,\nfull funding returns so the promise can keep.",
+            "Related positions may sometimes offset,\nif tests show their risks can be safely net.\nKalshi already uses leverage for perpetuals galore—\non gold, silver, and crypto, with stocks perhaps more.",
+            "But leveraged sports bets must stay on the bench;\nthose contracts aren’t eligible—not even an inch.\nFor comedy, that ending may feel incomplete:\na futures exchange found leverage—just not for the meet.",
+            "What happened? Kalshi Klear LLC filed with the US Commodity Futures Trading Commission to use risk-based margin for certain event contracts offered through approved sophisticated participants. The framework would increase collateral as contracts near resolution and allow only carefully tested offsets between related positions."
+          ]
+        },
+        "high": {
+          "title": "Kalshi Klear Adds a Lever",
+          "lesson": "Kalshi Klear asked the CFTC to approve risk-based margin for eligible event contracts, letting approved sophisticated participants post less than the full cost initially while requiring more collateral as risk rises and resolution approaches.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, Yes competes with No;\none pays one dollar, and one pays zero.\nTogether they cost a full dollar to buy,\nheld safe for the winner when time has gone by.",
+            "That simple design needs no margin call:\nthe money is waiting to cover it all.\nBut Kalshi Klear asked the CFTC\nfor leveraged contracts—quite carefully.",
+            "Suppose a big fund wants a $50 million chance\nthat Ken Paxton wins, while the market odds dance.\nInstead of paying the whole price that day,\nit might post $5 million to enter the play.",
+            "But if Paxton loses, the payout is naught,\nand $45 million more must be brought.\nSo this isn’t for casual customers online;\napproved, credit-checked traders must step to the line.",
+            "Klear would model bad moves with 99% confidence,\nthen raise required collateral as an event gets tense.\nNear the final result, when prices may leap,\nfull funding returns so the promise can keep.",
+            "Related positions may sometimes offset,\nif tests show their risks can be safely net.\nKalshi already uses leverage for perpetuals galore—\non gold, silver, and crypto, with stocks perhaps more.",
+            "But leveraged sports bets must stay on the bench;\nthose contracts aren’t eligible—not even an inch.\nFor comedy, that ending may feel incomplete:\na futures exchange found leverage—just not for the meet.",
+            "What happened? Kalshi Klear LLC filed with the US Commodity Futures Trading Commission to use risk-based margin for certain event contracts offered through approved sophisticated participants. The framework would increase collateral as contracts near resolution and allow only carefully tested offsets between related positions."
+          ]
+        }
+      }
+    },
+    {
+      "id": "muse-optimizing",
+      "sourceSection": "Muse optimizing",
+      "illustration": {
+        "src": "/images/2026-09-23-kalshi-levers-the-predictions/muse-optimizing.png",
+        "alt": "Meta’s Muse moves a customer’s deposit folder from a low-interest bank counter to a higher-interest counter while idle brokerage cash disappears from a nearby tray."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Henry Ren",
+          "Devin Ryan"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Meta Platforms Inc.",
+          "Goldman Sachs Group Inc.",
+          "Morgan Stanley",
+          "Citizens",
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "Financial firms profit when customers leave deposits at low rates, delay mortgage refinancing, accept recurring charges, or keep idle cash at brokerages. AI agents could optimize these choices continuously, reducing cheap funding and other profits while potentially making mortgages and services more expensive.",
+        "centralJoke": "A tireless AI that saves consumers money by making everyone more attentive could also make ordinary financial products cost more, because the industry can no longer profit from people forgetting to switch."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Muse and the Money That Wouldn’t Sit Still",
+          "lesson": "AI agents could continuously move deposits, refinance mortgages, and reduce idle brokerage cash, forcing financial firms to pay customers more or charge higher prices.",
+          "paragraphs": [
+            "On Tuesday, bank and insurer shares slid,\nand online travel agencies did what they did.\nNot because one clever bot changed things that night,\nbut investors feared what such helpers might.",
+            "Bloomberg’s Henry Ren reported the worry:\nAI could compare every price in a hurry.\nMuse, Meta Platforms’ personal AI,\ncould keep hunting for better deals without getting tired or shy.",
+            "Today, bank customers often leave money in place,\nthough another account pays a much better rate.\nThat “consumer inertia”—not switching or checking—\ngives banks cheap deposits while interest keeps ticking.",
+            "Goldman Sachs Group said assistants like Muse and Instinct\ncould question recurring bills and add-ons in a blink.\nMorgan Stanley warned that easier refinancing might mean\nmore borrowers replace mortgages when lower rates are seen.",
+            "Then mortgage investors could ask for more interest in return,\nbecause faster refinancing gives them less time to earn.\nA helpful AI might save borrowers money one day—\nthen make new mortgages costlier along the way.",
+            "Devin Ryan of Citizens told The Wall Street Journal\nthat no single agent had changed finance wholesale.\nBut if bots optimize twenty-four hours a day,\ncould brokerages’ profitable idle cash melt away?",
+            "What happened? Investors sold shares of major banks, insurers, and online travel agencies because they feared AI agents could overcome customer inattention. By constantly moving deposits, refinancing mortgages, comparing prices, and reducing idle brokerage cash, AI could shrink profits and force financial firms to pay or charge market rates."
+          ]
+        },
+        "elementary": {
+          "title": "Muse and the Money That Wouldn’t Sit Still",
+          "lesson": "AI agents could continuously move deposits, refinance mortgages, and reduce idle brokerage cash, forcing financial firms to pay customers more or charge higher prices.",
+          "paragraphs": [
+            "On Tuesday, bank and insurer shares slid,\nand online travel agencies did what they did.\nNot because one clever bot changed things that night,\nbut investors feared what such helpers might.",
+            "Bloomberg’s Henry Ren reported the worry:\nAI could compare every price in a hurry.\nMuse, Meta Platforms’ personal AI,\ncould keep hunting for better deals without getting tired or shy.",
+            "Today, bank customers often leave money in place,\nthough another account pays a much better rate.\nThat “consumer inertia”—not switching or checking—\ngives banks cheap deposits while interest keeps ticking.",
+            "Goldman Sachs Group said assistants like Muse and Instinct\ncould question recurring bills and add-ons in a blink.\nMorgan Stanley warned that easier refinancing might mean\nmore borrowers replace mortgages when lower rates are seen.",
+            "Then mortgage investors could ask for more interest in return,\nbecause faster refinancing gives them less time to earn.\nA helpful AI might save borrowers money one day—\nthen make new mortgages costlier along the way.",
+            "Devin Ryan of Citizens told The Wall Street Journal\nthat no single agent had changed finance wholesale.\nBut if bots optimize twenty-four hours a day,\ncould brokerages’ profitable idle cash melt away?",
+            "What happened? Investors sold shares of major banks, insurers, and online travel agencies because they feared AI agents could overcome customer inattention. By constantly moving deposits, refinancing mortgages, comparing prices, and reducing idle brokerage cash, AI could shrink profits and force financial firms to pay or charge market rates."
+          ]
+        },
+        "middle": {
+          "title": "Muse and the Money That Wouldn’t Sit Still",
+          "lesson": "AI agents could continuously move deposits, refinance mortgages, and reduce idle brokerage cash, forcing financial firms to pay customers more or charge higher prices.",
+          "paragraphs": [
+            "On Tuesday, bank and insurer shares slid,\nand online travel agencies did what they did.\nNot because one clever bot changed things that night,\nbut investors feared what such helpers might.",
+            "Bloomberg’s Henry Ren reported the worry:\nAI could compare every price in a hurry.\nMuse, Meta Platforms’ personal AI,\ncould keep hunting for better deals without getting tired or shy.",
+            "Today, bank customers often leave money in place,\nthough another account pays a much better rate.\nThat “consumer inertia”—not switching or checking—\ngives banks cheap deposits while interest keeps ticking.",
+            "Goldman Sachs Group said assistants like Muse and Instinct\ncould question recurring bills and add-ons in a blink.\nMorgan Stanley warned that easier refinancing might mean\nmore borrowers replace mortgages when lower rates are seen.",
+            "Then mortgage investors could ask for more interest in return,\nbecause faster refinancing gives them less time to earn.\nA helpful AI might save borrowers money one day—\nthen make new mortgages costlier along the way.",
+            "Devin Ryan of Citizens told The Wall Street Journal\nthat no single agent had changed finance wholesale.\nBut if bots optimize twenty-four hours a day,\ncould brokerages’ profitable idle cash melt away?",
+            "What happened? Investors sold shares of major banks, insurers, and online travel agencies because they feared AI agents could overcome customer inattention. By constantly moving deposits, refinancing mortgages, comparing prices, and reducing idle brokerage cash, AI could shrink profits and force financial firms to pay or charge market rates."
+          ]
+        },
+        "high": {
+          "title": "Muse and the Money That Wouldn’t Sit Still",
+          "lesson": "AI agents could continuously move deposits, refinance mortgages, and reduce idle brokerage cash, forcing financial firms to pay customers more or charge higher prices.",
+          "paragraphs": [
+            "On Tuesday, bank and insurer shares slid,\nand online travel agencies did what they did.\nNot because one clever bot changed things that night,\nbut investors feared what such helpers might.",
+            "Bloomberg’s Henry Ren reported the worry:\nAI could compare every price in a hurry.\nMuse, Meta Platforms’ personal AI,\ncould keep hunting for better deals without getting tired or shy.",
+            "Today, bank customers often leave money in place,\nthough another account pays a much better rate.\nThat “consumer inertia”—not switching or checking—\ngives banks cheap deposits while interest keeps ticking.",
+            "Goldman Sachs Group said assistants like Muse and Instinct\ncould question recurring bills and add-ons in a blink.\nMorgan Stanley warned that easier refinancing might mean\nmore borrowers replace mortgages when lower rates are seen.",
+            "Then mortgage investors could ask for more interest in return,\nbecause faster refinancing gives them less time to earn.\nA helpful AI might save borrowers money one day—\nthen make new mortgages costlier along the way.",
+            "Devin Ryan of Citizens told The Wall Street Journal\nthat no single agent had changed finance wholesale.\nBut if bots optimize twenty-four hours a day,\ncould brokerages’ profitable idle cash melt away?",
+            "What happened? Investors sold shares of major banks, insurers, and online travel agencies because they feared AI agents could overcome customer inattention. By constantly moving deposits, refinancing mortgages, comparing prices, and reducing idle brokerage cash, AI could shrink profits and force financial firms to pay or charge market rates."
+          ]
+        }
+      }
+    },
+    {
+      "id": "tpai",
+      "sourceSection": "TPAI",
+      "illustration": {
+        "src": "/images/2026-09-23-kalshi-levers-the-predictions/tpai.png",
+        "alt": "Monte Tarbox stands among separate piles of stocks, private-equity papers, corporate bonds, Treasury notes, and data-center blueprints, with cables from every pile leading to the same server-filled data center."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Monte Tarbox",
+          "Lu Wang"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "New York City Retirement Systems"
+        ],
+        "financialMechanism": "Asset allocation diversifies by investment category, while the total portfolio approach measures sensitivity to shared economic factors. AI exposure now runs through public stocks, private equity, corporate debt, infrastructure, and even Treasury yields, creating systematic concentration risk across categories.",
+        "centralJoke": "A giant pension fund can turn every diversification dial until the knobs pop off, yet if AI increasingly is the economy, its supposedly diversified portfolio still becomes an AI bet."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Dials That All Pointed to AI",
+          "lesson": "Asset allocation can spread a pension fund across different investment types, but a total portfolio approach reveals shared economic risks; AI now affects so many assets that diversification cannot remove the fund’s exposure to it.",
+          "paragraphs": [
+            "Monte Tarbox watched New York’s retirement funds,\nspread among shares, private deals, debts, and infrastructure sums.\n“Stocks here, bonds there”—that’s allocation by kind,\na plan meant to keep too much risk from combining.",
+            "A total portfolio approach looks underneath:\nWhat makes values rise? What might bring grief?\nIts dashboard may track fifty factors and show\nhow a 1% change makes the whole portfolio go.",
+            "But AI had slipped into basket after basket:\nTech giants led stocks; private funds backed AI projects.\nBig computing firms issued mountains of debt,\nwhile data centers filled infrastructure’s set.",
+            "Even US Treasuries joined the strange chain:\nAI needs more power, which can push prices again.\nLu Wang of Bloomberg reported the twist:\nthe usual promise of spreading risk might not exist.",
+            "Monte called this systematic risk—a force spread so wide,\nno single asset-class view could see every side.\nHe could turn all the dials till each knob popped away,\nbut when the economy is AI, the fund is AI anyway.",
+            "What happened? New York City Retirement Systems invested across stocks, private equity, corporate debt, infrastructure, and other assets, but Chief Investment Officer Monte Tarbox warned that AI affected all of them. Because those different investments shared the same AI-related economic risk, ordinary diversification could not fully remove it."
+          ]
+        },
+        "elementary": {
+          "title": "The Dials That All Pointed to AI",
+          "lesson": "Asset allocation can spread a pension fund across different investment types, but a total portfolio approach reveals shared economic risks; AI now affects so many assets that diversification cannot remove the fund’s exposure to it.",
+          "paragraphs": [
+            "Monte Tarbox watched New York’s retirement funds,\nspread among shares, private deals, debts, and infrastructure sums.\n“Stocks here, bonds there”—that’s allocation by kind,\na plan meant to keep too much risk from combining.",
+            "A total portfolio approach looks underneath:\nWhat makes values rise? What might bring grief?\nIts dashboard may track fifty factors and show\nhow a 1% change makes the whole portfolio go.",
+            "But AI had slipped into basket after basket:\nTech giants led stocks; private funds backed AI projects.\nBig computing firms issued mountains of debt,\nwhile data centers filled infrastructure’s set.",
+            "Even US Treasuries joined the strange chain:\nAI needs more power, which can push prices again.\nLu Wang of Bloomberg reported the twist:\nthe usual promise of spreading risk might not exist.",
+            "Monte called this systematic risk—a force spread so wide,\nno single asset-class view could see every side.\nHe could turn all the dials till each knob popped away,\nbut when the economy is AI, the fund is AI anyway.",
+            "What happened? New York City Retirement Systems invested across stocks, private equity, corporate debt, infrastructure, and other assets, but Chief Investment Officer Monte Tarbox warned that AI affected all of them. Because those different investments shared the same AI-related economic risk, ordinary diversification could not fully remove it."
+          ]
+        },
+        "middle": {
+          "title": "The Dials That All Pointed to AI",
+          "lesson": "Asset allocation can spread a pension fund across different investment types, but a total portfolio approach reveals shared economic risks; AI now affects so many assets that diversification cannot remove the fund’s exposure to it.",
+          "paragraphs": [
+            "Monte Tarbox watched New York’s retirement funds,\nspread among shares, private deals, debts, and infrastructure sums.\n“Stocks here, bonds there”—that’s allocation by kind,\na plan meant to keep too much risk from combining.",
+            "A total portfolio approach looks underneath:\nWhat makes values rise? What might bring grief?\nIts dashboard may track fifty factors and show\nhow a 1% change makes the whole portfolio go.",
+            "But AI had slipped into basket after basket:\nTech giants led stocks; private funds backed AI projects.\nBig computing firms issued mountains of debt,\nwhile data centers filled infrastructure’s set.",
+            "Even US Treasuries joined the strange chain:\nAI needs more power, which can push prices again.\nLu Wang of Bloomberg reported the twist:\nthe usual promise of spreading risk might not exist.",
+            "Monte called this systematic risk—a force spread so wide,\nno single asset-class view could see every side.\nHe could turn all the dials till each knob popped away,\nbut when the economy is AI, the fund is AI anyway.",
+            "What happened? New York City Retirement Systems invested across stocks, private equity, corporate debt, infrastructure, and other assets, but Chief Investment Officer Monte Tarbox warned that AI affected all of them. Because those different investments shared the same AI-related economic risk, ordinary diversification could not fully remove it."
+          ]
+        },
+        "high": {
+          "title": "The Dials That All Pointed to AI",
+          "lesson": "Asset allocation can spread a pension fund across different investment types, but a total portfolio approach reveals shared economic risks; AI now affects so many assets that diversification cannot remove the fund’s exposure to it.",
+          "paragraphs": [
+            "Monte Tarbox watched New York’s retirement funds,\nspread among shares, private deals, debts, and infrastructure sums.\n“Stocks here, bonds there”—that’s allocation by kind,\na plan meant to keep too much risk from combining.",
+            "A total portfolio approach looks underneath:\nWhat makes values rise? What might bring grief?\nIts dashboard may track fifty factors and show\nhow a 1% change makes the whole portfolio go.",
+            "But AI had slipped into basket after basket:\nTech giants led stocks; private funds backed AI projects.\nBig computing firms issued mountains of debt,\nwhile data centers filled infrastructure’s set.",
+            "Even US Treasuries joined the strange chain:\nAI needs more power, which can push prices again.\nLu Wang of Bloomberg reported the twist:\nthe usual promise of spreading risk might not exist.",
+            "Monte called this systematic risk—a force spread so wide,\nno single asset-class view could see every side.\nHe could turn all the dials till each knob popped away,\nbut when the economy is AI, the fund is AI anyway.",
+            "What happened? New York City Retirement Systems invested across stocks, private equity, corporate debt, infrastructure, and other assets, but Chief Investment Officer Monte Tarbox warned that AI affected all of them. Because those different investments shared the same AI-related economic risk, ordinary diversification could not fully remove it."
+          ]
+        }
+      }
+    },
+    {
+      "id": "rip-14a-8",
+      "sourceSection": "RIP 14a-8",
+      "illustration": {
+        "src": "/images/2026-09-23-kalshi-levers-the-predictions/rip-14a-8.png",
+        "alt": "A junior M&A lawyer inspects a carbon-emissions shareholder proposal while Rule 14a-8 is removed from a company’s proxy voting packet."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "none in source"
+        ],
+        "financialMechanism": "Rule 14a-8 allows qualifying shareholders to place nonbinding proposals in a U.S. public company’s proxy statement for a vote. The SEC proposed rescinding the rule, which would shift decisions about shareholder proposals to state law and company governing documents.",
+        "centralJoke": "Junior M&A lawyers spent rare breaks between mergers and acquisitions nitpicking technical flaws in shareholder proposals; the writer’s joking LinkedIn description of that dull specialty is now becoming a relic."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Proxy Proposal’s Last Vote",
+          "lesson": "Rule 14a-8 puts qualifying, nonbinding shareholder proposals in public companies’ proxy voting materials; the SEC has proposed rescinding it and leaving such access to state law and company governing documents.",
+          "paragraphs": [
+            "At U.S. public companies, Rule 14a-8\nput shareholder proposals onto the slate.\n“Please report your carbon emissions,” one might say;\nthe proxy voting packet would print it that way.\nThe board could reply, “We advise voting no.”\nThen owners would choose—but the board need not follow.",
+            "Two percent “yes”? “Sweet,” the directors might say.\nAt thirty or sixty, concern held more sway.\nThough still nonbinding, the vote was a sign:\n“Our owners may doubt how we manage and plan.”\nA proxy fight or takeover might then appear—\nand without owners’ support, boards had reason to fear.",
+            "Companies searched for small flaws they could cite,\nso proposals stayed out of the packet outright.\nJunior law associates picked rules apart;\nit filled rare little gaps when no deal work would start.\nOne M&A lawyer’s LinkedIn joked of his time:\n“I did M, and sometimes A. All of the time.\nAlso shareholder proxy proposal defense.”\nA grand-sounding job made of small-print suspense.",
+            "First, the SEC stopped reviewing each plea\nto exclude a proposal on some technicality.\nNow it has proposed that the whole rule should end;\nstate law and company documents would govern instead.\nOwners could mail their own proxy cards for a fight,\nbut that’s costly and hard for a nonbinding write-up.\nIt means more power for boards—and less shareholder say;\nthe former junior lawyer won’t miss that old workday.",
+            "What happened? The SEC proposed rescinding Rule 14a-8, which lets qualifying shareholders place nonbinding proposals in public companies’ proxy materials. Without it, access for those proposals would depend on state law and company governing documents, while shareholders could still pursue more expensive proxy fights."
+          ]
+        },
+        "elementary": {
+          "title": "The Proxy Proposal’s Last Vote",
+          "lesson": "Rule 14a-8 puts qualifying, nonbinding shareholder proposals in public companies’ proxy voting materials; the SEC has proposed rescinding it and leaving such access to state law and company governing documents.",
+          "paragraphs": [
+            "At U.S. public companies, Rule 14a-8\nput shareholder proposals onto the slate.\n“Please report your carbon emissions,” one might say;\nthe proxy voting packet would print it that way.\nThe board could reply, “We advise voting no.”\nThen owners would choose—but the board need not follow.",
+            "Two percent “yes”? “Sweet,” the directors might say.\nAt thirty or sixty, concern held more sway.\nThough still nonbinding, the vote was a sign:\n“Our owners may doubt how we manage and plan.”\nA proxy fight or takeover might then appear—\nand without owners’ support, boards had reason to fear.",
+            "Companies searched for small flaws they could cite,\nso proposals stayed out of the packet outright.\nJunior law associates picked rules apart;\nit filled rare little gaps when no deal work would start.\nOne M&A lawyer’s LinkedIn joked of his time:\n“I did M, and sometimes A. All of the time.\nAlso shareholder proxy proposal defense.”\nA grand-sounding job made of small-print suspense.",
+            "First, the SEC stopped reviewing each plea\nto exclude a proposal on some technicality.\nNow it has proposed that the whole rule should end;\nstate law and company documents would govern instead.\nOwners could mail their own proxy cards for a fight,\nbut that’s costly and hard for a nonbinding write-up.\nIt means more power for boards—and less shareholder say;\nthe former junior lawyer won’t miss that old workday.",
+            "What happened? The SEC proposed rescinding Rule 14a-8, which lets qualifying shareholders place nonbinding proposals in public companies’ proxy materials. Without it, access for those proposals would depend on state law and company governing documents, while shareholders could still pursue more expensive proxy fights."
+          ]
+        },
+        "middle": {
+          "title": "The Proxy Proposal’s Last Vote",
+          "lesson": "Rule 14a-8 puts qualifying, nonbinding shareholder proposals in public companies’ proxy voting materials; the SEC has proposed rescinding it and leaving such access to state law and company governing documents.",
+          "paragraphs": [
+            "At U.S. public companies, Rule 14a-8\nput shareholder proposals onto the slate.\n“Please report your carbon emissions,” one might say;\nthe proxy voting packet would print it that way.\nThe board could reply, “We advise voting no.”\nThen owners would choose—but the board need not follow.",
+            "Two percent “yes”? “Sweet,” the directors might say.\nAt thirty or sixty, concern held more sway.\nThough still nonbinding, the vote was a sign:\n“Our owners may doubt how we manage and plan.”\nA proxy fight or takeover might then appear—\nand without owners’ support, boards had reason to fear.",
+            "Companies searched for small flaws they could cite,\nso proposals stayed out of the packet outright.\nJunior law associates picked rules apart;\nit filled rare little gaps when no deal work would start.\nOne M&A lawyer’s LinkedIn joked of his time:\n“I did M, and sometimes A. All of the time.\nAlso shareholder proxy proposal defense.”\nA grand-sounding job made of small-print suspense.",
+            "First, the SEC stopped reviewing each plea\nto exclude a proposal on some technicality.\nNow it has proposed that the whole rule should end;\nstate law and company documents would govern instead.\nOwners could mail their own proxy cards for a fight,\nbut that’s costly and hard for a nonbinding write-up.\nIt means more power for boards—and less shareholder say;\nthe former junior lawyer won’t miss that old workday.",
+            "What happened? The SEC proposed rescinding Rule 14a-8, which lets qualifying shareholders place nonbinding proposals in public companies’ proxy materials. Without it, access for those proposals would depend on state law and company governing documents, while shareholders could still pursue more expensive proxy fights."
+          ]
+        },
+        "high": {
+          "title": "The Proxy Proposal’s Last Vote",
+          "lesson": "Rule 14a-8 puts qualifying, nonbinding shareholder proposals in public companies’ proxy voting materials; the SEC has proposed rescinding it and leaving such access to state law and company governing documents.",
+          "paragraphs": [
+            "At U.S. public companies, Rule 14a-8\nput shareholder proposals onto the slate.\n“Please report your carbon emissions,” one might say;\nthe proxy voting packet would print it that way.\nThe board could reply, “We advise voting no.”\nThen owners would choose—but the board need not follow.",
+            "Two percent “yes”? “Sweet,” the directors might say.\nAt thirty or sixty, concern held more sway.\nThough still nonbinding, the vote was a sign:\n“Our owners may doubt how we manage and plan.”\nA proxy fight or takeover might then appear—\nand without owners’ support, boards had reason to fear.",
+            "Companies searched for small flaws they could cite,\nso proposals stayed out of the packet outright.\nJunior law associates picked rules apart;\nit filled rare little gaps when no deal work would start.\nOne M&A lawyer’s LinkedIn joked of his time:\n“I did M, and sometimes A. All of the time.\nAlso shareholder proxy proposal defense.”\nA grand-sounding job made of small-print suspense.",
+            "First, the SEC stopped reviewing each plea\nto exclude a proposal on some technicality.\nNow it has proposed that the whole rule should end;\nstate law and company documents would govern instead.\nOwners could mail their own proxy cards for a fight,\nbut that’s costly and hard for a nonbinding write-up.\nIt means more power for boards—and less shareholder say;\nthe former junior lawyer won’t miss that old workday.",
+            "What happened? The SEC proposed rescinding Rule 14a-8, which lets qualifying shareholders place nonbinding proposals in public companies’ proxy materials. Without it, access for those proposals would depend on state law and company governing documents, while shareholders could still pursue more expensive proxy fights."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pool-servicing",
+      "sourceSection": "Pool servicing",
+      "illustration": {
+        "src": "/images/2026-09-23-kalshi-levers-the-predictions/pool-servicing.png",
+        "alt": "Pool-service vans from many small businesses join fleets marked SPS Poolcare and Pool Troopers, while a Cody Pools ownership certificate receives a seven-times valuation stamp."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "SPS Poolcare",
+          "Pool Troopers",
+          "Main Street Capital",
+          "Cody Pools"
+        ],
+        "financialMechanism": "A private equity roll-up: investors buy many small pool-building and repair companies, combine them into larger platforms, and may increase the recorded value of their ownership stakes.",
+        "centralJoke": "Private equity, often presented as glamorous high finance, is enthusiastically consolidating the unglamorous pool-cleaning business—even though top Harvard and Stanford MBA students are not exactly racing to clean pools."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Great Pool-Care Roll-Up",
+          "lesson": "Private equity firms built larger pool-service platforms by buying and combining many small businesses; Main Street Capital also marked its Cody Pools stake at seven times its earlier value.",
+          "paragraphs": [
+            "In towns full of pools, little companies came\nto build, clean, and fix them, each under its name.\nThe industry stayed mostly local and small—\nthen private-equity owners came calling on all.",
+            "They called it a “platform”: one company grown\nby buying small services town after town.\nThe hope was that hundreds, together in scale,\ncould form one big business with nationwide reach.",
+            "SPS Poolcare and Pool Troopers grew vast;\nmore than two hundred businesses joined them at last.\nThen earlier this year, the two firms combined—\na pool-care roll-up, all newly entwined.",
+            "Main Street Capital bought, at the pandemic’s height,\npart of Cody Pools—an equity stake, or ownership right.\nOn Main Street’s books, the result looked quite good:\nat seven times its purchase-time value, it stood.",
+            "Private equity sounded all polished and cool;\nits latest beloved trade was servicing pools.\nBut top MBA students weren’t forming a line\nat Harvard and Stanford to scrub and to shine.",
+            "What happened? Private equity-backed SPS Poolcare and Pool Troopers bought more than 200 pool businesses between them and then merged. Main Street Capital bought a stake in Cody Pools during the pandemic and later marked its value up sevenfold."
+          ]
+        },
+        "elementary": {
+          "title": "The Great Pool-Care Roll-Up",
+          "lesson": "Private equity firms built larger pool-service platforms by buying and combining many small businesses; Main Street Capital also marked its Cody Pools stake at seven times its earlier value.",
+          "paragraphs": [
+            "In towns full of pools, little companies came\nto build, clean, and fix them, each under its name.\nThe industry stayed mostly local and small—\nthen private-equity owners came calling on all.",
+            "They called it a “platform”: one company grown\nby buying small services town after town.\nThe hope was that hundreds, together in scale,\ncould form one big business with nationwide reach.",
+            "SPS Poolcare and Pool Troopers grew vast;\nmore than two hundred businesses joined them at last.\nThen earlier this year, the two firms combined—\na pool-care roll-up, all newly entwined.",
+            "Main Street Capital bought, at the pandemic’s height,\npart of Cody Pools—an equity stake, or ownership right.\nOn Main Street’s books, the result looked quite good:\nat seven times its purchase-time value, it stood.",
+            "Private equity sounded all polished and cool;\nits latest beloved trade was servicing pools.\nBut top MBA students weren’t forming a line\nat Harvard and Stanford to scrub and to shine.",
+            "What happened? Private equity-backed SPS Poolcare and Pool Troopers bought more than 200 pool businesses between them and then merged. Main Street Capital bought a stake in Cody Pools during the pandemic and later marked its value up sevenfold."
+          ]
+        },
+        "middle": {
+          "title": "The Great Pool-Care Roll-Up",
+          "lesson": "Private equity firms built larger pool-service platforms by buying and combining many small businesses; Main Street Capital also marked its Cody Pools stake at seven times its earlier value.",
+          "paragraphs": [
+            "In towns full of pools, little companies came\nto build, clean, and fix them, each under its name.\nThe industry stayed mostly local and small—\nthen private-equity owners came calling on all.",
+            "They called it a “platform”: one company grown\nby buying small services town after town.\nThe hope was that hundreds, together in scale,\ncould form one big business with nationwide reach.",
+            "SPS Poolcare and Pool Troopers grew vast;\nmore than two hundred businesses joined them at last.\nThen earlier this year, the two firms combined—\na pool-care roll-up, all newly entwined.",
+            "Main Street Capital bought, at the pandemic’s height,\npart of Cody Pools—an equity stake, or ownership right.\nOn Main Street’s books, the result looked quite good:\nat seven times its purchase-time value, it stood.",
+            "Private equity sounded all polished and cool;\nits latest beloved trade was servicing pools.\nBut top MBA students weren’t forming a line\nat Harvard and Stanford to scrub and to shine.",
+            "What happened? Private equity-backed SPS Poolcare and Pool Troopers bought more than 200 pool businesses between them and then merged. Main Street Capital bought a stake in Cody Pools during the pandemic and later marked its value up sevenfold."
+          ]
+        },
+        "high": {
+          "title": "The Great Pool-Care Roll-Up",
+          "lesson": "Private equity firms built larger pool-service platforms by buying and combining many small businesses; Main Street Capital also marked its Cody Pools stake at seven times its earlier value.",
+          "paragraphs": [
+            "In towns full of pools, little companies came\nto build, clean, and fix them, each under its name.\nThe industry stayed mostly local and small—\nthen private-equity owners came calling on all.",
+            "They called it a “platform”: one company grown\nby buying small services town after town.\nThe hope was that hundreds, together in scale,\ncould form one big business with nationwide reach.",
+            "SPS Poolcare and Pool Troopers grew vast;\nmore than two hundred businesses joined them at last.\nThen earlier this year, the two firms combined—\na pool-care roll-up, all newly entwined.",
+            "Main Street Capital bought, at the pandemic’s height,\npart of Cody Pools—an equity stake, or ownership right.\nOn Main Street’s books, the result looked quite good:\nat seven times its purchase-time value, it stood.",
+            "Private equity sounded all polished and cool;\nits latest beloved trade was servicing pools.\nBut top MBA students weren’t forming a line\nat Harvard and Stanford to scrub and to shine.",
+            "What happened? Private equity-backed SPS Poolcare and Pool Troopers bought more than 200 pool businesses between them and then merged. Main Street Capital bought a stake in Cody Pools during the pandemic and later marked its value up sevenfold."
+          ]
+        }
+      }
+    }
+  ]
+}
