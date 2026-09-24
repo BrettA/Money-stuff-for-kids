@@ -312,6 +312,18 @@
       "submitted": true,
       "updatedAt": "2026-09-23T20:24:24.259Z",
       "submittedAt": "2026-09-23T20:24:24.259Z"
+    },
+    "1a0d4a336ac46e80": {
+      "gmailMessageId": "1a0d4a336ac46e80",
+      "newsletterDate": "2026-09-24",
+      "newsletterTitle": "Morgan Stanley Leaked Some Deals",
+      "editionId": "2026-09-24-morgan-stanley-leaked-some-deals",
+      "sourceSha256": "216d511dc6a9ed947057b77d4db31c8811383c8806eda4d9c11d99bbf7532ede",
+      "packageSha256": "4ed3932c02b02fe71a6482fb3b4e56ceab09771df05e0ebc547175edafb70828",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-24T20:34:45.603Z",
+      "submittedAt": "2026-09-24T20:34:45.603Z"
     }
   }
 }
