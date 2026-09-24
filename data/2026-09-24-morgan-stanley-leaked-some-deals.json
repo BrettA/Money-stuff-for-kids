@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-24-morgan-stanley-leaked-some-deals",
+  "date": "2026-09-24",
+  "displayDate": "September 24, 2026",
+  "title": "Morgan Stanley Leaked Some Deals",
+  "sourceSections": [
+    "Deal list leak",
+    "Force majeure",
+    "PE gloom",
+    "Banks are where money isn’t",
+    "Some light insider trading",
+    "Medicaid arbitrage",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "deal-list-leak",
+      "sourceSection": "Deal list leak",
+      "illustration": {
+        "src": "/images/2026-09-24-morgan-stanley-leaked-some-deals/deal-list-leak.png",
+        "alt": "A Morgan Stanley banker realizes the wrong document was sent as a long internal pipeline marked with more than 100 possible deals unrolls toward a client, while Link REIT points to a note saying there is no current transaction."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Morgan Stanley",
+          "Bloomberg News",
+          "Link REIT"
+        ],
+        "financialMechanism": "A banker mistakenly sent an internal deal pipeline instead of a client-facing file; because possible IPOs and block trades can increase share supply and affect prices, the leak could theoretically be tested by shorting listed public companies while buying similar unlisted companies, though pipeline entries may be speculative.",
+        "centralJoke": "The supposedly sensitive pipeline was so aspirational that at least one named company, Link REIT, said it had no current or recent deal engagement with Morgan Stanley—exactly the sort of non-deal that can still appear on a banker’s busy-looking list."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Pipeline That Spilled",
+          "lesson": "An investment-banking pipeline can mix real assignments with pitches, possibilities, paused projects, and companies with no active engagement, so even leaked price-sensitive information may be an unreliable trading guide.",
+          "paragraphs": [
+            "At Morgan Stanley, a banker prepared\nA client update, polished and pared.\nBut instead of the version meant to go out,\nThe internal file took the wrong route.",
+            "More than one hundred possible deals filled the sheet,\nAcross Asia, with other regions complete.\nChina, South Korea, and India appeared,\nWith funds that might back them and projects once steered.",
+            "Some companies might offer shares through an IPO—\nTheir first public sale, if the plans were a go.\nSome might do block trades: big bundles of stock.\nSome deals were on hold; some were merely in talk.",
+            "The file held information that could move a price,\nSo Bloomberg News checked it and read it twice.\nWould shares on the list sink under new supply?\nOne could short those stocks and let the theory fly—",
+            "Then buy similar companies not named on the page,\nAnd compare both groups over a six-month stage.\nYet a pipeline may hold every hope in the shop:\nA mandate, a pitch, or a call still on top.",
+            "Link REIT of Hong Kong was named in the stack,\nBut answered with facts that pushed firmly back:\n“No current transaction with Morgan Stanley,” it said,\n“And no recent deal talks.” The pipeline sprawled ahead.",
+            "What happened? A Morgan Stanley employee accidentally sent a client an internal pipeline listing more than 100 deals being pitched or monitored, including potentially price-sensitive IPO and block-trade information. Link REIT said it had no current transaction or recent deal discussions with Morgan Stanley, illustrating that pipeline entries are not necessarily real assignments."
+          ]
+        },
+        "elementary": {
+          "title": "The Pipeline That Spilled",
+          "lesson": "An investment-banking pipeline can mix real assignments with pitches, possibilities, paused projects, and companies with no active engagement, so even leaked price-sensitive information may be an unreliable trading guide.",
+          "paragraphs": [
+            "At Morgan Stanley, a banker prepared\nA client update, polished and pared.\nBut instead of the version meant to go out,\nThe internal file took the wrong route.",
+            "More than one hundred possible deals filled the sheet,\nAcross Asia, with other regions complete.\nChina, South Korea, and India appeared,\nWith funds that might back them and projects once steered.",
+            "Some companies might offer shares through an IPO—\nTheir first public sale, if the plans were a go.\nSome might do block trades: big bundles of stock.\nSome deals were on hold; some were merely in talk.",
+            "The file held information that could move a price,\nSo Bloomberg News checked it and read it twice.\nWould shares on the list sink under new supply?\nOne could short those stocks and let the theory fly—",
+            "Then buy similar companies not named on the page,\nAnd compare both groups over a six-month stage.\nYet a pipeline may hold every hope in the shop:\nA mandate, a pitch, or a call still on top.",
+            "Link REIT of Hong Kong was named in the stack,\nBut answered with facts that pushed firmly back:\n“No current transaction with Morgan Stanley,” it said,\n“And no recent deal talks.” The pipeline sprawled ahead.",
+            "What happened? A Morgan Stanley employee accidentally sent a client an internal pipeline listing more than 100 deals being pitched or monitored, including potentially price-sensitive IPO and block-trade information. Link REIT said it had no current transaction or recent deal discussions with Morgan Stanley, illustrating that pipeline entries are not necessarily real assignments."
+          ]
+        },
+        "middle": {
+          "title": "The Pipeline That Spilled",
+          "lesson": "An investment-banking pipeline can mix real assignments with pitches, possibilities, paused projects, and companies with no active engagement, so even leaked price-sensitive information may be an unreliable trading guide.",
+          "paragraphs": [
+            "At Morgan Stanley, a banker prepared\nA client update, polished and pared.\nBut instead of the version meant to go out,\nThe internal file took the wrong route.",
+            "More than one hundred possible deals filled the sheet,\nAcross Asia, with other regions complete.\nChina, South Korea, and India appeared,\nWith funds that might back them and projects once steered.",
+            "Some companies might offer shares through an IPO—\nTheir first public sale, if the plans were a go.\nSome might do block trades: big bundles of stock.\nSome deals were on hold; some were merely in talk.",
+            "The file held information that could move a price,\nSo Bloomberg News checked it and read it twice.\nWould shares on the list sink under new supply?\nOne could short those stocks and let the theory fly—",
+            "Then buy similar companies not named on the page,\nAnd compare both groups over a six-month stage.\nYet a pipeline may hold every hope in the shop:\nA mandate, a pitch, or a call still on top.",
+            "Link REIT of Hong Kong was named in the stack,\nBut answered with facts that pushed firmly back:\n“No current transaction with Morgan Stanley,” it said,\n“And no recent deal talks.” The pipeline sprawled ahead.",
+            "What happened? A Morgan Stanley employee accidentally sent a client an internal pipeline listing more than 100 deals being pitched or monitored, including potentially price-sensitive IPO and block-trade information. Link REIT said it had no current transaction or recent deal discussions with Morgan Stanley, illustrating that pipeline entries are not necessarily real assignments."
+          ]
+        },
+        "high": {
+          "title": "The Pipeline That Spilled",
+          "lesson": "An investment-banking pipeline can mix real assignments with pitches, possibilities, paused projects, and companies with no active engagement, so even leaked price-sensitive information may be an unreliable trading guide.",
+          "paragraphs": [
+            "At Morgan Stanley, a banker prepared\nA client update, polished and pared.\nBut instead of the version meant to go out,\nThe internal file took the wrong route.",
+            "More than one hundred possible deals filled the sheet,\nAcross Asia, with other regions complete.\nChina, South Korea, and India appeared,\nWith funds that might back them and projects once steered.",
+            "Some companies might offer shares through an IPO—\nTheir first public sale, if the plans were a go.\nSome might do block trades: big bundles of stock.\nSome deals were on hold; some were merely in talk.",
+            "The file held information that could move a price,\nSo Bloomberg News checked it and read it twice.\nWould shares on the list sink under new supply?\nOne could short those stocks and let the theory fly—",
+            "Then buy similar companies not named on the page,\nAnd compare both groups over a six-month stage.\nYet a pipeline may hold every hope in the shop:\nA mandate, a pitch, or a call still on top.",
+            "Link REIT of Hong Kong was named in the stack,\nBut answered with facts that pushed firmly back:\n“No current transaction with Morgan Stanley,” it said,\n“And no recent deal talks.” The pipeline sprawled ahead.",
+            "What happened? A Morgan Stanley employee accidentally sent a client an internal pipeline listing more than 100 deals being pitched or monitored, including potentially price-sensitive IPO and block-trade information. Link REIT said it had no current transaction or recent deal discussions with Morgan Stanley, illustrating that pipeline entries are not necessarily real assignments."
+          ]
+        }
+      }
+    },
+    {
+      "id": "force-majeure",
+      "sourceSection": "Force majeure",
+      "illustration": {
+        "src": "/images/2026-09-24-morgan-stanley-leaked-some-deals/force-majeure.png",
+        "alt": "An Oracle force majeure notice passes toward Blue Owl Capital beside Project Jupiter plans and a denied energy permit at a New Mexico data-center construction site."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Sridhar Natarajan",
+          "Brody Ford",
+          "Paula Seligson"
+        ],
+        "realCompanies": [
+          "Oracle Corp.",
+          "Blue Owl Capital Inc.",
+          "Bloomberg",
+          "Quinn Emanuel"
+        ],
+        "financialMechanism": "Lenders financed Project Jupiter based on expected data-center lease payments. Oracle invoked force majeure in an effort to postpone payments if permitting and regulatory setbacks delay the planned 2028 opening, increasing the risk that project debt will not be repaid as expected.",
+        "centralJoke": "AI lenders face opposite risks at once: eventually too many data centers may be built, but right now a project can fail because too few are completed on time."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Project Jupiter and the Too-Few Trouble",
+          "lesson": "Project Jupiter’s lenders rely on expected lease payments, while Oracle’s force majeure notice seeks to delay its payment duties if regulatory setbacks prevent the data center from opening on schedule.",
+          "paragraphs": [
+            "Bloomberg’s Sridhar Natarajan, Brody Ford, and Paula Seligson reported the bind:\nProject Jupiter was huge and planned—but one crucial permit was declined.",
+            "In New Mexico, a Blue Owl Capital unit was developing the site,\nwith Oracle as its main tenant and AI computing its might.\nThe center was expected to be ready in 2028,\nbut opposition and regulatory setbacks threatened that date.",
+            "It was designed for 2.45 gigawatts—a mighty power flow,\nroughly what 1.8 million homes would use with lights aglow.\nYet a key permit for its energy plans was firmly denied,\nso Oracle sent a force majeure notice to the developer’s side.",
+            "Force majeure can excuse or delay promised duties\nwhen certain events beyond a party’s control cause difficulties.\nOracle wasn’t trying to leave; it wanted room to wait\nbefore making payments if the project missed its opening date.",
+            "The lenders did not cheer. The project’s debt was trading\nbelow ninety cents per dollar as its value kept degrading.\nA Quinn Emanuel alert said such clauses may decide\nthe disputes when building and regulatory troubles collide.",
+            "The AI boom has an absurdity, bewildering but true:\nThe future fear is “far too many”; today’s risk is “too few.”\nIf billions fund a center that never opens its door,\nsomeone bears the loss—and the contract says who pays for it.",
+            "What happened? Oracle, the main tenant of Project Jupiter, sent the developer, a Blue Owl Capital unit, a force majeure notice seeking to postpone payments if setbacks keep the New Mexico data center from opening in 2028. Because lenders financed the project using expected lease payments, delays could threaten repayment; its debt was already trading below 90 cents on the dollar."
+          ]
+        },
+        "elementary": {
+          "title": "Project Jupiter and the Too-Few Trouble",
+          "lesson": "Project Jupiter’s lenders rely on expected lease payments, while Oracle’s force majeure notice seeks to delay its payment duties if regulatory setbacks prevent the data center from opening on schedule.",
+          "paragraphs": [
+            "Bloomberg’s Sridhar Natarajan, Brody Ford, and Paula Seligson reported the bind:\nProject Jupiter was huge and planned—but one crucial permit was declined.",
+            "In New Mexico, a Blue Owl Capital unit was developing the site,\nwith Oracle as its main tenant and AI computing its might.\nThe center was expected to be ready in 2028,\nbut opposition and regulatory setbacks threatened that date.",
+            "It was designed for 2.45 gigawatts—a mighty power flow,\nroughly what 1.8 million homes would use with lights aglow.\nYet a key permit for its energy plans was firmly denied,\nso Oracle sent a force majeure notice to the developer’s side.",
+            "Force majeure can excuse or delay promised duties\nwhen certain events beyond a party’s control cause difficulties.\nOracle wasn’t trying to leave; it wanted room to wait\nbefore making payments if the project missed its opening date.",
+            "The lenders did not cheer. The project’s debt was trading\nbelow ninety cents per dollar as its value kept degrading.\nA Quinn Emanuel alert said such clauses may decide\nthe disputes when building and regulatory troubles collide.",
+            "The AI boom has an absurdity, bewildering but true:\nThe future fear is “far too many”; today’s risk is “too few.”\nIf billions fund a center that never opens its door,\nsomeone bears the loss—and the contract says who pays for it.",
+            "What happened? Oracle, the main tenant of Project Jupiter, sent the developer, a Blue Owl Capital unit, a force majeure notice seeking to postpone payments if setbacks keep the New Mexico data center from opening in 2028. Because lenders financed the project using expected lease payments, delays could threaten repayment; its debt was already trading below 90 cents on the dollar."
+          ]
+        },
+        "middle": {
+          "title": "Project Jupiter and the Too-Few Trouble",
+          "lesson": "Project Jupiter’s lenders rely on expected lease payments, while Oracle’s force majeure notice seeks to delay its payment duties if regulatory setbacks prevent the data center from opening on schedule.",
+          "paragraphs": [
+            "Bloomberg’s Sridhar Natarajan, Brody Ford, and Paula Seligson reported the bind:\nProject Jupiter was huge and planned—but one crucial permit was declined.",
+            "In New Mexico, a Blue Owl Capital unit was developing the site,\nwith Oracle as its main tenant and AI computing its might.\nThe center was expected to be ready in 2028,\nbut opposition and regulatory setbacks threatened that date.",
+            "It was designed for 2.45 gigawatts—a mighty power flow,\nroughly what 1.8 million homes would use with lights aglow.\nYet a key permit for its energy plans was firmly denied,\nso Oracle sent a force majeure notice to the developer’s side.",
+            "Force majeure can excuse or delay promised duties\nwhen certain events beyond a party’s control cause difficulties.\nOracle wasn’t trying to leave; it wanted room to wait\nbefore making payments if the project missed its opening date.",
+            "The lenders did not cheer. The project’s debt was trading\nbelow ninety cents per dollar as its value kept degrading.\nA Quinn Emanuel alert said such clauses may decide\nthe disputes when building and regulatory troubles collide.",
+            "The AI boom has an absurdity, bewildering but true:\nThe future fear is “far too many”; today’s risk is “too few.”\nIf billions fund a center that never opens its door,\nsomeone bears the loss—and the contract says who pays for it.",
+            "What happened? Oracle, the main tenant of Project Jupiter, sent the developer, a Blue Owl Capital unit, a force majeure notice seeking to postpone payments if setbacks keep the New Mexico data center from opening in 2028. Because lenders financed the project using expected lease payments, delays could threaten repayment; its debt was already trading below 90 cents on the dollar."
+          ]
+        },
+        "high": {
+          "title": "Project Jupiter and the Too-Few Trouble",
+          "lesson": "Project Jupiter’s lenders rely on expected lease payments, while Oracle’s force majeure notice seeks to delay its payment duties if regulatory setbacks prevent the data center from opening on schedule.",
+          "paragraphs": [
+            "Bloomberg’s Sridhar Natarajan, Brody Ford, and Paula Seligson reported the bind:\nProject Jupiter was huge and planned—but one crucial permit was declined.",
+            "In New Mexico, a Blue Owl Capital unit was developing the site,\nwith Oracle as its main tenant and AI computing its might.\nThe center was expected to be ready in 2028,\nbut opposition and regulatory setbacks threatened that date.",
+            "It was designed for 2.45 gigawatts—a mighty power flow,\nroughly what 1.8 million homes would use with lights aglow.\nYet a key permit for its energy plans was firmly denied,\nso Oracle sent a force majeure notice to the developer’s side.",
+            "Force majeure can excuse or delay promised duties\nwhen certain events beyond a party’s control cause difficulties.\nOracle wasn’t trying to leave; it wanted room to wait\nbefore making payments if the project missed its opening date.",
+            "The lenders did not cheer. The project’s debt was trading\nbelow ninety cents per dollar as its value kept degrading.\nA Quinn Emanuel alert said such clauses may decide\nthe disputes when building and regulatory troubles collide.",
+            "The AI boom has an absurdity, bewildering but true:\nThe future fear is “far too many”; today’s risk is “too few.”\nIf billions fund a center that never opens its door,\nsomeone bears the loss—and the contract says who pays for it.",
+            "What happened? Oracle, the main tenant of Project Jupiter, sent the developer, a Blue Owl Capital unit, a force majeure notice seeking to postpone payments if setbacks keep the New Mexico data center from opening in 2028. Because lenders financed the project using expected lease payments, delays could threaten repayment; its debt was already trading below 90 cents on the dollar."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pe-gloom",
+      "sourceSection": "PE gloom",
+      "illustration": {
+        "src": "/images/2026-09-24-morgan-stanley-leaked-some-deals/pe-gloom.png",
+        "alt": "A banking analyst stays at a desk while a crowd rushes toward private equity, where high interest rates leave company deals unsold and carry envelopes empty."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Allison McNeely",
+          "Jonathan Goldstein",
+          "Alan Johnson"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Heidrick & Struggles",
+          "Johnson Associates"
+        ],
+        "financialMechanism": "Private equity uses leverage—borrowed money—to buy overlooked companies, improve them, and resell them. Competition raised purchase prices, while higher interest rates made borrowing and resale harder, reducing profits, investor distributions, and carried interest for employees.",
+        "centralJoke": "Private equity recruits bankers to buy undervalued assets and take risks, yet following everyone into private equity became the popular safe career choice; staying in investment banking for a third year became the genuinely contrarian undervalued bet."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Banker Who Stayed Put",
+          "lesson": "Private equity earns profits by buying overlooked companies, using borrowed money to increase risk, improving them, and reselling them; when competition, high prices, and high interest rates weaken those profits and carried interest, staying in banking can become the contrarian bet.",
+          "paragraphs": [
+            "Once, daring bankers would leap from their chairs,\nTo hunt for cheap companies nobody cared for downstairs.\nThey borrowed to buy them—called leverage—and then\nImproved how they worked and sold them again.",
+            "The earliest buyers found bargains galore,\nBut soon private equity funds crowded the door.\nThey bid prices higher and traded around,\nTill funds bought from funds, with few bargains still found.",
+            "Young banking analysts joined the parade:\nTwo years making pitch decks, then off for an upgrade!\nThey interviewed fiercely for funds big and grand,\nChoosing the safest, most popular plan.",
+            "But interest rates rose, so reselling grew tough,\nAnd returning investors their cash became rough.\n“Carry”—a share of the profit from wins—\nCould not be paid out when the selling thinned.",
+            "Bloomberg’s Allison McNeely described the slowdown;\nJonathan Goldstein saw stalled careers all around.\nAt Heidrick & Struggles, he watched job hunts start,\nWhile banking grew busy and looked rather smart.",
+            "Alan Johnson of Johnson Associates said with surprise,\nPrivate equity now looked like a lottery prize.\nFor the first time in ten years or possibly more,\nSome fund workers eyed banking’s steadier door.",
+            "So the analyst staying a third year behind—\nThe choice all the crowd had been eager to decline—\nWas suddenly daring, contrarian, and shrewd:\nThe banker stayed banking—and bought undervalued… banking!",
+            "What happened? Private equity firms faced fewer cheap targets, tougher competition, higher borrowing costs, and difficulty reselling companies, so workers received less carried interest. As investment banking boomed, remaining at a bank for three years became the risky contrarian choice—the very kind of undervalued bet private equity claims to seek."
+          ]
+        },
+        "elementary": {
+          "title": "The Banker Who Stayed Put",
+          "lesson": "Private equity earns profits by buying overlooked companies, using borrowed money to increase risk, improving them, and reselling them; when competition, high prices, and high interest rates weaken those profits and carried interest, staying in banking can become the contrarian bet.",
+          "paragraphs": [
+            "Once, daring bankers would leap from their chairs,\nTo hunt for cheap companies nobody cared for downstairs.\nThey borrowed to buy them—called leverage—and then\nImproved how they worked and sold them again.",
+            "The earliest buyers found bargains galore,\nBut soon private equity funds crowded the door.\nThey bid prices higher and traded around,\nTill funds bought from funds, with few bargains still found.",
+            "Young banking analysts joined the parade:\nTwo years making pitch decks, then off for an upgrade!\nThey interviewed fiercely for funds big and grand,\nChoosing the safest, most popular plan.",
+            "But interest rates rose, so reselling grew tough,\nAnd returning investors their cash became rough.\n“Carry”—a share of the profit from wins—\nCould not be paid out when the selling thinned.",
+            "Bloomberg’s Allison McNeely described the slowdown;\nJonathan Goldstein saw stalled careers all around.\nAt Heidrick & Struggles, he watched job hunts start,\nWhile banking grew busy and looked rather smart.",
+            "Alan Johnson of Johnson Associates said with surprise,\nPrivate equity now looked like a lottery prize.\nFor the first time in ten years or possibly more,\nSome fund workers eyed banking’s steadier door.",
+            "So the analyst staying a third year behind—\nThe choice all the crowd had been eager to decline—\nWas suddenly daring, contrarian, and shrewd:\nThe banker stayed banking—and bought undervalued… banking!",
+            "What happened? Private equity firms faced fewer cheap targets, tougher competition, higher borrowing costs, and difficulty reselling companies, so workers received less carried interest. As investment banking boomed, remaining at a bank for three years became the risky contrarian choice—the very kind of undervalued bet private equity claims to seek."
+          ]
+        },
+        "middle": {
+          "title": "The Banker Who Stayed Put",
+          "lesson": "Private equity earns profits by buying overlooked companies, using borrowed money to increase risk, improving them, and reselling them; when competition, high prices, and high interest rates weaken those profits and carried interest, staying in banking can become the contrarian bet.",
+          "paragraphs": [
+            "Once, daring bankers would leap from their chairs,\nTo hunt for cheap companies nobody cared for downstairs.\nThey borrowed to buy them—called leverage—and then\nImproved how they worked and sold them again.",
+            "The earliest buyers found bargains galore,\nBut soon private equity funds crowded the door.\nThey bid prices higher and traded around,\nTill funds bought from funds, with few bargains still found.",
+            "Young banking analysts joined the parade:\nTwo years making pitch decks, then off for an upgrade!\nThey interviewed fiercely for funds big and grand,\nChoosing the safest, most popular plan.",
+            "But interest rates rose, so reselling grew tough,\nAnd returning investors their cash became rough.\n“Carry”—a share of the profit from wins—\nCould not be paid out when the selling thinned.",
+            "Bloomberg’s Allison McNeely described the slowdown;\nJonathan Goldstein saw stalled careers all around.\nAt Heidrick & Struggles, he watched job hunts start,\nWhile banking grew busy and looked rather smart.",
+            "Alan Johnson of Johnson Associates said with surprise,\nPrivate equity now looked like a lottery prize.\nFor the first time in ten years or possibly more,\nSome fund workers eyed banking’s steadier door.",
+            "So the analyst staying a third year behind—\nThe choice all the crowd had been eager to decline—\nWas suddenly daring, contrarian, and shrewd:\nThe banker stayed banking—and bought undervalued… banking!",
+            "What happened? Private equity firms faced fewer cheap targets, tougher competition, higher borrowing costs, and difficulty reselling companies, so workers received less carried interest. As investment banking boomed, remaining at a bank for three years became the risky contrarian choice—the very kind of undervalued bet private equity claims to seek."
+          ]
+        },
+        "high": {
+          "title": "The Banker Who Stayed Put",
+          "lesson": "Private equity earns profits by buying overlooked companies, using borrowed money to increase risk, improving them, and reselling them; when competition, high prices, and high interest rates weaken those profits and carried interest, staying in banking can become the contrarian bet.",
+          "paragraphs": [
+            "Once, daring bankers would leap from their chairs,\nTo hunt for cheap companies nobody cared for downstairs.\nThey borrowed to buy them—called leverage—and then\nImproved how they worked and sold them again.",
+            "The earliest buyers found bargains galore,\nBut soon private equity funds crowded the door.\nThey bid prices higher and traded around,\nTill funds bought from funds, with few bargains still found.",
+            "Young banking analysts joined the parade:\nTwo years making pitch decks, then off for an upgrade!\nThey interviewed fiercely for funds big and grand,\nChoosing the safest, most popular plan.",
+            "But interest rates rose, so reselling grew tough,\nAnd returning investors their cash became rough.\n“Carry”—a share of the profit from wins—\nCould not be paid out when the selling thinned.",
+            "Bloomberg’s Allison McNeely described the slowdown;\nJonathan Goldstein saw stalled careers all around.\nAt Heidrick & Struggles, he watched job hunts start,\nWhile banking grew busy and looked rather smart.",
+            "Alan Johnson of Johnson Associates said with surprise,\nPrivate equity now looked like a lottery prize.\nFor the first time in ten years or possibly more,\nSome fund workers eyed banking’s steadier door.",
+            "So the analyst staying a third year behind—\nThe choice all the crowd had been eager to decline—\nWas suddenly daring, contrarian, and shrewd:\nThe banker stayed banking—and bought undervalued… banking!",
+            "What happened? Private equity firms faced fewer cheap targets, tougher competition, higher borrowing costs, and difficulty reselling companies, so workers received less carried interest. As investment banking boomed, remaining at a bank for three years became the risky contrarian choice—the very kind of undervalued bet private equity claims to seek."
+          ]
+        }
+      }
+    },
+    {
+      "id": "banks-are-where-money-isn-t",
+      "sourceSection": "Banks are where money isn’t",
+      "illustration": {
+        "src": "/images/2026-09-24-morgan-stanley-leaked-some-deals/banks-are-where-money-isn-t.png",
+        "alt": "JPMorgan Chase reviewers sort co-branded credit-card applications while second-look folders are sent toward Blue Owl, Blackstone, KKR, and Sixth Street."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "JPMorgan Chase",
+          "United Airlines",
+          "Amazon",
+          "Marriott",
+          "Apple",
+          "Blue Owl",
+          "Blackstone",
+          "KKR",
+          "Sixth Street"
+        ],
+        "financialMechanism": "A bank would keep the safer approved credit-card borrowers, while private-credit funds could reconsider rejected applicants, fund riskier cards with locked-up investor money, and receive higher interest while bearing any defaults.",
+        "centralJoke": "Retailers want nearly everyone approved because more cards mean more spending, while the lender—not the retailer—gets stuck with the losses; private credit might therefore say yes after the cautious bank says no."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Credit Cards That Got a Second Look",
+          "lesson": "JPMorgan Chase explored sending rejected co-branded credit-card applications to private-credit funds, whose locked-up investors could bear greater default risk in exchange for higher interest.",
+          "paragraphs": [
+            "JPMorgan Chase had a card puzzle to face:\nIts partners wanted more shoppers embraced.\nUnited, Amazon, Marriott too—\nMore approved cards meant more spending to do.",
+            "But JPMorgan funds cards with deposits kept safe,\nSo it checks every borrower and watches each case.\nIf a shopper might struggle to pay what they owe,\nThe bank may decide that the answer is no.",
+            "The partners liked “yes”—and here was the fun:\nThey gained when folks spent, but lost none if they’d run.\nThe lender would carry the unpaid-card cost,\nSo the bank stayed cautious while merchants stayed crossed.",
+            "Then JPMorgan studied a “second-look” plan:\nCould private-credit funds take the risks that banks ban?\nIt contacted more than a dozen to see;\nBlue Owl, Blackstone, KKR, and Sixth Street heard the plea.",
+            "Those funds use investors whose money stays put,\nAnd seek higher interest where risk is afoot.\nThey could approve some applications declined,\nBearing possible losses for gains they might find.",
+            "JPMorgan—the largest U.S. card issuer by purchase volume—also has major co-brand partnerships and was preparing to take over the Apple Card. The odd solution was simple: when the careful bank said “no,” a risk-hungry fund might say “yes.”",
+            "What happened? JPMorgan Chase explored letting private-credit firms take a second look at rejected co-branded credit-card applications. The private-credit firms, rather than JPMorgan’s deposit-funded bank, would fund approved cards and bear their credit losses."
+          ]
+        },
+        "elementary": {
+          "title": "The Credit Cards That Got a Second Look",
+          "lesson": "JPMorgan Chase explored sending rejected co-branded credit-card applications to private-credit funds, whose locked-up investors could bear greater default risk in exchange for higher interest.",
+          "paragraphs": [
+            "JPMorgan Chase had a card puzzle to face:\nIts partners wanted more shoppers embraced.\nUnited, Amazon, Marriott too—\nMore approved cards meant more spending to do.",
+            "But JPMorgan funds cards with deposits kept safe,\nSo it checks every borrower and watches each case.\nIf a shopper might struggle to pay what they owe,\nThe bank may decide that the answer is no.",
+            "The partners liked “yes”—and here was the fun:\nThey gained when folks spent, but lost none if they’d run.\nThe lender would carry the unpaid-card cost,\nSo the bank stayed cautious while merchants stayed crossed.",
+            "Then JPMorgan studied a “second-look” plan:\nCould private-credit funds take the risks that banks ban?\nIt contacted more than a dozen to see;\nBlue Owl, Blackstone, KKR, and Sixth Street heard the plea.",
+            "Those funds use investors whose money stays put,\nAnd seek higher interest where risk is afoot.\nThey could approve some applications declined,\nBearing possible losses for gains they might find.",
+            "JPMorgan—the largest U.S. card issuer by purchase volume—also has major co-brand partnerships and was preparing to take over the Apple Card. The odd solution was simple: when the careful bank said “no,” a risk-hungry fund might say “yes.”",
+            "What happened? JPMorgan Chase explored letting private-credit firms take a second look at rejected co-branded credit-card applications. The private-credit firms, rather than JPMorgan’s deposit-funded bank, would fund approved cards and bear their credit losses."
+          ]
+        },
+        "middle": {
+          "title": "The Credit Cards That Got a Second Look",
+          "lesson": "JPMorgan Chase explored sending rejected co-branded credit-card applications to private-credit funds, whose locked-up investors could bear greater default risk in exchange for higher interest.",
+          "paragraphs": [
+            "JPMorgan Chase had a card puzzle to face:\nIts partners wanted more shoppers embraced.\nUnited, Amazon, Marriott too—\nMore approved cards meant more spending to do.",
+            "But JPMorgan funds cards with deposits kept safe,\nSo it checks every borrower and watches each case.\nIf a shopper might struggle to pay what they owe,\nThe bank may decide that the answer is no.",
+            "The partners liked “yes”—and here was the fun:\nThey gained when folks spent, but lost none if they’d run.\nThe lender would carry the unpaid-card cost,\nSo the bank stayed cautious while merchants stayed crossed.",
+            "Then JPMorgan studied a “second-look” plan:\nCould private-credit funds take the risks that banks ban?\nIt contacted more than a dozen to see;\nBlue Owl, Blackstone, KKR, and Sixth Street heard the plea.",
+            "Those funds use investors whose money stays put,\nAnd seek higher interest where risk is afoot.\nThey could approve some applications declined,\nBearing possible losses for gains they might find.",
+            "JPMorgan—the largest U.S. card issuer by purchase volume—also has major co-brand partnerships and was preparing to take over the Apple Card. The odd solution was simple: when the careful bank said “no,” a risk-hungry fund might say “yes.”",
+            "What happened? JPMorgan Chase explored letting private-credit firms take a second look at rejected co-branded credit-card applications. The private-credit firms, rather than JPMorgan’s deposit-funded bank, would fund approved cards and bear their credit losses."
+          ]
+        },
+        "high": {
+          "title": "The Credit Cards That Got a Second Look",
+          "lesson": "JPMorgan Chase explored sending rejected co-branded credit-card applications to private-credit funds, whose locked-up investors could bear greater default risk in exchange for higher interest.",
+          "paragraphs": [
+            "JPMorgan Chase had a card puzzle to face:\nIts partners wanted more shoppers embraced.\nUnited, Amazon, Marriott too—\nMore approved cards meant more spending to do.",
+            "But JPMorgan funds cards with deposits kept safe,\nSo it checks every borrower and watches each case.\nIf a shopper might struggle to pay what they owe,\nThe bank may decide that the answer is no.",
+            "The partners liked “yes”—and here was the fun:\nThey gained when folks spent, but lost none if they’d run.\nThe lender would carry the unpaid-card cost,\nSo the bank stayed cautious while merchants stayed crossed.",
+            "Then JPMorgan studied a “second-look” plan:\nCould private-credit funds take the risks that banks ban?\nIt contacted more than a dozen to see;\nBlue Owl, Blackstone, KKR, and Sixth Street heard the plea.",
+            "Those funds use investors whose money stays put,\nAnd seek higher interest where risk is afoot.\nThey could approve some applications declined,\nBearing possible losses for gains they might find.",
+            "JPMorgan—the largest U.S. card issuer by purchase volume—also has major co-brand partnerships and was preparing to take over the Apple Card. The odd solution was simple: when the careful bank said “no,” a risk-hungry fund might say “yes.”",
+            "What happened? JPMorgan Chase explored letting private-credit firms take a second look at rejected co-branded credit-card applications. The private-credit firms, rather than JPMorgan’s deposit-funded bank, would fund approved cards and bear their credit losses."
+          ]
+        }
+      }
+    },
+    {
+      "id": "some-light-insider-trading",
+      "sourceSection": "Some light insider trading",
+      "illustration": {
+        "src": "/images/2026-09-24-morgan-stanley-leaked-some-deals/some-light-insider-trading.png",
+        "alt": "A baker compares a private daily egg-cost report showing rising prices with Kalshi egg-price contract cards beside stacks of eggs."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Kalshi"
+        ],
+        "financialMechanism": "A company may hedge rising input costs with commodity futures, but an employee using confidential company egg-cost information for personal stock or egg-price trades may violate insider-trading rules. Kalshi’s binary egg-price event contracts function like futures, and its rules broadly prohibit trading by people with access to material nonpublic information.",
+        "centralJoke": "Kalshi’s animated advertisement effectively encouraged bakers to trade egg-price contracts using knowledge gained at work, even though Kalshi’s own unusually strict insider-trading rule might prohibit exactly that."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Baker’s Egg-Price Puzzle",
+          "lesson": "Using confidential employer egg-cost data to short the employer’s stock is likely insider trading; using it for Kalshi egg-price contracts is legally uncertain, but Kalshi’s broader rules may forbid trading on material nonpublic information.",
+          "paragraphs": [
+            "Kalshi made an animated ad with a curious display:\nBakers could bet where egg prices might go each day.\nBut bakers may see private cost updates at work,\nWhich gives that bright invitation a legally gray quirk.",
+            "At a public baking company, a daily report\nMight show eggs getting costly while forecasts fall short.\nIf a baker shorts company stock—betting shares will decline—\nUsing that secret work news likely crosses the legal line.",
+            "But what if the baker buys an egg-price contract instead,\nExpecting the cost to climb farther ahead?\nCompanies use commodity futures to hedge what they pay,\nProtecting their budgets when prices jump the wrong way.",
+            "No standard egg futures are listed on U.S. exchanges today.\nBut Kalshi, regulated by the U.S. Commodity Futures Trading Commission, offers yes-or-no event contracts tied to egg prices. They can be used to wager or hedge in a futures-like way.",
+            "For a worker’s personal trade, the answer grows hazier:\nDid they misuse company facts, or simply predict eggs crazier?\nKalshi’s own rule is stricter: material news not yet public may bar\nAnyone with access from trading—however careful they are.",
+            "Was one daily egg report important enough to bring\nThat rule into play? Maybe. That is the sting:\nKalshi’s cheerful baker ad seemed to invite\nThe very egg-price trade its own rules might indict.",
+            "What happened? Money Stuff noted that Kalshi advertised egg-price contracts to bakers who might possess private workplace information about egg costs. Such personal trading is legally ambiguous, while Kalshi’s rules can prohibit anyone with material nonpublic information from trading."
+          ]
+        },
+        "elementary": {
+          "title": "The Baker’s Egg-Price Puzzle",
+          "lesson": "Using confidential employer egg-cost data to short the employer’s stock is likely insider trading; using it for Kalshi egg-price contracts is legally uncertain, but Kalshi’s broader rules may forbid trading on material nonpublic information.",
+          "paragraphs": [
+            "Kalshi made an animated ad with a curious display:\nBakers could bet where egg prices might go each day.\nBut bakers may see private cost updates at work,\nWhich gives that bright invitation a legally gray quirk.",
+            "At a public baking company, a daily report\nMight show eggs getting costly while forecasts fall short.\nIf a baker shorts company stock—betting shares will decline—\nUsing that secret work news likely crosses the legal line.",
+            "But what if the baker buys an egg-price contract instead,\nExpecting the cost to climb farther ahead?\nCompanies use commodity futures to hedge what they pay,\nProtecting their budgets when prices jump the wrong way.",
+            "No standard egg futures are listed on U.S. exchanges today.\nBut Kalshi, regulated by the U.S. Commodity Futures Trading Commission, offers yes-or-no event contracts tied to egg prices. They can be used to wager or hedge in a futures-like way.",
+            "For a worker’s personal trade, the answer grows hazier:\nDid they misuse company facts, or simply predict eggs crazier?\nKalshi’s own rule is stricter: material news not yet public may bar\nAnyone with access from trading—however careful they are.",
+            "Was one daily egg report important enough to bring\nThat rule into play? Maybe. That is the sting:\nKalshi’s cheerful baker ad seemed to invite\nThe very egg-price trade its own rules might indict.",
+            "What happened? Money Stuff noted that Kalshi advertised egg-price contracts to bakers who might possess private workplace information about egg costs. Such personal trading is legally ambiguous, while Kalshi’s rules can prohibit anyone with material nonpublic information from trading."
+          ]
+        },
+        "middle": {
+          "title": "The Baker’s Egg-Price Puzzle",
+          "lesson": "Using confidential employer egg-cost data to short the employer’s stock is likely insider trading; using it for Kalshi egg-price contracts is legally uncertain, but Kalshi’s broader rules may forbid trading on material nonpublic information.",
+          "paragraphs": [
+            "Kalshi made an animated ad with a curious display:\nBakers could bet where egg prices might go each day.\nBut bakers may see private cost updates at work,\nWhich gives that bright invitation a legally gray quirk.",
+            "At a public baking company, a daily report\nMight show eggs getting costly while forecasts fall short.\nIf a baker shorts company stock—betting shares will decline—\nUsing that secret work news likely crosses the legal line.",
+            "But what if the baker buys an egg-price contract instead,\nExpecting the cost to climb farther ahead?\nCompanies use commodity futures to hedge what they pay,\nProtecting their budgets when prices jump the wrong way.",
+            "No standard egg futures are listed on U.S. exchanges today.\nBut Kalshi, regulated by the U.S. Commodity Futures Trading Commission, offers yes-or-no event contracts tied to egg prices. They can be used to wager or hedge in a futures-like way.",
+            "For a worker’s personal trade, the answer grows hazier:\nDid they misuse company facts, or simply predict eggs crazier?\nKalshi’s own rule is stricter: material news not yet public may bar\nAnyone with access from trading—however careful they are.",
+            "Was one daily egg report important enough to bring\nThat rule into play? Maybe. That is the sting:\nKalshi’s cheerful baker ad seemed to invite\nThe very egg-price trade its own rules might indict.",
+            "What happened? Money Stuff noted that Kalshi advertised egg-price contracts to bakers who might possess private workplace information about egg costs. Such personal trading is legally ambiguous, while Kalshi’s rules can prohibit anyone with material nonpublic information from trading."
+          ]
+        },
+        "high": {
+          "title": "The Baker’s Egg-Price Puzzle",
+          "lesson": "Using confidential employer egg-cost data to short the employer’s stock is likely insider trading; using it for Kalshi egg-price contracts is legally uncertain, but Kalshi’s broader rules may forbid trading on material nonpublic information.",
+          "paragraphs": [
+            "Kalshi made an animated ad with a curious display:\nBakers could bet where egg prices might go each day.\nBut bakers may see private cost updates at work,\nWhich gives that bright invitation a legally gray quirk.",
+            "At a public baking company, a daily report\nMight show eggs getting costly while forecasts fall short.\nIf a baker shorts company stock—betting shares will decline—\nUsing that secret work news likely crosses the legal line.",
+            "But what if the baker buys an egg-price contract instead,\nExpecting the cost to climb farther ahead?\nCompanies use commodity futures to hedge what they pay,\nProtecting their budgets when prices jump the wrong way.",
+            "No standard egg futures are listed on U.S. exchanges today.\nBut Kalshi, regulated by the U.S. Commodity Futures Trading Commission, offers yes-or-no event contracts tied to egg prices. They can be used to wager or hedge in a futures-like way.",
+            "For a worker’s personal trade, the answer grows hazier:\nDid they misuse company facts, or simply predict eggs crazier?\nKalshi’s own rule is stricter: material news not yet public may bar\nAnyone with access from trading—however careful they are.",
+            "Was one daily egg report important enough to bring\nThat rule into play? Maybe. That is the sting:\nKalshi’s cheerful baker ad seemed to invite\nThe very egg-price trade its own rules might indict.",
+            "What happened? Money Stuff noted that Kalshi advertised egg-price contracts to bakers who might possess private workplace information about egg costs. Such personal trading is legally ambiguous, while Kalshi’s rules can prohibit anyone with material nonpublic information from trading."
+          ]
+        }
+      }
+    },
+    {
+      "id": "medicaid-arbitrage",
+      "sourceSection": "Medicaid arbitrage",
+      "illustration": {
+        "src": "/images/2026-09-24-morgan-stanley-leaked-some-deals/medicaid-arbitrage.png",
+        "alt": "Kevin Corinth writes beside Patriots and Jaguars betting slips showing a $580 win, a $638 loss, and Medicaid paperwork for six months of coverage."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Kevin Corinth"
+        ],
+        "realCompanies": [
+          "none in source"
+        ],
+        "financialMechanism": "A person can bet $638 on the Patriots and $638 on the Jaguars against the spread at -110 odds, producing $580 in gross winnings on one bet and a $638 loss on the other. The resulting $580 of reportable gross gambling income can satisfy the Medicaid income test for six months despite a $58 net loss.",
+        "centralJoke": "A Medicaid rule described as an eighty-hour monthly work requirement can be met through paired football bets that lose $58 overall, because the rule relies on reported gross income rather than actual work."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Fifty-Eight-Dollar Work Requirement",
+          "lesson": "Because $580 of reported tax-return income in one month can satisfy the Medicaid work requirement for a six-month period, gross gambling winnings may qualify even when paired bets produce a net loss.",
+          "paragraphs": [
+            "At AEI, Kevin Corinth examined a rule:\n“Work” for Medicaid had a curious tool.\nStarting next year, the mark is eighty hours,\nthough reported income carries special powers.",
+            "Show $580 from one month’s pay,\nwithin any six-month period, and you’ve met it that way.\nAnd gross gambling winnings count as income too,\neven if a second wager leaves a loss for you.",
+            "His example used football at minus one-ten:\nBet $638 on the Patriots, then\nbet $638 on the Jaguars as well,\neach against the spread when the kickoff bell fell.",
+            "One wager wins $580; the other loses $638.\nThat leaves a $58 loss—but the income still counts.\nSo gambling could satisfy the work rule on paper,\nand buy six months’ coverage through one strange caper.",
+            "The football bets make the result seem funny,\nbut gambling itself isn’t the key to the money.\nThe odd part is this: report $580 as income,\nand the rule may say “work requirement done.”",
+            "What happened? Kevin Corinth showed that paired football bets could generate $580 of gross gambling income while losing $58 overall. Because that reported income can satisfy the Medicaid work requirement for a six-month period, the person could meet the rule without actually working eighty hours per month."
+          ]
+        },
+        "elementary": {
+          "title": "The Fifty-Eight-Dollar Work Requirement",
+          "lesson": "Because $580 of reported tax-return income in one month can satisfy the Medicaid work requirement for a six-month period, gross gambling winnings may qualify even when paired bets produce a net loss.",
+          "paragraphs": [
+            "At AEI, Kevin Corinth examined a rule:\n“Work” for Medicaid had a curious tool.\nStarting next year, the mark is eighty hours,\nthough reported income carries special powers.",
+            "Show $580 from one month’s pay,\nwithin any six-month period, and you’ve met it that way.\nAnd gross gambling winnings count as income too,\neven if a second wager leaves a loss for you.",
+            "His example used football at minus one-ten:\nBet $638 on the Patriots, then\nbet $638 on the Jaguars as well,\neach against the spread when the kickoff bell fell.",
+            "One wager wins $580; the other loses $638.\nThat leaves a $58 loss—but the income still counts.\nSo gambling could satisfy the work rule on paper,\nand buy six months’ coverage through one strange caper.",
+            "The football bets make the result seem funny,\nbut gambling itself isn’t the key to the money.\nThe odd part is this: report $580 as income,\nand the rule may say “work requirement done.”",
+            "What happened? Kevin Corinth showed that paired football bets could generate $580 of gross gambling income while losing $58 overall. Because that reported income can satisfy the Medicaid work requirement for a six-month period, the person could meet the rule without actually working eighty hours per month."
+          ]
+        },
+        "middle": {
+          "title": "The Fifty-Eight-Dollar Work Requirement",
+          "lesson": "Because $580 of reported tax-return income in one month can satisfy the Medicaid work requirement for a six-month period, gross gambling winnings may qualify even when paired bets produce a net loss.",
+          "paragraphs": [
+            "At AEI, Kevin Corinth examined a rule:\n“Work” for Medicaid had a curious tool.\nStarting next year, the mark is eighty hours,\nthough reported income carries special powers.",
+            "Show $580 from one month’s pay,\nwithin any six-month period, and you’ve met it that way.\nAnd gross gambling winnings count as income too,\neven if a second wager leaves a loss for you.",
+            "His example used football at minus one-ten:\nBet $638 on the Patriots, then\nbet $638 on the Jaguars as well,\neach against the spread when the kickoff bell fell.",
+            "One wager wins $580; the other loses $638.\nThat leaves a $58 loss—but the income still counts.\nSo gambling could satisfy the work rule on paper,\nand buy six months’ coverage through one strange caper.",
+            "The football bets make the result seem funny,\nbut gambling itself isn’t the key to the money.\nThe odd part is this: report $580 as income,\nand the rule may say “work requirement done.”",
+            "What happened? Kevin Corinth showed that paired football bets could generate $580 of gross gambling income while losing $58 overall. Because that reported income can satisfy the Medicaid work requirement for a six-month period, the person could meet the rule without actually working eighty hours per month."
+          ]
+        },
+        "high": {
+          "title": "The Fifty-Eight-Dollar Work Requirement",
+          "lesson": "Because $580 of reported tax-return income in one month can satisfy the Medicaid work requirement for a six-month period, gross gambling winnings may qualify even when paired bets produce a net loss.",
+          "paragraphs": [
+            "At AEI, Kevin Corinth examined a rule:\n“Work” for Medicaid had a curious tool.\nStarting next year, the mark is eighty hours,\nthough reported income carries special powers.",
+            "Show $580 from one month’s pay,\nwithin any six-month period, and you’ve met it that way.\nAnd gross gambling winnings count as income too,\neven if a second wager leaves a loss for you.",
+            "His example used football at minus one-ten:\nBet $638 on the Patriots, then\nbet $638 on the Jaguars as well,\neach against the spread when the kickoff bell fell.",
+            "One wager wins $580; the other loses $638.\nThat leaves a $58 loss—but the income still counts.\nSo gambling could satisfy the work rule on paper,\nand buy six months’ coverage through one strange caper.",
+            "The football bets make the result seem funny,\nbut gambling itself isn’t the key to the money.\nThe odd part is this: report $580 as income,\nand the rule may say “work requirement done.”",
+            "What happened? Kevin Corinth showed that paired football bets could generate $580 of gross gambling income while losing $58 overall. Because that reported income can satisfy the Medicaid work requirement for a six-month period, the person could meet the rule without actually working eighty hours per month."
+          ]
+        }
+      }
+    }
+  ]
+}
