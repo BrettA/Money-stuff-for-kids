@@ -324,6 +324,18 @@
       "submitted": true,
       "updatedAt": "2026-09-24T20:34:45.603Z",
       "submittedAt": "2026-09-24T20:34:45.603Z"
+    },
+    "1a0e930ebb6127b8": {
+      "gmailMessageId": "1a0e930ebb6127b8",
+      "newsletterDate": "2026-09-28",
+      "newsletterTitle": "Banks Recycle the Risk",
+      "editionId": "2026-09-28-banks-recycle-the-risk",
+      "sourceSha256": "a9a0c1c9a3d1b318793bf227797d49a084f7d4b70cbbcde047d0ad7d453fe340",
+      "packageSha256": "7b1e70883366407c6dda01f935a6e7ca39c5da08b6353aeda446da59750d1f3d",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-28T19:43:11.415Z",
+      "submittedAt": "2026-09-28T19:43:11.415Z"
     }
   }
 }
