@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-28-banks-recycle-the-risk",
+  "date": "2026-09-28",
+  "displayDate": "September 28, 2026",
+  "title": "Banks Recycle the Risk",
+  "sourceSections": [
+    "Structured notes",
+    "Nvidia buyback",
+    "Who controls Automattic?",
+    "Agentic sports gambling",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "structured-notes",
+      "sourceSection": "Structured notes",
+      "illustration": {
+        "src": "/images/2026-09-28-banks-recycle-the-risk/structured-notes.png",
+        "alt": "Bank dealers hand structured-note folders to customers while thorny risk parcels move out the back to Citadel Securities, Jane Street, Millennium Management, and Optiver."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Thibaut Delahaye"
+        ],
+        "realCompanies": [
+          "Bank of America",
+          "BNP Paribas",
+          "Citigroup",
+          "Societe Generale",
+          "UBS",
+          "Citadel Securities",
+          "Jane Street",
+          "Millennium Management",
+          "Optiver",
+          "Goldman Sachs",
+          "JP Morgan"
+        ],
+        "financialMechanism": "A bank sells customers equity-linked structured notes, then purchases comprehensive back-to-back derivatives hedges from nonbank market makers or hedge funds, transferring part of the notes’ complex option exposure.",
+        "centralJoke": "The banks remain the risk supermarkets selling complicated products, but increasingly pay other firms to carry the thorny risks away."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Banks and the Thorny Notes",
+          "lesson": "Banks increasingly use back-to-back hedges to transfer structured-note risks to nonbank trading firms, letting the banks sell more notes while keeping less of the exposure.",
+          "paragraphs": [
+            "Banks sold structured notes with stock options tucked inside—\nTheir payouts followed special rules as markets dipped or climbed.\nCustomers bought more and more; sales more than doubled in size,\nBut the notes could leave their makers with a thorny surprise.",
+            "Bank of America, BNP Paribas, Citigroup too,\nSociete Generale and UBS tried something new:\nThey sold each note to a customer, then paid behind the scene\nFor a matching hedge that helped to keep their own books clean.",
+            "Citadel Securities and Jane Street joined the crew;\nMillennium Management and Optiver did too.\nThese firms took back-to-back hedges—sometimes a quarter or more—\nOf the risk that banks once kept behind their own front door.",
+            "“Two years ago, this barely happened,” UBS’s Thibaut Delahaye said.\nNow recycling risk frees room for more notes to spread.\nBut Goldman Sachs and JP Morgan were wary of the trend:\nIf banks hand off the danger, what special thing do they vend?",
+            "The risk supermarket still filled every customer’s sack—\nThen paid another shop to take the prickly risk out back.",
+            "What happened? Banks more than doubled sales of equity-linked structured notes, then increasingly bought back-to-back hedges from firms including Citadel Securities, Jane Street, Millennium Management, and Optiver to transfer as much as a quarter of the risk, and sometimes more. Goldman Sachs and JP Morgan were reported to be less active and more skeptical of this approach."
+          ]
+        },
+        "elementary": {
+          "title": "The Banks and the Thorny Notes",
+          "lesson": "Banks increasingly use back-to-back hedges to transfer structured-note risks to nonbank trading firms, letting the banks sell more notes while keeping less of the exposure.",
+          "paragraphs": [
+            "Banks sold structured notes with stock options tucked inside—\nTheir payouts followed special rules as markets dipped or climbed.\nCustomers bought more and more; sales more than doubled in size,\nBut the notes could leave their makers with a thorny surprise.",
+            "Bank of America, BNP Paribas, Citigroup too,\nSociete Generale and UBS tried something new:\nThey sold each note to a customer, then paid behind the scene\nFor a matching hedge that helped to keep their own books clean.",
+            "Citadel Securities and Jane Street joined the crew;\nMillennium Management and Optiver did too.\nThese firms took back-to-back hedges—sometimes a quarter or more—\nOf the risk that banks once kept behind their own front door.",
+            "“Two years ago, this barely happened,” UBS’s Thibaut Delahaye said.\nNow recycling risk frees room for more notes to spread.\nBut Goldman Sachs and JP Morgan were wary of the trend:\nIf banks hand off the danger, what special thing do they vend?",
+            "The risk supermarket still filled every customer’s sack—\nThen paid another shop to take the prickly risk out back.",
+            "What happened? Banks more than doubled sales of equity-linked structured notes, then increasingly bought back-to-back hedges from firms including Citadel Securities, Jane Street, Millennium Management, and Optiver to transfer as much as a quarter of the risk, and sometimes more. Goldman Sachs and JP Morgan were reported to be less active and more skeptical of this approach."
+          ]
+        },
+        "middle": {
+          "title": "The Banks and the Thorny Notes",
+          "lesson": "Banks increasingly use back-to-back hedges to transfer structured-note risks to nonbank trading firms, letting the banks sell more notes while keeping less of the exposure.",
+          "paragraphs": [
+            "Banks sold structured notes with stock options tucked inside—\nTheir payouts followed special rules as markets dipped or climbed.\nCustomers bought more and more; sales more than doubled in size,\nBut the notes could leave their makers with a thorny surprise.",
+            "Bank of America, BNP Paribas, Citigroup too,\nSociete Generale and UBS tried something new:\nThey sold each note to a customer, then paid behind the scene\nFor a matching hedge that helped to keep their own books clean.",
+            "Citadel Securities and Jane Street joined the crew;\nMillennium Management and Optiver did too.\nThese firms took back-to-back hedges—sometimes a quarter or more—\nOf the risk that banks once kept behind their own front door.",
+            "“Two years ago, this barely happened,” UBS’s Thibaut Delahaye said.\nNow recycling risk frees room for more notes to spread.\nBut Goldman Sachs and JP Morgan were wary of the trend:\nIf banks hand off the danger, what special thing do they vend?",
+            "The risk supermarket still filled every customer’s sack—\nThen paid another shop to take the prickly risk out back.",
+            "What happened? Banks more than doubled sales of equity-linked structured notes, then increasingly bought back-to-back hedges from firms including Citadel Securities, Jane Street, Millennium Management, and Optiver to transfer as much as a quarter of the risk, and sometimes more. Goldman Sachs and JP Morgan were reported to be less active and more skeptical of this approach."
+          ]
+        },
+        "high": {
+          "title": "The Banks and the Thorny Notes",
+          "lesson": "Banks increasingly use back-to-back hedges to transfer structured-note risks to nonbank trading firms, letting the banks sell more notes while keeping less of the exposure.",
+          "paragraphs": [
+            "Banks sold structured notes with stock options tucked inside—\nTheir payouts followed special rules as markets dipped or climbed.\nCustomers bought more and more; sales more than doubled in size,\nBut the notes could leave their makers with a thorny surprise.",
+            "Bank of America, BNP Paribas, Citigroup too,\nSociete Generale and UBS tried something new:\nThey sold each note to a customer, then paid behind the scene\nFor a matching hedge that helped to keep their own books clean.",
+            "Citadel Securities and Jane Street joined the crew;\nMillennium Management and Optiver did too.\nThese firms took back-to-back hedges—sometimes a quarter or more—\nOf the risk that banks once kept behind their own front door.",
+            "“Two years ago, this barely happened,” UBS’s Thibaut Delahaye said.\nNow recycling risk frees room for more notes to spread.\nBut Goldman Sachs and JP Morgan were wary of the trend:\nIf banks hand off the danger, what special thing do they vend?",
+            "The risk supermarket still filled every customer’s sack—\nThen paid another shop to take the prickly risk out back.",
+            "What happened? Banks more than doubled sales of equity-linked structured notes, then increasingly bought back-to-back hedges from firms including Citadel Securities, Jane Street, Millennium Management, and Optiver to transfer as much as a quarter of the risk, and sometimes more. Goldman Sachs and JP Morgan were reported to be less active and more skeptical of this approach."
+          ]
+        }
+      }
+    },
+    {
+      "id": "nvidia-buyback",
+      "sourceSection": "Nvidia buyback",
+      "illustration": {
+        "src": "/images/2026-09-28-banks-recycle-the-risk/nvidia-buyback.png",
+        "alt": "Jensen Huang watches Nvidia GPU crates enter a new data center while buyback payments leave Nvidia for shareholders and outside financing folders fund the builders."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jensen Huang",
+          "Amy Thomson"
+        ],
+        "realCompanies": [
+          "Nvidia Corp.",
+          "Bloomberg",
+          "SpaceX",
+          "Anthropic",
+          "OpenAI",
+          "Alphabet"
+        ],
+        "financialMechanism": "AI companies and infrastructure builders raise debt or equity from outside investors, spend that capital on Nvidia GPUs, and Nvidia uses its high-margin chip cash flow to repurchase shares from its shareholders.",
+        "centralJoke": "Nvidia is helping direct more than $500 billion of other people’s money into AI infrastructure while planning up to $235 billion of its own authorized share buybacks—so outside capital buys Nvidia chips, and Nvidia sends the proceeds back to shareholders."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Nvidia’s Great AI Money Loop",
+          "lesson": "AI builders raise outside money to buy Nvidia chips, while Nvidia uses its resulting cash to repurchase its own shares and return money to shareholders.",
+          "paragraphs": [
+            "The AI boom needs power plants, data centers, and loans,\nWith racks full of servers and chips of their own.\nBuilders raise money today, expecting one day\nThat future AI sales will make borrowing pay.",
+            "SpaceX, Anthropic, and OpenAI may sell shares;\nAlphabet may raise equity to fund its affairs.\nWhile much of the market asks investors for more,\nNvidia already has cash by the score.",
+            "Its GPUs fill the new data-center lanes,\nWith a 75% gross margin on sales and gains.\nThat means from each hundred in chip revenue earned,\nSeventy-five dollars remain before other costs are returned.",
+            "Bloomberg’s Amy Thomson reported the plan:\nCEO Jensen Huang’s company added a record $150 billion buyback authorization—and\nNvidia now has $235 billion approved to buy shares,\nWith completion expected through fiscal 2028 in its corporate affairs.",
+            "Yet six weeks before, Nvidia had offered a hand\nTo help third-party investors fund AI’s expansion as planned:\nMore than $500 billion for infrastructure over time—\nThen Nvidia announced its own cash mountain’s climb.",
+            "So everyone else borrows on hoped-for AI pay,\nAnd Nvidia helps outside capital flow their way.\nThey spend it on Nvidia chips for each rack—\nThen Nvidia pays its own shareholders back!",
+            "What happened? Nvidia helped establish financing platforms intended to mobilize more than $500 billion of third-party capital for AI infrastructure, whose builders buy Nvidia chips. Nvidia separately authorized $235 billion of remaining share buybacks through fiscal 2028, returning its chip-sale cash to shareholders instead of using that cash to finance the infrastructure itself."
+          ]
+        },
+        "elementary": {
+          "title": "Nvidia’s Great AI Money Loop",
+          "lesson": "AI builders raise outside money to buy Nvidia chips, while Nvidia uses its resulting cash to repurchase its own shares and return money to shareholders.",
+          "paragraphs": [
+            "The AI boom needs power plants, data centers, and loans,\nWith racks full of servers and chips of their own.\nBuilders raise money today, expecting one day\nThat future AI sales will make borrowing pay.",
+            "SpaceX, Anthropic, and OpenAI may sell shares;\nAlphabet may raise equity to fund its affairs.\nWhile much of the market asks investors for more,\nNvidia already has cash by the score.",
+            "Its GPUs fill the new data-center lanes,\nWith a 75% gross margin on sales and gains.\nThat means from each hundred in chip revenue earned,\nSeventy-five dollars remain before other costs are returned.",
+            "Bloomberg’s Amy Thomson reported the plan:\nCEO Jensen Huang’s company added a record $150 billion buyback authorization—and\nNvidia now has $235 billion approved to buy shares,\nWith completion expected through fiscal 2028 in its corporate affairs.",
+            "Yet six weeks before, Nvidia had offered a hand\nTo help third-party investors fund AI’s expansion as planned:\nMore than $500 billion for infrastructure over time—\nThen Nvidia announced its own cash mountain’s climb.",
+            "So everyone else borrows on hoped-for AI pay,\nAnd Nvidia helps outside capital flow their way.\nThey spend it on Nvidia chips for each rack—\nThen Nvidia pays its own shareholders back!",
+            "What happened? Nvidia helped establish financing platforms intended to mobilize more than $500 billion of third-party capital for AI infrastructure, whose builders buy Nvidia chips. Nvidia separately authorized $235 billion of remaining share buybacks through fiscal 2028, returning its chip-sale cash to shareholders instead of using that cash to finance the infrastructure itself."
+          ]
+        },
+        "middle": {
+          "title": "Nvidia’s Great AI Money Loop",
+          "lesson": "AI builders raise outside money to buy Nvidia chips, while Nvidia uses its resulting cash to repurchase its own shares and return money to shareholders.",
+          "paragraphs": [
+            "The AI boom needs power plants, data centers, and loans,\nWith racks full of servers and chips of their own.\nBuilders raise money today, expecting one day\nThat future AI sales will make borrowing pay.",
+            "SpaceX, Anthropic, and OpenAI may sell shares;\nAlphabet may raise equity to fund its affairs.\nWhile much of the market asks investors for more,\nNvidia already has cash by the score.",
+            "Its GPUs fill the new data-center lanes,\nWith a 75% gross margin on sales and gains.\nThat means from each hundred in chip revenue earned,\nSeventy-five dollars remain before other costs are returned.",
+            "Bloomberg’s Amy Thomson reported the plan:\nCEO Jensen Huang’s company added a record $150 billion buyback authorization—and\nNvidia now has $235 billion approved to buy shares,\nWith completion expected through fiscal 2028 in its corporate affairs.",
+            "Yet six weeks before, Nvidia had offered a hand\nTo help third-party investors fund AI’s expansion as planned:\nMore than $500 billion for infrastructure over time—\nThen Nvidia announced its own cash mountain’s climb.",
+            "So everyone else borrows on hoped-for AI pay,\nAnd Nvidia helps outside capital flow their way.\nThey spend it on Nvidia chips for each rack—\nThen Nvidia pays its own shareholders back!",
+            "What happened? Nvidia helped establish financing platforms intended to mobilize more than $500 billion of third-party capital for AI infrastructure, whose builders buy Nvidia chips. Nvidia separately authorized $235 billion of remaining share buybacks through fiscal 2028, returning its chip-sale cash to shareholders instead of using that cash to finance the infrastructure itself."
+          ]
+        },
+        "high": {
+          "title": "Nvidia’s Great AI Money Loop",
+          "lesson": "AI builders raise outside money to buy Nvidia chips, while Nvidia uses its resulting cash to repurchase its own shares and return money to shareholders.",
+          "paragraphs": [
+            "The AI boom needs power plants, data centers, and loans,\nWith racks full of servers and chips of their own.\nBuilders raise money today, expecting one day\nThat future AI sales will make borrowing pay.",
+            "SpaceX, Anthropic, and OpenAI may sell shares;\nAlphabet may raise equity to fund its affairs.\nWhile much of the market asks investors for more,\nNvidia already has cash by the score.",
+            "Its GPUs fill the new data-center lanes,\nWith a 75% gross margin on sales and gains.\nThat means from each hundred in chip revenue earned,\nSeventy-five dollars remain before other costs are returned.",
+            "Bloomberg’s Amy Thomson reported the plan:\nCEO Jensen Huang’s company added a record $150 billion buyback authorization—and\nNvidia now has $235 billion approved to buy shares,\nWith completion expected through fiscal 2028 in its corporate affairs.",
+            "Yet six weeks before, Nvidia had offered a hand\nTo help third-party investors fund AI’s expansion as planned:\nMore than $500 billion for infrastructure over time—\nThen Nvidia announced its own cash mountain’s climb.",
+            "So everyone else borrows on hoped-for AI pay,\nAnd Nvidia helps outside capital flow their way.\nThey spend it on Nvidia chips for each rack—\nThen Nvidia pays its own shareholders back!",
+            "What happened? Nvidia helped establish financing platforms intended to mobilize more than $500 billion of third-party capital for AI infrastructure, whose builders buy Nvidia chips. Nvidia separately authorized $235 billion of remaining share buybacks through fiscal 2028, returning its chip-sale cash to shareholders instead of using that cash to finance the infrastructure itself."
+          ]
+        }
+      }
+    },
+    {
+      "id": "who-controls-automattic",
+      "sourceSection": "Who controls Automattic?",
+      "illustration": {
+        "src": "/images/2026-09-28-banks-recycle-the-risk/who-controls-automattic.png",
+        "alt": "Matt Mullenweg removes other Automattic administrators from Slack while Mark Davies and Andy Missan sign each other’s severance agreements nearby."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Matt Mullenweg",
+          "Mark Davies",
+          "Andy Missan"
+        ],
+        "realCompanies": [
+          "Automattic",
+          "TechCrunch"
+        ],
+        "financialMechanism": "The board could remove Mullenweg as CEO but could not take away his 84% ownership stake, which gave him enough shareholder voting power to replace the board and reinstate himself.",
+        "centralJoke": "In a military coup, controlling the broadcast stations matters; in a corporate coup, controlling the company Slack can matter just as much."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Boss of His Bosses",
+          "lesson": "A board can remove a CEO, but a CEO who owns 84% of the stock can use that voting control to replace the board and restore himself.",
+          "paragraphs": [
+            "At Automattic, maker of WordPress, founder Matt held sway;\nMullenweg was CEO, with eighty-four percent in shares that day.\nThe board could remove him from the chief executive’s chair,\nBut firing the chief could not make his stock disappear.",
+            "TechCrunch reported: the board put Matt on leave against his will;\nOne person guessed his Burning Man trip helped them time it well.\nMark Davies, the CFO, took charge in Matt’s stead;\nFor thirty-three hours and twenty minutes, he led.",
+            "But Matt seemingly declined to depart as they had planned;\nHe booted other admins from Slack and said he was in command.\nThen Matt pushed out the board and restored himself as chief;\nThe directors’ time in charge had been remarkably brief.",
+            "In military coups, seize radio and TV in the attack;\nIn a corporate coup, it helps to be the admin of Slack.\nBefore the window closed, two exit deals were signed:\nMark Davies and legal chief Andy Missan approved each other’s kind.",
+            "Each deal was generous, effective September 10—\nA softer way to land if they were pushed outside again.\nThe board had tried to bench the chief, but ownership won through:\nMatt was boss of all his bosses—and the company’s Slack crew.",
+            "What happened? Automattic’s board put founder and 84% shareholder Matt Mullenweg on leave as CEO, but he retained voting control, pushed out the board, and restored himself after 33 hours and 20 minutes. During that window, interim CEO Mark Davies and chief legal officer Andy Missan signed each other’s generous severance agreements, while Mullenweg used his Slack-admin access to boot other admins."
+          ]
+        },
+        "elementary": {
+          "title": "The Boss of His Bosses",
+          "lesson": "A board can remove a CEO, but a CEO who owns 84% of the stock can use that voting control to replace the board and restore himself.",
+          "paragraphs": [
+            "At Automattic, maker of WordPress, founder Matt held sway;\nMullenweg was CEO, with eighty-four percent in shares that day.\nThe board could remove him from the chief executive’s chair,\nBut firing the chief could not make his stock disappear.",
+            "TechCrunch reported: the board put Matt on leave against his will;\nOne person guessed his Burning Man trip helped them time it well.\nMark Davies, the CFO, took charge in Matt’s stead;\nFor thirty-three hours and twenty minutes, he led.",
+            "But Matt seemingly declined to depart as they had planned;\nHe booted other admins from Slack and said he was in command.\nThen Matt pushed out the board and restored himself as chief;\nThe directors’ time in charge had been remarkably brief.",
+            "In military coups, seize radio and TV in the attack;\nIn a corporate coup, it helps to be the admin of Slack.\nBefore the window closed, two exit deals were signed:\nMark Davies and legal chief Andy Missan approved each other’s kind.",
+            "Each deal was generous, effective September 10—\nA softer way to land if they were pushed outside again.\nThe board had tried to bench the chief, but ownership won through:\nMatt was boss of all his bosses—and the company’s Slack crew.",
+            "What happened? Automattic’s board put founder and 84% shareholder Matt Mullenweg on leave as CEO, but he retained voting control, pushed out the board, and restored himself after 33 hours and 20 minutes. During that window, interim CEO Mark Davies and chief legal officer Andy Missan signed each other’s generous severance agreements, while Mullenweg used his Slack-admin access to boot other admins."
+          ]
+        },
+        "middle": {
+          "title": "The Boss of His Bosses",
+          "lesson": "A board can remove a CEO, but a CEO who owns 84% of the stock can use that voting control to replace the board and restore himself.",
+          "paragraphs": [
+            "At Automattic, maker of WordPress, founder Matt held sway;\nMullenweg was CEO, with eighty-four percent in shares that day.\nThe board could remove him from the chief executive’s chair,\nBut firing the chief could not make his stock disappear.",
+            "TechCrunch reported: the board put Matt on leave against his will;\nOne person guessed his Burning Man trip helped them time it well.\nMark Davies, the CFO, took charge in Matt’s stead;\nFor thirty-three hours and twenty minutes, he led.",
+            "But Matt seemingly declined to depart as they had planned;\nHe booted other admins from Slack and said he was in command.\nThen Matt pushed out the board and restored himself as chief;\nThe directors’ time in charge had been remarkably brief.",
+            "In military coups, seize radio and TV in the attack;\nIn a corporate coup, it helps to be the admin of Slack.\nBefore the window closed, two exit deals were signed:\nMark Davies and legal chief Andy Missan approved each other’s kind.",
+            "Each deal was generous, effective September 10—\nA softer way to land if they were pushed outside again.\nThe board had tried to bench the chief, but ownership won through:\nMatt was boss of all his bosses—and the company’s Slack crew.",
+            "What happened? Automattic’s board put founder and 84% shareholder Matt Mullenweg on leave as CEO, but he retained voting control, pushed out the board, and restored himself after 33 hours and 20 minutes. During that window, interim CEO Mark Davies and chief legal officer Andy Missan signed each other’s generous severance agreements, while Mullenweg used his Slack-admin access to boot other admins."
+          ]
+        },
+        "high": {
+          "title": "The Boss of His Bosses",
+          "lesson": "A board can remove a CEO, but a CEO who owns 84% of the stock can use that voting control to replace the board and restore himself.",
+          "paragraphs": [
+            "At Automattic, maker of WordPress, founder Matt held sway;\nMullenweg was CEO, with eighty-four percent in shares that day.\nThe board could remove him from the chief executive’s chair,\nBut firing the chief could not make his stock disappear.",
+            "TechCrunch reported: the board put Matt on leave against his will;\nOne person guessed his Burning Man trip helped them time it well.\nMark Davies, the CFO, took charge in Matt’s stead;\nFor thirty-three hours and twenty minutes, he led.",
+            "But Matt seemingly declined to depart as they had planned;\nHe booted other admins from Slack and said he was in command.\nThen Matt pushed out the board and restored himself as chief;\nThe directors’ time in charge had been remarkably brief.",
+            "In military coups, seize radio and TV in the attack;\nIn a corporate coup, it helps to be the admin of Slack.\nBefore the window closed, two exit deals were signed:\nMark Davies and legal chief Andy Missan approved each other’s kind.",
+            "Each deal was generous, effective September 10—\nA softer way to land if they were pushed outside again.\nThe board had tried to bench the chief, but ownership won through:\nMatt was boss of all his bosses—and the company’s Slack crew.",
+            "What happened? Automattic’s board put founder and 84% shareholder Matt Mullenweg on leave as CEO, but he retained voting control, pushed out the board, and restored himself after 33 hours and 20 minutes. During that window, interim CEO Mark Davies and chief legal officer Andy Missan signed each other’s generous severance agreements, while Mullenweg used his Slack-admin access to boot other admins."
+          ]
+        }
+      }
+    },
+    {
+      "id": "agentic-sports-gambling",
+      "sourceSection": "Agentic sports gambling",
+      "illustration": {
+        "src": "/images/2026-09-28-banks-recycle-the-risk/agentic-sports-gambling.png",
+        "alt": "AI trading agents enter prediction-market doors labeled Public and Kalshi and OpenWorlds and Polymarket, while a robot waits beside a closed sports-betting gate and an unattended slot machine."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Public",
+          "Kalshi",
+          "OpenWorlds",
+          "Polymarket"
+        ],
+        "financialMechanism": "Rule-based AI agents can automatically buy and sell prediction-market event contracts, potentially using event prices as signals for stock or bond trades and greatly increasing trading frequency.",
+        "centralJoke": "Sports were not included in the announcements, yet agentic sports gambling felt so inevitable that it was jokingly predicted to arrive in “two weeks, tops”; the absurd endpoint is a robot pulling a slot-machine lever for an absent gambler."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Bots That Bet—But Not on Sports Yet",
+          "lesson": "Public connected AI trading agents to Kalshi event contracts, while OpenWorlds partnered with Polymarket, allowing automated agents to place prediction-market trades; neither announcement launched sports betting.",
+          "paragraphs": [
+            "Public called itself the first agentic brokerage around,\nwhere AI helpers can trade without customers being bound\nto click every button or choose every bet—\nthe agent follows its rules, again and again, without sweat.",
+            "Through Kalshi, Public members can trade contracts on events:\nWill prices climb? Will elections bring market-moving developments?\nIf the predicted event occurs, the contract may pay;\nif the prediction is wrong, its value can fade away.",
+            "The categories named crypto, climate, politics, and tech,\nplus commodities, companies, indices—quite a deck.\nThe agents might even use an event-price clue\nto decide what a stock or a bond ought to do.",
+            "But sports were not listed. No Jets game appeared.\nNo robot chose teams while their human just cheered.\nStill, one day later, OpenWorlds joined Polymarket’s floor,\nbringing personal trading agents through another prediction-market door.",
+            "So how long until bots pick the spread and the score,\nplacing hundreds of wagers while fans watch no more?\nPerhaps “two weeks, tops,” was the joking forecast—\na future where even the slot lever pulls itself fast.",
+            "What happened? Public announced AI agents that can trade Kalshi prediction-market contracts, and OpenWorlds announced a partnership bringing personal trading agents to Polymarket. The announced categories did not include sports, but the joke was that automated sports gambling seemed only about two weeks away."
+          ]
+        },
+        "elementary": {
+          "title": "The Bots That Bet—But Not on Sports Yet",
+          "lesson": "Public connected AI trading agents to Kalshi event contracts, while OpenWorlds partnered with Polymarket, allowing automated agents to place prediction-market trades; neither announcement launched sports betting.",
+          "paragraphs": [
+            "Public called itself the first agentic brokerage around,\nwhere AI helpers can trade without customers being bound\nto click every button or choose every bet—\nthe agent follows its rules, again and again, without sweat.",
+            "Through Kalshi, Public members can trade contracts on events:\nWill prices climb? Will elections bring market-moving developments?\nIf the predicted event occurs, the contract may pay;\nif the prediction is wrong, its value can fade away.",
+            "The categories named crypto, climate, politics, and tech,\nplus commodities, companies, indices—quite a deck.\nThe agents might even use an event-price clue\nto decide what a stock or a bond ought to do.",
+            "But sports were not listed. No Jets game appeared.\nNo robot chose teams while their human just cheered.\nStill, one day later, OpenWorlds joined Polymarket’s floor,\nbringing personal trading agents through another prediction-market door.",
+            "So how long until bots pick the spread and the score,\nplacing hundreds of wagers while fans watch no more?\nPerhaps “two weeks, tops,” was the joking forecast—\na future where even the slot lever pulls itself fast.",
+            "What happened? Public announced AI agents that can trade Kalshi prediction-market contracts, and OpenWorlds announced a partnership bringing personal trading agents to Polymarket. The announced categories did not include sports, but the joke was that automated sports gambling seemed only about two weeks away."
+          ]
+        },
+        "middle": {
+          "title": "The Bots That Bet—But Not on Sports Yet",
+          "lesson": "Public connected AI trading agents to Kalshi event contracts, while OpenWorlds partnered with Polymarket, allowing automated agents to place prediction-market trades; neither announcement launched sports betting.",
+          "paragraphs": [
+            "Public called itself the first agentic brokerage around,\nwhere AI helpers can trade without customers being bound\nto click every button or choose every bet—\nthe agent follows its rules, again and again, without sweat.",
+            "Through Kalshi, Public members can trade contracts on events:\nWill prices climb? Will elections bring market-moving developments?\nIf the predicted event occurs, the contract may pay;\nif the prediction is wrong, its value can fade away.",
+            "The categories named crypto, climate, politics, and tech,\nplus commodities, companies, indices—quite a deck.\nThe agents might even use an event-price clue\nto decide what a stock or a bond ought to do.",
+            "But sports were not listed. No Jets game appeared.\nNo robot chose teams while their human just cheered.\nStill, one day later, OpenWorlds joined Polymarket’s floor,\nbringing personal trading agents through another prediction-market door.",
+            "So how long until bots pick the spread and the score,\nplacing hundreds of wagers while fans watch no more?\nPerhaps “two weeks, tops,” was the joking forecast—\na future where even the slot lever pulls itself fast.",
+            "What happened? Public announced AI agents that can trade Kalshi prediction-market contracts, and OpenWorlds announced a partnership bringing personal trading agents to Polymarket. The announced categories did not include sports, but the joke was that automated sports gambling seemed only about two weeks away."
+          ]
+        },
+        "high": {
+          "title": "The Bots That Bet—But Not on Sports Yet",
+          "lesson": "Public connected AI trading agents to Kalshi event contracts, while OpenWorlds partnered with Polymarket, allowing automated agents to place prediction-market trades; neither announcement launched sports betting.",
+          "paragraphs": [
+            "Public called itself the first agentic brokerage around,\nwhere AI helpers can trade without customers being bound\nto click every button or choose every bet—\nthe agent follows its rules, again and again, without sweat.",
+            "Through Kalshi, Public members can trade contracts on events:\nWill prices climb? Will elections bring market-moving developments?\nIf the predicted event occurs, the contract may pay;\nif the prediction is wrong, its value can fade away.",
+            "The categories named crypto, climate, politics, and tech,\nplus commodities, companies, indices—quite a deck.\nThe agents might even use an event-price clue\nto decide what a stock or a bond ought to do.",
+            "But sports were not listed. No Jets game appeared.\nNo robot chose teams while their human just cheered.\nStill, one day later, OpenWorlds joined Polymarket’s floor,\nbringing personal trading agents through another prediction-market door.",
+            "So how long until bots pick the spread and the score,\nplacing hundreds of wagers while fans watch no more?\nPerhaps “two weeks, tops,” was the joking forecast—\na future where even the slot lever pulls itself fast.",
+            "What happened? Public announced AI agents that can trade Kalshi prediction-market contracts, and OpenWorlds announced a partnership bringing personal trading agents to Polymarket. The announced categories did not include sports, but the joke was that automated sports gambling seemed only about two weeks away."
+          ]
+        }
+      }
+    }
+  ]
+}
