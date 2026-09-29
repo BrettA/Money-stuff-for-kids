@@ -336,6 +336,18 @@
       "submitted": true,
       "updatedAt": "2026-09-28T19:43:11.415Z",
       "submittedAt": "2026-09-28T19:43:11.415Z"
+    },
+    "1a0ee69a206e5059": {
+      "gmailMessageId": "1a0ee69a206e5059",
+      "newsletterDate": "2026-09-29",
+      "newsletterTitle": "Is Existential Risk Securities Fraud?",
+      "editionId": "2026-09-29-is-existential-risk-securities-fraud",
+      "sourceSha256": "8e621856cd159c7111be904464dbb988af476ef79f5586c44831d06ad3291353",
+      "packageSha256": "489d2c98317da9bec0a26687f8a677b9f90e3ad214d5c6c3abe711f2d9807085",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-29T21:27:41.663Z",
+      "submittedAt": "2026-09-29T21:27:41.663Z"
     }
   }
 }
