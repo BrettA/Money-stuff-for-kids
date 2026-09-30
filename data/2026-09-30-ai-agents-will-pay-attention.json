@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-09-30-ai-agents-will-pay-attention",
+  "date": "2026-09-30",
+  "displayDate": "September 30, 2026",
+  "title": "AI Agents Will Pay Attention",
+  "sourceSections": [
+    "Attention is all you need",
+    "Man City",
+    "Cotton",
+    "CEO succession",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "attention-is-all-you-need",
+      "sourceSection": "Attention is all you need",
+      "illustration": {
+        "src": "/images/2026-09-30-ai-agents-will-pay-attention/attention-is-all-you-need.png",
+        "alt": "Vlad Tenev unveils a Robinhood AI agent that sends options, bitcoin, and prediction-market orders while a retail trader sleeps."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Vlad Tenev",
+          "Rory Van Loo"
+        ],
+        "realCompanies": [
+          "Robinhood",
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "Market makers pay retail brokerages for order flow, so AI agents that trade repeatedly may increase brokerage revenue; however, AI agents may also shift idle deposits to higher-yield accounts, shrinking the interest spread earned by banks and brokers.",
+        "centralJoke": "The ideal retail customer for a market maker is not merely a busy day trader with no informational edge, but a day trader and volleyball-programs coordinator whose AI bot keeps trading even while the customer sleeps."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Bot That Trades While You Sleep",
+          "lesson": "AI agents could increase brokerage revenue by placing more retail trades, while reducing bank and brokerage interest spreads by moving idle customer cash to higher-paying accounts.",
+          "paragraphs": [
+            "At Houston’s George R. Brown Convention Center one day,\nRobinhood unveiled a new automated way.\nThe Wall Street Journal reported Vlad Tenev’s big theme:\nAI agents may trade while their customers dream.",
+            "They could study the market, then follow a plan,\nBuying stocks, options, bitcoin—whatever users command.\nA feature called Loops could repeat the “wheel” trade:\nSelling puts backed by cash, then calls backed by shares.",
+            "That thrills market makers, who handle each order\nAnd pay retail brokers to send trades across the border.\nMore orders can mean that more payments will flow—\nAnd bots need no bedtime, so off they may go!",
+            "But banks see those tireless assistants with dread:\nThey may move sleepy savings to better rates instead.\nRory Van Loo warned of this back in 2019:\n“Digital Market Perfection” could make switching routine.",
+            "So attention has two very different effects:\nIt finds higher interest, but may generate more bets.\nBrokers gain when bots trade, yet lose some cash spread\nIf agents move idle money elsewhere instead.",
+            "For market makers, one customer already sounded grand:\nA “day trader and volleyball-programs coordinator” close at hand.\nBut someone who trades often with no special edge—\nAnd keeps trading while sleeping? That’s the dreamiest pledge!",
+            "What happened? Robinhood announced AI agents that can research investments and eventually place trades automatically, including repeating strategies through Loops while users are away. More trades can produce more payment for order flow, while agents that move idle cash to higher-yield accounts can reduce the interest income kept by banks and brokers."
+          ]
+        },
+        "elementary": {
+          "title": "The Bot That Trades While You Sleep",
+          "lesson": "AI agents could increase brokerage revenue by placing more retail trades, while reducing bank and brokerage interest spreads by moving idle customer cash to higher-paying accounts.",
+          "paragraphs": [
+            "At Houston’s George R. Brown Convention Center one day,\nRobinhood unveiled a new automated way.\nThe Wall Street Journal reported Vlad Tenev’s big theme:\nAI agents may trade while their customers dream.",
+            "They could study the market, then follow a plan,\nBuying stocks, options, bitcoin—whatever users command.\nA feature called Loops could repeat the “wheel” trade:\nSelling puts backed by cash, then calls backed by shares.",
+            "That thrills market makers, who handle each order\nAnd pay retail brokers to send trades across the border.\nMore orders can mean that more payments will flow—\nAnd bots need no bedtime, so off they may go!",
+            "But banks see those tireless assistants with dread:\nThey may move sleepy savings to better rates instead.\nRory Van Loo warned of this back in 2019:\n“Digital Market Perfection” could make switching routine.",
+            "So attention has two very different effects:\nIt finds higher interest, but may generate more bets.\nBrokers gain when bots trade, yet lose some cash spread\nIf agents move idle money elsewhere instead.",
+            "For market makers, one customer already sounded grand:\nA “day trader and volleyball-programs coordinator” close at hand.\nBut someone who trades often with no special edge—\nAnd keeps trading while sleeping? That’s the dreamiest pledge!",
+            "What happened? Robinhood announced AI agents that can research investments and eventually place trades automatically, including repeating strategies through Loops while users are away. More trades can produce more payment for order flow, while agents that move idle cash to higher-yield accounts can reduce the interest income kept by banks and brokers."
+          ]
+        },
+        "middle": {
+          "title": "The Bot That Trades While You Sleep",
+          "lesson": "AI agents could increase brokerage revenue by placing more retail trades, while reducing bank and brokerage interest spreads by moving idle customer cash to higher-paying accounts.",
+          "paragraphs": [
+            "At Houston’s George R. Brown Convention Center one day,\nRobinhood unveiled a new automated way.\nThe Wall Street Journal reported Vlad Tenev’s big theme:\nAI agents may trade while their customers dream.",
+            "They could study the market, then follow a plan,\nBuying stocks, options, bitcoin—whatever users command.\nA feature called Loops could repeat the “wheel” trade:\nSelling puts backed by cash, then calls backed by shares.",
+            "That thrills market makers, who handle each order\nAnd pay retail brokers to send trades across the border.\nMore orders can mean that more payments will flow—\nAnd bots need no bedtime, so off they may go!",
+            "But banks see those tireless assistants with dread:\nThey may move sleepy savings to better rates instead.\nRory Van Loo warned of this back in 2019:\n“Digital Market Perfection” could make switching routine.",
+            "So attention has two very different effects:\nIt finds higher interest, but may generate more bets.\nBrokers gain when bots trade, yet lose some cash spread\nIf agents move idle money elsewhere instead.",
+            "For market makers, one customer already sounded grand:\nA “day trader and volleyball-programs coordinator” close at hand.\nBut someone who trades often with no special edge—\nAnd keeps trading while sleeping? That’s the dreamiest pledge!",
+            "What happened? Robinhood announced AI agents that can research investments and eventually place trades automatically, including repeating strategies through Loops while users are away. More trades can produce more payment for order flow, while agents that move idle cash to higher-yield accounts can reduce the interest income kept by banks and brokers."
+          ]
+        },
+        "high": {
+          "title": "The Bot That Trades While You Sleep",
+          "lesson": "AI agents could increase brokerage revenue by placing more retail trades, while reducing bank and brokerage interest spreads by moving idle customer cash to higher-paying accounts.",
+          "paragraphs": [
+            "At Houston’s George R. Brown Convention Center one day,\nRobinhood unveiled a new automated way.\nThe Wall Street Journal reported Vlad Tenev’s big theme:\nAI agents may trade while their customers dream.",
+            "They could study the market, then follow a plan,\nBuying stocks, options, bitcoin—whatever users command.\nA feature called Loops could repeat the “wheel” trade:\nSelling puts backed by cash, then calls backed by shares.",
+            "That thrills market makers, who handle each order\nAnd pay retail brokers to send trades across the border.\nMore orders can mean that more payments will flow—\nAnd bots need no bedtime, so off they may go!",
+            "But banks see those tireless assistants with dread:\nThey may move sleepy savings to better rates instead.\nRory Van Loo warned of this back in 2019:\n“Digital Market Perfection” could make switching routine.",
+            "So attention has two very different effects:\nIt finds higher interest, but may generate more bets.\nBrokers gain when bots trade, yet lose some cash spread\nIf agents move idle money elsewhere instead.",
+            "For market makers, one customer already sounded grand:\nA “day trader and volleyball-programs coordinator” close at hand.\nBut someone who trades often with no special edge—\nAnd keeps trading while sleeping? That’s the dreamiest pledge!",
+            "What happened? Robinhood announced AI agents that can research investments and eventually place trades automatically, including repeating strategies through Loops while users are away. More trades can produce more payment for order flow, while agents that move idle cash to higher-yield accounts can reduce the interest income kept by banks and brokers."
+          ]
+        }
+      }
+    },
+    {
+      "id": "man-city",
+      "sourceSection": "Man City",
+      "illustration": {
+        "src": "/images/2026-09-30-ai-agents-will-pay-attention/man-city.png",
+        "alt": "Sheikh Mansour beside an ADUG crate as pound notes pass through a sponsor hat into Manchester City’s accounts, with eight trophies behind the desk."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Sheikh Mansour"
+        ],
+        "realCompanies": [
+          "Manchester City FC",
+          "Abu Dhabi United Group",
+          "English Premier League"
+        ],
+        "financialMechanism": "Owner equity from Abu Dhabi United Group was recorded as sponsorship revenue, inflating Manchester City’s commercial income under rules that linked permitted spending to revenue.",
+        "centralJoke": "The owner’s money effectively put on a sponsor’s hat and entered Manchester City’s accounts as commercial revenue, even though changing the label did not change who supplied the cash."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Pounds in Sponsor Hats",
+          "lesson": "Manchester City recorded £830.69 million from its owner, Abu Dhabi United Group, as sponsorship revenue, making the club appear to have more commercial income available under spending rules.",
+          "paragraphs": [
+            "In 2008, ADUG bought Manchester City,\nA club that was middling, though rich in possibility.\nADUG belonged to Sheikh Mansour, who wanted to win;\nTop players and coaches soon started coming in.",
+            "Manchester City climbed to the Premier League’s heights,\nWinning eight championships on trophy-filled nights.\nBut spending was limited by revenue earned—\nFrom tickets and sponsors, the rulebook discerned.",
+            "Owner investment must be recorded that way;\nSponsorship counts as commercial pay.\nBut what if the owner’s pounds wore a sponsor’s hat,\nThen marched in as revenue? Well! Imagine that.",
+            "From 2009/10 through 2017/18,\nCity reported sponsor sums fit for a dream:\n£949.94 million in commercial income—\nSo an independent Commission checked where it had come from.",
+            "The sponsors themselves paid £119.25 million—the base.\nADUG paid £830.69 million in their place.\nThose “tagged sums” were owner funding, the Commission said,\nThough City’s financial statements called them sponsorship instead.",
+            "The Premier League announced the Commission’s decision:\nManchester City was guilty of every charged serious breach in its nine-season investigation.\nThe joke had become a very costly fact:\nA sponsor-shaped detour could not change who paid the cash.",
+            "What happened? An independent Commission found that Manchester City disguised £830.69 million from its owner, Abu Dhabi United Group, as sponsorship income between 2009/10 and 2017/18. That made owner funding look like commercial revenue that could support more spending under the financial rules."
+          ]
+        },
+        "elementary": {
+          "title": "The Pounds in Sponsor Hats",
+          "lesson": "Manchester City recorded £830.69 million from its owner, Abu Dhabi United Group, as sponsorship revenue, making the club appear to have more commercial income available under spending rules.",
+          "paragraphs": [
+            "In 2008, ADUG bought Manchester City,\nA club that was middling, though rich in possibility.\nADUG belonged to Sheikh Mansour, who wanted to win;\nTop players and coaches soon started coming in.",
+            "Manchester City climbed to the Premier League’s heights,\nWinning eight championships on trophy-filled nights.\nBut spending was limited by revenue earned—\nFrom tickets and sponsors, the rulebook discerned.",
+            "Owner investment must be recorded that way;\nSponsorship counts as commercial pay.\nBut what if the owner’s pounds wore a sponsor’s hat,\nThen marched in as revenue? Well! Imagine that.",
+            "From 2009/10 through 2017/18,\nCity reported sponsor sums fit for a dream:\n£949.94 million in commercial income—\nSo an independent Commission checked where it had come from.",
+            "The sponsors themselves paid £119.25 million—the base.\nADUG paid £830.69 million in their place.\nThose “tagged sums” were owner funding, the Commission said,\nThough City’s financial statements called them sponsorship instead.",
+            "The Premier League announced the Commission’s decision:\nManchester City was guilty of every charged serious breach in its nine-season investigation.\nThe joke had become a very costly fact:\nA sponsor-shaped detour could not change who paid the cash.",
+            "What happened? An independent Commission found that Manchester City disguised £830.69 million from its owner, Abu Dhabi United Group, as sponsorship income between 2009/10 and 2017/18. That made owner funding look like commercial revenue that could support more spending under the financial rules."
+          ]
+        },
+        "middle": {
+          "title": "The Pounds in Sponsor Hats",
+          "lesson": "Manchester City recorded £830.69 million from its owner, Abu Dhabi United Group, as sponsorship revenue, making the club appear to have more commercial income available under spending rules.",
+          "paragraphs": [
+            "In 2008, ADUG bought Manchester City,\nA club that was middling, though rich in possibility.\nADUG belonged to Sheikh Mansour, who wanted to win;\nTop players and coaches soon started coming in.",
+            "Manchester City climbed to the Premier League’s heights,\nWinning eight championships on trophy-filled nights.\nBut spending was limited by revenue earned—\nFrom tickets and sponsors, the rulebook discerned.",
+            "Owner investment must be recorded that way;\nSponsorship counts as commercial pay.\nBut what if the owner’s pounds wore a sponsor’s hat,\nThen marched in as revenue? Well! Imagine that.",
+            "From 2009/10 through 2017/18,\nCity reported sponsor sums fit for a dream:\n£949.94 million in commercial income—\nSo an independent Commission checked where it had come from.",
+            "The sponsors themselves paid £119.25 million—the base.\nADUG paid £830.69 million in their place.\nThose “tagged sums” were owner funding, the Commission said,\nThough City’s financial statements called them sponsorship instead.",
+            "The Premier League announced the Commission’s decision:\nManchester City was guilty of every charged serious breach in its nine-season investigation.\nThe joke had become a very costly fact:\nA sponsor-shaped detour could not change who paid the cash.",
+            "What happened? An independent Commission found that Manchester City disguised £830.69 million from its owner, Abu Dhabi United Group, as sponsorship income between 2009/10 and 2017/18. That made owner funding look like commercial revenue that could support more spending under the financial rules."
+          ]
+        },
+        "high": {
+          "title": "The Pounds in Sponsor Hats",
+          "lesson": "Manchester City recorded £830.69 million from its owner, Abu Dhabi United Group, as sponsorship revenue, making the club appear to have more commercial income available under spending rules.",
+          "paragraphs": [
+            "In 2008, ADUG bought Manchester City,\nA club that was middling, though rich in possibility.\nADUG belonged to Sheikh Mansour, who wanted to win;\nTop players and coaches soon started coming in.",
+            "Manchester City climbed to the Premier League’s heights,\nWinning eight championships on trophy-filled nights.\nBut spending was limited by revenue earned—\nFrom tickets and sponsors, the rulebook discerned.",
+            "Owner investment must be recorded that way;\nSponsorship counts as commercial pay.\nBut what if the owner’s pounds wore a sponsor’s hat,\nThen marched in as revenue? Well! Imagine that.",
+            "From 2009/10 through 2017/18,\nCity reported sponsor sums fit for a dream:\n£949.94 million in commercial income—\nSo an independent Commission checked where it had come from.",
+            "The sponsors themselves paid £119.25 million—the base.\nADUG paid £830.69 million in their place.\nThose “tagged sums” were owner funding, the Commission said,\nThough City’s financial statements called them sponsorship instead.",
+            "The Premier League announced the Commission’s decision:\nManchester City was guilty of every charged serious breach in its nine-season investigation.\nThe joke had become a very costly fact:\nA sponsor-shaped detour could not change who paid the cash.",
+            "What happened? An independent Commission found that Manchester City disguised £830.69 million from its owner, Abu Dhabi United Group, as sponsorship income between 2009/10 and 2017/18. That made owner funding look like commercial revenue that could support more spending under the financial rules."
+          ]
+        }
+      }
+    },
+    {
+      "id": "cotton",
+      "sourceSection": "Cotton",
+      "illustration": {
+        "src": "/images/2026-09-30-ai-agents-will-pay-attention/cotton.png",
+        "alt": "Cotton traders conceal a large export contract while farmers consult a weekly demand report showing misleadingly low demand."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "O.A. Cleveland",
+          "Caroline Pham",
+          "Brooke Nethercott"
+        ],
+        "realCompanies": [
+          "Olam Group"
+        ],
+        "financialMechanism": "Large cotton export contracts must be reported for weekly Agriculture Department reports. Delaying those reports can understate demand, which may cause growers to sell cotton at lower prices.",
+        "centralJoke": "Calling the delays minor “paperwork errors” sounds harmless, even though hiding the contracts could effectively mislead growers about demand and prices."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Cotton Contracts That Came in Late",
+          "lesson": "Delaying required reports of large cotton export contracts can make demand look weaker, allowing traders to buy cotton from growers at lower prices.",
+          "paragraphs": [
+            "When companies sign big cotton sales, the law says send the news\nTo Agriculture’s weekly report, which growers use as clues.\nThe totals help them judge demand and choose a selling price;\nAccurate, timely contracts make that weekly guide precise.",
+            "Suppose cotton sold for $120; demand was clearly keen.\nDelay the news, then offer growers $100 while it stays unseen.\nThe weekly numbers look too low, though buyers want much more,\nAnd farmers may accept a price they might have questioned before.",
+            "Professor O.A. Cleveland made his accusation plain:\nTraders hid what should be public, while the growers felt the pain.\nTwo commodity firms allegedly reported sales too late;\nOne settled near the end of Biden’s term—the other chose to wait.",
+            "Under Trump, the CFTC dropped the remaining case.\nThe delayed reports were now described in quite a different way.\nCaroline Pham said Olam Group’s issue possibly could be\n“Paperwork errors”—not a scheme of market trickery.",
+            "Brooke Nethercott said minor administrative mistakes drew giant fines.\nBut late reports can hide real demand and shift the cotton pricing lines.\n“A bit slow with paperwork” sounds harmless, dull, and slight;\n“Kept growers from the better price” puts matters in new light.",
+            "What happened? Cotton traders were accused of delaying legally required reports of large export contracts, making demand appear lower and potentially letting them buy cotton from growers more cheaply. One company settled, while the CFTC later dropped its case against the other company."
+          ]
+        },
+        "elementary": {
+          "title": "The Cotton Contracts That Came in Late",
+          "lesson": "Delaying required reports of large cotton export contracts can make demand look weaker, allowing traders to buy cotton from growers at lower prices.",
+          "paragraphs": [
+            "When companies sign big cotton sales, the law says send the news\nTo Agriculture’s weekly report, which growers use as clues.\nThe totals help them judge demand and choose a selling price;\nAccurate, timely contracts make that weekly guide precise.",
+            "Suppose cotton sold for $120; demand was clearly keen.\nDelay the news, then offer growers $100 while it stays unseen.\nThe weekly numbers look too low, though buyers want much more,\nAnd farmers may accept a price they might have questioned before.",
+            "Professor O.A. Cleveland made his accusation plain:\nTraders hid what should be public, while the growers felt the pain.\nTwo commodity firms allegedly reported sales too late;\nOne settled near the end of Biden’s term—the other chose to wait.",
+            "Under Trump, the CFTC dropped the remaining case.\nThe delayed reports were now described in quite a different way.\nCaroline Pham said Olam Group’s issue possibly could be\n“Paperwork errors”—not a scheme of market trickery.",
+            "Brooke Nethercott said minor administrative mistakes drew giant fines.\nBut late reports can hide real demand and shift the cotton pricing lines.\n“A bit slow with paperwork” sounds harmless, dull, and slight;\n“Kept growers from the better price” puts matters in new light.",
+            "What happened? Cotton traders were accused of delaying legally required reports of large export contracts, making demand appear lower and potentially letting them buy cotton from growers more cheaply. One company settled, while the CFTC later dropped its case against the other company."
+          ]
+        },
+        "middle": {
+          "title": "The Cotton Contracts That Came in Late",
+          "lesson": "Delaying required reports of large cotton export contracts can make demand look weaker, allowing traders to buy cotton from growers at lower prices.",
+          "paragraphs": [
+            "When companies sign big cotton sales, the law says send the news\nTo Agriculture’s weekly report, which growers use as clues.\nThe totals help them judge demand and choose a selling price;\nAccurate, timely contracts make that weekly guide precise.",
+            "Suppose cotton sold for $120; demand was clearly keen.\nDelay the news, then offer growers $100 while it stays unseen.\nThe weekly numbers look too low, though buyers want much more,\nAnd farmers may accept a price they might have questioned before.",
+            "Professor O.A. Cleveland made his accusation plain:\nTraders hid what should be public, while the growers felt the pain.\nTwo commodity firms allegedly reported sales too late;\nOne settled near the end of Biden’s term—the other chose to wait.",
+            "Under Trump, the CFTC dropped the remaining case.\nThe delayed reports were now described in quite a different way.\nCaroline Pham said Olam Group’s issue possibly could be\n“Paperwork errors”—not a scheme of market trickery.",
+            "Brooke Nethercott said minor administrative mistakes drew giant fines.\nBut late reports can hide real demand and shift the cotton pricing lines.\n“A bit slow with paperwork” sounds harmless, dull, and slight;\n“Kept growers from the better price” puts matters in new light.",
+            "What happened? Cotton traders were accused of delaying legally required reports of large export contracts, making demand appear lower and potentially letting them buy cotton from growers more cheaply. One company settled, while the CFTC later dropped its case against the other company."
+          ]
+        },
+        "high": {
+          "title": "The Cotton Contracts That Came in Late",
+          "lesson": "Delaying required reports of large cotton export contracts can make demand look weaker, allowing traders to buy cotton from growers at lower prices.",
+          "paragraphs": [
+            "When companies sign big cotton sales, the law says send the news\nTo Agriculture’s weekly report, which growers use as clues.\nThe totals help them judge demand and choose a selling price;\nAccurate, timely contracts make that weekly guide precise.",
+            "Suppose cotton sold for $120; demand was clearly keen.\nDelay the news, then offer growers $100 while it stays unseen.\nThe weekly numbers look too low, though buyers want much more,\nAnd farmers may accept a price they might have questioned before.",
+            "Professor O.A. Cleveland made his accusation plain:\nTraders hid what should be public, while the growers felt the pain.\nTwo commodity firms allegedly reported sales too late;\nOne settled near the end of Biden’s term—the other chose to wait.",
+            "Under Trump, the CFTC dropped the remaining case.\nThe delayed reports were now described in quite a different way.\nCaroline Pham said Olam Group’s issue possibly could be\n“Paperwork errors”—not a scheme of market trickery.",
+            "Brooke Nethercott said minor administrative mistakes drew giant fines.\nBut late reports can hide real demand and shift the cotton pricing lines.\n“A bit slow with paperwork” sounds harmless, dull, and slight;\n“Kept growers from the better price” puts matters in new light.",
+            "What happened? Cotton traders were accused of delaying legally required reports of large export contracts, making demand appear lower and potentially letting them buy cotton from growers more cheaply. One company settled, while the CFTC later dropped its case against the other company."
+          ]
+        }
+      }
+    },
+    {
+      "id": "ceo-succession",
+      "sourceSection": "CEO succession",
+      "illustration": {
+        "src": "/images/2026-09-30-ai-agents-will-pay-attention/ceo-succession.png",
+        "alt": "Young John Waldron leaves a Goldman Sachs modeling test, then confidently meets clients at Bear Stearns as a later scene points back toward Goldman leadership."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "John Waldron",
+          "David Solomon"
+        ],
+        "realCompanies": [
+          "Goldman Sachs Group Inc.",
+          "Bear Stearns",
+          "Blackstone"
+        ],
+        "financialMechanism": "Investment banking uses an apprenticeship system in which junior bankers are evaluated on financial models and pitchbooks, then promoted into senior jobs centered on advising, persuading, and winning clients—even though those jobs require different skills.",
+        "centralJoke": "Goldman rejected John Waldron because he struggled with the junior-level modeling test, yet his talent for client relationships made him successful enough to become the apparent successor to Goldman’s CEO."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Test That Missed John Waldron’s Talent",
+          "lesson": "Investment banks often promote people for mastering junior financial-modeling work even though senior leadership depends heavily on winning clients; John Waldron struggled with Goldman Sachs’s modeling test but excelled at client relationships and later became David Solomon’s apparent successor.",
+          "paragraphs": [
+            "At Goldman Sachs, young bankers worked late,\nbuilding financial models till each number sat straight.\nThey polished pitchbooks, with charts neat and bright,\nwhile senior bankers won clients by talking just right.",
+            "A model estimates what companies are worth;\na pitchbook proposes what deals could come forth.\nThose careful junior tasks could earn a promotion\nto senior work powered by trust and persuasion.",
+            "But spreadsheets and schmoozing aren’t quite the same game:\nbeing best at the first won’t ensure client fame.\nSome juniors can model each detail just so,\nyet struggle when meeting the people they need to know.",
+            "Goldman turned down John Waldron when college was through.\nOn Blackstone’s Inside Blackstone, he explained what went askew:\n“I didn’t do well in the financial modeling test.”\nBut modeling alone did not measure him best.",
+            "Bear Stearns hired Waldron and gave him more say.\nHe handled client relationships while still young in his day.\nHe grasped industries broadly and connected with ease—\nthe very senior skills that can help win deals and fees.",
+            "Now he is viewed as David Solomon’s apparent successor at Goldman Sachs:\nthe rejected modeler may reach the top by excelling where the test did not ask.",
+            "What happened? Goldman Sachs rejected John Waldron after he did poorly on its financial-modeling test, but Bear Stearns hired him and let him manage client relationships early. Investment banks commonly promote junior model-builders into senior client-winning roles, and Waldron later became the apparent successor to Goldman CEO David Solomon."
+          ]
+        },
+        "elementary": {
+          "title": "The Test That Missed John Waldron’s Talent",
+          "lesson": "Investment banks often promote people for mastering junior financial-modeling work even though senior leadership depends heavily on winning clients; John Waldron struggled with Goldman Sachs’s modeling test but excelled at client relationships and later became David Solomon’s apparent successor.",
+          "paragraphs": [
+            "At Goldman Sachs, young bankers worked late,\nbuilding financial models till each number sat straight.\nThey polished pitchbooks, with charts neat and bright,\nwhile senior bankers won clients by talking just right.",
+            "A model estimates what companies are worth;\na pitchbook proposes what deals could come forth.\nThose careful junior tasks could earn a promotion\nto senior work powered by trust and persuasion.",
+            "But spreadsheets and schmoozing aren’t quite the same game:\nbeing best at the first won’t ensure client fame.\nSome juniors can model each detail just so,\nyet struggle when meeting the people they need to know.",
+            "Goldman turned down John Waldron when college was through.\nOn Blackstone’s Inside Blackstone, he explained what went askew:\n“I didn’t do well in the financial modeling test.”\nBut modeling alone did not measure him best.",
+            "Bear Stearns hired Waldron and gave him more say.\nHe handled client relationships while still young in his day.\nHe grasped industries broadly and connected with ease—\nthe very senior skills that can help win deals and fees.",
+            "Now he is viewed as David Solomon’s apparent successor at Goldman Sachs:\nthe rejected modeler may reach the top by excelling where the test did not ask.",
+            "What happened? Goldman Sachs rejected John Waldron after he did poorly on its financial-modeling test, but Bear Stearns hired him and let him manage client relationships early. Investment banks commonly promote junior model-builders into senior client-winning roles, and Waldron later became the apparent successor to Goldman CEO David Solomon."
+          ]
+        },
+        "middle": {
+          "title": "The Test That Missed John Waldron’s Talent",
+          "lesson": "Investment banks often promote people for mastering junior financial-modeling work even though senior leadership depends heavily on winning clients; John Waldron struggled with Goldman Sachs’s modeling test but excelled at client relationships and later became David Solomon’s apparent successor.",
+          "paragraphs": [
+            "At Goldman Sachs, young bankers worked late,\nbuilding financial models till each number sat straight.\nThey polished pitchbooks, with charts neat and bright,\nwhile senior bankers won clients by talking just right.",
+            "A model estimates what companies are worth;\na pitchbook proposes what deals could come forth.\nThose careful junior tasks could earn a promotion\nto senior work powered by trust and persuasion.",
+            "But spreadsheets and schmoozing aren’t quite the same game:\nbeing best at the first won’t ensure client fame.\nSome juniors can model each detail just so,\nyet struggle when meeting the people they need to know.",
+            "Goldman turned down John Waldron when college was through.\nOn Blackstone’s Inside Blackstone, he explained what went askew:\n“I didn’t do well in the financial modeling test.”\nBut modeling alone did not measure him best.",
+            "Bear Stearns hired Waldron and gave him more say.\nHe handled client relationships while still young in his day.\nHe grasped industries broadly and connected with ease—\nthe very senior skills that can help win deals and fees.",
+            "Now he is viewed as David Solomon’s apparent successor at Goldman Sachs:\nthe rejected modeler may reach the top by excelling where the test did not ask.",
+            "What happened? Goldman Sachs rejected John Waldron after he did poorly on its financial-modeling test, but Bear Stearns hired him and let him manage client relationships early. Investment banks commonly promote junior model-builders into senior client-winning roles, and Waldron later became the apparent successor to Goldman CEO David Solomon."
+          ]
+        },
+        "high": {
+          "title": "The Test That Missed John Waldron’s Talent",
+          "lesson": "Investment banks often promote people for mastering junior financial-modeling work even though senior leadership depends heavily on winning clients; John Waldron struggled with Goldman Sachs’s modeling test but excelled at client relationships and later became David Solomon’s apparent successor.",
+          "paragraphs": [
+            "At Goldman Sachs, young bankers worked late,\nbuilding financial models till each number sat straight.\nThey polished pitchbooks, with charts neat and bright,\nwhile senior bankers won clients by talking just right.",
+            "A model estimates what companies are worth;\na pitchbook proposes what deals could come forth.\nThose careful junior tasks could earn a promotion\nto senior work powered by trust and persuasion.",
+            "But spreadsheets and schmoozing aren’t quite the same game:\nbeing best at the first won’t ensure client fame.\nSome juniors can model each detail just so,\nyet struggle when meeting the people they need to know.",
+            "Goldman turned down John Waldron when college was through.\nOn Blackstone’s Inside Blackstone, he explained what went askew:\n“I didn’t do well in the financial modeling test.”\nBut modeling alone did not measure him best.",
+            "Bear Stearns hired Waldron and gave him more say.\nHe handled client relationships while still young in his day.\nHe grasped industries broadly and connected with ease—\nthe very senior skills that can help win deals and fees.",
+            "Now he is viewed as David Solomon’s apparent successor at Goldman Sachs:\nthe rejected modeler may reach the top by excelling where the test did not ask.",
+            "What happened? Goldman Sachs rejected John Waldron after he did poorly on its financial-modeling test, but Bear Stearns hired him and let him manage client relationships early. Investment banks commonly promote junior model-builders into senior client-winning roles, and Waldron later became the apparent successor to Goldman CEO David Solomon."
+          ]
+        }
+      }
+    }
+  ]
+}
