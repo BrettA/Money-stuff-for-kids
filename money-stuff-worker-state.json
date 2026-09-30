@@ -348,6 +348,18 @@
       "submitted": true,
       "updatedAt": "2026-09-29T21:27:41.663Z",
       "submittedAt": "2026-09-29T21:27:41.663Z"
+    },
+    "1a0f36cf84680794": {
+      "gmailMessageId": "1a0f36cf84680794",
+      "newsletterDate": "2026-09-30",
+      "newsletterTitle": "AI Agents Will Pay Attention",
+      "editionId": "2026-09-30-ai-agents-will-pay-attention",
+      "sourceSha256": "a3b6424dca980cede3fe096aa2686bbc68e36a1b6e30cddb80ffa195fde59a8d",
+      "packageSha256": "f1939dee2b7fbdaf65b3651631db0f255836a33ca10118d4e86fdbbf2a4cca33",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-09-30T18:12:08.491Z",
+      "submittedAt": "2026-09-30T18:12:08.491Z"
     }
   }
 }
