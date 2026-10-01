@@ -360,6 +360,18 @@
       "submitted": true,
       "updatedAt": "2026-09-30T18:12:08.491Z",
       "submittedAt": "2026-09-30T18:12:08.491Z"
+    },
+    "1a0f89e959ae6bf9": {
+      "gmailMessageId": "1a0f89e959ae6bf9",
+      "newsletterDate": "2026-10-01",
+      "newsletterTitle": "Opening Private Markets to the Public",
+      "editionId": "2026-10-01-opening-private-markets-to-the-public",
+      "sourceSha256": "385caa72da9838b1bc979456568f47220d80e857b9a7f7cc47d172b728d75681",
+      "packageSha256": "efb1c7cccb3753770f8e30e195096f3d743daae57fff92476489c393b3468ab2",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-01T19:53:21.910Z",
+      "submittedAt": "2026-10-01T19:53:21.910Z"
     }
   }
 }
