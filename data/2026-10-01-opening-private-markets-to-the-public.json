@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-01-opening-private-markets-to-the-public",
+  "date": "2026-10-01",
+  "displayDate": "October 1, 2026",
+  "title": "Opening Private Markets to the Public",
+  "sourceSections": [
+    "Private markets are the new public markets: Performance fees",
+    "Private markets are the new public markets: Certificate of Smart Investment",
+    "Shareholder voting",
+    "Knicks and Rangers",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "private-markets-are-the-new-public-markets-performance-fees",
+      "sourceSection": "Private markets are the new public markets: Performance fees",
+      "illustration": {
+        "src": "/images/2026-10-01-opening-private-markets-to-the-public/private-markets-are-the-new-public-markets-performance-fees.png",
+        "alt": "A private-fund manager takes a 20% slice from a pile of investment gains as retail investors enter through an SEC-opened gate toward private-company investments."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Will Dunham"
+        ],
+        "realCompanies": [
+          "Anthropic",
+          "OpenAI",
+          "SpaceX",
+          "PitchBook"
+        ],
+        "financialMechanism": "Performance fees give investment managers a percentage of gains. The SEC proposed allowing regulated funds serving retail investors to charge up to 20% of returns, which could encourage private-market managers to offer those investors private-market strategies.",
+        "centralJoke": "The SEC hopes that letting managers charge retail investors the “good fees” will attract good private-market products, but the only guaranteed result is that managers will charge the fees."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Good Products and the Very Good Fees",
+          "lesson": "The SEC proposed letting regulated funds charge ordinary retail investors performance fees of up to 20% of returns, hoping that private-market managers will offer them access to private investments.",
+          "paragraphs": [
+            "Anthropic and OpenAI were private and grand;\nMost everyday investors could not lend a hand.\nSpaceX reached the public at $1.8 trillion in June—\nIts private backers had gathered that value first, and soon.",
+            "Index funds charged retail investors near 0.03%,\nWhile private funds took bigger fees for expertise:\nAbout 2% of assets, then 20% of gains—\nA prize for clever choices, if profit remained.",
+            "Performance fees were mostly barred for smaller accounts;\nOnly “qualified clients” could pay those amounts.\nThe SEC proposed a brand-new route:\nLet regulated funds bring private investments out.",
+            "PitchBook said private-equity fundraising had declined,\nWith unsold companies waiting in a long, slow line.\nWill Dunham of the American Investment Council praised the plan,\nAs institutions pulled back and managers sought money where they can.",
+            "Perhaps talented managers will bring products that shine,\nIf retail investors can pay them a cut at the finish line.\nThe products may be tarnished; their returns may not please—\nBut one thing is certain: managers will charge the good fees.",
+            "What happened? The SEC proposed allowing regulated funds to charge retail clients performance fees of up to 20% of returns, aiming to encourage private-market managers to serve ordinary investors. The proposal could also bring new money to a private-equity industry struggling with weak fundraising and unsold assets."
+          ]
+        },
+        "elementary": {
+          "title": "The Good Products and the Very Good Fees",
+          "lesson": "The SEC proposed letting regulated funds charge ordinary retail investors performance fees of up to 20% of returns, hoping that private-market managers will offer them access to private investments.",
+          "paragraphs": [
+            "Anthropic and OpenAI were private and grand;\nMost everyday investors could not lend a hand.\nSpaceX reached the public at $1.8 trillion in June—\nIts private backers had gathered that value first, and soon.",
+            "Index funds charged retail investors near 0.03%,\nWhile private funds took bigger fees for expertise:\nAbout 2% of assets, then 20% of gains—\nA prize for clever choices, if profit remained.",
+            "Performance fees were mostly barred for smaller accounts;\nOnly “qualified clients” could pay those amounts.\nThe SEC proposed a brand-new route:\nLet regulated funds bring private investments out.",
+            "PitchBook said private-equity fundraising had declined,\nWith unsold companies waiting in a long, slow line.\nWill Dunham of the American Investment Council praised the plan,\nAs institutions pulled back and managers sought money where they can.",
+            "Perhaps talented managers will bring products that shine,\nIf retail investors can pay them a cut at the finish line.\nThe products may be tarnished; their returns may not please—\nBut one thing is certain: managers will charge the good fees.",
+            "What happened? The SEC proposed allowing regulated funds to charge retail clients performance fees of up to 20% of returns, aiming to encourage private-market managers to serve ordinary investors. The proposal could also bring new money to a private-equity industry struggling with weak fundraising and unsold assets."
+          ]
+        },
+        "middle": {
+          "title": "The Good Products and the Very Good Fees",
+          "lesson": "The SEC proposed letting regulated funds charge ordinary retail investors performance fees of up to 20% of returns, hoping that private-market managers will offer them access to private investments.",
+          "paragraphs": [
+            "Anthropic and OpenAI were private and grand;\nMost everyday investors could not lend a hand.\nSpaceX reached the public at $1.8 trillion in June—\nIts private backers had gathered that value first, and soon.",
+            "Index funds charged retail investors near 0.03%,\nWhile private funds took bigger fees for expertise:\nAbout 2% of assets, then 20% of gains—\nA prize for clever choices, if profit remained.",
+            "Performance fees were mostly barred for smaller accounts;\nOnly “qualified clients” could pay those amounts.\nThe SEC proposed a brand-new route:\nLet regulated funds bring private investments out.",
+            "PitchBook said private-equity fundraising had declined,\nWith unsold companies waiting in a long, slow line.\nWill Dunham of the American Investment Council praised the plan,\nAs institutions pulled back and managers sought money where they can.",
+            "Perhaps talented managers will bring products that shine,\nIf retail investors can pay them a cut at the finish line.\nThe products may be tarnished; their returns may not please—\nBut one thing is certain: managers will charge the good fees.",
+            "What happened? The SEC proposed allowing regulated funds to charge retail clients performance fees of up to 20% of returns, aiming to encourage private-market managers to serve ordinary investors. The proposal could also bring new money to a private-equity industry struggling with weak fundraising and unsold assets."
+          ]
+        },
+        "high": {
+          "title": "The Good Products and the Very Good Fees",
+          "lesson": "The SEC proposed letting regulated funds charge ordinary retail investors performance fees of up to 20% of returns, hoping that private-market managers will offer them access to private investments.",
+          "paragraphs": [
+            "Anthropic and OpenAI were private and grand;\nMost everyday investors could not lend a hand.\nSpaceX reached the public at $1.8 trillion in June—\nIts private backers had gathered that value first, and soon.",
+            "Index funds charged retail investors near 0.03%,\nWhile private funds took bigger fees for expertise:\nAbout 2% of assets, then 20% of gains—\nA prize for clever choices, if profit remained.",
+            "Performance fees were mostly barred for smaller accounts;\nOnly “qualified clients” could pay those amounts.\nThe SEC proposed a brand-new route:\nLet regulated funds bring private investments out.",
+            "PitchBook said private-equity fundraising had declined,\nWith unsold companies waiting in a long, slow line.\nWill Dunham of the American Investment Council praised the plan,\nAs institutions pulled back and managers sought money where they can.",
+            "Perhaps talented managers will bring products that shine,\nIf retail investors can pay them a cut at the finish line.\nThe products may be tarnished; their returns may not please—\nBut one thing is certain: managers will charge the good fees.",
+            "What happened? The SEC proposed allowing regulated funds to charge retail clients performance fees of up to 20% of returns, aiming to encourage private-market managers to serve ordinary investors. The proposal could also bring new money to a private-equity industry struggling with weak fundraising and unsold assets."
+          ]
+        }
+      }
+    },
+    {
+      "id": "private-markets-are-the-new-public-markets-certificate-of-sm",
+      "sourceSection": "Private markets are the new public markets: Certificate of Smart Investment",
+      "illustration": {
+        "src": "/images/2026-10-01-opening-private-markets-to-the-public/private-markets-are-the-new-public-markets-certificate-of-sm.png",
+        "alt": "A newly certified investor leaves an SEC office wearing a SMART INVESTOR button as structured-note sellers eagerly crowd around."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "U.S. Securities and Exchange Commission (SEC)",
+          "Financial Industry Regulatory Authority (FINRA)"
+        ],
+        "financialMechanism": "The SEC sought comment on a non-financial route to accredited-investor status: passing a FINRA-developed exam could permit an investor to buy private offerings without satisfying the existing wealth or income tests.",
+        "centralJoke": "A certificate proving that someone is a sophisticated investor might make that person especially attractive to sellers of complicated, risky products—the opposite of protecting them."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Very Smart Investor Button",
+          "lesson": "The SEC proposed considering a FINRA knowledge exam as another way to qualify as an accredited investor, allowing people who pass to buy private investments regardless of wealth.",
+          "paragraphs": [
+            "The SEC wondered, “Must wealth be the key\nto investments that trade privately?”\n“Accredited investors” may enter today\nif wealth or high income has opened the way.",
+            "Earn $200,000 each year on your own,\nor hold a $1 million net worth, fully grown.\nFor couples, $300,000 income will do—\nbut what if a knowledgeable buyer falls through?",
+            "So the SEC asked for opinions about\na FINRA-made test that could offer a route.\nIt might cover leverage, fees, and dilution,\nplus balance sheets, conflicts, and risk concentration.",
+            "Pass every question! Step proudly outside,\nwith an imaginary “SMART INVESTOR” button displayed.\nBut sellers of structured notes spot it and say,\n“A sophisticated customer!”—then swarm right away.",
+            "The joke is that knowing what “liquidity” means\ndoes not make private investments safe or serene.\nA clever exam-taker may still choose the worst—\nand confidence can put risky sales pitches first.",
+            "One writer preferred a blunter pretend test:\nSign, “This may lose everything”—then face one request.\nAn SEC worker asks, “Really???” with a slap;\n“Yes, really,” you answer—and receive your odd scrap.",
+            "What happened? The SEC sought public comment on letting people qualify as accredited investors by passing a possible FINRA exam about securities, risks, financial statements, and conflicts of interest. Passing could let them buy private investments even without meeting the usual income or net-worth thresholds."
+          ]
+        },
+        "elementary": {
+          "title": "The Very Smart Investor Button",
+          "lesson": "The SEC proposed considering a FINRA knowledge exam as another way to qualify as an accredited investor, allowing people who pass to buy private investments regardless of wealth.",
+          "paragraphs": [
+            "The SEC wondered, “Must wealth be the key\nto investments that trade privately?”\n“Accredited investors” may enter today\nif wealth or high income has opened the way.",
+            "Earn $200,000 each year on your own,\nor hold a $1 million net worth, fully grown.\nFor couples, $300,000 income will do—\nbut what if a knowledgeable buyer falls through?",
+            "So the SEC asked for opinions about\na FINRA-made test that could offer a route.\nIt might cover leverage, fees, and dilution,\nplus balance sheets, conflicts, and risk concentration.",
+            "Pass every question! Step proudly outside,\nwith an imaginary “SMART INVESTOR” button displayed.\nBut sellers of structured notes spot it and say,\n“A sophisticated customer!”—then swarm right away.",
+            "The joke is that knowing what “liquidity” means\ndoes not make private investments safe or serene.\nA clever exam-taker may still choose the worst—\nand confidence can put risky sales pitches first.",
+            "One writer preferred a blunter pretend test:\nSign, “This may lose everything”—then face one request.\nAn SEC worker asks, “Really???” with a slap;\n“Yes, really,” you answer—and receive your odd scrap.",
+            "What happened? The SEC sought public comment on letting people qualify as accredited investors by passing a possible FINRA exam about securities, risks, financial statements, and conflicts of interest. Passing could let them buy private investments even without meeting the usual income or net-worth thresholds."
+          ]
+        },
+        "middle": {
+          "title": "The Very Smart Investor Button",
+          "lesson": "The SEC proposed considering a FINRA knowledge exam as another way to qualify as an accredited investor, allowing people who pass to buy private investments regardless of wealth.",
+          "paragraphs": [
+            "The SEC wondered, “Must wealth be the key\nto investments that trade privately?”\n“Accredited investors” may enter today\nif wealth or high income has opened the way.",
+            "Earn $200,000 each year on your own,\nor hold a $1 million net worth, fully grown.\nFor couples, $300,000 income will do—\nbut what if a knowledgeable buyer falls through?",
+            "So the SEC asked for opinions about\na FINRA-made test that could offer a route.\nIt might cover leverage, fees, and dilution,\nplus balance sheets, conflicts, and risk concentration.",
+            "Pass every question! Step proudly outside,\nwith an imaginary “SMART INVESTOR” button displayed.\nBut sellers of structured notes spot it and say,\n“A sophisticated customer!”—then swarm right away.",
+            "The joke is that knowing what “liquidity” means\ndoes not make private investments safe or serene.\nA clever exam-taker may still choose the worst—\nand confidence can put risky sales pitches first.",
+            "One writer preferred a blunter pretend test:\nSign, “This may lose everything”—then face one request.\nAn SEC worker asks, “Really???” with a slap;\n“Yes, really,” you answer—and receive your odd scrap.",
+            "What happened? The SEC sought public comment on letting people qualify as accredited investors by passing a possible FINRA exam about securities, risks, financial statements, and conflicts of interest. Passing could let them buy private investments even without meeting the usual income or net-worth thresholds."
+          ]
+        },
+        "high": {
+          "title": "The Very Smart Investor Button",
+          "lesson": "The SEC proposed considering a FINRA knowledge exam as another way to qualify as an accredited investor, allowing people who pass to buy private investments regardless of wealth.",
+          "paragraphs": [
+            "The SEC wondered, “Must wealth be the key\nto investments that trade privately?”\n“Accredited investors” may enter today\nif wealth or high income has opened the way.",
+            "Earn $200,000 each year on your own,\nor hold a $1 million net worth, fully grown.\nFor couples, $300,000 income will do—\nbut what if a knowledgeable buyer falls through?",
+            "So the SEC asked for opinions about\na FINRA-made test that could offer a route.\nIt might cover leverage, fees, and dilution,\nplus balance sheets, conflicts, and risk concentration.",
+            "Pass every question! Step proudly outside,\nwith an imaginary “SMART INVESTOR” button displayed.\nBut sellers of structured notes spot it and say,\n“A sophisticated customer!”—then swarm right away.",
+            "The joke is that knowing what “liquidity” means\ndoes not make private investments safe or serene.\nA clever exam-taker may still choose the worst—\nand confidence can put risky sales pitches first.",
+            "One writer preferred a blunter pretend test:\nSign, “This may lose everything”—then face one request.\nAn SEC worker asks, “Really???” with a slap;\n“Yes, really,” you answer—and receive your odd scrap.",
+            "What happened? The SEC sought public comment on letting people qualify as accredited investors by passing a possible FINRA exam about securities, risks, financial statements, and conflicts of interest. Passing could let them buy private investments even without meeting the usual income or net-worth thresholds."
+          ]
+        }
+      }
+    },
+    {
+      "id": "shareholder-voting",
+      "sourceSection": "Shareholder voting",
+      "illustration": {
+        "src": "/images/2026-10-01-opening-private-markets-to-the-public/shareholder-voting.png",
+        "alt": "Retail shareholders send quiet proxy ballots along a path marked with Tesla board recommendations while Elon Musk stands nearby without touching them."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Todd Gillespie",
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "Goldman Sachs Group Inc.",
+          "Tesla Inc.",
+          "ExxonMobil Corp."
+        ],
+        "financialMechanism": "Retail shareholders may choose a standing default that casts their shares according to the company board’s recommendations, rather than leaving those shares unvoted when the owners do not make individual choices.",
+        "centralJoke": "Tesla’s votes are not literally cast by Elon Musk, but letting Tesla’s board decide can amount to retail shareholders saying, “Just vote for whatever Elon wants.”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Votes That Follow the Board",
+          "lesson": "A board-default voting instruction lets retail shareholders authorize their shares to follow company directors’ recommendations when they do not choose each vote themselves, potentially increasing management’s support.",
+          "paragraphs": [
+            "At U.S. public companies, shareholders have their say:\n“Keep these directors? Approve this pay?”\nLarge funds tend to answer; small owners often don’t—\nFor ten little shares, many reasonably won’t.",
+            "Usually, silence lets the ballots that arrive decide;\nFor mergers needing most shares, silence joins the No side.\nBut Bloomberg’s Todd Gillespie reported Goldman’s new plan:\nA retail holder may give the board the steering hand.",
+            "“Whenever I’m absent, vote as directors advise.”\nThat standing instruction makes quiet shares arise.\nGoldman’s individual investors hold roughly three shares in ten,\nSo board-backed votes could grow much stronger again.",
+            "A year after executive pay nearly lost its vote,\nThat extra support could help big pay packages float.\nThe Securities and Exchange Commission gave Goldman the green light;\nThen Tesla received permission for a similar voting right.",
+            "It isn’t literally Elon Musk who marks each Yes or No;\nThe ballots follow Tesla’s board wherever its recommendations go.\nExxonMobil pioneered this management-friendly track,\nThough one shareholder asked, “Why not always oppose the board back?”",
+            "An AI agent might study every choice and give investors a voice,\nYet “re-elect them and approve the pay” may remain the easiest choice.\nAnd at Tesla, the instruction seems especially easy to understand:\n“Just vote for whatever Elon wants”—though officially, it’s the board’s command.",
+            "What happened? The SEC allowed Goldman Sachs and Tesla to offer retail shareholders an option that defaults their votes to the board’s recommendations, following an approach pioneered by ExxonMobil. Goldman’s retail investors own roughly 30% of its shares, so the change may increase support for management, including executive-pay proposals."
+          ]
+        },
+        "elementary": {
+          "title": "The Votes That Follow the Board",
+          "lesson": "A board-default voting instruction lets retail shareholders authorize their shares to follow company directors’ recommendations when they do not choose each vote themselves, potentially increasing management’s support.",
+          "paragraphs": [
+            "At U.S. public companies, shareholders have their say:\n“Keep these directors? Approve this pay?”\nLarge funds tend to answer; small owners often don’t—\nFor ten little shares, many reasonably won’t.",
+            "Usually, silence lets the ballots that arrive decide;\nFor mergers needing most shares, silence joins the No side.\nBut Bloomberg’s Todd Gillespie reported Goldman’s new plan:\nA retail holder may give the board the steering hand.",
+            "“Whenever I’m absent, vote as directors advise.”\nThat standing instruction makes quiet shares arise.\nGoldman’s individual investors hold roughly three shares in ten,\nSo board-backed votes could grow much stronger again.",
+            "A year after executive pay nearly lost its vote,\nThat extra support could help big pay packages float.\nThe Securities and Exchange Commission gave Goldman the green light;\nThen Tesla received permission for a similar voting right.",
+            "It isn’t literally Elon Musk who marks each Yes or No;\nThe ballots follow Tesla’s board wherever its recommendations go.\nExxonMobil pioneered this management-friendly track,\nThough one shareholder asked, “Why not always oppose the board back?”",
+            "An AI agent might study every choice and give investors a voice,\nYet “re-elect them and approve the pay” may remain the easiest choice.\nAnd at Tesla, the instruction seems especially easy to understand:\n“Just vote for whatever Elon wants”—though officially, it’s the board’s command.",
+            "What happened? The SEC allowed Goldman Sachs and Tesla to offer retail shareholders an option that defaults their votes to the board’s recommendations, following an approach pioneered by ExxonMobil. Goldman’s retail investors own roughly 30% of its shares, so the change may increase support for management, including executive-pay proposals."
+          ]
+        },
+        "middle": {
+          "title": "The Votes That Follow the Board",
+          "lesson": "A board-default voting instruction lets retail shareholders authorize their shares to follow company directors’ recommendations when they do not choose each vote themselves, potentially increasing management’s support.",
+          "paragraphs": [
+            "At U.S. public companies, shareholders have their say:\n“Keep these directors? Approve this pay?”\nLarge funds tend to answer; small owners often don’t—\nFor ten little shares, many reasonably won’t.",
+            "Usually, silence lets the ballots that arrive decide;\nFor mergers needing most shares, silence joins the No side.\nBut Bloomberg’s Todd Gillespie reported Goldman’s new plan:\nA retail holder may give the board the steering hand.",
+            "“Whenever I’m absent, vote as directors advise.”\nThat standing instruction makes quiet shares arise.\nGoldman’s individual investors hold roughly three shares in ten,\nSo board-backed votes could grow much stronger again.",
+            "A year after executive pay nearly lost its vote,\nThat extra support could help big pay packages float.\nThe Securities and Exchange Commission gave Goldman the green light;\nThen Tesla received permission for a similar voting right.",
+            "It isn’t literally Elon Musk who marks each Yes or No;\nThe ballots follow Tesla’s board wherever its recommendations go.\nExxonMobil pioneered this management-friendly track,\nThough one shareholder asked, “Why not always oppose the board back?”",
+            "An AI agent might study every choice and give investors a voice,\nYet “re-elect them and approve the pay” may remain the easiest choice.\nAnd at Tesla, the instruction seems especially easy to understand:\n“Just vote for whatever Elon wants”—though officially, it’s the board’s command.",
+            "What happened? The SEC allowed Goldman Sachs and Tesla to offer retail shareholders an option that defaults their votes to the board’s recommendations, following an approach pioneered by ExxonMobil. Goldman’s retail investors own roughly 30% of its shares, so the change may increase support for management, including executive-pay proposals."
+          ]
+        },
+        "high": {
+          "title": "The Votes That Follow the Board",
+          "lesson": "A board-default voting instruction lets retail shareholders authorize their shares to follow company directors’ recommendations when they do not choose each vote themselves, potentially increasing management’s support.",
+          "paragraphs": [
+            "At U.S. public companies, shareholders have their say:\n“Keep these directors? Approve this pay?”\nLarge funds tend to answer; small owners often don’t—\nFor ten little shares, many reasonably won’t.",
+            "Usually, silence lets the ballots that arrive decide;\nFor mergers needing most shares, silence joins the No side.\nBut Bloomberg’s Todd Gillespie reported Goldman’s new plan:\nA retail holder may give the board the steering hand.",
+            "“Whenever I’m absent, vote as directors advise.”\nThat standing instruction makes quiet shares arise.\nGoldman’s individual investors hold roughly three shares in ten,\nSo board-backed votes could grow much stronger again.",
+            "A year after executive pay nearly lost its vote,\nThat extra support could help big pay packages float.\nThe Securities and Exchange Commission gave Goldman the green light;\nThen Tesla received permission for a similar voting right.",
+            "It isn’t literally Elon Musk who marks each Yes or No;\nThe ballots follow Tesla’s board wherever its recommendations go.\nExxonMobil pioneered this management-friendly track,\nThough one shareholder asked, “Why not always oppose the board back?”",
+            "An AI agent might study every choice and give investors a voice,\nYet “re-elect them and approve the pay” may remain the easiest choice.\nAnd at Tesla, the instruction seems especially easy to understand:\n“Just vote for whatever Elon wants”—though officially, it’s the board’s command.",
+            "What happened? The SEC allowed Goldman Sachs and Tesla to offer retail shareholders an option that defaults their votes to the board’s recommendations, following an approach pioneered by ExxonMobil. Goldman’s retail investors own roughly 30% of its shares, so the change may increase support for management, including executive-pay proposals."
+          ]
+        }
+      }
+    },
+    {
+      "id": "knicks-and-rangers",
+      "sourceSection": "Knicks and Rangers",
+      "illustration": {
+        "src": "/images/2026-10-01-opening-private-markets-to-the-public/knicks-and-rangers.png",
+        "alt": "The MSG Sports basketball and hockey holdings split into separate Knicks and Rangers company groups."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "MSG Sports",
+          "New York Knicks",
+          "New York Rangers",
+          "MSG Knickerbockers Corp.",
+          "MSG Rangers Corp.",
+          "Westchester Knicks",
+          "Hartford Wolf Pack",
+          "Kalshi"
+        ],
+        "financialMechanism": "A corporate spin-off separates a conglomerate into independently traded companies, letting investors choose either focused business or buy both for diversification.",
+        "centralJoke": "A diversified New York sports stock is unnecessary because investors can simply buy Knicks and Rangers shares separately—and anyone wanting exposure to other New York sports can supposedly get it through Kalshi."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Two Teams, Two Tickers",
+          "lesson": "MSG Sports planned a spin-off so investors could buy the Knicks and Rangers as separate publicly traded companies instead of owning one diversified sports company.",
+          "paragraphs": [
+            "MSG Sports held two teams in one stock:\nthe basketball Knicks and the Rangers in hockey.\nOne bundle can soften a stumble or fall—\nwhen one side is struggling, the other stands tall.",
+            "Such mixtures may comfort the lenders of cash,\nwho dislike risky bumps and a bankruptcy crash.\nBut shareholders hunting for upside may choose\nthe team they expect will have less chance to lose.",
+            "Elon Musk’s mix-and-split plans raised this question before:\nDoes one bigger bundle bring investors—or send them out the door?\nA focused company tells a much clearer story,\nespecially when one team has recently tasted glory.",
+            "The Knicks won the NBA title that June;\nthe Rangers, rebuilding, hoped to rise soon.\nSo the board planned a spin-off for October 26,\nseparating the teams—and their investment picks.",
+            "MSG Knickerbockers Corp. would hold the Knicks’ name,\nplus the Westchester Knicks of the G League game.\nMSG Rangers Corp. would hold hockey instead:\nthe Rangers, their training site, and the Hartford Wolf Pack ahead.",
+            "Want both New York teams? Buy shares in each pair.\nThat makes your own bundle, assembled with care.\nWant baseball, football, or soccer as well?\nTry Kalshi, came the wonderfully odd punch line to sell.",
+            "What happened? MSG Sports approved a spin-off splitting its Knicks and Rangers businesses into two separately traded companies. Investors could then choose one team’s company or buy shares of both to recreate the old diversified holding."
+          ]
+        },
+        "elementary": {
+          "title": "Two Teams, Two Tickers",
+          "lesson": "MSG Sports planned a spin-off so investors could buy the Knicks and Rangers as separate publicly traded companies instead of owning one diversified sports company.",
+          "paragraphs": [
+            "MSG Sports held two teams in one stock:\nthe basketball Knicks and the Rangers in hockey.\nOne bundle can soften a stumble or fall—\nwhen one side is struggling, the other stands tall.",
+            "Such mixtures may comfort the lenders of cash,\nwho dislike risky bumps and a bankruptcy crash.\nBut shareholders hunting for upside may choose\nthe team they expect will have less chance to lose.",
+            "Elon Musk’s mix-and-split plans raised this question before:\nDoes one bigger bundle bring investors—or send them out the door?\nA focused company tells a much clearer story,\nespecially when one team has recently tasted glory.",
+            "The Knicks won the NBA title that June;\nthe Rangers, rebuilding, hoped to rise soon.\nSo the board planned a spin-off for October 26,\nseparating the teams—and their investment picks.",
+            "MSG Knickerbockers Corp. would hold the Knicks’ name,\nplus the Westchester Knicks of the G League game.\nMSG Rangers Corp. would hold hockey instead:\nthe Rangers, their training site, and the Hartford Wolf Pack ahead.",
+            "Want both New York teams? Buy shares in each pair.\nThat makes your own bundle, assembled with care.\nWant baseball, football, or soccer as well?\nTry Kalshi, came the wonderfully odd punch line to sell.",
+            "What happened? MSG Sports approved a spin-off splitting its Knicks and Rangers businesses into two separately traded companies. Investors could then choose one team’s company or buy shares of both to recreate the old diversified holding."
+          ]
+        },
+        "middle": {
+          "title": "Two Teams, Two Tickers",
+          "lesson": "MSG Sports planned a spin-off so investors could buy the Knicks and Rangers as separate publicly traded companies instead of owning one diversified sports company.",
+          "paragraphs": [
+            "MSG Sports held two teams in one stock:\nthe basketball Knicks and the Rangers in hockey.\nOne bundle can soften a stumble or fall—\nwhen one side is struggling, the other stands tall.",
+            "Such mixtures may comfort the lenders of cash,\nwho dislike risky bumps and a bankruptcy crash.\nBut shareholders hunting for upside may choose\nthe team they expect will have less chance to lose.",
+            "Elon Musk’s mix-and-split plans raised this question before:\nDoes one bigger bundle bring investors—or send them out the door?\nA focused company tells a much clearer story,\nespecially when one team has recently tasted glory.",
+            "The Knicks won the NBA title that June;\nthe Rangers, rebuilding, hoped to rise soon.\nSo the board planned a spin-off for October 26,\nseparating the teams—and their investment picks.",
+            "MSG Knickerbockers Corp. would hold the Knicks’ name,\nplus the Westchester Knicks of the G League game.\nMSG Rangers Corp. would hold hockey instead:\nthe Rangers, their training site, and the Hartford Wolf Pack ahead.",
+            "Want both New York teams? Buy shares in each pair.\nThat makes your own bundle, assembled with care.\nWant baseball, football, or soccer as well?\nTry Kalshi, came the wonderfully odd punch line to sell.",
+            "What happened? MSG Sports approved a spin-off splitting its Knicks and Rangers businesses into two separately traded companies. Investors could then choose one team’s company or buy shares of both to recreate the old diversified holding."
+          ]
+        },
+        "high": {
+          "title": "Two Teams, Two Tickers",
+          "lesson": "MSG Sports planned a spin-off so investors could buy the Knicks and Rangers as separate publicly traded companies instead of owning one diversified sports company.",
+          "paragraphs": [
+            "MSG Sports held two teams in one stock:\nthe basketball Knicks and the Rangers in hockey.\nOne bundle can soften a stumble or fall—\nwhen one side is struggling, the other stands tall.",
+            "Such mixtures may comfort the lenders of cash,\nwho dislike risky bumps and a bankruptcy crash.\nBut shareholders hunting for upside may choose\nthe team they expect will have less chance to lose.",
+            "Elon Musk’s mix-and-split plans raised this question before:\nDoes one bigger bundle bring investors—or send them out the door?\nA focused company tells a much clearer story,\nespecially when one team has recently tasted glory.",
+            "The Knicks won the NBA title that June;\nthe Rangers, rebuilding, hoped to rise soon.\nSo the board planned a spin-off for October 26,\nseparating the teams—and their investment picks.",
+            "MSG Knickerbockers Corp. would hold the Knicks’ name,\nplus the Westchester Knicks of the G League game.\nMSG Rangers Corp. would hold hockey instead:\nthe Rangers, their training site, and the Hartford Wolf Pack ahead.",
+            "Want both New York teams? Buy shares in each pair.\nThat makes your own bundle, assembled with care.\nWant baseball, football, or soccer as well?\nTry Kalshi, came the wonderfully odd punch line to sell.",
+            "What happened? MSG Sports approved a spin-off splitting its Knicks and Rangers businesses into two separately traded companies. Investors could then choose one team’s company or buy shares of both to recreate the old diversified holding."
+          ]
+        }
+      }
+    }
+  ]
+}
