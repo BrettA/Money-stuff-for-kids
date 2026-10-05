@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-05-mergers-and-acqui-hires",
+  "date": "2026-10-05",
+  "displayDate": "October 5, 2026",
+  "title": "Mergers and Acqui-hires",
+  "sourceSections": [
+    "Reverse acqui-hire",
+    "Anthropic charitable giving",
+    "Analyst programs",
+    "Doughnutting",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "reverse-acqui-hire",
+      "sourceSection": "Reverse acqui-hire",
+      "illustration": {
+        "src": "/images/2026-10-05-mergers-and-acqui-hires/reverse-acqui-hire.png",
+        "alt": "Jonathan Ross and Sunny Madra move from a Groq chip laboratory toward Nvidia while Groq’s board holds a nonexclusive license agreement and the payments are divided between Groq and the joining employees."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jonathan Ross",
+          "Sunny Madra"
+        ],
+        "realCompanies": [
+          "Nvidia",
+          "Groq"
+        ],
+        "financialMechanism": "Nvidia used a reverse acqui-hire: it licensed Groq’s intellectual property, obtained permission to hire key employees, and paid Groq and the joining employees without acquiring Groq’s shares or assets.",
+        "centralJoke": "The transaction was carefully structured not to be a merger, even though Nvidia obtained the people and technology that made Groq valuable—prompting the lawsuit’s basic response: “Oh come on, this is a merger.”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Company That Wasn’t Bought",
+          "lesson": "A reverse acqui-hire hires a company’s key workers and licenses its intellectual property without buying its stock or assets, potentially avoiding shareholder votes and premerger antitrust notification.",
+          "paragraphs": [
+            "Groq built special chips that made AI run,\nAnd Nvidia wanted the work it had done.\nBut Nvidia didn’t buy Groq outright;\nThat sort of merger draws regulators’ sight.",
+            "Instead, Groq licensed its technology’s use—\n“Nonexclusive,” so Groq kept it too.\nIts board let Nvidia hire key people away,\nIncluding Jonathan Ross and Sunny Madra that day.",
+            "The deal’s headline value was twenty billion in all:\nSeventeen billion in cash went to Groq’s hall.\nMost went to shareholders; three billion more\nWas set aside for employees walking through Nvidia’s door.",
+            "No voting stock or company assets were bought,\nSo no premerger notice was required, it was thought.\nGroq remained independent—at least in its name—\nThough its leaders and builders had left all the same.",
+            "Two engineer-shareholders brought suit in Delaware court:\n“The board skipped our vote and sold Groq’s heart!” they report.\nThey said Ross helped negotiate while wanted as a hire,\nAnd received Nvidia equity when he crossed through the wire.",
+            "So was Groq sold? On paper, no.\nIts shares and assets did not go.\nBut people plus ideas were mostly the prize—\n“Oh, come on, that’s a merger!” was the lawsuit’s cry.",
+            "What happened? Nvidia paid Groq $17 billion for a nonexclusive technology license and allocated another $3 billion to employees joining Nvidia, while Groq remained legally independent. Two engineer-shareholders sued, and the Justice Department is investigating whether the structure avoided antitrust scrutiny."
+          ]
+        },
+        "elementary": {
+          "title": "The Company That Wasn’t Bought",
+          "lesson": "A reverse acqui-hire hires a company’s key workers and licenses its intellectual property without buying its stock or assets, potentially avoiding shareholder votes and premerger antitrust notification.",
+          "paragraphs": [
+            "Groq built special chips that made AI run,\nAnd Nvidia wanted the work it had done.\nBut Nvidia didn’t buy Groq outright;\nThat sort of merger draws regulators’ sight.",
+            "Instead, Groq licensed its technology’s use—\n“Nonexclusive,” so Groq kept it too.\nIts board let Nvidia hire key people away,\nIncluding Jonathan Ross and Sunny Madra that day.",
+            "The deal’s headline value was twenty billion in all:\nSeventeen billion in cash went to Groq’s hall.\nMost went to shareholders; three billion more\nWas set aside for employees walking through Nvidia’s door.",
+            "No voting stock or company assets were bought,\nSo no premerger notice was required, it was thought.\nGroq remained independent—at least in its name—\nThough its leaders and builders had left all the same.",
+            "Two engineer-shareholders brought suit in Delaware court:\n“The board skipped our vote and sold Groq’s heart!” they report.\nThey said Ross helped negotiate while wanted as a hire,\nAnd received Nvidia equity when he crossed through the wire.",
+            "So was Groq sold? On paper, no.\nIts shares and assets did not go.\nBut people plus ideas were mostly the prize—\n“Oh, come on, that’s a merger!” was the lawsuit’s cry.",
+            "What happened? Nvidia paid Groq $17 billion for a nonexclusive technology license and allocated another $3 billion to employees joining Nvidia, while Groq remained legally independent. Two engineer-shareholders sued, and the Justice Department is investigating whether the structure avoided antitrust scrutiny."
+          ]
+        },
+        "middle": {
+          "title": "The Company That Wasn’t Bought",
+          "lesson": "A reverse acqui-hire hires a company’s key workers and licenses its intellectual property without buying its stock or assets, potentially avoiding shareholder votes and premerger antitrust notification.",
+          "paragraphs": [
+            "Groq built special chips that made AI run,\nAnd Nvidia wanted the work it had done.\nBut Nvidia didn’t buy Groq outright;\nThat sort of merger draws regulators’ sight.",
+            "Instead, Groq licensed its technology’s use—\n“Nonexclusive,” so Groq kept it too.\nIts board let Nvidia hire key people away,\nIncluding Jonathan Ross and Sunny Madra that day.",
+            "The deal’s headline value was twenty billion in all:\nSeventeen billion in cash went to Groq’s hall.\nMost went to shareholders; three billion more\nWas set aside for employees walking through Nvidia’s door.",
+            "No voting stock or company assets were bought,\nSo no premerger notice was required, it was thought.\nGroq remained independent—at least in its name—\nThough its leaders and builders had left all the same.",
+            "Two engineer-shareholders brought suit in Delaware court:\n“The board skipped our vote and sold Groq’s heart!” they report.\nThey said Ross helped negotiate while wanted as a hire,\nAnd received Nvidia equity when he crossed through the wire.",
+            "So was Groq sold? On paper, no.\nIts shares and assets did not go.\nBut people plus ideas were mostly the prize—\n“Oh, come on, that’s a merger!” was the lawsuit’s cry.",
+            "What happened? Nvidia paid Groq $17 billion for a nonexclusive technology license and allocated another $3 billion to employees joining Nvidia, while Groq remained legally independent. Two engineer-shareholders sued, and the Justice Department is investigating whether the structure avoided antitrust scrutiny."
+          ]
+        },
+        "high": {
+          "title": "The Company That Wasn’t Bought",
+          "lesson": "A reverse acqui-hire hires a company’s key workers and licenses its intellectual property without buying its stock or assets, potentially avoiding shareholder votes and premerger antitrust notification.",
+          "paragraphs": [
+            "Groq built special chips that made AI run,\nAnd Nvidia wanted the work it had done.\nBut Nvidia didn’t buy Groq outright;\nThat sort of merger draws regulators’ sight.",
+            "Instead, Groq licensed its technology’s use—\n“Nonexclusive,” so Groq kept it too.\nIts board let Nvidia hire key people away,\nIncluding Jonathan Ross and Sunny Madra that day.",
+            "The deal’s headline value was twenty billion in all:\nSeventeen billion in cash went to Groq’s hall.\nMost went to shareholders; three billion more\nWas set aside for employees walking through Nvidia’s door.",
+            "No voting stock or company assets were bought,\nSo no premerger notice was required, it was thought.\nGroq remained independent—at least in its name—\nThough its leaders and builders had left all the same.",
+            "Two engineer-shareholders brought suit in Delaware court:\n“The board skipped our vote and sold Groq’s heart!” they report.\nThey said Ross helped negotiate while wanted as a hire,\nAnd received Nvidia equity when he crossed through the wire.",
+            "So was Groq sold? On paper, no.\nIts shares and assets did not go.\nBut people plus ideas were mostly the prize—\n“Oh, come on, that’s a merger!” was the lawsuit’s cry.",
+            "What happened? Nvidia paid Groq $17 billion for a nonexclusive technology license and allocated another $3 billion to employees joining Nvidia, while Groq remained legally independent. Two engineer-shareholders sued, and the Justice Department is investigating whether the structure avoided antitrust scrutiny."
+          ]
+        }
+      }
+    },
+    {
+      "id": "anthropic-charitable-giving",
+      "sourceSection": "Anthropic charitable giving",
+      "illustration": {
+        "src": "/images/2026-10-05-mergers-and-acqui-hires/anthropic-charitable-giving.png",
+        "alt": "Anthropic employees place pledged stock into charity boxes while the company adds matching stacks, as an accountant sets the $660 million expense outside an adjusted-profit pile."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Cory Weinberg",
+          "Ghai"
+        ],
+        "realCompanies": [
+          "Anthropic",
+          "The Information",
+          "Calcbench"
+        ],
+        "financialMechanism": "Employees pledged Anthropic stock awards to charities, and Anthropic matched those donations with its own stock; it recorded the matches as a non-cash expense but excluded that expense from adjusted operating profit.",
+        "centralJoke": "Anthropic’s charitable matching program functioned as employee compensation and a recruiting tool, so the company gave enormous sums to charity and then adjusted those gifts out of its preferred profit figure much like stock-based pay."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Anthropic’s Very Unusual Match",
+          "lesson": "Anthropic used company stock to match employees’ pledged charitable gifts, treating the matching expense like stock-based compensation and excluding it from adjusted operating profit.",
+          "paragraphs": [
+            "Anthropic sought researchers skilled at AI,\nFor the finest could help its new models fly.\nMany believed effective gifts could do good,\nAnd pledged chunks of valuable stock when they could.",
+            "For early employees who joined by 2024,\nAnthropic’s match made each promised gift more:\nWorkers could pledge half their stock, if they chose,\nAnd a three-for-one company match joined the rows.",
+            "Newer employees received a smaller deal:\nUp to one quarter, matched one-for-one, share for share.\nIt helped Anthropic recruit people who cared,\nWhile charities gained from the stock workers shared.",
+            "Cory Weinberg reported the curious sum:\nMore than $660 million had come\nAs a non-cash expense over six months, investors were told,\nFrom October 2025 through March as shares grew like gold.",
+            "But Anthropic left that great cost out when it chose\nIts “adjusted operating profit” to show.\nMost firms do not subtract giant gifts made in stock;\nCalcbench’s Ghai said the adjustment could shock.",
+            "The joke was that this looked like charity set free—\nYet also like employee compensation, unusually.\nAnthropic could hire generous experts that way,\nThen adjust out the gifts when presenting its pay.",
+            "What happened? Anthropic matched stock that employees pledged to charities, using three-to-one matches for eligible early employees and smaller one-to-one matches for newer hires. It reported more than $660 million of related non-cash expense for six months but excluded that expense from adjusted operating profit."
+          ]
+        },
+        "elementary": {
+          "title": "Anthropic’s Very Unusual Match",
+          "lesson": "Anthropic used company stock to match employees’ pledged charitable gifts, treating the matching expense like stock-based compensation and excluding it from adjusted operating profit.",
+          "paragraphs": [
+            "Anthropic sought researchers skilled at AI,\nFor the finest could help its new models fly.\nMany believed effective gifts could do good,\nAnd pledged chunks of valuable stock when they could.",
+            "For early employees who joined by 2024,\nAnthropic’s match made each promised gift more:\nWorkers could pledge half their stock, if they chose,\nAnd a three-for-one company match joined the rows.",
+            "Newer employees received a smaller deal:\nUp to one quarter, matched one-for-one, share for share.\nIt helped Anthropic recruit people who cared,\nWhile charities gained from the stock workers shared.",
+            "Cory Weinberg reported the curious sum:\nMore than $660 million had come\nAs a non-cash expense over six months, investors were told,\nFrom October 2025 through March as shares grew like gold.",
+            "But Anthropic left that great cost out when it chose\nIts “adjusted operating profit” to show.\nMost firms do not subtract giant gifts made in stock;\nCalcbench’s Ghai said the adjustment could shock.",
+            "The joke was that this looked like charity set free—\nYet also like employee compensation, unusually.\nAnthropic could hire generous experts that way,\nThen adjust out the gifts when presenting its pay.",
+            "What happened? Anthropic matched stock that employees pledged to charities, using three-to-one matches for eligible early employees and smaller one-to-one matches for newer hires. It reported more than $660 million of related non-cash expense for six months but excluded that expense from adjusted operating profit."
+          ]
+        },
+        "middle": {
+          "title": "Anthropic’s Very Unusual Match",
+          "lesson": "Anthropic used company stock to match employees’ pledged charitable gifts, treating the matching expense like stock-based compensation and excluding it from adjusted operating profit.",
+          "paragraphs": [
+            "Anthropic sought researchers skilled at AI,\nFor the finest could help its new models fly.\nMany believed effective gifts could do good,\nAnd pledged chunks of valuable stock when they could.",
+            "For early employees who joined by 2024,\nAnthropic’s match made each promised gift more:\nWorkers could pledge half their stock, if they chose,\nAnd a three-for-one company match joined the rows.",
+            "Newer employees received a smaller deal:\nUp to one quarter, matched one-for-one, share for share.\nIt helped Anthropic recruit people who cared,\nWhile charities gained from the stock workers shared.",
+            "Cory Weinberg reported the curious sum:\nMore than $660 million had come\nAs a non-cash expense over six months, investors were told,\nFrom October 2025 through March as shares grew like gold.",
+            "But Anthropic left that great cost out when it chose\nIts “adjusted operating profit” to show.\nMost firms do not subtract giant gifts made in stock;\nCalcbench’s Ghai said the adjustment could shock.",
+            "The joke was that this looked like charity set free—\nYet also like employee compensation, unusually.\nAnthropic could hire generous experts that way,\nThen adjust out the gifts when presenting its pay.",
+            "What happened? Anthropic matched stock that employees pledged to charities, using three-to-one matches for eligible early employees and smaller one-to-one matches for newer hires. It reported more than $660 million of related non-cash expense for six months but excluded that expense from adjusted operating profit."
+          ]
+        },
+        "high": {
+          "title": "Anthropic’s Very Unusual Match",
+          "lesson": "Anthropic used company stock to match employees’ pledged charitable gifts, treating the matching expense like stock-based compensation and excluding it from adjusted operating profit.",
+          "paragraphs": [
+            "Anthropic sought researchers skilled at AI,\nFor the finest could help its new models fly.\nMany believed effective gifts could do good,\nAnd pledged chunks of valuable stock when they could.",
+            "For early employees who joined by 2024,\nAnthropic’s match made each promised gift more:\nWorkers could pledge half their stock, if they chose,\nAnd a three-for-one company match joined the rows.",
+            "Newer employees received a smaller deal:\nUp to one quarter, matched one-for-one, share for share.\nIt helped Anthropic recruit people who cared,\nWhile charities gained from the stock workers shared.",
+            "Cory Weinberg reported the curious sum:\nMore than $660 million had come\nAs a non-cash expense over six months, investors were told,\nFrom October 2025 through March as shares grew like gold.",
+            "But Anthropic left that great cost out when it chose\nIts “adjusted operating profit” to show.\nMost firms do not subtract giant gifts made in stock;\nCalcbench’s Ghai said the adjustment could shock.",
+            "The joke was that this looked like charity set free—\nYet also like employee compensation, unusually.\nAnthropic could hire generous experts that way,\nThen adjust out the gifts when presenting its pay.",
+            "What happened? Anthropic matched stock that employees pledged to charities, using three-to-one matches for eligible early employees and smaller one-to-one matches for newer hires. It reported more than $660 million of related non-cash expense for six months but excluded that expense from adjusted operating profit."
+          ]
+        }
+      }
+    },
+    {
+      "id": "analyst-programs",
+      "sourceSection": "Analyst programs",
+      "illustration": {
+        "src": "/images/2026-10-05-mergers-and-acqui-hires/analyst-programs.png",
+        "alt": "A Citi analyst receives an early private equity offer while David Friedland shortens the route to associate, as Jamie Dimon studies a seven-month calendar beside JPMorgan’s 18-month rule."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "David Friedland",
+          "Jamie Dimon"
+        ],
+        "realCompanies": [
+          "Citigroup Inc. (Citi)",
+          "JPMorgan"
+        ],
+        "financialMechanism": "Investment-bank analysts are recruited by private equity firms far in advance for future jobs, so shortening Citi’s promotion timeline does not remove the timing advantage of an early outside offer; JPMorgan attempted to deter this by threatening to fire analysts who accepted offers within 18 months.",
+        "centralJoke": "Citi’s faster promotion still arrives long after private equity offers, while JPMorgan’s supposedly firm 18-month ban appears to have been crossed after only seven months—raising the question: Does Jamie Dimon know?"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Offer That Came First",
+          "lesson": "Citi shortened its analyst program from three years to two, but private equity firms could still recruit analysts long before their possible promotion; JPMorgan’s 18-month threat delayed recruiting only briefly.",
+          "paragraphs": [
+            "At Citi, David Friedland announced something new:\n“Our three-year analyst program is shortening to two.”\nFor junior investment bankers, “associate” is the next chair—\nA faster path upward might help keep them there.",
+            "Start at Citi in summer 2026,\nThen January brings private equity’s quick tricks.\nThe buyout firms interview, though year one isn’t done,\nFor jobs starting fall 2028—offers already won.",
+            "Would analysts reject one and patiently wait\nFor a possible Citi promotion in 2028?\nPerhaps banking looked better; perhaps they would stay.\nBut the firm offer came early, with promotion far away.",
+            "JPMorgan tried a much sterner defense:\nTake an outside offer within eighteen months—out you went.\nPrivate equity firms, avoiding Jamie Dimon’s wrath,\nPaused their early hiring, then returned to the path.",
+            "Analysts who started in June 2025\nSaw recruiting begin the next January alive.\nThat’s roughly seven months—not eighteen. So then:\nWere offers kept secret? Were analysts fired? Does Dimon know when?",
+            "What happened? Citi cut its analyst-to-associate track from three years to two, but private equity recruiting still offered future jobs much earlier. JPMorgan’s threatened 18-month firing rule delayed that recruiting only until January 2026, about seven months after its analysts started."
+          ]
+        },
+        "elementary": {
+          "title": "The Offer That Came First",
+          "lesson": "Citi shortened its analyst program from three years to two, but private equity firms could still recruit analysts long before their possible promotion; JPMorgan’s 18-month threat delayed recruiting only briefly.",
+          "paragraphs": [
+            "At Citi, David Friedland announced something new:\n“Our three-year analyst program is shortening to two.”\nFor junior investment bankers, “associate” is the next chair—\nA faster path upward might help keep them there.",
+            "Start at Citi in summer 2026,\nThen January brings private equity’s quick tricks.\nThe buyout firms interview, though year one isn’t done,\nFor jobs starting fall 2028—offers already won.",
+            "Would analysts reject one and patiently wait\nFor a possible Citi promotion in 2028?\nPerhaps banking looked better; perhaps they would stay.\nBut the firm offer came early, with promotion far away.",
+            "JPMorgan tried a much sterner defense:\nTake an outside offer within eighteen months—out you went.\nPrivate equity firms, avoiding Jamie Dimon’s wrath,\nPaused their early hiring, then returned to the path.",
+            "Analysts who started in June 2025\nSaw recruiting begin the next January alive.\nThat’s roughly seven months—not eighteen. So then:\nWere offers kept secret? Were analysts fired? Does Dimon know when?",
+            "What happened? Citi cut its analyst-to-associate track from three years to two, but private equity recruiting still offered future jobs much earlier. JPMorgan’s threatened 18-month firing rule delayed that recruiting only until January 2026, about seven months after its analysts started."
+          ]
+        },
+        "middle": {
+          "title": "The Offer That Came First",
+          "lesson": "Citi shortened its analyst program from three years to two, but private equity firms could still recruit analysts long before their possible promotion; JPMorgan’s 18-month threat delayed recruiting only briefly.",
+          "paragraphs": [
+            "At Citi, David Friedland announced something new:\n“Our three-year analyst program is shortening to two.”\nFor junior investment bankers, “associate” is the next chair—\nA faster path upward might help keep them there.",
+            "Start at Citi in summer 2026,\nThen January brings private equity’s quick tricks.\nThe buyout firms interview, though year one isn’t done,\nFor jobs starting fall 2028—offers already won.",
+            "Would analysts reject one and patiently wait\nFor a possible Citi promotion in 2028?\nPerhaps banking looked better; perhaps they would stay.\nBut the firm offer came early, with promotion far away.",
+            "JPMorgan tried a much sterner defense:\nTake an outside offer within eighteen months—out you went.\nPrivate equity firms, avoiding Jamie Dimon’s wrath,\nPaused their early hiring, then returned to the path.",
+            "Analysts who started in June 2025\nSaw recruiting begin the next January alive.\nThat’s roughly seven months—not eighteen. So then:\nWere offers kept secret? Were analysts fired? Does Dimon know when?",
+            "What happened? Citi cut its analyst-to-associate track from three years to two, but private equity recruiting still offered future jobs much earlier. JPMorgan’s threatened 18-month firing rule delayed that recruiting only until January 2026, about seven months after its analysts started."
+          ]
+        },
+        "high": {
+          "title": "The Offer That Came First",
+          "lesson": "Citi shortened its analyst program from three years to two, but private equity firms could still recruit analysts long before their possible promotion; JPMorgan’s 18-month threat delayed recruiting only briefly.",
+          "paragraphs": [
+            "At Citi, David Friedland announced something new:\n“Our three-year analyst program is shortening to two.”\nFor junior investment bankers, “associate” is the next chair—\nA faster path upward might help keep them there.",
+            "Start at Citi in summer 2026,\nThen January brings private equity’s quick tricks.\nThe buyout firms interview, though year one isn’t done,\nFor jobs starting fall 2028—offers already won.",
+            "Would analysts reject one and patiently wait\nFor a possible Citi promotion in 2028?\nPerhaps banking looked better; perhaps they would stay.\nBut the firm offer came early, with promotion far away.",
+            "JPMorgan tried a much sterner defense:\nTake an outside offer within eighteen months—out you went.\nPrivate equity firms, avoiding Jamie Dimon’s wrath,\nPaused their early hiring, then returned to the path.",
+            "Analysts who started in June 2025\nSaw recruiting begin the next January alive.\nThat’s roughly seven months—not eighteen. So then:\nWere offers kept secret? Were analysts fired? Does Dimon know when?",
+            "What happened? Citi cut its analyst-to-associate track from three years to two, but private equity recruiting still offered future jobs much earlier. JPMorgan’s threatened 18-month firing rule delayed that recruiting only until January 2026, about seven months after its analysts started."
+          ]
+        }
+      }
+    },
+    {
+      "id": "doughnutting",
+      "sourceSection": "Doughnutting",
+      "illustration": {
+        "src": "/images/2026-10-05-mergers-and-acqui-hires/doughnutting.png",
+        "alt": "A former HSBC banker holds two short-trip tickets beside a rail map showing an unpaid doughnut-shaped gap between Orpington and Canary Wharf."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Ian Wace",
+          "Unnamed 53-year-old former HSBC banker"
+        ],
+        "realCompanies": [
+          "Marshall Wace",
+          "HSBC",
+          "HSBC Asset Management"
+        ],
+        "financialMechanism": "The banker used “doughnutting”: he purchased train tickets for short portions at each end of his Orpington-to-Canary Wharf commute but paid nothing for the middle, while also improperly claiming a 50% Jobcentre Plus discount.",
+        "centralJoke": "Finance prizes creative loophole-spotting, but this banker took it into grubby fare fraud—and, absurdly, the unusually active scheme came from HSBC Asset Management’s head of passive equity."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Hole in the Train-Fare Doughnut",
+          "lesson": "The banker’s “doughnutting” scheme used tickets for only the beginning and end of his commute, leaving the middle unpaid; the fraud led to his ban from UK financial services.",
+          "paragraphs": [
+            "Ian Wace of Marshall Wace once set a test:\nCross Europe cheaply, and outthink the rest.\nIn twenty-four hours, use transport galore—\nOne reached far-off Poland on about thirty or more.",
+            "Another stayed in London, through embassies he’d roam,\nFinding “many countries” without leaving home.\nWace called that “too cute”—then hired him, too:\nIn finance, clever loopholes can make you look shrewd.",
+            "An unnamed HSBC banker tried cleverness by rail,\nBut this was no hiring game where tricks could prevail.\nFrom Orpington to Canary Wharf, he traveled each day,\nBuying tickets at both ends—but not all the way.",
+            "He paid for two edges and skipped the middle round:\nA fare-free “doughnut hole” where no ticket was found.\nAlmost £6,000 in journeys went unpaid,\nWhile a Jobcentre Plus discount cut prices in aid.",
+            "That fifty-percent discount was for job seekers alone;\nHe worked at HSBC, so it wasn’t his own.\nConvicted of fraud, he faced the watchdog’s ban:\nNo more financial-services work for this former banking man.",
+            "And here was the twist in his over-clever quest:\nHe led passive equity at HSBC Asset Management.\nPassive funds track an index instead of making bold bets—\nYet his commute was extremely active and complex.",
+            "What happened? A former HSBC banker bought tickets covering only short sections at the beginning and end of his commute, leaving the middle unpaid, and improperly used a 50% Jobcentre Plus discount. After dodging almost £6,000 in fares, he was convicted of fraud and banned from UK financial services."
+          ]
+        },
+        "elementary": {
+          "title": "The Hole in the Train-Fare Doughnut",
+          "lesson": "The banker’s “doughnutting” scheme used tickets for only the beginning and end of his commute, leaving the middle unpaid; the fraud led to his ban from UK financial services.",
+          "paragraphs": [
+            "Ian Wace of Marshall Wace once set a test:\nCross Europe cheaply, and outthink the rest.\nIn twenty-four hours, use transport galore—\nOne reached far-off Poland on about thirty or more.",
+            "Another stayed in London, through embassies he’d roam,\nFinding “many countries” without leaving home.\nWace called that “too cute”—then hired him, too:\nIn finance, clever loopholes can make you look shrewd.",
+            "An unnamed HSBC banker tried cleverness by rail,\nBut this was no hiring game where tricks could prevail.\nFrom Orpington to Canary Wharf, he traveled each day,\nBuying tickets at both ends—but not all the way.",
+            "He paid for two edges and skipped the middle round:\nA fare-free “doughnut hole” where no ticket was found.\nAlmost £6,000 in journeys went unpaid,\nWhile a Jobcentre Plus discount cut prices in aid.",
+            "That fifty-percent discount was for job seekers alone;\nHe worked at HSBC, so it wasn’t his own.\nConvicted of fraud, he faced the watchdog’s ban:\nNo more financial-services work for this former banking man.",
+            "And here was the twist in his over-clever quest:\nHe led passive equity at HSBC Asset Management.\nPassive funds track an index instead of making bold bets—\nYet his commute was extremely active and complex.",
+            "What happened? A former HSBC banker bought tickets covering only short sections at the beginning and end of his commute, leaving the middle unpaid, and improperly used a 50% Jobcentre Plus discount. After dodging almost £6,000 in fares, he was convicted of fraud and banned from UK financial services."
+          ]
+        },
+        "middle": {
+          "title": "The Hole in the Train-Fare Doughnut",
+          "lesson": "The banker’s “doughnutting” scheme used tickets for only the beginning and end of his commute, leaving the middle unpaid; the fraud led to his ban from UK financial services.",
+          "paragraphs": [
+            "Ian Wace of Marshall Wace once set a test:\nCross Europe cheaply, and outthink the rest.\nIn twenty-four hours, use transport galore—\nOne reached far-off Poland on about thirty or more.",
+            "Another stayed in London, through embassies he’d roam,\nFinding “many countries” without leaving home.\nWace called that “too cute”—then hired him, too:\nIn finance, clever loopholes can make you look shrewd.",
+            "An unnamed HSBC banker tried cleverness by rail,\nBut this was no hiring game where tricks could prevail.\nFrom Orpington to Canary Wharf, he traveled each day,\nBuying tickets at both ends—but not all the way.",
+            "He paid for two edges and skipped the middle round:\nA fare-free “doughnut hole” where no ticket was found.\nAlmost £6,000 in journeys went unpaid,\nWhile a Jobcentre Plus discount cut prices in aid.",
+            "That fifty-percent discount was for job seekers alone;\nHe worked at HSBC, so it wasn’t his own.\nConvicted of fraud, he faced the watchdog’s ban:\nNo more financial-services work for this former banking man.",
+            "And here was the twist in his over-clever quest:\nHe led passive equity at HSBC Asset Management.\nPassive funds track an index instead of making bold bets—\nYet his commute was extremely active and complex.",
+            "What happened? A former HSBC banker bought tickets covering only short sections at the beginning and end of his commute, leaving the middle unpaid, and improperly used a 50% Jobcentre Plus discount. After dodging almost £6,000 in fares, he was convicted of fraud and banned from UK financial services."
+          ]
+        },
+        "high": {
+          "title": "The Hole in the Train-Fare Doughnut",
+          "lesson": "The banker’s “doughnutting” scheme used tickets for only the beginning and end of his commute, leaving the middle unpaid; the fraud led to his ban from UK financial services.",
+          "paragraphs": [
+            "Ian Wace of Marshall Wace once set a test:\nCross Europe cheaply, and outthink the rest.\nIn twenty-four hours, use transport galore—\nOne reached far-off Poland on about thirty or more.",
+            "Another stayed in London, through embassies he’d roam,\nFinding “many countries” without leaving home.\nWace called that “too cute”—then hired him, too:\nIn finance, clever loopholes can make you look shrewd.",
+            "An unnamed HSBC banker tried cleverness by rail,\nBut this was no hiring game where tricks could prevail.\nFrom Orpington to Canary Wharf, he traveled each day,\nBuying tickets at both ends—but not all the way.",
+            "He paid for two edges and skipped the middle round:\nA fare-free “doughnut hole” where no ticket was found.\nAlmost £6,000 in journeys went unpaid,\nWhile a Jobcentre Plus discount cut prices in aid.",
+            "That fifty-percent discount was for job seekers alone;\nHe worked at HSBC, so it wasn’t his own.\nConvicted of fraud, he faced the watchdog’s ban:\nNo more financial-services work for this former banking man.",
+            "And here was the twist in his over-clever quest:\nHe led passive equity at HSBC Asset Management.\nPassive funds track an index instead of making bold bets—\nYet his commute was extremely active and complex.",
+            "What happened? A former HSBC banker bought tickets covering only short sections at the beginning and end of his commute, leaving the middle unpaid, and improperly used a 50% Jobcentre Plus discount. After dodging almost £6,000 in fares, he was convicted of fraud and banned from UK financial services."
+          ]
+        }
+      }
+    }
+  ]
+}
