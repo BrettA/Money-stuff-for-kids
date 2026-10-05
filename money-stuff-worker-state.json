@@ -372,6 +372,18 @@
       "submitted": true,
       "updatedAt": "2026-10-01T19:53:21.910Z",
       "submittedAt": "2026-10-01T19:53:21.910Z"
+    },
+    "1a10d43a7f701f8d": {
+      "gmailMessageId": "1a10d43a7f701f8d",
+      "newsletterDate": "2026-10-05",
+      "newsletterTitle": "Mergers and Acqui-hires",
+      "editionId": "2026-10-05-mergers-and-acqui-hires",
+      "sourceSha256": "f4a36ea078ba02f63160b915b6b6ecc8bec603d849e64e1945ed4a3508134bd8",
+      "packageSha256": "230ff1fa5c6a1ec22ab7e176ef264605d65b58c368d209218bf35d2ddc47a148",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-05T18:27:26.225Z",
+      "submittedAt": "2026-10-05T18:27:26.225Z"
     }
   }
 }
