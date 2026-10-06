@@ -384,6 +384,18 @@
       "submitted": true,
       "updatedAt": "2026-10-05T18:27:26.225Z",
       "submittedAt": "2026-10-05T18:27:26.225Z"
+    },
+    "1a11280ecf32751a": {
+      "gmailMessageId": "1a11280ecf32751a",
+      "newsletterDate": "2026-10-06",
+      "newsletterTitle": "Treasury Futures Might Switch",
+      "editionId": "2026-10-06-treasury-futures-might-switch",
+      "sourceSha256": "a8138cf6806dc5ea62495656f701acf74528479bf5a9f495a18d49090f2e9106",
+      "packageSha256": "2ab319f11e74136553f4f2dc0dff8a973b2fa1521cd6124adae1d726ff39a0f5",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-06T19:35:21.188Z",
+      "submittedAt": "2026-10-06T19:35:21.188Z"
     }
   }
 }
