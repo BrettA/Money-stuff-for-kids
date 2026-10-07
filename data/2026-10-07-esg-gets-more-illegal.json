@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-07-esg-gets-more-illegal",
+  "date": "2026-10-07",
+  "displayDate": "October 7, 2026",
+  "title": "ESG Gets More Illegal",
+  "sourceSections": [
+    "Is ESG illegal?",
+    "401(k)s",
+    "SpaceX/Nvidia",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "is-esg-illegal",
+      "sourceSection": "Is ESG illegal?",
+      "illustration": {
+        "src": "/images/2026-10-07-esg-gets-more-illegal/is-esg-illegal.png",
+        "alt": "Tiny Engine No. 1 presents Exxon Mobil proxy ballots to the much larger BlackRock, Vanguard, and State Street as an SEC report questions whether they acted together."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Conor Sen"
+        ],
+        "realCompanies": [
+          "Engine No. 1",
+          "Exxon Mobil Corp.",
+          "BlackRock",
+          "Vanguard",
+          "State Street"
+        ],
+        "financialMechanism": "Investors owning more than 5% who seek to change or influence corporate control generally file Schedule 13D rather than passive Schedule 13G. Investors acting as a group have their holdings combined, and a group above 10% can face Section 16 short-swing-profit restrictions.",
+        "centralJoke": "Engine No. 1 owned only 0.02% of Exxon Mobil but gave enormous supposedly passive asset managers the binding vote they wanted—then that vote risked making those passive giants look legally activist."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "When Passive Giants Cast an Active Vote",
+          "lesson": "An investor owning more than 5% may need detailed Schedule 13D disclosure if it seeks to influence control; coordinated investors can be treated as a group whose shares are combined, potentially triggering further trading restrictions above 10%.",
+          "paragraphs": [
+            "In 2021, Engine No. 1, a fund quite small,\nchallenged Exxon Mobil’s board, oil giant and all.\nWith just 0.02%, it sought a new direction,\nand won seats through a binding director election.",
+            "BlackRock held 6.7%, Vanguard 8.2%;\nState Street held 5.7%—their ballots helped it come true.\nConor Sen said Engine No. 1 persuaded giants to act,\nbut the joke ran backward too, which made it more exact.",
+            "BlackRock already wanted greener plans in view;\ntiny Engine No. 1 supplied the vote the giants could use.\nYet “passive” is a legal coat that managers prize:\ncross 5% while seeking control, and Schedule 13D applies.",
+            "A passive owner may use shorter Schedule 13G;\ncoordinate as a group, and your shares combine legally.\nAbove 10%, quick-trading gains may go back to the company—\nbad for index funds that must trade when cash flows or indexes change.",
+            "Climate Action 100+ joined investors around emissions;\nBlackRock and State Street left in 2024 as politics changed positions.\nIn 2026, the SEC said some members’ Exxon coordination\nmay have broken disclosure rules—yet brought no enforcement action.",
+            "The warning made the punch line hard to miss:\na climate vote may turn “passive” giants activist.",
+            "What happened? The SEC warned that Climate Action 100+ members coordinating around Engine No. 1’s Exxon Mobil proxy fight might have formed a shareholder group or lost the right to file passive Schedule 13G disclosures. It pursued no enforcement action."
+          ]
+        },
+        "elementary": {
+          "title": "When Passive Giants Cast an Active Vote",
+          "lesson": "An investor owning more than 5% may need detailed Schedule 13D disclosure if it seeks to influence control; coordinated investors can be treated as a group whose shares are combined, potentially triggering further trading restrictions above 10%.",
+          "paragraphs": [
+            "In 2021, Engine No. 1, a fund quite small,\nchallenged Exxon Mobil’s board, oil giant and all.\nWith just 0.02%, it sought a new direction,\nand won seats through a binding director election.",
+            "BlackRock held 6.7%, Vanguard 8.2%;\nState Street held 5.7%—their ballots helped it come true.\nConor Sen said Engine No. 1 persuaded giants to act,\nbut the joke ran backward too, which made it more exact.",
+            "BlackRock already wanted greener plans in view;\ntiny Engine No. 1 supplied the vote the giants could use.\nYet “passive” is a legal coat that managers prize:\ncross 5% while seeking control, and Schedule 13D applies.",
+            "A passive owner may use shorter Schedule 13G;\ncoordinate as a group, and your shares combine legally.\nAbove 10%, quick-trading gains may go back to the company—\nbad for index funds that must trade when cash flows or indexes change.",
+            "Climate Action 100+ joined investors around emissions;\nBlackRock and State Street left in 2024 as politics changed positions.\nIn 2026, the SEC said some members’ Exxon coordination\nmay have broken disclosure rules—yet brought no enforcement action.",
+            "The warning made the punch line hard to miss:\na climate vote may turn “passive” giants activist.",
+            "What happened? The SEC warned that Climate Action 100+ members coordinating around Engine No. 1’s Exxon Mobil proxy fight might have formed a shareholder group or lost the right to file passive Schedule 13G disclosures. It pursued no enforcement action."
+          ]
+        },
+        "middle": {
+          "title": "When Passive Giants Cast an Active Vote",
+          "lesson": "An investor owning more than 5% may need detailed Schedule 13D disclosure if it seeks to influence control; coordinated investors can be treated as a group whose shares are combined, potentially triggering further trading restrictions above 10%.",
+          "paragraphs": [
+            "In 2021, Engine No. 1, a fund quite small,\nchallenged Exxon Mobil’s board, oil giant and all.\nWith just 0.02%, it sought a new direction,\nand won seats through a binding director election.",
+            "BlackRock held 6.7%, Vanguard 8.2%;\nState Street held 5.7%—their ballots helped it come true.\nConor Sen said Engine No. 1 persuaded giants to act,\nbut the joke ran backward too, which made it more exact.",
+            "BlackRock already wanted greener plans in view;\ntiny Engine No. 1 supplied the vote the giants could use.\nYet “passive” is a legal coat that managers prize:\ncross 5% while seeking control, and Schedule 13D applies.",
+            "A passive owner may use shorter Schedule 13G;\ncoordinate as a group, and your shares combine legally.\nAbove 10%, quick-trading gains may go back to the company—\nbad for index funds that must trade when cash flows or indexes change.",
+            "Climate Action 100+ joined investors around emissions;\nBlackRock and State Street left in 2024 as politics changed positions.\nIn 2026, the SEC said some members’ Exxon coordination\nmay have broken disclosure rules—yet brought no enforcement action.",
+            "The warning made the punch line hard to miss:\na climate vote may turn “passive” giants activist.",
+            "What happened? The SEC warned that Climate Action 100+ members coordinating around Engine No. 1’s Exxon Mobil proxy fight might have formed a shareholder group or lost the right to file passive Schedule 13G disclosures. It pursued no enforcement action."
+          ]
+        },
+        "high": {
+          "title": "When Passive Giants Cast an Active Vote",
+          "lesson": "An investor owning more than 5% may need detailed Schedule 13D disclosure if it seeks to influence control; coordinated investors can be treated as a group whose shares are combined, potentially triggering further trading restrictions above 10%.",
+          "paragraphs": [
+            "In 2021, Engine No. 1, a fund quite small,\nchallenged Exxon Mobil’s board, oil giant and all.\nWith just 0.02%, it sought a new direction,\nand won seats through a binding director election.",
+            "BlackRock held 6.7%, Vanguard 8.2%;\nState Street held 5.7%—their ballots helped it come true.\nConor Sen said Engine No. 1 persuaded giants to act,\nbut the joke ran backward too, which made it more exact.",
+            "BlackRock already wanted greener plans in view;\ntiny Engine No. 1 supplied the vote the giants could use.\nYet “passive” is a legal coat that managers prize:\ncross 5% while seeking control, and Schedule 13D applies.",
+            "A passive owner may use shorter Schedule 13G;\ncoordinate as a group, and your shares combine legally.\nAbove 10%, quick-trading gains may go back to the company—\nbad for index funds that must trade when cash flows or indexes change.",
+            "Climate Action 100+ joined investors around emissions;\nBlackRock and State Street left in 2024 as politics changed positions.\nIn 2026, the SEC said some members’ Exxon coordination\nmay have broken disclosure rules—yet brought no enforcement action.",
+            "The warning made the punch line hard to miss:\na climate vote may turn “passive” giants activist.",
+            "What happened? The SEC warned that Climate Action 100+ members coordinating around Engine No. 1’s Exxon Mobil proxy fight might have formed a shareholder group or lost the right to file passive Schedule 13G disclosures. It pursued no enforcement action."
+          ]
+        }
+      }
+    },
+    {
+      "id": "401-k-s",
+      "sourceSection": "401(k)s",
+      "illustration": {
+        "src": "/images/2026-10-07-esg-gets-more-illegal/401-k-s.png",
+        "alt": "Supreme Court justices examine Intel retirement-fund folders containing private-equity and hedge-fund investments while lawyers debate whether poor performance proves imprudence."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "President Donald Trump",
+          "Jerry Schlichter",
+          "Justice Samuel Alito",
+          "Justice Ketanji Brown Jackson",
+          "Justice Elena Kagan"
+        ],
+        "realCompanies": [
+          "Intel"
+        ],
+        "financialMechanism": "Employers acting as 401(k) fiduciaries may include private equity and hedge funds if they act prudently. Labor Department guidance can persuade courts, but lawsuits and judicial rulings determine whether a plan’s choices violated fiduciary duties.",
+        "centralJoke": "Private equity did not suddenly move from a legal forbidden list to an allowed list—there was no list. Intel went from being an extreme outlier to looking like the future because government and financial-industry attitudes changed, not because private assets suddenly became safe, cheap, or transparent."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Intel’s Retirement-Fund Time Machine",
+          "lesson": "Private equity was never categorically banned from 401(k)s; employers had to choose investments prudently, and changing government guidance can influence—but does not bind—courts deciding employee lawsuits.",
+          "paragraphs": [
+            "A 401(k) holds money workers save for older days,\nwhile employers select its investment ways.\nFor decades they’ve had one demanding duty:\nChoose options with prudence, not sparkle or beauty.",
+            "There was no official “bad investments” shelf,\nno “good investments” list that could govern itself.\nPrivate equity—company stakes not publicly traded—\nwas never forbidden; its wisdom was debated.",
+            "When investments lagged, an employee might say,\n“You chose without care!” and bring suit that day.\nA plaintiffs’ lawyer—often Jerry Schlichter—could sue;\nthen judges, not lists, decided what prudent plans do.",
+            "President Donald Trump signed an order with cheer,\nand the Department of Labor made its preference clear:\nPrivate assets may fit. Yet its rules, though important,\nwere persuasive authority—not binding on each court.",
+            "Then Anderson v. Intel arrived at the Court:\nA former Intel worker said the plan fell short.\nIntel’s default funds put about one-third in a blend\nof private equity and hedge funds—an unusual trend.",
+            "The worker said they cost more, hid details, and were slow to sell,\nwhile ordinary stock funds had performed rather well.\nBut Samuel Alito said one result can’t decide\nif a strategy was reasonable when first it was tried.",
+            "Ketanji Brown Jackson and Elena Kagan showed puzzlement too,\nas justices asked what proper benchmark could let the case go through.\nIntel was yesterday’s oddball; now the industry’s aligned:\nNothing grew cheap overnight—the official mood changed its mind.",
+            "What happened? Private equity was never expressly barred from 401(k)s, but employers could be sued for choosing it imprudently. In Anderson v. Intel, the Supreme Court considered whether alleged underperformance against an appropriate benchmark was needed for such a lawsuit to survive dismissal."
+          ]
+        },
+        "elementary": {
+          "title": "Intel’s Retirement-Fund Time Machine",
+          "lesson": "Private equity was never categorically banned from 401(k)s; employers had to choose investments prudently, and changing government guidance can influence—but does not bind—courts deciding employee lawsuits.",
+          "paragraphs": [
+            "A 401(k) holds money workers save for older days,\nwhile employers select its investment ways.\nFor decades they’ve had one demanding duty:\nChoose options with prudence, not sparkle or beauty.",
+            "There was no official “bad investments” shelf,\nno “good investments” list that could govern itself.\nPrivate equity—company stakes not publicly traded—\nwas never forbidden; its wisdom was debated.",
+            "When investments lagged, an employee might say,\n“You chose without care!” and bring suit that day.\nA plaintiffs’ lawyer—often Jerry Schlichter—could sue;\nthen judges, not lists, decided what prudent plans do.",
+            "President Donald Trump signed an order with cheer,\nand the Department of Labor made its preference clear:\nPrivate assets may fit. Yet its rules, though important,\nwere persuasive authority—not binding on each court.",
+            "Then Anderson v. Intel arrived at the Court:\nA former Intel worker said the plan fell short.\nIntel’s default funds put about one-third in a blend\nof private equity and hedge funds—an unusual trend.",
+            "The worker said they cost more, hid details, and were slow to sell,\nwhile ordinary stock funds had performed rather well.\nBut Samuel Alito said one result can’t decide\nif a strategy was reasonable when first it was tried.",
+            "Ketanji Brown Jackson and Elena Kagan showed puzzlement too,\nas justices asked what proper benchmark could let the case go through.\nIntel was yesterday’s oddball; now the industry’s aligned:\nNothing grew cheap overnight—the official mood changed its mind.",
+            "What happened? Private equity was never expressly barred from 401(k)s, but employers could be sued for choosing it imprudently. In Anderson v. Intel, the Supreme Court considered whether alleged underperformance against an appropriate benchmark was needed for such a lawsuit to survive dismissal."
+          ]
+        },
+        "middle": {
+          "title": "Intel’s Retirement-Fund Time Machine",
+          "lesson": "Private equity was never categorically banned from 401(k)s; employers had to choose investments prudently, and changing government guidance can influence—but does not bind—courts deciding employee lawsuits.",
+          "paragraphs": [
+            "A 401(k) holds money workers save for older days,\nwhile employers select its investment ways.\nFor decades they’ve had one demanding duty:\nChoose options with prudence, not sparkle or beauty.",
+            "There was no official “bad investments” shelf,\nno “good investments” list that could govern itself.\nPrivate equity—company stakes not publicly traded—\nwas never forbidden; its wisdom was debated.",
+            "When investments lagged, an employee might say,\n“You chose without care!” and bring suit that day.\nA plaintiffs’ lawyer—often Jerry Schlichter—could sue;\nthen judges, not lists, decided what prudent plans do.",
+            "President Donald Trump signed an order with cheer,\nand the Department of Labor made its preference clear:\nPrivate assets may fit. Yet its rules, though important,\nwere persuasive authority—not binding on each court.",
+            "Then Anderson v. Intel arrived at the Court:\nA former Intel worker said the plan fell short.\nIntel’s default funds put about one-third in a blend\nof private equity and hedge funds—an unusual trend.",
+            "The worker said they cost more, hid details, and were slow to sell,\nwhile ordinary stock funds had performed rather well.\nBut Samuel Alito said one result can’t decide\nif a strategy was reasonable when first it was tried.",
+            "Ketanji Brown Jackson and Elena Kagan showed puzzlement too,\nas justices asked what proper benchmark could let the case go through.\nIntel was yesterday’s oddball; now the industry’s aligned:\nNothing grew cheap overnight—the official mood changed its mind.",
+            "What happened? Private equity was never expressly barred from 401(k)s, but employers could be sued for choosing it imprudently. In Anderson v. Intel, the Supreme Court considered whether alleged underperformance against an appropriate benchmark was needed for such a lawsuit to survive dismissal."
+          ]
+        },
+        "high": {
+          "title": "Intel’s Retirement-Fund Time Machine",
+          "lesson": "Private equity was never categorically banned from 401(k)s; employers had to choose investments prudently, and changing government guidance can influence—but does not bind—courts deciding employee lawsuits.",
+          "paragraphs": [
+            "A 401(k) holds money workers save for older days,\nwhile employers select its investment ways.\nFor decades they’ve had one demanding duty:\nChoose options with prudence, not sparkle or beauty.",
+            "There was no official “bad investments” shelf,\nno “good investments” list that could govern itself.\nPrivate equity—company stakes not publicly traded—\nwas never forbidden; its wisdom was debated.",
+            "When investments lagged, an employee might say,\n“You chose without care!” and bring suit that day.\nA plaintiffs’ lawyer—often Jerry Schlichter—could sue;\nthen judges, not lists, decided what prudent plans do.",
+            "President Donald Trump signed an order with cheer,\nand the Department of Labor made its preference clear:\nPrivate assets may fit. Yet its rules, though important,\nwere persuasive authority—not binding on each court.",
+            "Then Anderson v. Intel arrived at the Court:\nA former Intel worker said the plan fell short.\nIntel’s default funds put about one-third in a blend\nof private equity and hedge funds—an unusual trend.",
+            "The worker said they cost more, hid details, and were slow to sell,\nwhile ordinary stock funds had performed rather well.\nBut Samuel Alito said one result can’t decide\nif a strategy was reasonable when first it was tried.",
+            "Ketanji Brown Jackson and Elena Kagan showed puzzlement too,\nas justices asked what proper benchmark could let the case go through.\nIntel was yesterday’s oddball; now the industry’s aligned:\nNothing grew cheap overnight—the official mood changed its mind.",
+            "What happened? Private equity was never expressly barred from 401(k)s, but employers could be sued for choosing it imprudently. In Anderson v. Intel, the Supreme Court considered whether alleged underperformance against an appropriate benchmark was needed for such a lawsuit to survive dismissal."
+          ]
+        }
+      }
+    },
+    {
+      "id": "spacex-nvidia",
+      "sourceSection": "SpaceX/Nvidia",
+      "illustration": {
+        "src": "/images/2026-10-07-esg-gets-more-illegal/spacex-nvidia.png",
+        "alt": "Investment committee members stare at a two-page SpaceX memo showing outer space and an arrow labeled “somewhere in the universe,” beside a stack of Nvidia chips."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "SpaceX",
+          "Nvidia Corp.",
+          "Apollo Global Management Inc.",
+          "Pacific Investment Management Co.",
+          "Bloomberg",
+          "Financial Times"
+        ],
+        "financialMechanism": "SpaceX discussed a $40 billion debt financing to purchase Nvidia GPUs. Data-center debt can depend on predictable cash flows, strong credit support, and asset-backed collateral; lenders might take liens allowing them to seize pledged chips after nonpayment, although collateral at an undisclosed location would be difficult to repossess.",
+        "centralJoke": "SpaceX reportedly pitched multibillion-dollar chip financing with a two-page memo showing outer space and an arrow to data centers “somewhere in the universe”—a location that would make pledged chips rather hard for lenders to repossess."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Somewhere in the Universe",
+          "lesson": "SpaceX discussed borrowing $40 billion to buy Nvidia chips; lenders could rely on SpaceX’s credit and potentially take liens on the chips as collateral, though repossessing chips placed at an undisclosed location would be difficult.",
+          "paragraphs": [
+            "Elon Musk’s SpaceX was discussing a plan:\nRaise forty billion in debt, if it can.\nThen purchase Nvidia chips by the stack,\nAnd pay all the lenders, with interest, back.",
+            "Data-center lenders inspect every seam:\nWill power arrive? Will rent checks still stream?\nHow quickly will GPUs age and decline?\nWho pays if construction runs past its deadline?",
+            "A giant tech company may guarantee rent,\nSo ratings stay sturdy though much has been lent.\nBut one bigger belief can make worries seem small:\n“AI will need chips—lots of chips—all in all!”",
+            "Bloomberg reported the talks. Apollo Global Management was apparently leading the deal, while Pacific Investment Management Co. was involved in the financing.",
+            "But investors told the Financial Times with dismay\nWhat SpaceX had sent them to study one day:\nTwo pages, space pictures, and one arrow’s cue—\nData centers “somewhere in the universe” would do.",
+            "“How can we take this to the IC?” came the cry—\nThe committee that votes whether deals get a try.\nSpaceX had an investment-grade credit rating,\nYet lenders still wondered where chips would be waiting.",
+            "A lien means missed payments can let lenders seize\nThe pledged Nvidia chips—if they find them with ease.\nBut blast them to somewhere no map can rehearse,\nAnd good luck repossessing them out in the universe!",
+            "What happened? SpaceX was in talks to raise $40 billion in debt to buy Nvidia chips, with Apollo Global Management apparently leading and Pacific Investment Management Co. involved. Investors said an earlier SpaceX pitch was only two pages long and placed its planned data centers “somewhere in the universe,” making the possible chip collateral sound comically hard to locate."
+          ]
+        },
+        "elementary": {
+          "title": "Somewhere in the Universe",
+          "lesson": "SpaceX discussed borrowing $40 billion to buy Nvidia chips; lenders could rely on SpaceX’s credit and potentially take liens on the chips as collateral, though repossessing chips placed at an undisclosed location would be difficult.",
+          "paragraphs": [
+            "Elon Musk’s SpaceX was discussing a plan:\nRaise forty billion in debt, if it can.\nThen purchase Nvidia chips by the stack,\nAnd pay all the lenders, with interest, back.",
+            "Data-center lenders inspect every seam:\nWill power arrive? Will rent checks still stream?\nHow quickly will GPUs age and decline?\nWho pays if construction runs past its deadline?",
+            "A giant tech company may guarantee rent,\nSo ratings stay sturdy though much has been lent.\nBut one bigger belief can make worries seem small:\n“AI will need chips—lots of chips—all in all!”",
+            "Bloomberg reported the talks. Apollo Global Management was apparently leading the deal, while Pacific Investment Management Co. was involved in the financing.",
+            "But investors told the Financial Times with dismay\nWhat SpaceX had sent them to study one day:\nTwo pages, space pictures, and one arrow’s cue—\nData centers “somewhere in the universe” would do.",
+            "“How can we take this to the IC?” came the cry—\nThe committee that votes whether deals get a try.\nSpaceX had an investment-grade credit rating,\nYet lenders still wondered where chips would be waiting.",
+            "A lien means missed payments can let lenders seize\nThe pledged Nvidia chips—if they find them with ease.\nBut blast them to somewhere no map can rehearse,\nAnd good luck repossessing them out in the universe!",
+            "What happened? SpaceX was in talks to raise $40 billion in debt to buy Nvidia chips, with Apollo Global Management apparently leading and Pacific Investment Management Co. involved. Investors said an earlier SpaceX pitch was only two pages long and placed its planned data centers “somewhere in the universe,” making the possible chip collateral sound comically hard to locate."
+          ]
+        },
+        "middle": {
+          "title": "Somewhere in the Universe",
+          "lesson": "SpaceX discussed borrowing $40 billion to buy Nvidia chips; lenders could rely on SpaceX’s credit and potentially take liens on the chips as collateral, though repossessing chips placed at an undisclosed location would be difficult.",
+          "paragraphs": [
+            "Elon Musk’s SpaceX was discussing a plan:\nRaise forty billion in debt, if it can.\nThen purchase Nvidia chips by the stack,\nAnd pay all the lenders, with interest, back.",
+            "Data-center lenders inspect every seam:\nWill power arrive? Will rent checks still stream?\nHow quickly will GPUs age and decline?\nWho pays if construction runs past its deadline?",
+            "A giant tech company may guarantee rent,\nSo ratings stay sturdy though much has been lent.\nBut one bigger belief can make worries seem small:\n“AI will need chips—lots of chips—all in all!”",
+            "Bloomberg reported the talks. Apollo Global Management was apparently leading the deal, while Pacific Investment Management Co. was involved in the financing.",
+            "But investors told the Financial Times with dismay\nWhat SpaceX had sent them to study one day:\nTwo pages, space pictures, and one arrow’s cue—\nData centers “somewhere in the universe” would do.",
+            "“How can we take this to the IC?” came the cry—\nThe committee that votes whether deals get a try.\nSpaceX had an investment-grade credit rating,\nYet lenders still wondered where chips would be waiting.",
+            "A lien means missed payments can let lenders seize\nThe pledged Nvidia chips—if they find them with ease.\nBut blast them to somewhere no map can rehearse,\nAnd good luck repossessing them out in the universe!",
+            "What happened? SpaceX was in talks to raise $40 billion in debt to buy Nvidia chips, with Apollo Global Management apparently leading and Pacific Investment Management Co. involved. Investors said an earlier SpaceX pitch was only two pages long and placed its planned data centers “somewhere in the universe,” making the possible chip collateral sound comically hard to locate."
+          ]
+        },
+        "high": {
+          "title": "Somewhere in the Universe",
+          "lesson": "SpaceX discussed borrowing $40 billion to buy Nvidia chips; lenders could rely on SpaceX’s credit and potentially take liens on the chips as collateral, though repossessing chips placed at an undisclosed location would be difficult.",
+          "paragraphs": [
+            "Elon Musk’s SpaceX was discussing a plan:\nRaise forty billion in debt, if it can.\nThen purchase Nvidia chips by the stack,\nAnd pay all the lenders, with interest, back.",
+            "Data-center lenders inspect every seam:\nWill power arrive? Will rent checks still stream?\nHow quickly will GPUs age and decline?\nWho pays if construction runs past its deadline?",
+            "A giant tech company may guarantee rent,\nSo ratings stay sturdy though much has been lent.\nBut one bigger belief can make worries seem small:\n“AI will need chips—lots of chips—all in all!”",
+            "Bloomberg reported the talks. Apollo Global Management was apparently leading the deal, while Pacific Investment Management Co. was involved in the financing.",
+            "But investors told the Financial Times with dismay\nWhat SpaceX had sent them to study one day:\nTwo pages, space pictures, and one arrow’s cue—\nData centers “somewhere in the universe” would do.",
+            "“How can we take this to the IC?” came the cry—\nThe committee that votes whether deals get a try.\nSpaceX had an investment-grade credit rating,\nYet lenders still wondered where chips would be waiting.",
+            "A lien means missed payments can let lenders seize\nThe pledged Nvidia chips—if they find them with ease.\nBut blast them to somewhere no map can rehearse,\nAnd good luck repossessing them out in the universe!",
+            "What happened? SpaceX was in talks to raise $40 billion in debt to buy Nvidia chips, with Apollo Global Management apparently leading and Pacific Investment Management Co. involved. Investors said an earlier SpaceX pitch was only two pages long and placed its planned data centers “somewhere in the universe,” making the possible chip collateral sound comically hard to locate."
+          ]
+        }
+      }
+    }
+  ]
+}
