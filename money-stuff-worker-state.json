@@ -396,6 +396,18 @@
       "submitted": true,
       "updatedAt": "2026-10-06T19:35:21.188Z",
       "submittedAt": "2026-10-06T19:35:21.188Z"
+    },
+    "1a117998a2b15201": {
+      "gmailMessageId": "1a117998a2b15201",
+      "newsletterDate": "2026-10-07",
+      "newsletterTitle": "ESG Gets More Illegal",
+      "editionId": "2026-10-07-esg-gets-more-illegal",
+      "sourceSha256": "138383e0d23aa6d1e5af29a0798d580ed3374e7e42b242a05b67de57ec5d3d11",
+      "packageSha256": "b411bc3ed2230bb92f7e521f31b5c9a4aa0a34f9f343384f0c7a7e44e408336f",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-07T21:38:47.939Z",
+      "submittedAt": "2026-10-07T21:38:47.939Z"
     }
   }
 }
