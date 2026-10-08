@@ -408,6 +408,18 @@
       "submitted": true,
       "updatedAt": "2026-10-07T21:38:47.939Z",
       "submittedAt": "2026-10-07T21:38:47.939Z"
+    },
+    "1a11cc0581161abd": {
+      "gmailMessageId": "1a11cc0581161abd",
+      "newsletterDate": "2026-10-08",
+      "newsletterTitle": "Pre-IPO Perpetual Futures Swap ETF",
+      "editionId": "2026-10-08-pre-ipo-perpetual-futures-swap-etf",
+      "sourceSha256": "ecd9834b61522793adc1c44d1b7a3aeaa47a01c462324b6ee0b904e939227aa1",
+      "packageSha256": "f4fad5b0ad98b7a30ed80ca6f9be44470845f4ca3c269327e31c194705e5648a",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-08T20:51:50.030Z",
+      "submittedAt": "2026-10-08T20:51:50.030Z"
     }
   }
 }
