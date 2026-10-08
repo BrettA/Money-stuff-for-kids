@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-08-pre-ipo-perpetual-futures-swap-etf",
+  "date": "2026-10-08",
+  "displayDate": "October 8, 2026",
+  "title": "Pre-IPO Perpetual Futures Swap ETF",
+  "sourceSections": [
+    "MANGOS",
+    "Prime services",
+    "Longshot bias",
+    "An arbitrage",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "mangos",
+      "sourceSection": "MANGOS",
+      "illustration": {
+        "src": "/images/2026-10-08-pre-ipo-perpetual-futures-swap-etf/mangos.png",
+        "alt": "Jeff Weniger presents the MANGOS ETF while an intermediary passes him a total return swap and holds perpetual-futures contracts referencing Anthropic and OpenAI."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jeff Weniger",
+          "Reid Noch"
+        ],
+        "realCompanies": [
+          "Corgi Invest",
+          "Corgi MANGOS ETF",
+          "Meta Platforms",
+          "Anthropic",
+          "NVIDIA",
+          "Alphabet (Google)",
+          "OpenAI",
+          "SpaceX",
+          "Hyperliquid Labs",
+          "Cerebras"
+        ],
+        "financialMechanism": "The US-listed ETF enters total return swaps with an intermediary, and those swaps reference prices from perpetual futures on private-company shares; the intermediary, rather than the ETF, handles the offshore perpetual-futures exposure.",
+        "centralJoke": "A perfectly ordinary-looking US ETF offers exposure to private AI companies through swaps on offshore crypto bets about shares that neither the ETF nor the bettors necessarily own."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The MANGOS Fund and the Bet Behind the Bet",
+          "lesson": "The Corgi MANGOS ETF gets exposure to private OpenAI and Anthropic shares through total return swaps whose values reference offshore perpetual futures, rather than by directly owning those companies’ stock.",
+          "paragraphs": [
+            "Corgi Invest launched MANGOS, an ETF to trade,\nA fund whose shares can be bought and sold each day.\nIts name holds Meta, Anthropic, NVIDIA in rows,\nAlphabet’s Google, OpenAI, and SpaceX: MANGOS.",
+            "But Anthropic and OpenAI are private—not on an exchange;\nTheir shares are hard to purchase, price, or rearrange.\nSo MANGOS did not simply buy those shares outright.\nIt found a stranger path to track their value’s flight.",
+            "On Hyperliquid, traders make perpetual-futures bets:\nThe “long” side gains when prices rise; the “short” side pays its debts.\nWith private shares, no easy trade can keep the wager true—\nYet Reid Noch noted such bets predicted SpaceX and Cerebras debuts.",
+            "A US fund generally cannot place those offshore bets itself,\nSo Corgi added one more contract to the shelf.\nA trading firm takes the perps; the ETF instead\nUses total return swaps that follow where those prices head.",
+            "Jeff Weniger said that was the exposure for now.\nNo Anthropic or OpenAI shares were needed somehow.\nThe fund held $68.4 million, with about five percent in each;\nIts swaps put private-AI prices within public traders’ reach.",
+            "It closed at $26.12; its reported NAV was $26.26.\nA normal-looking ETF contained some unusual tricks:\nA listed fund held swaps on offshore bets about stock it did not own—\nFinancial innovation had proudly out-weirded the unknown.",
+            "What happened? Corgi Invest’s MANGOS ETF used total return swaps tied to perpetual futures prices to obtain exposure to private OpenAI and Anthropic stock without directly owning those shares. An intermediary handled the offshore perpetual-futures exposure while the US-listed ETF held the swaps."
+          ]
+        },
+        "elementary": {
+          "title": "The MANGOS Fund and the Bet Behind the Bet",
+          "lesson": "The Corgi MANGOS ETF gets exposure to private OpenAI and Anthropic shares through total return swaps whose values reference offshore perpetual futures, rather than by directly owning those companies’ stock.",
+          "paragraphs": [
+            "Corgi Invest launched MANGOS, an ETF to trade,\nA fund whose shares can be bought and sold each day.\nIts name holds Meta, Anthropic, NVIDIA in rows,\nAlphabet’s Google, OpenAI, and SpaceX: MANGOS.",
+            "But Anthropic and OpenAI are private—not on an exchange;\nTheir shares are hard to purchase, price, or rearrange.\nSo MANGOS did not simply buy those shares outright.\nIt found a stranger path to track their value’s flight.",
+            "On Hyperliquid, traders make perpetual-futures bets:\nThe “long” side gains when prices rise; the “short” side pays its debts.\nWith private shares, no easy trade can keep the wager true—\nYet Reid Noch noted such bets predicted SpaceX and Cerebras debuts.",
+            "A US fund generally cannot place those offshore bets itself,\nSo Corgi added one more contract to the shelf.\nA trading firm takes the perps; the ETF instead\nUses total return swaps that follow where those prices head.",
+            "Jeff Weniger said that was the exposure for now.\nNo Anthropic or OpenAI shares were needed somehow.\nThe fund held $68.4 million, with about five percent in each;\nIts swaps put private-AI prices within public traders’ reach.",
+            "It closed at $26.12; its reported NAV was $26.26.\nA normal-looking ETF contained some unusual tricks:\nA listed fund held swaps on offshore bets about stock it did not own—\nFinancial innovation had proudly out-weirded the unknown.",
+            "What happened? Corgi Invest’s MANGOS ETF used total return swaps tied to perpetual futures prices to obtain exposure to private OpenAI and Anthropic stock without directly owning those shares. An intermediary handled the offshore perpetual-futures exposure while the US-listed ETF held the swaps."
+          ]
+        },
+        "middle": {
+          "title": "The MANGOS Fund and the Bet Behind the Bet",
+          "lesson": "The Corgi MANGOS ETF gets exposure to private OpenAI and Anthropic shares through total return swaps whose values reference offshore perpetual futures, rather than by directly owning those companies’ stock.",
+          "paragraphs": [
+            "Corgi Invest launched MANGOS, an ETF to trade,\nA fund whose shares can be bought and sold each day.\nIts name holds Meta, Anthropic, NVIDIA in rows,\nAlphabet’s Google, OpenAI, and SpaceX: MANGOS.",
+            "But Anthropic and OpenAI are private—not on an exchange;\nTheir shares are hard to purchase, price, or rearrange.\nSo MANGOS did not simply buy those shares outright.\nIt found a stranger path to track their value’s flight.",
+            "On Hyperliquid, traders make perpetual-futures bets:\nThe “long” side gains when prices rise; the “short” side pays its debts.\nWith private shares, no easy trade can keep the wager true—\nYet Reid Noch noted such bets predicted SpaceX and Cerebras debuts.",
+            "A US fund generally cannot place those offshore bets itself,\nSo Corgi added one more contract to the shelf.\nA trading firm takes the perps; the ETF instead\nUses total return swaps that follow where those prices head.",
+            "Jeff Weniger said that was the exposure for now.\nNo Anthropic or OpenAI shares were needed somehow.\nThe fund held $68.4 million, with about five percent in each;\nIts swaps put private-AI prices within public traders’ reach.",
+            "It closed at $26.12; its reported NAV was $26.26.\nA normal-looking ETF contained some unusual tricks:\nA listed fund held swaps on offshore bets about stock it did not own—\nFinancial innovation had proudly out-weirded the unknown.",
+            "What happened? Corgi Invest’s MANGOS ETF used total return swaps tied to perpetual futures prices to obtain exposure to private OpenAI and Anthropic stock without directly owning those shares. An intermediary handled the offshore perpetual-futures exposure while the US-listed ETF held the swaps."
+          ]
+        },
+        "high": {
+          "title": "The MANGOS Fund and the Bet Behind the Bet",
+          "lesson": "The Corgi MANGOS ETF gets exposure to private OpenAI and Anthropic shares through total return swaps whose values reference offshore perpetual futures, rather than by directly owning those companies’ stock.",
+          "paragraphs": [
+            "Corgi Invest launched MANGOS, an ETF to trade,\nA fund whose shares can be bought and sold each day.\nIts name holds Meta, Anthropic, NVIDIA in rows,\nAlphabet’s Google, OpenAI, and SpaceX: MANGOS.",
+            "But Anthropic and OpenAI are private—not on an exchange;\nTheir shares are hard to purchase, price, or rearrange.\nSo MANGOS did not simply buy those shares outright.\nIt found a stranger path to track their value’s flight.",
+            "On Hyperliquid, traders make perpetual-futures bets:\nThe “long” side gains when prices rise; the “short” side pays its debts.\nWith private shares, no easy trade can keep the wager true—\nYet Reid Noch noted such bets predicted SpaceX and Cerebras debuts.",
+            "A US fund generally cannot place those offshore bets itself,\nSo Corgi added one more contract to the shelf.\nA trading firm takes the perps; the ETF instead\nUses total return swaps that follow where those prices head.",
+            "Jeff Weniger said that was the exposure for now.\nNo Anthropic or OpenAI shares were needed somehow.\nThe fund held $68.4 million, with about five percent in each;\nIts swaps put private-AI prices within public traders’ reach.",
+            "It closed at $26.12; its reported NAV was $26.26.\nA normal-looking ETF contained some unusual tricks:\nA listed fund held swaps on offshore bets about stock it did not own—\nFinancial innovation had proudly out-weirded the unknown.",
+            "What happened? Corgi Invest’s MANGOS ETF used total return swaps tied to perpetual futures prices to obtain exposure to private OpenAI and Anthropic stock without directly owning those shares. An intermediary handled the offshore perpetual-futures exposure while the US-listed ETF held the swaps."
+          ]
+        }
+      }
+    },
+    {
+      "id": "prime-services",
+      "sourceSection": "Prime services",
+      "illustration": {
+        "src": "/images/2026-10-08-pre-ipo-perpetual-futures-swap-etf/prime-services.png",
+        "alt": "Mike Webb stands beside a moat of Barclays credit-line contracts while Jane Street and Citadel traders buy and sell stocks, bonds, and derivatives across it."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mike Webb"
+        ],
+        "realCompanies": [
+          "Barclays",
+          "Jane Street",
+          "Citadel",
+          "Coalition Greenwich"
+        ],
+        "financialMechanism": "Prime brokers provide margin loans and large credit lines to hedge funds and proprietary trading firms, taking a senior claim backed by collateral while the clients conduct the trades; longer lock-up periods restrict how quickly banks can change terms or withdraw financing.",
+        "centralJoke": "US banks are earning record trading profits even though firms such as Jane Street and Citadel increasingly do the actual trading."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Banks That Profited Without Trading",
+          "lesson": "Banks increasingly earn prime-services revenue by lending to trading firms through margin loans and credit lines, gaining a senior claim but surrendering some control as financing lock-ups grow longer.",
+          "paragraphs": [
+            "Once big Wall Street banks would trade all day,\nUsing their own cash to lead the way.\nThey bought stocks, bonds, and derivatives too,\nThen hoped to sell higher when prices grew.",
+            "By 2026, Jane Street and Citadel\nWere making markets and trading as well.\nThe banks supplied funding for every big bet—\nA business called prime brokerage, built upon debt.",
+            "A margin loan is backed by assets on hand;\nThe trading firm takes the first loss as prices descend.\nThe bank has the senior claim and expects to be paid,\nBut trusts the firm to manage each trade.",
+            "Mike Webb of Barclays put it just so:\n“Banks are struggling to compete” where market makers go.\n“But financing is a thing that banks do,”\nWith a moat made of credit lines—trillions flowing through.",
+            "Hedge-fund borrowing from banks has tripled since 2020.\nCoalition Greenwich says prime services grew from about 10% of banks’ equities revenue in 2005 to roughly 38% this year.",
+            "Yet coveted clients gained power to say,\n“You cannot withdraw all your funding today.”\nLock-ups grew from two weeks to thirty days,\nThen three months—even half a year in some cases.",
+            "So banks earned record trading profits in a curious way:\nThey profited from trades they had lent away.",
+            "What happened? Banks increasingly financed firms such as Jane Street and Citadel instead of doing as much trading themselves. Longer lock-ups made that funding steadier for trading firms but reduced banks’ ability to withdraw credit or demand extra margin quickly."
+          ]
+        },
+        "elementary": {
+          "title": "The Banks That Profited Without Trading",
+          "lesson": "Banks increasingly earn prime-services revenue by lending to trading firms through margin loans and credit lines, gaining a senior claim but surrendering some control as financing lock-ups grow longer.",
+          "paragraphs": [
+            "Once big Wall Street banks would trade all day,\nUsing their own cash to lead the way.\nThey bought stocks, bonds, and derivatives too,\nThen hoped to sell higher when prices grew.",
+            "By 2026, Jane Street and Citadel\nWere making markets and trading as well.\nThe banks supplied funding for every big bet—\nA business called prime brokerage, built upon debt.",
+            "A margin loan is backed by assets on hand;\nThe trading firm takes the first loss as prices descend.\nThe bank has the senior claim and expects to be paid,\nBut trusts the firm to manage each trade.",
+            "Mike Webb of Barclays put it just so:\n“Banks are struggling to compete” where market makers go.\n“But financing is a thing that banks do,”\nWith a moat made of credit lines—trillions flowing through.",
+            "Hedge-fund borrowing from banks has tripled since 2020.\nCoalition Greenwich says prime services grew from about 10% of banks’ equities revenue in 2005 to roughly 38% this year.",
+            "Yet coveted clients gained power to say,\n“You cannot withdraw all your funding today.”\nLock-ups grew from two weeks to thirty days,\nThen three months—even half a year in some cases.",
+            "So banks earned record trading profits in a curious way:\nThey profited from trades they had lent away.",
+            "What happened? Banks increasingly financed firms such as Jane Street and Citadel instead of doing as much trading themselves. Longer lock-ups made that funding steadier for trading firms but reduced banks’ ability to withdraw credit or demand extra margin quickly."
+          ]
+        },
+        "middle": {
+          "title": "The Banks That Profited Without Trading",
+          "lesson": "Banks increasingly earn prime-services revenue by lending to trading firms through margin loans and credit lines, gaining a senior claim but surrendering some control as financing lock-ups grow longer.",
+          "paragraphs": [
+            "Once big Wall Street banks would trade all day,\nUsing their own cash to lead the way.\nThey bought stocks, bonds, and derivatives too,\nThen hoped to sell higher when prices grew.",
+            "By 2026, Jane Street and Citadel\nWere making markets and trading as well.\nThe banks supplied funding for every big bet—\nA business called prime brokerage, built upon debt.",
+            "A margin loan is backed by assets on hand;\nThe trading firm takes the first loss as prices descend.\nThe bank has the senior claim and expects to be paid,\nBut trusts the firm to manage each trade.",
+            "Mike Webb of Barclays put it just so:\n“Banks are struggling to compete” where market makers go.\n“But financing is a thing that banks do,”\nWith a moat made of credit lines—trillions flowing through.",
+            "Hedge-fund borrowing from banks has tripled since 2020.\nCoalition Greenwich says prime services grew from about 10% of banks’ equities revenue in 2005 to roughly 38% this year.",
+            "Yet coveted clients gained power to say,\n“You cannot withdraw all your funding today.”\nLock-ups grew from two weeks to thirty days,\nThen three months—even half a year in some cases.",
+            "So banks earned record trading profits in a curious way:\nThey profited from trades they had lent away.",
+            "What happened? Banks increasingly financed firms such as Jane Street and Citadel instead of doing as much trading themselves. Longer lock-ups made that funding steadier for trading firms but reduced banks’ ability to withdraw credit or demand extra margin quickly."
+          ]
+        },
+        "high": {
+          "title": "The Banks That Profited Without Trading",
+          "lesson": "Banks increasingly earn prime-services revenue by lending to trading firms through margin loans and credit lines, gaining a senior claim but surrendering some control as financing lock-ups grow longer.",
+          "paragraphs": [
+            "Once big Wall Street banks would trade all day,\nUsing their own cash to lead the way.\nThey bought stocks, bonds, and derivatives too,\nThen hoped to sell higher when prices grew.",
+            "By 2026, Jane Street and Citadel\nWere making markets and trading as well.\nThe banks supplied funding for every big bet—\nA business called prime brokerage, built upon debt.",
+            "A margin loan is backed by assets on hand;\nThe trading firm takes the first loss as prices descend.\nThe bank has the senior claim and expects to be paid,\nBut trusts the firm to manage each trade.",
+            "Mike Webb of Barclays put it just so:\n“Banks are struggling to compete” where market makers go.\n“But financing is a thing that banks do,”\nWith a moat made of credit lines—trillions flowing through.",
+            "Hedge-fund borrowing from banks has tripled since 2020.\nCoalition Greenwich says prime services grew from about 10% of banks’ equities revenue in 2005 to roughly 38% this year.",
+            "Yet coveted clients gained power to say,\n“You cannot withdraw all your funding today.”\nLock-ups grew from two weeks to thirty days,\nThen three months—even half a year in some cases.",
+            "So banks earned record trading profits in a curious way:\nThey profited from trades they had lent away.",
+            "What happened? Banks increasingly financed firms such as Jane Street and Citadel instead of doing as much trading themselves. Longer lock-ups made that funding steadier for trading firms but reduced banks’ ability to withdraw credit or demand extra margin quickly."
+          ]
+        }
+      }
+    },
+    {
+      "id": "longshot-bias",
+      "sourceSection": "Longshot bias",
+      "illustration": {
+        "src": "/images/2026-10-08-pre-ipo-perpetual-futures-swap-etf/longshot-bias.png",
+        "alt": "Carolyn Silverman and Denitsa Tsekova examine transaction records as bettors choose unlikely YES contracts and market makers collect matching NO contracts."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Carolyn Silverman",
+          "Denitsa Tsekova",
+          "Jesus Christ",
+          "LeBron James"
+        ],
+        "realCompanies": [
+          "Bloomberg News",
+          "Kalshi",
+          "Polymarket",
+          "Polymarket International"
+        ],
+        "financialMechanism": "Bettors’ preference for exciting longshots can push YES-contract prices above the outcomes’ true probabilities. Diversified traders can take the NO side across many contracts, accepting occasional losses while earning modest average profits when most unlikely events do not occur.",
+        "centralJoke": "Prediction markets are all-to-all casinos where some traders buy excitement and better-capitalized traders sell that fun for money."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Market That Sold Fun",
+          "lesson": "Prediction-market bettors may overpay for unlikely YES contracts, allowing diversified traders who buy the corresponding NO contracts to earn modest average profits while still risking occasional losses.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, longshots shone all night;\nThe least-likely YES contracts looked especially bright.\n“Could Jesus Christ return? Could LeBron James prevail\nIn a U.S. presidential race?” Long odds made a sale.",
+            "Bloomberg News reporters Carolyn Silverman and Denitsa Tsekova read\nMore than a billion transactions to see where wagers led.\nSince 2025 began, half of Kalshi’s volume chased\nReturns of at least one thousand percent—though most bets went to waste.",
+            "Recently, over sixty-five percent chased sports parlays:\nSeveral picks must all be right to bring enormous paydays.\nAt Polymarket International, the pattern was much the same:\nFifty-two percent in twenty-one months backed unlikely claims.",
+            "Suppose the true chance is two percent. The eager crowd may\nBid a YES contract up to five cents—more than the odds would say.\nThe matching NO costs ninety-five cents and pays a dollar if it’s right;\nBuying NO is selling the longshot dream that glows so bright.",
+            "Buy one hundred NOs for ninety-five dollars; suppose\nTwo strange events occur, while ninety-eight finish NO.\nThose ninety-eight pay ninety-eight dollars when they’re through:\nA three-dollar profit—though rare surprises still come true.",
+            "Well-funded firms and market makers often took that side,\nSpreading many little risks instead of betting on one wild ride.\nThe crowd might hit a forty-to-one shot and cheer its lucky day:\nSome people bought fun. Others sold the fun for pay.",
+            "What happened? Bloomberg News found that bettors on Kalshi and Polymarket devoted huge trading volume to unlikely outcomes. Traders and market-making firms taking the opposite side earned steady, modest profits on average because most longshots lost, even though a few won."
+          ]
+        },
+        "elementary": {
+          "title": "The Market That Sold Fun",
+          "lesson": "Prediction-market bettors may overpay for unlikely YES contracts, allowing diversified traders who buy the corresponding NO contracts to earn modest average profits while still risking occasional losses.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, longshots shone all night;\nThe least-likely YES contracts looked especially bright.\n“Could Jesus Christ return? Could LeBron James prevail\nIn a U.S. presidential race?” Long odds made a sale.",
+            "Bloomberg News reporters Carolyn Silverman and Denitsa Tsekova read\nMore than a billion transactions to see where wagers led.\nSince 2025 began, half of Kalshi’s volume chased\nReturns of at least one thousand percent—though most bets went to waste.",
+            "Recently, over sixty-five percent chased sports parlays:\nSeveral picks must all be right to bring enormous paydays.\nAt Polymarket International, the pattern was much the same:\nFifty-two percent in twenty-one months backed unlikely claims.",
+            "Suppose the true chance is two percent. The eager crowd may\nBid a YES contract up to five cents—more than the odds would say.\nThe matching NO costs ninety-five cents and pays a dollar if it’s right;\nBuying NO is selling the longshot dream that glows so bright.",
+            "Buy one hundred NOs for ninety-five dollars; suppose\nTwo strange events occur, while ninety-eight finish NO.\nThose ninety-eight pay ninety-eight dollars when they’re through:\nA three-dollar profit—though rare surprises still come true.",
+            "Well-funded firms and market makers often took that side,\nSpreading many little risks instead of betting on one wild ride.\nThe crowd might hit a forty-to-one shot and cheer its lucky day:\nSome people bought fun. Others sold the fun for pay.",
+            "What happened? Bloomberg News found that bettors on Kalshi and Polymarket devoted huge trading volume to unlikely outcomes. Traders and market-making firms taking the opposite side earned steady, modest profits on average because most longshots lost, even though a few won."
+          ]
+        },
+        "middle": {
+          "title": "The Market That Sold Fun",
+          "lesson": "Prediction-market bettors may overpay for unlikely YES contracts, allowing diversified traders who buy the corresponding NO contracts to earn modest average profits while still risking occasional losses.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, longshots shone all night;\nThe least-likely YES contracts looked especially bright.\n“Could Jesus Christ return? Could LeBron James prevail\nIn a U.S. presidential race?” Long odds made a sale.",
+            "Bloomberg News reporters Carolyn Silverman and Denitsa Tsekova read\nMore than a billion transactions to see where wagers led.\nSince 2025 began, half of Kalshi’s volume chased\nReturns of at least one thousand percent—though most bets went to waste.",
+            "Recently, over sixty-five percent chased sports parlays:\nSeveral picks must all be right to bring enormous paydays.\nAt Polymarket International, the pattern was much the same:\nFifty-two percent in twenty-one months backed unlikely claims.",
+            "Suppose the true chance is two percent. The eager crowd may\nBid a YES contract up to five cents—more than the odds would say.\nThe matching NO costs ninety-five cents and pays a dollar if it’s right;\nBuying NO is selling the longshot dream that glows so bright.",
+            "Buy one hundred NOs for ninety-five dollars; suppose\nTwo strange events occur, while ninety-eight finish NO.\nThose ninety-eight pay ninety-eight dollars when they’re through:\nA three-dollar profit—though rare surprises still come true.",
+            "Well-funded firms and market makers often took that side,\nSpreading many little risks instead of betting on one wild ride.\nThe crowd might hit a forty-to-one shot and cheer its lucky day:\nSome people bought fun. Others sold the fun for pay.",
+            "What happened? Bloomberg News found that bettors on Kalshi and Polymarket devoted huge trading volume to unlikely outcomes. Traders and market-making firms taking the opposite side earned steady, modest profits on average because most longshots lost, even though a few won."
+          ]
+        },
+        "high": {
+          "title": "The Market That Sold Fun",
+          "lesson": "Prediction-market bettors may overpay for unlikely YES contracts, allowing diversified traders who buy the corresponding NO contracts to earn modest average profits while still risking occasional losses.",
+          "paragraphs": [
+            "At Kalshi and Polymarket, longshots shone all night;\nThe least-likely YES contracts looked especially bright.\n“Could Jesus Christ return? Could LeBron James prevail\nIn a U.S. presidential race?” Long odds made a sale.",
+            "Bloomberg News reporters Carolyn Silverman and Denitsa Tsekova read\nMore than a billion transactions to see where wagers led.\nSince 2025 began, half of Kalshi’s volume chased\nReturns of at least one thousand percent—though most bets went to waste.",
+            "Recently, over sixty-five percent chased sports parlays:\nSeveral picks must all be right to bring enormous paydays.\nAt Polymarket International, the pattern was much the same:\nFifty-two percent in twenty-one months backed unlikely claims.",
+            "Suppose the true chance is two percent. The eager crowd may\nBid a YES contract up to five cents—more than the odds would say.\nThe matching NO costs ninety-five cents and pays a dollar if it’s right;\nBuying NO is selling the longshot dream that glows so bright.",
+            "Buy one hundred NOs for ninety-five dollars; suppose\nTwo strange events occur, while ninety-eight finish NO.\nThose ninety-eight pay ninety-eight dollars when they’re through:\nA three-dollar profit—though rare surprises still come true.",
+            "Well-funded firms and market makers often took that side,\nSpreading many little risks instead of betting on one wild ride.\nThe crowd might hit a forty-to-one shot and cheer its lucky day:\nSome people bought fun. Others sold the fun for pay.",
+            "What happened? Bloomberg News found that bettors on Kalshi and Polymarket devoted huge trading volume to unlikely outcomes. Traders and market-making firms taking the opposite side earned steady, modest profits on average because most longshots lost, even though a few won."
+          ]
+        }
+      }
+    },
+    {
+      "id": "an-arbitrage",
+      "sourceSection": "An arbitrage",
+      "illustration": {
+        "src": "/images/2026-10-08-pre-ipo-perpetual-futures-swap-etf/an-arbitrage.png",
+        "alt": "A Malaysian food influencer holds proof of 100 shares while entering an annual shareholder meeting and reaching toward a large piece of meat at the free buffet."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "none in source"
+        ],
+        "financialMechanism": "A stockholder used ownership of 100 shares to gain access to an annual shareholder meeting with a free buffet; the subsequent 3% decline in the roughly $18 position amounted to about 50 cents.",
+        "centralJoke": "Most people buy shares hoping for profit, but the influencer bought shares for buffet meat—and after a small stock loss, even the nearly free food was not very good."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Fifty-Cent Shareholder Lunch",
+          "lesson": "Buying stock made the influencer a shareholder who could attend the company’s annual meeting and eat its free buffet; a roughly 3% drop in his $18 holding made the meal cost about 50 cents in market losses.",
+          "paragraphs": [
+            "A Malaysian food influencer discovered a treat: / A company’s shareholder meeting served meat.",
+            "He bought one hundred shares for eighteen dollars or so. / A share means part ownership—even when it’s low.",
+            "That ownership got him into the annual meeting that day, / Where the company’s free buffet was waiting on display.",
+            "“You buy share for profit, I buy share for huge chunk of meat. / We are not the same,” he said as he went in to eat.",
+            "But after the meeting, the stock slipped about three percent; / On eighteen dollars, that’s roughly fifty cents.",
+            "So lunch was nearly free, if you measure the trade— / Though he said that the food wasn’t very well made.",
+            "What happened? An unnamed Malaysian food influencer bought 100 shares of an unnamed public company for about $18 so he could attend its annual shareholder meeting and eat the free buffet. The stock later fell about 3%, making his market loss—and therefore his lunch cost—about 50 cents."
+          ]
+        },
+        "elementary": {
+          "title": "The Fifty-Cent Shareholder Lunch",
+          "lesson": "Buying stock made the influencer a shareholder who could attend the company’s annual meeting and eat its free buffet; a roughly 3% drop in his $18 holding made the meal cost about 50 cents in market losses.",
+          "paragraphs": [
+            "A Malaysian food influencer discovered a treat: / A company’s shareholder meeting served meat.",
+            "He bought one hundred shares for eighteen dollars or so. / A share means part ownership—even when it’s low.",
+            "That ownership got him into the annual meeting that day, / Where the company’s free buffet was waiting on display.",
+            "“You buy share for profit, I buy share for huge chunk of meat. / We are not the same,” he said as he went in to eat.",
+            "But after the meeting, the stock slipped about three percent; / On eighteen dollars, that’s roughly fifty cents.",
+            "So lunch was nearly free, if you measure the trade— / Though he said that the food wasn’t very well made.",
+            "What happened? An unnamed Malaysian food influencer bought 100 shares of an unnamed public company for about $18 so he could attend its annual shareholder meeting and eat the free buffet. The stock later fell about 3%, making his market loss—and therefore his lunch cost—about 50 cents."
+          ]
+        },
+        "middle": {
+          "title": "The Fifty-Cent Shareholder Lunch",
+          "lesson": "Buying stock made the influencer a shareholder who could attend the company’s annual meeting and eat its free buffet; a roughly 3% drop in his $18 holding made the meal cost about 50 cents in market losses.",
+          "paragraphs": [
+            "A Malaysian food influencer discovered a treat: / A company’s shareholder meeting served meat.",
+            "He bought one hundred shares for eighteen dollars or so. / A share means part ownership—even when it’s low.",
+            "That ownership got him into the annual meeting that day, / Where the company’s free buffet was waiting on display.",
+            "“You buy share for profit, I buy share for huge chunk of meat. / We are not the same,” he said as he went in to eat.",
+            "But after the meeting, the stock slipped about three percent; / On eighteen dollars, that’s roughly fifty cents.",
+            "So lunch was nearly free, if you measure the trade— / Though he said that the food wasn’t very well made.",
+            "What happened? An unnamed Malaysian food influencer bought 100 shares of an unnamed public company for about $18 so he could attend its annual shareholder meeting and eat the free buffet. The stock later fell about 3%, making his market loss—and therefore his lunch cost—about 50 cents."
+          ]
+        },
+        "high": {
+          "title": "The Fifty-Cent Shareholder Lunch",
+          "lesson": "Buying stock made the influencer a shareholder who could attend the company’s annual meeting and eat its free buffet; a roughly 3% drop in his $18 holding made the meal cost about 50 cents in market losses.",
+          "paragraphs": [
+            "A Malaysian food influencer discovered a treat: / A company’s shareholder meeting served meat.",
+            "He bought one hundred shares for eighteen dollars or so. / A share means part ownership—even when it’s low.",
+            "That ownership got him into the annual meeting that day, / Where the company’s free buffet was waiting on display.",
+            "“You buy share for profit, I buy share for huge chunk of meat. / We are not the same,” he said as he went in to eat.",
+            "But after the meeting, the stock slipped about three percent; / On eighteen dollars, that’s roughly fifty cents.",
+            "So lunch was nearly free, if you measure the trade— / Though he said that the food wasn’t very well made.",
+            "What happened? An unnamed Malaysian food influencer bought 100 shares of an unnamed public company for about $18 so he could attend its annual shareholder meeting and eat the free buffet. The stock later fell about 3%, making his market loss—and therefore his lunch cost—about 50 cents."
+          ]
+        }
+      }
+    }
+  ]
+}
