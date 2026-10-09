@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-09-the-podcast-jeremy-maletz",
+  "date": "2026-10-09",
+  "displayDate": "October 9, 2026",
+  "title": "The Podcast: Jeremy Maletz",
+  "sourceSections": [
+    "Podcast"
+  ],
+  "stories": [
+    {
+      "id": "podcast",
+      "sourceSection": "Podcast",
+      "illustration": {
+        "src": "/images/2026-10-09-the-podcast-jeremy-maletz/podcast.png",
+        "alt": "Jeremy Maletz and the Money Stuff host record a podcast beside goat-herder and sports event contracts that lead toward plans for a huge data center credit trade."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jeremy Maletz"
+        ],
+        "realCompanies": [
+          "Susquehanna International Group",
+          "Bloomberg",
+          "Apple",
+          "Spotify"
+        ],
+        "financialMechanism": "Prediction-market event contracts gain or lose value based on real-world outcomes; traders post margin as collateral and use hedges or credit derivatives to transfer or offset election, event, and lending risks.",
+        "centralJoke": "A technical podcast conversation ranges absurdly far—from hedging goat-herder risk and sports gambling to trillion-dollar data-center credit derivatives."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "From Goat Herders to Data Centers",
+          "lesson": "Prediction-market contracts pay according to whether events happen, while hedges, margin, and credit derivatives help traders manage the risks tied to those outcomes.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on bright;\nJeremy Maletz joined the host that night.\nAt Susquehanna International Group, he leads\nPrediction-market trading on outcomes and deeds.",
+            "An event contract’s value depends on what comes true;\nMargin is collateral that helps payments come through.\nThey talked about custom-made trades and market flow,\nAnd how adverse selection means someone may know.",
+            "Could election-linked factors be hedged with a trade?\nCould risks that move together be measured and weighed?\nThey started with sports bets and goat-herder risk—\nThen bounded to data centers, startlingly brisk.",
+            "Soon trillion-dollar credit derivatives were in sight:\nContracts shifting lending risk from left to right.\nFrom goats to elections to servers in rows—\nThat is quite a journey for where finance goes!",
+            "The episode is offered through Bloomberg’s Money Stuff,\nOn Apple and Spotify, with all that wonky stuff.\nListeners can hear how far one discussion can roam:\nFrom a goat herder’s hedge to a vast server home.",
+            "What happened? The Money Stuff podcast interviewed Jeremy Maletz, Susquehanna International Group’s head of prediction markets, about event contracts, margin, hedging, adverse selection, correlation, and the leap from sports gambling to trillion-dollar data-center credit derivatives."
+          ]
+        },
+        "elementary": {
+          "title": "From Goat Herders to Data Centers",
+          "lesson": "Prediction-market contracts pay according to whether events happen, while hedges, margin, and credit derivatives help traders manage the risks tied to those outcomes.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on bright;\nJeremy Maletz joined the host that night.\nAt Susquehanna International Group, he leads\nPrediction-market trading on outcomes and deeds.",
+            "An event contract’s value depends on what comes true;\nMargin is collateral that helps payments come through.\nThey talked about custom-made trades and market flow,\nAnd how adverse selection means someone may know.",
+            "Could election-linked factors be hedged with a trade?\nCould risks that move together be measured and weighed?\nThey started with sports bets and goat-herder risk—\nThen bounded to data centers, startlingly brisk.",
+            "Soon trillion-dollar credit derivatives were in sight:\nContracts shifting lending risk from left to right.\nFrom goats to elections to servers in rows—\nThat is quite a journey for where finance goes!",
+            "The episode is offered through Bloomberg’s Money Stuff,\nOn Apple and Spotify, with all that wonky stuff.\nListeners can hear how far one discussion can roam:\nFrom a goat herder’s hedge to a vast server home.",
+            "What happened? The Money Stuff podcast interviewed Jeremy Maletz, Susquehanna International Group’s head of prediction markets, about event contracts, margin, hedging, adverse selection, correlation, and the leap from sports gambling to trillion-dollar data-center credit derivatives."
+          ]
+        },
+        "middle": {
+          "title": "From Goat Herders to Data Centers",
+          "lesson": "Prediction-market contracts pay according to whether events happen, while hedges, margin, and credit derivatives help traders manage the risks tied to those outcomes.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on bright;\nJeremy Maletz joined the host that night.\nAt Susquehanna International Group, he leads\nPrediction-market trading on outcomes and deeds.",
+            "An event contract’s value depends on what comes true;\nMargin is collateral that helps payments come through.\nThey talked about custom-made trades and market flow,\nAnd how adverse selection means someone may know.",
+            "Could election-linked factors be hedged with a trade?\nCould risks that move together be measured and weighed?\nThey started with sports bets and goat-herder risk—\nThen bounded to data centers, startlingly brisk.",
+            "Soon trillion-dollar credit derivatives were in sight:\nContracts shifting lending risk from left to right.\nFrom goats to elections to servers in rows—\nThat is quite a journey for where finance goes!",
+            "The episode is offered through Bloomberg’s Money Stuff,\nOn Apple and Spotify, with all that wonky stuff.\nListeners can hear how far one discussion can roam:\nFrom a goat herder’s hedge to a vast server home.",
+            "What happened? The Money Stuff podcast interviewed Jeremy Maletz, Susquehanna International Group’s head of prediction markets, about event contracts, margin, hedging, adverse selection, correlation, and the leap from sports gambling to trillion-dollar data-center credit derivatives."
+          ]
+        },
+        "high": {
+          "title": "From Goat Herders to Data Centers",
+          "lesson": "Prediction-market contracts pay according to whether events happen, while hedges, margin, and credit derivatives help traders manage the risks tied to those outcomes.",
+          "paragraphs": [
+            "The Money Stuff microphones blinked on bright;\nJeremy Maletz joined the host that night.\nAt Susquehanna International Group, he leads\nPrediction-market trading on outcomes and deeds.",
+            "An event contract’s value depends on what comes true;\nMargin is collateral that helps payments come through.\nThey talked about custom-made trades and market flow,\nAnd how adverse selection means someone may know.",
+            "Could election-linked factors be hedged with a trade?\nCould risks that move together be measured and weighed?\nThey started with sports bets and goat-herder risk—\nThen bounded to data centers, startlingly brisk.",
+            "Soon trillion-dollar credit derivatives were in sight:\nContracts shifting lending risk from left to right.\nFrom goats to elections to servers in rows—\nThat is quite a journey for where finance goes!",
+            "The episode is offered through Bloomberg’s Money Stuff,\nOn Apple and Spotify, with all that wonky stuff.\nListeners can hear how far one discussion can roam:\nFrom a goat herder’s hedge to a vast server home.",
+            "What happened? The Money Stuff podcast interviewed Jeremy Maletz, Susquehanna International Group’s head of prediction markets, about event contracts, margin, hedging, adverse selection, correlation, and the leap from sports gambling to trillion-dollar data-center credit derivatives."
+          ]
+        }
+      }
+    }
+  ]
+}

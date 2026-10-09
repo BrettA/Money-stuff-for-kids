@@ -23,6 +23,14 @@
   ],
   "editions": [
     {
+      "id": "2026-10-09-the-podcast-jeremy-maletz",
+      "date": "2026-10-09",
+      "displayDate": "October 9, 2026",
+      "title": "The Podcast: Jeremy Maletz",
+      "storyCount": 1,
+      "href": "/editions/2026-10-09-the-podcast-jeremy-maletz/"
+    },
+    {
       "id": "2026-10-08-pre-ipo-perpetual-futures-swap-etf",
       "date": "2026-10-08",
       "displayDate": "October 8, 2026",
