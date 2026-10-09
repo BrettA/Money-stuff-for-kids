@@ -420,6 +420,18 @@
       "submitted": true,
       "updatedAt": "2026-10-08T20:51:50.030Z",
       "submittedAt": "2026-10-08T20:51:50.030Z"
+    },
+    "1a12166cffb79e0f": {
+      "gmailMessageId": "1a12166cffb79e0f",
+      "newsletterDate": "2026-10-09",
+      "newsletterTitle": "The Podcast: Jeremy Maletz",
+      "editionId": "2026-10-09-the-podcast-jeremy-maletz",
+      "sourceSha256": "cd560aaac9fae0206054d935e654334bff8c2cafeae9877478af2e912c1905a3",
+      "packageSha256": "868f4452ac8df82de8fdbf4b99e17c1912af9d3ad3f6c1b9012705520090e8fb",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-09T19:46:22.947Z",
+      "submittedAt": "2026-10-09T19:46:22.947Z"
     }
   }
 }
