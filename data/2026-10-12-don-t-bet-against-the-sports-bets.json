@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-12-don-t-bet-against-the-sports-bets",
+  "date": "2026-10-12",
+  "displayDate": "October 12, 2026",
+  "title": "Don’t Bet Against the Sports Bets",
+  "sourceSections": [
+    "Kalshi gaming regulation",
+    "Pivot to AI",
+    "BDC strategic alternatives",
+    "At the coin-flipping convention",
+    "At the puzzle hunt",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "kalshi-gaming-regulation",
+      "sourceSection": "Kalshi gaming regulation",
+      "illustration": {
+        "src": "/images/2026-10-12-don-t-bet-against-the-sports-bets/kalshi-gaming-regulation.png",
+        "alt": "Joseph Grundfest presents a proposed Kalshi legality contract while Gary Gensler points to sports-betting slips labeled “swaps” and a huge elephant emerging from a tiny Dodd-Frank mousehole."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Joseph Grundfest",
+          "Gary Gensler"
+        ],
+        "realCompanies": [
+          "Kalshi"
+        ],
+        "financialMechanism": "Kalshi treats sports-event contracts as swaps under Dodd-Frank and argues that the CFTC’s exclusive federal jurisdiction preempts state gaming laws. That interpretation could also mean retail sports bets made away from CFTC-regulated exchanges have been illegal since 2012.",
+        "centralJoke": "A prediction market could offer a prediction contract on whether its own prediction contracts are legal—then perhaps influence the displayed odds, delist bad news, or hedge its legal risk by betting against itself."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Bet About Whether the Bets Are Bets",
+          "lesson": "Kalshi argues that sports-event contracts are CFTC-regulated swaps, so federal law overrides state gaming rules; the states and Gary Gensler say that interpretation would implausibly federalize sports betting and make ordinary off-exchange sports bets illegal.",
+          "paragraphs": [
+            "Kalshi lists sports contracts with answers “Yes” or “No”—\nWill a team beat the spread? Where will the next score go?\nIt calls each contract a “swap,” federally overseen,\nBy the CFTC—not each state’s gaming team.",
+            "“Sports can affect business,” says Kalshi’s legal view:\n“A playoff bar may sell more drinks, so economic effects come through.”\nUnder Dodd-Frank’s broad words, federal rules would win,\nAnd state betting regulators could not step in.",
+            "Two appeals courts backed the states; one let Kalshi prevail.\nNew Jersey asked the Supreme Court to tip the legal scale.\nThirty-nine states and the National Football League joined the fight,\nSaying sports bets don’t become swaps by changing the label just right.",
+            "Then Joseph Grundfest proposed a wonderfully puzzling plot:\nLet Kalshi offer bets on whether Kalshi’s bets are lawful—or not!\nCould Kalshi buy “Yes” to make its courtroom chances climb?\nOr bet against itself and hedge its risk at the very same time?",
+            "Gary Gensler spotted an even larger surprise:\nIf every sports bet is a swap in federal eyes,\nThen off-exchange retail sports bets have been illegal since 2012—\nA $165 billion elephant in a Dodd-Frank mousehole on the shelf.",
+            "What happened? Kalshi has not listed the proposed contract about whether its own sports contracts are legal. The Supreme Court may decide whether CFTC regulation of those contracts overrides state gaming laws, while critics warn that Kalshi’s theory would also make ordinary off-exchange sports betting federally illegal."
+          ]
+        },
+        "elementary": {
+          "title": "The Bet About Whether the Bets Are Bets",
+          "lesson": "Kalshi argues that sports-event contracts are CFTC-regulated swaps, so federal law overrides state gaming rules; the states and Gary Gensler say that interpretation would implausibly federalize sports betting and make ordinary off-exchange sports bets illegal.",
+          "paragraphs": [
+            "Kalshi lists sports contracts with answers “Yes” or “No”—\nWill a team beat the spread? Where will the next score go?\nIt calls each contract a “swap,” federally overseen,\nBy the CFTC—not each state’s gaming team.",
+            "“Sports can affect business,” says Kalshi’s legal view:\n“A playoff bar may sell more drinks, so economic effects come through.”\nUnder Dodd-Frank’s broad words, federal rules would win,\nAnd state betting regulators could not step in.",
+            "Two appeals courts backed the states; one let Kalshi prevail.\nNew Jersey asked the Supreme Court to tip the legal scale.\nThirty-nine states and the National Football League joined the fight,\nSaying sports bets don’t become swaps by changing the label just right.",
+            "Then Joseph Grundfest proposed a wonderfully puzzling plot:\nLet Kalshi offer bets on whether Kalshi’s bets are lawful—or not!\nCould Kalshi buy “Yes” to make its courtroom chances climb?\nOr bet against itself and hedge its risk at the very same time?",
+            "Gary Gensler spotted an even larger surprise:\nIf every sports bet is a swap in federal eyes,\nThen off-exchange retail sports bets have been illegal since 2012—\nA $165 billion elephant in a Dodd-Frank mousehole on the shelf.",
+            "What happened? Kalshi has not listed the proposed contract about whether its own sports contracts are legal. The Supreme Court may decide whether CFTC regulation of those contracts overrides state gaming laws, while critics warn that Kalshi’s theory would also make ordinary off-exchange sports betting federally illegal."
+          ]
+        },
+        "middle": {
+          "title": "The Bet About Whether the Bets Are Bets",
+          "lesson": "Kalshi argues that sports-event contracts are CFTC-regulated swaps, so federal law overrides state gaming rules; the states and Gary Gensler say that interpretation would implausibly federalize sports betting and make ordinary off-exchange sports bets illegal.",
+          "paragraphs": [
+            "Kalshi lists sports contracts with answers “Yes” or “No”—\nWill a team beat the spread? Where will the next score go?\nIt calls each contract a “swap,” federally overseen,\nBy the CFTC—not each state’s gaming team.",
+            "“Sports can affect business,” says Kalshi’s legal view:\n“A playoff bar may sell more drinks, so economic effects come through.”\nUnder Dodd-Frank’s broad words, federal rules would win,\nAnd state betting regulators could not step in.",
+            "Two appeals courts backed the states; one let Kalshi prevail.\nNew Jersey asked the Supreme Court to tip the legal scale.\nThirty-nine states and the National Football League joined the fight,\nSaying sports bets don’t become swaps by changing the label just right.",
+            "Then Joseph Grundfest proposed a wonderfully puzzling plot:\nLet Kalshi offer bets on whether Kalshi’s bets are lawful—or not!\nCould Kalshi buy “Yes” to make its courtroom chances climb?\nOr bet against itself and hedge its risk at the very same time?",
+            "Gary Gensler spotted an even larger surprise:\nIf every sports bet is a swap in federal eyes,\nThen off-exchange retail sports bets have been illegal since 2012—\nA $165 billion elephant in a Dodd-Frank mousehole on the shelf.",
+            "What happened? Kalshi has not listed the proposed contract about whether its own sports contracts are legal. The Supreme Court may decide whether CFTC regulation of those contracts overrides state gaming laws, while critics warn that Kalshi’s theory would also make ordinary off-exchange sports betting federally illegal."
+          ]
+        },
+        "high": {
+          "title": "The Bet About Whether the Bets Are Bets",
+          "lesson": "Kalshi argues that sports-event contracts are CFTC-regulated swaps, so federal law overrides state gaming rules; the states and Gary Gensler say that interpretation would implausibly federalize sports betting and make ordinary off-exchange sports bets illegal.",
+          "paragraphs": [
+            "Kalshi lists sports contracts with answers “Yes” or “No”—\nWill a team beat the spread? Where will the next score go?\nIt calls each contract a “swap,” federally overseen,\nBy the CFTC—not each state’s gaming team.",
+            "“Sports can affect business,” says Kalshi’s legal view:\n“A playoff bar may sell more drinks, so economic effects come through.”\nUnder Dodd-Frank’s broad words, federal rules would win,\nAnd state betting regulators could not step in.",
+            "Two appeals courts backed the states; one let Kalshi prevail.\nNew Jersey asked the Supreme Court to tip the legal scale.\nThirty-nine states and the National Football League joined the fight,\nSaying sports bets don’t become swaps by changing the label just right.",
+            "Then Joseph Grundfest proposed a wonderfully puzzling plot:\nLet Kalshi offer bets on whether Kalshi’s bets are lawful—or not!\nCould Kalshi buy “Yes” to make its courtroom chances climb?\nOr bet against itself and hedge its risk at the very same time?",
+            "Gary Gensler spotted an even larger surprise:\nIf every sports bet is a swap in federal eyes,\nThen off-exchange retail sports bets have been illegal since 2012—\nA $165 billion elephant in a Dodd-Frank mousehole on the shelf.",
+            "What happened? Kalshi has not listed the proposed contract about whether its own sports contracts are legal. The Supreme Court may decide whether CFTC regulation of those contracts overrides state gaming laws, while critics warn that Kalshi’s theory would also make ordinary off-exchange sports betting federally illegal."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pivot-to-ai",
+      "sourceSection": "Pivot to AI",
+      "illustration": {
+        "src": "/images/2026-10-12-don-t-bet-against-the-sports-bets/pivot-to-ai.png",
+        "alt": "Nikhil Bharadwaj stands in a parking garage beside an idle Xeal EV charger powering a parking-space-sized container filled with Nvidia AI servers."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Nikhil Bharadwaj"
+        ],
+        "realCompanies": [
+          "Xeal",
+          "Nvidia"
+        ],
+        "financialMechanism": "Xeal’s EV chargers are used less than 10% of the time, but its utility contracts provide round-the-clock charging rights. Xeal plans to rent parking spaces and redirect that idle, permitted, grid-connected capacity into Nvidia AI server racks through its Laitent service.",
+        "centralJoke": "The predicted scramble to sell spare electricity to AI has become almost real: an idle EV-charging spot can be turned into a tiny data center, with a computer-filled metal box occupying one parking space."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Chargers That Started Thinking",
+          "lesson": "Xeal plans to use underused, already grid-connected EV-charging capacity to power nearby Nvidia AI chips, avoiding the long wait for new data-center power connections.",
+          "paragraphs": [
+            "Xeal had chargers in garages galore,\nAcross some five hundred cities—and more.\nBut cars used the plugs less than ten percent,\nSo much of their ready electricity went unspent.",
+            "New AI data centers need power right now,\nYet grid connections take years to allow.\nNikhil Bharadwaj, Xeal’s CEO,\nSpotted charged-up space where computers could go.",
+            "Xeal’s Laitent service would cleverly place\nA metal GPU container in one parking space.\nEach rack would hold roughly forty-eight Nvidia chips,\nDrawing power beside the quiet charging strips.",
+            "Chicago, Houston, and Dallas came first;\nFor nearby AI answers, computers have thirst.\nAcross 1,600-plus properties, Xeal said it could use\nMore than 200 megawatts that chargers seldom choose.",
+            "Xeal would pay building owners some rent,\nCovering power bills without owner investment.\nA five-year payback might take two and a half—\nA parking spot thinking is the wonderfully odd laugh.",
+            "What happened? Xeal announced plans to install Nvidia AI server racks beside underused EV chargers and power them through electrical capacity it had already secured. This could bring AI computing online in months instead of waiting years for a new grid connection."
+          ]
+        },
+        "elementary": {
+          "title": "The Chargers That Started Thinking",
+          "lesson": "Xeal plans to use underused, already grid-connected EV-charging capacity to power nearby Nvidia AI chips, avoiding the long wait for new data-center power connections.",
+          "paragraphs": [
+            "Xeal had chargers in garages galore,\nAcross some five hundred cities—and more.\nBut cars used the plugs less than ten percent,\nSo much of their ready electricity went unspent.",
+            "New AI data centers need power right now,\nYet grid connections take years to allow.\nNikhil Bharadwaj, Xeal’s CEO,\nSpotted charged-up space where computers could go.",
+            "Xeal’s Laitent service would cleverly place\nA metal GPU container in one parking space.\nEach rack would hold roughly forty-eight Nvidia chips,\nDrawing power beside the quiet charging strips.",
+            "Chicago, Houston, and Dallas came first;\nFor nearby AI answers, computers have thirst.\nAcross 1,600-plus properties, Xeal said it could use\nMore than 200 megawatts that chargers seldom choose.",
+            "Xeal would pay building owners some rent,\nCovering power bills without owner investment.\nA five-year payback might take two and a half—\nA parking spot thinking is the wonderfully odd laugh.",
+            "What happened? Xeal announced plans to install Nvidia AI server racks beside underused EV chargers and power them through electrical capacity it had already secured. This could bring AI computing online in months instead of waiting years for a new grid connection."
+          ]
+        },
+        "middle": {
+          "title": "The Chargers That Started Thinking",
+          "lesson": "Xeal plans to use underused, already grid-connected EV-charging capacity to power nearby Nvidia AI chips, avoiding the long wait for new data-center power connections.",
+          "paragraphs": [
+            "Xeal had chargers in garages galore,\nAcross some five hundred cities—and more.\nBut cars used the plugs less than ten percent,\nSo much of their ready electricity went unspent.",
+            "New AI data centers need power right now,\nYet grid connections take years to allow.\nNikhil Bharadwaj, Xeal’s CEO,\nSpotted charged-up space where computers could go.",
+            "Xeal’s Laitent service would cleverly place\nA metal GPU container in one parking space.\nEach rack would hold roughly forty-eight Nvidia chips,\nDrawing power beside the quiet charging strips.",
+            "Chicago, Houston, and Dallas came first;\nFor nearby AI answers, computers have thirst.\nAcross 1,600-plus properties, Xeal said it could use\nMore than 200 megawatts that chargers seldom choose.",
+            "Xeal would pay building owners some rent,\nCovering power bills without owner investment.\nA five-year payback might take two and a half—\nA parking spot thinking is the wonderfully odd laugh.",
+            "What happened? Xeal announced plans to install Nvidia AI server racks beside underused EV chargers and power them through electrical capacity it had already secured. This could bring AI computing online in months instead of waiting years for a new grid connection."
+          ]
+        },
+        "high": {
+          "title": "The Chargers That Started Thinking",
+          "lesson": "Xeal plans to use underused, already grid-connected EV-charging capacity to power nearby Nvidia AI chips, avoiding the long wait for new data-center power connections.",
+          "paragraphs": [
+            "Xeal had chargers in garages galore,\nAcross some five hundred cities—and more.\nBut cars used the plugs less than ten percent,\nSo much of their ready electricity went unspent.",
+            "New AI data centers need power right now,\nYet grid connections take years to allow.\nNikhil Bharadwaj, Xeal’s CEO,\nSpotted charged-up space where computers could go.",
+            "Xeal’s Laitent service would cleverly place\nA metal GPU container in one parking space.\nEach rack would hold roughly forty-eight Nvidia chips,\nDrawing power beside the quiet charging strips.",
+            "Chicago, Houston, and Dallas came first;\nFor nearby AI answers, computers have thirst.\nAcross 1,600-plus properties, Xeal said it could use\nMore than 200 megawatts that chargers seldom choose.",
+            "Xeal would pay building owners some rent,\nCovering power bills without owner investment.\nA five-year payback might take two and a half—\nA parking spot thinking is the wonderfully odd laugh.",
+            "What happened? Xeal announced plans to install Nvidia AI server racks beside underused EV chargers and power them through electrical capacity it had already secured. This could bring AI computing online in months instead of waiting years for a new grid connection."
+          ]
+        }
+      }
+    },
+    {
+      "id": "bdc-strategic-alternatives",
+      "sourceSection": "BDC strategic alternatives",
+      "illustration": {
+        "src": "/images/2026-10-12-don-t-bet-against-the-sports-bets/bdc-strategic-alternatives.png",
+        "alt": "WhiteHorse Capital managers move loan folders from a discounted WhiteHorse Finance fund into a continuation vehicle as secondaries investors bid in the high 90s."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Olivia Fishlow"
+        ],
+        "realCompanies": [
+          "BlackRock Inc.",
+          "TCP Capital Corp.",
+          "WhiteHorse Finance Inc.",
+          "WhiteHorse Capital",
+          "Investcorp Credit Management BDC Inc.",
+          "Apollo Global Management Inc.",
+          "MidCap Financial Investment Corp."
+        ],
+        "financialMechanism": "WhiteHorse Capital sought to transfer $680 million of loans from publicly traded WhiteHorse Finance into a closed-end continuation vehicle backed by private-credit secondaries investors. This could turn shares trading near 60% of net asset value into liquidity based on bids in the high 90s.",
+        "centralJoke": "The same loans appeared to be worth about 60 cents on the dollar inside a publicly traded BDC but close to a full dollar after being placed in a private continuation vehicle—the financial container seemed to change the price."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "WhiteHorse and the Curious Price",
+          "lesson": "A discounted public BDC can move its loans into a privately funded continuation vehicle, potentially selling the assets near net asset value while giving shareholders liquidity.",
+          "paragraphs": [
+            "Olivia Fishlow reported a curious sight:\nPrivate-credit fund managers faced a tight plight.\nInvestors pulled money; listed share prices fell,\nWhile rival fund managers went bargain-hunting as well.",
+            "BlackRock’s TCP Capital and WhiteHorse Finance\nConsidered a sale as a possible chance.\nInvestcorp Credit Management BDC did too,\nWhile Apollo’s MidCap showed its loan portfolio for review.",
+            "A BDC holds business loans in a fund,\nWith shares investors may trade when they’re done.\nWhiteHorse reported $11.77 per share,\nYet the market paid about $7.02 out there.",
+            "Then WhiteHorse Capital pursued quite a plan:\nMove $680 million in loans while it can.\nA closed-end continuation vehicle would hold every loan,\nWith private-credit secondaries investors as the new owners.",
+            "Their bids reached the high nineties for each book-value dollar—\nNot sixty cents, but something considerably taller!\nThe loans barely changed, yet their price got a lift:\nChange the container, and the value seemed to shift.",
+            "What happened? WhiteHorse Capital pursued moving all $680 million of WhiteHorse Finance’s assets into a continuation vehicle, providing investors cash and delisting the BDC. Its public shares traded near 60% of net asset value, while bids for the same loan portfolio were in the high 90s."
+          ]
+        },
+        "elementary": {
+          "title": "WhiteHorse and the Curious Price",
+          "lesson": "A discounted public BDC can move its loans into a privately funded continuation vehicle, potentially selling the assets near net asset value while giving shareholders liquidity.",
+          "paragraphs": [
+            "Olivia Fishlow reported a curious sight:\nPrivate-credit fund managers faced a tight plight.\nInvestors pulled money; listed share prices fell,\nWhile rival fund managers went bargain-hunting as well.",
+            "BlackRock’s TCP Capital and WhiteHorse Finance\nConsidered a sale as a possible chance.\nInvestcorp Credit Management BDC did too,\nWhile Apollo’s MidCap showed its loan portfolio for review.",
+            "A BDC holds business loans in a fund,\nWith shares investors may trade when they’re done.\nWhiteHorse reported $11.77 per share,\nYet the market paid about $7.02 out there.",
+            "Then WhiteHorse Capital pursued quite a plan:\nMove $680 million in loans while it can.\nA closed-end continuation vehicle would hold every loan,\nWith private-credit secondaries investors as the new owners.",
+            "Their bids reached the high nineties for each book-value dollar—\nNot sixty cents, but something considerably taller!\nThe loans barely changed, yet their price got a lift:\nChange the container, and the value seemed to shift.",
+            "What happened? WhiteHorse Capital pursued moving all $680 million of WhiteHorse Finance’s assets into a continuation vehicle, providing investors cash and delisting the BDC. Its public shares traded near 60% of net asset value, while bids for the same loan portfolio were in the high 90s."
+          ]
+        },
+        "middle": {
+          "title": "WhiteHorse and the Curious Price",
+          "lesson": "A discounted public BDC can move its loans into a privately funded continuation vehicle, potentially selling the assets near net asset value while giving shareholders liquidity.",
+          "paragraphs": [
+            "Olivia Fishlow reported a curious sight:\nPrivate-credit fund managers faced a tight plight.\nInvestors pulled money; listed share prices fell,\nWhile rival fund managers went bargain-hunting as well.",
+            "BlackRock’s TCP Capital and WhiteHorse Finance\nConsidered a sale as a possible chance.\nInvestcorp Credit Management BDC did too,\nWhile Apollo’s MidCap showed its loan portfolio for review.",
+            "A BDC holds business loans in a fund,\nWith shares investors may trade when they’re done.\nWhiteHorse reported $11.77 per share,\nYet the market paid about $7.02 out there.",
+            "Then WhiteHorse Capital pursued quite a plan:\nMove $680 million in loans while it can.\nA closed-end continuation vehicle would hold every loan,\nWith private-credit secondaries investors as the new owners.",
+            "Their bids reached the high nineties for each book-value dollar—\nNot sixty cents, but something considerably taller!\nThe loans barely changed, yet their price got a lift:\nChange the container, and the value seemed to shift.",
+            "What happened? WhiteHorse Capital pursued moving all $680 million of WhiteHorse Finance’s assets into a continuation vehicle, providing investors cash and delisting the BDC. Its public shares traded near 60% of net asset value, while bids for the same loan portfolio were in the high 90s."
+          ]
+        },
+        "high": {
+          "title": "WhiteHorse and the Curious Price",
+          "lesson": "A discounted public BDC can move its loans into a privately funded continuation vehicle, potentially selling the assets near net asset value while giving shareholders liquidity.",
+          "paragraphs": [
+            "Olivia Fishlow reported a curious sight:\nPrivate-credit fund managers faced a tight plight.\nInvestors pulled money; listed share prices fell,\nWhile rival fund managers went bargain-hunting as well.",
+            "BlackRock’s TCP Capital and WhiteHorse Finance\nConsidered a sale as a possible chance.\nInvestcorp Credit Management BDC did too,\nWhile Apollo’s MidCap showed its loan portfolio for review.",
+            "A BDC holds business loans in a fund,\nWith shares investors may trade when they’re done.\nWhiteHorse reported $11.77 per share,\nYet the market paid about $7.02 out there.",
+            "Then WhiteHorse Capital pursued quite a plan:\nMove $680 million in loans while it can.\nA closed-end continuation vehicle would hold every loan,\nWith private-credit secondaries investors as the new owners.",
+            "Their bids reached the high nineties for each book-value dollar—\nNot sixty cents, but something considerably taller!\nThe loans barely changed, yet their price got a lift:\nChange the container, and the value seemed to shift.",
+            "What happened? WhiteHorse Capital pursued moving all $680 million of WhiteHorse Finance’s assets into a continuation vehicle, providing investors cash and delisting the BDC. Its public shares traded near 60% of net asset value, while bids for the same loan portfolio were in the high 90s."
+          ]
+        }
+      }
+    },
+    {
+      "id": "at-the-coin-flipping-convention",
+      "sourceSection": "At the coin-flipping convention",
+      "illustration": {
+        "src": "/images/2026-10-12-don-t-bet-against-the-sports-bets/at-the-coin-flipping-convention.png",
+        "alt": "Sara Brescia O’Rear and Colin Edsman address a crowded Robinhood traders’ conference beside a chart showing United States Antimony rising from below $1 into double digits."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Sara Brescia O’Rear",
+          "Colin Edsman"
+        ],
+        "realCompanies": [
+          "Robinhood",
+          "United States Antimony"
+        ],
+        "financialMechanism": "Colin Edsman concentrated half his savings in a sub-$1 stock; when United States Antimony’s share price rose into the double digits, the value of his investment increased sharply, although the same concentrated risk could have caused a major loss.",
+        "centralJoke": "A convention devoted to risky active trading highlights confident winners but apparently has no panel where the biggest losers can share tips, deny losing, or brag about their spectacular losses."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Traders’ Convention With No Losing Panel",
+          "lesson": "Buying a low-priced stock can produce a large gain if its share price rises, but risking a large portion of one’s savings can also produce a large loss.",
+          "paragraphs": [
+            "For two days each September, a crowd came to meet\nAt Robinhood’s conference, where traders swapped tips.\nIn cities like Houston, Las Vegas, Miami,\nThey studied risky trades and discussed their strategy.",
+            "Sara Brescia O’Rear once worked in a pharmacy;\nInvesting let her retire in her forties.\n“The trend will go up and go right,” she believed,\nAnd risk could pay off when a trade was achieved.",
+            "In 2024, Colin Edsman took a daring position:\nHalf of his savings backed United States Antimony’s mission.\nIts shares cost less than one dollar apiece;\nA share is a small piece whose value may increase.",
+            "The mineral provider’s stock climbed over the year,\nReaching double-digit prices—and Colin could cheer.\n“I’ve never relied upon luck,” Colin said.\n“I figured I’d make my own fortune instead.”",
+            "But where was the panel for losses gone wrong—\nFor traders whose bad bets were painful and long?\nThey might come for tips, or insist they had won,\nOr brag, “I lost most!” as if losing were fun.",
+            "Yet no biggest-losers panel appeared on the plan,\nThough surely some trader could headline that span.\nAt a meeting for risk-takers certain they’re clever,\nThe champion of losing gets no speech whatsoever.",
+            "What happened? Colin Edsman put half his savings into shares of United States Antimony when they traded below $1, and the price rose into the double digits a year later. Robinhood’s conference celebrated active trading and successful risk-taking, but apparently offered no panel featuring the year’s biggest losing traders."
+          ]
+        },
+        "elementary": {
+          "title": "The Traders’ Convention With No Losing Panel",
+          "lesson": "Buying a low-priced stock can produce a large gain if its share price rises, but risking a large portion of one’s savings can also produce a large loss.",
+          "paragraphs": [
+            "For two days each September, a crowd came to meet\nAt Robinhood’s conference, where traders swapped tips.\nIn cities like Houston, Las Vegas, Miami,\nThey studied risky trades and discussed their strategy.",
+            "Sara Brescia O’Rear once worked in a pharmacy;\nInvesting let her retire in her forties.\n“The trend will go up and go right,” she believed,\nAnd risk could pay off when a trade was achieved.",
+            "In 2024, Colin Edsman took a daring position:\nHalf of his savings backed United States Antimony’s mission.\nIts shares cost less than one dollar apiece;\nA share is a small piece whose value may increase.",
+            "The mineral provider’s stock climbed over the year,\nReaching double-digit prices—and Colin could cheer.\n“I’ve never relied upon luck,” Colin said.\n“I figured I’d make my own fortune instead.”",
+            "But where was the panel for losses gone wrong—\nFor traders whose bad bets were painful and long?\nThey might come for tips, or insist they had won,\nOr brag, “I lost most!” as if losing were fun.",
+            "Yet no biggest-losers panel appeared on the plan,\nThough surely some trader could headline that span.\nAt a meeting for risk-takers certain they’re clever,\nThe champion of losing gets no speech whatsoever.",
+            "What happened? Colin Edsman put half his savings into shares of United States Antimony when they traded below $1, and the price rose into the double digits a year later. Robinhood’s conference celebrated active trading and successful risk-taking, but apparently offered no panel featuring the year’s biggest losing traders."
+          ]
+        },
+        "middle": {
+          "title": "The Traders’ Convention With No Losing Panel",
+          "lesson": "Buying a low-priced stock can produce a large gain if its share price rises, but risking a large portion of one’s savings can also produce a large loss.",
+          "paragraphs": [
+            "For two days each September, a crowd came to meet\nAt Robinhood’s conference, where traders swapped tips.\nIn cities like Houston, Las Vegas, Miami,\nThey studied risky trades and discussed their strategy.",
+            "Sara Brescia O’Rear once worked in a pharmacy;\nInvesting let her retire in her forties.\n“The trend will go up and go right,” she believed,\nAnd risk could pay off when a trade was achieved.",
+            "In 2024, Colin Edsman took a daring position:\nHalf of his savings backed United States Antimony’s mission.\nIts shares cost less than one dollar apiece;\nA share is a small piece whose value may increase.",
+            "The mineral provider’s stock climbed over the year,\nReaching double-digit prices—and Colin could cheer.\n“I’ve never relied upon luck,” Colin said.\n“I figured I’d make my own fortune instead.”",
+            "But where was the panel for losses gone wrong—\nFor traders whose bad bets were painful and long?\nThey might come for tips, or insist they had won,\nOr brag, “I lost most!” as if losing were fun.",
+            "Yet no biggest-losers panel appeared on the plan,\nThough surely some trader could headline that span.\nAt a meeting for risk-takers certain they’re clever,\nThe champion of losing gets no speech whatsoever.",
+            "What happened? Colin Edsman put half his savings into shares of United States Antimony when they traded below $1, and the price rose into the double digits a year later. Robinhood’s conference celebrated active trading and successful risk-taking, but apparently offered no panel featuring the year’s biggest losing traders."
+          ]
+        },
+        "high": {
+          "title": "The Traders’ Convention With No Losing Panel",
+          "lesson": "Buying a low-priced stock can produce a large gain if its share price rises, but risking a large portion of one’s savings can also produce a large loss.",
+          "paragraphs": [
+            "For two days each September, a crowd came to meet\nAt Robinhood’s conference, where traders swapped tips.\nIn cities like Houston, Las Vegas, Miami,\nThey studied risky trades and discussed their strategy.",
+            "Sara Brescia O’Rear once worked in a pharmacy;\nInvesting let her retire in her forties.\n“The trend will go up and go right,” she believed,\nAnd risk could pay off when a trade was achieved.",
+            "In 2024, Colin Edsman took a daring position:\nHalf of his savings backed United States Antimony’s mission.\nIts shares cost less than one dollar apiece;\nA share is a small piece whose value may increase.",
+            "The mineral provider’s stock climbed over the year,\nReaching double-digit prices—and Colin could cheer.\n“I’ve never relied upon luck,” Colin said.\n“I figured I’d make my own fortune instead.”",
+            "But where was the panel for losses gone wrong—\nFor traders whose bad bets were painful and long?\nThey might come for tips, or insist they had won,\nOr brag, “I lost most!” as if losing were fun.",
+            "Yet no biggest-losers panel appeared on the plan,\nThough surely some trader could headline that span.\nAt a meeting for risk-takers certain they’re clever,\nThe champion of losing gets no speech whatsoever.",
+            "What happened? Colin Edsman put half his savings into shares of United States Antimony when they traded below $1, and the price rose into the double digits a year later. Robinhood’s conference celebrated active trading and successful risk-taking, but apparently offered no panel featuring the year’s biggest losing traders."
+          ]
+        }
+      }
+    },
+    {
+      "id": "at-the-puzzle-hunt",
+      "sourceSection": "At the puzzle hunt",
+      "illustration": {
+        "src": "/images/2026-10-12-don-t-bet-against-the-sports-bets/at-the-puzzle-hunt.png",
+        "alt": "The Midnight Marauders celebrate around completed puzzle sheets at the Midnight Madness puzzle hunt in New York."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Bloomberg"
+        ],
+        "financialMechanism": "No financial mechanism appears in the source; it is a brief report about a puzzle hunt.",
+        "centralJoke": "A newsletter usually associated with markets occasionally turns into a puzzle-hunt newsletter."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Midnight Marauders Win the Night",
+          "lesson": "No financial mechanism appears in this section; it reports the Midnight Madness puzzle hunt and its winning team.",
+          "paragraphs": [
+            "This weekend in New York, when daylight was done,\nMidnight Madness brought puzzles and fun.\nTeams hunted for answers, determined and bright,\nUntangling clues in the heart of the night.",
+            "The newsletter’s writer could not join the play,\nBut still had some puzzle-hunt news to convey.\nFor sometimes a newsletter focused on markets\nTakes one little turn toward riddles and targets.",
+            "Bloomberg Markets Magazine covered last year,\nAnd now a new champion’s name rang out clear:\nCongratulations, Midnight Marauders—you won!\nThe clues were all finished; the hunt was all done.",
+            "What happened? Midnight Madness was held in New York this weekend, and Midnight Marauders won. The newsletter’s writer could not play, while Bloomberg Markets Magazine had covered the previous year’s event."
+          ]
+        },
+        "elementary": {
+          "title": "Midnight Marauders Win the Night",
+          "lesson": "No financial mechanism appears in this section; it reports the Midnight Madness puzzle hunt and its winning team.",
+          "paragraphs": [
+            "This weekend in New York, when daylight was done,\nMidnight Madness brought puzzles and fun.\nTeams hunted for answers, determined and bright,\nUntangling clues in the heart of the night.",
+            "The newsletter’s writer could not join the play,\nBut still had some puzzle-hunt news to convey.\nFor sometimes a newsletter focused on markets\nTakes one little turn toward riddles and targets.",
+            "Bloomberg Markets Magazine covered last year,\nAnd now a new champion’s name rang out clear:\nCongratulations, Midnight Marauders—you won!\nThe clues were all finished; the hunt was all done.",
+            "What happened? Midnight Madness was held in New York this weekend, and Midnight Marauders won. The newsletter’s writer could not play, while Bloomberg Markets Magazine had covered the previous year’s event."
+          ]
+        },
+        "middle": {
+          "title": "Midnight Marauders Win the Night",
+          "lesson": "No financial mechanism appears in this section; it reports the Midnight Madness puzzle hunt and its winning team.",
+          "paragraphs": [
+            "This weekend in New York, when daylight was done,\nMidnight Madness brought puzzles and fun.\nTeams hunted for answers, determined and bright,\nUntangling clues in the heart of the night.",
+            "The newsletter’s writer could not join the play,\nBut still had some puzzle-hunt news to convey.\nFor sometimes a newsletter focused on markets\nTakes one little turn toward riddles and targets.",
+            "Bloomberg Markets Magazine covered last year,\nAnd now a new champion’s name rang out clear:\nCongratulations, Midnight Marauders—you won!\nThe clues were all finished; the hunt was all done.",
+            "What happened? Midnight Madness was held in New York this weekend, and Midnight Marauders won. The newsletter’s writer could not play, while Bloomberg Markets Magazine had covered the previous year’s event."
+          ]
+        },
+        "high": {
+          "title": "Midnight Marauders Win the Night",
+          "lesson": "No financial mechanism appears in this section; it reports the Midnight Madness puzzle hunt and its winning team.",
+          "paragraphs": [
+            "This weekend in New York, when daylight was done,\nMidnight Madness brought puzzles and fun.\nTeams hunted for answers, determined and bright,\nUntangling clues in the heart of the night.",
+            "The newsletter’s writer could not join the play,\nBut still had some puzzle-hunt news to convey.\nFor sometimes a newsletter focused on markets\nTakes one little turn toward riddles and targets.",
+            "Bloomberg Markets Magazine covered last year,\nAnd now a new champion’s name rang out clear:\nCongratulations, Midnight Marauders—you won!\nThe clues were all finished; the hunt was all done.",
+            "What happened? Midnight Madness was held in New York this weekend, and Midnight Marauders won. The newsletter’s writer could not play, while Bloomberg Markets Magazine had covered the previous year’s event."
+          ]
+        }
+      }
+    }
+  ]
+}
