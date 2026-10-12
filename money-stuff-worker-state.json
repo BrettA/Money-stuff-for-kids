@@ -432,6 +432,18 @@
       "submitted": true,
       "updatedAt": "2026-10-09T19:46:22.947Z",
       "submittedAt": "2026-10-09T19:46:22.947Z"
+    },
+    "1a130fb59c2410d1": {
+      "gmailMessageId": "1a130fb59c2410d1",
+      "newsletterDate": "2026-10-12",
+      "newsletterTitle": "Don’t Bet Against the Sports Bets",
+      "editionId": "2026-10-12-don-t-bet-against-the-sports-bets",
+      "sourceSha256": "071413b47fd791607b91354a798c71ff2304c52685e4cf1e331683dc3597c90f",
+      "packageSha256": "4a1f10eda7190fd5a18f1e7993f05d1a330d81966de94348b71b2f1d23315bed",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-12T19:24:35.181Z",
+      "submittedAt": "2026-10-12T19:24:35.181Z"
     }
   }
 }
