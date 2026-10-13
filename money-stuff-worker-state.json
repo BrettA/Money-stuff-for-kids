@@ -444,6 +444,18 @@
       "submitted": true,
       "updatedAt": "2026-10-12T19:24:35.181Z",
       "submittedAt": "2026-10-12T19:24:35.181Z"
+    },
+    "1a1366600286d4e6": {
+      "gmailMessageId": "1a1366600286d4e6",
+      "newsletterDate": "2026-10-13",
+      "newsletterTitle": "They Found Some Walter Victims",
+      "editionId": "2026-10-13-they-found-some-walter-victims",
+      "sourceSha256": "b0c333a5b9cefb7b1d633e7f39a3377773eeeb840720dfe90a3b37e24afdea0b",
+      "packageSha256": "51b49488115a69c8d3f0c64ba4ab85506683e6d4a1e846fd9d298985891da32f",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-13T21:37:03.061Z",
+      "submittedAt": "2026-10-13T21:37:03.061Z"
     }
   }
 }
