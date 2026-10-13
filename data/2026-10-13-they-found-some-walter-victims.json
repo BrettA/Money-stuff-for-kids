@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-13-they-found-some-walter-victims",
+  "date": "2026-10-13",
+  "displayDate": "October 13, 2026",
+  "title": "They Found Some Walter Victims",
+  "sourceSections": [
+    "“No victims”",
+    "Elsewhere in annuities",
+    "How’s Martin Shkreli doing?",
+    "Are sports bets illegal?",
+    "Options",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "no-victims",
+      "sourceSection": "“No victims”",
+      "illustration": {
+        "src": "/images/2026-10-13-they-found-some-walter-victims/no-victims.png",
+        "alt": "Mark Walter holds TWG’s “There is no victim here” statement while Rick Phillips and class-action lawyers approach with a complaint, beside files for previously unlabeled affiliated loans."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mark Walter",
+          "Rick Phillips"
+        ],
+        "realCompanies": [
+          "TWG Global",
+          "Group 1001",
+          "Clear Spring",
+          "Gainbridge",
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "TWG-controlled insurers sold annuities and invested customer funds through third parties that lent to Walter-connected ventures. More than $20 billion of loans were later disclosed as affiliated transactions that should have been labeled; customers argue that full disclosure of the added risk would have led them to demand lower premiums, higher returns, stronger guarantees, or another insurer.",
+        "centralJoke": "TWG declared that there was “no victim,” effectively daring plaintiffs’ lawyers to find policyholders who could claim harm—and they did."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The “No Victim” Challenge",
+          "lesson": "When insurers failed to label Walter-connected loans as affiliated transactions, customers allegedly received annuities priced as if they were safer; the lawsuits seek the better terms customers might have demanded with full disclosure.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had insurers in tow, selling annuities with payments they’d owe. An annuity takes money today, then promises contracted returns it will pay.",
+            "Walter directed where that money would go. Through third-party lenders, the funds seemed to flow—then circled to businesses tied to TWG, including sports-team purchases, surprisingly.",
+            "Loans to your boss are “affiliated,” you see, and strict rules require them labeled clearly. Yet after subpoenas, the insurers disclosed more than $20 billion in loans that had missed that sign—loans tied to Walter’s own business line.",
+            "TWG said Group 1001’s assets performed well; no policyholder had lost money, as far as it could tell. “There is no victim here,” its statement declared. No one was harmed, TWG firmly shared.",
+            "But hidden risk can change what a fair bargain pays: higher returns, lower prices, or safer ways. Clear Spring had over forty-five percent tied to Walter-related ventures, a complaint would state; for Gainbridge, nearly sixteen percent shared that fate.",
+            "Then retiree Rick Phillips brought a class-action claim, reported by The Wall Street Journal by name. He asked for refunds or escape without fee, saying honest disclosure would have changed the price, possibly.",
+            "Say “no victims” loudly when filings were wrong, and plaintiffs’ lawyers may soon come along. TWG’s confident sentence became quite the call: lawyers took it as a challenge to find victims after all.",
+            "What happened? Clear Spring and Gainbridge allegedly underreported affiliated loans connected to Mark Walter’s businesses, making their annuities appear less risky than they were. Rick Phillips sued for the better price or terms policyholders might have demanded if the loans had been disclosed."
+          ]
+        },
+        "elementary": {
+          "title": "The “No Victim” Challenge",
+          "lesson": "When insurers failed to label Walter-connected loans as affiliated transactions, customers allegedly received annuities priced as if they were safer; the lawsuits seek the better terms customers might have demanded with full disclosure.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had insurers in tow, selling annuities with payments they’d owe. An annuity takes money today, then promises contracted returns it will pay.",
+            "Walter directed where that money would go. Through third-party lenders, the funds seemed to flow—then circled to businesses tied to TWG, including sports-team purchases, surprisingly.",
+            "Loans to your boss are “affiliated,” you see, and strict rules require them labeled clearly. Yet after subpoenas, the insurers disclosed more than $20 billion in loans that had missed that sign—loans tied to Walter’s own business line.",
+            "TWG said Group 1001’s assets performed well; no policyholder had lost money, as far as it could tell. “There is no victim here,” its statement declared. No one was harmed, TWG firmly shared.",
+            "But hidden risk can change what a fair bargain pays: higher returns, lower prices, or safer ways. Clear Spring had over forty-five percent tied to Walter-related ventures, a complaint would state; for Gainbridge, nearly sixteen percent shared that fate.",
+            "Then retiree Rick Phillips brought a class-action claim, reported by The Wall Street Journal by name. He asked for refunds or escape without fee, saying honest disclosure would have changed the price, possibly.",
+            "Say “no victims” loudly when filings were wrong, and plaintiffs’ lawyers may soon come along. TWG’s confident sentence became quite the call: lawyers took it as a challenge to find victims after all.",
+            "What happened? Clear Spring and Gainbridge allegedly underreported affiliated loans connected to Mark Walter’s businesses, making their annuities appear less risky than they were. Rick Phillips sued for the better price or terms policyholders might have demanded if the loans had been disclosed."
+          ]
+        },
+        "middle": {
+          "title": "The “No Victim” Challenge",
+          "lesson": "When insurers failed to label Walter-connected loans as affiliated transactions, customers allegedly received annuities priced as if they were safer; the lawsuits seek the better terms customers might have demanded with full disclosure.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had insurers in tow, selling annuities with payments they’d owe. An annuity takes money today, then promises contracted returns it will pay.",
+            "Walter directed where that money would go. Through third-party lenders, the funds seemed to flow—then circled to businesses tied to TWG, including sports-team purchases, surprisingly.",
+            "Loans to your boss are “affiliated,” you see, and strict rules require them labeled clearly. Yet after subpoenas, the insurers disclosed more than $20 billion in loans that had missed that sign—loans tied to Walter’s own business line.",
+            "TWG said Group 1001’s assets performed well; no policyholder had lost money, as far as it could tell. “There is no victim here,” its statement declared. No one was harmed, TWG firmly shared.",
+            "But hidden risk can change what a fair bargain pays: higher returns, lower prices, or safer ways. Clear Spring had over forty-five percent tied to Walter-related ventures, a complaint would state; for Gainbridge, nearly sixteen percent shared that fate.",
+            "Then retiree Rick Phillips brought a class-action claim, reported by The Wall Street Journal by name. He asked for refunds or escape without fee, saying honest disclosure would have changed the price, possibly.",
+            "Say “no victims” loudly when filings were wrong, and plaintiffs’ lawyers may soon come along. TWG’s confident sentence became quite the call: lawyers took it as a challenge to find victims after all.",
+            "What happened? Clear Spring and Gainbridge allegedly underreported affiliated loans connected to Mark Walter’s businesses, making their annuities appear less risky than they were. Rick Phillips sued for the better price or terms policyholders might have demanded if the loans had been disclosed."
+          ]
+        },
+        "high": {
+          "title": "The “No Victim” Challenge",
+          "lesson": "When insurers failed to label Walter-connected loans as affiliated transactions, customers allegedly received annuities priced as if they were safer; the lawsuits seek the better terms customers might have demanded with full disclosure.",
+          "paragraphs": [
+            "Mark Walter’s TWG Global had insurers in tow, selling annuities with payments they’d owe. An annuity takes money today, then promises contracted returns it will pay.",
+            "Walter directed where that money would go. Through third-party lenders, the funds seemed to flow—then circled to businesses tied to TWG, including sports-team purchases, surprisingly.",
+            "Loans to your boss are “affiliated,” you see, and strict rules require them labeled clearly. Yet after subpoenas, the insurers disclosed more than $20 billion in loans that had missed that sign—loans tied to Walter’s own business line.",
+            "TWG said Group 1001’s assets performed well; no policyholder had lost money, as far as it could tell. “There is no victim here,” its statement declared. No one was harmed, TWG firmly shared.",
+            "But hidden risk can change what a fair bargain pays: higher returns, lower prices, or safer ways. Clear Spring had over forty-five percent tied to Walter-related ventures, a complaint would state; for Gainbridge, nearly sixteen percent shared that fate.",
+            "Then retiree Rick Phillips brought a class-action claim, reported by The Wall Street Journal by name. He asked for refunds or escape without fee, saying honest disclosure would have changed the price, possibly.",
+            "Say “no victims” loudly when filings were wrong, and plaintiffs’ lawyers may soon come along. TWG’s confident sentence became quite the call: lawyers took it as a challenge to find victims after all.",
+            "What happened? Clear Spring and Gainbridge allegedly underreported affiliated loans connected to Mark Walter’s businesses, making their annuities appear less risky than they were. Rick Phillips sued for the better price or terms policyholders might have demanded if the loans had been disclosed."
+          ]
+        }
+      }
+    },
+    {
+      "id": "elsewhere-in-annuities",
+      "sourceSection": "Elsewhere in annuities",
+      "illustration": {
+        "src": "/images/2026-10-13-they-found-some-walter-victims/elsewhere-in-annuities.png",
+        "alt": "Sabrina Elliott examines her Athene annuity terms showing the S&P-linked share shrinking from 60% to 55% to 45%, beside folders for private-credit investments."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Sabrina Elliott",
+          "Larry Rybka"
+        ],
+        "realCompanies": [
+          "Aviva",
+          "Athene",
+          "Valmark Financial Group"
+        ],
+        "financialMechanism": "The indexed annuity locked up Sabrina Elliott’s money for 12 years while allowing the insurer to lower the portion participating in S&P 500 returns; this predictable, adjustable funding could be invested in less-liquid private-credit assets, with the insurer keeping the difference.",
+        "centralJoke": "Lowering policyholders’ caps cushions the insurer when investments perform badly—and increases its profits when investments perform well—so the insurer’s extra cushion works either way."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Sabrina and the Shrinking Slice",
+          "lesson": "An indexed annuity tied Sabrina Elliott’s return to the S&P 500, but the insurer could reduce how much of her money shared in those gains, keeping more of the investment spread for itself.",
+          "paragraphs": [
+            "Sabrina Elliott inherited some pay,\nAnd placed $40,000 away.\nHer son-in-law helped her choose Aviva’s plan:\n“Stock-market gains, with no loss,” it began.",
+            "Her money was locked up for twelve years’ time,\nWhile part tracked the S&P 500’s climb.\nAt first, sixty percent joined that stock-index quest,\nMinus a 2.9-point spread; one percent grew the rest.",
+            "But Aviva could change what her policy paid,\nAnd later, at Athene, the share was remade.\nIn year seven, fifty-five percent could take part;\nBy year eleven, forty-five got a start.",
+            "Her yearly return was 3.7 percent in the end—\nMore than Treasurys’ 1.9 percent trend.\nBut the S&P itself earned thirteen percent a year,\nSo “linked to the market” was not quite as near.",
+            "The long lockup gave asset managers room\nTo fund private-credit loans that took time to bloom.\nThey could buy harder-to-sell securities, too,\nWhile knowing when customer payments came due.",
+            "Larry Rybka of Valmark explained the neat trick:\nIf investments did poorly, lower caps helped them stick.\nAnd if investments did wonderfully? Lower caps then—\nThe insurer could fatten its profits again.",
+            "So bad times brought cushion, and good times did too;\nA marvelously helpful arrangement—for who?\nSabrina got gains, but a much smaller slice,\nWhile the company kept that adjustable device.",
+            "What happened? Sabrina Elliott put $40,000 into a 12-year indexed annuity begun by Aviva and later managed by Athene, which reduced the portion of her money tied to S&P 500 gains from 60% to 55% and then 45%. Such adjustable caps let insurers pay customers less while investing their locked-up money in assets such as private credit and keeping more of the return."
+          ]
+        },
+        "elementary": {
+          "title": "Sabrina and the Shrinking Slice",
+          "lesson": "An indexed annuity tied Sabrina Elliott’s return to the S&P 500, but the insurer could reduce how much of her money shared in those gains, keeping more of the investment spread for itself.",
+          "paragraphs": [
+            "Sabrina Elliott inherited some pay,\nAnd placed $40,000 away.\nHer son-in-law helped her choose Aviva’s plan:\n“Stock-market gains, with no loss,” it began.",
+            "Her money was locked up for twelve years’ time,\nWhile part tracked the S&P 500’s climb.\nAt first, sixty percent joined that stock-index quest,\nMinus a 2.9-point spread; one percent grew the rest.",
+            "But Aviva could change what her policy paid,\nAnd later, at Athene, the share was remade.\nIn year seven, fifty-five percent could take part;\nBy year eleven, forty-five got a start.",
+            "Her yearly return was 3.7 percent in the end—\nMore than Treasurys’ 1.9 percent trend.\nBut the S&P itself earned thirteen percent a year,\nSo “linked to the market” was not quite as near.",
+            "The long lockup gave asset managers room\nTo fund private-credit loans that took time to bloom.\nThey could buy harder-to-sell securities, too,\nWhile knowing when customer payments came due.",
+            "Larry Rybka of Valmark explained the neat trick:\nIf investments did poorly, lower caps helped them stick.\nAnd if investments did wonderfully? Lower caps then—\nThe insurer could fatten its profits again.",
+            "So bad times brought cushion, and good times did too;\nA marvelously helpful arrangement—for who?\nSabrina got gains, but a much smaller slice,\nWhile the company kept that adjustable device.",
+            "What happened? Sabrina Elliott put $40,000 into a 12-year indexed annuity begun by Aviva and later managed by Athene, which reduced the portion of her money tied to S&P 500 gains from 60% to 55% and then 45%. Such adjustable caps let insurers pay customers less while investing their locked-up money in assets such as private credit and keeping more of the return."
+          ]
+        },
+        "middle": {
+          "title": "Sabrina and the Shrinking Slice",
+          "lesson": "An indexed annuity tied Sabrina Elliott’s return to the S&P 500, but the insurer could reduce how much of her money shared in those gains, keeping more of the investment spread for itself.",
+          "paragraphs": [
+            "Sabrina Elliott inherited some pay,\nAnd placed $40,000 away.\nHer son-in-law helped her choose Aviva’s plan:\n“Stock-market gains, with no loss,” it began.",
+            "Her money was locked up for twelve years’ time,\nWhile part tracked the S&P 500’s climb.\nAt first, sixty percent joined that stock-index quest,\nMinus a 2.9-point spread; one percent grew the rest.",
+            "But Aviva could change what her policy paid,\nAnd later, at Athene, the share was remade.\nIn year seven, fifty-five percent could take part;\nBy year eleven, forty-five got a start.",
+            "Her yearly return was 3.7 percent in the end—\nMore than Treasurys’ 1.9 percent trend.\nBut the S&P itself earned thirteen percent a year,\nSo “linked to the market” was not quite as near.",
+            "The long lockup gave asset managers room\nTo fund private-credit loans that took time to bloom.\nThey could buy harder-to-sell securities, too,\nWhile knowing when customer payments came due.",
+            "Larry Rybka of Valmark explained the neat trick:\nIf investments did poorly, lower caps helped them stick.\nAnd if investments did wonderfully? Lower caps then—\nThe insurer could fatten its profits again.",
+            "So bad times brought cushion, and good times did too;\nA marvelously helpful arrangement—for who?\nSabrina got gains, but a much smaller slice,\nWhile the company kept that adjustable device.",
+            "What happened? Sabrina Elliott put $40,000 into a 12-year indexed annuity begun by Aviva and later managed by Athene, which reduced the portion of her money tied to S&P 500 gains from 60% to 55% and then 45%. Such adjustable caps let insurers pay customers less while investing their locked-up money in assets such as private credit and keeping more of the return."
+          ]
+        },
+        "high": {
+          "title": "Sabrina and the Shrinking Slice",
+          "lesson": "An indexed annuity tied Sabrina Elliott’s return to the S&P 500, but the insurer could reduce how much of her money shared in those gains, keeping more of the investment spread for itself.",
+          "paragraphs": [
+            "Sabrina Elliott inherited some pay,\nAnd placed $40,000 away.\nHer son-in-law helped her choose Aviva’s plan:\n“Stock-market gains, with no loss,” it began.",
+            "Her money was locked up for twelve years’ time,\nWhile part tracked the S&P 500’s climb.\nAt first, sixty percent joined that stock-index quest,\nMinus a 2.9-point spread; one percent grew the rest.",
+            "But Aviva could change what her policy paid,\nAnd later, at Athene, the share was remade.\nIn year seven, fifty-five percent could take part;\nBy year eleven, forty-five got a start.",
+            "Her yearly return was 3.7 percent in the end—\nMore than Treasurys’ 1.9 percent trend.\nBut the S&P itself earned thirteen percent a year,\nSo “linked to the market” was not quite as near.",
+            "The long lockup gave asset managers room\nTo fund private-credit loans that took time to bloom.\nThey could buy harder-to-sell securities, too,\nWhile knowing when customer payments came due.",
+            "Larry Rybka of Valmark explained the neat trick:\nIf investments did poorly, lower caps helped them stick.\nAnd if investments did wonderfully? Lower caps then—\nThe insurer could fatten its profits again.",
+            "So bad times brought cushion, and good times did too;\nA marvelously helpful arrangement—for who?\nSabrina got gains, but a much smaller slice,\nWhile the company kept that adjustable device.",
+            "What happened? Sabrina Elliott put $40,000 into a 12-year indexed annuity begun by Aviva and later managed by Athene, which reduced the portion of her money tied to S&P 500 gains from 60% to 55% and then 45%. Such adjustable caps let insurers pay customers less while investing their locked-up money in assets such as private credit and keeping more of the return."
+          ]
+        }
+      }
+    },
+    {
+      "id": "how-s-martin-shkreli-doing",
+      "sourceSection": "How’s Martin Shkreli doing?",
+      "illustration": {
+        "src": "/images/2026-10-13-they-found-some-walter-victims/how-s-martin-shkreli-doing.png",
+        "alt": "Martin Shkreli livestreams biotech short trades beside the 2022 lifetime industry ban as an FTC contempt motion arrives."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Martin Shkreli"
+        ],
+        "realCompanies": [
+          "Vyera Pharmaceuticals LLC",
+          "YouTube",
+          "X",
+          "Reddit"
+        ],
+        "financialMechanism": "The lifetime injunction barred Shkreli from acquiring or holding pharmaceutical stocks and from trying to influence pharmaceutical-company management or business. The contempt dispute concerns his livestreamed biotech trades, public campaigns, and short sales, which involve selling borrowed shares and later buying them back rather than conventionally owning the stock.",
+        "centralJoke": "Shkreli was banned from virtually every form of pharmaceutical-industry participation, yet he publicly traded and talked about biotech anyway; the especially absurd legal question is whether shorting stock means acquiring a negative amount of stock, while the case increasingly sounds like an effort to make an exceptionally annoying poster stop posting."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Martin Shkreli and the Ban That Covered Almost Everything",
+          "lesson": "A 2022 court order barred Martin Shkreli for life from the pharmaceutical industry, including owning pharmaceutical stocks or making statements intended to influence pharmaceutical companies; the FTC and seven states later sought contempt sanctions over his biotech trading and livestreams.",
+          "paragraphs": [
+            "The FTC said Shkreli and Vyera had tried\nTo keep Daraprim’s rivals locked outside.\nThe medicine saved lives; the scheme blocked competition,\nSo in 2022, a judge imposed a lifetime prohibition.",
+            "No pharmaceutical stocks could he acquire or hold,\nNo guiding a drug company, subtle or bold.\nEven public remarks could violate the command\nIf meant to influence how a company was run or planned.",
+            "After almost seven years in prison for defrauding investors, Shkreli was released in May 2022.\nThen YouTube, X, and Reddit heard plenty from him anew.\n“I’m showing you how to trade and invest in biotech,” he said,\nWhile livestreaming trades and predicting which trials lay dead.",
+            "He shorted biotech stocks, betting prices would drop:\nSell borrowed shares first, then buy back after the flop.\nBut did that count as shares he acquired or possessed?\nA short is like owning a negative amount—what a test!",
+            "The FTC and seven states said he’d broken the ban,\nAnd started contempt proceedings against the Pharma Bro man.\n“Contempt of court” can be merely a legal description—\nBut here, actual contempt did not seem like a fiction.",
+            "The strangest fight was no longer just medicine or stock;\nIt was whether a lifetime industry ban could make Shkreli stop.\nThe FTC’s message, beneath every filing and citation:\nPlease quit being so loudly involved with pharmaceutical corporations.",
+            "What happened? The FTC and seven states alleged that Martin Shkreli violated his lifetime pharmaceutical-industry ban by trading biotech stocks and broadcasting opinions meant to affect pharmaceutical companies. They asked the court to hold him in contempt, though whether short selling counts as acquiring or holding stock remains an unusually tricky part of the dispute."
+          ]
+        },
+        "elementary": {
+          "title": "Martin Shkreli and the Ban That Covered Almost Everything",
+          "lesson": "A 2022 court order barred Martin Shkreli for life from the pharmaceutical industry, including owning pharmaceutical stocks or making statements intended to influence pharmaceutical companies; the FTC and seven states later sought contempt sanctions over his biotech trading and livestreams.",
+          "paragraphs": [
+            "The FTC said Shkreli and Vyera had tried\nTo keep Daraprim’s rivals locked outside.\nThe medicine saved lives; the scheme blocked competition,\nSo in 2022, a judge imposed a lifetime prohibition.",
+            "No pharmaceutical stocks could he acquire or hold,\nNo guiding a drug company, subtle or bold.\nEven public remarks could violate the command\nIf meant to influence how a company was run or planned.",
+            "After almost seven years in prison for defrauding investors, Shkreli was released in May 2022.\nThen YouTube, X, and Reddit heard plenty from him anew.\n“I’m showing you how to trade and invest in biotech,” he said,\nWhile livestreaming trades and predicting which trials lay dead.",
+            "He shorted biotech stocks, betting prices would drop:\nSell borrowed shares first, then buy back after the flop.\nBut did that count as shares he acquired or possessed?\nA short is like owning a negative amount—what a test!",
+            "The FTC and seven states said he’d broken the ban,\nAnd started contempt proceedings against the Pharma Bro man.\n“Contempt of court” can be merely a legal description—\nBut here, actual contempt did not seem like a fiction.",
+            "The strangest fight was no longer just medicine or stock;\nIt was whether a lifetime industry ban could make Shkreli stop.\nThe FTC’s message, beneath every filing and citation:\nPlease quit being so loudly involved with pharmaceutical corporations.",
+            "What happened? The FTC and seven states alleged that Martin Shkreli violated his lifetime pharmaceutical-industry ban by trading biotech stocks and broadcasting opinions meant to affect pharmaceutical companies. They asked the court to hold him in contempt, though whether short selling counts as acquiring or holding stock remains an unusually tricky part of the dispute."
+          ]
+        },
+        "middle": {
+          "title": "Martin Shkreli and the Ban That Covered Almost Everything",
+          "lesson": "A 2022 court order barred Martin Shkreli for life from the pharmaceutical industry, including owning pharmaceutical stocks or making statements intended to influence pharmaceutical companies; the FTC and seven states later sought contempt sanctions over his biotech trading and livestreams.",
+          "paragraphs": [
+            "The FTC said Shkreli and Vyera had tried\nTo keep Daraprim’s rivals locked outside.\nThe medicine saved lives; the scheme blocked competition,\nSo in 2022, a judge imposed a lifetime prohibition.",
+            "No pharmaceutical stocks could he acquire or hold,\nNo guiding a drug company, subtle or bold.\nEven public remarks could violate the command\nIf meant to influence how a company was run or planned.",
+            "After almost seven years in prison for defrauding investors, Shkreli was released in May 2022.\nThen YouTube, X, and Reddit heard plenty from him anew.\n“I’m showing you how to trade and invest in biotech,” he said,\nWhile livestreaming trades and predicting which trials lay dead.",
+            "He shorted biotech stocks, betting prices would drop:\nSell borrowed shares first, then buy back after the flop.\nBut did that count as shares he acquired or possessed?\nA short is like owning a negative amount—what a test!",
+            "The FTC and seven states said he’d broken the ban,\nAnd started contempt proceedings against the Pharma Bro man.\n“Contempt of court” can be merely a legal description—\nBut here, actual contempt did not seem like a fiction.",
+            "The strangest fight was no longer just medicine or stock;\nIt was whether a lifetime industry ban could make Shkreli stop.\nThe FTC’s message, beneath every filing and citation:\nPlease quit being so loudly involved with pharmaceutical corporations.",
+            "What happened? The FTC and seven states alleged that Martin Shkreli violated his lifetime pharmaceutical-industry ban by trading biotech stocks and broadcasting opinions meant to affect pharmaceutical companies. They asked the court to hold him in contempt, though whether short selling counts as acquiring or holding stock remains an unusually tricky part of the dispute."
+          ]
+        },
+        "high": {
+          "title": "Martin Shkreli and the Ban That Covered Almost Everything",
+          "lesson": "A 2022 court order barred Martin Shkreli for life from the pharmaceutical industry, including owning pharmaceutical stocks or making statements intended to influence pharmaceutical companies; the FTC and seven states later sought contempt sanctions over his biotech trading and livestreams.",
+          "paragraphs": [
+            "The FTC said Shkreli and Vyera had tried\nTo keep Daraprim’s rivals locked outside.\nThe medicine saved lives; the scheme blocked competition,\nSo in 2022, a judge imposed a lifetime prohibition.",
+            "No pharmaceutical stocks could he acquire or hold,\nNo guiding a drug company, subtle or bold.\nEven public remarks could violate the command\nIf meant to influence how a company was run or planned.",
+            "After almost seven years in prison for defrauding investors, Shkreli was released in May 2022.\nThen YouTube, X, and Reddit heard plenty from him anew.\n“I’m showing you how to trade and invest in biotech,” he said,\nWhile livestreaming trades and predicting which trials lay dead.",
+            "He shorted biotech stocks, betting prices would drop:\nSell borrowed shares first, then buy back after the flop.\nBut did that count as shares he acquired or possessed?\nA short is like owning a negative amount—what a test!",
+            "The FTC and seven states said he’d broken the ban,\nAnd started contempt proceedings against the Pharma Bro man.\n“Contempt of court” can be merely a legal description—\nBut here, actual contempt did not seem like a fiction.",
+            "The strangest fight was no longer just medicine or stock;\nIt was whether a lifetime industry ban could make Shkreli stop.\nThe FTC’s message, beneath every filing and citation:\nPlease quit being so loudly involved with pharmaceutical corporations.",
+            "What happened? The FTC and seven states alleged that Martin Shkreli violated his lifetime pharmaceutical-industry ban by trading biotech stocks and broadcasting opinions meant to affect pharmaceutical companies. They asked the court to hold him in contempt, though whether short selling counts as acquiring or holding stock remains an unusually tricky part of the dispute."
+          ]
+        }
+      }
+    },
+    {
+      "id": "are-sports-bets-illegal",
+      "sourceSection": "Are sports bets illegal?",
+      "illustration": {
+        "src": "/images/2026-10-13-they-found-some-walter-victims/are-sports-bets-illegal.png",
+        "alt": "Michael S. Selig separates a Kalshi Seahawks contract showing 59% from an equivalent sportsbook ticket showing -144."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Gary Gensler",
+          "Michael S. Selig"
+        ],
+        "realCompanies": [
+          "Kalshi",
+          "U.S. Commodity Futures Trading Commission (CFTC)",
+          "National Football League (NFL)",
+          "Seattle Seahawks",
+          "Denver Broncos"
+        ],
+        "financialMechanism": "Kalshi and the CFTC classify sports event contracts as federally regulated swaps, which would preempt state gambling regulation; the CFTC then excluded casino-style wagers from the swap definition to avoid making ordinary sportsbooks unlawful off-exchange swap venues.",
+        "centralJoke": "The CFTC says a Kalshi sports contract is a swap but an equivalent sportsbook wager is casino-style gambling—and even permits 59% while rejecting the mathematically equivalent -144 odds format."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Sports Bet in Two Different Coats",
+          "lesson": "Calling Kalshi’s sports contracts federally regulated swaps could override state gambling laws but also make ordinary off-exchange sportsbooks illegal, so the CFTC created an exclusion for “casino-style” gambling.",
+          "paragraphs": [
+            "Kalshi sold contracts on which sports team would win:\nBuy “Yes” or buy “No,” and the trading begins.\n“These contracts are swaps under commodities law,\nso federal CFTC rules govern them all.”",
+            "That federal label could take states off the case,\nletting eighteen-year-olds trade in a place\nwhere ordinary sports betting was banned by the state.\nNew Jersey replied, “That’s a sports wager—wait!”",
+            "Three appeals courts split: states won two;\nKalshi won one, so what should courts do?\nNew Jersey asked the Supreme Court to hear,\nwhile the NFL and Gary Gensler stood near.",
+            "But calling bets “swaps” caused a troublesome thought:\nRetail swaps must trade where federal rules say they ought.\nThen state-regulated sportsbooks, for fifteen whole years,\nshould all have been breaking the law—without anyone’s fears!",
+            "The CFTC quickly drew a new line.\nChairman Michael S. Selig said casino bets weren’t derivatives this time.\nThey were “casino-style gambling,” excluded from swaps—\nwhile Kalshi’s sports contracts stayed in the federal box.",
+            "Was Kalshi casino-style? No, no, look away!\nEven how odds were displayed could decide what was okay.\n“Seahawks beat Broncos: 59%” could appear;\nbut the equal “-144” moneyline was too bookmaker-like here.",
+            "Same teams, same prediction, same Thursday-night chance—\nbut one wore a market coat, one wore casino pants.",
+            "What happened? The CFTC issued an interim rule excluding casino-style sports wagers from the swap definition while continuing to treat Kalshi’s sports event contracts as federally regulated swaps. This avoided implying that ordinary off-exchange sportsbooks were illegal, even though Kalshi’s 59% probability and a sportsbook’s -144 moneyline mean the same thing."
+          ]
+        },
+        "elementary": {
+          "title": "The Sports Bet in Two Different Coats",
+          "lesson": "Calling Kalshi’s sports contracts federally regulated swaps could override state gambling laws but also make ordinary off-exchange sportsbooks illegal, so the CFTC created an exclusion for “casino-style” gambling.",
+          "paragraphs": [
+            "Kalshi sold contracts on which sports team would win:\nBuy “Yes” or buy “No,” and the trading begins.\n“These contracts are swaps under commodities law,\nso federal CFTC rules govern them all.”",
+            "That federal label could take states off the case,\nletting eighteen-year-olds trade in a place\nwhere ordinary sports betting was banned by the state.\nNew Jersey replied, “That’s a sports wager—wait!”",
+            "Three appeals courts split: states won two;\nKalshi won one, so what should courts do?\nNew Jersey asked the Supreme Court to hear,\nwhile the NFL and Gary Gensler stood near.",
+            "But calling bets “swaps” caused a troublesome thought:\nRetail swaps must trade where federal rules say they ought.\nThen state-regulated sportsbooks, for fifteen whole years,\nshould all have been breaking the law—without anyone’s fears!",
+            "The CFTC quickly drew a new line.\nChairman Michael S. Selig said casino bets weren’t derivatives this time.\nThey were “casino-style gambling,” excluded from swaps—\nwhile Kalshi’s sports contracts stayed in the federal box.",
+            "Was Kalshi casino-style? No, no, look away!\nEven how odds were displayed could decide what was okay.\n“Seahawks beat Broncos: 59%” could appear;\nbut the equal “-144” moneyline was too bookmaker-like here.",
+            "Same teams, same prediction, same Thursday-night chance—\nbut one wore a market coat, one wore casino pants.",
+            "What happened? The CFTC issued an interim rule excluding casino-style sports wagers from the swap definition while continuing to treat Kalshi’s sports event contracts as federally regulated swaps. This avoided implying that ordinary off-exchange sportsbooks were illegal, even though Kalshi’s 59% probability and a sportsbook’s -144 moneyline mean the same thing."
+          ]
+        },
+        "middle": {
+          "title": "The Sports Bet in Two Different Coats",
+          "lesson": "Calling Kalshi’s sports contracts federally regulated swaps could override state gambling laws but also make ordinary off-exchange sportsbooks illegal, so the CFTC created an exclusion for “casino-style” gambling.",
+          "paragraphs": [
+            "Kalshi sold contracts on which sports team would win:\nBuy “Yes” or buy “No,” and the trading begins.\n“These contracts are swaps under commodities law,\nso federal CFTC rules govern them all.”",
+            "That federal label could take states off the case,\nletting eighteen-year-olds trade in a place\nwhere ordinary sports betting was banned by the state.\nNew Jersey replied, “That’s a sports wager—wait!”",
+            "Three appeals courts split: states won two;\nKalshi won one, so what should courts do?\nNew Jersey asked the Supreme Court to hear,\nwhile the NFL and Gary Gensler stood near.",
+            "But calling bets “swaps” caused a troublesome thought:\nRetail swaps must trade where federal rules say they ought.\nThen state-regulated sportsbooks, for fifteen whole years,\nshould all have been breaking the law—without anyone’s fears!",
+            "The CFTC quickly drew a new line.\nChairman Michael S. Selig said casino bets weren’t derivatives this time.\nThey were “casino-style gambling,” excluded from swaps—\nwhile Kalshi’s sports contracts stayed in the federal box.",
+            "Was Kalshi casino-style? No, no, look away!\nEven how odds were displayed could decide what was okay.\n“Seahawks beat Broncos: 59%” could appear;\nbut the equal “-144” moneyline was too bookmaker-like here.",
+            "Same teams, same prediction, same Thursday-night chance—\nbut one wore a market coat, one wore casino pants.",
+            "What happened? The CFTC issued an interim rule excluding casino-style sports wagers from the swap definition while continuing to treat Kalshi’s sports event contracts as federally regulated swaps. This avoided implying that ordinary off-exchange sportsbooks were illegal, even though Kalshi’s 59% probability and a sportsbook’s -144 moneyline mean the same thing."
+          ]
+        },
+        "high": {
+          "title": "The Sports Bet in Two Different Coats",
+          "lesson": "Calling Kalshi’s sports contracts federally regulated swaps could override state gambling laws but also make ordinary off-exchange sportsbooks illegal, so the CFTC created an exclusion for “casino-style” gambling.",
+          "paragraphs": [
+            "Kalshi sold contracts on which sports team would win:\nBuy “Yes” or buy “No,” and the trading begins.\n“These contracts are swaps under commodities law,\nso federal CFTC rules govern them all.”",
+            "That federal label could take states off the case,\nletting eighteen-year-olds trade in a place\nwhere ordinary sports betting was banned by the state.\nNew Jersey replied, “That’s a sports wager—wait!”",
+            "Three appeals courts split: states won two;\nKalshi won one, so what should courts do?\nNew Jersey asked the Supreme Court to hear,\nwhile the NFL and Gary Gensler stood near.",
+            "But calling bets “swaps” caused a troublesome thought:\nRetail swaps must trade where federal rules say they ought.\nThen state-regulated sportsbooks, for fifteen whole years,\nshould all have been breaking the law—without anyone’s fears!",
+            "The CFTC quickly drew a new line.\nChairman Michael S. Selig said casino bets weren’t derivatives this time.\nThey were “casino-style gambling,” excluded from swaps—\nwhile Kalshi’s sports contracts stayed in the federal box.",
+            "Was Kalshi casino-style? No, no, look away!\nEven how odds were displayed could decide what was okay.\n“Seahawks beat Broncos: 59%” could appear;\nbut the equal “-144” moneyline was too bookmaker-like here.",
+            "Same teams, same prediction, same Thursday-night chance—\nbut one wore a market coat, one wore casino pants.",
+            "What happened? The CFTC issued an interim rule excluding casino-style sports wagers from the swap definition while continuing to treat Kalshi’s sports event contracts as federally regulated swaps. This avoided implying that ordinary off-exchange sportsbooks were illegal, even though Kalshi’s 59% probability and a sportsbook’s -144 moneyline mean the same thing."
+          ]
+        }
+      }
+    },
+    {
+      "id": "options",
+      "sourceSection": "Options",
+      "illustration": {
+        "src": "/images/2026-10-13-they-found-some-walter-victims/options.png",
+        "alt": "Vlad Tenev compares Amazon trinkets and a meme coin with OpenAI and SpaceX shares kept behind a velvet rope."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Carrick Lane",
+          "Vlad Tenev"
+        ],
+        "realCompanies": [
+          "The Wall Street Journal",
+          "Robinhood Markets Inc.",
+          "Bloomberg",
+          "Amazon",
+          "OpenAI",
+          "SpaceX"
+        ],
+        "financialMechanism": "Options are contracts granting rights to buy or sell stock at a set price by a deadline. Their notional volume reflects the value of the underlying stock covered, while call-option prices reflect what buyers pay for the right to buy.",
+        "centralJoke": "Vlad Tenev’s argument is that because people are already allowed to waste money on Amazon trinkets and meme coins, forbidding them from buying private-company shares as too risky seems absurd."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Less-Silly Thing",
+          "lesson": "Options grant the right to buy or sell stock at a set price by a deadline; notional volume measures the underlying stock covered, not just the price paid for the options.",
+          "paragraphs": [
+            "The Wall Street Journal reported a spree:\nIndividual-stock options were traded with glee.\nAn option names both a price and a date,\nWith rights to buy or sell before it’s too late.",
+            "Call options give buyers the right to buy shares;\nTheir prices topped 2021’s meme-stock affairs.\nCarrick Lane measured the stocks in the spree:\nSome $700 billion each day, notionally.",
+            "“Notional” counts all the stock under claim,\nNot merely the option fees paid in the game.\nThe trading looked lively, enormous, and fast—\nLike meme-stock excitement returning at last.",
+            "Vlad Tenev of Robinhood Markets Inc. had a thought\nOn Bloomberg’s Odd Lots about what could be bought.\nWhy bar retail buyers from private-company stock\nWhen sillier purchases circle the block?",
+            "You can order Amazon trinkets that shrink in their worth,\nOr buy meme coins—hardly the safest on Earth.\nSo why keep OpenAI and SpaceX away\nIf money can purchase much dumber stuff every day?",
+            "His argument’s master key sounded like this:\n“Some choices are worse than the choice you dismiss.\nIf people may freely buy sillier stuff,\nThen surely this less-silly thing’s safe enough.”",
+            "What happened? Individual-stock options trading reached about $700 billion in daily notional volume, while call-option prices exceeded 2021 meme-stock-era levels, according to Carrick Lane. Robinhood CEO Vlad Tenev argued that retail investors should be allowed to buy private companies such as OpenAI or SpaceX because they may already buy depreciating Amazon trinkets and meme coins."
+          ]
+        },
+        "elementary": {
+          "title": "The Less-Silly Thing",
+          "lesson": "Options grant the right to buy or sell stock at a set price by a deadline; notional volume measures the underlying stock covered, not just the price paid for the options.",
+          "paragraphs": [
+            "The Wall Street Journal reported a spree:\nIndividual-stock options were traded with glee.\nAn option names both a price and a date,\nWith rights to buy or sell before it’s too late.",
+            "Call options give buyers the right to buy shares;\nTheir prices topped 2021’s meme-stock affairs.\nCarrick Lane measured the stocks in the spree:\nSome $700 billion each day, notionally.",
+            "“Notional” counts all the stock under claim,\nNot merely the option fees paid in the game.\nThe trading looked lively, enormous, and fast—\nLike meme-stock excitement returning at last.",
+            "Vlad Tenev of Robinhood Markets Inc. had a thought\nOn Bloomberg’s Odd Lots about what could be bought.\nWhy bar retail buyers from private-company stock\nWhen sillier purchases circle the block?",
+            "You can order Amazon trinkets that shrink in their worth,\nOr buy meme coins—hardly the safest on Earth.\nSo why keep OpenAI and SpaceX away\nIf money can purchase much dumber stuff every day?",
+            "His argument’s master key sounded like this:\n“Some choices are worse than the choice you dismiss.\nIf people may freely buy sillier stuff,\nThen surely this less-silly thing’s safe enough.”",
+            "What happened? Individual-stock options trading reached about $700 billion in daily notional volume, while call-option prices exceeded 2021 meme-stock-era levels, according to Carrick Lane. Robinhood CEO Vlad Tenev argued that retail investors should be allowed to buy private companies such as OpenAI or SpaceX because they may already buy depreciating Amazon trinkets and meme coins."
+          ]
+        },
+        "middle": {
+          "title": "The Less-Silly Thing",
+          "lesson": "Options grant the right to buy or sell stock at a set price by a deadline; notional volume measures the underlying stock covered, not just the price paid for the options.",
+          "paragraphs": [
+            "The Wall Street Journal reported a spree:\nIndividual-stock options were traded with glee.\nAn option names both a price and a date,\nWith rights to buy or sell before it’s too late.",
+            "Call options give buyers the right to buy shares;\nTheir prices topped 2021’s meme-stock affairs.\nCarrick Lane measured the stocks in the spree:\nSome $700 billion each day, notionally.",
+            "“Notional” counts all the stock under claim,\nNot merely the option fees paid in the game.\nThe trading looked lively, enormous, and fast—\nLike meme-stock excitement returning at last.",
+            "Vlad Tenev of Robinhood Markets Inc. had a thought\nOn Bloomberg’s Odd Lots about what could be bought.\nWhy bar retail buyers from private-company stock\nWhen sillier purchases circle the block?",
+            "You can order Amazon trinkets that shrink in their worth,\nOr buy meme coins—hardly the safest on Earth.\nSo why keep OpenAI and SpaceX away\nIf money can purchase much dumber stuff every day?",
+            "His argument’s master key sounded like this:\n“Some choices are worse than the choice you dismiss.\nIf people may freely buy sillier stuff,\nThen surely this less-silly thing’s safe enough.”",
+            "What happened? Individual-stock options trading reached about $700 billion in daily notional volume, while call-option prices exceeded 2021 meme-stock-era levels, according to Carrick Lane. Robinhood CEO Vlad Tenev argued that retail investors should be allowed to buy private companies such as OpenAI or SpaceX because they may already buy depreciating Amazon trinkets and meme coins."
+          ]
+        },
+        "high": {
+          "title": "The Less-Silly Thing",
+          "lesson": "Options grant the right to buy or sell stock at a set price by a deadline; notional volume measures the underlying stock covered, not just the price paid for the options.",
+          "paragraphs": [
+            "The Wall Street Journal reported a spree:\nIndividual-stock options were traded with glee.\nAn option names both a price and a date,\nWith rights to buy or sell before it’s too late.",
+            "Call options give buyers the right to buy shares;\nTheir prices topped 2021’s meme-stock affairs.\nCarrick Lane measured the stocks in the spree:\nSome $700 billion each day, notionally.",
+            "“Notional” counts all the stock under claim,\nNot merely the option fees paid in the game.\nThe trading looked lively, enormous, and fast—\nLike meme-stock excitement returning at last.",
+            "Vlad Tenev of Robinhood Markets Inc. had a thought\nOn Bloomberg’s Odd Lots about what could be bought.\nWhy bar retail buyers from private-company stock\nWhen sillier purchases circle the block?",
+            "You can order Amazon trinkets that shrink in their worth,\nOr buy meme coins—hardly the safest on Earth.\nSo why keep OpenAI and SpaceX away\nIf money can purchase much dumber stuff every day?",
+            "His argument’s master key sounded like this:\n“Some choices are worse than the choice you dismiss.\nIf people may freely buy sillier stuff,\nThen surely this less-silly thing’s safe enough.”",
+            "What happened? Individual-stock options trading reached about $700 billion in daily notional volume, while call-option prices exceeded 2021 meme-stock-era levels, according to Carrick Lane. Robinhood CEO Vlad Tenev argued that retail investors should be allowed to buy private companies such as OpenAI or SpaceX because they may already buy depreciating Amazon trinkets and meme coins."
+          ]
+        }
+      }
+    }
+  ]
+}
