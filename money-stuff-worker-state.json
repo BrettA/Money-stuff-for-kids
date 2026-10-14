@@ -456,6 +456,18 @@
       "submitted": true,
       "updatedAt": "2026-10-13T21:37:03.061Z",
       "submittedAt": "2026-10-13T21:37:03.061Z"
+    },
+    "1a13ba3807785e7e": {
+      "gmailMessageId": "1a13ba3807785e7e",
+      "newsletterDate": "2026-10-14",
+      "newsletterTitle": "Bank of America Missed Some Bad Guys",
+      "editionId": "2026-10-14-bank-of-america-missed-some-bad-guys",
+      "sourceSha256": "d20c7720e4976b1e93eba930cfaf5843e2ee5e898833f144cdc74f32f652b8e1",
+      "packageSha256": "27e2b0858e7bc5bb9e218a5709dda5256520cbd4fb2e7168a223fdc8b7c6d198",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-14T19:45:14.458Z",
+      "submittedAt": "2026-10-14T19:45:14.458Z"
     }
   }
 }
