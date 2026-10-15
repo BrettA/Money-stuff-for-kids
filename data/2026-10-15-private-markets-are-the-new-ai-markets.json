@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-15-private-markets-are-the-new-ai-markets",
+  "date": "2026-10-15",
+  "displayDate": "October 15, 2026",
+  "title": "Private Markets Are the New AI Markets",
+  "sourceSections": [
+    "Private beta",
+    "Private credit marks",
+    "Prime brokerage",
+    "Agents",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "private-beta",
+      "sourceSection": "Private beta",
+      "illustration": {
+        "src": "/images/2026-10-15-private-markets-are-the-new-ai-markets/private-beta.png",
+        "alt": "Jas Khaira shows a skeptical Jon Gray rows of CoreWeave GPU servers and a Microsoft contract supporting a proposed loan."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jas Khaira",
+          "Jon Gray"
+        ],
+        "realCompanies": [
+          "Blackstone Inc.",
+          "CoreWeave",
+          "Microsoft"
+        ],
+        "financialMechanism": "Blackstone used CoreWeave’s GPUs as collateral for multibillion-dollar asset-backed financing, with a Microsoft offtake contract supporting expected revenue; this illustrates broad AI-driven growth moving into relatively high-fee private credit and infrastructure funds.",
+        "centralJoke": "In 2023, lending billions against GPUs owned by an ex-crypto miner made Blackstone president Jon Gray say “What?”; by 2026, GPU financing had become so mainstream that it was jokingly described as roughly 4% of the economy."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Chips That Made Jon Gray Say “What?”",
+          "lesson": "Blackstone financed CoreWeave using valuable AI chips and a Microsoft contract to support the loan, showing how broad economic growth is increasingly funded through higher-fee private markets.",
+          "paragraphs": [
+            "In 2023, Jas Khaira brought Jon Gray a plan:\n“Lend billions to CoreWeave on the fast chips that it ran.”\nCoreWeave once mined crypto; now its GPUs\nwere crunching the data that AI models use.",
+            "Microsoft had a contract to take computing capacity,\nhelping support the loan with expected cash reliably.\nThe GPUs themselves would help back the amount—\n“asset-backed financing,” in a private account.",
+            "“Ex-crypto? Billions? A loan backed by chips?”\nGray answered, “What?” at this strangest of pitches.\nYet what sounded freewheeling became, in his view,\na great opportunity—and the financing went through.",
+            "Soon Blackstone’s data-center empire reached $200 billion,\nwith power and cooling needed by buildings by the million.\nAt Blackstone’s enormous scale, AI became\n“the single most important thing” in the game.",
+            "By 2026, the odd bet from three years before\nwas “like 4% of the economy”—and growing still more.\nWhat once looked like clever, unusual “alpha” to buy\nhad become ordinary “beta”: broad growth powered by AI.",
+            "But much of that growth sat in private funds behind gates,\nnot cheap public index funds with tiny fee rates.\nThe economy’s biggest boom was privately packed—\nbroad market exposure, with higher fees attached.",
+            "What happened? Blackstone made a multibillion-dollar loan to CoreWeave backed by GPUs and supported by a Microsoft contract, helping establish asset-backed financing for AI chips. As AI financing expanded through private credit and infrastructure funds, ordinary economic exposure increasingly came through private vehicles charging more than low-cost public index funds."
+          ]
+        },
+        "elementary": {
+          "title": "The Chips That Made Jon Gray Say “What?”",
+          "lesson": "Blackstone financed CoreWeave using valuable AI chips and a Microsoft contract to support the loan, showing how broad economic growth is increasingly funded through higher-fee private markets.",
+          "paragraphs": [
+            "In 2023, Jas Khaira brought Jon Gray a plan:\n“Lend billions to CoreWeave on the fast chips that it ran.”\nCoreWeave once mined crypto; now its GPUs\nwere crunching the data that AI models use.",
+            "Microsoft had a contract to take computing capacity,\nhelping support the loan with expected cash reliably.\nThe GPUs themselves would help back the amount—\n“asset-backed financing,” in a private account.",
+            "“Ex-crypto? Billions? A loan backed by chips?”\nGray answered, “What?” at this strangest of pitches.\nYet what sounded freewheeling became, in his view,\na great opportunity—and the financing went through.",
+            "Soon Blackstone’s data-center empire reached $200 billion,\nwith power and cooling needed by buildings by the million.\nAt Blackstone’s enormous scale, AI became\n“the single most important thing” in the game.",
+            "By 2026, the odd bet from three years before\nwas “like 4% of the economy”—and growing still more.\nWhat once looked like clever, unusual “alpha” to buy\nhad become ordinary “beta”: broad growth powered by AI.",
+            "But much of that growth sat in private funds behind gates,\nnot cheap public index funds with tiny fee rates.\nThe economy’s biggest boom was privately packed—\nbroad market exposure, with higher fees attached.",
+            "What happened? Blackstone made a multibillion-dollar loan to CoreWeave backed by GPUs and supported by a Microsoft contract, helping establish asset-backed financing for AI chips. As AI financing expanded through private credit and infrastructure funds, ordinary economic exposure increasingly came through private vehicles charging more than low-cost public index funds."
+          ]
+        },
+        "middle": {
+          "title": "The Chips That Made Jon Gray Say “What?”",
+          "lesson": "Blackstone financed CoreWeave using valuable AI chips and a Microsoft contract to support the loan, showing how broad economic growth is increasingly funded through higher-fee private markets.",
+          "paragraphs": [
+            "In 2023, Jas Khaira brought Jon Gray a plan:\n“Lend billions to CoreWeave on the fast chips that it ran.”\nCoreWeave once mined crypto; now its GPUs\nwere crunching the data that AI models use.",
+            "Microsoft had a contract to take computing capacity,\nhelping support the loan with expected cash reliably.\nThe GPUs themselves would help back the amount—\n“asset-backed financing,” in a private account.",
+            "“Ex-crypto? Billions? A loan backed by chips?”\nGray answered, “What?” at this strangest of pitches.\nYet what sounded freewheeling became, in his view,\na great opportunity—and the financing went through.",
+            "Soon Blackstone’s data-center empire reached $200 billion,\nwith power and cooling needed by buildings by the million.\nAt Blackstone’s enormous scale, AI became\n“the single most important thing” in the game.",
+            "By 2026, the odd bet from three years before\nwas “like 4% of the economy”—and growing still more.\nWhat once looked like clever, unusual “alpha” to buy\nhad become ordinary “beta”: broad growth powered by AI.",
+            "But much of that growth sat in private funds behind gates,\nnot cheap public index funds with tiny fee rates.\nThe economy’s biggest boom was privately packed—\nbroad market exposure, with higher fees attached.",
+            "What happened? Blackstone made a multibillion-dollar loan to CoreWeave backed by GPUs and supported by a Microsoft contract, helping establish asset-backed financing for AI chips. As AI financing expanded through private credit and infrastructure funds, ordinary economic exposure increasingly came through private vehicles charging more than low-cost public index funds."
+          ]
+        },
+        "high": {
+          "title": "The Chips That Made Jon Gray Say “What?”",
+          "lesson": "Blackstone financed CoreWeave using valuable AI chips and a Microsoft contract to support the loan, showing how broad economic growth is increasingly funded through higher-fee private markets.",
+          "paragraphs": [
+            "In 2023, Jas Khaira brought Jon Gray a plan:\n“Lend billions to CoreWeave on the fast chips that it ran.”\nCoreWeave once mined crypto; now its GPUs\nwere crunching the data that AI models use.",
+            "Microsoft had a contract to take computing capacity,\nhelping support the loan with expected cash reliably.\nThe GPUs themselves would help back the amount—\n“asset-backed financing,” in a private account.",
+            "“Ex-crypto? Billions? A loan backed by chips?”\nGray answered, “What?” at this strangest of pitches.\nYet what sounded freewheeling became, in his view,\na great opportunity—and the financing went through.",
+            "Soon Blackstone’s data-center empire reached $200 billion,\nwith power and cooling needed by buildings by the million.\nAt Blackstone’s enormous scale, AI became\n“the single most important thing” in the game.",
+            "By 2026, the odd bet from three years before\nwas “like 4% of the economy”—and growing still more.\nWhat once looked like clever, unusual “alpha” to buy\nhad become ordinary “beta”: broad growth powered by AI.",
+            "But much of that growth sat in private funds behind gates,\nnot cheap public index funds with tiny fee rates.\nThe economy’s biggest boom was privately packed—\nbroad market exposure, with higher fees attached.",
+            "What happened? Blackstone made a multibillion-dollar loan to CoreWeave backed by GPUs and supported by a Microsoft contract, helping establish asset-backed financing for AI chips. As AI financing expanded through private credit and infrastructure funds, ordinary economic exposure increasingly came through private vehicles charging more than low-cost public index funds."
+          ]
+        }
+      }
+    },
+    {
+      "id": "private-credit-marks",
+      "sourceSection": "Private credit marks",
+      "illustration": {
+        "src": "/images/2026-10-15-private-markets-are-the-new-ai-markets/private-credit-marks.png",
+        "alt": "Ted Koenig and Drew McKnight debate whether a private loan marked $100 should fall to $98 after comparable public loans decline."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Ted Koenig",
+          "Drew McKnight",
+          "Olivia Fishlow"
+        ],
+        "realCompanies": [
+          "Apollo Global Management Inc.",
+          "Monroe Capital",
+          "Fortress Investment Group",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Managers can mark illiquid private-credit loans each day by comparing them with price moves in public bonds or leveraged-loan indexes, then adjusting for each borrower’s risk, collateral, and leverage despite limited fresh information.",
+        "centralJoke": "Private credit is sold as stable and uncorrelated with public markets, but if its value can be updated simply by following public-loan indexes, the expensive manager looks less special; if managers ignore those indexes, the loans can conveniently remain at $100."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Loan Price That Wouldn’t Sit Still",
+          "lesson": "Private loans can be revalued using changes in comparable public debt prices, but daily estimates may look more precise than the limited borrower data allows.",
+          "paragraphs": [
+            "One Wednesday in October, no borrower brought news;\nNo payment was late, and no loan changed its views.",
+            "No private loan traded; no buyer appeared.\nSo yesterday’s $100 still looked safely moored.",
+            "But public AI loans had sunk 2% that day.\nShould similar private loans stay put anyway?",
+            "Apollo said daily marks could offer a guide—\n“Marks” are fresh estimates of value supplied.\nAcross its roughly $850 billion credit business,\nApollo began giving daily prices more fitness.",
+            "At the CAIS summit, Ted Koenig of Monroe\nSaid daily precision could put on a show.\nWithout fresh statements or borrower reports,\n“An illusion of precision” was his retort.",
+            "Drew McKnight of Fortress agreed with that view:\nAn index can move, but it won’t fully tell you\nIf one private loan should be $100 or $98—\nYou must study that borrower to value it straight.",
+            "Yet here was the puzzle behind all the fuss:\nIf private loans track public ones, marking’s no muss.\nBut if an index explains every dip, rise, and fee,\nHow special can pricey private management be?",
+            "What happened? Apollo Global Management began rolling out daily valuations across its roughly $850 billion credit business, using market information such as public-loan prices to help estimate private-loan values. Ted Koenig and Drew McKnight argued that without daily borrower data, those marks may be precise-looking estimates rather than accurate prices."
+          ]
+        },
+        "elementary": {
+          "title": "The Loan Price That Wouldn’t Sit Still",
+          "lesson": "Private loans can be revalued using changes in comparable public debt prices, but daily estimates may look more precise than the limited borrower data allows.",
+          "paragraphs": [
+            "One Wednesday in October, no borrower brought news;\nNo payment was late, and no loan changed its views.",
+            "No private loan traded; no buyer appeared.\nSo yesterday’s $100 still looked safely moored.",
+            "But public AI loans had sunk 2% that day.\nShould similar private loans stay put anyway?",
+            "Apollo said daily marks could offer a guide—\n“Marks” are fresh estimates of value supplied.\nAcross its roughly $850 billion credit business,\nApollo began giving daily prices more fitness.",
+            "At the CAIS summit, Ted Koenig of Monroe\nSaid daily precision could put on a show.\nWithout fresh statements or borrower reports,\n“An illusion of precision” was his retort.",
+            "Drew McKnight of Fortress agreed with that view:\nAn index can move, but it won’t fully tell you\nIf one private loan should be $100 or $98—\nYou must study that borrower to value it straight.",
+            "Yet here was the puzzle behind all the fuss:\nIf private loans track public ones, marking’s no muss.\nBut if an index explains every dip, rise, and fee,\nHow special can pricey private management be?",
+            "What happened? Apollo Global Management began rolling out daily valuations across its roughly $850 billion credit business, using market information such as public-loan prices to help estimate private-loan values. Ted Koenig and Drew McKnight argued that without daily borrower data, those marks may be precise-looking estimates rather than accurate prices."
+          ]
+        },
+        "middle": {
+          "title": "The Loan Price That Wouldn’t Sit Still",
+          "lesson": "Private loans can be revalued using changes in comparable public debt prices, but daily estimates may look more precise than the limited borrower data allows.",
+          "paragraphs": [
+            "One Wednesday in October, no borrower brought news;\nNo payment was late, and no loan changed its views.",
+            "No private loan traded; no buyer appeared.\nSo yesterday’s $100 still looked safely moored.",
+            "But public AI loans had sunk 2% that day.\nShould similar private loans stay put anyway?",
+            "Apollo said daily marks could offer a guide—\n“Marks” are fresh estimates of value supplied.\nAcross its roughly $850 billion credit business,\nApollo began giving daily prices more fitness.",
+            "At the CAIS summit, Ted Koenig of Monroe\nSaid daily precision could put on a show.\nWithout fresh statements or borrower reports,\n“An illusion of precision” was his retort.",
+            "Drew McKnight of Fortress agreed with that view:\nAn index can move, but it won’t fully tell you\nIf one private loan should be $100 or $98—\nYou must study that borrower to value it straight.",
+            "Yet here was the puzzle behind all the fuss:\nIf private loans track public ones, marking’s no muss.\nBut if an index explains every dip, rise, and fee,\nHow special can pricey private management be?",
+            "What happened? Apollo Global Management began rolling out daily valuations across its roughly $850 billion credit business, using market information such as public-loan prices to help estimate private-loan values. Ted Koenig and Drew McKnight argued that without daily borrower data, those marks may be precise-looking estimates rather than accurate prices."
+          ]
+        },
+        "high": {
+          "title": "The Loan Price That Wouldn’t Sit Still",
+          "lesson": "Private loans can be revalued using changes in comparable public debt prices, but daily estimates may look more precise than the limited borrower data allows.",
+          "paragraphs": [
+            "One Wednesday in October, no borrower brought news;\nNo payment was late, and no loan changed its views.",
+            "No private loan traded; no buyer appeared.\nSo yesterday’s $100 still looked safely moored.",
+            "But public AI loans had sunk 2% that day.\nShould similar private loans stay put anyway?",
+            "Apollo said daily marks could offer a guide—\n“Marks” are fresh estimates of value supplied.\nAcross its roughly $850 billion credit business,\nApollo began giving daily prices more fitness.",
+            "At the CAIS summit, Ted Koenig of Monroe\nSaid daily precision could put on a show.\nWithout fresh statements or borrower reports,\n“An illusion of precision” was his retort.",
+            "Drew McKnight of Fortress agreed with that view:\nAn index can move, but it won’t fully tell you\nIf one private loan should be $100 or $98—\nYou must study that borrower to value it straight.",
+            "Yet here was the puzzle behind all the fuss:\nIf private loans track public ones, marking’s no muss.\nBut if an index explains every dip, rise, and fee,\nHow special can pricey private management be?",
+            "What happened? Apollo Global Management began rolling out daily valuations across its roughly $850 billion credit business, using market information such as public-loan prices to help estimate private-loan values. Ted Koenig and Drew McKnight argued that without daily borrower data, those marks may be precise-looking estimates rather than accurate prices."
+          ]
+        }
+      }
+    },
+    {
+      "id": "prime-brokerage",
+      "sourceSection": "Prime brokerage",
+      "illustration": {
+        "src": "/images/2026-10-15-private-markets-are-the-new-ai-markets/prime-brokerage.png",
+        "alt": "Goldman Sachs staff provide a hedge fund with stock financing while a smaller nearby desk matches a stock buyer and seller."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Todd Gillespie"
+        ],
+        "realCompanies": [
+          "Goldman Sachs Group Inc.",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Prime brokerage provides hedge funds with financing, custody, and matchmaking. Hedge funds use borrowed money, or leverage, to buy securities, while the bank earns financing revenue and holds assets as collateral.",
+        "centralJoke": "Goldman Sachs’s stock-trading business had become mostly a business of lending money against stocks rather than trading them."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "When Goldman’s Trading Desk Lent More Than It Traded",
+          "lesson": "Goldman Sachs’s prime-brokerage business earned more equity revenue by financing hedge funds and providing related services than its traders earned by matching stock buyers and sellers.",
+          "paragraphs": [
+            "At Goldman Sachs, the equities crew\nonce mainly matched stock trades passing through.\nA seller brought shares, and a buyer would pay;\nthe bank joined the two and kept part of the fee on the way.",
+            "Now buyers and sellers can meet on a screen,\nwhile hedge funds and trading firms crowd in between.\nAnd since 2008, banks watch risk with more care,\nso they often lend money secured by a share.",
+            "If borrowers cannot repay what they owe,\nthe pledged stocks help cover the loan’s heavy blow.\nThat lending is part of prime brokerage, too:\nfinancing and custody, plus matchmaking, accrue.",
+            "Hedge funds use leverage—borrowed cash for a bet—\nwhich can magnify gains and make losses grow yet.\nWith markets quite jumpy, especially in tech,\nmore funds sought financing and wrote Goldman a check.",
+            "Bloomberg’s Todd Gillespie spotted the turn:\nGoldman’s financing side had more revenue to earn.\nIt brought in $3.37 billion that quarter, up 96%;\ntrade-matching made $3.08 billion, up 52%.",
+            "So Goldman’s stock-trading division, surprise,\nmade more helping hedge funds borrow to buy.\nIts business called “trading” had reached the odd stage\nwhere financing stocks took the center of the page.",
+            "What happened? In the third quarter, Goldman Sachs earned more equities revenue from financing hedge funds through prime brokerage than from matching stock buyers and sellers—the first quarter on record when that happened."
+          ]
+        },
+        "elementary": {
+          "title": "When Goldman’s Trading Desk Lent More Than It Traded",
+          "lesson": "Goldman Sachs’s prime-brokerage business earned more equity revenue by financing hedge funds and providing related services than its traders earned by matching stock buyers and sellers.",
+          "paragraphs": [
+            "At Goldman Sachs, the equities crew\nonce mainly matched stock trades passing through.\nA seller brought shares, and a buyer would pay;\nthe bank joined the two and kept part of the fee on the way.",
+            "Now buyers and sellers can meet on a screen,\nwhile hedge funds and trading firms crowd in between.\nAnd since 2008, banks watch risk with more care,\nso they often lend money secured by a share.",
+            "If borrowers cannot repay what they owe,\nthe pledged stocks help cover the loan’s heavy blow.\nThat lending is part of prime brokerage, too:\nfinancing and custody, plus matchmaking, accrue.",
+            "Hedge funds use leverage—borrowed cash for a bet—\nwhich can magnify gains and make losses grow yet.\nWith markets quite jumpy, especially in tech,\nmore funds sought financing and wrote Goldman a check.",
+            "Bloomberg’s Todd Gillespie spotted the turn:\nGoldman’s financing side had more revenue to earn.\nIt brought in $3.37 billion that quarter, up 96%;\ntrade-matching made $3.08 billion, up 52%.",
+            "So Goldman’s stock-trading division, surprise,\nmade more helping hedge funds borrow to buy.\nIts business called “trading” had reached the odd stage\nwhere financing stocks took the center of the page.",
+            "What happened? In the third quarter, Goldman Sachs earned more equities revenue from financing hedge funds through prime brokerage than from matching stock buyers and sellers—the first quarter on record when that happened."
+          ]
+        },
+        "middle": {
+          "title": "When Goldman’s Trading Desk Lent More Than It Traded",
+          "lesson": "Goldman Sachs’s prime-brokerage business earned more equity revenue by financing hedge funds and providing related services than its traders earned by matching stock buyers and sellers.",
+          "paragraphs": [
+            "At Goldman Sachs, the equities crew\nonce mainly matched stock trades passing through.\nA seller brought shares, and a buyer would pay;\nthe bank joined the two and kept part of the fee on the way.",
+            "Now buyers and sellers can meet on a screen,\nwhile hedge funds and trading firms crowd in between.\nAnd since 2008, banks watch risk with more care,\nso they often lend money secured by a share.",
+            "If borrowers cannot repay what they owe,\nthe pledged stocks help cover the loan’s heavy blow.\nThat lending is part of prime brokerage, too:\nfinancing and custody, plus matchmaking, accrue.",
+            "Hedge funds use leverage—borrowed cash for a bet—\nwhich can magnify gains and make losses grow yet.\nWith markets quite jumpy, especially in tech,\nmore funds sought financing and wrote Goldman a check.",
+            "Bloomberg’s Todd Gillespie spotted the turn:\nGoldman’s financing side had more revenue to earn.\nIt brought in $3.37 billion that quarter, up 96%;\ntrade-matching made $3.08 billion, up 52%.",
+            "So Goldman’s stock-trading division, surprise,\nmade more helping hedge funds borrow to buy.\nIts business called “trading” had reached the odd stage\nwhere financing stocks took the center of the page.",
+            "What happened? In the third quarter, Goldman Sachs earned more equities revenue from financing hedge funds through prime brokerage than from matching stock buyers and sellers—the first quarter on record when that happened."
+          ]
+        },
+        "high": {
+          "title": "When Goldman’s Trading Desk Lent More Than It Traded",
+          "lesson": "Goldman Sachs’s prime-brokerage business earned more equity revenue by financing hedge funds and providing related services than its traders earned by matching stock buyers and sellers.",
+          "paragraphs": [
+            "At Goldman Sachs, the equities crew\nonce mainly matched stock trades passing through.\nA seller brought shares, and a buyer would pay;\nthe bank joined the two and kept part of the fee on the way.",
+            "Now buyers and sellers can meet on a screen,\nwhile hedge funds and trading firms crowd in between.\nAnd since 2008, banks watch risk with more care,\nso they often lend money secured by a share.",
+            "If borrowers cannot repay what they owe,\nthe pledged stocks help cover the loan’s heavy blow.\nThat lending is part of prime brokerage, too:\nfinancing and custody, plus matchmaking, accrue.",
+            "Hedge funds use leverage—borrowed cash for a bet—\nwhich can magnify gains and make losses grow yet.\nWith markets quite jumpy, especially in tech,\nmore funds sought financing and wrote Goldman a check.",
+            "Bloomberg’s Todd Gillespie spotted the turn:\nGoldman’s financing side had more revenue to earn.\nIt brought in $3.37 billion that quarter, up 96%;\ntrade-matching made $3.08 billion, up 52%.",
+            "So Goldman’s stock-trading division, surprise,\nmade more helping hedge funds borrow to buy.\nIts business called “trading” had reached the odd stage\nwhere financing stocks took the center of the page.",
+            "What happened? In the third quarter, Goldman Sachs earned more equities revenue from financing hedge funds through prime brokerage than from matching stock buyers and sellers—the first quarter on record when that happened."
+          ]
+        }
+      }
+    },
+    {
+      "id": "agents",
+      "sourceSection": "Agents",
+      "illustration": {
+        "src": "/images/2026-10-15-private-markets-are-the-new-ai-markets/agents.png",
+        "alt": "A personified trading AI hands over ten billion signals while an FCA regulatory AI stamps a $1 billion penalty beside a twenty-second stopwatch, as a bewildered human asks for a person."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jessica Rusu"
+        ],
+        "realCompanies": [
+          "Financial Times",
+          "Financial Conduct Authority"
+        ],
+        "financialMechanism": "Agentic AI would autonomously perform linked regulatory tasks—including gathering intelligence, reviewing cases, asking follow-up questions, and supporting authorizations, supervision, and enforcement—while officials oversee and direct the system.",
+        "centralJoke": "If autonomous trading agents face autonomous regulatory agents, entire enforcement cases could happen in seconds for conduct too subtle for humans to understand, leaving even the columnist needing an AI agent to explain it."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Watchdog Hires an Agent",
+          "lesson": "The Financial Conduct Authority plans to use agentic AI to gather information and help automate authorizations, supervision, and enforcement as financial activity itself becomes more autonomous.",
+          "paragraphs": [
+            "The Financial Times reported a curious plan:\nBritain’s finance watchdog may give AI more work once done by human hands.",
+            "At the Financial Conduct Authority, Jessica Rusu looked ahead:\n“We want a smarter regulator,” she said.",
+            "Agentic AI can gather clues and pursue a whole case,\nTaking linked steps on its own at a very rapid pace.",
+            "Authorizations decide which firms may begin;\nSupervision keeps watch, and enforcement steps in.",
+            "Officials would oversee it—but Rusu’s larger goal\nIs to automate where they can and intervene at scale.",
+            "Suppose an email arrives: “Insider trading, we think.”\nYou answer; AI asks more questions before you can blink.",
+            "It weighs your defense, declares a large fine,\nThen sends you the invoice—with no human in line.",
+            "“Can I talk to a person?” No person appears.\nThat sort of regulator sounds efficient—and eerie.",
+            "But when trading agents trade, the strange plan may fit:\nTwo AIs could settle the case in twenty seconds, lickety-split.",
+            "“I used ten billion signals,” the trading agent might say.\n“They’re too subtle for humans—please step out of the way.”",
+            "Rules and loopholes take people long years to prepare;\nAgents might invent them in minutes, then battle right there.",
+            "Someday an agentic firm might be fined $1 billion\nFor something too subtly bad to explain to a human civilian.",
+            "And how could a columnist describe what the agents had done?\nPerhaps an agent must write it—then explain it to everyone.",
+            "What happened? The Financial Times reported that Britain’s Financial Conduct Authority plans to use agentic AI for intelligence gathering, authorizations, supervision, and enforcement, with officials overseeing it while the agency seeks to automate more and intervene at scale. The twenty-second AI dispute and $1 billion fine were imagined examples of where agentic finance and regulation could lead."
+          ]
+        },
+        "elementary": {
+          "title": "The Watchdog Hires an Agent",
+          "lesson": "The Financial Conduct Authority plans to use agentic AI to gather information and help automate authorizations, supervision, and enforcement as financial activity itself becomes more autonomous.",
+          "paragraphs": [
+            "The Financial Times reported a curious plan:\nBritain’s finance watchdog may give AI more work once done by human hands.",
+            "At the Financial Conduct Authority, Jessica Rusu looked ahead:\n“We want a smarter regulator,” she said.",
+            "Agentic AI can gather clues and pursue a whole case,\nTaking linked steps on its own at a very rapid pace.",
+            "Authorizations decide which firms may begin;\nSupervision keeps watch, and enforcement steps in.",
+            "Officials would oversee it—but Rusu’s larger goal\nIs to automate where they can and intervene at scale.",
+            "Suppose an email arrives: “Insider trading, we think.”\nYou answer; AI asks more questions before you can blink.",
+            "It weighs your defense, declares a large fine,\nThen sends you the invoice—with no human in line.",
+            "“Can I talk to a person?” No person appears.\nThat sort of regulator sounds efficient—and eerie.",
+            "But when trading agents trade, the strange plan may fit:\nTwo AIs could settle the case in twenty seconds, lickety-split.",
+            "“I used ten billion signals,” the trading agent might say.\n“They’re too subtle for humans—please step out of the way.”",
+            "Rules and loopholes take people long years to prepare;\nAgents might invent them in minutes, then battle right there.",
+            "Someday an agentic firm might be fined $1 billion\nFor something too subtly bad to explain to a human civilian.",
+            "And how could a columnist describe what the agents had done?\nPerhaps an agent must write it—then explain it to everyone.",
+            "What happened? The Financial Times reported that Britain’s Financial Conduct Authority plans to use agentic AI for intelligence gathering, authorizations, supervision, and enforcement, with officials overseeing it while the agency seeks to automate more and intervene at scale. The twenty-second AI dispute and $1 billion fine were imagined examples of where agentic finance and regulation could lead."
+          ]
+        },
+        "middle": {
+          "title": "The Watchdog Hires an Agent",
+          "lesson": "The Financial Conduct Authority plans to use agentic AI to gather information and help automate authorizations, supervision, and enforcement as financial activity itself becomes more autonomous.",
+          "paragraphs": [
+            "The Financial Times reported a curious plan:\nBritain’s finance watchdog may give AI more work once done by human hands.",
+            "At the Financial Conduct Authority, Jessica Rusu looked ahead:\n“We want a smarter regulator,” she said.",
+            "Agentic AI can gather clues and pursue a whole case,\nTaking linked steps on its own at a very rapid pace.",
+            "Authorizations decide which firms may begin;\nSupervision keeps watch, and enforcement steps in.",
+            "Officials would oversee it—but Rusu’s larger goal\nIs to automate where they can and intervene at scale.",
+            "Suppose an email arrives: “Insider trading, we think.”\nYou answer; AI asks more questions before you can blink.",
+            "It weighs your defense, declares a large fine,\nThen sends you the invoice—with no human in line.",
+            "“Can I talk to a person?” No person appears.\nThat sort of regulator sounds efficient—and eerie.",
+            "But when trading agents trade, the strange plan may fit:\nTwo AIs could settle the case in twenty seconds, lickety-split.",
+            "“I used ten billion signals,” the trading agent might say.\n“They’re too subtle for humans—please step out of the way.”",
+            "Rules and loopholes take people long years to prepare;\nAgents might invent them in minutes, then battle right there.",
+            "Someday an agentic firm might be fined $1 billion\nFor something too subtly bad to explain to a human civilian.",
+            "And how could a columnist describe what the agents had done?\nPerhaps an agent must write it—then explain it to everyone.",
+            "What happened? The Financial Times reported that Britain’s Financial Conduct Authority plans to use agentic AI for intelligence gathering, authorizations, supervision, and enforcement, with officials overseeing it while the agency seeks to automate more and intervene at scale. The twenty-second AI dispute and $1 billion fine were imagined examples of where agentic finance and regulation could lead."
+          ]
+        },
+        "high": {
+          "title": "The Watchdog Hires an Agent",
+          "lesson": "The Financial Conduct Authority plans to use agentic AI to gather information and help automate authorizations, supervision, and enforcement as financial activity itself becomes more autonomous.",
+          "paragraphs": [
+            "The Financial Times reported a curious plan:\nBritain’s finance watchdog may give AI more work once done by human hands.",
+            "At the Financial Conduct Authority, Jessica Rusu looked ahead:\n“We want a smarter regulator,” she said.",
+            "Agentic AI can gather clues and pursue a whole case,\nTaking linked steps on its own at a very rapid pace.",
+            "Authorizations decide which firms may begin;\nSupervision keeps watch, and enforcement steps in.",
+            "Officials would oversee it—but Rusu’s larger goal\nIs to automate where they can and intervene at scale.",
+            "Suppose an email arrives: “Insider trading, we think.”\nYou answer; AI asks more questions before you can blink.",
+            "It weighs your defense, declares a large fine,\nThen sends you the invoice—with no human in line.",
+            "“Can I talk to a person?” No person appears.\nThat sort of regulator sounds efficient—and eerie.",
+            "But when trading agents trade, the strange plan may fit:\nTwo AIs could settle the case in twenty seconds, lickety-split.",
+            "“I used ten billion signals,” the trading agent might say.\n“They’re too subtle for humans—please step out of the way.”",
+            "Rules and loopholes take people long years to prepare;\nAgents might invent them in minutes, then battle right there.",
+            "Someday an agentic firm might be fined $1 billion\nFor something too subtly bad to explain to a human civilian.",
+            "And how could a columnist describe what the agents had done?\nPerhaps an agent must write it—then explain it to everyone.",
+            "What happened? The Financial Times reported that Britain’s Financial Conduct Authority plans to use agentic AI for intelligence gathering, authorizations, supervision, and enforcement, with officials overseeing it while the agency seeks to automate more and intervene at scale. The twenty-second AI dispute and $1 billion fine were imagined examples of where agentic finance and regulation could lead."
+          ]
+        }
+      }
+    }
+  ]
+}
