@@ -468,6 +468,18 @@
       "submitted": true,
       "updatedAt": "2026-10-14T19:45:14.458Z",
       "submittedAt": "2026-10-14T19:45:14.458Z"
+    },
+    "1a140b0ca3667937": {
+      "gmailMessageId": "1a140b0ca3667937",
+      "newsletterDate": "2026-10-15",
+      "newsletterTitle": "Private Markets Are the New AI Markets",
+      "editionId": "2026-10-15-private-markets-are-the-new-ai-markets",
+      "sourceSha256": "c3d69dab0bd6628769aa9eb5279fc763a70360f985e925a1106d3b08aaac22bf",
+      "packageSha256": "9e8409c95ef259c4ee68f0486b4a34364d677a3c73869d7d89848a9d7266f535",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-15T19:26:16.187Z",
+      "submittedAt": "2026-10-15T19:26:16.187Z"
     }
   }
 }
