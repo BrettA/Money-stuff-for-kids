@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-16-the-podcast-release-me-from-this-demon",
+  "date": "2026-10-16",
+  "displayDate": "October 16, 2026",
+  "title": "The Podcast: Release Me From This Demon",
+  "sourceSections": [
+    "Podcast"
+  ],
+  "stories": [
+    {
+      "id": "podcast",
+      "sourceSection": "Podcast",
+      "illustration": {
+        "src": "/images/2026-10-16-the-podcast-release-me-from-this-demon/podcast.png",
+        "alt": "Mary Childs speaks into a podcast microphone as a worried prime-broker worker catches a heavy bag labeled “Hedge-Fund Oopsie,” with a flat waffle nearby."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mary Childs",
+          "Martin Shkreli"
+        ],
+        "realCompanies": [
+          "Bloomberg L.P.",
+          "Apple",
+          "Spotify"
+        ],
+        "financialMechanism": "Prime brokers provide financing and other services to hedge funds, and can be left with losses when a hedge-fund client cannot meet its obligations.",
+        "centralJoke": "When hedge funds have “oopsies,” the prime broker may be left literally “holding the bag.”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Mary Childs and the Hedge-Fund Oopsies",
+          "lesson": "Prime brokers finance and service hedge funds; if a fund cannot meet its obligations, the prime broker may be left absorbing the losses—holding the bag after the fund’s “oopsie.”",
+          "paragraphs": [
+            "A fresh Money Stuff podcast was ready to play;\nMary Childs joined as guest co-host for the day.\nFrom Mary in America, she took to the mic,\nFor markets and oddities, bets and the like.",
+            "Sports betting met swap rules. A swap, if you please,\nTrades payments between two parties who agree.\nThey covered mention markets and waffles gone flat,\nAnd brokerage accounts where folks gamble on that.",
+            "Then prime brokerage entered: these brokers provide\nHedge funds with financing and services beside.\nBut when a fund has an “oopsie” and cannot repay,\nThe broker may hold the bag at the end of the day.",
+            "They discussed relationship businesses, banking made narrow,\nAnd why hand-wringing needn’t fill every tomorrow.\nMartin Shkreli’s comeuppances entered the mix,\nThen short-selling metaphysics brought puzzling tricks.",
+            "The episode waits on Spotify and Apple today,\nWith Bloomberg’s Money Stuff guiding the way.",
+            "What happened? A new episode of Money Stuff: The Podcast featured guest co-host Mary Childs and covered betting, swaps, prime brokerage, hedge-fund losses, Martin Shkreli, short selling, and other topics. Prime brokers can suffer losses when hedge-fund clients fail to pay what they owe."
+          ]
+        },
+        "elementary": {
+          "title": "Mary Childs and the Hedge-Fund Oopsies",
+          "lesson": "Prime brokers finance and service hedge funds; if a fund cannot meet its obligations, the prime broker may be left absorbing the losses—holding the bag after the fund’s “oopsie.”",
+          "paragraphs": [
+            "A fresh Money Stuff podcast was ready to play;\nMary Childs joined as guest co-host for the day.\nFrom Mary in America, she took to the mic,\nFor markets and oddities, bets and the like.",
+            "Sports betting met swap rules. A swap, if you please,\nTrades payments between two parties who agree.\nThey covered mention markets and waffles gone flat,\nAnd brokerage accounts where folks gamble on that.",
+            "Then prime brokerage entered: these brokers provide\nHedge funds with financing and services beside.\nBut when a fund has an “oopsie” and cannot repay,\nThe broker may hold the bag at the end of the day.",
+            "They discussed relationship businesses, banking made narrow,\nAnd why hand-wringing needn’t fill every tomorrow.\nMartin Shkreli’s comeuppances entered the mix,\nThen short-selling metaphysics brought puzzling tricks.",
+            "The episode waits on Spotify and Apple today,\nWith Bloomberg’s Money Stuff guiding the way.",
+            "What happened? A new episode of Money Stuff: The Podcast featured guest co-host Mary Childs and covered betting, swaps, prime brokerage, hedge-fund losses, Martin Shkreli, short selling, and other topics. Prime brokers can suffer losses when hedge-fund clients fail to pay what they owe."
+          ]
+        },
+        "middle": {
+          "title": "Mary Childs and the Hedge-Fund Oopsies",
+          "lesson": "Prime brokers finance and service hedge funds; if a fund cannot meet its obligations, the prime broker may be left absorbing the losses—holding the bag after the fund’s “oopsie.”",
+          "paragraphs": [
+            "A fresh Money Stuff podcast was ready to play;\nMary Childs joined as guest co-host for the day.\nFrom Mary in America, she took to the mic,\nFor markets and oddities, bets and the like.",
+            "Sports betting met swap rules. A swap, if you please,\nTrades payments between two parties who agree.\nThey covered mention markets and waffles gone flat,\nAnd brokerage accounts where folks gamble on that.",
+            "Then prime brokerage entered: these brokers provide\nHedge funds with financing and services beside.\nBut when a fund has an “oopsie” and cannot repay,\nThe broker may hold the bag at the end of the day.",
+            "They discussed relationship businesses, banking made narrow,\nAnd why hand-wringing needn’t fill every tomorrow.\nMartin Shkreli’s comeuppances entered the mix,\nThen short-selling metaphysics brought puzzling tricks.",
+            "The episode waits on Spotify and Apple today,\nWith Bloomberg’s Money Stuff guiding the way.",
+            "What happened? A new episode of Money Stuff: The Podcast featured guest co-host Mary Childs and covered betting, swaps, prime brokerage, hedge-fund losses, Martin Shkreli, short selling, and other topics. Prime brokers can suffer losses when hedge-fund clients fail to pay what they owe."
+          ]
+        },
+        "high": {
+          "title": "Mary Childs and the Hedge-Fund Oopsies",
+          "lesson": "Prime brokers finance and service hedge funds; if a fund cannot meet its obligations, the prime broker may be left absorbing the losses—holding the bag after the fund’s “oopsie.”",
+          "paragraphs": [
+            "A fresh Money Stuff podcast was ready to play;\nMary Childs joined as guest co-host for the day.\nFrom Mary in America, she took to the mic,\nFor markets and oddities, bets and the like.",
+            "Sports betting met swap rules. A swap, if you please,\nTrades payments between two parties who agree.\nThey covered mention markets and waffles gone flat,\nAnd brokerage accounts where folks gamble on that.",
+            "Then prime brokerage entered: these brokers provide\nHedge funds with financing and services beside.\nBut when a fund has an “oopsie” and cannot repay,\nThe broker may hold the bag at the end of the day.",
+            "They discussed relationship businesses, banking made narrow,\nAnd why hand-wringing needn’t fill every tomorrow.\nMartin Shkreli’s comeuppances entered the mix,\nThen short-selling metaphysics brought puzzling tricks.",
+            "The episode waits on Spotify and Apple today,\nWith Bloomberg’s Money Stuff guiding the way.",
+            "What happened? A new episode of Money Stuff: The Podcast featured guest co-host Mary Childs and covered betting, swaps, prime brokerage, hedge-fund losses, Martin Shkreli, short selling, and other topics. Prime brokers can suffer losses when hedge-fund clients fail to pay what they owe."
+          ]
+        }
+      }
+    }
+  ]
+}
