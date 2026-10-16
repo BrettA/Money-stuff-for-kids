@@ -480,6 +480,18 @@
       "submitted": true,
       "updatedAt": "2026-10-15T19:26:16.187Z",
       "submittedAt": "2026-10-15T19:26:16.187Z"
+    },
+    "1a145710c88d2195": {
+      "gmailMessageId": "1a145710c88d2195",
+      "newsletterDate": "2026-10-16",
+      "newsletterTitle": "The Podcast: Release Me From This Demon",
+      "editionId": "2026-10-16-the-podcast-release-me-from-this-demon",
+      "sourceSha256": "885652820dc63519848b76996e843bff18dc6a7ef86b2ab7d0259ce8fc917f4a",
+      "packageSha256": "b9a1d14c06dcb820b495e4008f187b38254e64369520151f81d736d4807e9e0c",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-16T18:21:50.969Z",
+      "submittedAt": "2026-10-16T18:21:50.969Z"
     }
   }
 }
