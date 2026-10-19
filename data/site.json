@@ -23,6 +23,14 @@
   ],
   "editions": [
     {
+      "id": "2026-10-19-universal-basic-ai",
+      "date": "2026-10-19",
+      "displayDate": "October 19, 2026",
+      "title": "Universal Basic AI",
+      "storyCount": 5,
+      "href": "/editions/2026-10-19-universal-basic-ai/"
+    },
+    {
       "id": "2026-10-16-the-podcast-release-me-from-this-demon",
       "date": "2026-10-16",
       "displayDate": "October 16, 2026",

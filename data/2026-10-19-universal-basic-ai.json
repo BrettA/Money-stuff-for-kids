@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-19-universal-basic-ai",
+  "date": "2026-10-19",
+  "displayDate": "October 19, 2026",
+  "title": "Universal Basic AI",
+  "sourceSections": [
+    "Public Benefit Fund",
+    "‘Dividend nomads’",
+    "Sports gambling ETFs",
+    "Are MBAs bad?",
+    "Onion Stuff",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "public-benefit-fund",
+      "sourceSection": "Public Benefit Fund",
+      "illustration": {
+        "src": "/images/2026-10-19-universal-basic-ai/public-benefit-fund.png",
+        "alt": "Anthropic places stock certificates into its Public Benefit Fund while Elon Musk offers SpaceX shares to a long line of American children."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "Anthropic PBC",
+          "OpenAI",
+          "SpaceX",
+          "X"
+        ],
+        "financialMechanism": "Anthropic proposed placing 5% of its equity in a public-benefit fund, with discretionary additions of 2% for each 50% increase in company value; OpenAI proposed a 5% government stake, and Elon Musk pledged roughly 0.5% of SpaceX through one share for every US child.",
+        "centralJoke": "Each organization’s way of giving society a cut matched its personality: OpenAI chose government, Musk chose individual ownership for children, and Anthropic chose a fund that Anthropic would help direct."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Three Ways to Share the AI Pie",
+          "lesson": "Companies can give society an ownership stake by setting aside shares; Anthropic proposed a fund whose stake may grow with the company, while OpenAI and Elon Musk proposed different recipients for their shares.",
+          "paragraphs": [
+            "Most companies pay workers, then settle each bill; after expenses, some profit is left over still. The federal tax rate takes twenty-one percent, while shareholders keep what remains to be spent.",
+            "But some AI builders predict a strange day: machines could do nearly all work for no pay. If AI companies captured the value instead, who would help workers get housed and fed?",
+            "Anthropic PBC announced a new fund, with shares for public-good work to be done. Subject to shareholder approval, five percent would start in its care, perhaps helping displaced workers receive a fair share.",
+            "If Anthropic’s value rose fifty percent past its set baseline, its board could add two percent more to the fund’s stock pile. The fund—not the government or people at large—would choose which nonprofits or populations received the charge.",
+            "OpenAI had proposed another route: give five percent to the US government’s account. Then Elon Musk posted a plan of his own: one SpaceX share for each US child to own.",
+            "With some seventy-two million children nationwide, those shares at $146 would total about $10.5 billion—roughly half a percent of SpaceX. Musk did not explain how the giant giveaway would work next.",
+            "OpenAI picked government; Musk picked each child. Anthropic picked a fund—and would choose where it filed. Three visions for granting society a cut, each revealing who thinks who should decide what.",
+            "What happened? Anthropic proposed committing 5% of its shares to a public-benefit fund, with its board able to add 2% whenever the company’s value rises 50% above a baseline. OpenAI had proposed giving 5% to the US government, while Elon Musk pledged one SpaceX share to every American child, though he did not explain how."
+          ]
+        },
+        "elementary": {
+          "title": "Three Ways to Share the AI Pie",
+          "lesson": "Companies can give society an ownership stake by setting aside shares; Anthropic proposed a fund whose stake may grow with the company, while OpenAI and Elon Musk proposed different recipients for their shares.",
+          "paragraphs": [
+            "Most companies pay workers, then settle each bill; after expenses, some profit is left over still. The federal tax rate takes twenty-one percent, while shareholders keep what remains to be spent.",
+            "But some AI builders predict a strange day: machines could do nearly all work for no pay. If AI companies captured the value instead, who would help workers get housed and fed?",
+            "Anthropic PBC announced a new fund, with shares for public-good work to be done. Subject to shareholder approval, five percent would start in its care, perhaps helping displaced workers receive a fair share.",
+            "If Anthropic’s value rose fifty percent past its set baseline, its board could add two percent more to the fund’s stock pile. The fund—not the government or people at large—would choose which nonprofits or populations received the charge.",
+            "OpenAI had proposed another route: give five percent to the US government’s account. Then Elon Musk posted a plan of his own: one SpaceX share for each US child to own.",
+            "With some seventy-two million children nationwide, those shares at $146 would total about $10.5 billion—roughly half a percent of SpaceX. Musk did not explain how the giant giveaway would work next.",
+            "OpenAI picked government; Musk picked each child. Anthropic picked a fund—and would choose where it filed. Three visions for granting society a cut, each revealing who thinks who should decide what.",
+            "What happened? Anthropic proposed committing 5% of its shares to a public-benefit fund, with its board able to add 2% whenever the company’s value rises 50% above a baseline. OpenAI had proposed giving 5% to the US government, while Elon Musk pledged one SpaceX share to every American child, though he did not explain how."
+          ]
+        },
+        "middle": {
+          "title": "Three Ways to Share the AI Pie",
+          "lesson": "Companies can give society an ownership stake by setting aside shares; Anthropic proposed a fund whose stake may grow with the company, while OpenAI and Elon Musk proposed different recipients for their shares.",
+          "paragraphs": [
+            "Most companies pay workers, then settle each bill; after expenses, some profit is left over still. The federal tax rate takes twenty-one percent, while shareholders keep what remains to be spent.",
+            "But some AI builders predict a strange day: machines could do nearly all work for no pay. If AI companies captured the value instead, who would help workers get housed and fed?",
+            "Anthropic PBC announced a new fund, with shares for public-good work to be done. Subject to shareholder approval, five percent would start in its care, perhaps helping displaced workers receive a fair share.",
+            "If Anthropic’s value rose fifty percent past its set baseline, its board could add two percent more to the fund’s stock pile. The fund—not the government or people at large—would choose which nonprofits or populations received the charge.",
+            "OpenAI had proposed another route: give five percent to the US government’s account. Then Elon Musk posted a plan of his own: one SpaceX share for each US child to own.",
+            "With some seventy-two million children nationwide, those shares at $146 would total about $10.5 billion—roughly half a percent of SpaceX. Musk did not explain how the giant giveaway would work next.",
+            "OpenAI picked government; Musk picked each child. Anthropic picked a fund—and would choose where it filed. Three visions for granting society a cut, each revealing who thinks who should decide what.",
+            "What happened? Anthropic proposed committing 5% of its shares to a public-benefit fund, with its board able to add 2% whenever the company’s value rises 50% above a baseline. OpenAI had proposed giving 5% to the US government, while Elon Musk pledged one SpaceX share to every American child, though he did not explain how."
+          ]
+        },
+        "high": {
+          "title": "Three Ways to Share the AI Pie",
+          "lesson": "Companies can give society an ownership stake by setting aside shares; Anthropic proposed a fund whose stake may grow with the company, while OpenAI and Elon Musk proposed different recipients for their shares.",
+          "paragraphs": [
+            "Most companies pay workers, then settle each bill; after expenses, some profit is left over still. The federal tax rate takes twenty-one percent, while shareholders keep what remains to be spent.",
+            "But some AI builders predict a strange day: machines could do nearly all work for no pay. If AI companies captured the value instead, who would help workers get housed and fed?",
+            "Anthropic PBC announced a new fund, with shares for public-good work to be done. Subject to shareholder approval, five percent would start in its care, perhaps helping displaced workers receive a fair share.",
+            "If Anthropic’s value rose fifty percent past its set baseline, its board could add two percent more to the fund’s stock pile. The fund—not the government or people at large—would choose which nonprofits or populations received the charge.",
+            "OpenAI had proposed another route: give five percent to the US government’s account. Then Elon Musk posted a plan of his own: one SpaceX share for each US child to own.",
+            "With some seventy-two million children nationwide, those shares at $146 would total about $10.5 billion—roughly half a percent of SpaceX. Musk did not explain how the giant giveaway would work next.",
+            "OpenAI picked government; Musk picked each child. Anthropic picked a fund—and would choose where it filed. Three visions for granting society a cut, each revealing who thinks who should decide what.",
+            "What happened? Anthropic proposed committing 5% of its shares to a public-benefit fund, with its board able to add 2% whenever the company’s value rises 50% above a baseline. OpenAI had proposed giving 5% to the US government, while Elon Musk pledged one SpaceX share to every American child, though he did not explain how."
+          ]
+        }
+      }
+    },
+    {
+      "id": "dividend-nomads",
+      "sourceSection": "‘Dividend nomads’",
+      "illustration": {
+        "src": "/images/2026-10-19-universal-basic-ai/dividend-nomads.png",
+        "alt": "Jae Hyouk Jang studies shrinking CONY distribution papers beside his travel pack as a printed Coinbase chart falls sharply."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jae Hyouk Jang",
+          "Agustin Lebron"
+        ],
+        "realCompanies": [
+          "YieldMax",
+          "Coinbase Global Inc."
+        ],
+        "financialMechanism": "The YieldMax COIN Option Income Strategy ETF, ticker CONY, sold call options tied to Coinbase stock and used the option fees to support weekly distributions; falling Coinbase shares reduced CONY’s value and distributions.",
+        "centralJoke": "A risky program of selling weekly options on volatile Coinbase stock was packaged as a relaxing source of passive “dividend” income for travelers."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Dividend Nomad’s Bumpy Ride",
+          "lesson": "An option-income ETF can make large distributions by collecting fees from selling call options, but its shares and payouts can fall sharply when the stock tied to those options falls.",
+          "paragraphs": [
+            "Jae Hyouk Jang, at forty-three,\nleft security work to wander free.\nWith $130,000 saved away,\nhe crossed Thailand, Vietnam, and Laos day by day.",
+            "He joined “dividend nomads,” who travel about,\nusing investment-fund payments instead of a route\nthrough nine-to-five work. One fund caught his eye:\nYieldMax’s CONY, with payouts sky-high.",
+            "Its annual payout rate said 58%.\nWhere did all that generous income get sent?\nCONY sold call options on Coinbase each week—\nrisky crypto-stock income for travelers to seek.",
+            "A call gives its buyer, in trade for a fee,\na right to buy shares at a price both agree.\nThose fees helped fund CONY’s distributions,\nturning weekly wagers into “passive” solutions.",
+            "But Coinbase began a long tumble downhill,\nand CONY fell nearly 40%—what a spill!\nIts weekly distributions started shrinking as well;\nthe restful-sounding dividend rode a roller-coaster swell.",
+            "Jang broke even, then chose a steadier track:\nsafer ETFs, including ones following the S&P 500, filled his pack.\nAgustin Lebron’s warning fit this strange scene:\neasy, profitable trades are not often serene.",
+            "What happened? Jae Hyouk Jang invested in CONY, an ETF that sold call options tied to Coinbase stock and advertised a 58% annual payout rate. When Coinbase fell, CONY lost nearly 40% and its distributions shrank, showing that a payment called a “dividend” can actually come from a risky options strategy."
+          ]
+        },
+        "elementary": {
+          "title": "The Dividend Nomad’s Bumpy Ride",
+          "lesson": "An option-income ETF can make large distributions by collecting fees from selling call options, but its shares and payouts can fall sharply when the stock tied to those options falls.",
+          "paragraphs": [
+            "Jae Hyouk Jang, at forty-three,\nleft security work to wander free.\nWith $130,000 saved away,\nhe crossed Thailand, Vietnam, and Laos day by day.",
+            "He joined “dividend nomads,” who travel about,\nusing investment-fund payments instead of a route\nthrough nine-to-five work. One fund caught his eye:\nYieldMax’s CONY, with payouts sky-high.",
+            "Its annual payout rate said 58%.\nWhere did all that generous income get sent?\nCONY sold call options on Coinbase each week—\nrisky crypto-stock income for travelers to seek.",
+            "A call gives its buyer, in trade for a fee,\na right to buy shares at a price both agree.\nThose fees helped fund CONY’s distributions,\nturning weekly wagers into “passive” solutions.",
+            "But Coinbase began a long tumble downhill,\nand CONY fell nearly 40%—what a spill!\nIts weekly distributions started shrinking as well;\nthe restful-sounding dividend rode a roller-coaster swell.",
+            "Jang broke even, then chose a steadier track:\nsafer ETFs, including ones following the S&P 500, filled his pack.\nAgustin Lebron’s warning fit this strange scene:\neasy, profitable trades are not often serene.",
+            "What happened? Jae Hyouk Jang invested in CONY, an ETF that sold call options tied to Coinbase stock and advertised a 58% annual payout rate. When Coinbase fell, CONY lost nearly 40% and its distributions shrank, showing that a payment called a “dividend” can actually come from a risky options strategy."
+          ]
+        },
+        "middle": {
+          "title": "The Dividend Nomad’s Bumpy Ride",
+          "lesson": "An option-income ETF can make large distributions by collecting fees from selling call options, but its shares and payouts can fall sharply when the stock tied to those options falls.",
+          "paragraphs": [
+            "Jae Hyouk Jang, at forty-three,\nleft security work to wander free.\nWith $130,000 saved away,\nhe crossed Thailand, Vietnam, and Laos day by day.",
+            "He joined “dividend nomads,” who travel about,\nusing investment-fund payments instead of a route\nthrough nine-to-five work. One fund caught his eye:\nYieldMax’s CONY, with payouts sky-high.",
+            "Its annual payout rate said 58%.\nWhere did all that generous income get sent?\nCONY sold call options on Coinbase each week—\nrisky crypto-stock income for travelers to seek.",
+            "A call gives its buyer, in trade for a fee,\na right to buy shares at a price both agree.\nThose fees helped fund CONY’s distributions,\nturning weekly wagers into “passive” solutions.",
+            "But Coinbase began a long tumble downhill,\nand CONY fell nearly 40%—what a spill!\nIts weekly distributions started shrinking as well;\nthe restful-sounding dividend rode a roller-coaster swell.",
+            "Jang broke even, then chose a steadier track:\nsafer ETFs, including ones following the S&P 500, filled his pack.\nAgustin Lebron’s warning fit this strange scene:\neasy, profitable trades are not often serene.",
+            "What happened? Jae Hyouk Jang invested in CONY, an ETF that sold call options tied to Coinbase stock and advertised a 58% annual payout rate. When Coinbase fell, CONY lost nearly 40% and its distributions shrank, showing that a payment called a “dividend” can actually come from a risky options strategy."
+          ]
+        },
+        "high": {
+          "title": "The Dividend Nomad’s Bumpy Ride",
+          "lesson": "An option-income ETF can make large distributions by collecting fees from selling call options, but its shares and payouts can fall sharply when the stock tied to those options falls.",
+          "paragraphs": [
+            "Jae Hyouk Jang, at forty-three,\nleft security work to wander free.\nWith $130,000 saved away,\nhe crossed Thailand, Vietnam, and Laos day by day.",
+            "He joined “dividend nomads,” who travel about,\nusing investment-fund payments instead of a route\nthrough nine-to-five work. One fund caught his eye:\nYieldMax’s CONY, with payouts sky-high.",
+            "Its annual payout rate said 58%.\nWhere did all that generous income get sent?\nCONY sold call options on Coinbase each week—\nrisky crypto-stock income for travelers to seek.",
+            "A call gives its buyer, in trade for a fee,\na right to buy shares at a price both agree.\nThose fees helped fund CONY’s distributions,\nturning weekly wagers into “passive” solutions.",
+            "But Coinbase began a long tumble downhill,\nand CONY fell nearly 40%—what a spill!\nIts weekly distributions started shrinking as well;\nthe restful-sounding dividend rode a roller-coaster swell.",
+            "Jang broke even, then chose a steadier track:\nsafer ETFs, including ones following the S&P 500, filled his pack.\nAgustin Lebron’s warning fit this strange scene:\neasy, profitable trades are not often serene.",
+            "What happened? Jae Hyouk Jang invested in CONY, an ETF that sold call options tied to Coinbase stock and advertised a 58% annual payout rate. When Coinbase fell, CONY lost nearly 40% and its distributions shrank, showing that a payment called a “dividend” can actually come from a risky options strategy."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sports-gambling-etfs",
+      "sourceSection": "Sports gambling ETFs",
+      "illustration": {
+        "src": "/images/2026-10-19-universal-basic-ai/sports-gambling-etfs.png",
+        "alt": "Baseball and hockey results move team-index gauges as CME Group futures papers lead toward stacks of sports ETF applications and a doubtful Mets retirement fund folder."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Vildana Hajric",
+          "Leigh Taylforth",
+          "Eric Balchunas",
+          "Jodie Gunzberg"
+        ],
+        "realCompanies": [
+          "Bloomberg",
+          "FutureSports",
+          "CME Group",
+          "Major League Baseball",
+          "National Hockey League",
+          "New York Mets"
+        ],
+        "financialMechanism": "Team statistics change FutureSports index values; CME Group futures track those indexes, and ETF issuers can create exchange-traded funds based on the futures.",
+        "centralJoke": "A joking prediction about a Mets gambling ETF suitable for a retirement account rapidly became plausible, raising the absurd possibility that nearly every ETF could someday be sports gambling."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Sports-Fund Flood",
+          "lesson": "FutureSports indexes track MLB and NHL team performance; CME Group futures follow those indexes, allowing issuers to build tradable ETFs whose values rise and fall with teams’ results.",
+          "paragraphs": [
+            "In March 2025 came a half-joking guess: “A sports-gambling ETF in two years, more or less?” But July brought a filing much sooner than planned: the Subversive All Season Sports ETF was at hand.",
+            "An ETF is a fund bought and sold like a share. This manager would choose sports wagers in there. You’d hand over your cash; they’d place every bet, then pass on the winnings—if winnings they get.",
+            "But where was the fun if a manager chose? Wouldn’t fans want a Mets fund that rose when New York rose? A Mets ETF in a retirement account? “Absolutely. Whatever.” The joke had checked out.",
+            "Then Bloomberg’s Vildana Hajric reported a wave: FutureSports built team indexes, each one a gauge. Wins, losses, and other statistics would make every benchmark grow stronger or weak as games changed week by week.",
+            "CME Group listed futures for every MLB and NHL team—contracts priced from those gauges. ETF issuers were already preparing funds based on the futures.",
+            "On Trillions with Eric Balchunas and Jodie Gunzberg there, FutureSports co-founder Leigh Taylforth had numbers to share: from more than 5,000 ETFs today, thousands more might appear—perhaps tens of thousands someday.",
+            "Would 99% of ETFs become sports bets in disguise? Would retirement accounts root for goals, wins, and flies? Probably not. But after the Mets-fund idea came near, “anything is possible” no longer sounded so queer.",
+            "What happened? FutureSports created indexes tied to MLB and NHL team performance, CME Group listed futures based on them, and ETF issuers began preparing funds linked to those futures. Leigh Taylforth said the number of such products could eventually reach thousands or tens of thousands."
+          ]
+        },
+        "elementary": {
+          "title": "The Sports-Fund Flood",
+          "lesson": "FutureSports indexes track MLB and NHL team performance; CME Group futures follow those indexes, allowing issuers to build tradable ETFs whose values rise and fall with teams’ results.",
+          "paragraphs": [
+            "In March 2025 came a half-joking guess: “A sports-gambling ETF in two years, more or less?” But July brought a filing much sooner than planned: the Subversive All Season Sports ETF was at hand.",
+            "An ETF is a fund bought and sold like a share. This manager would choose sports wagers in there. You’d hand over your cash; they’d place every bet, then pass on the winnings—if winnings they get.",
+            "But where was the fun if a manager chose? Wouldn’t fans want a Mets fund that rose when New York rose? A Mets ETF in a retirement account? “Absolutely. Whatever.” The joke had checked out.",
+            "Then Bloomberg’s Vildana Hajric reported a wave: FutureSports built team indexes, each one a gauge. Wins, losses, and other statistics would make every benchmark grow stronger or weak as games changed week by week.",
+            "CME Group listed futures for every MLB and NHL team—contracts priced from those gauges. ETF issuers were already preparing funds based on the futures.",
+            "On Trillions with Eric Balchunas and Jodie Gunzberg there, FutureSports co-founder Leigh Taylforth had numbers to share: from more than 5,000 ETFs today, thousands more might appear—perhaps tens of thousands someday.",
+            "Would 99% of ETFs become sports bets in disguise? Would retirement accounts root for goals, wins, and flies? Probably not. But after the Mets-fund idea came near, “anything is possible” no longer sounded so queer.",
+            "What happened? FutureSports created indexes tied to MLB and NHL team performance, CME Group listed futures based on them, and ETF issuers began preparing funds linked to those futures. Leigh Taylforth said the number of such products could eventually reach thousands or tens of thousands."
+          ]
+        },
+        "middle": {
+          "title": "The Sports-Fund Flood",
+          "lesson": "FutureSports indexes track MLB and NHL team performance; CME Group futures follow those indexes, allowing issuers to build tradable ETFs whose values rise and fall with teams’ results.",
+          "paragraphs": [
+            "In March 2025 came a half-joking guess: “A sports-gambling ETF in two years, more or less?” But July brought a filing much sooner than planned: the Subversive All Season Sports ETF was at hand.",
+            "An ETF is a fund bought and sold like a share. This manager would choose sports wagers in there. You’d hand over your cash; they’d place every bet, then pass on the winnings—if winnings they get.",
+            "But where was the fun if a manager chose? Wouldn’t fans want a Mets fund that rose when New York rose? A Mets ETF in a retirement account? “Absolutely. Whatever.” The joke had checked out.",
+            "Then Bloomberg’s Vildana Hajric reported a wave: FutureSports built team indexes, each one a gauge. Wins, losses, and other statistics would make every benchmark grow stronger or weak as games changed week by week.",
+            "CME Group listed futures for every MLB and NHL team—contracts priced from those gauges. ETF issuers were already preparing funds based on the futures.",
+            "On Trillions with Eric Balchunas and Jodie Gunzberg there, FutureSports co-founder Leigh Taylforth had numbers to share: from more than 5,000 ETFs today, thousands more might appear—perhaps tens of thousands someday.",
+            "Would 99% of ETFs become sports bets in disguise? Would retirement accounts root for goals, wins, and flies? Probably not. But after the Mets-fund idea came near, “anything is possible” no longer sounded so queer.",
+            "What happened? FutureSports created indexes tied to MLB and NHL team performance, CME Group listed futures based on them, and ETF issuers began preparing funds linked to those futures. Leigh Taylforth said the number of such products could eventually reach thousands or tens of thousands."
+          ]
+        },
+        "high": {
+          "title": "The Sports-Fund Flood",
+          "lesson": "FutureSports indexes track MLB and NHL team performance; CME Group futures follow those indexes, allowing issuers to build tradable ETFs whose values rise and fall with teams’ results.",
+          "paragraphs": [
+            "In March 2025 came a half-joking guess: “A sports-gambling ETF in two years, more or less?” But July brought a filing much sooner than planned: the Subversive All Season Sports ETF was at hand.",
+            "An ETF is a fund bought and sold like a share. This manager would choose sports wagers in there. You’d hand over your cash; they’d place every bet, then pass on the winnings—if winnings they get.",
+            "But where was the fun if a manager chose? Wouldn’t fans want a Mets fund that rose when New York rose? A Mets ETF in a retirement account? “Absolutely. Whatever.” The joke had checked out.",
+            "Then Bloomberg’s Vildana Hajric reported a wave: FutureSports built team indexes, each one a gauge. Wins, losses, and other statistics would make every benchmark grow stronger or weak as games changed week by week.",
+            "CME Group listed futures for every MLB and NHL team—contracts priced from those gauges. ETF issuers were already preparing funds based on the futures.",
+            "On Trillions with Eric Balchunas and Jodie Gunzberg there, FutureSports co-founder Leigh Taylforth had numbers to share: from more than 5,000 ETFs today, thousands more might appear—perhaps tens of thousands someday.",
+            "Would 99% of ETFs become sports bets in disguise? Would retirement accounts root for goals, wins, and flies? Probably not. But after the Mets-fund idea came near, “anything is possible” no longer sounded so queer.",
+            "What happened? FutureSports created indexes tied to MLB and NHL team performance, CME Group listed futures based on them, and ETF issuers began preparing funds linked to those futures. Leigh Taylforth said the number of such products could eventually reach thousands or tens of thousands."
+          ]
+        }
+      }
+    },
+    {
+      "id": "are-mbas-bad",
+      "sourceSection": "Are MBAs bad?",
+      "illustration": {
+        "src": "/images/2026-10-19-universal-basic-ai/are-mbas-bad.png",
+        "alt": "Chris Marquis removes an MBA sign while students carrying tuition envelopes line up nearby and he unveils plans for a School for Organizing."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Chris Marquis"
+        ],
+        "realCompanies": [
+          "The New York Times"
+        ],
+        "financialMechanism": "Students pay prestigious business schools for MBA credentials associated with high-paying careers, and the curriculum often emphasizes producing wealth for company shareholders.",
+        "centralJoke": "A proposal to replace business schools must itself obey a basic business-school lesson: offer something that paying customers actually want to buy."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The School That Had to Sell Its Replacement",
+          "lesson": "Prestigious MBA programs charge students for degrees associated with lucrative careers, while teaching a strong focus on shareholder wealth; any proposed replacement must still attract students willing to pay for it.",
+          "paragraphs": [
+            "Professor Chris Marquis at Cambridge asked one day,\n“What should an MBA teach along the way?”",
+            "At The New York Times, he described students who start\nwith leadership, people, and purpose at heart.",
+            "They hope to manage teams, help resources find\ntheir wisest use, and leave a better world behind.",
+            "But courses can alter the goals they once knew,\nuntil profits for shareholders guide what they do.",
+            "A shareholder owns part of a company, and then\nthe lessons may prize making more money for them.",
+            "“Take down the MBA’s high-status silo,” he said.\n“Build ‘schools for organizing’ in its stead.”",
+            "Let co-ops and unions be studied in class,\nwith movements and shareholder corporations amassed.",
+            "Yet business school’s market is easy to see:\nstudents want lucrative jobs and will pay for the degree.",
+            "Some might choose organizing, determined to lead—\nbut would that new diploma bring earnings they need?",
+            "Any new school needs paying students nearby,\nso it must sell them something they want to buy.",
+            "And that was the joke in the plan to say goodbye:\nit used business school’s lesson—sell what people will buy.",
+            "What happened? Cambridge business school professor Chris Marquis argued in The New York Times that MBA education redirects idealistic students toward maximizing shareholder wealth, so universities should replace MBAs with “schools for organizing.” The skeptical response was that prestigious MBA programs thrive because students pay for degrees linked to high-paying careers, while the demand and financial payoff for an organizing degree are uncertain."
+          ]
+        },
+        "elementary": {
+          "title": "The School That Had to Sell Its Replacement",
+          "lesson": "Prestigious MBA programs charge students for degrees associated with lucrative careers, while teaching a strong focus on shareholder wealth; any proposed replacement must still attract students willing to pay for it.",
+          "paragraphs": [
+            "Professor Chris Marquis at Cambridge asked one day,\n“What should an MBA teach along the way?”",
+            "At The New York Times, he described students who start\nwith leadership, people, and purpose at heart.",
+            "They hope to manage teams, help resources find\ntheir wisest use, and leave a better world behind.",
+            "But courses can alter the goals they once knew,\nuntil profits for shareholders guide what they do.",
+            "A shareholder owns part of a company, and then\nthe lessons may prize making more money for them.",
+            "“Take down the MBA’s high-status silo,” he said.\n“Build ‘schools for organizing’ in its stead.”",
+            "Let co-ops and unions be studied in class,\nwith movements and shareholder corporations amassed.",
+            "Yet business school’s market is easy to see:\nstudents want lucrative jobs and will pay for the degree.",
+            "Some might choose organizing, determined to lead—\nbut would that new diploma bring earnings they need?",
+            "Any new school needs paying students nearby,\nso it must sell them something they want to buy.",
+            "And that was the joke in the plan to say goodbye:\nit used business school’s lesson—sell what people will buy.",
+            "What happened? Cambridge business school professor Chris Marquis argued in The New York Times that MBA education redirects idealistic students toward maximizing shareholder wealth, so universities should replace MBAs with “schools for organizing.” The skeptical response was that prestigious MBA programs thrive because students pay for degrees linked to high-paying careers, while the demand and financial payoff for an organizing degree are uncertain."
+          ]
+        },
+        "middle": {
+          "title": "The School That Had to Sell Its Replacement",
+          "lesson": "Prestigious MBA programs charge students for degrees associated with lucrative careers, while teaching a strong focus on shareholder wealth; any proposed replacement must still attract students willing to pay for it.",
+          "paragraphs": [
+            "Professor Chris Marquis at Cambridge asked one day,\n“What should an MBA teach along the way?”",
+            "At The New York Times, he described students who start\nwith leadership, people, and purpose at heart.",
+            "They hope to manage teams, help resources find\ntheir wisest use, and leave a better world behind.",
+            "But courses can alter the goals they once knew,\nuntil profits for shareholders guide what they do.",
+            "A shareholder owns part of a company, and then\nthe lessons may prize making more money for them.",
+            "“Take down the MBA’s high-status silo,” he said.\n“Build ‘schools for organizing’ in its stead.”",
+            "Let co-ops and unions be studied in class,\nwith movements and shareholder corporations amassed.",
+            "Yet business school’s market is easy to see:\nstudents want lucrative jobs and will pay for the degree.",
+            "Some might choose organizing, determined to lead—\nbut would that new diploma bring earnings they need?",
+            "Any new school needs paying students nearby,\nso it must sell them something they want to buy.",
+            "And that was the joke in the plan to say goodbye:\nit used business school’s lesson—sell what people will buy.",
+            "What happened? Cambridge business school professor Chris Marquis argued in The New York Times that MBA education redirects idealistic students toward maximizing shareholder wealth, so universities should replace MBAs with “schools for organizing.” The skeptical response was that prestigious MBA programs thrive because students pay for degrees linked to high-paying careers, while the demand and financial payoff for an organizing degree are uncertain."
+          ]
+        },
+        "high": {
+          "title": "The School That Had to Sell Its Replacement",
+          "lesson": "Prestigious MBA programs charge students for degrees associated with lucrative careers, while teaching a strong focus on shareholder wealth; any proposed replacement must still attract students willing to pay for it.",
+          "paragraphs": [
+            "Professor Chris Marquis at Cambridge asked one day,\n“What should an MBA teach along the way?”",
+            "At The New York Times, he described students who start\nwith leadership, people, and purpose at heart.",
+            "They hope to manage teams, help resources find\ntheir wisest use, and leave a better world behind.",
+            "But courses can alter the goals they once knew,\nuntil profits for shareholders guide what they do.",
+            "A shareholder owns part of a company, and then\nthe lessons may prize making more money for them.",
+            "“Take down the MBA’s high-status silo,” he said.\n“Build ‘schools for organizing’ in its stead.”",
+            "Let co-ops and unions be studied in class,\nwith movements and shareholder corporations amassed.",
+            "Yet business school’s market is easy to see:\nstudents want lucrative jobs and will pay for the degree.",
+            "Some might choose organizing, determined to lead—\nbut would that new diploma bring earnings they need?",
+            "Any new school needs paying students nearby,\nso it must sell them something they want to buy.",
+            "And that was the joke in the plan to say goodbye:\nit used business school’s lesson—sell what people will buy.",
+            "What happened? Cambridge business school professor Chris Marquis argued in The New York Times that MBA education redirects idealistic students toward maximizing shareholder wealth, so universities should replace MBAs with “schools for organizing.” The skeptical response was that prestigious MBA programs thrive because students pay for degrees linked to high-paying careers, while the demand and financial payoff for an organizing degree are uncertain."
+          ]
+        }
+      }
+    },
+    {
+      "id": "onion-stuff",
+      "sourceSection": "Onion Stuff",
+      "illustration": {
+        "src": "/images/2026-10-19-universal-basic-ai/onion-stuff.png",
+        "alt": "An onion-costumed protester chants outside the Chicago Mercantile Exchange while another student reads that Philippine onions had cost more than meat."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "Chicago Mercantile Exchange"
+        ],
+        "financialMechanism": "Futures contracts set terms today for later trades; onion futures were federally banned after a 1955 market corner, while the later Philippine case involved cartel members illegally allocating the onion import, cold-storage, and wholesale markets.",
+        "centralJoke": "Students protested that a nearly 70-year-old onion-futures ban was absurdly outdated just as authorities announced a record fine over a modern onion cartel that had helped push onion prices above meat."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Onion That Couldn’t Speculate",
+          "lesson": "The Onion Futures Act banned onion futures after traders cornered that market in 1955; decades later, a separate Philippine onion cartel showed that traders could still manipulate onion markets without futures.",
+          "paragraphs": [
+            "A futures contract sets a price today\nfor goods that will be traded on a later day.\nBut traders cornered onion futures in 1955,\nand furious complaints soon reached Congress alive.",
+            "The Onion Futures Act arrived in ’58:\n“No trading onion futures”—that would be their fate.\nThe law now bars box-office-receipt futures too,\nbut onions made the odd old rule that everybody knew.",
+            "Years later, University of Chicago students joined the fun.\nThey carted roughly one hundred raw onions into the sun.\nEat one whole, they promised, and your bravery could be\nfeatured on the students’ website for the world to see.",
+            "In 2026, at the Chicago Mercantile Exchange,\na marcher dressed as an onion called the old ban strange:\n“Fifty eight, out of date!\nLet our onions speculate!”",
+            "Could anyone still corner onions after seventy years?\nThen news from the Philippines supplied some fresher fears.\nIn 2022, onion prices rose so high\nthat onions cost more than meat for shoppers passing by.",
+            "This wasn’t futures: six firms and their officers, officials said,\nhad illegally divided parts of the onion trade instead—\nimporting, cold storage, and wholesale distribution\nof red, yellow, and white onions drew the watchdog’s prosecution.",
+            "The Philippine Competition Commission imposed a record fine.\nThe students mocked an ancient scare—with wonderfully awkward timing.\nCould onion-market trouble ever happen once again?\nOnions, man! The answer seemed to be: it can.",
+            "What happened? Congress banned onion futures after traders cornered the market in 1955. Separately, Philippine authorities found that six firms and their officers used an illegal market-allocation cartel that helped make onions cost more than meat in 2022."
+          ]
+        },
+        "elementary": {
+          "title": "The Onion That Couldn’t Speculate",
+          "lesson": "The Onion Futures Act banned onion futures after traders cornered that market in 1955; decades later, a separate Philippine onion cartel showed that traders could still manipulate onion markets without futures.",
+          "paragraphs": [
+            "A futures contract sets a price today\nfor goods that will be traded on a later day.\nBut traders cornered onion futures in 1955,\nand furious complaints soon reached Congress alive.",
+            "The Onion Futures Act arrived in ’58:\n“No trading onion futures”—that would be their fate.\nThe law now bars box-office-receipt futures too,\nbut onions made the odd old rule that everybody knew.",
+            "Years later, University of Chicago students joined the fun.\nThey carted roughly one hundred raw onions into the sun.\nEat one whole, they promised, and your bravery could be\nfeatured on the students’ website for the world to see.",
+            "In 2026, at the Chicago Mercantile Exchange,\na marcher dressed as an onion called the old ban strange:\n“Fifty eight, out of date!\nLet our onions speculate!”",
+            "Could anyone still corner onions after seventy years?\nThen news from the Philippines supplied some fresher fears.\nIn 2022, onion prices rose so high\nthat onions cost more than meat for shoppers passing by.",
+            "This wasn’t futures: six firms and their officers, officials said,\nhad illegally divided parts of the onion trade instead—\nimporting, cold storage, and wholesale distribution\nof red, yellow, and white onions drew the watchdog’s prosecution.",
+            "The Philippine Competition Commission imposed a record fine.\nThe students mocked an ancient scare—with wonderfully awkward timing.\nCould onion-market trouble ever happen once again?\nOnions, man! The answer seemed to be: it can.",
+            "What happened? Congress banned onion futures after traders cornered the market in 1955. Separately, Philippine authorities found that six firms and their officers used an illegal market-allocation cartel that helped make onions cost more than meat in 2022."
+          ]
+        },
+        "middle": {
+          "title": "The Onion That Couldn’t Speculate",
+          "lesson": "The Onion Futures Act banned onion futures after traders cornered that market in 1955; decades later, a separate Philippine onion cartel showed that traders could still manipulate onion markets without futures.",
+          "paragraphs": [
+            "A futures contract sets a price today\nfor goods that will be traded on a later day.\nBut traders cornered onion futures in 1955,\nand furious complaints soon reached Congress alive.",
+            "The Onion Futures Act arrived in ’58:\n“No trading onion futures”—that would be their fate.\nThe law now bars box-office-receipt futures too,\nbut onions made the odd old rule that everybody knew.",
+            "Years later, University of Chicago students joined the fun.\nThey carted roughly one hundred raw onions into the sun.\nEat one whole, they promised, and your bravery could be\nfeatured on the students’ website for the world to see.",
+            "In 2026, at the Chicago Mercantile Exchange,\na marcher dressed as an onion called the old ban strange:\n“Fifty eight, out of date!\nLet our onions speculate!”",
+            "Could anyone still corner onions after seventy years?\nThen news from the Philippines supplied some fresher fears.\nIn 2022, onion prices rose so high\nthat onions cost more than meat for shoppers passing by.",
+            "This wasn’t futures: six firms and their officers, officials said,\nhad illegally divided parts of the onion trade instead—\nimporting, cold storage, and wholesale distribution\nof red, yellow, and white onions drew the watchdog’s prosecution.",
+            "The Philippine Competition Commission imposed a record fine.\nThe students mocked an ancient scare—with wonderfully awkward timing.\nCould onion-market trouble ever happen once again?\nOnions, man! The answer seemed to be: it can.",
+            "What happened? Congress banned onion futures after traders cornered the market in 1955. Separately, Philippine authorities found that six firms and their officers used an illegal market-allocation cartel that helped make onions cost more than meat in 2022."
+          ]
+        },
+        "high": {
+          "title": "The Onion That Couldn’t Speculate",
+          "lesson": "The Onion Futures Act banned onion futures after traders cornered that market in 1955; decades later, a separate Philippine onion cartel showed that traders could still manipulate onion markets without futures.",
+          "paragraphs": [
+            "A futures contract sets a price today\nfor goods that will be traded on a later day.\nBut traders cornered onion futures in 1955,\nand furious complaints soon reached Congress alive.",
+            "The Onion Futures Act arrived in ’58:\n“No trading onion futures”—that would be their fate.\nThe law now bars box-office-receipt futures too,\nbut onions made the odd old rule that everybody knew.",
+            "Years later, University of Chicago students joined the fun.\nThey carted roughly one hundred raw onions into the sun.\nEat one whole, they promised, and your bravery could be\nfeatured on the students’ website for the world to see.",
+            "In 2026, at the Chicago Mercantile Exchange,\na marcher dressed as an onion called the old ban strange:\n“Fifty eight, out of date!\nLet our onions speculate!”",
+            "Could anyone still corner onions after seventy years?\nThen news from the Philippines supplied some fresher fears.\nIn 2022, onion prices rose so high\nthat onions cost more than meat for shoppers passing by.",
+            "This wasn’t futures: six firms and their officers, officials said,\nhad illegally divided parts of the onion trade instead—\nimporting, cold storage, and wholesale distribution\nof red, yellow, and white onions drew the watchdog’s prosecution.",
+            "The Philippine Competition Commission imposed a record fine.\nThe students mocked an ancient scare—with wonderfully awkward timing.\nCould onion-market trouble ever happen once again?\nOnions, man! The answer seemed to be: it can.",
+            "What happened? Congress banned onion futures after traders cornered the market in 1955. Separately, Philippine authorities found that six firms and their officers used an illegal market-allocation cartel that helped make onions cost more than meat in 2022."
+          ]
+        }
+      }
+    }
+  ]
+}
