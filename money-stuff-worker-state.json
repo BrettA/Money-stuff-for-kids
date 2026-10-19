@@ -492,6 +492,18 @@
       "submitted": true,
       "updatedAt": "2026-10-16T18:21:50.969Z",
       "submittedAt": "2026-10-16T18:21:50.969Z"
+    },
+    "1a1556c5bb0fd716": {
+      "gmailMessageId": "1a1556c5bb0fd716",
+      "newsletterDate": "2026-10-19",
+      "newsletterTitle": "Universal Basic AI",
+      "editionId": "2026-10-19-universal-basic-ai",
+      "sourceSha256": "3223129a394ca02b1335fb20be1ecc4b7d5ff74276aab056a66e717d1b08783f",
+      "packageSha256": "e67aafcc0ac6026e6538dd4f32c57abfc564eae5775a1805354c65841cd05521",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-19T21:49:20.404Z",
+      "submittedAt": "2026-10-19T21:49:20.404Z"
     }
   }
 }
