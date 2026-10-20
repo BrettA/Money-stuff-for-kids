@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-20-someone-has-to-take-the-ai-risk",
+  "date": "2026-10-20",
+  "displayDate": "October 20, 2026",
+  "title": "Someone Has to Take the AI Risk",
+  "sourceSections": [
+    "AI CDS",
+    "Short-term investments",
+    "Evergreen continuation vehicles",
+    "Polymarket matures",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "ai-cds",
+      "sourceSection": "AI CDS",
+      "illustration": {
+        "src": "/images/2026-10-20-someone-has-to-take-the-ai-risk/ai-cds.png",
+        "alt": "Investors reach for Oracle CDS contracts while banks, insurers and hedge funds already carry stacks of AI data-center bonds beside a chip-filled server hall."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jim Caron",
+          "Jeremy Maletz",
+          "Leopold Aschenbrenner",
+          "Preeti Singh"
+        ],
+        "realCompanies": [
+          "Oracle Corp.",
+          "SpaceX",
+          "Alphabet",
+          "Amazon",
+          "Meta",
+          "Broadcom",
+          "Nvidia",
+          "CoreWeave",
+          "Microsoft",
+          "Morgan Stanley Investment Management",
+          "Susquehanna International Group",
+          "AIG",
+          "OpenAI",
+          "Blackstone Inc."
+        ],
+        "financialMechanism": "AI data-center borrowing creates correlated credit risk. CDS buyers pay recurring premiums to counterparties that promise to pay upon a referenced company’s default; heavy demand for protection pushed AI-linked CDS volumes and spreads higher, while transferring rather than removing the systematic risk.",
+        "centralJoke": "Everyone wants insurance against an AI bust, but the insurers, banks and funds that might sell it often already own piles of the same AI risk—so their ability to pay could weaken in exactly the disaster being insured."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Insurance Everyone Wanted",
+          "lesson": "Credit default swaps transfer default risk: buyers pay premiums, and sellers promise to pay if a named borrower defaults—but widespread AI exposure makes that protection costly and leaves the market-wide risk somewhere in the financial system.",
+          "paragraphs": [
+            "A kajillion was borrowed for buildings packed with chips,\nWhere AI tenants would pay rent on long, expensive trips.\nIf AI earned enough, each loan could be repaid;\nIf chips went cold or stale, then trouble had been made.",
+            "Investors sought a safety net called CDS:\nPay premiums to a seller, who pays if debts collapse.\nOracle protection once cost 0.33% a year;\nNow roughly 3.3% showed ten times more fear.",
+            "By September, weekly trades had climbed past $9 billion—whew!—\nFrom less than $2 billion back in July’s view.\nOracle, SpaceX, Alphabet, Amazon joined the crowd,\nWith Meta, Broadcom and Nvidia named aloud.",
+            "Even safer Microsoft saw protection prices rise;\nCoreWeave’s spread climbed too, as worry filled investors’ eyes.\nJim Caron called CDS a cheap and useful shield—\nBut who would sell protection when the whole wide market reeled?",
+            "The insurers, banks and hedge funds heard each anxious call,\nBut many owned AI loans and bonds already—one and all.\nThey could promise help if AI’s grand boom went bust,\nYet that very bust might empty out the pockets they must trust.",
+            "Jeremy Maletz heard requests for prediction-market cover;\nStill, every eager buyer needed someone betting the other.\nAIG? Leopold Aschenbrenner? Those suggestions were in fun;\nOpenAI had even floated government when private help was done.",
+            "Preeti Singh reported Blackstone leaning into AI,\nFinancing more data centers reaching toward the sky.\nRisk could move to funds and swaps, wherever traders sent it—\nBut clever contracts could not make the market-wide risk exit.",
+            "What happened? Investors bought more credit default swaps tied to AI-linked borrowers, paying sellers for a payout if those companies defaulted. Because many possible sellers already held AI-related debt, demand surged, prices rose, and the same concentrated risk could be transferred but not eliminated."
+          ]
+        },
+        "elementary": {
+          "title": "The Insurance Everyone Wanted",
+          "lesson": "Credit default swaps transfer default risk: buyers pay premiums, and sellers promise to pay if a named borrower defaults—but widespread AI exposure makes that protection costly and leaves the market-wide risk somewhere in the financial system.",
+          "paragraphs": [
+            "A kajillion was borrowed for buildings packed with chips,\nWhere AI tenants would pay rent on long, expensive trips.\nIf AI earned enough, each loan could be repaid;\nIf chips went cold or stale, then trouble had been made.",
+            "Investors sought a safety net called CDS:\nPay premiums to a seller, who pays if debts collapse.\nOracle protection once cost 0.33% a year;\nNow roughly 3.3% showed ten times more fear.",
+            "By September, weekly trades had climbed past $9 billion—whew!—\nFrom less than $2 billion back in July’s view.\nOracle, SpaceX, Alphabet, Amazon joined the crowd,\nWith Meta, Broadcom and Nvidia named aloud.",
+            "Even safer Microsoft saw protection prices rise;\nCoreWeave’s spread climbed too, as worry filled investors’ eyes.\nJim Caron called CDS a cheap and useful shield—\nBut who would sell protection when the whole wide market reeled?",
+            "The insurers, banks and hedge funds heard each anxious call,\nBut many owned AI loans and bonds already—one and all.\nThey could promise help if AI’s grand boom went bust,\nYet that very bust might empty out the pockets they must trust.",
+            "Jeremy Maletz heard requests for prediction-market cover;\nStill, every eager buyer needed someone betting the other.\nAIG? Leopold Aschenbrenner? Those suggestions were in fun;\nOpenAI had even floated government when private help was done.",
+            "Preeti Singh reported Blackstone leaning into AI,\nFinancing more data centers reaching toward the sky.\nRisk could move to funds and swaps, wherever traders sent it—\nBut clever contracts could not make the market-wide risk exit.",
+            "What happened? Investors bought more credit default swaps tied to AI-linked borrowers, paying sellers for a payout if those companies defaulted. Because many possible sellers already held AI-related debt, demand surged, prices rose, and the same concentrated risk could be transferred but not eliminated."
+          ]
+        },
+        "middle": {
+          "title": "The Insurance Everyone Wanted",
+          "lesson": "Credit default swaps transfer default risk: buyers pay premiums, and sellers promise to pay if a named borrower defaults—but widespread AI exposure makes that protection costly and leaves the market-wide risk somewhere in the financial system.",
+          "paragraphs": [
+            "A kajillion was borrowed for buildings packed with chips,\nWhere AI tenants would pay rent on long, expensive trips.\nIf AI earned enough, each loan could be repaid;\nIf chips went cold or stale, then trouble had been made.",
+            "Investors sought a safety net called CDS:\nPay premiums to a seller, who pays if debts collapse.\nOracle protection once cost 0.33% a year;\nNow roughly 3.3% showed ten times more fear.",
+            "By September, weekly trades had climbed past $9 billion—whew!—\nFrom less than $2 billion back in July’s view.\nOracle, SpaceX, Alphabet, Amazon joined the crowd,\nWith Meta, Broadcom and Nvidia named aloud.",
+            "Even safer Microsoft saw protection prices rise;\nCoreWeave’s spread climbed too, as worry filled investors’ eyes.\nJim Caron called CDS a cheap and useful shield—\nBut who would sell protection when the whole wide market reeled?",
+            "The insurers, banks and hedge funds heard each anxious call,\nBut many owned AI loans and bonds already—one and all.\nThey could promise help if AI’s grand boom went bust,\nYet that very bust might empty out the pockets they must trust.",
+            "Jeremy Maletz heard requests for prediction-market cover;\nStill, every eager buyer needed someone betting the other.\nAIG? Leopold Aschenbrenner? Those suggestions were in fun;\nOpenAI had even floated government when private help was done.",
+            "Preeti Singh reported Blackstone leaning into AI,\nFinancing more data centers reaching toward the sky.\nRisk could move to funds and swaps, wherever traders sent it—\nBut clever contracts could not make the market-wide risk exit.",
+            "What happened? Investors bought more credit default swaps tied to AI-linked borrowers, paying sellers for a payout if those companies defaulted. Because many possible sellers already held AI-related debt, demand surged, prices rose, and the same concentrated risk could be transferred but not eliminated."
+          ]
+        },
+        "high": {
+          "title": "The Insurance Everyone Wanted",
+          "lesson": "Credit default swaps transfer default risk: buyers pay premiums, and sellers promise to pay if a named borrower defaults—but widespread AI exposure makes that protection costly and leaves the market-wide risk somewhere in the financial system.",
+          "paragraphs": [
+            "A kajillion was borrowed for buildings packed with chips,\nWhere AI tenants would pay rent on long, expensive trips.\nIf AI earned enough, each loan could be repaid;\nIf chips went cold or stale, then trouble had been made.",
+            "Investors sought a safety net called CDS:\nPay premiums to a seller, who pays if debts collapse.\nOracle protection once cost 0.33% a year;\nNow roughly 3.3% showed ten times more fear.",
+            "By September, weekly trades had climbed past $9 billion—whew!—\nFrom less than $2 billion back in July’s view.\nOracle, SpaceX, Alphabet, Amazon joined the crowd,\nWith Meta, Broadcom and Nvidia named aloud.",
+            "Even safer Microsoft saw protection prices rise;\nCoreWeave’s spread climbed too, as worry filled investors’ eyes.\nJim Caron called CDS a cheap and useful shield—\nBut who would sell protection when the whole wide market reeled?",
+            "The insurers, banks and hedge funds heard each anxious call,\nBut many owned AI loans and bonds already—one and all.\nThey could promise help if AI’s grand boom went bust,\nYet that very bust might empty out the pockets they must trust.",
+            "Jeremy Maletz heard requests for prediction-market cover;\nStill, every eager buyer needed someone betting the other.\nAIG? Leopold Aschenbrenner? Those suggestions were in fun;\nOpenAI had even floated government when private help was done.",
+            "Preeti Singh reported Blackstone leaning into AI,\nFinancing more data centers reaching toward the sky.\nRisk could move to funds and swaps, wherever traders sent it—\nBut clever contracts could not make the market-wide risk exit.",
+            "What happened? Investors bought more credit default swaps tied to AI-linked borrowers, paying sellers for a payout if those companies defaulted. Because many possible sellers already held AI-related debt, demand surged, prices rose, and the same concentrated risk could be transferred but not eliminated."
+          ]
+        }
+      }
+    },
+    {
+      "id": "short-term-investments",
+      "sourceSection": "Short-term investments",
+      "illustration": {
+        "src": "/images/2026-10-20-someone-has-to-take-the-ai-risk/short-term-investments.png",
+        "alt": "Mark Walter watches a Delaware Life loan marked $40 million loop through repeated six-month renewals as calendar pages pile up beside a Dodgers stadium."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Mark Walter",
+          "Zachary Mider",
+          "Weihua Li"
+        ],
+        "realCompanies": [
+          "Delaware Life Insurance Co.",
+          "Bloomberg",
+          "Los Angeles Dodgers"
+        ],
+        "financialMechanism": "Walter’s insurers rolled six-month loans again and again, allowing economically long-term loans to Walter-controlled firms to receive the lower regulatory capital charges available to certain short-term investments.",
+        "centralJoke": "A loan called “six months” could last nearly a decade—and rolling six-month loans could help finance something meant to be owned for years, such as the Los Angeles Dodgers."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Six-Month Loan That Wouldn’t End",
+          "lesson": "Repeatedly rolling six-month loans let Mark Walter’s insurers treat years-long, risky related-party lending as short-term investments, reducing the capital cushion required by insurance rules.",
+          "paragraphs": [
+            "Mark Walter owned insurers. Their customers would pay\nfor annuities—future checks promised someday.\nWalter controlled where that money could go,\nincluding loans to his businesses, Bloomberg would show.",
+            "In December 2018, Delaware Life\nsent forty million dollars to an undisclosed borrower. The loan was due in six months.",
+            "But June brought a rollover, not money repaid:\na fresh six-month loan, then another was made.\nAgain and again, the due date would bend—\na “short-term” investment that just wouldn’t end.",
+            "Risky long loans may need thirty percent\nheld safely as capital in case it gets spent.\nBut certain short loans faced a charge of point-three-nine;\nrolling them helped keep that cheaper design.",
+            "Reporters Zachary Mider and Weihua Li\nfound loans to Walter-controlled LLCs.\nAbout $2.3 billion had rolled from the year before,\nand some had kept rolling for nearly a decade or more.",
+            "Six months is too brief to buy the Dodgers and stay;\na ball club won’t earn back its price right away.\nBut link six-month loans in a long paper chain,\nand “short-term” can circle for years like a train.",
+            "What happened? Bloomberg reported that Mark Walter’s insurers repeatedly renewed loans labeled as short-term, including a $40 million Delaware Life loan, while directing billions toward firms he controlled. The short-term label could reduce required risk-based capital from as much as 30% to as little as 0.39%, even when loans kept rolling for years."
+          ]
+        },
+        "elementary": {
+          "title": "The Six-Month Loan That Wouldn’t End",
+          "lesson": "Repeatedly rolling six-month loans let Mark Walter’s insurers treat years-long, risky related-party lending as short-term investments, reducing the capital cushion required by insurance rules.",
+          "paragraphs": [
+            "Mark Walter owned insurers. Their customers would pay\nfor annuities—future checks promised someday.\nWalter controlled where that money could go,\nincluding loans to his businesses, Bloomberg would show.",
+            "In December 2018, Delaware Life\nsent forty million dollars to an undisclosed borrower. The loan was due in six months.",
+            "But June brought a rollover, not money repaid:\na fresh six-month loan, then another was made.\nAgain and again, the due date would bend—\na “short-term” investment that just wouldn’t end.",
+            "Risky long loans may need thirty percent\nheld safely as capital in case it gets spent.\nBut certain short loans faced a charge of point-three-nine;\nrolling them helped keep that cheaper design.",
+            "Reporters Zachary Mider and Weihua Li\nfound loans to Walter-controlled LLCs.\nAbout $2.3 billion had rolled from the year before,\nand some had kept rolling for nearly a decade or more.",
+            "Six months is too brief to buy the Dodgers and stay;\na ball club won’t earn back its price right away.\nBut link six-month loans in a long paper chain,\nand “short-term” can circle for years like a train.",
+            "What happened? Bloomberg reported that Mark Walter’s insurers repeatedly renewed loans labeled as short-term, including a $40 million Delaware Life loan, while directing billions toward firms he controlled. The short-term label could reduce required risk-based capital from as much as 30% to as little as 0.39%, even when loans kept rolling for years."
+          ]
+        },
+        "middle": {
+          "title": "The Six-Month Loan That Wouldn’t End",
+          "lesson": "Repeatedly rolling six-month loans let Mark Walter’s insurers treat years-long, risky related-party lending as short-term investments, reducing the capital cushion required by insurance rules.",
+          "paragraphs": [
+            "Mark Walter owned insurers. Their customers would pay\nfor annuities—future checks promised someday.\nWalter controlled where that money could go,\nincluding loans to his businesses, Bloomberg would show.",
+            "In December 2018, Delaware Life\nsent forty million dollars to an undisclosed borrower. The loan was due in six months.",
+            "But June brought a rollover, not money repaid:\na fresh six-month loan, then another was made.\nAgain and again, the due date would bend—\na “short-term” investment that just wouldn’t end.",
+            "Risky long loans may need thirty percent\nheld safely as capital in case it gets spent.\nBut certain short loans faced a charge of point-three-nine;\nrolling them helped keep that cheaper design.",
+            "Reporters Zachary Mider and Weihua Li\nfound loans to Walter-controlled LLCs.\nAbout $2.3 billion had rolled from the year before,\nand some had kept rolling for nearly a decade or more.",
+            "Six months is too brief to buy the Dodgers and stay;\na ball club won’t earn back its price right away.\nBut link six-month loans in a long paper chain,\nand “short-term” can circle for years like a train.",
+            "What happened? Bloomberg reported that Mark Walter’s insurers repeatedly renewed loans labeled as short-term, including a $40 million Delaware Life loan, while directing billions toward firms he controlled. The short-term label could reduce required risk-based capital from as much as 30% to as little as 0.39%, even when loans kept rolling for years."
+          ]
+        },
+        "high": {
+          "title": "The Six-Month Loan That Wouldn’t End",
+          "lesson": "Repeatedly rolling six-month loans let Mark Walter’s insurers treat years-long, risky related-party lending as short-term investments, reducing the capital cushion required by insurance rules.",
+          "paragraphs": [
+            "Mark Walter owned insurers. Their customers would pay\nfor annuities—future checks promised someday.\nWalter controlled where that money could go,\nincluding loans to his businesses, Bloomberg would show.",
+            "In December 2018, Delaware Life\nsent forty million dollars to an undisclosed borrower. The loan was due in six months.",
+            "But June brought a rollover, not money repaid:\na fresh six-month loan, then another was made.\nAgain and again, the due date would bend—\na “short-term” investment that just wouldn’t end.",
+            "Risky long loans may need thirty percent\nheld safely as capital in case it gets spent.\nBut certain short loans faced a charge of point-three-nine;\nrolling them helped keep that cheaper design.",
+            "Reporters Zachary Mider and Weihua Li\nfound loans to Walter-controlled LLCs.\nAbout $2.3 billion had rolled from the year before,\nand some had kept rolling for nearly a decade or more.",
+            "Six months is too brief to buy the Dodgers and stay;\na ball club won’t earn back its price right away.\nBut link six-month loans in a long paper chain,\nand “short-term” can circle for years like a train.",
+            "What happened? Bloomberg reported that Mark Walter’s insurers repeatedly renewed loans labeled as short-term, including a $40 million Delaware Life loan, while directing billions toward firms he controlled. The short-term label could reduce required risk-based capital from as much as 30% to as little as 0.39%, even when loans kept rolling for years."
+          ]
+        }
+      }
+    },
+    {
+      "id": "evergreen-continuation-vehicles",
+      "sourceSection": "Evergreen continuation vehicles",
+      "illustration": {
+        "src": "/images/2026-10-20-someone-has-to-take-the-ai-risk/evergreen-continuation-vehicles.png",
+        "alt": "Sunaina Sinha Haldea presents an evergreen continuation vehicle that keeps a profitable company safely away from an exit door while bankers and three reporters look on."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Laura Benitez",
+          "Preeti Singh",
+          "Layan Odeh",
+          "Sunaina Sinha Haldea"
+        ],
+        "realCompanies": [
+          "Goldman Sachs Group Inc.",
+          "Evercore Inc.",
+          "Jefferies Financial Group Inc.",
+          "Raymond James Financial Inc.",
+          "Lazard Inc."
+        ],
+        "financialMechanism": "Private equity traditionally earns an exit profit by buying, improving, and reselling companies. Evergreen continuation vehicles instead provide longer-lasting capital, including unfunded commitments for growth, so firms can keep assets and collect their cash flows without pressure to exit.",
+        "centralJoke": "As private equity grows too large to keep flipping every company back to the market, its supposedly novel pitch becomes simply: own a profitable company forever."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Company That Didn’t Have to Go",
+          "lesson": "Evergreen continuation vehicles can give private equity firms permanent capital and additional unfunded commitments, allowing them to keep profitable companies longer and collect their cash flows instead of selling for an exit profit.",
+          "paragraphs": [
+            "Private equity would buy a good company low,\nImprove how it worked, help its earnings to grow.\nIt might change the financing, management too,\nThen sell after years for much more than was due.",
+            "The “exit” was key: find a buyer who’d pay,\nAnd profit by sending the company away.\nBut private markets grew, till a question appeared:\nWhy sell a fine business that earns year by year?",
+            "Laura Benitez, Preeti Singh, and Layan Odeh found\nThat a new sort of plan was being passed around.\nGoldman Sachs and Evercore tested the view;\nJefferies, Raymond James, and Lazard did too.",
+            "They pitched “evergreen continuation” funds,\nWith capital waiting for growth when it comes.\nThe asset could stay, with more time to succeed—\nNo hurried sale and no exit-day need.",
+            "Sunaina Sinha Haldea of Raymond James said\nPermanent-capital plans were just starting to spread.\nSo the grand clever pitch, once the flipping was done,\nWas: “Own this profitable company forever.” That’s the fun.",
+            "What happened? Banks explored evergreen continuation vehicles that would let private equity firms hold companies much longer, with unfunded capital available for growth and no pressure to sell. Instead of relying on an exit price, investors could keep collecting profits from the companies they own."
+          ]
+        },
+        "elementary": {
+          "title": "The Company That Didn’t Have to Go",
+          "lesson": "Evergreen continuation vehicles can give private equity firms permanent capital and additional unfunded commitments, allowing them to keep profitable companies longer and collect their cash flows instead of selling for an exit profit.",
+          "paragraphs": [
+            "Private equity would buy a good company low,\nImprove how it worked, help its earnings to grow.\nIt might change the financing, management too,\nThen sell after years for much more than was due.",
+            "The “exit” was key: find a buyer who’d pay,\nAnd profit by sending the company away.\nBut private markets grew, till a question appeared:\nWhy sell a fine business that earns year by year?",
+            "Laura Benitez, Preeti Singh, and Layan Odeh found\nThat a new sort of plan was being passed around.\nGoldman Sachs and Evercore tested the view;\nJefferies, Raymond James, and Lazard did too.",
+            "They pitched “evergreen continuation” funds,\nWith capital waiting for growth when it comes.\nThe asset could stay, with more time to succeed—\nNo hurried sale and no exit-day need.",
+            "Sunaina Sinha Haldea of Raymond James said\nPermanent-capital plans were just starting to spread.\nSo the grand clever pitch, once the flipping was done,\nWas: “Own this profitable company forever.” That’s the fun.",
+            "What happened? Banks explored evergreen continuation vehicles that would let private equity firms hold companies much longer, with unfunded capital available for growth and no pressure to sell. Instead of relying on an exit price, investors could keep collecting profits from the companies they own."
+          ]
+        },
+        "middle": {
+          "title": "The Company That Didn’t Have to Go",
+          "lesson": "Evergreen continuation vehicles can give private equity firms permanent capital and additional unfunded commitments, allowing them to keep profitable companies longer and collect their cash flows instead of selling for an exit profit.",
+          "paragraphs": [
+            "Private equity would buy a good company low,\nImprove how it worked, help its earnings to grow.\nIt might change the financing, management too,\nThen sell after years for much more than was due.",
+            "The “exit” was key: find a buyer who’d pay,\nAnd profit by sending the company away.\nBut private markets grew, till a question appeared:\nWhy sell a fine business that earns year by year?",
+            "Laura Benitez, Preeti Singh, and Layan Odeh found\nThat a new sort of plan was being passed around.\nGoldman Sachs and Evercore tested the view;\nJefferies, Raymond James, and Lazard did too.",
+            "They pitched “evergreen continuation” funds,\nWith capital waiting for growth when it comes.\nThe asset could stay, with more time to succeed—\nNo hurried sale and no exit-day need.",
+            "Sunaina Sinha Haldea of Raymond James said\nPermanent-capital plans were just starting to spread.\nSo the grand clever pitch, once the flipping was done,\nWas: “Own this profitable company forever.” That’s the fun.",
+            "What happened? Banks explored evergreen continuation vehicles that would let private equity firms hold companies much longer, with unfunded capital available for growth and no pressure to sell. Instead of relying on an exit price, investors could keep collecting profits from the companies they own."
+          ]
+        },
+        "high": {
+          "title": "The Company That Didn’t Have to Go",
+          "lesson": "Evergreen continuation vehicles can give private equity firms permanent capital and additional unfunded commitments, allowing them to keep profitable companies longer and collect their cash flows instead of selling for an exit profit.",
+          "paragraphs": [
+            "Private equity would buy a good company low,\nImprove how it worked, help its earnings to grow.\nIt might change the financing, management too,\nThen sell after years for much more than was due.",
+            "The “exit” was key: find a buyer who’d pay,\nAnd profit by sending the company away.\nBut private markets grew, till a question appeared:\nWhy sell a fine business that earns year by year?",
+            "Laura Benitez, Preeti Singh, and Layan Odeh found\nThat a new sort of plan was being passed around.\nGoldman Sachs and Evercore tested the view;\nJefferies, Raymond James, and Lazard did too.",
+            "They pitched “evergreen continuation” funds,\nWith capital waiting for growth when it comes.\nThe asset could stay, with more time to succeed—\nNo hurried sale and no exit-day need.",
+            "Sunaina Sinha Haldea of Raymond James said\nPermanent-capital plans were just starting to spread.\nSo the grand clever pitch, once the flipping was done,\nWas: “Own this profitable company forever.” That’s the fun.",
+            "What happened? Banks explored evergreen continuation vehicles that would let private equity firms hold companies much longer, with unfunded capital available for growth and no pressure to sell. Instead of relying on an exit price, investors could keep collecting profits from the companies they own."
+          ]
+        }
+      }
+    },
+    {
+      "id": "polymarket-matures",
+      "sourceSection": "Polymarket matures",
+      "illustration": {
+        "src": "/images/2026-10-20-someone-has-to-take-the-ai-risk/polymarket-matures.png",
+        "alt": "Shayne Coplan sits beside private-jet and apartment receipts as ICE and Founders Fund folders point toward an empty chief operating officer chair at Polymarket."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Shayne Coplan"
+        ],
+        "realCompanies": [
+          "Polymarket",
+          "Kalshi",
+          "Bloomberg",
+          "Intercontinental Exchange Inc. (ICE)",
+          "New York Stock Exchange",
+          "Founders Fund"
+        ],
+        "financialMechanism": "Prediction-market contracts let traders buy positions on whether events will happen. Polymarket initially used offshore crypto infrastructure rather than seeking US regulatory approval, while Kalshi pursued regulation through lobbying and litigation; Kalshi’s success pushed Polymarket toward regulated US infrastructure.",
+        "centralJoke": "Investors knowingly backed a young founder running what the source calls an offshore crypto casino to avoid US regulation, then acted surprised and disapproving when he billed private-jet travel to the company."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Polymarket’s Growing-Up Bet",
+          "lesson": "Polymarket built prediction markets on offshore crypto infrastructure because US approval seemed unlikely, but after regulated rival Kalshi succeeded, Polymarket began shifting toward a disciplined, regulated exchange model under investor pressure.",
+          "paragraphs": [
+            "At twenty-eight, Shayne Coplan led Polymarket’s crew, where contracts paid traders when guessed events came true. Traders bought “yes” or “no,” and each price could show what the crowd thought might happen as forecasts would grow.",
+            "Four years ago, Kalshi chose rules as its route, with lobbying and lawsuits to work matters out. It sought US approval, all proper and bright, though becoming a regulated exchange seemed a strange bet to get right.",
+            "Polymarket figured approval would move much too slow, so offshore crypto was where it would go. Its markets ran statelessly, beyond US gates, while winkingly telling US traders, “Please wait.”",
+            "But Kalshi’s odd gamble succeeded at last, while Polymarket hurried to follow its path. Investors pressed Coplan for structure and care as Polymarket tried becoming a grown-up exchange.",
+            "Bloomberg reported company funds had been spent on his rent, private jets, and personal expense. ICE—the New York Stock Exchange parent—and Founders Fund urged him to hire a chief operating officer; he had not yet done so.",
+            "Coplan said growing pains made him grow, too, and an excellent executive team was his 2026 goal. Yet the backers’ complaint had a comical ring: they had funded an offshore crypto casino—and now found the private jet shocking.",
+            "What happened? Polymarket’s investors backed an offshore, crypto-based prediction market that avoided the difficult US approval process, but Kalshi proved a regulated US exchange could succeed. As Polymarket shifted toward that model, investors pushed Coplan to add executives and tighter spending controls after Bloomberg reported his use of company money for private flights, rent, and personal expenses."
+          ]
+        },
+        "elementary": {
+          "title": "Polymarket’s Growing-Up Bet",
+          "lesson": "Polymarket built prediction markets on offshore crypto infrastructure because US approval seemed unlikely, but after regulated rival Kalshi succeeded, Polymarket began shifting toward a disciplined, regulated exchange model under investor pressure.",
+          "paragraphs": [
+            "At twenty-eight, Shayne Coplan led Polymarket’s crew, where contracts paid traders when guessed events came true. Traders bought “yes” or “no,” and each price could show what the crowd thought might happen as forecasts would grow.",
+            "Four years ago, Kalshi chose rules as its route, with lobbying and lawsuits to work matters out. It sought US approval, all proper and bright, though becoming a regulated exchange seemed a strange bet to get right.",
+            "Polymarket figured approval would move much too slow, so offshore crypto was where it would go. Its markets ran statelessly, beyond US gates, while winkingly telling US traders, “Please wait.”",
+            "But Kalshi’s odd gamble succeeded at last, while Polymarket hurried to follow its path. Investors pressed Coplan for structure and care as Polymarket tried becoming a grown-up exchange.",
+            "Bloomberg reported company funds had been spent on his rent, private jets, and personal expense. ICE—the New York Stock Exchange parent—and Founders Fund urged him to hire a chief operating officer; he had not yet done so.",
+            "Coplan said growing pains made him grow, too, and an excellent executive team was his 2026 goal. Yet the backers’ complaint had a comical ring: they had funded an offshore crypto casino—and now found the private jet shocking.",
+            "What happened? Polymarket’s investors backed an offshore, crypto-based prediction market that avoided the difficult US approval process, but Kalshi proved a regulated US exchange could succeed. As Polymarket shifted toward that model, investors pushed Coplan to add executives and tighter spending controls after Bloomberg reported his use of company money for private flights, rent, and personal expenses."
+          ]
+        },
+        "middle": {
+          "title": "Polymarket’s Growing-Up Bet",
+          "lesson": "Polymarket built prediction markets on offshore crypto infrastructure because US approval seemed unlikely, but after regulated rival Kalshi succeeded, Polymarket began shifting toward a disciplined, regulated exchange model under investor pressure.",
+          "paragraphs": [
+            "At twenty-eight, Shayne Coplan led Polymarket’s crew, where contracts paid traders when guessed events came true. Traders bought “yes” or “no,” and each price could show what the crowd thought might happen as forecasts would grow.",
+            "Four years ago, Kalshi chose rules as its route, with lobbying and lawsuits to work matters out. It sought US approval, all proper and bright, though becoming a regulated exchange seemed a strange bet to get right.",
+            "Polymarket figured approval would move much too slow, so offshore crypto was where it would go. Its markets ran statelessly, beyond US gates, while winkingly telling US traders, “Please wait.”",
+            "But Kalshi’s odd gamble succeeded at last, while Polymarket hurried to follow its path. Investors pressed Coplan for structure and care as Polymarket tried becoming a grown-up exchange.",
+            "Bloomberg reported company funds had been spent on his rent, private jets, and personal expense. ICE—the New York Stock Exchange parent—and Founders Fund urged him to hire a chief operating officer; he had not yet done so.",
+            "Coplan said growing pains made him grow, too, and an excellent executive team was his 2026 goal. Yet the backers’ complaint had a comical ring: they had funded an offshore crypto casino—and now found the private jet shocking.",
+            "What happened? Polymarket’s investors backed an offshore, crypto-based prediction market that avoided the difficult US approval process, but Kalshi proved a regulated US exchange could succeed. As Polymarket shifted toward that model, investors pushed Coplan to add executives and tighter spending controls after Bloomberg reported his use of company money for private flights, rent, and personal expenses."
+          ]
+        },
+        "high": {
+          "title": "Polymarket’s Growing-Up Bet",
+          "lesson": "Polymarket built prediction markets on offshore crypto infrastructure because US approval seemed unlikely, but after regulated rival Kalshi succeeded, Polymarket began shifting toward a disciplined, regulated exchange model under investor pressure.",
+          "paragraphs": [
+            "At twenty-eight, Shayne Coplan led Polymarket’s crew, where contracts paid traders when guessed events came true. Traders bought “yes” or “no,” and each price could show what the crowd thought might happen as forecasts would grow.",
+            "Four years ago, Kalshi chose rules as its route, with lobbying and lawsuits to work matters out. It sought US approval, all proper and bright, though becoming a regulated exchange seemed a strange bet to get right.",
+            "Polymarket figured approval would move much too slow, so offshore crypto was where it would go. Its markets ran statelessly, beyond US gates, while winkingly telling US traders, “Please wait.”",
+            "But Kalshi’s odd gamble succeeded at last, while Polymarket hurried to follow its path. Investors pressed Coplan for structure and care as Polymarket tried becoming a grown-up exchange.",
+            "Bloomberg reported company funds had been spent on his rent, private jets, and personal expense. ICE—the New York Stock Exchange parent—and Founders Fund urged him to hire a chief operating officer; he had not yet done so.",
+            "Coplan said growing pains made him grow, too, and an excellent executive team was his 2026 goal. Yet the backers’ complaint had a comical ring: they had funded an offshore crypto casino—and now found the private jet shocking.",
+            "What happened? Polymarket’s investors backed an offshore, crypto-based prediction market that avoided the difficult US approval process, but Kalshi proved a regulated US exchange could succeed. As Polymarket shifted toward that model, investors pushed Coplan to add executives and tighter spending controls after Bloomberg reported his use of company money for private flights, rent, and personal expenses."
+          ]
+        }
+      }
+    }
+  ]
+}
