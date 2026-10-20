@@ -504,6 +504,18 @@
       "submitted": true,
       "updatedAt": "2026-10-19T21:49:20.404Z",
       "submittedAt": "2026-10-19T21:49:20.404Z"
+    },
+    "1a15a9540fa8b554": {
+      "gmailMessageId": "1a15a9540fa8b554",
+      "newsletterDate": "2026-10-20",
+      "newsletterTitle": "Someone Has to Take the AI Risk",
+      "editionId": "2026-10-20-someone-has-to-take-the-ai-risk",
+      "sourceSha256": "d773c856f9bf47f8a7d2223185065207601aaaef3802e79b3312661c6651f1be",
+      "packageSha256": "f8cf13605a51321ac4b6d699ccd0601cb271302635fcd52f1faadb22b4c24d79",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-20T19:37:58.584Z",
+      "submittedAt": "2026-10-20T19:37:58.584Z"
     }
   }
 }
