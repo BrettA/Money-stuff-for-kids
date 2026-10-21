@@ -516,6 +516,18 @@
       "submitted": true,
       "updatedAt": "2026-10-20T19:37:58.584Z",
       "submittedAt": "2026-10-20T19:37:58.584Z"
+    },
+    "1a15f9d8d45474cb": {
+      "gmailMessageId": "1a15f9d8d45474cb",
+      "newsletterDate": "2026-10-21",
+      "newsletterTitle": "Obviously SpaceX and Tesla Will Merge",
+      "editionId": "2026-10-21-obviously-spacex-and-tesla-will-merge",
+      "sourceSha256": "94de8d852381a57ac768c7cef3bcfac4beb59ede7f63d17eaea89916dc204c1d",
+      "packageSha256": "9d7aa57ac174053ca5c177d988554af31b531ae6e598b6b27cdb8cb80276ffce",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-21T20:12:25.722Z",
+      "submittedAt": "2026-10-21T20:12:25.722Z"
     }
   }
 }
