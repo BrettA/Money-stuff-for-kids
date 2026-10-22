@@ -528,6 +528,18 @@
       "submitted": true,
       "updatedAt": "2026-10-21T20:12:25.722Z",
       "submittedAt": "2026-10-21T20:12:25.722Z"
+    },
+    "1a164e11e1746ff6": {
+      "gmailMessageId": "1a164e11e1746ff6",
+      "newsletterDate": "2026-10-22",
+      "newsletterTitle": "Zuckerberg Wants to Keep His Votes",
+      "editionId": "2026-10-22-zuckerberg-wants-to-keep-his-votes",
+      "sourceSha256": "4a042f6cff32a6c8d8feba156ab9e8a99c6f23b54cb3906c51eb297c7b31d1e2",
+      "packageSha256": "e25bfe9cba342034e82a4b96759b5785df59ccef5c3878acab049616e3cb6d8e",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-22T20:51:38.954Z",
+      "submittedAt": "2026-10-22T20:51:38.954Z"
     }
   }
 }
