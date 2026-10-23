@@ -540,6 +540,18 @@
       "submitted": true,
       "updatedAt": "2026-10-22T20:51:38.954Z",
       "submittedAt": "2026-10-22T20:51:38.954Z"
+    },
+    "1a1697d09b76e357": {
+      "gmailMessageId": "1a1697d09b76e357",
+      "newsletterDate": "2026-10-23",
+      "newsletterTitle": "The Podcast: Tice Brown",
+      "editionId": "2026-10-23-the-podcast-tice-brown",
+      "sourceSha256": "579e50060cc04b49eb96e7280de2db7b599437de4a222192dfaf828da295c378",
+      "packageSha256": "9522e51c9bbbeb4c6693a2312d7cbd40d332aa41ed9e1d389a7752481d6f36bf",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-23T18:44:06.965Z",
+      "submittedAt": "2026-10-23T18:44:06.965Z"
     }
   }
 }
