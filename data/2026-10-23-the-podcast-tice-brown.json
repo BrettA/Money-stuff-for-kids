@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-23-the-podcast-tice-brown",
+  "date": "2026-10-23",
+  "displayDate": "October 23, 2026",
+  "title": "The Podcast: Tice Brown",
+  "sourceSections": [
+    "Podcast"
+  ],
+  "stories": [
+    {
+      "id": "podcast",
+      "sourceSection": "Podcast",
+      "illustration": {
+        "src": "/images/2026-10-23-the-podcast-tice-brown/podcast.png",
+        "alt": "Tice Brown and the Money Stuff host record a podcast beside separate collateral boxes, a dinosaur fossil, artwork with bid and ask tags, and SpaceX and Tesla models."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Tice Brown"
+        ],
+        "realCompanies": [
+          "Bloomberg L.P.",
+          "Apple",
+          "Spotify",
+          "SpaceX",
+          "Tesla",
+          "Nasdaq"
+        ],
+        "financialMechanism": "The episode discusses non-cross-collateralized leverage, in which one borrowing arrangement cannot claim collateral pledged to another, as well as rolling expiring call options, art-market bid/ask spreads, and setting aside assets to defease bonds.",
+        "centralJoke": "Tice Brown is introduced simply as “a guy,” before an enormous, wildly varied list of topics ends with a discussion of the value of Tice’s own time."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Tice Brown, Who Is a Guy",
+          "lesson": "Non-cross-collateralized leverage keeps each loan tied to its own collateral, while rolling calls replaces expiring call options to continue an options position.",
+          "paragraphs": [
+            "At Money Stuff, the microphones stood by;\nthe guest was Tice Brown, who is a guy.\nThey praised a good email, then chased the DAT craze,\nand gambling proxies in roundabout ways.",
+            "They tackled leverage kept in its lane:\nif one collateral pool suffers a strain,\nit cannot grab assets that back loan two—\n“non-cross-collateralized” says what it can’t do.",
+            "Calls nearing expiry were rolled into new,\nso an options position could keep going through.\nA dinosaur fossil came up in the trade,\nthen art, where bid/ask gaps leave deals unmade.",
+            "The bid is the buyer’s; the ask is the price\nthe seller will take—and they may not match nice.\nOdd bonds were defeased: safe assets set by\nto make promised payments as due dates went by.",
+            "They covered windfall-based prices and names\nfor lawyers versus attorneys, plus regulatory claims:\nNebraska insurance and Arkansas banks,\nthen SpaceX, Tesla, and Nasdaq joined ranks.",
+            "Starting investment banking in 2007 earned time,\nas did the value of Tice Brown’s time.\nBloomberg released it for listeners to play\non Apple, Spotify, or elsewhere today.",
+            "What happened? Bloomberg’s Money Stuff podcast released a guest episode with Tice Brown covering financial topics including separate collateral pools, rolling call options, art-market bid/ask spreads, and bond defeasance, alongside dinosaur fossils and the value of Tice’s time."
+          ]
+        },
+        "elementary": {
+          "title": "Tice Brown, Who Is a Guy",
+          "lesson": "Non-cross-collateralized leverage keeps each loan tied to its own collateral, while rolling calls replaces expiring call options to continue an options position.",
+          "paragraphs": [
+            "At Money Stuff, the microphones stood by;\nthe guest was Tice Brown, who is a guy.\nThey praised a good email, then chased the DAT craze,\nand gambling proxies in roundabout ways.",
+            "They tackled leverage kept in its lane:\nif one collateral pool suffers a strain,\nit cannot grab assets that back loan two—\n“non-cross-collateralized” says what it can’t do.",
+            "Calls nearing expiry were rolled into new,\nso an options position could keep going through.\nA dinosaur fossil came up in the trade,\nthen art, where bid/ask gaps leave deals unmade.",
+            "The bid is the buyer’s; the ask is the price\nthe seller will take—and they may not match nice.\nOdd bonds were defeased: safe assets set by\nto make promised payments as due dates went by.",
+            "They covered windfall-based prices and names\nfor lawyers versus attorneys, plus regulatory claims:\nNebraska insurance and Arkansas banks,\nthen SpaceX, Tesla, and Nasdaq joined ranks.",
+            "Starting investment banking in 2007 earned time,\nas did the value of Tice Brown’s time.\nBloomberg released it for listeners to play\non Apple, Spotify, or elsewhere today.",
+            "What happened? Bloomberg’s Money Stuff podcast released a guest episode with Tice Brown covering financial topics including separate collateral pools, rolling call options, art-market bid/ask spreads, and bond defeasance, alongside dinosaur fossils and the value of Tice’s time."
+          ]
+        },
+        "middle": {
+          "title": "Tice Brown, Who Is a Guy",
+          "lesson": "Non-cross-collateralized leverage keeps each loan tied to its own collateral, while rolling calls replaces expiring call options to continue an options position.",
+          "paragraphs": [
+            "At Money Stuff, the microphones stood by;\nthe guest was Tice Brown, who is a guy.\nThey praised a good email, then chased the DAT craze,\nand gambling proxies in roundabout ways.",
+            "They tackled leverage kept in its lane:\nif one collateral pool suffers a strain,\nit cannot grab assets that back loan two—\n“non-cross-collateralized” says what it can’t do.",
+            "Calls nearing expiry were rolled into new,\nso an options position could keep going through.\nA dinosaur fossil came up in the trade,\nthen art, where bid/ask gaps leave deals unmade.",
+            "The bid is the buyer’s; the ask is the price\nthe seller will take—and they may not match nice.\nOdd bonds were defeased: safe assets set by\nto make promised payments as due dates went by.",
+            "They covered windfall-based prices and names\nfor lawyers versus attorneys, plus regulatory claims:\nNebraska insurance and Arkansas banks,\nthen SpaceX, Tesla, and Nasdaq joined ranks.",
+            "Starting investment banking in 2007 earned time,\nas did the value of Tice Brown’s time.\nBloomberg released it for listeners to play\non Apple, Spotify, or elsewhere today.",
+            "What happened? Bloomberg’s Money Stuff podcast released a guest episode with Tice Brown covering financial topics including separate collateral pools, rolling call options, art-market bid/ask spreads, and bond defeasance, alongside dinosaur fossils and the value of Tice’s time."
+          ]
+        },
+        "high": {
+          "title": "Tice Brown, Who Is a Guy",
+          "lesson": "Non-cross-collateralized leverage keeps each loan tied to its own collateral, while rolling calls replaces expiring call options to continue an options position.",
+          "paragraphs": [
+            "At Money Stuff, the microphones stood by;\nthe guest was Tice Brown, who is a guy.\nThey praised a good email, then chased the DAT craze,\nand gambling proxies in roundabout ways.",
+            "They tackled leverage kept in its lane:\nif one collateral pool suffers a strain,\nit cannot grab assets that back loan two—\n“non-cross-collateralized” says what it can’t do.",
+            "Calls nearing expiry were rolled into new,\nso an options position could keep going through.\nA dinosaur fossil came up in the trade,\nthen art, where bid/ask gaps leave deals unmade.",
+            "The bid is the buyer’s; the ask is the price\nthe seller will take—and they may not match nice.\nOdd bonds were defeased: safe assets set by\nto make promised payments as due dates went by.",
+            "They covered windfall-based prices and names\nfor lawyers versus attorneys, plus regulatory claims:\nNebraska insurance and Arkansas banks,\nthen SpaceX, Tesla, and Nasdaq joined ranks.",
+            "Starting investment banking in 2007 earned time,\nas did the value of Tice Brown’s time.\nBloomberg released it for listeners to play\non Apple, Spotify, or elsewhere today.",
+            "What happened? Bloomberg’s Money Stuff podcast released a guest episode with Tice Brown covering financial topics including separate collateral pools, rolling call options, art-market bid/ask spreads, and bond defeasance, alongside dinosaur fossils and the value of Tice’s time."
+          ]
+        }
+      }
+    }
+  ]
+}
