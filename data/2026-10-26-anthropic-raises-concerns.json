@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-26-anthropic-raises-concerns",
+  "date": "2026-10-26",
+  "displayDate": "October 26, 2026",
+  "title": "Anthropic Raises Concerns",
+  "sourceSections": [
+    "Happy Anthropic S-1 day",
+    "Anthropic governance",
+    "Fake polls",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "happy-anthropic-s-1-day",
+      "sourceSection": "Happy Anthropic S-1 day",
+      "illustration": {
+        "src": "/images/2026-10-26-anthropic-raises-concerns/happy-anthropic-s-1-day.png",
+        "alt": "Dario Amodei stands beside Anthropic’s prospectus as investors exchange funds for shares, while warning pages point toward empty office chairs and a bunker."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Dario Amodei",
+          "Tom Orlik",
+          "Michael Deng",
+          "Dongmiao Zhang"
+        ],
+        "realCompanies": [
+          "Anthropic PBC",
+          "SpaceX",
+          "OpenAI",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Anthropic’s IPO would raise funds by selling ownership shares to public investors. Those shares could function as a hedge if Anthropic’s Claude models displaced jobs or captured more economic activity, because shareholders might profit from the company causing the disruption.",
+        "centralJoke": "Anthropic effectively invited investors to fund AI that might take their jobs or threaten humanity, then treat Anthropic stock—and perhaps a bunker bought with the profits—as protection from those same risks."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Stock with Miracles—and Warnings",
+          "lesson": "Anthropic’s IPO would sell ownership shares to raise money, while its prospectus suggested an odd hedge: investors might profit from Anthropic even if its AI displaced their jobs or caused broader harm.",
+          "paragraphs": [
+            "Anthropic PBC planned an IPO one day: the public could purchase small ownership shares and help fund its way. Its prospectus was the guide investors would read, with hopeful plans, financial facts, and warnings they might need.",
+            "SpaceX called its market $28.5 trillion wide. OpenAI wondered if money would matter on AGI’s far side. Anthropic’s founders made a gentler call: “Come help bring an age of miracles!”—almost modest, all in all.",
+            "But warning pages said advanced AI could grow too fast to safely test, control, or know. CEO Dario Amodei had written with dread: powerful AI might seize control—or help make all life disappear instead.",
+            "The prospectus tiptoed: “Concerns have been raised.” If robots ended humanity, that passive voice still amazed! It even said catastrophe could hurt Anthropic’s business results, as though poor quarterly numbers were the gravest results.",
+            "Bloomberg writers Tom Orlik, Michael Deng, and Dongmiao Zhang spotted the snare: “It may take your job, so buy a piece” was the pitch hiding there. A hedge is an investment that may soften another bad blow; if Claude took your work, perhaps Anthropic’s shares still would grow.",
+            "Join the new AI overlords, the writers joked with a shrug—then spend your profits building a bunker, safe and snug. The stranger Anthropic’s dangers appeared to be, the more owning Anthropic could seem like security.",
+            "What happened? Anthropic filed a draft prospectus for an IPO, offering investors shares while disclosing that advanced AI could displace jobs or pose catastrophic risks. The absurd pitch was that owning Anthropic might hedge against dangers created by Anthropic’s own products."
+          ]
+        },
+        "elementary": {
+          "title": "The Stock with Miracles—and Warnings",
+          "lesson": "Anthropic’s IPO would sell ownership shares to raise money, while its prospectus suggested an odd hedge: investors might profit from Anthropic even if its AI displaced their jobs or caused broader harm.",
+          "paragraphs": [
+            "Anthropic PBC planned an IPO one day: the public could purchase small ownership shares and help fund its way. Its prospectus was the guide investors would read, with hopeful plans, financial facts, and warnings they might need.",
+            "SpaceX called its market $28.5 trillion wide. OpenAI wondered if money would matter on AGI’s far side. Anthropic’s founders made a gentler call: “Come help bring an age of miracles!”—almost modest, all in all.",
+            "But warning pages said advanced AI could grow too fast to safely test, control, or know. CEO Dario Amodei had written with dread: powerful AI might seize control—or help make all life disappear instead.",
+            "The prospectus tiptoed: “Concerns have been raised.” If robots ended humanity, that passive voice still amazed! It even said catastrophe could hurt Anthropic’s business results, as though poor quarterly numbers were the gravest results.",
+            "Bloomberg writers Tom Orlik, Michael Deng, and Dongmiao Zhang spotted the snare: “It may take your job, so buy a piece” was the pitch hiding there. A hedge is an investment that may soften another bad blow; if Claude took your work, perhaps Anthropic’s shares still would grow.",
+            "Join the new AI overlords, the writers joked with a shrug—then spend your profits building a bunker, safe and snug. The stranger Anthropic’s dangers appeared to be, the more owning Anthropic could seem like security.",
+            "What happened? Anthropic filed a draft prospectus for an IPO, offering investors shares while disclosing that advanced AI could displace jobs or pose catastrophic risks. The absurd pitch was that owning Anthropic might hedge against dangers created by Anthropic’s own products."
+          ]
+        },
+        "middle": {
+          "title": "The Stock with Miracles—and Warnings",
+          "lesson": "Anthropic’s IPO would sell ownership shares to raise money, while its prospectus suggested an odd hedge: investors might profit from Anthropic even if its AI displaced their jobs or caused broader harm.",
+          "paragraphs": [
+            "Anthropic PBC planned an IPO one day: the public could purchase small ownership shares and help fund its way. Its prospectus was the guide investors would read, with hopeful plans, financial facts, and warnings they might need.",
+            "SpaceX called its market $28.5 trillion wide. OpenAI wondered if money would matter on AGI’s far side. Anthropic’s founders made a gentler call: “Come help bring an age of miracles!”—almost modest, all in all.",
+            "But warning pages said advanced AI could grow too fast to safely test, control, or know. CEO Dario Amodei had written with dread: powerful AI might seize control—or help make all life disappear instead.",
+            "The prospectus tiptoed: “Concerns have been raised.” If robots ended humanity, that passive voice still amazed! It even said catastrophe could hurt Anthropic’s business results, as though poor quarterly numbers were the gravest results.",
+            "Bloomberg writers Tom Orlik, Michael Deng, and Dongmiao Zhang spotted the snare: “It may take your job, so buy a piece” was the pitch hiding there. A hedge is an investment that may soften another bad blow; if Claude took your work, perhaps Anthropic’s shares still would grow.",
+            "Join the new AI overlords, the writers joked with a shrug—then spend your profits building a bunker, safe and snug. The stranger Anthropic’s dangers appeared to be, the more owning Anthropic could seem like security.",
+            "What happened? Anthropic filed a draft prospectus for an IPO, offering investors shares while disclosing that advanced AI could displace jobs or pose catastrophic risks. The absurd pitch was that owning Anthropic might hedge against dangers created by Anthropic’s own products."
+          ]
+        },
+        "high": {
+          "title": "The Stock with Miracles—and Warnings",
+          "lesson": "Anthropic’s IPO would sell ownership shares to raise money, while its prospectus suggested an odd hedge: investors might profit from Anthropic even if its AI displaced their jobs or caused broader harm.",
+          "paragraphs": [
+            "Anthropic PBC planned an IPO one day: the public could purchase small ownership shares and help fund its way. Its prospectus was the guide investors would read, with hopeful plans, financial facts, and warnings they might need.",
+            "SpaceX called its market $28.5 trillion wide. OpenAI wondered if money would matter on AGI’s far side. Anthropic’s founders made a gentler call: “Come help bring an age of miracles!”—almost modest, all in all.",
+            "But warning pages said advanced AI could grow too fast to safely test, control, or know. CEO Dario Amodei had written with dread: powerful AI might seize control—or help make all life disappear instead.",
+            "The prospectus tiptoed: “Concerns have been raised.” If robots ended humanity, that passive voice still amazed! It even said catastrophe could hurt Anthropic’s business results, as though poor quarterly numbers were the gravest results.",
+            "Bloomberg writers Tom Orlik, Michael Deng, and Dongmiao Zhang spotted the snare: “It may take your job, so buy a piece” was the pitch hiding there. A hedge is an investment that may soften another bad blow; if Claude took your work, perhaps Anthropic’s shares still would grow.",
+            "Join the new AI overlords, the writers joked with a shrug—then spend your profits building a bunker, safe and snug. The stranger Anthropic’s dangers appeared to be, the more owning Anthropic could seem like security.",
+            "What happened? Anthropic filed a draft prospectus for an IPO, offering investors shares while disclosing that advanced AI could displace jobs or pose catastrophic risks. The absurd pitch was that owning Anthropic might hedge against dangers created by Anthropic’s own products."
+          ]
+        }
+      }
+    },
+    {
+      "id": "anthropic-governance",
+      "sourceSection": "Anthropic governance",
+      "illustration": {
+        "src": "/images/2026-10-26-anthropic-raises-concerns/anthropic-governance.png",
+        "alt": "Anthropic trustees, founders, and an employee assign seven board chairs while Amazon and Google representatives hold nonvoting Class N shares."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "Anthropic",
+          "OpenAI",
+          "Long-Term Benefit Trust",
+          "Founder LLC",
+          "Amazon",
+          "Google",
+          "Tesla Inc.",
+          "SpaceX"
+        ],
+        "financialMechanism": "Five classes of Anthropic stock divide economic rights from governance: Class T lets the Long-Term Benefit Trust appoint four directors, Class F gives founders fixed 50.1% voting power to elect three, Class E lets employees vote in a specified board dispute, Class A carries economic rights and ordinary votes, and Class N gives Amazon and Google economic rights without votes.",
+        "centralJoke": "Anthropic can be both a trillion-dollar company seeking vast sums from investors and a quirky mission-driven workers’ cooperative that sells stock without selling out or surrendering control of its figurative robot army."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Five Classes and Seven Chairs",
+          "lesson": "Anthropic separated economic ownership from voting control through five stock classes, allowing outside investors to fund the company while its trust, founders, and employees retain governance power.",
+          "paragraphs": [
+            "Anthropic trains frontier AI, where giant models grow;\nAn IPO could raise the billions needed for the show.\nThough valued past a trillion, it declares this guiding plea:\n“Develop AI responsibly, for all humanity.”",
+            "Seven founders left OpenAI to take a safer track;\nThen built in checks upon themselves, should judgment ever crack.\nFive trustees, paid $400,000 yearly, cannot own a share;\nTheir Long-Term Benefit Trust must keep humanity in its care.",
+            "One profitless Class T share names four board directors;\nClass F names three, with 50.1%—the founders’ vote protector.\nSo money does not steer each seat or choose each final say;\nThe people holding special shares can point the boardroom’s way.",
+            "If the nominating committee balks at the trust’s fourth seat,\nEmployees use Class E to choose whom that director should be.\nEach six months worked earns one E share; each pledged A earns one more,\nSo public spirit adds a voice when conflict reaches the floor.",
+            "Class A has value, one vote each, but founders still prevail;\nClass N gives Amazon and Google profits, not a voting trail.\nIf N is sold, it generally changes into voting A—\nBig Tech can fund the mission, but cannot run the day.",
+            "Elon Musk has said at Tesla, “robot army” needs control;\nHere ownership and steering play a very different role.\nAnthropic can seek oceans of cash while keeping insiders about:\nA trillion-dollar workers’ co-op saying, “Buy in—but we won’t sell out!”",
+            "What happened? Anthropic created five stock classes separating economics from control: its trust appoints four of seven directors, founders effectively choose three, employees can resolve one kind of board dispute, ordinary shareholders receive economic rights, and Amazon and Google receive nonvoting economic stock. This lets Anthropic raise outside capital while mission-focused insiders retain control."
+          ]
+        },
+        "elementary": {
+          "title": "Five Classes and Seven Chairs",
+          "lesson": "Anthropic separated economic ownership from voting control through five stock classes, allowing outside investors to fund the company while its trust, founders, and employees retain governance power.",
+          "paragraphs": [
+            "Anthropic trains frontier AI, where giant models grow;\nAn IPO could raise the billions needed for the show.\nThough valued past a trillion, it declares this guiding plea:\n“Develop AI responsibly, for all humanity.”",
+            "Seven founders left OpenAI to take a safer track;\nThen built in checks upon themselves, should judgment ever crack.\nFive trustees, paid $400,000 yearly, cannot own a share;\nTheir Long-Term Benefit Trust must keep humanity in its care.",
+            "One profitless Class T share names four board directors;\nClass F names three, with 50.1%—the founders’ vote protector.\nSo money does not steer each seat or choose each final say;\nThe people holding special shares can point the boardroom’s way.",
+            "If the nominating committee balks at the trust’s fourth seat,\nEmployees use Class E to choose whom that director should be.\nEach six months worked earns one E share; each pledged A earns one more,\nSo public spirit adds a voice when conflict reaches the floor.",
+            "Class A has value, one vote each, but founders still prevail;\nClass N gives Amazon and Google profits, not a voting trail.\nIf N is sold, it generally changes into voting A—\nBig Tech can fund the mission, but cannot run the day.",
+            "Elon Musk has said at Tesla, “robot army” needs control;\nHere ownership and steering play a very different role.\nAnthropic can seek oceans of cash while keeping insiders about:\nA trillion-dollar workers’ co-op saying, “Buy in—but we won’t sell out!”",
+            "What happened? Anthropic created five stock classes separating economics from control: its trust appoints four of seven directors, founders effectively choose three, employees can resolve one kind of board dispute, ordinary shareholders receive economic rights, and Amazon and Google receive nonvoting economic stock. This lets Anthropic raise outside capital while mission-focused insiders retain control."
+          ]
+        },
+        "middle": {
+          "title": "Five Classes and Seven Chairs",
+          "lesson": "Anthropic separated economic ownership from voting control through five stock classes, allowing outside investors to fund the company while its trust, founders, and employees retain governance power.",
+          "paragraphs": [
+            "Anthropic trains frontier AI, where giant models grow;\nAn IPO could raise the billions needed for the show.\nThough valued past a trillion, it declares this guiding plea:\n“Develop AI responsibly, for all humanity.”",
+            "Seven founders left OpenAI to take a safer track;\nThen built in checks upon themselves, should judgment ever crack.\nFive trustees, paid $400,000 yearly, cannot own a share;\nTheir Long-Term Benefit Trust must keep humanity in its care.",
+            "One profitless Class T share names four board directors;\nClass F names three, with 50.1%—the founders’ vote protector.\nSo money does not steer each seat or choose each final say;\nThe people holding special shares can point the boardroom’s way.",
+            "If the nominating committee balks at the trust’s fourth seat,\nEmployees use Class E to choose whom that director should be.\nEach six months worked earns one E share; each pledged A earns one more,\nSo public spirit adds a voice when conflict reaches the floor.",
+            "Class A has value, one vote each, but founders still prevail;\nClass N gives Amazon and Google profits, not a voting trail.\nIf N is sold, it generally changes into voting A—\nBig Tech can fund the mission, but cannot run the day.",
+            "Elon Musk has said at Tesla, “robot army” needs control;\nHere ownership and steering play a very different role.\nAnthropic can seek oceans of cash while keeping insiders about:\nA trillion-dollar workers’ co-op saying, “Buy in—but we won’t sell out!”",
+            "What happened? Anthropic created five stock classes separating economics from control: its trust appoints four of seven directors, founders effectively choose three, employees can resolve one kind of board dispute, ordinary shareholders receive economic rights, and Amazon and Google receive nonvoting economic stock. This lets Anthropic raise outside capital while mission-focused insiders retain control."
+          ]
+        },
+        "high": {
+          "title": "Five Classes and Seven Chairs",
+          "lesson": "Anthropic separated economic ownership from voting control through five stock classes, allowing outside investors to fund the company while its trust, founders, and employees retain governance power.",
+          "paragraphs": [
+            "Anthropic trains frontier AI, where giant models grow;\nAn IPO could raise the billions needed for the show.\nThough valued past a trillion, it declares this guiding plea:\n“Develop AI responsibly, for all humanity.”",
+            "Seven founders left OpenAI to take a safer track;\nThen built in checks upon themselves, should judgment ever crack.\nFive trustees, paid $400,000 yearly, cannot own a share;\nTheir Long-Term Benefit Trust must keep humanity in its care.",
+            "One profitless Class T share names four board directors;\nClass F names three, with 50.1%—the founders’ vote protector.\nSo money does not steer each seat or choose each final say;\nThe people holding special shares can point the boardroom’s way.",
+            "If the nominating committee balks at the trust’s fourth seat,\nEmployees use Class E to choose whom that director should be.\nEach six months worked earns one E share; each pledged A earns one more,\nSo public spirit adds a voice when conflict reaches the floor.",
+            "Class A has value, one vote each, but founders still prevail;\nClass N gives Amazon and Google profits, not a voting trail.\nIf N is sold, it generally changes into voting A—\nBig Tech can fund the mission, but cannot run the day.",
+            "Elon Musk has said at Tesla, “robot army” needs control;\nHere ownership and steering play a very different role.\nAnthropic can seek oceans of cash while keeping insiders about:\nA trillion-dollar workers’ co-op saying, “Buy in—but we won’t sell out!”",
+            "What happened? Anthropic created five stock classes separating economics from control: its trust appoints four of seven directors, founders effectively choose three, employees can resolve one kind of board dispute, ordinary shareholders receive economic rights, and Amazon and Google receive nonvoting economic stock. This lets Anthropic raise outside capital while mission-focused insiders retain control."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fake-polls",
+      "sourceSection": "Fake polls",
+      "illustration": {
+        "src": "/images/2026-10-26-anthropic-raises-concerns/fake-polls.png",
+        "alt": "Wedgewood Polls prints fake election surveys while the papers jostle Kalshi contract slips and a puzzled CFTC official holds an “Election Cop?” badge."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Nate Silver",
+          "Byrne Hobart"
+        ],
+        "realCompanies": [
+          "Wedgewood Polls",
+          "FiftyPlusOne",
+          "The New York Times",
+          "Kalshi",
+          "U.S. Commodity Futures Trading Commission (CFTC)"
+        ],
+        "financialMechanism": "Fake election polls can shift expectations and therefore the prices of election event contracts; knowingly using fabricated polls to profit from those price changes could be commodities-market manipulation.",
+        "centralJoke": "Once congressional races became tradable contracts, the commodities regulator that did not want to be an “election cop” might have to police fake polls."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "When Fake Polls Met the Election Cop",
+          "lesson": "Fabricated polls can influence election-contract prices; trading to profit from that influence could constitute illegal commodities-market manipulation and draw CFTC scrutiny.",
+          "paragraphs": [
+            "Since June, in Michigan, in Maine, and Kansas too,\nWedgewood Polls released results that clashed with others’ view.",
+            "Then FiftyPlusOne asked, “Are all these numbers right?”\nBy Tuesday, Wedgewood’s answer brought the trick to light:\nAlmost every poll was fake, the team at last confessed.\n“An experimental project” was how they framed the test.",
+            "Aggregators had displayed them; The New York Times did too,\nOn pages tracking close campaigns where readers sought a clue.\nNate Silver said these polls did not just quietly blend in;\nThey pushed a different story about who might lose or win.",
+            "Byrne Hobart saw a money twist inside the polling fuss:\nOn Kalshi, traders buy contracts whose prices rise and fall.\nA winning contract pays if its named event occurs at all.",
+            "A fake Maine Senate poll could move averages a few,\nThen nudge Kalshi’s contract prices as traders changed their view.\nThat might earn tens of dollars—perhaps even a bit more.\nBut did Wedgewood trade that way? There’s no evidence for sure.",
+            "If someone spread false polls, then traded on the swing,\nThat could be commodities manipulation—a serious thing.\nThe CFTC had warned, “Don’t make us election cops!”\nIt usually watched futures tied to prices, goods, and crops.",
+            "Yet election contracts turned campaigns into things that trade,\nSo fake political information entered markets people made.\nA market built to gather truth can pay for fakes instead:\nBad data enters, prices move, and doubt is what gets spread.",
+            "What happened? Wedgewood Polls admitted that almost all its published surveys were fabricated. Because election contracts trade on Kalshi, fake polls could affect their prices, potentially turning election misinformation into a commodities-market issue for the CFTC, though there is no evidence Wedgewood traded on its polls."
+          ]
+        },
+        "elementary": {
+          "title": "When Fake Polls Met the Election Cop",
+          "lesson": "Fabricated polls can influence election-contract prices; trading to profit from that influence could constitute illegal commodities-market manipulation and draw CFTC scrutiny.",
+          "paragraphs": [
+            "Since June, in Michigan, in Maine, and Kansas too,\nWedgewood Polls released results that clashed with others’ view.",
+            "Then FiftyPlusOne asked, “Are all these numbers right?”\nBy Tuesday, Wedgewood’s answer brought the trick to light:\nAlmost every poll was fake, the team at last confessed.\n“An experimental project” was how they framed the test.",
+            "Aggregators had displayed them; The New York Times did too,\nOn pages tracking close campaigns where readers sought a clue.\nNate Silver said these polls did not just quietly blend in;\nThey pushed a different story about who might lose or win.",
+            "Byrne Hobart saw a money twist inside the polling fuss:\nOn Kalshi, traders buy contracts whose prices rise and fall.\nA winning contract pays if its named event occurs at all.",
+            "A fake Maine Senate poll could move averages a few,\nThen nudge Kalshi’s contract prices as traders changed their view.\nThat might earn tens of dollars—perhaps even a bit more.\nBut did Wedgewood trade that way? There’s no evidence for sure.",
+            "If someone spread false polls, then traded on the swing,\nThat could be commodities manipulation—a serious thing.\nThe CFTC had warned, “Don’t make us election cops!”\nIt usually watched futures tied to prices, goods, and crops.",
+            "Yet election contracts turned campaigns into things that trade,\nSo fake political information entered markets people made.\nA market built to gather truth can pay for fakes instead:\nBad data enters, prices move, and doubt is what gets spread.",
+            "What happened? Wedgewood Polls admitted that almost all its published surveys were fabricated. Because election contracts trade on Kalshi, fake polls could affect their prices, potentially turning election misinformation into a commodities-market issue for the CFTC, though there is no evidence Wedgewood traded on its polls."
+          ]
+        },
+        "middle": {
+          "title": "When Fake Polls Met the Election Cop",
+          "lesson": "Fabricated polls can influence election-contract prices; trading to profit from that influence could constitute illegal commodities-market manipulation and draw CFTC scrutiny.",
+          "paragraphs": [
+            "Since June, in Michigan, in Maine, and Kansas too,\nWedgewood Polls released results that clashed with others’ view.",
+            "Then FiftyPlusOne asked, “Are all these numbers right?”\nBy Tuesday, Wedgewood’s answer brought the trick to light:\nAlmost every poll was fake, the team at last confessed.\n“An experimental project” was how they framed the test.",
+            "Aggregators had displayed them; The New York Times did too,\nOn pages tracking close campaigns where readers sought a clue.\nNate Silver said these polls did not just quietly blend in;\nThey pushed a different story about who might lose or win.",
+            "Byrne Hobart saw a money twist inside the polling fuss:\nOn Kalshi, traders buy contracts whose prices rise and fall.\nA winning contract pays if its named event occurs at all.",
+            "A fake Maine Senate poll could move averages a few,\nThen nudge Kalshi’s contract prices as traders changed their view.\nThat might earn tens of dollars—perhaps even a bit more.\nBut did Wedgewood trade that way? There’s no evidence for sure.",
+            "If someone spread false polls, then traded on the swing,\nThat could be commodities manipulation—a serious thing.\nThe CFTC had warned, “Don’t make us election cops!”\nIt usually watched futures tied to prices, goods, and crops.",
+            "Yet election contracts turned campaigns into things that trade,\nSo fake political information entered markets people made.\nA market built to gather truth can pay for fakes instead:\nBad data enters, prices move, and doubt is what gets spread.",
+            "What happened? Wedgewood Polls admitted that almost all its published surveys were fabricated. Because election contracts trade on Kalshi, fake polls could affect their prices, potentially turning election misinformation into a commodities-market issue for the CFTC, though there is no evidence Wedgewood traded on its polls."
+          ]
+        },
+        "high": {
+          "title": "When Fake Polls Met the Election Cop",
+          "lesson": "Fabricated polls can influence election-contract prices; trading to profit from that influence could constitute illegal commodities-market manipulation and draw CFTC scrutiny.",
+          "paragraphs": [
+            "Since June, in Michigan, in Maine, and Kansas too,\nWedgewood Polls released results that clashed with others’ view.",
+            "Then FiftyPlusOne asked, “Are all these numbers right?”\nBy Tuesday, Wedgewood’s answer brought the trick to light:\nAlmost every poll was fake, the team at last confessed.\n“An experimental project” was how they framed the test.",
+            "Aggregators had displayed them; The New York Times did too,\nOn pages tracking close campaigns where readers sought a clue.\nNate Silver said these polls did not just quietly blend in;\nThey pushed a different story about who might lose or win.",
+            "Byrne Hobart saw a money twist inside the polling fuss:\nOn Kalshi, traders buy contracts whose prices rise and fall.\nA winning contract pays if its named event occurs at all.",
+            "A fake Maine Senate poll could move averages a few,\nThen nudge Kalshi’s contract prices as traders changed their view.\nThat might earn tens of dollars—perhaps even a bit more.\nBut did Wedgewood trade that way? There’s no evidence for sure.",
+            "If someone spread false polls, then traded on the swing,\nThat could be commodities manipulation—a serious thing.\nThe CFTC had warned, “Don’t make us election cops!”\nIt usually watched futures tied to prices, goods, and crops.",
+            "Yet election contracts turned campaigns into things that trade,\nSo fake political information entered markets people made.\nA market built to gather truth can pay for fakes instead:\nBad data enters, prices move, and doubt is what gets spread.",
+            "What happened? Wedgewood Polls admitted that almost all its published surveys were fabricated. Because election contracts trade on Kalshi, fake polls could affect their prices, potentially turning election misinformation into a commodities-market issue for the CFTC, though there is no evidence Wedgewood traded on its polls."
+          ]
+        }
+      }
+    }
+  ]
+}
