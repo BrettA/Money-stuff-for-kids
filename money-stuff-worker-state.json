@@ -552,6 +552,18 @@
       "submitted": true,
       "updatedAt": "2026-10-23T18:44:06.965Z",
       "submittedAt": "2026-10-23T18:44:06.965Z"
+    },
+    "1a179749d0c2a1e4": {
+      "gmailMessageId": "1a179749d0c2a1e4",
+      "newsletterDate": "2026-10-26",
+      "newsletterTitle": "Anthropic Raises Concerns",
+      "editionId": "2026-10-26-anthropic-raises-concerns",
+      "sourceSha256": "030ad82ae23984e9865eb49335b7917c237050ccfc2459a9fbafa780b3f2a858",
+      "packageSha256": "d48c633e7ca1a94d30fb1653a225b589309ed5fbc1d854856017114ef13ab516",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-26T19:24:06.063Z",
+      "submittedAt": "2026-10-26T19:24:06.063Z"
     }
   }
 }
