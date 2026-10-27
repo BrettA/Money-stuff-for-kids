@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-27-musk-s-mars-merger-pay",
+  "date": "2026-10-27",
+  "displayDate": "October 27, 2026",
+  "title": "Musk’s Mars Merger Pay",
+  "sourceSections": [
+    "SpaceX/Tesla comp packages",
+    "MidCap",
+    "Pattern day trading",
+    "Prediction market indexes",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "spacex-tesla-comp-packages",
+      "sourceSection": "SpaceX/Tesla comp packages",
+      "illustration": {
+        "src": "/images/2026-10-27-musk-s-mars-merger-pay/spacex-tesla-comp-packages.png",
+        "alt": "Elon Musk studies a possible SpaceX–Tesla merger plan beside Tesla robots, a SpaceX rocket, a Mars colony, and orbiting data centers."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Elon Musk"
+        ],
+        "realCompanies": [
+          "Tesla Inc.",
+          "Space Exploration Technologies Corp. (SpaceX)"
+        ],
+        "financialMechanism": "Musk’s Tesla and SpaceX awards grant stock only when valuation and operating milestones are met. An assumed SpaceX-led merger below Tesla’s first $2 trillion threshold would trigger Tesla’s change-of-control provision and forfeit its unearned award, while SpaceX could adjust its valuation milestones upward.",
+        "centralJoke": "Even trillion-dollar awards tied to a million-person Mars colony are almost beside the point: Musk already owns an enormous stake, and the proposed merger would chiefly help him secure super-voting control of Tesla’s robot army."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Elon’s Trillion-Dollar Trip to Mars",
+          "lesson": "In a possible stock-for-stock merger led by SpaceX, Tesla’s change-of-control rules could cancel Elon Musk’s unearned Tesla award, while SpaceX could raise its own award thresholds; the merger’s main benefit to Musk would be super-voting control, not a pay-package trick.",
+          "paragraphs": [
+            "Elon Musk leads Tesla, where cars and robots roll;\nHis prize is twelve stock bundles, each tied to a goal.\nTesla must reach market values from $2 trillion to $8.5 trillion,\nPlus earnings or product targets—then his award could top $1 trillion.",
+            "The goals include 20 million Teslas delivered with care,\nA million working robotaxis and a million bots out there.\nBut if another company buys Tesla below $2 trillion one day,\nThe unearned bundles vanish—poof!—and the prize goes away.",
+            "Musk also leads SpaceX, whose challenge climbs much higher:\nUp to 1.3 billion shares if its value keeps rising like fire.\nMarket value alone won’t unlock that stock-filled door:\nSpaceX needs one million people living permanently on Mars—or",
+            "Non-Earth data centers producing 100 terawatts of compute each year.\nThose are not small chores to finish before the shares appear!\nNow SpaceX and Tesla are considering joining as one,\nWith SpaceX likely surviving when the merger is done.",
+            "At today’s assumed values, Tesla’s whole award could disappear,\nWhile SpaceX might lift its final goal to roughly $13 trillion from here.\nYet Musk could hold about one-third of the combined company’s stock,\nWorth more than $4 trillion if it reached that lofty dock.",
+            "So this isn’t clever pay-package gymnastics among the stars;\nMusk already owns plenty, with or without a million folks on Mars.\nThe stranger prize is control of Tesla’s robots from SpaceX’s voting chair:\nSuper-voting shares could put the whole robot army under his care.",
+            "What happened? Tesla and SpaceX are considering a merger that, under the article’s assumptions, could cancel Musk’s unearned Tesla award while preserving an adjustable SpaceX award. The likely purpose would be to give Musk super-voting control of the combined company, not to increase his compensation."
+          ]
+        },
+        "elementary": {
+          "title": "Elon’s Trillion-Dollar Trip to Mars",
+          "lesson": "In a possible stock-for-stock merger led by SpaceX, Tesla’s change-of-control rules could cancel Elon Musk’s unearned Tesla award, while SpaceX could raise its own award thresholds; the merger’s main benefit to Musk would be super-voting control, not a pay-package trick.",
+          "paragraphs": [
+            "Elon Musk leads Tesla, where cars and robots roll;\nHis prize is twelve stock bundles, each tied to a goal.\nTesla must reach market values from $2 trillion to $8.5 trillion,\nPlus earnings or product targets—then his award could top $1 trillion.",
+            "The goals include 20 million Teslas delivered with care,\nA million working robotaxis and a million bots out there.\nBut if another company buys Tesla below $2 trillion one day,\nThe unearned bundles vanish—poof!—and the prize goes away.",
+            "Musk also leads SpaceX, whose challenge climbs much higher:\nUp to 1.3 billion shares if its value keeps rising like fire.\nMarket value alone won’t unlock that stock-filled door:\nSpaceX needs one million people living permanently on Mars—or",
+            "Non-Earth data centers producing 100 terawatts of compute each year.\nThose are not small chores to finish before the shares appear!\nNow SpaceX and Tesla are considering joining as one,\nWith SpaceX likely surviving when the merger is done.",
+            "At today’s assumed values, Tesla’s whole award could disappear,\nWhile SpaceX might lift its final goal to roughly $13 trillion from here.\nYet Musk could hold about one-third of the combined company’s stock,\nWorth more than $4 trillion if it reached that lofty dock.",
+            "So this isn’t clever pay-package gymnastics among the stars;\nMusk already owns plenty, with or without a million folks on Mars.\nThe stranger prize is control of Tesla’s robots from SpaceX’s voting chair:\nSuper-voting shares could put the whole robot army under his care.",
+            "What happened? Tesla and SpaceX are considering a merger that, under the article’s assumptions, could cancel Musk’s unearned Tesla award while preserving an adjustable SpaceX award. The likely purpose would be to give Musk super-voting control of the combined company, not to increase his compensation."
+          ]
+        },
+        "middle": {
+          "title": "Elon’s Trillion-Dollar Trip to Mars",
+          "lesson": "In a possible stock-for-stock merger led by SpaceX, Tesla’s change-of-control rules could cancel Elon Musk’s unearned Tesla award, while SpaceX could raise its own award thresholds; the merger’s main benefit to Musk would be super-voting control, not a pay-package trick.",
+          "paragraphs": [
+            "Elon Musk leads Tesla, where cars and robots roll;\nHis prize is twelve stock bundles, each tied to a goal.\nTesla must reach market values from $2 trillion to $8.5 trillion,\nPlus earnings or product targets—then his award could top $1 trillion.",
+            "The goals include 20 million Teslas delivered with care,\nA million working robotaxis and a million bots out there.\nBut if another company buys Tesla below $2 trillion one day,\nThe unearned bundles vanish—poof!—and the prize goes away.",
+            "Musk also leads SpaceX, whose challenge climbs much higher:\nUp to 1.3 billion shares if its value keeps rising like fire.\nMarket value alone won’t unlock that stock-filled door:\nSpaceX needs one million people living permanently on Mars—or",
+            "Non-Earth data centers producing 100 terawatts of compute each year.\nThose are not small chores to finish before the shares appear!\nNow SpaceX and Tesla are considering joining as one,\nWith SpaceX likely surviving when the merger is done.",
+            "At today’s assumed values, Tesla’s whole award could disappear,\nWhile SpaceX might lift its final goal to roughly $13 trillion from here.\nYet Musk could hold about one-third of the combined company’s stock,\nWorth more than $4 trillion if it reached that lofty dock.",
+            "So this isn’t clever pay-package gymnastics among the stars;\nMusk already owns plenty, with or without a million folks on Mars.\nThe stranger prize is control of Tesla’s robots from SpaceX’s voting chair:\nSuper-voting shares could put the whole robot army under his care.",
+            "What happened? Tesla and SpaceX are considering a merger that, under the article’s assumptions, could cancel Musk’s unearned Tesla award while preserving an adjustable SpaceX award. The likely purpose would be to give Musk super-voting control of the combined company, not to increase his compensation."
+          ]
+        },
+        "high": {
+          "title": "Elon’s Trillion-Dollar Trip to Mars",
+          "lesson": "In a possible stock-for-stock merger led by SpaceX, Tesla’s change-of-control rules could cancel Elon Musk’s unearned Tesla award, while SpaceX could raise its own award thresholds; the merger’s main benefit to Musk would be super-voting control, not a pay-package trick.",
+          "paragraphs": [
+            "Elon Musk leads Tesla, where cars and robots roll;\nHis prize is twelve stock bundles, each tied to a goal.\nTesla must reach market values from $2 trillion to $8.5 trillion,\nPlus earnings or product targets—then his award could top $1 trillion.",
+            "The goals include 20 million Teslas delivered with care,\nA million working robotaxis and a million bots out there.\nBut if another company buys Tesla below $2 trillion one day,\nThe unearned bundles vanish—poof!—and the prize goes away.",
+            "Musk also leads SpaceX, whose challenge climbs much higher:\nUp to 1.3 billion shares if its value keeps rising like fire.\nMarket value alone won’t unlock that stock-filled door:\nSpaceX needs one million people living permanently on Mars—or",
+            "Non-Earth data centers producing 100 terawatts of compute each year.\nThose are not small chores to finish before the shares appear!\nNow SpaceX and Tesla are considering joining as one,\nWith SpaceX likely surviving when the merger is done.",
+            "At today’s assumed values, Tesla’s whole award could disappear,\nWhile SpaceX might lift its final goal to roughly $13 trillion from here.\nYet Musk could hold about one-third of the combined company’s stock,\nWorth more than $4 trillion if it reached that lofty dock.",
+            "So this isn’t clever pay-package gymnastics among the stars;\nMusk already owns plenty, with or without a million folks on Mars.\nThe stranger prize is control of Tesla’s robots from SpaceX’s voting chair:\nSuper-voting shares could put the whole robot army under his care.",
+            "What happened? Tesla and SpaceX are considering a merger that, under the article’s assumptions, could cancel Musk’s unearned Tesla award while preserving an adjustable SpaceX award. The likely purpose would be to give Musk super-voting control of the combined company, not to increase his compensation."
+          ]
+        }
+      }
+    },
+    {
+      "id": "midcap",
+      "sourceSection": "MidCap",
+      "illustration": {
+        "src": "/images/2026-10-27-musk-s-mars-merger-pay/midcap.png",
+        "alt": "Ares Capital delivers an envelope of cash and Ares share certificates for MidCap, while a nearby market counter gives the shares a lower value."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "MidCap Financial Investment Corp.",
+          "Ares Capital Corp.",
+          "Apollo Global Management Inc.",
+          "Ares Management"
+        ],
+        "financialMechanism": "Ares Capital’s stock consideration was calculated using the greater of Ares Capital’s NAV per share or market price; because NAV was higher, the announced consideration exceeded the stock’s current market value.",
+        "centralJoke": "The deal could be advertised as paying a roughly 30% premium to MidCap’s market price even though part of that payment consisted of Ares shares labeled at NAV and worth less in the stock market."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "MidCap and the Two Price Tags",
+          "lesson": "When an acquisition pays with stock valued at net asset value rather than its lower market price, the announced payment can exceed what that stock currently sells for.",
+          "paragraphs": [
+            "A BDC is a public fund holding private-credit loans;\nits shares trade each day at a price of their own.\nMidCap Financial Investment Corp. had two values in view:\nwhat its assets were marked at, and what buyers would do.",
+            "Its NAV—assets minus debts—was $12.86,\nbut Monday’s market price was just $8.36.\nThen Ares Capital agreed to buy the fund from Apollo,\nin a $2.6 billion deal with two price tags to follow.",
+            "MidCap holders were promised $10.88 a share:\n$1.21 in cash, with Ares stock for the rest of their fare.\nThe offer stood thirty percent over MidCap’s market price,\nthough fifteen percent under its NAV—not quite as nice.",
+            "The Ares stock was announced as worth $9.67,\nusing NAV to count how many shares would be given.\nAres had NAV of $19.31 a share,\nbut its market price, $18.61, was lower out there.",
+            "So stock called $9.67 in the deal’s bright display\nwas worth about $9.32 at the market that day.\nA “thirty-percent premium” could still lead the parade,\nthough the stock portion was worth less when actually traded.",
+            "What happened? Ares Capital agreed to acquire MidCap using cash and Ares shares, with the exchange ratio valuing Ares stock at the greater of its NAV or market price. Because Ares traded below NAV, stock announced as $9.67 of value had a market value of about $9.32."
+          ]
+        },
+        "elementary": {
+          "title": "MidCap and the Two Price Tags",
+          "lesson": "When an acquisition pays with stock valued at net asset value rather than its lower market price, the announced payment can exceed what that stock currently sells for.",
+          "paragraphs": [
+            "A BDC is a public fund holding private-credit loans;\nits shares trade each day at a price of their own.\nMidCap Financial Investment Corp. had two values in view:\nwhat its assets were marked at, and what buyers would do.",
+            "Its NAV—assets minus debts—was $12.86,\nbut Monday’s market price was just $8.36.\nThen Ares Capital agreed to buy the fund from Apollo,\nin a $2.6 billion deal with two price tags to follow.",
+            "MidCap holders were promised $10.88 a share:\n$1.21 in cash, with Ares stock for the rest of their fare.\nThe offer stood thirty percent over MidCap’s market price,\nthough fifteen percent under its NAV—not quite as nice.",
+            "The Ares stock was announced as worth $9.67,\nusing NAV to count how many shares would be given.\nAres had NAV of $19.31 a share,\nbut its market price, $18.61, was lower out there.",
+            "So stock called $9.67 in the deal’s bright display\nwas worth about $9.32 at the market that day.\nA “thirty-percent premium” could still lead the parade,\nthough the stock portion was worth less when actually traded.",
+            "What happened? Ares Capital agreed to acquire MidCap using cash and Ares shares, with the exchange ratio valuing Ares stock at the greater of its NAV or market price. Because Ares traded below NAV, stock announced as $9.67 of value had a market value of about $9.32."
+          ]
+        },
+        "middle": {
+          "title": "MidCap and the Two Price Tags",
+          "lesson": "When an acquisition pays with stock valued at net asset value rather than its lower market price, the announced payment can exceed what that stock currently sells for.",
+          "paragraphs": [
+            "A BDC is a public fund holding private-credit loans;\nits shares trade each day at a price of their own.\nMidCap Financial Investment Corp. had two values in view:\nwhat its assets were marked at, and what buyers would do.",
+            "Its NAV—assets minus debts—was $12.86,\nbut Monday’s market price was just $8.36.\nThen Ares Capital agreed to buy the fund from Apollo,\nin a $2.6 billion deal with two price tags to follow.",
+            "MidCap holders were promised $10.88 a share:\n$1.21 in cash, with Ares stock for the rest of their fare.\nThe offer stood thirty percent over MidCap’s market price,\nthough fifteen percent under its NAV—not quite as nice.",
+            "The Ares stock was announced as worth $9.67,\nusing NAV to count how many shares would be given.\nAres had NAV of $19.31 a share,\nbut its market price, $18.61, was lower out there.",
+            "So stock called $9.67 in the deal’s bright display\nwas worth about $9.32 at the market that day.\nA “thirty-percent premium” could still lead the parade,\nthough the stock portion was worth less when actually traded.",
+            "What happened? Ares Capital agreed to acquire MidCap using cash and Ares shares, with the exchange ratio valuing Ares stock at the greater of its NAV or market price. Because Ares traded below NAV, stock announced as $9.67 of value had a market value of about $9.32."
+          ]
+        },
+        "high": {
+          "title": "MidCap and the Two Price Tags",
+          "lesson": "When an acquisition pays with stock valued at net asset value rather than its lower market price, the announced payment can exceed what that stock currently sells for.",
+          "paragraphs": [
+            "A BDC is a public fund holding private-credit loans;\nits shares trade each day at a price of their own.\nMidCap Financial Investment Corp. had two values in view:\nwhat its assets were marked at, and what buyers would do.",
+            "Its NAV—assets minus debts—was $12.86,\nbut Monday’s market price was just $8.36.\nThen Ares Capital agreed to buy the fund from Apollo,\nin a $2.6 billion deal with two price tags to follow.",
+            "MidCap holders were promised $10.88 a share:\n$1.21 in cash, with Ares stock for the rest of their fare.\nThe offer stood thirty percent over MidCap’s market price,\nthough fifteen percent under its NAV—not quite as nice.",
+            "The Ares stock was announced as worth $9.67,\nusing NAV to count how many shares would be given.\nAres had NAV of $19.31 a share,\nbut its market price, $18.61, was lower out there.",
+            "So stock called $9.67 in the deal’s bright display\nwas worth about $9.32 at the market that day.\nA “thirty-percent premium” could still lead the parade,\nthough the stock portion was worth less when actually traded.",
+            "What happened? Ares Capital agreed to acquire MidCap using cash and Ares shares, with the exchange ratio valuing Ares stock at the greater of its NAV or market price. Because Ares traded below NAV, stock announced as $9.67 of value had a market value of about $9.32."
+          ]
+        }
+      }
+    },
+    {
+      "id": "pattern-day-trading",
+      "sourceSection": "Pattern day trading",
+      "illustration": {
+        "src": "/images/2026-10-27-musk-s-mars-merger-pay/pattern-day-trading.png",
+        "alt": "FINRA lifts the $25,000 day-trading barrier while orders rush toward Robinhood and Webull and a market maker keeps the gap between $50.25 and $50.24."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Simone Foxman",
+          "Peter Tuchman",
+          "Benjamin Schiffrin"
+        ],
+        "realCompanies": [
+          "Financial Industry Regulatory Authority (FINRA)",
+          "Bloomberg",
+          "Robinhood Markets Inc.",
+          "Webull Corp.",
+          "Wall Street Global Trading Academy",
+          "Better Markets"
+        ],
+        "financialMechanism": "Frequent traders repeatedly pay the bid-ask spread; market makers profit from that spread and pay brokers for customer order flow. Removing the $25,000 pattern-day-trader restriction encouraged more trading in smaller margin accounts.",
+        "centralJoke": "Every ordinary day trader is probably transferring money to brokers and market makers—but not you, of course, because you have a system. The rule was criticized for making trading less fun, even though fun may not be the purpose of investing."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Day the Day-Trading Gate Came Down",
+          "lesson": "Repealing FINRA’s pattern day trader rule let smaller margin accounts trade more frequently, increasing repeated bid-ask-spread costs and generating more order-flow revenue for brokers and market makers.",
+          "paragraphs": [
+            "FINRA once set a guardrail in the way:\nFour margin-account round trips, same-day,\nwithin five business days would bring this brand:\n“Pattern day trader”—keep twenty-five grand.",
+            "In April, FINRA voted the rule goodbye;\nby June, the smaller accounts could trade sky-high.\nBloomberg’s Simone Foxman saw volumes soar\nas Robinhood and Webull welcomed more.",
+            "A market maker sells at $50.25,\nthen buys at $50.24 when trades arrive.\nThe penny in between is called the spread;\nrepeat the trade, repeat the toll instead.",
+            "Market makers pay brokers “for order flow”—\nthe chance to meet those trades as buy orders go.\nSo “zero commission” looks delightfully free,\nwhile spread after spread can charge invisibly.",
+            "Same-day options speed the spinning game;\ncrypto makes the cycle much the same.\nNow brokerage accounts can take a sports bet too—\na joke became a thing that people really do.",
+            "Peter Tuchman teaches retail trading and said\nthe older limits spoiled the fun ahead.\nBut Better Markets’ Benjamin Schiffrin warned instead:\nthe line with gambling blurred as trading spread.",
+            "Of course you have a system, sharp and bright;\nyour frequent trades will surely all be right!\nYet if long-term wealth is why folks came,\nperhaps “more fun” was never quite the aim.",
+            "What happened? FINRA repealed the rule requiring margin-account customers with four or more day trades in five business days to maintain $25,000. Trading then surged at Robinhood and Webull, creating more chances for brokers and market makers to earn from order flow and bid-ask spreads."
+          ]
+        },
+        "elementary": {
+          "title": "The Day the Day-Trading Gate Came Down",
+          "lesson": "Repealing FINRA’s pattern day trader rule let smaller margin accounts trade more frequently, increasing repeated bid-ask-spread costs and generating more order-flow revenue for brokers and market makers.",
+          "paragraphs": [
+            "FINRA once set a guardrail in the way:\nFour margin-account round trips, same-day,\nwithin five business days would bring this brand:\n“Pattern day trader”—keep twenty-five grand.",
+            "In April, FINRA voted the rule goodbye;\nby June, the smaller accounts could trade sky-high.\nBloomberg’s Simone Foxman saw volumes soar\nas Robinhood and Webull welcomed more.",
+            "A market maker sells at $50.25,\nthen buys at $50.24 when trades arrive.\nThe penny in between is called the spread;\nrepeat the trade, repeat the toll instead.",
+            "Market makers pay brokers “for order flow”—\nthe chance to meet those trades as buy orders go.\nSo “zero commission” looks delightfully free,\nwhile spread after spread can charge invisibly.",
+            "Same-day options speed the spinning game;\ncrypto makes the cycle much the same.\nNow brokerage accounts can take a sports bet too—\na joke became a thing that people really do.",
+            "Peter Tuchman teaches retail trading and said\nthe older limits spoiled the fun ahead.\nBut Better Markets’ Benjamin Schiffrin warned instead:\nthe line with gambling blurred as trading spread.",
+            "Of course you have a system, sharp and bright;\nyour frequent trades will surely all be right!\nYet if long-term wealth is why folks came,\nperhaps “more fun” was never quite the aim.",
+            "What happened? FINRA repealed the rule requiring margin-account customers with four or more day trades in five business days to maintain $25,000. Trading then surged at Robinhood and Webull, creating more chances for brokers and market makers to earn from order flow and bid-ask spreads."
+          ]
+        },
+        "middle": {
+          "title": "The Day the Day-Trading Gate Came Down",
+          "lesson": "Repealing FINRA’s pattern day trader rule let smaller margin accounts trade more frequently, increasing repeated bid-ask-spread costs and generating more order-flow revenue for brokers and market makers.",
+          "paragraphs": [
+            "FINRA once set a guardrail in the way:\nFour margin-account round trips, same-day,\nwithin five business days would bring this brand:\n“Pattern day trader”—keep twenty-five grand.",
+            "In April, FINRA voted the rule goodbye;\nby June, the smaller accounts could trade sky-high.\nBloomberg’s Simone Foxman saw volumes soar\nas Robinhood and Webull welcomed more.",
+            "A market maker sells at $50.25,\nthen buys at $50.24 when trades arrive.\nThe penny in between is called the spread;\nrepeat the trade, repeat the toll instead.",
+            "Market makers pay brokers “for order flow”—\nthe chance to meet those trades as buy orders go.\nSo “zero commission” looks delightfully free,\nwhile spread after spread can charge invisibly.",
+            "Same-day options speed the spinning game;\ncrypto makes the cycle much the same.\nNow brokerage accounts can take a sports bet too—\na joke became a thing that people really do.",
+            "Peter Tuchman teaches retail trading and said\nthe older limits spoiled the fun ahead.\nBut Better Markets’ Benjamin Schiffrin warned instead:\nthe line with gambling blurred as trading spread.",
+            "Of course you have a system, sharp and bright;\nyour frequent trades will surely all be right!\nYet if long-term wealth is why folks came,\nperhaps “more fun” was never quite the aim.",
+            "What happened? FINRA repealed the rule requiring margin-account customers with four or more day trades in five business days to maintain $25,000. Trading then surged at Robinhood and Webull, creating more chances for brokers and market makers to earn from order flow and bid-ask spreads."
+          ]
+        },
+        "high": {
+          "title": "The Day the Day-Trading Gate Came Down",
+          "lesson": "Repealing FINRA’s pattern day trader rule let smaller margin accounts trade more frequently, increasing repeated bid-ask-spread costs and generating more order-flow revenue for brokers and market makers.",
+          "paragraphs": [
+            "FINRA once set a guardrail in the way:\nFour margin-account round trips, same-day,\nwithin five business days would bring this brand:\n“Pattern day trader”—keep twenty-five grand.",
+            "In April, FINRA voted the rule goodbye;\nby June, the smaller accounts could trade sky-high.\nBloomberg’s Simone Foxman saw volumes soar\nas Robinhood and Webull welcomed more.",
+            "A market maker sells at $50.25,\nthen buys at $50.24 when trades arrive.\nThe penny in between is called the spread;\nrepeat the trade, repeat the toll instead.",
+            "Market makers pay brokers “for order flow”—\nthe chance to meet those trades as buy orders go.\nSo “zero commission” looks delightfully free,\nwhile spread after spread can charge invisibly.",
+            "Same-day options speed the spinning game;\ncrypto makes the cycle much the same.\nNow brokerage accounts can take a sports bet too—\na joke became a thing that people really do.",
+            "Peter Tuchman teaches retail trading and said\nthe older limits spoiled the fun ahead.\nBut Better Markets’ Benjamin Schiffrin warned instead:\nthe line with gambling blurred as trading spread.",
+            "Of course you have a system, sharp and bright;\nyour frequent trades will surely all be right!\nYet if long-term wealth is why folks came,\nperhaps “more fun” was never quite the aim.",
+            "What happened? FINRA repealed the rule requiring margin-account customers with four or more day trades in five business days to maintain $25,000. Trading then surged at Robinhood and Webull, creating more chances for brokers and market makers to earn from order flow and bid-ask spreads."
+          ]
+        }
+      }
+    },
+    {
+      "id": "prediction-market-indexes",
+      "sourceSection": "Prediction market indexes",
+      "illustration": {
+        "src": "/images/2026-10-27-musk-s-mars-merger-pay/prediction-market-indexes.png",
+        "alt": "S&P Dow Jones Indices and Kalshi representatives assemble political, weather, sports, supply-chain, and AI event contracts into one index while a serious television presenter reports that prediction markets rose."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "none in source"
+        ],
+        "realCompanies": [
+          "S&P Dow Jones Indices",
+          "Kalshi",
+          "Polymarket"
+        ],
+        "financialMechanism": "Event-contract prices represent traders’ estimated probabilities. Related contracts can be bundled into an index, and traders may attempt index arbitrage by buying the cheaper side and selling overlapping index or component contracts priced higher.",
+        "centralJoke": "A deliberately silly prediction—that finance would solemnly launch an index making it sound as if events themselves had become more likely—was quickly echoed by a real S&P Dow Jones Indices and Kalshi partnership."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Index of Things That Might Happen",
+          "lesson": "S&P Dow Jones Indices and Kalshi plan to bundle prices from related event contracts into indexes; because Kalshi already offers both broad and narrow overlapping bets, trading an index against its components could create unusual arbitrage opportunities.",
+          "paragraphs": [
+            "In June came a joke: “Take contracts galore—from Kalshi and Polymarket, one hundred or more. Average their prices; then proudly announce,‘Today, all probability managed to bounce!’”",
+            "An event contract has a price that can showhow likely traders think an outcome may go.An index groups prices in one tidy score,so changes across many bets are easier to explore.",
+            "The joke pictured newscasters, solemn and bright:“Prediction markets rose in today’s trading flight.”As though events had all climbed together somehow,and things were more likely to happen right now.",
+            "Then S&P Dow Jones Indices and Kalshi declareda multi-year partnership—the straightest of stares.They plan indexes for politics, weather, and sport,supply chains and AI’s effects on jobs of each sort.",
+            "But Kalshi sells broad bets and narrower ones:“Which party wins the Senate?” and state-by-state runs.An index might mix them—but which should count most?The whole Senate result, or each separate contest?",
+            "A trader could buy an index when its price looked small,then sell matching contracts whose prices looked tall.That’s index arbitrage: seek mismatched prices for gain—but here, broad bets already contain narrower bets in their chain.",
+            "So the joke came true, though not quite in the waythat “events became likelier” over the day.Instead, related forecasts may rise as a crew—and traders may trade the index against bets that overlap it, too.",
+            "What happened? S&P Dow Jones Indices and Kalshi announced a multi-year partnership to create indexes from Kalshi event contracts and enable trading tied to S&P DJI benchmarks. Because Kalshi lists overlapping broad and narrow contracts, those indexes could permit arbitrage between an index and several possible sets of underlying bets."
+          ]
+        },
+        "elementary": {
+          "title": "The Index of Things That Might Happen",
+          "lesson": "S&P Dow Jones Indices and Kalshi plan to bundle prices from related event contracts into indexes; because Kalshi already offers both broad and narrow overlapping bets, trading an index against its components could create unusual arbitrage opportunities.",
+          "paragraphs": [
+            "In June came a joke: “Take contracts galore—from Kalshi and Polymarket, one hundred or more. Average their prices; then proudly announce,‘Today, all probability managed to bounce!’”",
+            "An event contract has a price that can showhow likely traders think an outcome may go.An index groups prices in one tidy score,so changes across many bets are easier to explore.",
+            "The joke pictured newscasters, solemn and bright:“Prediction markets rose in today’s trading flight.”As though events had all climbed together somehow,and things were more likely to happen right now.",
+            "Then S&P Dow Jones Indices and Kalshi declareda multi-year partnership—the straightest of stares.They plan indexes for politics, weather, and sport,supply chains and AI’s effects on jobs of each sort.",
+            "But Kalshi sells broad bets and narrower ones:“Which party wins the Senate?” and state-by-state runs.An index might mix them—but which should count most?The whole Senate result, or each separate contest?",
+            "A trader could buy an index when its price looked small,then sell matching contracts whose prices looked tall.That’s index arbitrage: seek mismatched prices for gain—but here, broad bets already contain narrower bets in their chain.",
+            "So the joke came true, though not quite in the waythat “events became likelier” over the day.Instead, related forecasts may rise as a crew—and traders may trade the index against bets that overlap it, too.",
+            "What happened? S&P Dow Jones Indices and Kalshi announced a multi-year partnership to create indexes from Kalshi event contracts and enable trading tied to S&P DJI benchmarks. Because Kalshi lists overlapping broad and narrow contracts, those indexes could permit arbitrage between an index and several possible sets of underlying bets."
+          ]
+        },
+        "middle": {
+          "title": "The Index of Things That Might Happen",
+          "lesson": "S&P Dow Jones Indices and Kalshi plan to bundle prices from related event contracts into indexes; because Kalshi already offers both broad and narrow overlapping bets, trading an index against its components could create unusual arbitrage opportunities.",
+          "paragraphs": [
+            "In June came a joke: “Take contracts galore—from Kalshi and Polymarket, one hundred or more. Average their prices; then proudly announce,‘Today, all probability managed to bounce!’”",
+            "An event contract has a price that can showhow likely traders think an outcome may go.An index groups prices in one tidy score,so changes across many bets are easier to explore.",
+            "The joke pictured newscasters, solemn and bright:“Prediction markets rose in today’s trading flight.”As though events had all climbed together somehow,and things were more likely to happen right now.",
+            "Then S&P Dow Jones Indices and Kalshi declareda multi-year partnership—the straightest of stares.They plan indexes for politics, weather, and sport,supply chains and AI’s effects on jobs of each sort.",
+            "But Kalshi sells broad bets and narrower ones:“Which party wins the Senate?” and state-by-state runs.An index might mix them—but which should count most?The whole Senate result, or each separate contest?",
+            "A trader could buy an index when its price looked small,then sell matching contracts whose prices looked tall.That’s index arbitrage: seek mismatched prices for gain—but here, broad bets already contain narrower bets in their chain.",
+            "So the joke came true, though not quite in the waythat “events became likelier” over the day.Instead, related forecasts may rise as a crew—and traders may trade the index against bets that overlap it, too.",
+            "What happened? S&P Dow Jones Indices and Kalshi announced a multi-year partnership to create indexes from Kalshi event contracts and enable trading tied to S&P DJI benchmarks. Because Kalshi lists overlapping broad and narrow contracts, those indexes could permit arbitrage between an index and several possible sets of underlying bets."
+          ]
+        },
+        "high": {
+          "title": "The Index of Things That Might Happen",
+          "lesson": "S&P Dow Jones Indices and Kalshi plan to bundle prices from related event contracts into indexes; because Kalshi already offers both broad and narrow overlapping bets, trading an index against its components could create unusual arbitrage opportunities.",
+          "paragraphs": [
+            "In June came a joke: “Take contracts galore—from Kalshi and Polymarket, one hundred or more. Average their prices; then proudly announce,‘Today, all probability managed to bounce!’”",
+            "An event contract has a price that can showhow likely traders think an outcome may go.An index groups prices in one tidy score,so changes across many bets are easier to explore.",
+            "The joke pictured newscasters, solemn and bright:“Prediction markets rose in today’s trading flight.”As though events had all climbed together somehow,and things were more likely to happen right now.",
+            "Then S&P Dow Jones Indices and Kalshi declareda multi-year partnership—the straightest of stares.They plan indexes for politics, weather, and sport,supply chains and AI’s effects on jobs of each sort.",
+            "But Kalshi sells broad bets and narrower ones:“Which party wins the Senate?” and state-by-state runs.An index might mix them—but which should count most?The whole Senate result, or each separate contest?",
+            "A trader could buy an index when its price looked small,then sell matching contracts whose prices looked tall.That’s index arbitrage: seek mismatched prices for gain—but here, broad bets already contain narrower bets in their chain.",
+            "So the joke came true, though not quite in the waythat “events became likelier” over the day.Instead, related forecasts may rise as a crew—and traders may trade the index against bets that overlap it, too.",
+            "What happened? S&P Dow Jones Indices and Kalshi announced a multi-year partnership to create indexes from Kalshi event contracts and enable trading tied to S&P DJI benchmarks. Because Kalshi lists overlapping broad and narrow contracts, those indexes could permit arbitrage between an index and several possible sets of underlying bets."
+          ]
+        }
+      }
+    }
+  ]
+}
