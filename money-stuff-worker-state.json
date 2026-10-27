@@ -564,6 +564,18 @@
       "submitted": true,
       "updatedAt": "2026-10-26T19:24:06.063Z",
       "submittedAt": "2026-10-26T19:24:06.063Z"
+    },
+    "1a17e99865846a56": {
+      "gmailMessageId": "1a17e99865846a56",
+      "newsletterDate": "2026-10-27",
+      "newsletterTitle": "Musk’s Mars Merger Pay",
+      "editionId": "2026-10-27-musk-s-mars-merger-pay",
+      "sourceSha256": "1a51a4c882c21973bb7c01a58d384e4916591e7bbbd950c1fcaa4e145e27811a",
+      "packageSha256": "376f1de37bef1f7f22ff91eae34f9d2ab3d737e27271c0fe64b4e3befb56c1ef",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-27T19:42:20.359Z",
+      "submittedAt": "2026-10-27T19:42:20.359Z"
     }
   }
 }
