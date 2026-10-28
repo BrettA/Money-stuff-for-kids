@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-28-not-your-keys-not-your-dat",
+  "date": "2026-10-28",
+  "displayDate": "October 28, 2026",
+  "title": "Not Your Keys, Not Your DAT",
+  "sourceSections": [
+    "Bitcoin oopsie",
+    "People are worried about non-GAAP accounting",
+    "Buy borrow die",
+    "Sports bets",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "bitcoin-oopsie",
+      "sourceSection": "Bitcoin oopsie",
+      "illustration": {
+        "src": "/images/2026-10-28-not-your-keys-not-your-dat/bitcoin-oopsie.png",
+        "alt": "Nathaniel Bradley watches an empty withdrawal hatch at Biconomy while a ledger shows 1,309 Bitcoin credited to Datavault AI and Scilex holds newly issued shares."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Nathaniel Bradley"
+        ],
+        "realCompanies": [
+          "Datavault AI Inc.",
+          "Scilex Holding Co.",
+          "Biconomy Pte. Ltd."
+        ],
+        "financialMechanism": "Datavault issued 278.9 million shares to Scilex in exchange for about 1,309 Bitcoin credited through off-chain entries at Biconomy. Because Datavault could not withdraw the remaining balance onto the Bitcoin blockchain, its accountants determined that the credits did not qualify as company-owned digital assets.",
+        "centralJoke": "During the digital-asset-treasury boom, the market seemed willing to pay $2 of stock value for $1 of Bitcoin; in Datavault’s case, it ultimately appeared to have paid $2 for $0 of withdrawable Bitcoin."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Bitcoin That Wouldn’t Come Out",
+          "lesson": "A balance shown on a crypto exchange’s private ledger may not qualify as a company-owned digital asset if the company cannot withdraw the Bitcoin onto the blockchain.",
+          "paragraphs": [
+            "In 2025, Wall Street loved a strange new trick:\nBuy Bitcoin, watch your company’s value rise up quick.\nA hundred million dollars in coins might make twice that appear;\nEveryone knew it couldn’t last, so deals came fast that year.",
+            "Datavault AI was worth about $35 million one day,\nwith 116.7 million shares near thirty cents in play.\nIt sold Scilex 278.9 million shares in a trade,\nat $0.5378 each—and Bitcoin was how Scilex paid.",
+            "About 1,309 Bitcoin, then worth near $150 million, appeared\nin Datavault’s Biconomy account, and shareholders cheered.\nCEO Nathaniel Bradley praised biotech, blockchain, and AI;\nthe stock hit $3.118—a $973 million high.",
+            "But these were off-chain credits: Biconomy’s private record showed the sum,\nnot Bitcoin on the public blockchain where coins can go and come.\nDatavault sold 491 back to Scilex for $40.5 million in cash,\nthen tried withdrawing the rest—and ran into a crash.",
+            "The withdrawal would not complete; no on-chain coins came through.\nAccountants said the old financial statements were no longer true.\nThe Bitcoin did not qualify as Datavault’s asset after all,\nand its stock closed down 50% after the news’s fall.",
+            "The market once paid $2 in stock for $1 of Bitcoin in sight.\nNow it seemed to have paid $2 for $0. Oops—not quite right!",
+            "What happened? Scilex credited about 1,309 Bitcoin to Datavault AI on Biconomy’s private, off-chain ledger, but Datavault could not withdraw the remaining coins to an external blockchain wallet. Its accountants concluded that the Bitcoin had never qualified as Datavault’s digital asset."
+          ]
+        },
+        "elementary": {
+          "title": "The Bitcoin That Wouldn’t Come Out",
+          "lesson": "A balance shown on a crypto exchange’s private ledger may not qualify as a company-owned digital asset if the company cannot withdraw the Bitcoin onto the blockchain.",
+          "paragraphs": [
+            "In 2025, Wall Street loved a strange new trick:\nBuy Bitcoin, watch your company’s value rise up quick.\nA hundred million dollars in coins might make twice that appear;\nEveryone knew it couldn’t last, so deals came fast that year.",
+            "Datavault AI was worth about $35 million one day,\nwith 116.7 million shares near thirty cents in play.\nIt sold Scilex 278.9 million shares in a trade,\nat $0.5378 each—and Bitcoin was how Scilex paid.",
+            "About 1,309 Bitcoin, then worth near $150 million, appeared\nin Datavault’s Biconomy account, and shareholders cheered.\nCEO Nathaniel Bradley praised biotech, blockchain, and AI;\nthe stock hit $3.118—a $973 million high.",
+            "But these were off-chain credits: Biconomy’s private record showed the sum,\nnot Bitcoin on the public blockchain where coins can go and come.\nDatavault sold 491 back to Scilex for $40.5 million in cash,\nthen tried withdrawing the rest—and ran into a crash.",
+            "The withdrawal would not complete; no on-chain coins came through.\nAccountants said the old financial statements were no longer true.\nThe Bitcoin did not qualify as Datavault’s asset after all,\nand its stock closed down 50% after the news’s fall.",
+            "The market once paid $2 in stock for $1 of Bitcoin in sight.\nNow it seemed to have paid $2 for $0. Oops—not quite right!",
+            "What happened? Scilex credited about 1,309 Bitcoin to Datavault AI on Biconomy’s private, off-chain ledger, but Datavault could not withdraw the remaining coins to an external blockchain wallet. Its accountants concluded that the Bitcoin had never qualified as Datavault’s digital asset."
+          ]
+        },
+        "middle": {
+          "title": "The Bitcoin That Wouldn’t Come Out",
+          "lesson": "A balance shown on a crypto exchange’s private ledger may not qualify as a company-owned digital asset if the company cannot withdraw the Bitcoin onto the blockchain.",
+          "paragraphs": [
+            "In 2025, Wall Street loved a strange new trick:\nBuy Bitcoin, watch your company’s value rise up quick.\nA hundred million dollars in coins might make twice that appear;\nEveryone knew it couldn’t last, so deals came fast that year.",
+            "Datavault AI was worth about $35 million one day,\nwith 116.7 million shares near thirty cents in play.\nIt sold Scilex 278.9 million shares in a trade,\nat $0.5378 each—and Bitcoin was how Scilex paid.",
+            "About 1,309 Bitcoin, then worth near $150 million, appeared\nin Datavault’s Biconomy account, and shareholders cheered.\nCEO Nathaniel Bradley praised biotech, blockchain, and AI;\nthe stock hit $3.118—a $973 million high.",
+            "But these were off-chain credits: Biconomy’s private record showed the sum,\nnot Bitcoin on the public blockchain where coins can go and come.\nDatavault sold 491 back to Scilex for $40.5 million in cash,\nthen tried withdrawing the rest—and ran into a crash.",
+            "The withdrawal would not complete; no on-chain coins came through.\nAccountants said the old financial statements were no longer true.\nThe Bitcoin did not qualify as Datavault’s asset after all,\nand its stock closed down 50% after the news’s fall.",
+            "The market once paid $2 in stock for $1 of Bitcoin in sight.\nNow it seemed to have paid $2 for $0. Oops—not quite right!",
+            "What happened? Scilex credited about 1,309 Bitcoin to Datavault AI on Biconomy’s private, off-chain ledger, but Datavault could not withdraw the remaining coins to an external blockchain wallet. Its accountants concluded that the Bitcoin had never qualified as Datavault’s digital asset."
+          ]
+        },
+        "high": {
+          "title": "The Bitcoin That Wouldn’t Come Out",
+          "lesson": "A balance shown on a crypto exchange’s private ledger may not qualify as a company-owned digital asset if the company cannot withdraw the Bitcoin onto the blockchain.",
+          "paragraphs": [
+            "In 2025, Wall Street loved a strange new trick:\nBuy Bitcoin, watch your company’s value rise up quick.\nA hundred million dollars in coins might make twice that appear;\nEveryone knew it couldn’t last, so deals came fast that year.",
+            "Datavault AI was worth about $35 million one day,\nwith 116.7 million shares near thirty cents in play.\nIt sold Scilex 278.9 million shares in a trade,\nat $0.5378 each—and Bitcoin was how Scilex paid.",
+            "About 1,309 Bitcoin, then worth near $150 million, appeared\nin Datavault’s Biconomy account, and shareholders cheered.\nCEO Nathaniel Bradley praised biotech, blockchain, and AI;\nthe stock hit $3.118—a $973 million high.",
+            "But these were off-chain credits: Biconomy’s private record showed the sum,\nnot Bitcoin on the public blockchain where coins can go and come.\nDatavault sold 491 back to Scilex for $40.5 million in cash,\nthen tried withdrawing the rest—and ran into a crash.",
+            "The withdrawal would not complete; no on-chain coins came through.\nAccountants said the old financial statements were no longer true.\nThe Bitcoin did not qualify as Datavault’s asset after all,\nand its stock closed down 50% after the news’s fall.",
+            "The market once paid $2 in stock for $1 of Bitcoin in sight.\nNow it seemed to have paid $2 for $0. Oops—not quite right!",
+            "What happened? Scilex credited about 1,309 Bitcoin to Datavault AI on Biconomy’s private, off-chain ledger, but Datavault could not withdraw the remaining coins to an external blockchain wallet. Its accountants concluded that the Bitcoin had never qualified as Datavault’s digital asset."
+          ]
+        }
+      }
+    },
+    {
+      "id": "people-are-worried-about-non-gaap-accounting",
+      "sourceSection": "People are worried about non-GAAP accounting",
+      "illustration": {
+        "src": "/images/2026-10-28-not-your-keys-not-your-dat/people-are-worried-about-non-gaap-accounting.png",
+        "alt": "Jonathan Weil points to Anthropic’s rising stock-like contracts, which show a GAAP loss for Anthropic and paper gains for Amazon and Alphabet."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Jonathan Weil",
+          "Warren Buffett"
+        ],
+        "realCompanies": [
+          "Anthropic PBC",
+          "Google",
+          "Amazon",
+          "Alphabet",
+          "Berkshire Hathaway"
+        ],
+        "financialMechanism": "Convertible notes, preferred stock, and purchase agreements were partly classified as derivative liabilities and marked to market, so Anthropic’s rising valuation created a non-cash accounting loss for Anthropic and paper gains for investors.",
+        "centralJoke": "Anthropic’s value soared—a good thing—but its unusual stock-like contracts made that success appear as an approximately $80 billion GAAP loss."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Good News That Looked Like a Loss",
+          "lesson": "Because Anthropic’s unusual stock-like contracts were classified as mark-to-market derivative liabilities, its rising value created a huge non-cash GAAP loss, even though ordinary issued stock would not.",
+          "paragraphs": [
+            "As Anthropic PBC prepared for an IPO day,\nits first-half numbers made eyebrows sway.\nGAAP showed an $80.7 billion loss in red,\nwhile adjusted net income was $2.7 billion ahead.",
+            "Anthropic had sold Google and Amazon unusual deals:\nconvertible notes, preferred stock, and agreements with seals.\nThey worked much like shares, but GAAP gave them a name—\n“derivative liabilities,” repriced whenever values changed.",
+            "Anthropic’s value rose by about $80 billion—good news!\nThe investors gained on paper from the stock they could use.\nBut “mark to market” measured those contracts anew,\nso Anthropic booked a matching paper loss coming through.",
+            "No mountain of cash had gone rolling away;\nit was an accounting result of the higher price that day.\nAbout $72 billion in liability losses left adjusted profit’s sight,\nand once the deals become ordinary stock, that repricing will stop outright.",
+            "Jonathan Weil noted an odd double view:\nAmazon and Alphabet counted their paper gains as earnings coming through.\nIf Anthropic removes the corresponding loss from its adjusted display,\nshould analysts remove the investors’ gains in the very same way?",
+            "Warren Buffett had warned of distortion before,\nwhen 2016 rules counted rising stocks that Berkshire Hathaway bore.\nStill, an owner’s gain need not be an issuing company’s loss:\nstock can create value—it needn’t leave someone else paying the cost.",
+            "What happened? Anthropic’s stock-like financing contracts rose in value and were treated under US GAAP as mark-to-market liabilities, producing an $80.7 billion first-half net loss that was mostly non-cash. Analysts excluded much of that loss to calculate $2.7 billion of adjusted net income, while Amazon and Alphabet included related paper gains in their own earnings measures."
+          ]
+        },
+        "elementary": {
+          "title": "The Good News That Looked Like a Loss",
+          "lesson": "Because Anthropic’s unusual stock-like contracts were classified as mark-to-market derivative liabilities, its rising value created a huge non-cash GAAP loss, even though ordinary issued stock would not.",
+          "paragraphs": [
+            "As Anthropic PBC prepared for an IPO day,\nits first-half numbers made eyebrows sway.\nGAAP showed an $80.7 billion loss in red,\nwhile adjusted net income was $2.7 billion ahead.",
+            "Anthropic had sold Google and Amazon unusual deals:\nconvertible notes, preferred stock, and agreements with seals.\nThey worked much like shares, but GAAP gave them a name—\n“derivative liabilities,” repriced whenever values changed.",
+            "Anthropic’s value rose by about $80 billion—good news!\nThe investors gained on paper from the stock they could use.\nBut “mark to market” measured those contracts anew,\nso Anthropic booked a matching paper loss coming through.",
+            "No mountain of cash had gone rolling away;\nit was an accounting result of the higher price that day.\nAbout $72 billion in liability losses left adjusted profit’s sight,\nand once the deals become ordinary stock, that repricing will stop outright.",
+            "Jonathan Weil noted an odd double view:\nAmazon and Alphabet counted their paper gains as earnings coming through.\nIf Anthropic removes the corresponding loss from its adjusted display,\nshould analysts remove the investors’ gains in the very same way?",
+            "Warren Buffett had warned of distortion before,\nwhen 2016 rules counted rising stocks that Berkshire Hathaway bore.\nStill, an owner’s gain need not be an issuing company’s loss:\nstock can create value—it needn’t leave someone else paying the cost.",
+            "What happened? Anthropic’s stock-like financing contracts rose in value and were treated under US GAAP as mark-to-market liabilities, producing an $80.7 billion first-half net loss that was mostly non-cash. Analysts excluded much of that loss to calculate $2.7 billion of adjusted net income, while Amazon and Alphabet included related paper gains in their own earnings measures."
+          ]
+        },
+        "middle": {
+          "title": "The Good News That Looked Like a Loss",
+          "lesson": "Because Anthropic’s unusual stock-like contracts were classified as mark-to-market derivative liabilities, its rising value created a huge non-cash GAAP loss, even though ordinary issued stock would not.",
+          "paragraphs": [
+            "As Anthropic PBC prepared for an IPO day,\nits first-half numbers made eyebrows sway.\nGAAP showed an $80.7 billion loss in red,\nwhile adjusted net income was $2.7 billion ahead.",
+            "Anthropic had sold Google and Amazon unusual deals:\nconvertible notes, preferred stock, and agreements with seals.\nThey worked much like shares, but GAAP gave them a name—\n“derivative liabilities,” repriced whenever values changed.",
+            "Anthropic’s value rose by about $80 billion—good news!\nThe investors gained on paper from the stock they could use.\nBut “mark to market” measured those contracts anew,\nso Anthropic booked a matching paper loss coming through.",
+            "No mountain of cash had gone rolling away;\nit was an accounting result of the higher price that day.\nAbout $72 billion in liability losses left adjusted profit’s sight,\nand once the deals become ordinary stock, that repricing will stop outright.",
+            "Jonathan Weil noted an odd double view:\nAmazon and Alphabet counted their paper gains as earnings coming through.\nIf Anthropic removes the corresponding loss from its adjusted display,\nshould analysts remove the investors’ gains in the very same way?",
+            "Warren Buffett had warned of distortion before,\nwhen 2016 rules counted rising stocks that Berkshire Hathaway bore.\nStill, an owner’s gain need not be an issuing company’s loss:\nstock can create value—it needn’t leave someone else paying the cost.",
+            "What happened? Anthropic’s stock-like financing contracts rose in value and were treated under US GAAP as mark-to-market liabilities, producing an $80.7 billion first-half net loss that was mostly non-cash. Analysts excluded much of that loss to calculate $2.7 billion of adjusted net income, while Amazon and Alphabet included related paper gains in their own earnings measures."
+          ]
+        },
+        "high": {
+          "title": "The Good News That Looked Like a Loss",
+          "lesson": "Because Anthropic’s unusual stock-like contracts were classified as mark-to-market derivative liabilities, its rising value created a huge non-cash GAAP loss, even though ordinary issued stock would not.",
+          "paragraphs": [
+            "As Anthropic PBC prepared for an IPO day,\nits first-half numbers made eyebrows sway.\nGAAP showed an $80.7 billion loss in red,\nwhile adjusted net income was $2.7 billion ahead.",
+            "Anthropic had sold Google and Amazon unusual deals:\nconvertible notes, preferred stock, and agreements with seals.\nThey worked much like shares, but GAAP gave them a name—\n“derivative liabilities,” repriced whenever values changed.",
+            "Anthropic’s value rose by about $80 billion—good news!\nThe investors gained on paper from the stock they could use.\nBut “mark to market” measured those contracts anew,\nso Anthropic booked a matching paper loss coming through.",
+            "No mountain of cash had gone rolling away;\nit was an accounting result of the higher price that day.\nAbout $72 billion in liability losses left adjusted profit’s sight,\nand once the deals become ordinary stock, that repricing will stop outright.",
+            "Jonathan Weil noted an odd double view:\nAmazon and Alphabet counted their paper gains as earnings coming through.\nIf Anthropic removes the corresponding loss from its adjusted display,\nshould analysts remove the investors’ gains in the very same way?",
+            "Warren Buffett had warned of distortion before,\nwhen 2016 rules counted rising stocks that Berkshire Hathaway bore.\nStill, an owner’s gain need not be an issuing company’s loss:\nstock can create value—it needn’t leave someone else paying the cost.",
+            "What happened? Anthropic’s stock-like financing contracts rose in value and were treated under US GAAP as mark-to-market liabilities, producing an $80.7 billion first-half net loss that was mostly non-cash. Analysts excluded much of that loss to calculate $2.7 billion of adjusted net income, while Amazon and Alphabet included related paper gains in their own earnings measures."
+          ]
+        }
+      }
+    },
+    {
+      "id": "buy-borrow-die",
+      "sourceSection": "Buy borrow die",
+      "illustration": {
+        "src": "/images/2026-10-28-not-your-keys-not-your-dat/buy-borrow-die.png",
+        "alt": "Xavier De Pauw at Monument Bank offers a portfolio-backed loan while an ordinary investor’s unsold shares remain secured as collateral."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Eric Gutzwiller",
+          "Xavier De Pauw"
+        ],
+        "realCompanies": [
+          "Deloitte",
+          "Monument Bank"
+        ],
+        "financialMechanism": "An investor pledges appreciated securities as collateral and borrows against them rather than selling. The loan proceeds are not taxable income, and after the investor’s death, the heirs’ stepped-up basis can eliminate capital-gains tax on the earlier appreciation before they sell shares to repay the debt.",
+        "centralJoke": "A tax-and-borrowing strategy associated with billionaires is being standardized for ordinary investors, who can now be invited to “adopt a billionaire mindset.”"
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Borrow Like a Billionaire",
+          "lesson": "“Buy, borrow, die” means borrowing against appreciated shares instead of selling them, then using the stepped-up tax basis at death so heirs can repay the loan without tax on the earlier gains.",
+          "paragraphs": [
+            "Suppose a stock portfolio, worth $100 million,\nheld gains that had quietly grown by the million.\nSell shares for more than their purchase-day price,\nand capital-gains tax may claim its own slice.",
+            "Instead, pledge those shares as collateral—a tie\nthat secures a bank loan while the stock stays nearby.\nBorrow $50 million at six percent due;\na loan isn't income, so no gains tax comes through.",
+            "The interest is $3 million year after year;\nwith eight-percent growth, $8 million may appear.\nThe interest can simply be added to debt—\nif markets keep rising as averages suggest.",
+            "When the owner dies, the heirs’ tax basis resets\nto the shares’ current value, with earlier gains swept.\nThey sell enough stock to repay what was owed;\nthe rest can stay theirs after settling the load.",
+            "Deloitte estimates such lending at $5.4 trillion,\nagainst stocks, bonds, funds, and crypto by the billion.\nDeloitte’s Eric Gutzwiller said it once served the rich;\nnow affluent and retail customers are making the switch.",
+            "At Monument Bank, Xavier De Pauw planned to lend\nto investors with a few hundred thousand to spend.\nThey could “adopt a billionaire mindset,” he said—\na billionaire tax strategy, now widely spread.",
+            "What happened? Banks and brokerages increasingly lend people money secured by their investment portfolios, letting them spend without selling appreciated shares. If the borrower dies holding the shares, heirs receive a stepped-up tax basis and can sell enough to repay the loan without owing capital-gains tax on the pre-death increase."
+          ]
+        },
+        "elementary": {
+          "title": "Borrow Like a Billionaire",
+          "lesson": "“Buy, borrow, die” means borrowing against appreciated shares instead of selling them, then using the stepped-up tax basis at death so heirs can repay the loan without tax on the earlier gains.",
+          "paragraphs": [
+            "Suppose a stock portfolio, worth $100 million,\nheld gains that had quietly grown by the million.\nSell shares for more than their purchase-day price,\nand capital-gains tax may claim its own slice.",
+            "Instead, pledge those shares as collateral—a tie\nthat secures a bank loan while the stock stays nearby.\nBorrow $50 million at six percent due;\na loan isn't income, so no gains tax comes through.",
+            "The interest is $3 million year after year;\nwith eight-percent growth, $8 million may appear.\nThe interest can simply be added to debt—\nif markets keep rising as averages suggest.",
+            "When the owner dies, the heirs’ tax basis resets\nto the shares’ current value, with earlier gains swept.\nThey sell enough stock to repay what was owed;\nthe rest can stay theirs after settling the load.",
+            "Deloitte estimates such lending at $5.4 trillion,\nagainst stocks, bonds, funds, and crypto by the billion.\nDeloitte’s Eric Gutzwiller said it once served the rich;\nnow affluent and retail customers are making the switch.",
+            "At Monument Bank, Xavier De Pauw planned to lend\nto investors with a few hundred thousand to spend.\nThey could “adopt a billionaire mindset,” he said—\na billionaire tax strategy, now widely spread.",
+            "What happened? Banks and brokerages increasingly lend people money secured by their investment portfolios, letting them spend without selling appreciated shares. If the borrower dies holding the shares, heirs receive a stepped-up tax basis and can sell enough to repay the loan without owing capital-gains tax on the pre-death increase."
+          ]
+        },
+        "middle": {
+          "title": "Borrow Like a Billionaire",
+          "lesson": "“Buy, borrow, die” means borrowing against appreciated shares instead of selling them, then using the stepped-up tax basis at death so heirs can repay the loan without tax on the earlier gains.",
+          "paragraphs": [
+            "Suppose a stock portfolio, worth $100 million,\nheld gains that had quietly grown by the million.\nSell shares for more than their purchase-day price,\nand capital-gains tax may claim its own slice.",
+            "Instead, pledge those shares as collateral—a tie\nthat secures a bank loan while the stock stays nearby.\nBorrow $50 million at six percent due;\na loan isn't income, so no gains tax comes through.",
+            "The interest is $3 million year after year;\nwith eight-percent growth, $8 million may appear.\nThe interest can simply be added to debt—\nif markets keep rising as averages suggest.",
+            "When the owner dies, the heirs’ tax basis resets\nto the shares’ current value, with earlier gains swept.\nThey sell enough stock to repay what was owed;\nthe rest can stay theirs after settling the load.",
+            "Deloitte estimates such lending at $5.4 trillion,\nagainst stocks, bonds, funds, and crypto by the billion.\nDeloitte’s Eric Gutzwiller said it once served the rich;\nnow affluent and retail customers are making the switch.",
+            "At Monument Bank, Xavier De Pauw planned to lend\nto investors with a few hundred thousand to spend.\nThey could “adopt a billionaire mindset,” he said—\na billionaire tax strategy, now widely spread.",
+            "What happened? Banks and brokerages increasingly lend people money secured by their investment portfolios, letting them spend without selling appreciated shares. If the borrower dies holding the shares, heirs receive a stepped-up tax basis and can sell enough to repay the loan without owing capital-gains tax on the pre-death increase."
+          ]
+        },
+        "high": {
+          "title": "Borrow Like a Billionaire",
+          "lesson": "“Buy, borrow, die” means borrowing against appreciated shares instead of selling them, then using the stepped-up tax basis at death so heirs can repay the loan without tax on the earlier gains.",
+          "paragraphs": [
+            "Suppose a stock portfolio, worth $100 million,\nheld gains that had quietly grown by the million.\nSell shares for more than their purchase-day price,\nand capital-gains tax may claim its own slice.",
+            "Instead, pledge those shares as collateral—a tie\nthat secures a bank loan while the stock stays nearby.\nBorrow $50 million at six percent due;\na loan isn't income, so no gains tax comes through.",
+            "The interest is $3 million year after year;\nwith eight-percent growth, $8 million may appear.\nThe interest can simply be added to debt—\nif markets keep rising as averages suggest.",
+            "When the owner dies, the heirs’ tax basis resets\nto the shares’ current value, with earlier gains swept.\nThey sell enough stock to repay what was owed;\nthe rest can stay theirs after settling the load.",
+            "Deloitte estimates such lending at $5.4 trillion,\nagainst stocks, bonds, funds, and crypto by the billion.\nDeloitte’s Eric Gutzwiller said it once served the rich;\nnow affluent and retail customers are making the switch.",
+            "At Monument Bank, Xavier De Pauw planned to lend\nto investors with a few hundred thousand to spend.\nThey could “adopt a billionaire mindset,” he said—\na billionaire tax strategy, now widely spread.",
+            "What happened? Banks and brokerages increasingly lend people money secured by their investment portfolios, letting them spend without selling appreciated shares. If the borrower dies holding the shares, heirs receive a stepped-up tax basis and can sell enough to repay the loan without owing capital-gains tax on the pre-death increase."
+          ]
+        }
+      }
+    },
+    {
+      "id": "sports-bets",
+      "sourceSection": "Sports bets",
+      "illustration": {
+        "src": "/images/2026-10-28-not-your-keys-not-your-dat/sports-bets.png",
+        "alt": "Tarek Mansour presents a nationwide Kalshi sports-contract market while Utah officials block it with the Utah Constitution and state gambling law."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Tarek Mansour",
+          "Mattress Mack"
+        ],
+        "realCompanies": [
+          "Kalshi",
+          "The Wall Street Journal",
+          "New York Stock Exchange"
+        ],
+        "financialMechanism": "Customers trade sports-event contracts with one another on Kalshi’s federally regulated prediction exchange; Kalshi argues that federal commodities regulation preempts state gambling rules, while states argue the contracts are sports bets governed or banned by state law.",
+        "centralJoke": "Kalshi’s position implies a newly discovered federal constitutional priority: overriding century-old state gambling laws so eighteen-year-olds can have a liquid nationwide market for sports bets."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Kalshi, Utah, and the Fifty Rulebooks",
+          "lesson": "Kalshi offers peer-to-peer sports-event contracts under federal commodities regulation, but states including Utah argue that those contracts are gambling subject to state bans and gaming laws.",
+          "paragraphs": [
+            "Tarek Mansour of Kalshi said, “Our market’s not the same:\nNo sportsbook house takes the other side of every game.”\nOn Kalshi, traders meet as peers—one “yes,” one “no”;\nTheir prices join a nationwide pool, then final scores will show.",
+            "A bar can bet against its team to hedge its beer-sales risk:\nIf cheering crowds don’t come, the contract softens business’s dip.\nMansour said sportsbooks aren’t used that way—but there’s a hitch:\nMattress Mack has hedged there for years, so that claim needs a switch.",
+            "Mansour wanted federal rules, not fifty state commands;\nHe pictured New York Stock Exchange rules changing across the lands.\nA national pool, he argued, keeps trading deep and wide,\nWhile state-by-state restrictions split the traders up by side.",
+            "But Utah sued Kalshi, saying gambling isn’t welcome there;\nIts constitution has banned it for 130 years with care.\nAnd in 2018, the Supreme Court said each state may choose\nThe sports-betting rules it wants to keep, permit, or refuse.",
+            "So Kalshi and the CFTC arrived at something new:\nOld state bans might yield to federal commodities law’s view.\nThe strange result: a vital federal interest, it would seem,\nIs liquid nationwide sports-event trading for an eighteen-year-old’s team.",
+            "What happened? Kalshi treated sports wagers as federally regulated peer-to-peer event contracts, while Utah and other states sued under their own gambling laws. The dispute asks whether federal commodities law overrides state sports-gambling rules, despite the Supreme Court’s 2018 recognition of state authority."
+          ]
+        },
+        "elementary": {
+          "title": "Kalshi, Utah, and the Fifty Rulebooks",
+          "lesson": "Kalshi offers peer-to-peer sports-event contracts under federal commodities regulation, but states including Utah argue that those contracts are gambling subject to state bans and gaming laws.",
+          "paragraphs": [
+            "Tarek Mansour of Kalshi said, “Our market’s not the same:\nNo sportsbook house takes the other side of every game.”\nOn Kalshi, traders meet as peers—one “yes,” one “no”;\nTheir prices join a nationwide pool, then final scores will show.",
+            "A bar can bet against its team to hedge its beer-sales risk:\nIf cheering crowds don’t come, the contract softens business’s dip.\nMansour said sportsbooks aren’t used that way—but there’s a hitch:\nMattress Mack has hedged there for years, so that claim needs a switch.",
+            "Mansour wanted federal rules, not fifty state commands;\nHe pictured New York Stock Exchange rules changing across the lands.\nA national pool, he argued, keeps trading deep and wide,\nWhile state-by-state restrictions split the traders up by side.",
+            "But Utah sued Kalshi, saying gambling isn’t welcome there;\nIts constitution has banned it for 130 years with care.\nAnd in 2018, the Supreme Court said each state may choose\nThe sports-betting rules it wants to keep, permit, or refuse.",
+            "So Kalshi and the CFTC arrived at something new:\nOld state bans might yield to federal commodities law’s view.\nThe strange result: a vital federal interest, it would seem,\nIs liquid nationwide sports-event trading for an eighteen-year-old’s team.",
+            "What happened? Kalshi treated sports wagers as federally regulated peer-to-peer event contracts, while Utah and other states sued under their own gambling laws. The dispute asks whether federal commodities law overrides state sports-gambling rules, despite the Supreme Court’s 2018 recognition of state authority."
+          ]
+        },
+        "middle": {
+          "title": "Kalshi, Utah, and the Fifty Rulebooks",
+          "lesson": "Kalshi offers peer-to-peer sports-event contracts under federal commodities regulation, but states including Utah argue that those contracts are gambling subject to state bans and gaming laws.",
+          "paragraphs": [
+            "Tarek Mansour of Kalshi said, “Our market’s not the same:\nNo sportsbook house takes the other side of every game.”\nOn Kalshi, traders meet as peers—one “yes,” one “no”;\nTheir prices join a nationwide pool, then final scores will show.",
+            "A bar can bet against its team to hedge its beer-sales risk:\nIf cheering crowds don’t come, the contract softens business’s dip.\nMansour said sportsbooks aren’t used that way—but there’s a hitch:\nMattress Mack has hedged there for years, so that claim needs a switch.",
+            "Mansour wanted federal rules, not fifty state commands;\nHe pictured New York Stock Exchange rules changing across the lands.\nA national pool, he argued, keeps trading deep and wide,\nWhile state-by-state restrictions split the traders up by side.",
+            "But Utah sued Kalshi, saying gambling isn’t welcome there;\nIts constitution has banned it for 130 years with care.\nAnd in 2018, the Supreme Court said each state may choose\nThe sports-betting rules it wants to keep, permit, or refuse.",
+            "So Kalshi and the CFTC arrived at something new:\nOld state bans might yield to federal commodities law’s view.\nThe strange result: a vital federal interest, it would seem,\nIs liquid nationwide sports-event trading for an eighteen-year-old’s team.",
+            "What happened? Kalshi treated sports wagers as federally regulated peer-to-peer event contracts, while Utah and other states sued under their own gambling laws. The dispute asks whether federal commodities law overrides state sports-gambling rules, despite the Supreme Court’s 2018 recognition of state authority."
+          ]
+        },
+        "high": {
+          "title": "Kalshi, Utah, and the Fifty Rulebooks",
+          "lesson": "Kalshi offers peer-to-peer sports-event contracts under federal commodities regulation, but states including Utah argue that those contracts are gambling subject to state bans and gaming laws.",
+          "paragraphs": [
+            "Tarek Mansour of Kalshi said, “Our market’s not the same:\nNo sportsbook house takes the other side of every game.”\nOn Kalshi, traders meet as peers—one “yes,” one “no”;\nTheir prices join a nationwide pool, then final scores will show.",
+            "A bar can bet against its team to hedge its beer-sales risk:\nIf cheering crowds don’t come, the contract softens business’s dip.\nMansour said sportsbooks aren’t used that way—but there’s a hitch:\nMattress Mack has hedged there for years, so that claim needs a switch.",
+            "Mansour wanted federal rules, not fifty state commands;\nHe pictured New York Stock Exchange rules changing across the lands.\nA national pool, he argued, keeps trading deep and wide,\nWhile state-by-state restrictions split the traders up by side.",
+            "But Utah sued Kalshi, saying gambling isn’t welcome there;\nIts constitution has banned it for 130 years with care.\nAnd in 2018, the Supreme Court said each state may choose\nThe sports-betting rules it wants to keep, permit, or refuse.",
+            "So Kalshi and the CFTC arrived at something new:\nOld state bans might yield to federal commodities law’s view.\nThe strange result: a vital federal interest, it would seem,\nIs liquid nationwide sports-event trading for an eighteen-year-old’s team.",
+            "What happened? Kalshi treated sports wagers as federally regulated peer-to-peer event contracts, while Utah and other states sued under their own gambling laws. The dispute asks whether federal commodities law overrides state sports-gambling rules, despite the Supreme Court’s 2018 recognition of state authority."
+          ]
+        }
+      }
+    }
+  ]
+}
