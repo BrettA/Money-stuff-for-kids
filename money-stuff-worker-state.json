@@ -576,6 +576,18 @@
       "submitted": true,
       "updatedAt": "2026-10-27T19:42:20.359Z",
       "submittedAt": "2026-10-27T19:42:20.359Z"
+    },
+    "1a183abc2d26353c": {
+      "gmailMessageId": "1a183abc2d26353c",
+      "newsletterDate": "2026-10-28",
+      "newsletterTitle": "Not Your Keys, Not Your DAT",
+      "editionId": "2026-10-28-not-your-keys-not-your-dat",
+      "sourceSha256": "5ad6775501afccb6a66f2a5bf33cf26be678a41f3947d20195ecff230dcb8fc8",
+      "packageSha256": "d5f53dd11acffef34aa1e81711c188e1269ad3705b1ae8de8f7e54c5f610c9dc",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-28T20:36:53.068Z",
+      "submittedAt": "2026-10-28T20:36:53.068Z"
     }
   }
 }
