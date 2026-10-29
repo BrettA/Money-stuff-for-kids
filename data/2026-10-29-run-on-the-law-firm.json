@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-10-29-run-on-the-law-firm",
+  "date": "2026-10-29",
+  "displayDate": "October 29, 2026",
+  "title": "Run on the Law Firm",
+  "sourceSections": [
+    "Weil",
+    "Elsewhere in law firm economics",
+    "The onion guys",
+    "Elsewhere in outdated laws",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "weil",
+      "sourceSection": "Weil",
+      "illustration": {
+        "src": "/images/2026-10-29-run-on-the-law-firm/weil.png",
+        "alt": "Partners carrying briefcases leave Weil’s New York office while employees watch Barry Wolf address them on a monitor and rows of costly desks remain behind."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Barry Wolf",
+          "John Morley",
+          "Roy Strom"
+        ],
+        "realCompanies": [
+          "Weil Gotshal & Manges",
+          "Willkie Farr & Gallagher",
+          "Bloomberg"
+        ],
+        "financialMechanism": "A partner run: rainmaking partners take client revenue elsewhere while rent, staff, and other fixed costs remain, reducing profits and prompting still more partners to leave.",
+        "centralJoke": "A profitable law firm can collapse because its partners foresee that others may leave—and lawyer-friendly rules protecting their freedom to leave help everyone rush out at once."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Run on Weil",
+          "lesson": "When client-bringing partners leave a law firm but its fixed costs remain, expected profits fall and encourage more partners to leave, creating a self-fulfilling run.",
+          "paragraphs": [
+            "At Weil Gotshal & Manges, by Central Park’s southeast side,\na nearly century-old law firm worked with corporate pride.\nIt brought in nearly $2.1 billion just last year,\nyet prominent partners started leaving—and the future looked less clear.",
+            "Bloomberg’s Roy Strom reported the firm would soon wind down;\nemployees heard Barry Wolf on Zoom, with somber looks around.\nWolf was set to yield control; merger talks had failed as well—\nthe talks with Willkie Farr & Gallagher could not rescue Weil.",
+            "Yale’s John Morley explained how partner runs can grow:\na “rainmaker” brings clients—and their fees may also go.\nBut office rent and staff costs do not vanish through the door;\nwith less profit left to share, the next star may want more.",
+            "A rival offers better pay; another takes the flight,\nwhich makes departure seem still wiser to the partners left that night.\nThe firm may still be profitable—that’s the strange surprise:\npartners see what could come later, so they hurry toward the exits.",
+            "And lawyers’ ethics rules generally bar noncompetes that block the way;\nthe freedom each lawyer prizes lets the whole firm drain away.\nA rule that helps each lawyer leave for somewhere good and new\ncan help unravel the profitable firm they’re leaving, too.",
+            "What happened? After prominent partner exits and failed merger talks with Willkie Farr & Gallagher, Weil Gotshal & Manges said it would wind down despite earning nearly $2.1 billion in revenue the prior year. Because client-bringing partners can leave quickly while fixed costs remain, each exit lowers expected profits and encourages more departures, creating a self-fulfilling run."
+          ]
+        },
+        "elementary": {
+          "title": "The Run on Weil",
+          "lesson": "When client-bringing partners leave a law firm but its fixed costs remain, expected profits fall and encourage more partners to leave, creating a self-fulfilling run.",
+          "paragraphs": [
+            "At Weil Gotshal & Manges, by Central Park’s southeast side,\na nearly century-old law firm worked with corporate pride.\nIt brought in nearly $2.1 billion just last year,\nyet prominent partners started leaving—and the future looked less clear.",
+            "Bloomberg’s Roy Strom reported the firm would soon wind down;\nemployees heard Barry Wolf on Zoom, with somber looks around.\nWolf was set to yield control; merger talks had failed as well—\nthe talks with Willkie Farr & Gallagher could not rescue Weil.",
+            "Yale’s John Morley explained how partner runs can grow:\na “rainmaker” brings clients—and their fees may also go.\nBut office rent and staff costs do not vanish through the door;\nwith less profit left to share, the next star may want more.",
+            "A rival offers better pay; another takes the flight,\nwhich makes departure seem still wiser to the partners left that night.\nThe firm may still be profitable—that’s the strange surprise:\npartners see what could come later, so they hurry toward the exits.",
+            "And lawyers’ ethics rules generally bar noncompetes that block the way;\nthe freedom each lawyer prizes lets the whole firm drain away.\nA rule that helps each lawyer leave for somewhere good and new\ncan help unravel the profitable firm they’re leaving, too.",
+            "What happened? After prominent partner exits and failed merger talks with Willkie Farr & Gallagher, Weil Gotshal & Manges said it would wind down despite earning nearly $2.1 billion in revenue the prior year. Because client-bringing partners can leave quickly while fixed costs remain, each exit lowers expected profits and encourages more departures, creating a self-fulfilling run."
+          ]
+        },
+        "middle": {
+          "title": "The Run on Weil",
+          "lesson": "When client-bringing partners leave a law firm but its fixed costs remain, expected profits fall and encourage more partners to leave, creating a self-fulfilling run.",
+          "paragraphs": [
+            "At Weil Gotshal & Manges, by Central Park’s southeast side,\na nearly century-old law firm worked with corporate pride.\nIt brought in nearly $2.1 billion just last year,\nyet prominent partners started leaving—and the future looked less clear.",
+            "Bloomberg’s Roy Strom reported the firm would soon wind down;\nemployees heard Barry Wolf on Zoom, with somber looks around.\nWolf was set to yield control; merger talks had failed as well—\nthe talks with Willkie Farr & Gallagher could not rescue Weil.",
+            "Yale’s John Morley explained how partner runs can grow:\na “rainmaker” brings clients—and their fees may also go.\nBut office rent and staff costs do not vanish through the door;\nwith less profit left to share, the next star may want more.",
+            "A rival offers better pay; another takes the flight,\nwhich makes departure seem still wiser to the partners left that night.\nThe firm may still be profitable—that’s the strange surprise:\npartners see what could come later, so they hurry toward the exits.",
+            "And lawyers’ ethics rules generally bar noncompetes that block the way;\nthe freedom each lawyer prizes lets the whole firm drain away.\nA rule that helps each lawyer leave for somewhere good and new\ncan help unravel the profitable firm they’re leaving, too.",
+            "What happened? After prominent partner exits and failed merger talks with Willkie Farr & Gallagher, Weil Gotshal & Manges said it would wind down despite earning nearly $2.1 billion in revenue the prior year. Because client-bringing partners can leave quickly while fixed costs remain, each exit lowers expected profits and encourages more departures, creating a self-fulfilling run."
+          ]
+        },
+        "high": {
+          "title": "The Run on Weil",
+          "lesson": "When client-bringing partners leave a law firm but its fixed costs remain, expected profits fall and encourage more partners to leave, creating a self-fulfilling run.",
+          "paragraphs": [
+            "At Weil Gotshal & Manges, by Central Park’s southeast side,\na nearly century-old law firm worked with corporate pride.\nIt brought in nearly $2.1 billion just last year,\nyet prominent partners started leaving—and the future looked less clear.",
+            "Bloomberg’s Roy Strom reported the firm would soon wind down;\nemployees heard Barry Wolf on Zoom, with somber looks around.\nWolf was set to yield control; merger talks had failed as well—\nthe talks with Willkie Farr & Gallagher could not rescue Weil.",
+            "Yale’s John Morley explained how partner runs can grow:\na “rainmaker” brings clients—and their fees may also go.\nBut office rent and staff costs do not vanish through the door;\nwith less profit left to share, the next star may want more.",
+            "A rival offers better pay; another takes the flight,\nwhich makes departure seem still wiser to the partners left that night.\nThe firm may still be profitable—that’s the strange surprise:\npartners see what could come later, so they hurry toward the exits.",
+            "And lawyers’ ethics rules generally bar noncompetes that block the way;\nthe freedom each lawyer prizes lets the whole firm drain away.\nA rule that helps each lawyer leave for somewhere good and new\ncan help unravel the profitable firm they’re leaving, too.",
+            "What happened? After prominent partner exits and failed merger talks with Willkie Farr & Gallagher, Weil Gotshal & Manges said it would wind down despite earning nearly $2.1 billion in revenue the prior year. Because client-bringing partners can leave quickly while fixed costs remain, each exit lowers expected profits and encourages more departures, creating a self-fulfilling run."
+          ]
+        }
+      }
+    },
+    {
+      "id": "elsewhere-in-law-firm-economics",
+      "sourceSection": "Elsewhere in law firm economics",
+      "illustration": {
+        "src": "/images/2026-10-29-run-on-the-law-firm/elsewhere-in-law-firm-economics.png",
+        "alt": "William Evarts carries a law degree and corporate refinancing plans from PJT Partners toward Sidley Austin, where lawyers await him beside a liability management table as a Chapter 11 courthouse is bypassed."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "William Evarts",
+          "Sujeet Indap"
+        ],
+        "realCompanies": [
+          "Sidley Austin",
+          "PJT Partners",
+          "Financial Times"
+        ],
+        "financialMechanism": "Liability management lawyers design refinancing transactions that reshape corporate debts outside court, helping companies avoid formal Chapter 11 bankruptcy reorganizations.",
+        "centralJoke": "Lawyers traditionally left for investment banking because it paid better; now a banker is moving to a law firm because elite law can pay better, and legal practice experience is nearly optional while law credentials remain mandatory."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Banker Who Went to a Law Firm",
+          "lesson": "Sidley Austin hired investment banker William Evarts to lead liability management work: refinancing troubled companies’ debts outside court to help them avoid Chapter 11, while legal ethics made his law credentials important even though he had never practiced law.",
+          "paragraphs": [
+            "Sujeet Indap reported a curious career turn:\nA banker joined lawyers—with much still to learn.\nWilliam Evarts, at PJT since 2015,\nAdvised companies when their debt plans turned mean.",
+            "Now Sidley Austin has hired him away\nTo lead “liability management” day after day.\nThat group reshapes loans and refinances debt,\nSo Chapter 11 might be avoided yet.",
+            "Evarts has an MBA and a law degree too,\nThough practicing law was a thing he did not do.\nThat path to a top law-firm post is quite rare—\nBut winning new clients is prized everywhere.",
+            "A leader brings business and trusted advice;\nRestructuring banking can train both skills nicely.\nYet ethics rules say lawyers must run the firm,\nSo Evarts’s law degree helped satisfy that term.",
+            "Once lawyers chose banking because banking paid more;\nNow bankers eye law firms—and walk through their door.\nTop lawyers can earn over $20 million a year:\nThe career ladder flipped, with the punch line quite clear.",
+            "What happened? Sidley Austin hired PJT Partners banker William Evarts to lead a legal team that designs out-of-court debt refinancings for companies trying to avoid Chapter 11. His move was unusual because he had never practiced law, though he holds a law degree, and booming top-lawyer pay helped reverse the traditional flow from law into banking."
+          ]
+        },
+        "elementary": {
+          "title": "The Banker Who Went to a Law Firm",
+          "lesson": "Sidley Austin hired investment banker William Evarts to lead liability management work: refinancing troubled companies’ debts outside court to help them avoid Chapter 11, while legal ethics made his law credentials important even though he had never practiced law.",
+          "paragraphs": [
+            "Sujeet Indap reported a curious career turn:\nA banker joined lawyers—with much still to learn.\nWilliam Evarts, at PJT since 2015,\nAdvised companies when their debt plans turned mean.",
+            "Now Sidley Austin has hired him away\nTo lead “liability management” day after day.\nThat group reshapes loans and refinances debt,\nSo Chapter 11 might be avoided yet.",
+            "Evarts has an MBA and a law degree too,\nThough practicing law was a thing he did not do.\nThat path to a top law-firm post is quite rare—\nBut winning new clients is prized everywhere.",
+            "A leader brings business and trusted advice;\nRestructuring banking can train both skills nicely.\nYet ethics rules say lawyers must run the firm,\nSo Evarts’s law degree helped satisfy that term.",
+            "Once lawyers chose banking because banking paid more;\nNow bankers eye law firms—and walk through their door.\nTop lawyers can earn over $20 million a year:\nThe career ladder flipped, with the punch line quite clear.",
+            "What happened? Sidley Austin hired PJT Partners banker William Evarts to lead a legal team that designs out-of-court debt refinancings for companies trying to avoid Chapter 11. His move was unusual because he had never practiced law, though he holds a law degree, and booming top-lawyer pay helped reverse the traditional flow from law into banking."
+          ]
+        },
+        "middle": {
+          "title": "The Banker Who Went to a Law Firm",
+          "lesson": "Sidley Austin hired investment banker William Evarts to lead liability management work: refinancing troubled companies’ debts outside court to help them avoid Chapter 11, while legal ethics made his law credentials important even though he had never practiced law.",
+          "paragraphs": [
+            "Sujeet Indap reported a curious career turn:\nA banker joined lawyers—with much still to learn.\nWilliam Evarts, at PJT since 2015,\nAdvised companies when their debt plans turned mean.",
+            "Now Sidley Austin has hired him away\nTo lead “liability management” day after day.\nThat group reshapes loans and refinances debt,\nSo Chapter 11 might be avoided yet.",
+            "Evarts has an MBA and a law degree too,\nThough practicing law was a thing he did not do.\nThat path to a top law-firm post is quite rare—\nBut winning new clients is prized everywhere.",
+            "A leader brings business and trusted advice;\nRestructuring banking can train both skills nicely.\nYet ethics rules say lawyers must run the firm,\nSo Evarts’s law degree helped satisfy that term.",
+            "Once lawyers chose banking because banking paid more;\nNow bankers eye law firms—and walk through their door.\nTop lawyers can earn over $20 million a year:\nThe career ladder flipped, with the punch line quite clear.",
+            "What happened? Sidley Austin hired PJT Partners banker William Evarts to lead a legal team that designs out-of-court debt refinancings for companies trying to avoid Chapter 11. His move was unusual because he had never practiced law, though he holds a law degree, and booming top-lawyer pay helped reverse the traditional flow from law into banking."
+          ]
+        },
+        "high": {
+          "title": "The Banker Who Went to a Law Firm",
+          "lesson": "Sidley Austin hired investment banker William Evarts to lead liability management work: refinancing troubled companies’ debts outside court to help them avoid Chapter 11, while legal ethics made his law credentials important even though he had never practiced law.",
+          "paragraphs": [
+            "Sujeet Indap reported a curious career turn:\nA banker joined lawyers—with much still to learn.\nWilliam Evarts, at PJT since 2015,\nAdvised companies when their debt plans turned mean.",
+            "Now Sidley Austin has hired him away\nTo lead “liability management” day after day.\nThat group reshapes loans and refinances debt,\nSo Chapter 11 might be avoided yet.",
+            "Evarts has an MBA and a law degree too,\nThough practicing law was a thing he did not do.\nThat path to a top law-firm post is quite rare—\nBut winning new clients is prized everywhere.",
+            "A leader brings business and trusted advice;\nRestructuring banking can train both skills nicely.\nYet ethics rules say lawyers must run the firm,\nSo Evarts’s law degree helped satisfy that term.",
+            "Once lawyers chose banking because banking paid more;\nNow bankers eye law firms—and walk through their door.\nTop lawyers can earn over $20 million a year:\nThe career ladder flipped, with the punch line quite clear.",
+            "What happened? Sidley Austin hired PJT Partners banker William Evarts to lead a legal team that designs out-of-court debt refinancings for companies trying to avoid Chapter 11. His move was unusual because he had never practiced law, though he holds a law degree, and booming top-lawyer pay helped reverse the traditional flow from law into banking."
+          ]
+        }
+      }
+    },
+    {
+      "id": "the-onion-guys",
+      "sourceSection": "The onion guys",
+      "illustration": {
+        "src": "/images/2026-10-29-run-on-the-law-firm/the-onion-guys.png",
+        "alt": "Adam Ash and University of Chicago students hand out onions while rallying outside the Chicago Mercantile Exchange as puzzled passersby watch."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Adam Ash",
+          "Tarek Mansour",
+          "Erin Ailworth"
+        ],
+        "realCompanies": [
+          "Chicago Mercantile Exchange (CME)",
+          "Kalshi",
+          "Bloomberg",
+          "The Onion"
+        ],
+        "financialMechanism": "Futures contracts lock in a price now for a commodity delivered later. U.S. law has prohibited futures trading in onions for 68 years, and the students argued that modern market-manipulation rules made the special ban outdated.",
+        "centralJoke": "A group of students held an utterly deadpan, apparently sincere protest for the freedom to trade onion futures, making observers wonder whether it was performance art, a PR stunt, or a joke about The Onion; Kalshi’s later involvement made it not quite sponsored content, but sort of."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Very Serious Onion March",
+          "lesson": "Onion futures—contracts setting a price now for onions delivered later—have been banned in the United States for 68 years; For Our Futures wants the ban repealed, and Kalshi became involved after the rally was already planned.",
+          "paragraphs": [
+            "Outside the Chicago Mercantile Exchange one day,\nUniversity of Chicago students gave onions away.",
+            "For Our Futures marched, with Adam Ash at the fore:\n“Let onion-futures trading be banned no more!”",
+            "A future lets traders agree now to pay\na set price for onions delivered someday.",
+            "That trade has been banned in the U.S. for sixty-eight years,\nso the students brought onions and perfectly serious cheers.",
+            "Was this performance art? Was it PR on display?\nWas it a joke for The Onion? They solemnly said, “No way.”",
+            "Adam said it wasn’t America’s biggest law at all;\nthat was why changing it could be a practical call.",
+            "Stronger rules against market tricks now exist, they explained,\nso why should this odd prohibition remain?",
+            "Bloomberg’s Erin Ailworth reported the scene,\nand finance experts debated what trading should mean.",
+            "Kalshi’s Tarek Mansour called the students “patriots” online;\na company that favors more tradable events liked their design.",
+            "But Kalshi joined only after the rally was planned and declared,\nso it wasn’t strictly sponsored content—just kind of, once shared.",
+            "What happened? For Our Futures rallied to repeal the 68-year-old U.S. ban on onion futures, which are contracts to trade onions later at a price agreed upon now. Kalshi became involved only after the students had planned and announced the event."
+          ]
+        },
+        "elementary": {
+          "title": "The Very Serious Onion March",
+          "lesson": "Onion futures—contracts setting a price now for onions delivered later—have been banned in the United States for 68 years; For Our Futures wants the ban repealed, and Kalshi became involved after the rally was already planned.",
+          "paragraphs": [
+            "Outside the Chicago Mercantile Exchange one day,\nUniversity of Chicago students gave onions away.",
+            "For Our Futures marched, with Adam Ash at the fore:\n“Let onion-futures trading be banned no more!”",
+            "A future lets traders agree now to pay\na set price for onions delivered someday.",
+            "That trade has been banned in the U.S. for sixty-eight years,\nso the students brought onions and perfectly serious cheers.",
+            "Was this performance art? Was it PR on display?\nWas it a joke for The Onion? They solemnly said, “No way.”",
+            "Adam said it wasn’t America’s biggest law at all;\nthat was why changing it could be a practical call.",
+            "Stronger rules against market tricks now exist, they explained,\nso why should this odd prohibition remain?",
+            "Bloomberg’s Erin Ailworth reported the scene,\nand finance experts debated what trading should mean.",
+            "Kalshi’s Tarek Mansour called the students “patriots” online;\na company that favors more tradable events liked their design.",
+            "But Kalshi joined only after the rally was planned and declared,\nso it wasn’t strictly sponsored content—just kind of, once shared.",
+            "What happened? For Our Futures rallied to repeal the 68-year-old U.S. ban on onion futures, which are contracts to trade onions later at a price agreed upon now. Kalshi became involved only after the students had planned and announced the event."
+          ]
+        },
+        "middle": {
+          "title": "The Very Serious Onion March",
+          "lesson": "Onion futures—contracts setting a price now for onions delivered later—have been banned in the United States for 68 years; For Our Futures wants the ban repealed, and Kalshi became involved after the rally was already planned.",
+          "paragraphs": [
+            "Outside the Chicago Mercantile Exchange one day,\nUniversity of Chicago students gave onions away.",
+            "For Our Futures marched, with Adam Ash at the fore:\n“Let onion-futures trading be banned no more!”",
+            "A future lets traders agree now to pay\na set price for onions delivered someday.",
+            "That trade has been banned in the U.S. for sixty-eight years,\nso the students brought onions and perfectly serious cheers.",
+            "Was this performance art? Was it PR on display?\nWas it a joke for The Onion? They solemnly said, “No way.”",
+            "Adam said it wasn’t America’s biggest law at all;\nthat was why changing it could be a practical call.",
+            "Stronger rules against market tricks now exist, they explained,\nso why should this odd prohibition remain?",
+            "Bloomberg’s Erin Ailworth reported the scene,\nand finance experts debated what trading should mean.",
+            "Kalshi’s Tarek Mansour called the students “patriots” online;\na company that favors more tradable events liked their design.",
+            "But Kalshi joined only after the rally was planned and declared,\nso it wasn’t strictly sponsored content—just kind of, once shared.",
+            "What happened? For Our Futures rallied to repeal the 68-year-old U.S. ban on onion futures, which are contracts to trade onions later at a price agreed upon now. Kalshi became involved only after the students had planned and announced the event."
+          ]
+        },
+        "high": {
+          "title": "The Very Serious Onion March",
+          "lesson": "Onion futures—contracts setting a price now for onions delivered later—have been banned in the United States for 68 years; For Our Futures wants the ban repealed, and Kalshi became involved after the rally was already planned.",
+          "paragraphs": [
+            "Outside the Chicago Mercantile Exchange one day,\nUniversity of Chicago students gave onions away.",
+            "For Our Futures marched, with Adam Ash at the fore:\n“Let onion-futures trading be banned no more!”",
+            "A future lets traders agree now to pay\na set price for onions delivered someday.",
+            "That trade has been banned in the U.S. for sixty-eight years,\nso the students brought onions and perfectly serious cheers.",
+            "Was this performance art? Was it PR on display?\nWas it a joke for The Onion? They solemnly said, “No way.”",
+            "Adam said it wasn’t America’s biggest law at all;\nthat was why changing it could be a practical call.",
+            "Stronger rules against market tricks now exist, they explained,\nso why should this odd prohibition remain?",
+            "Bloomberg’s Erin Ailworth reported the scene,\nand finance experts debated what trading should mean.",
+            "Kalshi’s Tarek Mansour called the students “patriots” online;\na company that favors more tradable events liked their design.",
+            "But Kalshi joined only after the rally was planned and declared,\nso it wasn’t strictly sponsored content—just kind of, once shared.",
+            "What happened? For Our Futures rallied to repeal the 68-year-old U.S. ban on onion futures, which are contracts to trade onions later at a price agreed upon now. Kalshi became involved only after the students had planned and announced the event."
+          ]
+        }
+      }
+    },
+    {
+      "id": "elsewhere-in-outdated-laws",
+      "sourceSection": "Elsewhere in outdated laws",
+      "illustration": {
+        "src": "/images/2026-10-29-run-on-the-law-firm/elsewhere-in-outdated-laws.png",
+        "alt": "Kalshi co-founders Tarek Mansour and Luana Lopes Lara stand between Derek Brown’s Utah criminal complaint and a contradictory CFTC order to keep sports-event contracts available nationwide."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Tarek Mansour",
+          "Luana Lopes Lara",
+          "Derek Brown"
+        ],
+        "realCompanies": [
+          "Kalshi Inc."
+        ],
+        "financialMechanism": "Kalshi offers event contracts whose payouts depend on sports outcomes; Utah treats those trades as illegal gambling, while the CFTC regulates Kalshi federally and ordered it to continue offering markets nationwide.",
+        "centralJoke": "Kalshi was caught between opposite legal commands: Utah said it was illegal to offer sports bets there, while its federal regulator’s orders made it illegal for Kalshi not to offer them."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Bets That Must—and Mustn’t—Be Offered",
+          "lesson": "Utah’s gambling law and a federal court ruling told Kalshi to stop offering sports bets in Utah, while its federal regulator, the CFTC, ordered Kalshi to keep its markets available nationwide.",
+          "paragraphs": [
+            "For 130 years, Utah’s rule has been clear:\n“No sports-gambling bets may be offered in here.”\nBut Kalshi let customers trade contracts on games,\nwith payouts decided by outcomes and names.",
+            "Kalshi asked federal court: “Can Utah’s law apply?”\nThe judge answered yes, rejecting its reply.\nStill Utahns could trade on sports events online.\nUtah officials said, “That crosses the line.”",
+            "On Wednesday, Utah filed criminal charges and named\nKalshi Inc., Tarek Mansour, and Luana Lopes Lara as defendants in the complaint.\nAttorney General Derek Brown said the court had been clear:\n“Kalshi kept taking bets. We’re stopping it here.”",
+            "Kalshi called it “crazy overreach” and politics in play,\nand said it would fight the charges in court right away.\nBut Kalshi’s federal regulator—the CFTC—\nhad issued a very different decree.",
+            "Using “statutory emergency powers,” it ordered nationwide trade,\nand sued to overturn Utah’s ban as it stayed.\nSo offering bets was illegal, Utah declared;\nnot offering bets broke federal orders Kalshi was required to obey.",
+            "Kalshi helped tie this remarkable snare,\nwith two opposite commands both waiting there.\nPerhaps the Supreme Court will someday decide\nwhich government’s order the market must abide.",
+            "What happened? Utah charged Kalshi and its co-founders after Kalshi continued offering sports bets despite a federal ruling that Utah’s gambling laws applied. At the same time, the CFTC ordered federally regulated Kalshi to keep offering its markets nationwide, creating directly conflicting commands."
+          ]
+        },
+        "elementary": {
+          "title": "The Bets That Must—and Mustn’t—Be Offered",
+          "lesson": "Utah’s gambling law and a federal court ruling told Kalshi to stop offering sports bets in Utah, while its federal regulator, the CFTC, ordered Kalshi to keep its markets available nationwide.",
+          "paragraphs": [
+            "For 130 years, Utah’s rule has been clear:\n“No sports-gambling bets may be offered in here.”\nBut Kalshi let customers trade contracts on games,\nwith payouts decided by outcomes and names.",
+            "Kalshi asked federal court: “Can Utah’s law apply?”\nThe judge answered yes, rejecting its reply.\nStill Utahns could trade on sports events online.\nUtah officials said, “That crosses the line.”",
+            "On Wednesday, Utah filed criminal charges and named\nKalshi Inc., Tarek Mansour, and Luana Lopes Lara as defendants in the complaint.\nAttorney General Derek Brown said the court had been clear:\n“Kalshi kept taking bets. We’re stopping it here.”",
+            "Kalshi called it “crazy overreach” and politics in play,\nand said it would fight the charges in court right away.\nBut Kalshi’s federal regulator—the CFTC—\nhad issued a very different decree.",
+            "Using “statutory emergency powers,” it ordered nationwide trade,\nand sued to overturn Utah’s ban as it stayed.\nSo offering bets was illegal, Utah declared;\nnot offering bets broke federal orders Kalshi was required to obey.",
+            "Kalshi helped tie this remarkable snare,\nwith two opposite commands both waiting there.\nPerhaps the Supreme Court will someday decide\nwhich government’s order the market must abide.",
+            "What happened? Utah charged Kalshi and its co-founders after Kalshi continued offering sports bets despite a federal ruling that Utah’s gambling laws applied. At the same time, the CFTC ordered federally regulated Kalshi to keep offering its markets nationwide, creating directly conflicting commands."
+          ]
+        },
+        "middle": {
+          "title": "The Bets That Must—and Mustn’t—Be Offered",
+          "lesson": "Utah’s gambling law and a federal court ruling told Kalshi to stop offering sports bets in Utah, while its federal regulator, the CFTC, ordered Kalshi to keep its markets available nationwide.",
+          "paragraphs": [
+            "For 130 years, Utah’s rule has been clear:\n“No sports-gambling bets may be offered in here.”\nBut Kalshi let customers trade contracts on games,\nwith payouts decided by outcomes and names.",
+            "Kalshi asked federal court: “Can Utah’s law apply?”\nThe judge answered yes, rejecting its reply.\nStill Utahns could trade on sports events online.\nUtah officials said, “That crosses the line.”",
+            "On Wednesday, Utah filed criminal charges and named\nKalshi Inc., Tarek Mansour, and Luana Lopes Lara as defendants in the complaint.\nAttorney General Derek Brown said the court had been clear:\n“Kalshi kept taking bets. We’re stopping it here.”",
+            "Kalshi called it “crazy overreach” and politics in play,\nand said it would fight the charges in court right away.\nBut Kalshi’s federal regulator—the CFTC—\nhad issued a very different decree.",
+            "Using “statutory emergency powers,” it ordered nationwide trade,\nand sued to overturn Utah’s ban as it stayed.\nSo offering bets was illegal, Utah declared;\nnot offering bets broke federal orders Kalshi was required to obey.",
+            "Kalshi helped tie this remarkable snare,\nwith two opposite commands both waiting there.\nPerhaps the Supreme Court will someday decide\nwhich government’s order the market must abide.",
+            "What happened? Utah charged Kalshi and its co-founders after Kalshi continued offering sports bets despite a federal ruling that Utah’s gambling laws applied. At the same time, the CFTC ordered federally regulated Kalshi to keep offering its markets nationwide, creating directly conflicting commands."
+          ]
+        },
+        "high": {
+          "title": "The Bets That Must—and Mustn’t—Be Offered",
+          "lesson": "Utah’s gambling law and a federal court ruling told Kalshi to stop offering sports bets in Utah, while its federal regulator, the CFTC, ordered Kalshi to keep its markets available nationwide.",
+          "paragraphs": [
+            "For 130 years, Utah’s rule has been clear:\n“No sports-gambling bets may be offered in here.”\nBut Kalshi let customers trade contracts on games,\nwith payouts decided by outcomes and names.",
+            "Kalshi asked federal court: “Can Utah’s law apply?”\nThe judge answered yes, rejecting its reply.\nStill Utahns could trade on sports events online.\nUtah officials said, “That crosses the line.”",
+            "On Wednesday, Utah filed criminal charges and named\nKalshi Inc., Tarek Mansour, and Luana Lopes Lara as defendants in the complaint.\nAttorney General Derek Brown said the court had been clear:\n“Kalshi kept taking bets. We’re stopping it here.”",
+            "Kalshi called it “crazy overreach” and politics in play,\nand said it would fight the charges in court right away.\nBut Kalshi’s federal regulator—the CFTC—\nhad issued a very different decree.",
+            "Using “statutory emergency powers,” it ordered nationwide trade,\nand sued to overturn Utah’s ban as it stayed.\nSo offering bets was illegal, Utah declared;\nnot offering bets broke federal orders Kalshi was required to obey.",
+            "Kalshi helped tie this remarkable snare,\nwith two opposite commands both waiting there.\nPerhaps the Supreme Court will someday decide\nwhich government’s order the market must abide.",
+            "What happened? Utah charged Kalshi and its co-founders after Kalshi continued offering sports bets despite a federal ruling that Utah’s gambling laws applied. At the same time, the CFTC ordered federally regulated Kalshi to keep offering its markets nationwide, creating directly conflicting commands."
+          ]
+        }
+      }
+    }
+  ]
+}
