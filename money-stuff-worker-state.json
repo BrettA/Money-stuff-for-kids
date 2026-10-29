@@ -588,6 +588,18 @@
       "submitted": true,
       "updatedAt": "2026-10-28T20:36:53.068Z",
       "submittedAt": "2026-10-28T20:36:53.068Z"
+    },
+    "1a188f0dcbcaac72": {
+      "gmailMessageId": "1a188f0dcbcaac72",
+      "newsletterDate": "2026-10-29",
+      "newsletterTitle": "Run on the Law Firm",
+      "editionId": "2026-10-29-run-on-the-law-firm",
+      "sourceSha256": "c1b6291ad24edc073c780ae60f622187e97f146d4f2f9bb45c76aa03444a4dbc",
+      "packageSha256": "0c96682c54acab01d563dea451458a25b5d7261353cfd1f7653c70d9379728a3",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-10-29T19:16:29.183Z",
+      "submittedAt": "2026-10-29T19:16:29.183Z"
     }
   }
 }
