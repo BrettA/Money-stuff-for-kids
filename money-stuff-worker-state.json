@@ -600,6 +600,18 @@
       "submitted": true,
       "updatedAt": "2026-10-29T19:16:29.183Z",
       "submittedAt": "2026-10-29T19:16:29.183Z"
+    },
+    "1a19db0fbfdeabc2": {
+      "gmailMessageId": "1a19db0fbfdeabc2",
+      "newsletterDate": "2026-11-02",
+      "newsletterTitle": "Binance Got Some Money Back",
+      "editionId": "2026-11-02-binance-got-some-money-back",
+      "sourceSha256": "d676b7723d2be9f4872092a78ba6f4b32dc6540abeaba84a73b926c05d64ec34",
+      "packageSha256": "47c56ec9122689486faf6503130d4823626e54bf1ae8ab97ecc5747c24e9aa08",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-11-02T23:55:10.931Z",
+      "submittedAt": "2026-11-02T23:55:10.931Z"
     }
   }
 }
