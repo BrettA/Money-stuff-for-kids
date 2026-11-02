@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-11-02-binance-got-some-money-back",
+  "date": "2026-11-02",
+  "displayDate": "November 2, 2026",
+  "title": "Binance Got Some Money Back",
+  "sourceSections": [
+    "Binance hack",
+    "Binance hack price impact",
+    "The MSCI trade",
+    "Career risk hedging",
+    "Prediction market alt data",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "binance-hack",
+      "sourceSection": "Binance hack",
+      "illustration": {
+        "src": "/images/2026-11-02-binance-got-some-money-back/binance-hack.png",
+        "alt": "Paolo Ardoino and Jeremy Allaire lock stolen stablecoins at a blacklisted blockchain address while Richard Teng opens Binance’s SAFU reserve to replace customers’ missing crypto."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Paolo Ardoino",
+          "Jeremy Allaire",
+          "Richard Teng",
+          "Satoshi Nakamoto"
+        ],
+        "realCompanies": [
+          "Binance",
+          "Tether",
+          "Circle Internet Group Inc."
+        ],
+        "financialMechanism": "Tether, Circle, and other crypto firms froze roughly $3 billion of stolen, traceable tokens by blacklisting blockchain addresses; the stablecoin issuers could mint replacements against backing no longer owed to the thieves, while Binance covered the remaining loss with SAFU and company reserves.",
+        "centralJoke": "Crypto was built around irreversible transfers without banks, but recovering from the hack depended on powerful centralized intermediaries acting like banks and reversing the practical effect of the theft."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Coins That Wouldn’t Come Back—But Did",
+          "lesson": "Stablecoin issuers froze blacklistable stolen tokens and could mint replacements against freed backing, while Binance used its emergency reserve and company funds to cover the remaining irreversible losses.",
+          "paragraphs": [
+            "Hackers apparently linked to North Korea struck Binance one night,\nTaking customers’ crypto—$6.3 billion in flight.\nThat was about five percent of the exchange’s store,\nAnd the biggest crypto hack anyone had seen before.",
+            "Much of the loot was USDT and USDC,\nStablecoins that each promise one dollar faithfully.\nTheir blockchain transfers cannot simply be undone,\nBut their issuers can freeze them so they’re useful to no one.",
+            "Paolo Ardoino said Tether locked more than $1.5 billion tight;\nJeremy Allaire said Circle froze $800 million from flight.\nThey blacklisted the thieves’ addresses, stopping the coins in their tracks,\nThen could mint replacement tokens using the freed dollar backing in their stacks.",
+            "Other crypto firms helped freeze about $3 billion in all,\nBut $3.3 billion stayed beyond anyone’s call.\nRichard Teng said Binance would cover every user’s loss,\nSo customers—not customers’ accounts—wouldn’t bear the cost.",
+            "Its SAFU emergency fund held $1.23 billion in bitcoin that day,\nAnd Binance used company reserves for the rest it must pay.\nIt also planned to buy $1.3 billion of crypto through markets anew,\nWhile frozen funds could repay what Binance had fronted, too.",
+            "Satoshi Nakamoto designed Bitcoin so payments would stay,\nWith no central authority reversing them away.\nYet Tether, Circle, and Binance behaved much like banks in the end—\nFreezing stolen funds and making customers whole again.",
+            "What happened? Hackers stole about $6.3 billion of cryptocurrency from Binance. Stablecoin issuers froze blacklistable tokens, and Binance promised to replace customers’ remaining losses using SAFU and company funds."
+          ]
+        },
+        "elementary": {
+          "title": "The Coins That Wouldn’t Come Back—But Did",
+          "lesson": "Stablecoin issuers froze blacklistable stolen tokens and could mint replacements against freed backing, while Binance used its emergency reserve and company funds to cover the remaining irreversible losses.",
+          "paragraphs": [
+            "Hackers apparently linked to North Korea struck Binance one night,\nTaking customers’ crypto—$6.3 billion in flight.\nThat was about five percent of the exchange’s store,\nAnd the biggest crypto hack anyone had seen before.",
+            "Much of the loot was USDT and USDC,\nStablecoins that each promise one dollar faithfully.\nTheir blockchain transfers cannot simply be undone,\nBut their issuers can freeze them so they’re useful to no one.",
+            "Paolo Ardoino said Tether locked more than $1.5 billion tight;\nJeremy Allaire said Circle froze $800 million from flight.\nThey blacklisted the thieves’ addresses, stopping the coins in their tracks,\nThen could mint replacement tokens using the freed dollar backing in their stacks.",
+            "Other crypto firms helped freeze about $3 billion in all,\nBut $3.3 billion stayed beyond anyone’s call.\nRichard Teng said Binance would cover every user’s loss,\nSo customers—not customers’ accounts—wouldn’t bear the cost.",
+            "Its SAFU emergency fund held $1.23 billion in bitcoin that day,\nAnd Binance used company reserves for the rest it must pay.\nIt also planned to buy $1.3 billion of crypto through markets anew,\nWhile frozen funds could repay what Binance had fronted, too.",
+            "Satoshi Nakamoto designed Bitcoin so payments would stay,\nWith no central authority reversing them away.\nYet Tether, Circle, and Binance behaved much like banks in the end—\nFreezing stolen funds and making customers whole again.",
+            "What happened? Hackers stole about $6.3 billion of cryptocurrency from Binance. Stablecoin issuers froze blacklistable tokens, and Binance promised to replace customers’ remaining losses using SAFU and company funds."
+          ]
+        },
+        "middle": {
+          "title": "The Coins That Wouldn’t Come Back—But Did",
+          "lesson": "Stablecoin issuers froze blacklistable stolen tokens and could mint replacements against freed backing, while Binance used its emergency reserve and company funds to cover the remaining irreversible losses.",
+          "paragraphs": [
+            "Hackers apparently linked to North Korea struck Binance one night,\nTaking customers’ crypto—$6.3 billion in flight.\nThat was about five percent of the exchange’s store,\nAnd the biggest crypto hack anyone had seen before.",
+            "Much of the loot was USDT and USDC,\nStablecoins that each promise one dollar faithfully.\nTheir blockchain transfers cannot simply be undone,\nBut their issuers can freeze them so they’re useful to no one.",
+            "Paolo Ardoino said Tether locked more than $1.5 billion tight;\nJeremy Allaire said Circle froze $800 million from flight.\nThey blacklisted the thieves’ addresses, stopping the coins in their tracks,\nThen could mint replacement tokens using the freed dollar backing in their stacks.",
+            "Other crypto firms helped freeze about $3 billion in all,\nBut $3.3 billion stayed beyond anyone’s call.\nRichard Teng said Binance would cover every user’s loss,\nSo customers—not customers’ accounts—wouldn’t bear the cost.",
+            "Its SAFU emergency fund held $1.23 billion in bitcoin that day,\nAnd Binance used company reserves for the rest it must pay.\nIt also planned to buy $1.3 billion of crypto through markets anew,\nWhile frozen funds could repay what Binance had fronted, too.",
+            "Satoshi Nakamoto designed Bitcoin so payments would stay,\nWith no central authority reversing them away.\nYet Tether, Circle, and Binance behaved much like banks in the end—\nFreezing stolen funds and making customers whole again.",
+            "What happened? Hackers stole about $6.3 billion of cryptocurrency from Binance. Stablecoin issuers froze blacklistable tokens, and Binance promised to replace customers’ remaining losses using SAFU and company funds."
+          ]
+        },
+        "high": {
+          "title": "The Coins That Wouldn’t Come Back—But Did",
+          "lesson": "Stablecoin issuers froze blacklistable stolen tokens and could mint replacements against freed backing, while Binance used its emergency reserve and company funds to cover the remaining irreversible losses.",
+          "paragraphs": [
+            "Hackers apparently linked to North Korea struck Binance one night,\nTaking customers’ crypto—$6.3 billion in flight.\nThat was about five percent of the exchange’s store,\nAnd the biggest crypto hack anyone had seen before.",
+            "Much of the loot was USDT and USDC,\nStablecoins that each promise one dollar faithfully.\nTheir blockchain transfers cannot simply be undone,\nBut their issuers can freeze them so they’re useful to no one.",
+            "Paolo Ardoino said Tether locked more than $1.5 billion tight;\nJeremy Allaire said Circle froze $800 million from flight.\nThey blacklisted the thieves’ addresses, stopping the coins in their tracks,\nThen could mint replacement tokens using the freed dollar backing in their stacks.",
+            "Other crypto firms helped freeze about $3 billion in all,\nBut $3.3 billion stayed beyond anyone’s call.\nRichard Teng said Binance would cover every user’s loss,\nSo customers—not customers’ accounts—wouldn’t bear the cost.",
+            "Its SAFU emergency fund held $1.23 billion in bitcoin that day,\nAnd Binance used company reserves for the rest it must pay.\nIt also planned to buy $1.3 billion of crypto through markets anew,\nWhile frozen funds could repay what Binance had fronted, too.",
+            "Satoshi Nakamoto designed Bitcoin so payments would stay,\nWith no central authority reversing them away.\nYet Tether, Circle, and Binance behaved much like banks in the end—\nFreezing stolen funds and making customers whole again.",
+            "What happened? Hackers stole about $6.3 billion of cryptocurrency from Binance. Stablecoin issuers froze blacklistable tokens, and Binance promised to replace customers’ remaining losses using SAFU and company funds."
+          ]
+        }
+      }
+    },
+    {
+      "id": "binance-hack-price-impact",
+      "sourceSection": "Binance hack price impact",
+      "illustration": {
+        "src": "/images/2026-11-02-binance-got-some-money-back/binance-hack-price-impact.png",
+        "alt": "Attackers urgently exchange stablecoins for costly Ether while Luca Parlamento trades the price gap and Tether and Circle freeze the tokens left behind."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Sidhartha Shukla",
+          "Emily Nicolle",
+          "James Aitchison",
+          "Luca Parlamento"
+        ],
+        "realCompanies": [
+          "Binance",
+          "Bloomberg",
+          "Bitquery",
+          "Caerus Global Management",
+          "Tether",
+          "Circle",
+          "TRM Labs",
+          "D2 Finance",
+          "Uniswap",
+          "Hyperliquid"
+        ],
+        "financialMechanism": "The attackers urgently sold freezeable stablecoins for Ether through thin decentralized markets. Their price-insensitive buying pushed Ether far above prices elsewhere, allowing liquidity providers and arbitrage traders to profit from the gap while bearing speed, size, and potential freezing risks.",
+        "centralJoke": "Crypto traders openly told reporters that they profited by taking the other side of trades used by apparent North Korean hackers to convert stolen funds—something people in traditional finance would be unlikely to boast about."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Very Expensive Hurry",
+          "lesson": "The attackers urgently exchanged freezeable stablecoins for Ether in thin markets, paying roughly a 15% premium; other traders profited from the price gaps while Tether and Circle froze the stablecoins that remained.",
+          "paragraphs": [
+            "On October 29, Binance funds were stolen away; apparent North Korean hackers had no time to delay.",
+            "Stablecoins such as USDT are designed to hold steady, but issuers can freeze them—so the thieves had to be ready.",
+            "Within roughly half an hour, they swapped for Ether at speed, buying wherever they could to fill their urgent need.",
+            "On Uniswap they paid $2,657 on average in flight; Hyperliquid showed about $2,300 that night.",
+            "They paid roughly fifteen percent for immediate size; with thin liquidity, frantic demand drove up the price.",
+            "Quick traders sold Ether dear and could buy cheaper elsewhere; Bitquery says the attackers lost $119 million there.",
+            "James Aitchison of Caerus called the price gaps good to trade. Luca Parlamento said D2 took the other side of the raid.",
+            "TRM Labs says Tether and Circle froze $1.8 billion in place, about forty minutes after the main Ethereum phase.",
+            "Circle’s terms can freeze USDC at a blocked address; that risk, plus haste and size, helped cause the costly mess.",
+            "Bloomberg’s Sidhartha Shukla and Emily Nicolle reported the spree—and traders discussed their profitable night quite openly.",
+            "That was the very crypto joke, strange enough to confess: in traditional finance, few brag to the press about profiting while apparent North Korean hackers launder stolen assets.",
+            "What happened? Hackers rushed to trade freezeable stablecoins stolen from Binance for Ether, paying unusually high prices because they needed speed in thin markets. Traders including D2 Finance profited from the resulting price gaps, while Tether and Circle froze about $1.8 billion of stablecoins that had not yet been exchanged."
+          ]
+        },
+        "elementary": {
+          "title": "The Very Expensive Hurry",
+          "lesson": "The attackers urgently exchanged freezeable stablecoins for Ether in thin markets, paying roughly a 15% premium; other traders profited from the price gaps while Tether and Circle froze the stablecoins that remained.",
+          "paragraphs": [
+            "On October 29, Binance funds were stolen away; apparent North Korean hackers had no time to delay.",
+            "Stablecoins such as USDT are designed to hold steady, but issuers can freeze them—so the thieves had to be ready.",
+            "Within roughly half an hour, they swapped for Ether at speed, buying wherever they could to fill their urgent need.",
+            "On Uniswap they paid $2,657 on average in flight; Hyperliquid showed about $2,300 that night.",
+            "They paid roughly fifteen percent for immediate size; with thin liquidity, frantic demand drove up the price.",
+            "Quick traders sold Ether dear and could buy cheaper elsewhere; Bitquery says the attackers lost $119 million there.",
+            "James Aitchison of Caerus called the price gaps good to trade. Luca Parlamento said D2 took the other side of the raid.",
+            "TRM Labs says Tether and Circle froze $1.8 billion in place, about forty minutes after the main Ethereum phase.",
+            "Circle’s terms can freeze USDC at a blocked address; that risk, plus haste and size, helped cause the costly mess.",
+            "Bloomberg’s Sidhartha Shukla and Emily Nicolle reported the spree—and traders discussed their profitable night quite openly.",
+            "That was the very crypto joke, strange enough to confess: in traditional finance, few brag to the press about profiting while apparent North Korean hackers launder stolen assets.",
+            "What happened? Hackers rushed to trade freezeable stablecoins stolen from Binance for Ether, paying unusually high prices because they needed speed in thin markets. Traders including D2 Finance profited from the resulting price gaps, while Tether and Circle froze about $1.8 billion of stablecoins that had not yet been exchanged."
+          ]
+        },
+        "middle": {
+          "title": "The Very Expensive Hurry",
+          "lesson": "The attackers urgently exchanged freezeable stablecoins for Ether in thin markets, paying roughly a 15% premium; other traders profited from the price gaps while Tether and Circle froze the stablecoins that remained.",
+          "paragraphs": [
+            "On October 29, Binance funds were stolen away; apparent North Korean hackers had no time to delay.",
+            "Stablecoins such as USDT are designed to hold steady, but issuers can freeze them—so the thieves had to be ready.",
+            "Within roughly half an hour, they swapped for Ether at speed, buying wherever they could to fill their urgent need.",
+            "On Uniswap they paid $2,657 on average in flight; Hyperliquid showed about $2,300 that night.",
+            "They paid roughly fifteen percent for immediate size; with thin liquidity, frantic demand drove up the price.",
+            "Quick traders sold Ether dear and could buy cheaper elsewhere; Bitquery says the attackers lost $119 million there.",
+            "James Aitchison of Caerus called the price gaps good to trade. Luca Parlamento said D2 took the other side of the raid.",
+            "TRM Labs says Tether and Circle froze $1.8 billion in place, about forty minutes after the main Ethereum phase.",
+            "Circle’s terms can freeze USDC at a blocked address; that risk, plus haste and size, helped cause the costly mess.",
+            "Bloomberg’s Sidhartha Shukla and Emily Nicolle reported the spree—and traders discussed their profitable night quite openly.",
+            "That was the very crypto joke, strange enough to confess: in traditional finance, few brag to the press about profiting while apparent North Korean hackers launder stolen assets.",
+            "What happened? Hackers rushed to trade freezeable stablecoins stolen from Binance for Ether, paying unusually high prices because they needed speed in thin markets. Traders including D2 Finance profited from the resulting price gaps, while Tether and Circle froze about $1.8 billion of stablecoins that had not yet been exchanged."
+          ]
+        },
+        "high": {
+          "title": "The Very Expensive Hurry",
+          "lesson": "The attackers urgently exchanged freezeable stablecoins for Ether in thin markets, paying roughly a 15% premium; other traders profited from the price gaps while Tether and Circle froze the stablecoins that remained.",
+          "paragraphs": [
+            "On October 29, Binance funds were stolen away; apparent North Korean hackers had no time to delay.",
+            "Stablecoins such as USDT are designed to hold steady, but issuers can freeze them—so the thieves had to be ready.",
+            "Within roughly half an hour, they swapped for Ether at speed, buying wherever they could to fill their urgent need.",
+            "On Uniswap they paid $2,657 on average in flight; Hyperliquid showed about $2,300 that night.",
+            "They paid roughly fifteen percent for immediate size; with thin liquidity, frantic demand drove up the price.",
+            "Quick traders sold Ether dear and could buy cheaper elsewhere; Bitquery says the attackers lost $119 million there.",
+            "James Aitchison of Caerus called the price gaps good to trade. Luca Parlamento said D2 took the other side of the raid.",
+            "TRM Labs says Tether and Circle froze $1.8 billion in place, about forty minutes after the main Ethereum phase.",
+            "Circle’s terms can freeze USDC at a blocked address; that risk, plus haste and size, helped cause the costly mess.",
+            "Bloomberg’s Sidhartha Shukla and Emily Nicolle reported the spree—and traders discussed their profitable night quite openly.",
+            "That was the very crypto joke, strange enough to confess: in traditional finance, few brag to the press about profiting while apparent North Korean hackers launder stolen assets.",
+            "What happened? Hackers rushed to trade freezeable stablecoins stolen from Binance for Ether, paying unusually high prices because they needed speed in thin markets. Traders including D2 Finance profited from the resulting price gaps, while Tether and Circle froze about $1.8 billion of stablecoins that had not yet been exchanged."
+          ]
+        }
+      }
+    },
+    {
+      "id": "the-msci-trade",
+      "sourceSection": "The MSCI trade",
+      "illustration": {
+        "src": "/images/2026-11-02-binance-got-some-money-back/the-msci-trade.png",
+        "alt": "Samuel traders push Abadi share certificates toward an MSCI index basket as MSCI closes a gate marked Indonesia, sending the shares tumbling."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Harry Suhartono",
+          "Prima Wirayani"
+        ],
+        "realCompanies": [
+          "PT Abadi Lestari Indonesia",
+          "Samuel Sekuritas",
+          "MSCI",
+          "Bloomberg",
+          "LG Corp.",
+          "Prada SpA"
+        ],
+        "financialMechanism": "Reportedly coordinated trading inflated Abadi’s share price and volume in an effort to gain MSCI index inclusion, which would require index-tracking funds to buy the shares; MSCI responded by threatening Indonesia’s index status.",
+        "centralJoke": "The scheme aimed to turn index funds into automatic buyers of a pumped stock, but MSCI answered by threatening to exclude or downgrade the entire Indonesian market."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Stock That Tried to Join the Index",
+          "lesson": "Coordinated trading can inflate a stock’s price and trading volume in hopes that index funds will be forced to buy it, but an index provider such as MSCI can respond by penalizing the entire market.",
+          "paragraphs": [
+            "In Indonesia, “deep-fried stocks” may sizzle, soar, and pop. PT Abadi Lestari Indonesia shot toward the top.",
+            "Its shares had climbed an astounding 5,000 percent. Samuel Sekuritas said that was hardly the end.",
+            "Its report predicted a nearly 50,000 percent flight—past LG Corp. and Prada SpA in value and height.",
+            "But people familiar with events told a different story: Samuel traders and Abadi had worked to boost the stock’s glory.",
+            "They pumped up its price and its trading amount, hoping great size would be all that might count.",
+            "MSCI builds indexes—lists funds copy with care. If Abadi joined, those funds would have to buy shares.",
+            "That was the wonderfully strange final plan: make automatic buyers purchase as much as they can.",
+            "Harry Suhartono and Prima Wirayani reported the news. But MSCI had another path it could choose.",
+            "Two days after Samuel’s report, MSCI warned that coordinated trades had distorted the view. Indonesia might leave its emerging-market index—or even drop two categories, too.",
+            "The warning struck hard: Abadi fell 70 percent, while Indonesia’s benchmark index lost 40 percent.",
+            "Regulators hurried to clean up the trading display. For now, the grand “MSCI trade” had fizzled away.",
+            "What happened? Traders were reportedly trying to inflate Abadi’s price and volume so it could enter an MSCI index, forcing index funds to buy it. Instead, MSCI threatened to downgrade Indonesia’s whole market, and prices plunged."
+          ]
+        },
+        "elementary": {
+          "title": "The Stock That Tried to Join the Index",
+          "lesson": "Coordinated trading can inflate a stock’s price and trading volume in hopes that index funds will be forced to buy it, but an index provider such as MSCI can respond by penalizing the entire market.",
+          "paragraphs": [
+            "In Indonesia, “deep-fried stocks” may sizzle, soar, and pop. PT Abadi Lestari Indonesia shot toward the top.",
+            "Its shares had climbed an astounding 5,000 percent. Samuel Sekuritas said that was hardly the end.",
+            "Its report predicted a nearly 50,000 percent flight—past LG Corp. and Prada SpA in value and height.",
+            "But people familiar with events told a different story: Samuel traders and Abadi had worked to boost the stock’s glory.",
+            "They pumped up its price and its trading amount, hoping great size would be all that might count.",
+            "MSCI builds indexes—lists funds copy with care. If Abadi joined, those funds would have to buy shares.",
+            "That was the wonderfully strange final plan: make automatic buyers purchase as much as they can.",
+            "Harry Suhartono and Prima Wirayani reported the news. But MSCI had another path it could choose.",
+            "Two days after Samuel’s report, MSCI warned that coordinated trades had distorted the view. Indonesia might leave its emerging-market index—or even drop two categories, too.",
+            "The warning struck hard: Abadi fell 70 percent, while Indonesia’s benchmark index lost 40 percent.",
+            "Regulators hurried to clean up the trading display. For now, the grand “MSCI trade” had fizzled away.",
+            "What happened? Traders were reportedly trying to inflate Abadi’s price and volume so it could enter an MSCI index, forcing index funds to buy it. Instead, MSCI threatened to downgrade Indonesia’s whole market, and prices plunged."
+          ]
+        },
+        "middle": {
+          "title": "The Stock That Tried to Join the Index",
+          "lesson": "Coordinated trading can inflate a stock’s price and trading volume in hopes that index funds will be forced to buy it, but an index provider such as MSCI can respond by penalizing the entire market.",
+          "paragraphs": [
+            "In Indonesia, “deep-fried stocks” may sizzle, soar, and pop. PT Abadi Lestari Indonesia shot toward the top.",
+            "Its shares had climbed an astounding 5,000 percent. Samuel Sekuritas said that was hardly the end.",
+            "Its report predicted a nearly 50,000 percent flight—past LG Corp. and Prada SpA in value and height.",
+            "But people familiar with events told a different story: Samuel traders and Abadi had worked to boost the stock’s glory.",
+            "They pumped up its price and its trading amount, hoping great size would be all that might count.",
+            "MSCI builds indexes—lists funds copy with care. If Abadi joined, those funds would have to buy shares.",
+            "That was the wonderfully strange final plan: make automatic buyers purchase as much as they can.",
+            "Harry Suhartono and Prima Wirayani reported the news. But MSCI had another path it could choose.",
+            "Two days after Samuel’s report, MSCI warned that coordinated trades had distorted the view. Indonesia might leave its emerging-market index—or even drop two categories, too.",
+            "The warning struck hard: Abadi fell 70 percent, while Indonesia’s benchmark index lost 40 percent.",
+            "Regulators hurried to clean up the trading display. For now, the grand “MSCI trade” had fizzled away.",
+            "What happened? Traders were reportedly trying to inflate Abadi’s price and volume so it could enter an MSCI index, forcing index funds to buy it. Instead, MSCI threatened to downgrade Indonesia’s whole market, and prices plunged."
+          ]
+        },
+        "high": {
+          "title": "The Stock That Tried to Join the Index",
+          "lesson": "Coordinated trading can inflate a stock’s price and trading volume in hopes that index funds will be forced to buy it, but an index provider such as MSCI can respond by penalizing the entire market.",
+          "paragraphs": [
+            "In Indonesia, “deep-fried stocks” may sizzle, soar, and pop. PT Abadi Lestari Indonesia shot toward the top.",
+            "Its shares had climbed an astounding 5,000 percent. Samuel Sekuritas said that was hardly the end.",
+            "Its report predicted a nearly 50,000 percent flight—past LG Corp. and Prada SpA in value and height.",
+            "But people familiar with events told a different story: Samuel traders and Abadi had worked to boost the stock’s glory.",
+            "They pumped up its price and its trading amount, hoping great size would be all that might count.",
+            "MSCI builds indexes—lists funds copy with care. If Abadi joined, those funds would have to buy shares.",
+            "That was the wonderfully strange final plan: make automatic buyers purchase as much as they can.",
+            "Harry Suhartono and Prima Wirayani reported the news. But MSCI had another path it could choose.",
+            "Two days after Samuel’s report, MSCI warned that coordinated trades had distorted the view. Indonesia might leave its emerging-market index—or even drop two categories, too.",
+            "The warning struck hard: Abadi fell 70 percent, while Indonesia’s benchmark index lost 40 percent.",
+            "Regulators hurried to clean up the trading display. For now, the grand “MSCI trade” had fizzled away.",
+            "What happened? Traders were reportedly trying to inflate Abadi’s price and volume so it could enter an MSCI index, forcing index funds to buy it. Instead, MSCI threatened to downgrade Indonesia’s whole market, and prices plunged."
+          ]
+        }
+      }
+    },
+    {
+      "id": "career-risk-hedging",
+      "sourceSection": "Career risk hedging",
+      "illustration": {
+        "src": "/images/2026-11-02-binance-got-some-money-back/career-risk-hedging.png",
+        "alt": "An Anthropic employee leaves an office carrying vested-share papers while a policy sign bars forwards, swaps, and collars; outside, downside protection awaits."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Stephen Solaka"
+        ],
+        "realCompanies": [
+          "Anthropic PBC",
+          "Tesla Inc.",
+          "Hyperliquid",
+          "Gateway Investment Advisers",
+          "The Wall Street Journal"
+        ],
+        "financialMechanism": "An employee with vested, concentrated private-company stock may quit because insider-trading rules prohibit hedges while employed; after leaving, the former employee has more freedom to use downside-protection strategies such as forwards, swaps, collars, or perpetual futures.",
+        "centralJoke": "A giant stock package designed to keep an employee can make the employee so rich—and so eager to hedge—that it drives the employee to quit."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Stock That Opened the Exit Door",
+          "lesson": "When workers hold most of their wealth in one company’s stock but company rules forbid downside hedges, quitting after shares vest can give them more freedom to protect that wealth.",
+          "paragraphs": [
+            "Five years ago, an Anthropic PBC hire\nmight own almost nothing but purpose and fire.\nNow perhaps $50 million rests in their shares,\nplus skills that can earn equally dazzling fares.",
+            "That earning power is called “human capital”;\nboth fortunes depend on one firm, after all.\nA hedge offers protection if share prices drop,\nso part of your wealth does not fall from the top.",
+            "But Anthropic stock isn’t publicly sold;\nonly rare tender offers let shares be unrolled.\nForwards, swaps, collars, or perpetual trades\ncould cushion a plunge with the payouts they made.",
+            "Yet Anthropic’s insider-trading rules say, “No”\nto employee hedges while shares rise or go low.\nEven Hyperliquid trades could get workers fired—\nnot quite the protection a hedger desired.",
+            "A trader once made $300 million with Tesla Inc. options;\nthen keeping it all there seemed short on precautions.\nWhen roulette lands your number again and again,\nperhaps leave the wheel with most of your win.",
+            "With enough vested shares, an employee might leave,\nthough the mission and future rewards make them grieve.\nStephen Solaka of Gateway Investment Advisers\ntold The Wall Street Journal of similar risk minimizers.",
+            "Some former tech workers want downside protection;\nresigning can loosen a trading restriction.\nSo stock meant to keep them can grow so immense,\nthey quit for permission to purchase defense.",
+            "What happened? The Wall Street Journal reported that some former technology employees quit so they could hedge concentrated company-stock wealth, while Anthropic’s policy forbids employees from using instruments such as forwards, swaps, and collars to hedge its shares. The absurd result is that enormous stock awards intended to retain workers may instead encourage them to leave once enough shares have vested."
+          ]
+        },
+        "elementary": {
+          "title": "The Stock That Opened the Exit Door",
+          "lesson": "When workers hold most of their wealth in one company’s stock but company rules forbid downside hedges, quitting after shares vest can give them more freedom to protect that wealth.",
+          "paragraphs": [
+            "Five years ago, an Anthropic PBC hire\nmight own almost nothing but purpose and fire.\nNow perhaps $50 million rests in their shares,\nplus skills that can earn equally dazzling fares.",
+            "That earning power is called “human capital”;\nboth fortunes depend on one firm, after all.\nA hedge offers protection if share prices drop,\nso part of your wealth does not fall from the top.",
+            "But Anthropic stock isn’t publicly sold;\nonly rare tender offers let shares be unrolled.\nForwards, swaps, collars, or perpetual trades\ncould cushion a plunge with the payouts they made.",
+            "Yet Anthropic’s insider-trading rules say, “No”\nto employee hedges while shares rise or go low.\nEven Hyperliquid trades could get workers fired—\nnot quite the protection a hedger desired.",
+            "A trader once made $300 million with Tesla Inc. options;\nthen keeping it all there seemed short on precautions.\nWhen roulette lands your number again and again,\nperhaps leave the wheel with most of your win.",
+            "With enough vested shares, an employee might leave,\nthough the mission and future rewards make them grieve.\nStephen Solaka of Gateway Investment Advisers\ntold The Wall Street Journal of similar risk minimizers.",
+            "Some former tech workers want downside protection;\nresigning can loosen a trading restriction.\nSo stock meant to keep them can grow so immense,\nthey quit for permission to purchase defense.",
+            "What happened? The Wall Street Journal reported that some former technology employees quit so they could hedge concentrated company-stock wealth, while Anthropic’s policy forbids employees from using instruments such as forwards, swaps, and collars to hedge its shares. The absurd result is that enormous stock awards intended to retain workers may instead encourage them to leave once enough shares have vested."
+          ]
+        },
+        "middle": {
+          "title": "The Stock That Opened the Exit Door",
+          "lesson": "When workers hold most of their wealth in one company’s stock but company rules forbid downside hedges, quitting after shares vest can give them more freedom to protect that wealth.",
+          "paragraphs": [
+            "Five years ago, an Anthropic PBC hire\nmight own almost nothing but purpose and fire.\nNow perhaps $50 million rests in their shares,\nplus skills that can earn equally dazzling fares.",
+            "That earning power is called “human capital”;\nboth fortunes depend on one firm, after all.\nA hedge offers protection if share prices drop,\nso part of your wealth does not fall from the top.",
+            "But Anthropic stock isn’t publicly sold;\nonly rare tender offers let shares be unrolled.\nForwards, swaps, collars, or perpetual trades\ncould cushion a plunge with the payouts they made.",
+            "Yet Anthropic’s insider-trading rules say, “No”\nto employee hedges while shares rise or go low.\nEven Hyperliquid trades could get workers fired—\nnot quite the protection a hedger desired.",
+            "A trader once made $300 million with Tesla Inc. options;\nthen keeping it all there seemed short on precautions.\nWhen roulette lands your number again and again,\nperhaps leave the wheel with most of your win.",
+            "With enough vested shares, an employee might leave,\nthough the mission and future rewards make them grieve.\nStephen Solaka of Gateway Investment Advisers\ntold The Wall Street Journal of similar risk minimizers.",
+            "Some former tech workers want downside protection;\nresigning can loosen a trading restriction.\nSo stock meant to keep them can grow so immense,\nthey quit for permission to purchase defense.",
+            "What happened? The Wall Street Journal reported that some former technology employees quit so they could hedge concentrated company-stock wealth, while Anthropic’s policy forbids employees from using instruments such as forwards, swaps, and collars to hedge its shares. The absurd result is that enormous stock awards intended to retain workers may instead encourage them to leave once enough shares have vested."
+          ]
+        },
+        "high": {
+          "title": "The Stock That Opened the Exit Door",
+          "lesson": "When workers hold most of their wealth in one company’s stock but company rules forbid downside hedges, quitting after shares vest can give them more freedom to protect that wealth.",
+          "paragraphs": [
+            "Five years ago, an Anthropic PBC hire\nmight own almost nothing but purpose and fire.\nNow perhaps $50 million rests in their shares,\nplus skills that can earn equally dazzling fares.",
+            "That earning power is called “human capital”;\nboth fortunes depend on one firm, after all.\nA hedge offers protection if share prices drop,\nso part of your wealth does not fall from the top.",
+            "But Anthropic stock isn’t publicly sold;\nonly rare tender offers let shares be unrolled.\nForwards, swaps, collars, or perpetual trades\ncould cushion a plunge with the payouts they made.",
+            "Yet Anthropic’s insider-trading rules say, “No”\nto employee hedges while shares rise or go low.\nEven Hyperliquid trades could get workers fired—\nnot quite the protection a hedger desired.",
+            "A trader once made $300 million with Tesla Inc. options;\nthen keeping it all there seemed short on precautions.\nWhen roulette lands your number again and again,\nperhaps leave the wheel with most of your win.",
+            "With enough vested shares, an employee might leave,\nthough the mission and future rewards make them grieve.\nStephen Solaka of Gateway Investment Advisers\ntold The Wall Street Journal of similar risk minimizers.",
+            "Some former tech workers want downside protection;\nresigning can loosen a trading restriction.\nSo stock meant to keep them can grow so immense,\nthey quit for permission to purchase defense.",
+            "What happened? The Wall Street Journal reported that some former technology employees quit so they could hedge concentrated company-stock wealth, while Anthropic’s policy forbids employees from using instruments such as forwards, swaps, and collars to hedge its shares. The absurd result is that enormous stock awards intended to retain workers may instead encourage them to leave once enough shares have vested."
+          ]
+        }
+      }
+    },
+    {
+      "id": "prediction-market-alt-data",
+      "sourceSection": "Prediction market alt data",
+      "illustration": {
+        "src": "/images/2026-11-02-binance-got-some-money-back/prediction-market-alt-data.png",
+        "alt": "Bensoussan knocks on a Bangor door while Campbell and four traders canvass Portland, with an imagined satellite overhead counting Susan Collins and Troy Jackson lawn signs."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Nate Silver",
+          "Ben Weiss",
+          "Bensoussan",
+          "Campbell",
+          "Susan Collins",
+          "Troy Jackson"
+        ],
+        "realCompanies": [
+          "Kalshi",
+          "Polymarket",
+          "Bloomberg",
+          "Poly Alpha"
+        ],
+        "financialMechanism": "Prediction-market traders buy positions based on event probabilities and can profit if they correctly identify odds that are too high or too low; firsthand election research can provide an informational edge.",
+        "centralJoke": "As prediction markets become larger and more professional, hedge funds may progress from traders knocking on doors to paying alternative-data providers for satellite images that count candidate lawn signs."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Sharps Who Knocked on Doors",
+          "lesson": "Prediction-market traders can profit when they believe market odds are wrong, giving them incentives to study polls, economic data, and firsthand observations for information others may have missed.",
+          "paragraphs": [
+            "On Kalshi and Polymarket, contracts are bought\nTo back what you think—and to challenge a thought.\nIf the market’s odds seem too low or too high,\nA well-placed position may profit nearby.",
+            "Some use public polling and data by piles,\nIn quantitative, Nate Silver-style files.\nBut Poly Alpha’s “sharps” tried a boots-on-the-street route:\nThey traveled to Maine to go knocking about.",
+            "Bensoussan walked Bangor; Campbell’s group chose\nPortland, where four other traders joined those\nWho asked door by door what the neighbors believed,\nAnd listened for clues that the polls hadn’t sieved.",
+            "Bensoussan found Susan Collins supporters less keen\nTo say how they’d vote or explain what they’d seen.\nThough polls put Democrat Troy Jackson ahead,\nThat silence made Bensoussan cautious instead.",
+            "Bloomberg’s Ben Weiss wrote of trips made to know\nWhat polls and percentages might never show.\nAnd someday, when wagers grow grander, perhaps\nHedge funds will buy candidate-lawn-sign sky maps—",
+            "With satellites counting each sign down below,\nTo guess how an election is likely to go.\nFrom knocking on doors to space photos for pay:\nThat’s “alternative data” in full, odd display.",
+            "What happened? Members of the invite-only Poly Alpha chatroom traveled to Maine to gather firsthand election information that might help them trade prediction-market contracts. The satellite lawn-sign idea was a joke about how larger markets could lead hedge funds to buy increasingly elaborate alternative data."
+          ]
+        },
+        "elementary": {
+          "title": "The Sharps Who Knocked on Doors",
+          "lesson": "Prediction-market traders can profit when they believe market odds are wrong, giving them incentives to study polls, economic data, and firsthand observations for information others may have missed.",
+          "paragraphs": [
+            "On Kalshi and Polymarket, contracts are bought\nTo back what you think—and to challenge a thought.\nIf the market’s odds seem too low or too high,\nA well-placed position may profit nearby.",
+            "Some use public polling and data by piles,\nIn quantitative, Nate Silver-style files.\nBut Poly Alpha’s “sharps” tried a boots-on-the-street route:\nThey traveled to Maine to go knocking about.",
+            "Bensoussan walked Bangor; Campbell’s group chose\nPortland, where four other traders joined those\nWho asked door by door what the neighbors believed,\nAnd listened for clues that the polls hadn’t sieved.",
+            "Bensoussan found Susan Collins supporters less keen\nTo say how they’d vote or explain what they’d seen.\nThough polls put Democrat Troy Jackson ahead,\nThat silence made Bensoussan cautious instead.",
+            "Bloomberg’s Ben Weiss wrote of trips made to know\nWhat polls and percentages might never show.\nAnd someday, when wagers grow grander, perhaps\nHedge funds will buy candidate-lawn-sign sky maps—",
+            "With satellites counting each sign down below,\nTo guess how an election is likely to go.\nFrom knocking on doors to space photos for pay:\nThat’s “alternative data” in full, odd display.",
+            "What happened? Members of the invite-only Poly Alpha chatroom traveled to Maine to gather firsthand election information that might help them trade prediction-market contracts. The satellite lawn-sign idea was a joke about how larger markets could lead hedge funds to buy increasingly elaborate alternative data."
+          ]
+        },
+        "middle": {
+          "title": "The Sharps Who Knocked on Doors",
+          "lesson": "Prediction-market traders can profit when they believe market odds are wrong, giving them incentives to study polls, economic data, and firsthand observations for information others may have missed.",
+          "paragraphs": [
+            "On Kalshi and Polymarket, contracts are bought\nTo back what you think—and to challenge a thought.\nIf the market’s odds seem too low or too high,\nA well-placed position may profit nearby.",
+            "Some use public polling and data by piles,\nIn quantitative, Nate Silver-style files.\nBut Poly Alpha’s “sharps” tried a boots-on-the-street route:\nThey traveled to Maine to go knocking about.",
+            "Bensoussan walked Bangor; Campbell’s group chose\nPortland, where four other traders joined those\nWho asked door by door what the neighbors believed,\nAnd listened for clues that the polls hadn’t sieved.",
+            "Bensoussan found Susan Collins supporters less keen\nTo say how they’d vote or explain what they’d seen.\nThough polls put Democrat Troy Jackson ahead,\nThat silence made Bensoussan cautious instead.",
+            "Bloomberg’s Ben Weiss wrote of trips made to know\nWhat polls and percentages might never show.\nAnd someday, when wagers grow grander, perhaps\nHedge funds will buy candidate-lawn-sign sky maps—",
+            "With satellites counting each sign down below,\nTo guess how an election is likely to go.\nFrom knocking on doors to space photos for pay:\nThat’s “alternative data” in full, odd display.",
+            "What happened? Members of the invite-only Poly Alpha chatroom traveled to Maine to gather firsthand election information that might help them trade prediction-market contracts. The satellite lawn-sign idea was a joke about how larger markets could lead hedge funds to buy increasingly elaborate alternative data."
+          ]
+        },
+        "high": {
+          "title": "The Sharps Who Knocked on Doors",
+          "lesson": "Prediction-market traders can profit when they believe market odds are wrong, giving them incentives to study polls, economic data, and firsthand observations for information others may have missed.",
+          "paragraphs": [
+            "On Kalshi and Polymarket, contracts are bought\nTo back what you think—and to challenge a thought.\nIf the market’s odds seem too low or too high,\nA well-placed position may profit nearby.",
+            "Some use public polling and data by piles,\nIn quantitative, Nate Silver-style files.\nBut Poly Alpha’s “sharps” tried a boots-on-the-street route:\nThey traveled to Maine to go knocking about.",
+            "Bensoussan walked Bangor; Campbell’s group chose\nPortland, where four other traders joined those\nWho asked door by door what the neighbors believed,\nAnd listened for clues that the polls hadn’t sieved.",
+            "Bensoussan found Susan Collins supporters less keen\nTo say how they’d vote or explain what they’d seen.\nThough polls put Democrat Troy Jackson ahead,\nThat silence made Bensoussan cautious instead.",
+            "Bloomberg’s Ben Weiss wrote of trips made to know\nWhat polls and percentages might never show.\nAnd someday, when wagers grow grander, perhaps\nHedge funds will buy candidate-lawn-sign sky maps—",
+            "With satellites counting each sign down below,\nTo guess how an election is likely to go.\nFrom knocking on doors to space photos for pay:\nThat’s “alternative data” in full, odd display.",
+            "What happened? Members of the invite-only Poly Alpha chatroom traveled to Maine to gather firsthand election information that might help them trade prediction-market contracts. The satellite lawn-sign idea was a joke about how larger markets could lead hedge funds to buy increasingly elaborate alternative data."
+          ]
+        }
+      }
+    }
+  ]
+}
