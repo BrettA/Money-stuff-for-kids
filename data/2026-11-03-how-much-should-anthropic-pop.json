@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-11-03-how-much-should-anthropic-pop",
+  "date": "2026-11-03",
+  "displayDate": "November 3, 2026",
+  "title": "How Much Should Anthropic Pop?",
+  "sourceSections": [
+    "Pre-IPO",
+    "Long-term-ism",
+    "Fake job interview",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "pre-ipo",
+      "sourceSection": "Pre-IPO",
+      "illustration": {
+        "src": "/images/2026-11-03-how-much-should-anthropic-pop/pre-ipo.png",
+        "alt": "Krishna Rao considers a $1.5 trillion Anthropic IPO card while a nearby Hyperliquid placard shows traders valuing the company at $1.8 trillion and institutional investors anticipate a first-day pop."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Krishna Rao",
+          "Elon Musk",
+          "Bill Gurley"
+        ],
+        "realCompanies": [
+          "Anthropic PBC",
+          "Hyperliquid",
+          "SpaceX"
+        ],
+        "financialMechanism": "Pre-IPO perpetual futures are contracts betting on a private company’s future share price without conveying ownership of its stock. Hyperliquid’s implied valuation could guide Anthropic’s IPO price, creating a choice between selling near the predicted market value or pricing about 20% lower to produce a first-day IPO pop.",
+        "centralJoke": "If the prediction market already shows what Anthropic will be worth after listing, investors are asking for a 20% discount to a price they can already see—supposedly as compensation for taking uncertainty that has largely disappeared."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "Anthropic and the Twenty-Percent Pop",
+          "lesson": "When pre-IPO perpetual futures reveal an expected market price, giving IPO buyers a traditional 20% discount may reward them for risk that the prediction market has already reduced.",
+          "paragraphs": [
+            "Before Anthropic’s shares could trade in an IPO,\nHyperliquid’s pre-IPO wagers were already on show.\nA perpetual future is a bet on a price;\nit grants no actual shares, though its guesses can be precise.",
+            "The crowd valued Anthropic near $1.8 trillion,\nwhile investors proposed $1.5 to $1.6 trillion.\nThey trusted chief financial officer Krishna Rao\nto price it below what the market predicted right now.",
+            "“It might reach $2 trillion by day’s end!” they said.\nThat first-day leap is a “pop” shooting ahead.\nSpaceX had jumped 30% on its first trading day;\nElon Musk had reportedly planned a smaller pop that way.",
+            "Bankers like pops: buyers get profit at once,\nthen may return when another big offering comes.\nBut Bill Gurley objects, “That gift isn’t free!”\nThe missing money could have gone to the company.",
+            "And here was the puzzle, peculiar and funny:\nThe wager said buyers already knew the likely money.\nIf $1.8 trillion was visible before trading could start,\nwhy sell for 20% less—and call that the cautious part?",
+            "What happened? Hyperliquid’s perpetual futures valued Anthropic around $1.8 trillion, while institutional investors suggested an IPO valuation of $1.5 trillion to $1.6 trillion so the shares might enjoy a roughly 20% first-day pop. The contracts were bets rather than claims on Anthropic stock, but if their prediction was accurate, the discount would transfer value from Anthropic and its existing shareholders to selected IPO buyers."
+          ]
+        },
+        "elementary": {
+          "title": "Anthropic and the Twenty-Percent Pop",
+          "lesson": "When pre-IPO perpetual futures reveal an expected market price, giving IPO buyers a traditional 20% discount may reward them for risk that the prediction market has already reduced.",
+          "paragraphs": [
+            "Before Anthropic’s shares could trade in an IPO,\nHyperliquid’s pre-IPO wagers were already on show.\nA perpetual future is a bet on a price;\nit grants no actual shares, though its guesses can be precise.",
+            "The crowd valued Anthropic near $1.8 trillion,\nwhile investors proposed $1.5 to $1.6 trillion.\nThey trusted chief financial officer Krishna Rao\nto price it below what the market predicted right now.",
+            "“It might reach $2 trillion by day’s end!” they said.\nThat first-day leap is a “pop” shooting ahead.\nSpaceX had jumped 30% on its first trading day;\nElon Musk had reportedly planned a smaller pop that way.",
+            "Bankers like pops: buyers get profit at once,\nthen may return when another big offering comes.\nBut Bill Gurley objects, “That gift isn’t free!”\nThe missing money could have gone to the company.",
+            "And here was the puzzle, peculiar and funny:\nThe wager said buyers already knew the likely money.\nIf $1.8 trillion was visible before trading could start,\nwhy sell for 20% less—and call that the cautious part?",
+            "What happened? Hyperliquid’s perpetual futures valued Anthropic around $1.8 trillion, while institutional investors suggested an IPO valuation of $1.5 trillion to $1.6 trillion so the shares might enjoy a roughly 20% first-day pop. The contracts were bets rather than claims on Anthropic stock, but if their prediction was accurate, the discount would transfer value from Anthropic and its existing shareholders to selected IPO buyers."
+          ]
+        },
+        "middle": {
+          "title": "Anthropic and the Twenty-Percent Pop",
+          "lesson": "When pre-IPO perpetual futures reveal an expected market price, giving IPO buyers a traditional 20% discount may reward them for risk that the prediction market has already reduced.",
+          "paragraphs": [
+            "Before Anthropic’s shares could trade in an IPO,\nHyperliquid’s pre-IPO wagers were already on show.\nA perpetual future is a bet on a price;\nit grants no actual shares, though its guesses can be precise.",
+            "The crowd valued Anthropic near $1.8 trillion,\nwhile investors proposed $1.5 to $1.6 trillion.\nThey trusted chief financial officer Krishna Rao\nto price it below what the market predicted right now.",
+            "“It might reach $2 trillion by day’s end!” they said.\nThat first-day leap is a “pop” shooting ahead.\nSpaceX had jumped 30% on its first trading day;\nElon Musk had reportedly planned a smaller pop that way.",
+            "Bankers like pops: buyers get profit at once,\nthen may return when another big offering comes.\nBut Bill Gurley objects, “That gift isn’t free!”\nThe missing money could have gone to the company.",
+            "And here was the puzzle, peculiar and funny:\nThe wager said buyers already knew the likely money.\nIf $1.8 trillion was visible before trading could start,\nwhy sell for 20% less—and call that the cautious part?",
+            "What happened? Hyperliquid’s perpetual futures valued Anthropic around $1.8 trillion, while institutional investors suggested an IPO valuation of $1.5 trillion to $1.6 trillion so the shares might enjoy a roughly 20% first-day pop. The contracts were bets rather than claims on Anthropic stock, but if their prediction was accurate, the discount would transfer value from Anthropic and its existing shareholders to selected IPO buyers."
+          ]
+        },
+        "high": {
+          "title": "Anthropic and the Twenty-Percent Pop",
+          "lesson": "When pre-IPO perpetual futures reveal an expected market price, giving IPO buyers a traditional 20% discount may reward them for risk that the prediction market has already reduced.",
+          "paragraphs": [
+            "Before Anthropic’s shares could trade in an IPO,\nHyperliquid’s pre-IPO wagers were already on show.\nA perpetual future is a bet on a price;\nit grants no actual shares, though its guesses can be precise.",
+            "The crowd valued Anthropic near $1.8 trillion,\nwhile investors proposed $1.5 to $1.6 trillion.\nThey trusted chief financial officer Krishna Rao\nto price it below what the market predicted right now.",
+            "“It might reach $2 trillion by day’s end!” they said.\nThat first-day leap is a “pop” shooting ahead.\nSpaceX had jumped 30% on its first trading day;\nElon Musk had reportedly planned a smaller pop that way.",
+            "Bankers like pops: buyers get profit at once,\nthen may return when another big offering comes.\nBut Bill Gurley objects, “That gift isn’t free!”\nThe missing money could have gone to the company.",
+            "And here was the puzzle, peculiar and funny:\nThe wager said buyers already knew the likely money.\nIf $1.8 trillion was visible before trading could start,\nwhy sell for 20% less—and call that the cautious part?",
+            "What happened? Hyperliquid’s perpetual futures valued Anthropic around $1.8 trillion, while institutional investors suggested an IPO valuation of $1.5 trillion to $1.6 trillion so the shares might enjoy a roughly 20% first-day pop. The contracts were bets rather than claims on Anthropic stock, but if their prediction was accurate, the discount would transfer value from Anthropic and its existing shareholders to selected IPO buyers."
+          ]
+        }
+      }
+    },
+    {
+      "id": "long-term-ism",
+      "sourceSection": "Long-term-ism",
+      "illustration": {
+        "src": "/images/2026-11-03-how-much-should-anthropic-pop/long-term-ism.png",
+        "alt": "Max Stone leads a D.E. Shaw & Co. management meeting beside an old report showing the firm’s roughly 30% loss."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Max Stone",
+          "John Arnold",
+          "Nishant Kumar"
+        ],
+        "realCompanies": [
+          "D.E. Shaw & Co.",
+          "Bloomberg"
+        ],
+        "financialMechanism": "A multistrategy hedge fund evaluates whether traders’ results come from persistent skill or temporary luck, and may retain or promote a losing trader if it expects that trader’s process to produce future returns.",
+        "centralJoke": "A hedge fund promoted an executive despite his overall losses—the opposite of what one might expect—because it believed his skill would eventually show up."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Trader Who Stayed",
+          "lesson": "D.E. Shaw & Co. tried to separate repeatable investing skill from short-term luck, sometimes retaining or promoting traders despite losses when leaders believed their judgment would succeed over time.",
+          "paragraphs": [
+            "At D.E. Shaw & Co., where trading plans grew,\nthe bosses asked, “Was that luck—or skill showing through?”\nA winner can sparkle because fortune was kind;\na sound thinker can lose when the markets unwind.",
+            "Max Stone, barely thirty, took risks far too wide.\nThen markets turned sharply, and losses arrived.\nThe firm fell roughly thirty percent in the slide;\nStone thought he’d be fired—and called that justified.",
+            "“I nearly destroyed it,” he later confessed.\nYet D.E. Shaw & Co. judged more than one test.\nStone learned and rose onward; now, first among peers,\nhe helps lead the firm after weathering those years.",
+            "John Arnold said one past blowup could be best:\none dose of disaster, then skill put to test.\nOne executive even was moved up a rung,\nthough, all told, his losses outweighed what he’d won.",
+            "“You’ve lost money—promotion!” sounds wonderfully strange,\nbut the firm bet that skill would outlast market change.\nNishant Kumar reported the long wager paid:\nassets topped $100 billion; major rivals were outpaced.",
+            "What happened? Max Stone remained at D.E. Shaw & Co. and eventually became a leading executive after taking risks that contributed to a roughly 30% loss. The firm sometimes promoted people with losing records because it believed their repeatable skill mattered more than short-term results."
+          ]
+        },
+        "elementary": {
+          "title": "The Trader Who Stayed",
+          "lesson": "D.E. Shaw & Co. tried to separate repeatable investing skill from short-term luck, sometimes retaining or promoting traders despite losses when leaders believed their judgment would succeed over time.",
+          "paragraphs": [
+            "At D.E. Shaw & Co., where trading plans grew,\nthe bosses asked, “Was that luck—or skill showing through?”\nA winner can sparkle because fortune was kind;\na sound thinker can lose when the markets unwind.",
+            "Max Stone, barely thirty, took risks far too wide.\nThen markets turned sharply, and losses arrived.\nThe firm fell roughly thirty percent in the slide;\nStone thought he’d be fired—and called that justified.",
+            "“I nearly destroyed it,” he later confessed.\nYet D.E. Shaw & Co. judged more than one test.\nStone learned and rose onward; now, first among peers,\nhe helps lead the firm after weathering those years.",
+            "John Arnold said one past blowup could be best:\none dose of disaster, then skill put to test.\nOne executive even was moved up a rung,\nthough, all told, his losses outweighed what he’d won.",
+            "“You’ve lost money—promotion!” sounds wonderfully strange,\nbut the firm bet that skill would outlast market change.\nNishant Kumar reported the long wager paid:\nassets topped $100 billion; major rivals were outpaced.",
+            "What happened? Max Stone remained at D.E. Shaw & Co. and eventually became a leading executive after taking risks that contributed to a roughly 30% loss. The firm sometimes promoted people with losing records because it believed their repeatable skill mattered more than short-term results."
+          ]
+        },
+        "middle": {
+          "title": "The Trader Who Stayed",
+          "lesson": "D.E. Shaw & Co. tried to separate repeatable investing skill from short-term luck, sometimes retaining or promoting traders despite losses when leaders believed their judgment would succeed over time.",
+          "paragraphs": [
+            "At D.E. Shaw & Co., where trading plans grew,\nthe bosses asked, “Was that luck—or skill showing through?”\nA winner can sparkle because fortune was kind;\na sound thinker can lose when the markets unwind.",
+            "Max Stone, barely thirty, took risks far too wide.\nThen markets turned sharply, and losses arrived.\nThe firm fell roughly thirty percent in the slide;\nStone thought he’d be fired—and called that justified.",
+            "“I nearly destroyed it,” he later confessed.\nYet D.E. Shaw & Co. judged more than one test.\nStone learned and rose onward; now, first among peers,\nhe helps lead the firm after weathering those years.",
+            "John Arnold said one past blowup could be best:\none dose of disaster, then skill put to test.\nOne executive even was moved up a rung,\nthough, all told, his losses outweighed what he’d won.",
+            "“You’ve lost money—promotion!” sounds wonderfully strange,\nbut the firm bet that skill would outlast market change.\nNishant Kumar reported the long wager paid:\nassets topped $100 billion; major rivals were outpaced.",
+            "What happened? Max Stone remained at D.E. Shaw & Co. and eventually became a leading executive after taking risks that contributed to a roughly 30% loss. The firm sometimes promoted people with losing records because it believed their repeatable skill mattered more than short-term results."
+          ]
+        },
+        "high": {
+          "title": "The Trader Who Stayed",
+          "lesson": "D.E. Shaw & Co. tried to separate repeatable investing skill from short-term luck, sometimes retaining or promoting traders despite losses when leaders believed their judgment would succeed over time.",
+          "paragraphs": [
+            "At D.E. Shaw & Co., where trading plans grew,\nthe bosses asked, “Was that luck—or skill showing through?”\nA winner can sparkle because fortune was kind;\na sound thinker can lose when the markets unwind.",
+            "Max Stone, barely thirty, took risks far too wide.\nThen markets turned sharply, and losses arrived.\nThe firm fell roughly thirty percent in the slide;\nStone thought he’d be fired—and called that justified.",
+            "“I nearly destroyed it,” he later confessed.\nYet D.E. Shaw & Co. judged more than one test.\nStone learned and rose onward; now, first among peers,\nhe helps lead the firm after weathering those years.",
+            "John Arnold said one past blowup could be best:\none dose of disaster, then skill put to test.\nOne executive even was moved up a rung,\nthough, all told, his losses outweighed what he’d won.",
+            "“You’ve lost money—promotion!” sounds wonderfully strange,\nbut the firm bet that skill would outlast market change.\nNishant Kumar reported the long wager paid:\nassets topped $100 billion; major rivals were outpaced.",
+            "What happened? Max Stone remained at D.E. Shaw & Co. and eventually became a leading executive after taking risks that contributed to a roughly 30% loss. The firm sometimes promoted people with losing records because it believed their repeatable skill mattered more than short-term results."
+          ]
+        }
+      }
+    },
+    {
+      "id": "fake-job-interview",
+      "sourceSection": "Fake job interview",
+      "illustration": {
+        "src": "/images/2026-11-03-how-much-should-anthropic-pop/fake-job-interview.png",
+        "alt": "A Binance engineer opens a fake coding assignment as malicious code spreads from the computer toward the exchange’s cryptocurrency holdings while distant impostor interviewers watch."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Richard Teng"
+        ],
+        "realCompanies": [
+          "Binance Holdings Ltd.",
+          "Bloomberg"
+        ],
+        "financialMechanism": "Social engineering through a fake job interview induced a Binance engineer to download a coding assignment containing malware. The compromised device enabled unauthorized activity as part of a months-long campaign tied to a $6.3 billion cryptocurrency heist.",
+        "centralJoke": "A crypto exchange might reasonably test engineers by secretly making its own coding assignment a harmless virus, because refusing dangerous downloads may matter more than coding skill; meanwhile, interviewing elsewhere becomes a double-firing offense when the fake interview also costs the current employer $6.3 billion."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Interview That Stole Billions",
+          "lesson": "A fake recruiter persuaded a Binance engineer to download malware disguised as a coding assignment, compromising the device and helping enable a $6.3 billion cryptocurrency heist.",
+          "paragraphs": [
+            "At Binance, an engineer got a career note:\n“A project director likes the code that you wrote.”\nA “CEO” met them through a social-chat call,\nBut the company behind it was not real at all.",
+            "“Download this assignment; show what you know.”\nIt looked like developer tools, all ready to go.\nBut the code repository—a folder for code—\nHeld malware that opened a dangerous road.",
+            "The software took hold of the engineer’s machine,\nThen unauthorized actions began behind the screen.\nBinance blamed North Korea for the $6.3 billion theft;\nThe months-long campaign left compromised devices in its wake.",
+            "Richard Teng said it was not one mistake:\nFake interviews, malware, and AI helped the break.\nThe attackers used trust as the key to get through—\nOne careless download gave their campaign more to do.",
+            "A legitimate exchange might turn this around:\nGive job candidates malware and see who’s safe and sound.\nThe virus could chirp, “You have failed. Now goodbye!”\nThen hand back the computer, unharmed and still dry.",
+            "Even a writer at Bloomberg, loyal as can be,\nSays workers may check what their market pay should be.\nBut add a $6.3 billion break-in to it:\nThat’s a double-firing offense—yes, that ought to do it.",
+            "What happened? Binance said hackers used fake recruiters and a fictitious company to persuade an engineer to download a malicious code repository, helping enable a $6.3 billion heist. Binance attributed the multi-month campaign to North Korea, and Richard Teng said it combined fake interviews, malware, compromised devices, and AI techniques."
+          ]
+        },
+        "elementary": {
+          "title": "The Interview That Stole Billions",
+          "lesson": "A fake recruiter persuaded a Binance engineer to download malware disguised as a coding assignment, compromising the device and helping enable a $6.3 billion cryptocurrency heist.",
+          "paragraphs": [
+            "At Binance, an engineer got a career note:\n“A project director likes the code that you wrote.”\nA “CEO” met them through a social-chat call,\nBut the company behind it was not real at all.",
+            "“Download this assignment; show what you know.”\nIt looked like developer tools, all ready to go.\nBut the code repository—a folder for code—\nHeld malware that opened a dangerous road.",
+            "The software took hold of the engineer’s machine,\nThen unauthorized actions began behind the screen.\nBinance blamed North Korea for the $6.3 billion theft;\nThe months-long campaign left compromised devices in its wake.",
+            "Richard Teng said it was not one mistake:\nFake interviews, malware, and AI helped the break.\nThe attackers used trust as the key to get through—\nOne careless download gave their campaign more to do.",
+            "A legitimate exchange might turn this around:\nGive job candidates malware and see who’s safe and sound.\nThe virus could chirp, “You have failed. Now goodbye!”\nThen hand back the computer, unharmed and still dry.",
+            "Even a writer at Bloomberg, loyal as can be,\nSays workers may check what their market pay should be.\nBut add a $6.3 billion break-in to it:\nThat’s a double-firing offense—yes, that ought to do it.",
+            "What happened? Binance said hackers used fake recruiters and a fictitious company to persuade an engineer to download a malicious code repository, helping enable a $6.3 billion heist. Binance attributed the multi-month campaign to North Korea, and Richard Teng said it combined fake interviews, malware, compromised devices, and AI techniques."
+          ]
+        },
+        "middle": {
+          "title": "The Interview That Stole Billions",
+          "lesson": "A fake recruiter persuaded a Binance engineer to download malware disguised as a coding assignment, compromising the device and helping enable a $6.3 billion cryptocurrency heist.",
+          "paragraphs": [
+            "At Binance, an engineer got a career note:\n“A project director likes the code that you wrote.”\nA “CEO” met them through a social-chat call,\nBut the company behind it was not real at all.",
+            "“Download this assignment; show what you know.”\nIt looked like developer tools, all ready to go.\nBut the code repository—a folder for code—\nHeld malware that opened a dangerous road.",
+            "The software took hold of the engineer’s machine,\nThen unauthorized actions began behind the screen.\nBinance blamed North Korea for the $6.3 billion theft;\nThe months-long campaign left compromised devices in its wake.",
+            "Richard Teng said it was not one mistake:\nFake interviews, malware, and AI helped the break.\nThe attackers used trust as the key to get through—\nOne careless download gave their campaign more to do.",
+            "A legitimate exchange might turn this around:\nGive job candidates malware and see who’s safe and sound.\nThe virus could chirp, “You have failed. Now goodbye!”\nThen hand back the computer, unharmed and still dry.",
+            "Even a writer at Bloomberg, loyal as can be,\nSays workers may check what their market pay should be.\nBut add a $6.3 billion break-in to it:\nThat’s a double-firing offense—yes, that ought to do it.",
+            "What happened? Binance said hackers used fake recruiters and a fictitious company to persuade an engineer to download a malicious code repository, helping enable a $6.3 billion heist. Binance attributed the multi-month campaign to North Korea, and Richard Teng said it combined fake interviews, malware, compromised devices, and AI techniques."
+          ]
+        },
+        "high": {
+          "title": "The Interview That Stole Billions",
+          "lesson": "A fake recruiter persuaded a Binance engineer to download malware disguised as a coding assignment, compromising the device and helping enable a $6.3 billion cryptocurrency heist.",
+          "paragraphs": [
+            "At Binance, an engineer got a career note:\n“A project director likes the code that you wrote.”\nA “CEO” met them through a social-chat call,\nBut the company behind it was not real at all.",
+            "“Download this assignment; show what you know.”\nIt looked like developer tools, all ready to go.\nBut the code repository—a folder for code—\nHeld malware that opened a dangerous road.",
+            "The software took hold of the engineer’s machine,\nThen unauthorized actions began behind the screen.\nBinance blamed North Korea for the $6.3 billion theft;\nThe months-long campaign left compromised devices in its wake.",
+            "Richard Teng said it was not one mistake:\nFake interviews, malware, and AI helped the break.\nThe attackers used trust as the key to get through—\nOne careless download gave their campaign more to do.",
+            "A legitimate exchange might turn this around:\nGive job candidates malware and see who’s safe and sound.\nThe virus could chirp, “You have failed. Now goodbye!”\nThen hand back the computer, unharmed and still dry.",
+            "Even a writer at Bloomberg, loyal as can be,\nSays workers may check what their market pay should be.\nBut add a $6.3 billion break-in to it:\nThat’s a double-firing offense—yes, that ought to do it.",
+            "What happened? Binance said hackers used fake recruiters and a fictitious company to persuade an engineer to download a malicious code repository, helping enable a $6.3 billion heist. Binance attributed the multi-month campaign to North Korea, and Richard Teng said it combined fake interviews, malware, compromised devices, and AI techniques."
+          ]
+        }
+      }
+    }
+  ]
+}
