@@ -612,6 +612,18 @@
       "submitted": true,
       "updatedAt": "2026-11-02T23:55:10.931Z",
       "submittedAt": "2026-11-02T23:55:10.931Z"
+    },
+    "1a1a2e5943157c6f": {
+      "gmailMessageId": "1a1a2e5943157c6f",
+      "newsletterDate": "2026-11-03",
+      "newsletterTitle": "How Much Should Anthropic Pop?",
+      "editionId": "2026-11-03-how-much-should-anthropic-pop",
+      "sourceSha256": "4d8c213915f07b33dfe236c317ee8fffe9200a7d4d9f67c3bbb464bd91a11c89",
+      "packageSha256": "e6a8f4d8481048bd20d7b2ffadae24f3d2682511a97a757a174197fd0a96e87b",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-11-03T20:42:04.090Z",
+      "submittedAt": "2026-11-03T20:42:04.090Z"
     }
   }
 }
