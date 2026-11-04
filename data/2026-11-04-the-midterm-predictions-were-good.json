@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 2,
+  "id": "2026-11-04-the-midterm-predictions-were-good",
+  "date": "2026-11-04",
+  "displayDate": "November 4, 2026",
+  "title": "The Midterm Predictions Were Good",
+  "sourceSections": [
+    "Good job Kalshi!",
+    "Quant code theft",
+    "Buying stock in college athletes",
+    "Things happen"
+  ],
+  "stories": [
+    {
+      "id": "good-job-kalshi",
+      "sourceSection": "Good job Kalshi!",
+      "illustration": {
+        "src": "/images/2026-11-04-the-midterm-predictions-were-good/good-job-kalshi.png",
+        "alt": "Joe Weisenthal watches Democratic odds jump after Indiana ballots arrive, while TV anchors hesitate and a sleepy election watcher closes a laptop showing Kalshi at 98%."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Nate Silver",
+          "Joe Weisenthal",
+          "Hannah Miller"
+        ],
+        "realCompanies": [
+          "Kalshi",
+          "Polymarket",
+          "Bloomberg",
+          "X",
+          "Threads",
+          "Bluesky",
+          "CNN",
+          "CBS News",
+          "Dow Jones",
+          "CNBC"
+        ],
+        "financialMechanism": "Traders buy election contracts when they think the market-implied probability is too low, pushing the price toward their estimate; viewers then use that price as a real-time probability forecast.",
+        "centralJoke": "Election gamblers rapidly combined scattered results into a free, useful answer that let everyone else go to bed—yet the zero-sum traders could not collectively earn money from providing that public service, so the platforms used election goodwill to promote everyday sports betting."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Market That Called Bedtime",
+          "lesson": "Prediction-market prices convert traders’ competing election bets into live implied probabilities, giving non-traders useful information even though the trading itself is zero-sum before fees.",
+          "paragraphs": [
+            "When polls closed, X, Threads, and Bluesky all cried,\n“Watch XY-23! Which party has the tide?”\nTV called races with scarcely a vote,\nwhile experts weighed every county and quote.\nNate Silver could study each number with care,\nbut one sleepy watcher wanted answers right there.",
+            "So Kalshi and Polymarket gathered a crowd:\nanalysts, sharps, and gamblers thinking aloud.\nA contract paid if Democrats captured the Senate;\nits trading price showed the crowd’s best odds within it.\nWhen markets said seventy-five, but traders thought eighty-five,\nthey bought—and pushed the quoted chance higher with every new bid.",
+            "At six-thirty, Indiana’s first ballots rolled in;\nJoe Weisenthal watched Democratic odds leap toward a win.\nThe television anchors still cautiously waited;\nthe markets said a blowout was already indicated.\nBy eight-thirty, Kalshi showed ninety-eight percent.\nThe watcher closed the laptop, sleepy and content.",
+            "Kalshi said candidates favored at five won ninety-eight percent\nof resolved races—a striking result from the signals traders sent.\nIts midterm markets traded $2.5 billion in all,\nrewarding whoever could read each early ballot call.\nYet trading is zero-sum: one winner’s gain is another’s loss,\nand fees can leave the whole crowd paying the cost.",
+            "Hannah Miller found another twist in the spree:\nCNN, CBS News, Dow Jones, and CNBC made deals with prediction markets.\nThe markets paid newsrooms for placement on air,\nthough their useful odds were what viewers wanted there.\nThe answer was precious, yet watchers received it for free;\nelection goodwill could help sell sports bets daily.",
+            "What happened? Kalshi and Polymarket election contracts turned bets into live implied probabilities as traders reacted to incoming results. By 8:30, Kalshi put Democratic Senate control at 98%, letting free viewers benefit while traders redistributed money among themselves and paid fees."
+          ]
+        },
+        "elementary": {
+          "title": "The Market That Called Bedtime",
+          "lesson": "Prediction-market prices convert traders’ competing election bets into live implied probabilities, giving non-traders useful information even though the trading itself is zero-sum before fees.",
+          "paragraphs": [
+            "When polls closed, X, Threads, and Bluesky all cried,\n“Watch XY-23! Which party has the tide?”\nTV called races with scarcely a vote,\nwhile experts weighed every county and quote.\nNate Silver could study each number with care,\nbut one sleepy watcher wanted answers right there.",
+            "So Kalshi and Polymarket gathered a crowd:\nanalysts, sharps, and gamblers thinking aloud.\nA contract paid if Democrats captured the Senate;\nits trading price showed the crowd’s best odds within it.\nWhen markets said seventy-five, but traders thought eighty-five,\nthey bought—and pushed the quoted chance higher with every new bid.",
+            "At six-thirty, Indiana’s first ballots rolled in;\nJoe Weisenthal watched Democratic odds leap toward a win.\nThe television anchors still cautiously waited;\nthe markets said a blowout was already indicated.\nBy eight-thirty, Kalshi showed ninety-eight percent.\nThe watcher closed the laptop, sleepy and content.",
+            "Kalshi said candidates favored at five won ninety-eight percent\nof resolved races—a striking result from the signals traders sent.\nIts midterm markets traded $2.5 billion in all,\nrewarding whoever could read each early ballot call.\nYet trading is zero-sum: one winner’s gain is another’s loss,\nand fees can leave the whole crowd paying the cost.",
+            "Hannah Miller found another twist in the spree:\nCNN, CBS News, Dow Jones, and CNBC made deals with prediction markets.\nThe markets paid newsrooms for placement on air,\nthough their useful odds were what viewers wanted there.\nThe answer was precious, yet watchers received it for free;\nelection goodwill could help sell sports bets daily.",
+            "What happened? Kalshi and Polymarket election contracts turned bets into live implied probabilities as traders reacted to incoming results. By 8:30, Kalshi put Democratic Senate control at 98%, letting free viewers benefit while traders redistributed money among themselves and paid fees."
+          ]
+        },
+        "middle": {
+          "title": "The Market That Called Bedtime",
+          "lesson": "Prediction-market prices convert traders’ competing election bets into live implied probabilities, giving non-traders useful information even though the trading itself is zero-sum before fees.",
+          "paragraphs": [
+            "When polls closed, X, Threads, and Bluesky all cried,\n“Watch XY-23! Which party has the tide?”\nTV called races with scarcely a vote,\nwhile experts weighed every county and quote.\nNate Silver could study each number with care,\nbut one sleepy watcher wanted answers right there.",
+            "So Kalshi and Polymarket gathered a crowd:\nanalysts, sharps, and gamblers thinking aloud.\nA contract paid if Democrats captured the Senate;\nits trading price showed the crowd’s best odds within it.\nWhen markets said seventy-five, but traders thought eighty-five,\nthey bought—and pushed the quoted chance higher with every new bid.",
+            "At six-thirty, Indiana’s first ballots rolled in;\nJoe Weisenthal watched Democratic odds leap toward a win.\nThe television anchors still cautiously waited;\nthe markets said a blowout was already indicated.\nBy eight-thirty, Kalshi showed ninety-eight percent.\nThe watcher closed the laptop, sleepy and content.",
+            "Kalshi said candidates favored at five won ninety-eight percent\nof resolved races—a striking result from the signals traders sent.\nIts midterm markets traded $2.5 billion in all,\nrewarding whoever could read each early ballot call.\nYet trading is zero-sum: one winner’s gain is another’s loss,\nand fees can leave the whole crowd paying the cost.",
+            "Hannah Miller found another twist in the spree:\nCNN, CBS News, Dow Jones, and CNBC made deals with prediction markets.\nThe markets paid newsrooms for placement on air,\nthough their useful odds were what viewers wanted there.\nThe answer was precious, yet watchers received it for free;\nelection goodwill could help sell sports bets daily.",
+            "What happened? Kalshi and Polymarket election contracts turned bets into live implied probabilities as traders reacted to incoming results. By 8:30, Kalshi put Democratic Senate control at 98%, letting free viewers benefit while traders redistributed money among themselves and paid fees."
+          ]
+        },
+        "high": {
+          "title": "The Market That Called Bedtime",
+          "lesson": "Prediction-market prices convert traders’ competing election bets into live implied probabilities, giving non-traders useful information even though the trading itself is zero-sum before fees.",
+          "paragraphs": [
+            "When polls closed, X, Threads, and Bluesky all cried,\n“Watch XY-23! Which party has the tide?”\nTV called races with scarcely a vote,\nwhile experts weighed every county and quote.\nNate Silver could study each number with care,\nbut one sleepy watcher wanted answers right there.",
+            "So Kalshi and Polymarket gathered a crowd:\nanalysts, sharps, and gamblers thinking aloud.\nA contract paid if Democrats captured the Senate;\nits trading price showed the crowd’s best odds within it.\nWhen markets said seventy-five, but traders thought eighty-five,\nthey bought—and pushed the quoted chance higher with every new bid.",
+            "At six-thirty, Indiana’s first ballots rolled in;\nJoe Weisenthal watched Democratic odds leap toward a win.\nThe television anchors still cautiously waited;\nthe markets said a blowout was already indicated.\nBy eight-thirty, Kalshi showed ninety-eight percent.\nThe watcher closed the laptop, sleepy and content.",
+            "Kalshi said candidates favored at five won ninety-eight percent\nof resolved races—a striking result from the signals traders sent.\nIts midterm markets traded $2.5 billion in all,\nrewarding whoever could read each early ballot call.\nYet trading is zero-sum: one winner’s gain is another’s loss,\nand fees can leave the whole crowd paying the cost.",
+            "Hannah Miller found another twist in the spree:\nCNN, CBS News, Dow Jones, and CNBC made deals with prediction markets.\nThe markets paid newsrooms for placement on air,\nthough their useful odds were what viewers wanted there.\nThe answer was precious, yet watchers received it for free;\nelection goodwill could help sell sports bets daily.",
+            "What happened? Kalshi and Polymarket election contracts turned bets into live implied probabilities as traders reacted to incoming results. By 8:30, Kalshi put Democratic Senate control at 98%, letting free viewers benefit while traders redistributed money among themselves and paid fees."
+          ]
+        }
+      }
+    },
+    {
+      "id": "quant-code-theft",
+      "sourceSection": "Quant code theft",
+      "illustration": {
+        "src": "/images/2026-11-04-the-midterm-predictions-were-good/quant-code-theft.png",
+        "alt": "In a courtroom, lawyers protect a sealed Headlands code binder while loose code pages flutter near Richard Ho’s defense table and a tissue box."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Richard Ho",
+          "Mark Hendricks"
+        ],
+        "realCompanies": [
+          "Headlands Technologies LLC",
+          "Tower Research Capital"
+        ],
+        "financialMechanism": "The case concerns alleged theft of source code for quantitative trading algorithms, followed by alleged use of that code to establish a trading firm and induce Tower Research Capital to invest.",
+        "centralJoke": "Headlands treated the code as so secret that court proceedings might need to be closed, while the defense’s position made it sound as if the code were so ordinary that it could be printed, scattered around the courtroom, and used as tissues."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "The Code Too Secret to See",
+          "lesson": "Prosecutors allege Richard Ho copied Headlands Technologies’ trading-algorithm code and used it to obtain an investment from Tower Research Capital; his defense argues that the code used common, quickly aging trading ideas and was not an economically valuable trade secret.",
+          "paragraphs": [
+            "Headlands Technologies built trading code,\nInstructions that showed computers which market paths to road.\nThe firm said it cost about one billion to make,\nSo guarding each line was a very high stake.",
+            "Then Richard Ho left, and prosecutors alleged\nHe copied that code—and crossed a sharp edge.\nThey said matching comments appeared in his new creation,\nThen Tower Research Capital was induced to make an investment.",
+            "Ho pleaded not guilty. His lawyers replied,\n“These strategies age as the markets all glide.\nThey must be updated; the concepts are known.”\nMark Hendricks was expected to help make that case shown.",
+            "But Headlands said one curious eye\nCould share all its secrets with rivals nearby.\nSo doors could be closed when the code came in sight,\nThough public courtrooms are usually bright.",
+            "The two sides made secrecy look quite absurd:\n“Guard every symbol!” was Headlands’ worried word.\nThe defense view inspired a much sillier note:\n“Print it! Scatter it! Use it to blow your nose!”\nNo one actually did that—the joke showed the fight:\nWas this billion-dollar treasure, or common code in plain sight?",
+            "What happened? Richard Ho went on criminal trial after prosecutors alleged that he stole Headlands Technologies’ algorithmic-trading code and used it to defraud Tower Research Capital into investing with him. He pleaded not guilty, and his defense planned to argue that the code contained common trading concepts rather than valuable secrets."
+          ]
+        },
+        "elementary": {
+          "title": "The Code Too Secret to See",
+          "lesson": "Prosecutors allege Richard Ho copied Headlands Technologies’ trading-algorithm code and used it to obtain an investment from Tower Research Capital; his defense argues that the code used common, quickly aging trading ideas and was not an economically valuable trade secret.",
+          "paragraphs": [
+            "Headlands Technologies built trading code,\nInstructions that showed computers which market paths to road.\nThe firm said it cost about one billion to make,\nSo guarding each line was a very high stake.",
+            "Then Richard Ho left, and prosecutors alleged\nHe copied that code—and crossed a sharp edge.\nThey said matching comments appeared in his new creation,\nThen Tower Research Capital was induced to make an investment.",
+            "Ho pleaded not guilty. His lawyers replied,\n“These strategies age as the markets all glide.\nThey must be updated; the concepts are known.”\nMark Hendricks was expected to help make that case shown.",
+            "But Headlands said one curious eye\nCould share all its secrets with rivals nearby.\nSo doors could be closed when the code came in sight,\nThough public courtrooms are usually bright.",
+            "The two sides made secrecy look quite absurd:\n“Guard every symbol!” was Headlands’ worried word.\nThe defense view inspired a much sillier note:\n“Print it! Scatter it! Use it to blow your nose!”\nNo one actually did that—the joke showed the fight:\nWas this billion-dollar treasure, or common code in plain sight?",
+            "What happened? Richard Ho went on criminal trial after prosecutors alleged that he stole Headlands Technologies’ algorithmic-trading code and used it to defraud Tower Research Capital into investing with him. He pleaded not guilty, and his defense planned to argue that the code contained common trading concepts rather than valuable secrets."
+          ]
+        },
+        "middle": {
+          "title": "The Code Too Secret to See",
+          "lesson": "Prosecutors allege Richard Ho copied Headlands Technologies’ trading-algorithm code and used it to obtain an investment from Tower Research Capital; his defense argues that the code used common, quickly aging trading ideas and was not an economically valuable trade secret.",
+          "paragraphs": [
+            "Headlands Technologies built trading code,\nInstructions that showed computers which market paths to road.\nThe firm said it cost about one billion to make,\nSo guarding each line was a very high stake.",
+            "Then Richard Ho left, and prosecutors alleged\nHe copied that code—and crossed a sharp edge.\nThey said matching comments appeared in his new creation,\nThen Tower Research Capital was induced to make an investment.",
+            "Ho pleaded not guilty. His lawyers replied,\n“These strategies age as the markets all glide.\nThey must be updated; the concepts are known.”\nMark Hendricks was expected to help make that case shown.",
+            "But Headlands said one curious eye\nCould share all its secrets with rivals nearby.\nSo doors could be closed when the code came in sight,\nThough public courtrooms are usually bright.",
+            "The two sides made secrecy look quite absurd:\n“Guard every symbol!” was Headlands’ worried word.\nThe defense view inspired a much sillier note:\n“Print it! Scatter it! Use it to blow your nose!”\nNo one actually did that—the joke showed the fight:\nWas this billion-dollar treasure, or common code in plain sight?",
+            "What happened? Richard Ho went on criminal trial after prosecutors alleged that he stole Headlands Technologies’ algorithmic-trading code and used it to defraud Tower Research Capital into investing with him. He pleaded not guilty, and his defense planned to argue that the code contained common trading concepts rather than valuable secrets."
+          ]
+        },
+        "high": {
+          "title": "The Code Too Secret to See",
+          "lesson": "Prosecutors allege Richard Ho copied Headlands Technologies’ trading-algorithm code and used it to obtain an investment from Tower Research Capital; his defense argues that the code used common, quickly aging trading ideas and was not an economically valuable trade secret.",
+          "paragraphs": [
+            "Headlands Technologies built trading code,\nInstructions that showed computers which market paths to road.\nThe firm said it cost about one billion to make,\nSo guarding each line was a very high stake.",
+            "Then Richard Ho left, and prosecutors alleged\nHe copied that code—and crossed a sharp edge.\nThey said matching comments appeared in his new creation,\nThen Tower Research Capital was induced to make an investment.",
+            "Ho pleaded not guilty. His lawyers replied,\n“These strategies age as the markets all glide.\nThey must be updated; the concepts are known.”\nMark Hendricks was expected to help make that case shown.",
+            "But Headlands said one curious eye\nCould share all its secrets with rivals nearby.\nSo doors could be closed when the code came in sight,\nThough public courtrooms are usually bright.",
+            "The two sides made secrecy look quite absurd:\n“Guard every symbol!” was Headlands’ worried word.\nThe defense view inspired a much sillier note:\n“Print it! Scatter it! Use it to blow your nose!”\nNo one actually did that—the joke showed the fight:\nWas this billion-dollar treasure, or common code in plain sight?",
+            "What happened? Richard Ho went on criminal trial after prosecutors alleged that he stole Headlands Technologies’ algorithmic-trading code and used it to defraud Tower Research Capital into investing with him. He pleaded not guilty, and his defense planned to argue that the code contained common trading concepts rather than valuable secrets."
+          ]
+        }
+      }
+    },
+    {
+      "id": "buying-stock-in-college-athletes",
+      "sourceSection": "Buying stock in college athletes",
+      "illustration": {
+        "src": "/images/2026-11-04-the-midterm-predictions-were-good/buying-stock-in-college-athletes.png",
+        "alt": "A college football player receives an upfront LevelUp Sports payment while part of the player’s NIL and college revenue-share stream leads to Republic investors beside a collectible digital card."
+      },
+      "elementaryChecklist": {
+        "realPeople": [
+          "Bud Elliott",
+          "Andrew Durgee"
+        ],
+        "realCompanies": [
+          "LevelUp Sports",
+          "Republic"
+        ],
+        "financialMechanism": "LevelUp Sports gives a college athlete capital upfront for an agreed share of specified future college NIL and revenue-sharing income; Republic plans to offer individual investors securities linked to those income-sharing agreements, paired with collectible digital cards.",
+        "centralJoke": "The long-imagined idea of letting athletes sell stock-like claims on themselves is arriving just when top college athletes already receive large NIL payments, making an advance against that income seem much less urgent."
+      },
+      "adaptations": {
+        "preschool": {
+          "title": "A Share of the Star",
+          "lesson": "LevelUp Sports plans to give athletes money upfront in return for a share of specified future college NIL and revenue-sharing income, with Republic offering linked securities to individual investors.",
+          "paragraphs": [
+            "Bud Elliott watched the college football scene,\nThen LevelUp Sports announced a plan for the green:\nThrough Republic, investors might purchase a share\nOf certain college earnings an athlete would spare.",
+            "The athlete gets capital—money today—\nThen part of their future college pay flows away.\nThat pay may mean NIL deals for a name or a face,\nOr college revenue-sharing earned in that place.",
+            "Pro-league earnings are not in the pot;\nW-2 wages and living-cost payments are not.\nEach planned investment, or “security,” would be paired\nWith a collectible digital card that could be shared.",
+            "Republic co-CEO Andrew Durgee said\nAthletes create value as college stars spread.\nNew rules made athlete pay easier to do,\nWhile securities and sports betting grew more open too.",
+            "It sounds like the dorm-room idea that won’t stop:\n“What if a person could sell their own stock?”\nBut now top college players may earn millions outright—\nThe future-pay problem has partly taken flight.",
+            "At two million dollars a year for four years,\nTen percent totals eight hundred thousand, it appears.\nAn advance of that size might still be okay—\nBut why rush for cash when you’re well paid today?",
+            "What happened? LevelUp Sports announced possible Republic offerings through which investors could fund athletes upfront in exchange for shares of specified future college NIL and revenue-sharing income. The odd timing is that leading college athletes can already earn millions now, while professional, W-2, and cost-of-living income would be excluded."
+          ]
+        },
+        "elementary": {
+          "title": "A Share of the Star",
+          "lesson": "LevelUp Sports plans to give athletes money upfront in return for a share of specified future college NIL and revenue-sharing income, with Republic offering linked securities to individual investors.",
+          "paragraphs": [
+            "Bud Elliott watched the college football scene,\nThen LevelUp Sports announced a plan for the green:\nThrough Republic, investors might purchase a share\nOf certain college earnings an athlete would spare.",
+            "The athlete gets capital—money today—\nThen part of their future college pay flows away.\nThat pay may mean NIL deals for a name or a face,\nOr college revenue-sharing earned in that place.",
+            "Pro-league earnings are not in the pot;\nW-2 wages and living-cost payments are not.\nEach planned investment, or “security,” would be paired\nWith a collectible digital card that could be shared.",
+            "Republic co-CEO Andrew Durgee said\nAthletes create value as college stars spread.\nNew rules made athlete pay easier to do,\nWhile securities and sports betting grew more open too.",
+            "It sounds like the dorm-room idea that won’t stop:\n“What if a person could sell their own stock?”\nBut now top college players may earn millions outright—\nThe future-pay problem has partly taken flight.",
+            "At two million dollars a year for four years,\nTen percent totals eight hundred thousand, it appears.\nAn advance of that size might still be okay—\nBut why rush for cash when you’re well paid today?",
+            "What happened? LevelUp Sports announced possible Republic offerings through which investors could fund athletes upfront in exchange for shares of specified future college NIL and revenue-sharing income. The odd timing is that leading college athletes can already earn millions now, while professional, W-2, and cost-of-living income would be excluded."
+          ]
+        },
+        "middle": {
+          "title": "A Share of the Star",
+          "lesson": "LevelUp Sports plans to give athletes money upfront in return for a share of specified future college NIL and revenue-sharing income, with Republic offering linked securities to individual investors.",
+          "paragraphs": [
+            "Bud Elliott watched the college football scene,\nThen LevelUp Sports announced a plan for the green:\nThrough Republic, investors might purchase a share\nOf certain college earnings an athlete would spare.",
+            "The athlete gets capital—money today—\nThen part of their future college pay flows away.\nThat pay may mean NIL deals for a name or a face,\nOr college revenue-sharing earned in that place.",
+            "Pro-league earnings are not in the pot;\nW-2 wages and living-cost payments are not.\nEach planned investment, or “security,” would be paired\nWith a collectible digital card that could be shared.",
+            "Republic co-CEO Andrew Durgee said\nAthletes create value as college stars spread.\nNew rules made athlete pay easier to do,\nWhile securities and sports betting grew more open too.",
+            "It sounds like the dorm-room idea that won’t stop:\n“What if a person could sell their own stock?”\nBut now top college players may earn millions outright—\nThe future-pay problem has partly taken flight.",
+            "At two million dollars a year for four years,\nTen percent totals eight hundred thousand, it appears.\nAn advance of that size might still be okay—\nBut why rush for cash when you’re well paid today?",
+            "What happened? LevelUp Sports announced possible Republic offerings through which investors could fund athletes upfront in exchange for shares of specified future college NIL and revenue-sharing income. The odd timing is that leading college athletes can already earn millions now, while professional, W-2, and cost-of-living income would be excluded."
+          ]
+        },
+        "high": {
+          "title": "A Share of the Star",
+          "lesson": "LevelUp Sports plans to give athletes money upfront in return for a share of specified future college NIL and revenue-sharing income, with Republic offering linked securities to individual investors.",
+          "paragraphs": [
+            "Bud Elliott watched the college football scene,\nThen LevelUp Sports announced a plan for the green:\nThrough Republic, investors might purchase a share\nOf certain college earnings an athlete would spare.",
+            "The athlete gets capital—money today—\nThen part of their future college pay flows away.\nThat pay may mean NIL deals for a name or a face,\nOr college revenue-sharing earned in that place.",
+            "Pro-league earnings are not in the pot;\nW-2 wages and living-cost payments are not.\nEach planned investment, or “security,” would be paired\nWith a collectible digital card that could be shared.",
+            "Republic co-CEO Andrew Durgee said\nAthletes create value as college stars spread.\nNew rules made athlete pay easier to do,\nWhile securities and sports betting grew more open too.",
+            "It sounds like the dorm-room idea that won’t stop:\n“What if a person could sell their own stock?”\nBut now top college players may earn millions outright—\nThe future-pay problem has partly taken flight.",
+            "At two million dollars a year for four years,\nTen percent totals eight hundred thousand, it appears.\nAn advance of that size might still be okay—\nBut why rush for cash when you’re well paid today?",
+            "What happened? LevelUp Sports announced possible Republic offerings through which investors could fund athletes upfront in exchange for shares of specified future college NIL and revenue-sharing income. The odd timing is that leading college athletes can already earn millions now, while professional, W-2, and cost-of-living income would be excluded."
+          ]
+        }
+      }
+    }
+  ]
+}
