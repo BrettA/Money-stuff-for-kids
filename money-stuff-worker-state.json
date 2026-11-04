@@ -624,6 +624,18 @@
       "submitted": true,
       "updatedAt": "2026-11-03T20:42:04.090Z",
       "submittedAt": "2026-11-03T20:42:04.090Z"
+    },
+    "1a1a7ea489f576af": {
+      "gmailMessageId": "1a1a7ea489f576af",
+      "newsletterDate": "2026-11-04",
+      "newsletterTitle": "The Midterm Predictions Were Good",
+      "editionId": "2026-11-04-the-midterm-predictions-were-good",
+      "sourceSha256": "fe42afacbd321f73b0ca7f35346e93e5be4167508139acaef3ea3bf824a31706",
+      "packageSha256": "6ec8f57aa354231d7feeb5e8f62eeb61399432648041ee1ce2fffb1e06646516",
+      "status": "submitted",
+      "submitted": true,
+      "updatedAt": "2026-11-04T21:34:47.519Z",
+      "submittedAt": "2026-11-04T21:34:47.519Z"
     }
   }
 }
